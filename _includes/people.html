@@ -1,0 +1,162 @@
+<!-- people.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <div class="people-container">
+      {% assign grouped_people = site.data.people | group_by: "category" %}
+      
+      {% for group in grouped_people %}
+        {% if group.name != "" %}
+          <h2 class="category-title">{{ group.name }}</h2>
+        {% endif %}
+        
+        {% for person in group.items %}
+        <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+          {% if person.image %}
+            <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                 src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
+                 alt="{{ person.name }}">
+          {% endif %}
+          <div class="profile-info">
+            <h4>{{ person.name }}</h4>
+            <p class="position">{{ person.position }}</p>
+            {% if person.email %}
+            <p class="email"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+            {% endif %}
+            {% if person.website %}
+            <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+            {% endif %}
+            {% if person.interests %}
+            <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+            {% endif %}
+            {% if person.description %}
+            <p class="description">{{ person.description }}</p>
+            {% endif %}
+            {% if person.more_info %}
+            <div class="more-info">
+              {{ person.more_info }}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        {% endfor %}
+      {% endfor %}
+      
+      <!-- If no grouping, display all people -->
+      {% if grouped_people.size == 0 %}
+        {% for person in site.data.people %}
+        <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+          {% if person.image %}
+            <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                 src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
+                 alt="{{ person.name }}">
+          {% endif %}
+          <div class="profile-info">
+            <h4>{{ person.name }}</h4>
+            <p class="position">{{ person.position }}</p>
+            {% if person.email %}
+            <p class="email"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+            {% endif %}
+            {% if person.website %}
+            <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+            {% endif %}
+            {% if person.interests %}
+            <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+            {% endif %}
+            {% if person.description %}
+            <p class="description">{{ person.description }}</p>
+            {% endif %}
+            {% if person.more_info %}
+            <div class="more-info">
+              {{ person.more_info }}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </article>
+</div>
+
+<style>
+  .people-container {
+    margin-top: 30px;
+  }
+  
+  .category-title {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    clear: both;
+  }
+  
+  .profile {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .float-left img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .float-right img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .profile-info {
+    overflow: hidden;
+  }
+  
+  .profile-info h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .email, .website, .interests {
+    margin: 5px 0;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .more-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  @media (max-width: 768px) {
+    .float-left img, .float-right img {
+      float: none;
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 200px;
+    }
+  }
+</style>
