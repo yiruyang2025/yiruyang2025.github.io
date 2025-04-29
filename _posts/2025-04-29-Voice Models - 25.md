@@ -18,6 +18,15 @@ Let's explore the current landscape of voice models, their applications, and rec
 
 ---
 
+
+
+#### 0. Model Traning
+
+- Pre-training with text
+  - [2023, Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
+  - [2024, Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
+  
+
 #### 1. Recent Academic Advances in Voice Modeling
 
 - [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
