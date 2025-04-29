@@ -26,6 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+- Hi there 👋! Welcome to my Study Camp, you can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
+
 - 📍Programming in Python, (C++), Ruby, Java (with the assistance of Ai tools)
 - Currently Studying - LLM, (DL / NLP / Generative Models / LLM / RL / Ai Agents) x Science
 
