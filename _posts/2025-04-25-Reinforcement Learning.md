@@ -15,14 +15,14 @@ images:
 Welcome！✨  
 
 
-#### 1. Projects for Coding in Reinforcement Learning
+### 1. Projects for Coding in Reinforcement Learning
 
 
 - GitHub Projects
   - [Economics PINN: Deep learning for solving and estimating dynamic macro-finance models, Yale, Lu Group](https://github.com/lu-group/pinn-macro-finance)
 
 
-#### 2. Deep Learning for Search and Matching Models
+### 2. Deep Learning for Search and Matching Models
 
 
 
