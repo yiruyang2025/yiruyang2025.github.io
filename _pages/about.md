@@ -26,20 +26,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-- Hi there 👋! Welcome to my Study Camp, you can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
+- Hi there 👋! Welcome to my Study Camp ✨! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 
-- 📍Programming in Python, (C++), Ruby, Java (with the assistance of Ai tools)
-- Currently Studying - LLM, (DL / NLP / Generative Models / LLM / RL / Ai Agents) x Science
+- 📍 Programming - Python, (C++), Ruby, Java
+
+- Currently Studying - LLM, ( DL / NLP / Generative Models / RL / Ai Agents ) x Science
 
 - Pls kindly teach if u are good at - NLP, RAG, CV
 
-- In the long run, would like to have some Contribution - #AI for Science - e.g. optical Experiments Simulation by Diffusion models / #AI products for disabled people - e.g. Voice assistants 
+- In the long run, would like to have some Contribution - #AI for Science - e.g. optical Experiments Simulation by Diffusion models, #AI products for disabled people - e.g. Voice assistants 
 
 - We live to cooperate, not to compete 🔭
 - One of my Faculty Alumni - https://en.wikipedia.org/wiki/Zhu_Min_(economist)
+
 - Always journey Ing🪐 enjoy reading Philosophy, Munger, Warren Buffett
 
-- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (always can learn a lot from them) from all different domains
+- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains!
 
-- 📍Creating is fun (as always) & Tech changes people’s lives (hopefully in a positive way), Cheers🥂
+- 📍 Creating is super cool (as always) & Tech changes people’s lives (*hopefully in a positive way)
+- Cheers🥂!
+
+
 
