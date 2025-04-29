@@ -17,13 +17,15 @@ Welcome！✨
 Here are my main takeaways:
 
 - Always cherish those 'Real' Moments in your life
-- Nothings more important than our own families and good friends
+- Nothing's more important than our own families and good friends
 - For everything else, just BE PATIENT :)
+- Also! Always remember to Connect Your Own Dots!!
 
 <!-- now insert an image below the list -->
 ![Beliefs are always important](/assets/img/family.jpg)
 
 - 🍀
+- 
 
 
 
