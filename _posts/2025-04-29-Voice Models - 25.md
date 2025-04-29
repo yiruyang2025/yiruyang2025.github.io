@@ -2,7 +2,7 @@
 layout: post
 title: Voice Models - 25
 date: 2025-04-29
-description: 🍇
+description: 🥥
 categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
