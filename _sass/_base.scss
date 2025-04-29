@@ -727,13 +727,14 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 6rem;
+    margin-top: 15rem;
+    margin-bottom: 6rem;
 
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
     text-align: center;
-    margin-top: 15em;
+    margin-top: 0;
     margin-bottom: 1em;
   }
 
