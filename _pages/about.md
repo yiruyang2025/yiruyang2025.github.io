@@ -28,7 +28,7 @@ latest_posts:
 
 - Hi there 👋, welcome to my Study Camp✨! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - 📍 Programming - Python, (C++), Ruby, Java
-- Currently Studying - Voice Models, Generative Models, RL, DL
+- Currently Studying - Voice Models, Generative Models x Science, DL
 - Pls kindly teach if u are good at - NLP, RAG, CV
 
 - In the long run, would like to have some Contribution - #AI for Science - e.g. optical Experiments Simulation by Diffusion models, #AI products for disabled people - e.g. Voice assistants 
