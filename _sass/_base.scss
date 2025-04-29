@@ -4,6 +4,33 @@
 
 // Typography
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.75rem;
+}
+
+h5 {
+  font-size: 0.5rem;
+}
+
+h6 {
+  font-size: 0.4rem;
+}
+
+
 p,
 h1,
 h2,
@@ -48,6 +75,7 @@ table.table a {
     width: 100%;
   }
 }
+
 
 .table-dark {
   background-color: transparent;
