@@ -18,7 +18,7 @@ Welcome ✨!
 Let's take a look at the history of Generative Models for Science.
 
 
-#### 1. References
+# 1. References
 
 <p style="margin-bottom:1em;"></p>
 <p style="margin-bottom:1em;"></p>
