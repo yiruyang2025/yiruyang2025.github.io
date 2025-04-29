@@ -29,6 +29,9 @@ Let's explore the current landscape of voice models, their applications, and rec
   - [Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
   
 
+- [Dialogue GSLM](https://arxiv.org/abs/2203.16502)
+
+
 #### 1. Recent Academic Advances in Voice Modeling
 
 - [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
