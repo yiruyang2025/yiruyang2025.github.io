@@ -33,7 +33,7 @@ latest_posts:
 
 - In the long run, would like to have some Contribution - #AI for Science - e.g. optical Experiments Simulation by Diffusion models, #AI products for disabled people - e.g. Voice assistants 
 
-- One of my Faculty Alumni - https://en.wikipedia.org/wiki/Zhu_Min_(economist)
+- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist))
 - 🪐 Enjoy reading Philosophy, Munger, Warren Buffett
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains!
