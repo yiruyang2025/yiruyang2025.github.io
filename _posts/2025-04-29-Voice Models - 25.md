@@ -20,6 +20,8 @@ Let's explore the current landscape of voice models, their applications, and rec
 
 #### 1. Recent Academic Advances in Voice Modeling
 
+- [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
+
 - **Empowering Global Voices**: A data-efficient, phoneme-tone adaptive approach to high-fidelity speech synthesis, enabling zero-shot voice cloning and improved performance across diverse applications. :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
 
 - **CarMem**: :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}
