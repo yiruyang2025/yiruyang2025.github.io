@@ -25,6 +25,8 @@ Let's explore the current landscape of voice models, their applications, and rec
 - Pre-training with text
   - [2023, Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
   - [2024, Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
+ 
+  - [Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
   
 
 #### 1. Recent Academic Advances in Voice Modeling
