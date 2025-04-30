@@ -62,14 +62,13 @@ Core Evolution of Voice Models:
 
 
 **3.1 Catastrophic Forgetting**
+- 2024 [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
+- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)
+- 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)<br><br><br><br>
 
-- 2024. [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
-- 2023. [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)
-- 2024. [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)<br><br><br><br>
 
-**Possible Solutions🪨 - Stone Age of AI**
-
-- 2018. [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
+**Possible Solutions🪨**
+- [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
 
 
 
@@ -80,7 +79,7 @@ Core Evolution of Voice Models:
 
 **3.3 Benchmarks**
 
-- 2024. [Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks
+- [Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks
 ](https://arxiv.org/abs/2411.05361)<br><br><br><br>
 
 
