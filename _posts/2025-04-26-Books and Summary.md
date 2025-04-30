@@ -12,21 +12,24 @@ images:
   venobox: true
 ---
 
-Pls discuss if any of these pique your interest!
+Hi there ✨！<br><br>
+Pls discuss if any of these pique your interest!<br><br><br><br>
 
-#### April 2025
+# 1. April 2025
 
-- [2025, Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
-- 
+**1.1** [2025, Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)<br><br><br><br>
 
 
-#### Check List
+
+
+
+# 2. Check List
 
 - [x] Brush Teeth
-- [ ] Put on socks
-  - [x] Put on left sock
-  - [ ] Put on right sock
-- [x] Go to school
+- [ ] Breakfast
+  - [x] Yogurt and Protein
+  - [ ] Ice-cream 🍧
+- [x] Go to school<br><br><br><br>
 
 
 
