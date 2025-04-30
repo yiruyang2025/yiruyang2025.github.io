@@ -1,7 +1,7 @@
 # This file contains the people data for the website
 
 Lab🇨🇭:
-  - name: xxx
+  - name: 
     # People in this group are listed below
     people:
       - name: 1
@@ -13,10 +13,10 @@ Lab🇨🇭:
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests.<br><br><br><br>
+        description: A brief personal description and research interests
 
 Friends and Alumni🌍:
-  - name: xxx
+  - name: 
     # People in this group are listed below
     people:
       - name: 1
@@ -28,7 +28,7 @@ Friends and Alumni🌍:
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests.<br><br><br><br>
+        description: A brief personal description and research interests
         
       - name: 2
         image: placeholder.png
@@ -39,7 +39,7 @@ Friends and Alumni🌍:
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests.<br><br><br><br>
+        description: A brief personal description and research interests
 
 
 
