@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voice Models for Disabled People - 25
+title: Voice Models - 25
 date: 2025-04-29
 description: 🥥
 categories: AI/ML
