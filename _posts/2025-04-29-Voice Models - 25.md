@@ -72,8 +72,20 @@ Core Evolution of Voice Models:
 **2.2 Challenges in the Post-Training**<br><br><br><br>
 
 
-# 3. ✨Possible Improvements to the Foundation Models📍<br><br><br><br>
 
+
+# 3. ✨Possible Improvements to the Foundation Models / During Fine-tuning📍<br><br><br><br>
+
+
+**3.1 Catastrophic Forgetting**
+
+- 2024. [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
+- 2023. [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)
+- 2024. [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
+
+**Possible Solutions🪨 - Stone Age of AI**
+
+- ✨2018. [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)
 
 
 # 4. Recent Technical Advances<br><br>
