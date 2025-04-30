@@ -23,7 +23,7 @@ Here are my main takeaways:
 
 - For everything else, just BE PATIENT :)
 
-- "The prepared mind sooner or later finds things important and does it" - [Richard Hamming](https://en.wikipedia.org/wiki/Richard_Hamming), Thus, "try to be well prepared at most times in your life" - my own best [Grandpa](https://baike.baidu.com/item/%E7%8E%8B%E5%B8%B8%E6%B5%A9/657595)
+- "The prepared mind sooner or later finds things important and does it" - [Richard Hamming](https://en.wikipedia.org/wiki/Richard_Hamming), Thus, "try to be well prepared at most times in your life" - my own best Grandpa
 
 
 
