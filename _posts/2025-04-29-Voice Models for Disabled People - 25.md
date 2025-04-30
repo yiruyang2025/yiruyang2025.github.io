@@ -16,18 +16,18 @@ Welcome ✨!
 
 Let's Start with Hearing Assistance<br><br><br><br>
 
-# 0. Let's have some taste of Background Knowledge First!:)<br><br>
+# 0. Background Knowledge<br><br>
 
 
 Voice models are AI systems that process or generate human speech.Core AI Techniques used are listed as below:
 
-| Technique                   | Purpose                                                              | Example Models                |
-|----------------------------|----------------------------------------------------------------------|-------------------------------|
-| **RNN / LSTM**             | Early sequence modeling in ASR & TTS                                 | DeepSpeech (2014), Tacotron 1 |
-| **CNNs**                   | Feature extraction from spectrograms                                | WaveGlow                      |
-| **Transformers**           | Parallel processing, great for long-range speech dependencies        | SpeechT5, Whisper, FastSpeech2|
-| **Diffusion Models**       | High-quality, controllable generation (recent TTS trend)              | Grad-TTS, FastDiff            |
-| **Self-supervised Pretraining** | Efficient training on large unlabeled datasets                     | wav2vec 2.0, HuBERT            |
+| Technique                   | Purpose                                                             |
+|----------------------------|----------------------------------------------------------------------|
+| **RNN / LSTM**             | Early sequence modeling in ASR & TTS                                 |
+| **CNNs**                   | Feature extraction from spectrograms                                 | 
+| **Transformers**           | Parallel processing, great for long-range speech dependencies        |
+| **Diffusion Models**       | High-quality, controllable generation (recent TTS trend)             |
+| **Self-supervised Pretraining** | Efficient training on large unlabeled datasets                  |
 
 <br><br><br><br>
 
