@@ -1,26 +1,35 @@
-# Principal Investigators
-- name: Your name
-image: prof_pic.jpg
-altimage: prof_pic.jpg
-position: Professor
-email: your-email@example.com
-website: https://yourwebsite.com
-interests: Machine learning, Artificial Intelligence, Data Science
-description: A brief personal description and research interests.
+# This file contains the people data for the website
 
-# Graduate Students
-- name: Graduate Student Name 1
-image: placeholder.png
-altimage: placeholder.png
-position: PhD Student
-email: student1@example.com
-interests: Deep Learning, Computer Vision
-description: A brief personal description.
+# Groups must have a name field
+groups:
+  # Principal Investigators group
+  - name: Principal Investigators
+    # People in this group are listed below
+    people:
+      - name: Your name
+        image: prof_pic.jpg
+        altimage: prof_pic.jpg
+        position: Professor
+        email: your-email@example.com
+        website: https://yourwebsite.com
+        interests: Machine learning, Artificial Intelligence, Data Science
+        description: A brief personal description and research interests.
 
-- name: Graduate Student Name 2
-image: placeholder.png
-altimage: placeholder.png
-position: Master Student
-email: student2@example.com
-interests: Natural Language Processing
-description: A brief personal description.
+  # Graduate Students group
+  - name: Graduate Students
+    people:
+      - name: Graduate Student Name 1
+        image: placeholder.png
+        altimage: placeholder.png
+        position: PhD Student
+        email: student1@example.com
+        interests: Deep Learning, Computer Vision
+        description: A brief personal description.
+        
+      - name: Graduate Student Name 2
+        image: placeholder.png
+        altimage: placeholder.png
+        position: Master Student
+        email: student2@example.com
+        interests: Natural Language Processing
+        description: A brief personal description.
