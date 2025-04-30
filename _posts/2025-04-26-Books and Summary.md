@@ -2,7 +2,7 @@
 layout: post
 title: Books and Summary
 date: 2025-04-26
-description: ‪🏖️‬🍾‬‬‬
+description: ‪🏖️‬
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
