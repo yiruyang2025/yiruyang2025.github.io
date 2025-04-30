@@ -7,78 +7,86 @@
 
   <article>
     <div class="people-container">
-      {% assign grouped_people = site.data.people | group_by: "category" %}
-      
-      {% for group in grouped_people %}
-        {% if group.name != "" %}
-          <h2 class="category-title">{{ group.name }}</h2>
-        {% endif %}
+      <!-- Display people by categories defined in _data/people.yml -->
+      {% for category_name in page.display_categories %}
+        <h2 class="category-title">{{ category_name }}</h2>
         
-        {% for person in group.items %}
-        <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
-          {% if person.image %}
-            <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
-                 src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
-                 alt="{{ person.name }}">
-          {% endif %}
-          <div class="profile-info">
-            <h4>{{ person.name }}</h4>
-            <p class="position">{{ person.position }}</p>
-            {% if person.email %}
-            <p class="email"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+        {% assign category_data = site.data.people[category_name] %}
+        {% if category_data %}
+          {% for group in category_data %}
+            {% if group.name %}
+              <h3 class="group-name">{{ group.name }}</h3>
             {% endif %}
-            {% if person.website %}
-            <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+            
+            {% if group.people %}
+              {% for person in group.people %}
+                <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+                  {% if person.image %}
+                    <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                         src="{{ person.image | prepend: '/assets/img/people/' | relative_url }}" 
+                         alt="{{ person.name }}">
+                  {% endif %}
+                  <div class="profile-info">
+                    <h4>{{ person.name }}</h4>
+                    <p class="position">{{ person.position }}</p>
+                    {% if person.email %}
+                    <p class="email"><i class="fas fa-envelope"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+                    {% endif %}
+                    {% if person.website %}
+                    <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+                    {% endif %}
+                    {% if person.interests %}
+                    <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+                    {% endif %}
+                    {% if person.description %}
+                    <p class="description">{{ person.description }}</p>
+                    {% endif %}
+                    {% if person.more_info %}
+                    <div class="more-info">
+                      {{ person.more_info }}
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              {% endfor %}
             {% endif %}
-            {% if person.interests %}
-            <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
-            {% endif %}
-            {% if person.description %}
-            <p class="description">{{ person.description }}</p>
-            {% endif %}
-            {% if person.more_info %}
-            <div class="more-info">
-              {{ person.more_info }}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        {% endfor %}
+          {% endfor %}
+        {% endif %}
       {% endfor %}
       
-      <!-- If no grouping, display all people -->
-      {% if grouped_people.size == 0 %}
+      <!-- If no display_categories defined, fall back to showing all people -->
+      {% if page.display_categories.size == 0 %}
         {% for person in site.data.people %}
-        <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
-          {% if person.image %}
-            <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
-                 src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
-                 alt="{{ person.name }}">
-          {% endif %}
-          <div class="profile-info">
-            <h4>{{ person.name }}</h4>
-            <p class="position">{{ person.position }}</p>
-            {% if person.email %}
-            <p class="email"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+          <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+            {% if person.image %}
+              <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                   src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
+                   alt="{{ person.name }}">
             {% endif %}
-            {% if person.website %}
-            <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
-            {% endif %}
-            {% if person.interests %}
-            <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
-            {% endif %}
-            {% if person.description %}
-            <p class="description">{{ person.description }}</p>
-            {% endif %}
-            {% if person.more_info %}
-            <div class="more-info">
-              {{ person.more_info }}
+            <div class="profile-info">
+              <h4>{{ person.name }}</h4>
+              <p class="position">{{ person.position }}</p>
+              {% if person.email %}
+              <p class="email"><i class="fas fa-envelope"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+              {% endif %}
+              {% if person.website %}
+              <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+              {% endif %}
+              {% if person.interests %}
+              <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+              {% endif %}
+              {% if person.description %}
+              <p class="description">{{ person.description }}</p>
+              {% endif %}
+              {% if person.more_info %}
+              <div class="more-info">
+                {{ person.more_info }}
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
           </div>
-        </div>
-        <div class="clearfix"></div>
+          <div class="clearfix"></div>
         {% endfor %}
       {% endif %}
     </div>
@@ -97,6 +105,16 @@
     padding-bottom: 10px;
     border-bottom: 2px solid #ddd;
     clear: both;
+  }
+  
+  .group-name {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    clear: both;
+    font-size: 1.4rem;
   }
   
   .profile {
@@ -139,7 +157,7 @@
   
   .description {
     margin-top: 10px;
-    font-style: italic;
+    line-height: 1.5;
   }
   
   .more-info {
