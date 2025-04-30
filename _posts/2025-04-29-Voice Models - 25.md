@@ -18,19 +18,6 @@ Let's start with Hearing Assistance<br><br><br><br>
 
 # 0. Some Background Knowledge<br><br>
 
-
-Voice models are AI systems that process or generate human speech.Core AI Techniques used are listed as below:
-
-| Technique                   | Purpose                                                             |
-|----------------------------|----------------------------------------------------------------------|
-| **RNN / LSTM**             | Early sequence modeling in ASR & TTS                                 |
-| **CNNs**                   | Feature extraction from spectrograms                                 | 
-| **Transformers**           | Parallel processing, great for long-range speech dependencies        |
-| **Diffusion Models**       | High-quality, controllable generation (recent TTS trend)             |
-| **Self-supervised Pretraining** | Efficient training on large unlabeled datasets                  |
-
-<br><br><br><br>
-
 Core Evolution of Voice Models:
 
 | Year | Milestone                        | Model / Paper                                                     |
@@ -63,18 +50,15 @@ Core Evolution of Voice Models:
 
 **2.1 Pre-training with text**
 
-- 2023. [Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
-- 2024. [OpenAI - Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
-- 2023. [Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
-- 2022. [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
-
-
-**2.2 Challenges in the Post-Training**<br><br><br><br>
+- [Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
+- [OpenAI - Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
+- [Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
+- [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
 
 
 
 
-# 3. ✨Possible Improvements to the Foundation Models / During Fine-tuning📍<br><br><br><br>
+# 3. Possible Improvements to the Foundation Models / During Fine-tuning<br><br><br><br>
 
 
 **3.1 Catastrophic Forgetting**
@@ -85,16 +69,16 @@ Core Evolution of Voice Models:
 
 **Possible Solutions🪨 - Stone Age of AI**
 
-- ✨2018. [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
+- 2018. [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
 
 
 
 **3.2 Safety Alignment**
 
-- 2024. [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
+- [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
 
 
-**3.3 -**
+**3.3 Benchmarks**
 
 - 2024. [Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks
 ](https://arxiv.org/abs/2411.05361)<br><br><br><br>
@@ -103,9 +87,8 @@ Core Evolution of Voice Models:
 
 # 4. Recent Technical Advances<br><br>
 
-- 2023. [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
-- 2014, [Deep Speech: Scaling up end-to-end speech recognition](https://arxiv.org/abs/1412.5567)<br><br><br><br>
-
+- [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
+- [Deep Speech: Scaling up end-to-end speech recognition](https://arxiv.org/abs/1412.5567)<br><br><br><br>
 
 
 
@@ -149,7 +132,7 @@ Core Evolution of Voice Models:
 
 # References
 
-- Hung-yi Lee - [yyds - hopefully one day also in English](https://www.youtube.com/watch?v=Z6b5-77EfGk&t=1453s)<br><br><br><br>
+- Hung-yi Lee <br><br><br><br>
 
 
 
