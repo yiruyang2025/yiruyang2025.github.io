@@ -16,6 +16,32 @@ Welcome ✨!
 
 Let's Start with Hearing Assistance<br><br><br><br>
 
+# 0. Let's have some taste of Background Knowledge First!:)<br><br>
+
+
+Voice models are AI systems that process or generate human speech.Core AI Techniques used are listed as below:
+
+| Technique                   | Purpose                                                              | Example Models                |
+|----------------------------|----------------------------------------------------------------------|-------------------------------|
+| **RNN / LSTM**             | Early sequence modeling in ASR & TTS                                 | DeepSpeech (2014), Tacotron 1 |
+| **CNNs**                   | Feature extraction from spectrograms                                | WaveGlow                      |
+| **Transformers**           | Parallel processing, great for long-range speech dependencies        | SpeechT5, Whisper, FastSpeech2|
+| **Diffusion Models**       | High-quality, controllable generation (recent TTS trend)              | Grad-TTS, FastDiff            |
+| **Self-supervised Pretraining** | Efficient training on large unlabeled datasets                     | wav2vec 2.0, HuBERT            |
+
+<br><br><br><br>
+
+Core Evolution of Voice Models:
+| Year | Milestone                        | Model / Paper                                                     |
+|------|----------------------------------|-------------------------------------------------------------------|
+| 2014 | End-to-end ASR                   | DeepSpeech ([Hannun et al.](https://arxiv.org/abs/1412.5567))     |
+| 2017 | Tacotron (neural TTS)            | Tacotron ([Wang et al.](https://arxiv.org/abs/1703.10135))        |
+| 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
+| 2020 | Self-supervised speech learning | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
+| 2021 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
+| 2023–2024 | Diffusion-based TTS              | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))        |
+
+<br><br><br><br>
 
 # 1. Voice Models in Industry<br><br>
 
