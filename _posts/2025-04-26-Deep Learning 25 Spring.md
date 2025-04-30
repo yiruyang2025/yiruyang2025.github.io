@@ -2,7 +2,7 @@
 layout: post
 title: Deep Learning - 25 Spring
 date: 2025-04-26
-description: 🍋
+description: 🏄
 categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
