@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Create Adequate Job Positions in AI Era - An Economics Perspective - Yiru - 26
-date: 2025-04-26
+date: 2025-04-30
 description: ✨📍
 categories: Research
 thumbnail: assets/img/9.jpg
