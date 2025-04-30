@@ -16,7 +16,7 @@ Welcome ✨!
 
 Let's start with Hearing Assistance<br><br><br><br>
 
-# 0. Background Knowledge<br><br>
+# 0. Some Background Knowledge<br><br>
 
 
 Voice models are AI systems that process or generate human speech.Core AI Techniques used are listed as below:
@@ -44,7 +44,7 @@ Core Evolution of Voice Models:
 
 <br><br><br><br>
 
-# 1. Voice Models in Industry<br><br>
+# 1. Latest Models in Industry<br><br>
 
 **1.1 Google Sound Amplifier, 2019**
   - [Sound Amplifier](https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier)
@@ -59,7 +59,7 @@ Core Evolution of Voice Models:
 
 
 
-# 2. Model Traning<br><br>
+# 2. Model Training and The Key Challenges<br><br>
 
 **2.1 Pre-training with text**
 
@@ -69,8 +69,14 @@ Core Evolution of Voice Models:
 - 2022. [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
 
 
+**2.2 Challenges in the Post-Training**<br><br><br><br>
 
-# 3. Recent Academic Advances in Voice Modeling<br><br>
+
+# 3. ✨Possible Improvements to the Foundation Models📍<br><br><br><br>
+
+
+
+# 4. Recent Technical Advances<br><br>
 
 - 2023. [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)
 - 2014, [Deep Speech: Scaling up end-to-end speech recognition](https://arxiv.org/abs/1412.5567)<br><br><br><br>
@@ -78,19 +84,15 @@ Core Evolution of Voice Models:
 
 
 
-# 4. Products for Disabled People<br><br><br><br>
+# 5. Products for Disabled People<br><br><br><br>
 
 
 
 
 
-# 5. The Business Ecosystem<br><br><br><br>
 
 
-
-
-
-# 6. Speech Processing Labs Worldwide<br><br><br><br>
+# 6. Speech Processing Labs<br><br><br><br>
 
 
 
