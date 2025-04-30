@@ -12,10 +12,14 @@ images:
   venobox: true
 ---
 
-Welcome ✨! Let's Start with - Hearing Assistance.<br><br>
+Welcome ✨! Let's Start with - Hearing Assistance.  
 
 
-### 1. Voice Models - Deployed in Industry Applications<br><br>
+
+
+
+
+### **1. Voice Models - Deployed in Industry Applications**<br><br>
 
 - Google Sound Amplifier, 2019
   - [Sound Amplifier](https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier)
@@ -30,7 +34,7 @@ Welcome ✨! Let's Start with - Hearing Assistance.<br><br>
 
 
 
-### 2. Model Traning<br><br>
+### **2. Model Traning**<br><br>
 
 - Pre-training with text
   - 2023, [Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
@@ -45,7 +49,7 @@ Welcome ✨! Let's Start with - Hearing Assistance.<br><br>
 
 
 
-### 3. Recent Academic Advances in Voice Modeling<br><br>
+### **3. Recent Academic Advances in Voice Modeling**<br><br>
 
 - 2023, [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)<br><br>
 
@@ -53,19 +57,33 @@ Welcome ✨! Let's Start with - Hearing Assistance.<br><br>
 
 
 
-### 4. Products for Disabled People<br><br>
+
+
+### 4. **Products for Disabled People**<br><br>
 
 
 
-### 5. The Business Ecosystem<br><br>
 
 
 
-### 6. Speech Processing Labs Worldwide<br><br>
+
+### **5. The Business Ecosystem**<br><br>
 
 
 
-### 7. Others<br><br>
+
+
+
+
+### **6. Speech Processing Labs Worldwide**<br><br>
+
+
+
+
+
+
+
+### **7. Others**<br><br>
 
 - ASR: Automatic Speech Recognition
   - [Whisper - OpenAI](https://github.com/openai/whisper)
