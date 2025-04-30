@@ -32,14 +32,15 @@ Voice models are AI systems that process or generate human speech.Core AI Techni
 <br><br><br><br>
 
 Core Evolution of Voice Models:
+
 | Year | Milestone                        | Model / Paper                                                     |
 |------|----------------------------------|-------------------------------------------------------------------|
 | 2014 | End-to-end ASR                   | DeepSpeech ([Hannun et al.](https://arxiv.org/abs/1412.5567))     |
 | 2017 | Tacotron (neural TTS)            | Tacotron ([Wang et al.](https://arxiv.org/abs/1703.10135))        |
 | 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
-| 2020 | Self-supervised speech learning | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
+| 2020 | Self-supervised speech learning  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
 | 2021 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
-| 2023–2024 | Diffusion-based TTS              | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))        |
+| 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
 
 <br><br><br><br>
 
