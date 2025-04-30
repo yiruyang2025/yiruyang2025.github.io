@@ -16,7 +16,7 @@ Hi there ✨!<br><br>
 
 Reading and Writing Alwaaaaays makes me feel So Excited! 
 
-Hopefully this article can be done in 2026 at [Universität Zürich](https://www.econ.uzh.ch/en/people/faculty/fehr.html) & ETH Zürich!
+Hopefully this article can be completed in 2026 at [Universität Zürich](https://www.econ.uzh.ch/en/people/faculty/fehr.html) & ETH Zürich!
 
 
 <br><br><br><br><br><br><br><br>
