@@ -14,7 +14,7 @@ images:
 
 Welcome ✨! 
 
-Let's Start with Hearing Assistance<br><br><br><br>
+Let's start with Hearing Assistance<br><br><br><br>
 
 # 0. Background Knowledge<br><br>
 
