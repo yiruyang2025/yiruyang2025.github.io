@@ -18,11 +18,12 @@ Here are my main takeaways:
 
 - Always cherish those 'Real' Moments in your life
 - Nothing's more important than our own families and good friends
-- For everything else, just BE PATIENT :)
 - Beliefs are always important
-- Also! Always remember to Connect Your Own Dots!
+- Always remember to Connect Your Own Dots
 
-- "The prepared mind sooner or later finds things important and does it" - Richard Hamming, Thus, "try to be well prepared at most times in your life" - my own best [Grandpa](https://baike.baidu.com/item/%E7%8E%8B%E5%B8%B8%E6%B5%A9/657595)
+- For everything else, just BE PATIENT :)
+
+- "The prepared mind sooner or later finds things important and does it" - [Richard Hamming](https://en.wikipedia.org/wiki/Richard_Hamming), Thus, "try to be well prepared at most times in your life" - my own best [Grandpa](https://baike.baidu.com/item/%E7%8E%8B%E5%B8%B8%E6%B5%A9/657595)
 
 
 
