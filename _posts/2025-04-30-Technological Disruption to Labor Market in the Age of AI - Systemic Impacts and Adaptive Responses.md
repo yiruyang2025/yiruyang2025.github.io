@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Create Adequate Job Positions in the AI Era - An Economic Perspective
+title: Technological Disruption to Labor Market in the Age of AI - Systemic Impacts and Adaptive Responses
 date: 2025-04-30
 description: ✨📍
 categories: Research
