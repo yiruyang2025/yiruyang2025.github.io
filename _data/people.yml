@@ -1,35 +1,46 @@
 # This file contains the people data for the website
 
-# Groups must have a name field
-groups:
-  # Principal Investigators group
-  - name: Principal Investigators
+Lab🇨🇭:
+  - name: xxx
     # People in this group are listed below
     people:
-      - name: Your name
+      - name: 1
         image: prof_pic.jpg
-        altimage: prof_pic.jpg
         position: Professor
+        scholar_userid: # Google Scholar ID
+        github_username: # GitHub 用户名
+        linkedin_username: # LinkedIn 用户名
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests.
+        description: A brief personal description and research interests.<br><br><br><br>
 
-  # Graduate Students group
-  - name: Graduate Students
+Friends and Alumni🌍:
+  - name: xxx
+    # People in this group are listed below
     people:
-      - name: Graduate Student Name 1
-        image: placeholder.png
-        altimage: placeholder.png
-        position: PhD Student
-        email: student1@example.com
-        interests: Deep Learning, Computer Vision
-        description: A brief personal description.
+      - name: 1
+        image: prof_pic.jpg
+        position: Professor
+        scholar_userid: # Google Scholar ID
+        github_username: # GitHub 用户名
+        linkedin_username: # LinkedIn 用户名
+        email: your-email@example.com
+        website: https://yourwebsite.com
+        interests: Machine learning, Artificial Intelligence, Data Science
+        description: A brief personal description and research interests.<br><br><br><br>
         
-      - name: Graduate Student Name 2
+      - name: 2
         image: placeholder.png
-        altimage: placeholder.png
-        position: Master Student
-        email: student2@example.com
-        interests: Natural Language Processing
-        description: A brief personal description.
+        position: Professor
+        scholar_userid: # Google Scholar ID
+        github_username: # GitHub 用户名
+        linkedin_username: # LinkedIn 用户名
+        email: your-email@example.com
+        website: https://yourwebsite.com
+        interests: Machine learning, Artificial Intelligence, Data Science
+        description: A brief personal description and research interests.<br><br><br><br>
+
+
+
+        
