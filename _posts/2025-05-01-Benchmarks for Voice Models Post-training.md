@@ -40,7 +40,8 @@ Let's discuss the main benchmarking metrics used in current industry practice.<b
 | 2024 | **MOSA-Net** | Multi-objective no-reference (quality + intelligibility + distortion) | metric-specific (↑) |
 | 2024 | **DNSMOS-Pro** | Lightweight on-device variant of DNSMOS | 1–5 (↑) |
 
----
+
+<br><br><br><br>
 
 ## 2.2 Evaluation Metrics for Voice Conversion (VC)
 
@@ -55,7 +56,7 @@ Let's discuss the main benchmarking metrics used in current industry practice.<b
 | 2023 | **G-MOS** | Cross-domain crowd MOS (VoiceMOS’23) | 1–5 (↑) |
 | 2024 | **SASV-EER** | Joint speaker-&-spoof error rate (SASV Challenge) | 0–1 (↓) |
 
----
+<br><br><br><br>
 
 ## 2.3 Speech-to-Speech Translation (S2ST) Benchmarks
 
@@ -68,17 +69,18 @@ Let's discuss the main benchmarking metrics used in current industry practice.<b
 | 2024 | **BLASER 2.0** | Reference-free cross-modal quality metric | 0–1 (↑) |
 | 2004 | **Spectral Distortion** | Frequency-content preservation | lower = better |
 
----
+
 
 <br><br><br><br>
 
-# 3.Specific Evaluation Frameworks for Disabled Users<br><br>
+
+# 3.Specific Evaluation Frameworks for Disabled Users<br><br><br><br>
 
 
 
 
 
-## References<br><br><br><br>
+
 
 
 
