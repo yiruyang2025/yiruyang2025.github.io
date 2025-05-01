@@ -14,7 +14,7 @@ images:
 
 Welcome ✨! 
 
-Let's start with the Model Post-training for Hearing Assistance - An Coding Demo Example using Sound Amplifier?<br><br>
+Let's start with the Model Post-training for Hearing Assistance - An Coding Demo Example using xxxxx<br><br>
 
 # 0. Some Background Knowledge<br><br>
 
