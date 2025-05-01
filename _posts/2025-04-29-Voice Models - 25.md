@@ -48,7 +48,7 @@ Core Evolution of Voice Models:
 
 # 2. Model Training<br><br>
 
-**2.1 Pre-training with text**
+**2.1 Pre-training with text**<br><br>
 
 - [Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
 - [OpenAI - Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
@@ -56,9 +56,21 @@ Core Evolution of Voice Models:
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
 
 
+**2.2 Post-Training**<br><br>
+
+- **Pre-Train Style**<br><br>
 
 
-# 3. Possible Improvements to the Foundation Models / During Fine-tuning<br><br><br><br>
+- **Supervised-Fine-Tuning Style**<br><br>
+
+
+
+- **Reinforcement-Learning Style**<br><br>
+
+
+
+
+# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br><br><br>
 
 
 **3.1 Catastrophic Forgetting**
@@ -130,7 +142,7 @@ Core Evolution of Voice Models:
 
 # References
 
-- Hung-yi Lee <br><br><br><br>
+- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br><br><br>
 
 
 
