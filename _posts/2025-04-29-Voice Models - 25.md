@@ -26,8 +26,11 @@ Core Evolution of Voice Models:
 | 2017 | Tacotron (neural TTS)            | Tacotron ([Wang et al.](https://arxiv.org/abs/1703.10135))        |
 | 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
 | 2020 | Self-supervised speech learning  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
-| 2021 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
+| 2022 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
+| 2023 | Zero-shot voice cloning          | VALL-E  [Microsoft, 2023](https://arxiv.org/abs/2301.02111)       |
 | 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
+| 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427)      |
+
 
 <br><br><br>
 
@@ -78,15 +81,21 @@ Core Evolution of Voice Models:
 - 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br><br><br>
 
 
-**Possible Solutions🪨**
+**Possible Solutions 🪨**
 - 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
 - 2018 [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
 
 
 
-**3.2 Safety Alignment**
+**3.2 Task Targeted Post-training will Degrade the model's performance on other Tasks - e.g. Safety Alignment**
+
+- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)<br><br><br><br>
 
 - 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
+
+
+**Possible Solutions 🪨**<br><br><br><br>
+
 
 
 **3.3 Benchmarks**
