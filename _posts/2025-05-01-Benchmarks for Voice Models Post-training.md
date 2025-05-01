@@ -13,8 +13,7 @@ images:
 ---
 
 Welcome ✨!
-THis one is actually a little bit difficult for me to write, with aging, my short-term memory is no longer as good as it used to be :).<br><br>
-
+This one is actually a little bit difficult for me to write, with aging, my short-term memory is no longer as good as it used to be :).<br><br>
 
 
 # 1.Introduction<br><br>
@@ -22,53 +21,49 @@ THis one is actually a little bit difficult for me to write, with aging, my shor
 We'll discuss the main benchmarking metrics used in current industry practice.<br><br><br><br>
 
 
-# 2.Recent Benchmark Frameworks<br><br>
+# 2. Recent Benchmark Frameworks
 
-**2.1 Evaluation Metrics for Text-to-Speech (TTS)**
+## 2.1 Evaluation Metrics for Text-to-Speech (TTS)
 
-| Year | Metric                           | Description            | Typical Range                            |
-|------|----------------------------------|-------------------------------------------------------------------|
-| Year | MOS (Mean Opinion Score) | Subjective quality assessment: naturalness & intelligibility | 1-5 (higher is better)    |
-| Year | PESQ   | Objective voice quality measure, correlates with MOS  | -0.5 to 4.5                         |
-| Year | STOI  | Short-Time Objective Intelligibility: measures speech intelligibility   | 0 to 1 (higher is better)   |
-| Year | Speaker similarity  | Measures how well synthesized voice matches target speaker   | Usually cosine similarity |
-| Year | Mel-Cepstral Distortion (MCD)  | Distance between generated and ground truth mel-cepstra | < 6 dB (lower is better  |
-| Year | F0 RMSE  | Root mean squared error for pitch contour | Lower is better |
+| Year | Metric | Description | Typical Range |
+|------|--------|-------------|---------------|
+| 1996 | **MOS (Mean Opinion Score)** | Subjective quality assessment covering naturalness and intelligibility | 1 – 5 (↑ better) |
+| 2001 | **PESQ** | Objective perceptual quality score; correlates well with MOS | –0.5 – 4.5 (↑ better) |
+| 2011 | **STOI** | Short-Time Objective Intelligibility; predicts speech intelligibility | 0 – 1 (↑ better) |
+| 2018 | **Speaker Similarity** | Cosine similarity (or ABX preference) between synthesized and target voices | 0 – 1 (↑ better) |
+| 2004 | **MCD (Mel-Cepstral Distortion)** | Spectral distance between generated and reference mel-cepstra | < 6 dB (↓ better) |
+| 2003 | **F0 RMSE** | Root-mean-square error of pitch contour versus reference | lower is better |
 
+---
 
-<br><br>
+## 2.2 Evaluation Metrics for Voice Conversion (VC)
 
-**2.2 Evaluation Metrics for Voice Conversion (VC)**
+| Year | Metric | Description | Typical Range |
+|------|--------|-------------|---------------|
+| 1996 | **MOS** | Overall converted-speech quality & naturalness | 1 – 5 (↑ better) |
+| 2010 | **Speaker Identification Accuracy** | Percent of listeners (or ASV system) correctly identifying the intended speaker | 0 – 100 % (↑ better) |
+| 2018 | **x-vector Cosine Similarity** | Cosine similarity of deep speaker embeddings before/after conversion | 0 – 1 (1 = perfect match) |
+| 2000 | **MFCC-DTW Distance** | Dynamic-time-warping distance between MFCC trajectories of source and converted speech | lower is better |
+| 2011 | **Intelligibility Score** | Speech clarity; often STOI or ASR-based word-error-rate proxy | metric-specific (↑ better) |
+| 2004 | **Spectral Distortion** | Aggregate frequency-domain error (e.g., log-spectral distortion) | lower is better |
 
+---
 
-| Year | Metric                           | Description            | Typical Range                            |
-|------|----------------------------------|-------------------------------------------------------------------|
-| Year | MOS (Mean Opinion Score)| Assess overall quality and naturalness | 1-5 (higher is better)    |
-| Year | Speaker Identification Accuracy   | Evaluate speaker similarity preservation |Percentage of correct identification   |
-| Year | x-vector cosine similarity| Measure speaker identity preservation  | 0-1 (1 = perfect match) |
-| Year | MFCC-DTW distance| Dynamic time warping distance between MFCCs | Lower is better  |
-| Year | Intelligibility score | Measure converted speech clarity | Usually MOS or automatic methods  |
-| Year | Spectral distortion| Measure frequency content preservation | Lower distortion = better quality|
+## 2.3 Speech-to-Speech Translation (S2ST) Benchmarks
 
+| Year | Metric | Description | Typical Range |
+|------|--------|-------------|---------------|
+| 1996 | **MOS** | Overall naturalness of translated speech | 1 – 5 (↑ better) |
+| 2010 | **Speaker Identification Accuracy** | Retention of original speaker identity across languages | 0 – 100 % (↑ better) |
+| 2018 | **x-vector Cosine Similarity** | Embedding-level speaker match after translation | 0 – 1 (1 = perfect match) |
+| 2000 | **MFCC-DTW Distance** | Spectro-temporal alignment error between source and translated speech | lower is better |
+| 2011 | **Intelligibility Score** | Clarity of translated content; STOI or ASR-based | metric-specific (↑ better) |
+| 2004 | **Spectral Distortion** | Frequency content preservation in the translated signal | lower is better |
 
-<br><br>
-
-
-**2.3 Speech-to-Speech Translation (S2ST) Benchmarks**
-
-| Year | Metric                           | Description            | Typical Range                            |
-|------|----------------------------------|-------------------------------------------------------------------|
-| Year | MOS (Mean Opinion Score)| Assess overall quality and naturalness | 1-5 (higher is better)    |
-| Year | Speaker Identification Accuracy   | Evaluate speaker similarity preservation |Percentage of correct identification   |
-| Year | x-vector cosine similarity| Measure speaker identity preservation  | 0-1 (1 = perfect match) |
-| Year | MFCC-DTW distance| Dynamic time warping distance between MFCCs | Lower is better  |
-| Year | Intelligibility score | Measure converted speech clarity | Usually MOS or automatic methods  |
-| Year | Spectral distortion| Measure frequency content preservation | Lower distortion = better quality|
+---
 
 
-
-
-<br><br>
+<br><br><br><br>
 
 # 3.Specific Evaluation Frameworks for Disabled Users<br><br>
 
