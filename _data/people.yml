@@ -29,8 +29,8 @@ Friends and Alumni 🌍:
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests
-        
+        description: A brief personal description and research interests  
+     
       - name: 2
         image: prof_pic.jpg
         position:
@@ -40,8 +40,4 @@ Friends and Alumni 🌍:
         email: your-email@example.com
         website: https://yourwebsite.com
         interests: Machine learning, Artificial Intelligence, Data Science
-        description: A brief personal description and research interests
-
-
-
-        
+        description: A brief personal description and research interests  
