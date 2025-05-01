@@ -26,6 +26,18 @@ Also, if you're interested in the field of Academic Economics, pay attention to 
 - 4 [Econometrica](https://www.econometricsociety.org/publications/econometrica)
 - 5 [Review of Economic Studies](https://academic.oup.com/restud)<br><br><br><br>
 
+
+For Working Papers:
+
+- 1 [NBER Working Papers](https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date)
+- 2 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
+- 3 [VoxEU.org](https://cepr.org/voxeu)
+- 4 [Nobel Prize-winning Research](https://www.nobelprize.org/prizes/economic-sciences/)
+- 5 [John Bates Clark Medal - AEA](https://www.aeaweb.org/about-aea/honors-awards/bates-clark)
+- 6 [BBVA Frontiers of Knowledge Award – Economics, Finance, and Management](https://www.fbbva.es/en/)
+- 7 [Yrjö Jahnsson Award - EEA](https://www.eeassoc.org/awards/yrjo-jahnsson-award)<br><br><br><br>
+
+
 Others:
 
 - 1 [Journal of Finance](https://afajof.org/)
