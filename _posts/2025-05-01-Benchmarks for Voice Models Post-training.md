@@ -13,12 +13,13 @@ images:
 ---
 
 Welcome ✨!
-This one is actually a little bit difficult for me to write, with aging, my short-term memory is no longer as good as it used to be :).<br><br>
+This one is actually a little bit difficult for me to write, with aging, my short-term memory is no longer as good as it used to be :)<br><br>
 
 
 # 1.Introduction<br><br>
 
-We'll discuss the main benchmarking metrics used in current industry practice.<br><br><br><br>
+Let's discuss the main benchmarking metrics used in current industry practice.<br><br><br><br>
+
 
 
 # 2. Recent Benchmark Frameworks
@@ -27,12 +28,17 @@ We'll discuss the main benchmarking metrics used in current industry practice.<b
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 1996 | **MOS (Mean Opinion Score)** | Subjective quality assessment covering naturalness and intelligibility | 1 – 5 (↑ better) |
-| 2001 | **PESQ** | Objective perceptual quality score; correlates well with MOS | –0.5 – 4.5 (↑ better) |
-| 2011 | **STOI** | Short-Time Objective Intelligibility; predicts speech intelligibility | 0 – 1 (↑ better) |
-| 2018 | **Speaker Similarity** | Cosine similarity (or ABX preference) between synthesized and target voices | 0 – 1 (↑ better) |
-| 2004 | **MCD (Mel-Cepstral Distortion)** | Spectral distance between generated and reference mel-cepstra | < 6 dB (↓ better) |
-| 2003 | **F0 RMSE** | Root-mean-square error of pitch contour versus reference | lower is better |
+| 1996 | **MOS** (Mean Opinion Score) | ITU subjective naturalness & intelligibility test | 1–5 (↑ better) |
+| 2001 | **PESQ** | Full-reference perceptual quality score (ITU P.862) | –0.5–4.5 (↑) |
+| 2011 | **STOI** | Short-Time Objective Intelligibility predictor | 0–1 (↑) |
+| 2004 | **MCD** | Mel-Cepstral Distortion (spectral distance) | <6 dB (↓) |
+| 2003 | **F<sub>0</sub> RMSE** | Pitch-contour root-mean-square error | lower = better |
+| 2019 | **MOSNet** | DNN that predicts MOS from speech | 1–5 (predicted) |
+| 2020 | **DNSMOS** | No-reference MOS for noisy/enhanced speech | 1–5 (↑) |
+| 2021 | **NISQA** | Multidimensional quality assessment via self-attention | 1–5 (↑) |
+| 2023 | **VoiceMOS (Zero-shot)** | Out-of-domain MOS prediction challenge metric | 1–5 (↑) |
+| 2024 | **MOSA-Net** | Multi-objective no-reference (quality + intelligibility + distortion) | metric-specific (↑) |
+| 2024 | **DNSMOS-Pro** | Lightweight on-device variant of DNSMOS | 1–5 (↑) |
 
 ---
 
@@ -40,12 +46,14 @@ We'll discuss the main benchmarking metrics used in current industry practice.<b
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 1996 | **MOS** | Overall converted-speech quality & naturalness | 1 – 5 (↑ better) |
-| 2010 | **Speaker Identification Accuracy** | Percent of listeners (or ASV system) correctly identifying the intended speaker | 0 – 100 % (↑ better) |
-| 2018 | **x-vector Cosine Similarity** | Cosine similarity of deep speaker embeddings before/after conversion | 0 – 1 (1 = perfect match) |
-| 2000 | **MFCC-DTW Distance** | Dynamic-time-warping distance between MFCC trajectories of source and converted speech | lower is better |
-| 2011 | **Intelligibility Score** | Speech clarity; often STOI or ASR-based word-error-rate proxy | metric-specific (↑ better) |
-| 2004 | **Spectral Distortion** | Aggregate frequency-domain error (e.g., log-spectral distortion) | lower is better |
+| 1996 | **MOS** | Naturalness of converted speech | 1–5 (↑) |
+| 2004 | **MCD** | Spectral distance between source & target | <6 dB (↓) |
+| 2010 | **Speaker-ID Accuracy** | Listener/ASV target-speaker identification | 0–100 % (↑) |
+| 2011 | **STOI / WER** | Intelligibility after conversion | metric-specific (↑) |
+| 2018 | **x-vector Cos Sim.** | Cosine of deep speaker embeddings | 0–1 (↑) |
+| 2019 | **ASV t-DCF / EER** | Spoof-aware ASV error from ASVspoof’19 | 0–1 (↓) |
+| 2023 | **G-MOS** | Cross-domain crowd MOS (VoiceMOS’23) | 1–5 (↑) |
+| 2024 | **SASV-EER** | Joint speaker-&-spoof error rate (SASV Challenge) | 0–1 (↓) |
 
 ---
 
@@ -53,15 +61,14 @@ We'll discuss the main benchmarking metrics used in current industry practice.<b
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 1996 | **MOS** | Overall naturalness of translated speech | 1 – 5 (↑ better) |
-| 2010 | **Speaker Identification Accuracy** | Retention of original speaker identity across languages | 0 – 100 % (↑ better) |
-| 2018 | **x-vector Cosine Similarity** | Embedding-level speaker match after translation | 0 – 1 (1 = perfect match) |
-| 2000 | **MFCC-DTW Distance** | Spectro-temporal alignment error between source and translated speech | lower is better |
-| 2011 | **Intelligibility Score** | Clarity of translated content; STOI or ASR-based | metric-specific (↑ better) |
-| 2004 | **Spectral Distortion** | Frequency content preservation in the translated signal | lower is better |
+| 1996 | **MOS** | Naturalness of translated speech | 1–5 (↑) |
+| 2010 | **Speaker-ID Accuracy** | Identity retention across languages | 0–100 % (↑) |
+| 2018 | **x-vector Cos Sim.** | Speaker-embedding match after translation | 0–1 (↑) |
+| 2023 | **ASR-BLEU** | BLEU on ASR transcripts of output speech | 0–100 (↑) |
+| 2024 | **BLASER 2.0** | Reference-free cross-modal quality metric | 0–1 (↑) |
+| 2004 | **Spectral Distortion** | Frequency-content preservation | lower = better |
 
 ---
-
 
 <br><br><br><br>
 
