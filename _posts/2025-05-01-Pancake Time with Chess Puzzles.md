@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pancake Time with Chess Puzzles
-date: 2025-05-02
+date: 2025-05-01
 description: 🥞
 categories: Life
 thumbnail: assets/img/9.jpg
