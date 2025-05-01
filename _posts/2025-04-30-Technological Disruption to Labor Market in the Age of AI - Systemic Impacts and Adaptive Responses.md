@@ -20,16 +20,16 @@ Hopefully this article can be completed in 2026.
 
 Also, if you're interested in the field of Academic Economics, pay attention to our Top 5 journals:<br><br>
 
-- 1. [AER - American Economic Review](https://www.aeaweb.org/journals/aer)
-- 2. [QJE - Quarterly Journal of Economics](https://academic.oup.com/qje)
-- 3. [JPE - Journal of Political Economy](https://www.journals.uchicago.edu/loi/jpe)
-- 4. [Econometrica](https://www.econometricsociety.org/publications/econometrica)
-- 5. [Review of Economic Studies](https://academic.oup.com/restud)<br><br><br><br>
+- 1 [AER - American Economic Review](https://www.aeaweb.org/journals/aer)
+- 2 [QJE - Quarterly Journal of Economics](https://academic.oup.com/qje)
+- 3 [JPE - Journal of Political Economy](https://www.journals.uchicago.edu/loi/jpe)
+- 4 [Econometrica](https://www.econometricsociety.org/publications/econometrica)
+- 5 [Review of Economic Studies](https://academic.oup.com/restud)<br><br><br><br>
 
 Others:
 
-- 1. [Journal of Finance](https://afajof.org/)
-- 2. [The Accounting Review](https://www.jstor.org/journal/accountingreview）
+- 1 [Journal of Finance](https://afajof.org/)
+- 2 [The Accounting Review](https://www.jstor.org/journal/accountingreview)
 
 
 <br><br><br><br><br><br><br><br>
