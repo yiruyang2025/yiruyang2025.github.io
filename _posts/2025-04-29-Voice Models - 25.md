@@ -70,7 +70,7 @@ Core Evolution of Voice Models:
 
 
 
-# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br><br><br>
+# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
 
 
 **3.1 Catastrophic Forgetting**
@@ -105,8 +105,25 @@ Core Evolution of Voice Models:
 
 # 5. Products for Disabled People<br><br>
 
+
+**5.1 Aspects**<br><br>
+
+- Model Adaptability<br><br>
+
+
+- Computational Efficiency<br><br>
+
+
+- Customization / Personalization<br><br><br><br>
+
+
+
+**5.2 Products**<br><br>
 - 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)
 - 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)<br><br><br><br>
+
+
+
 
 
 
