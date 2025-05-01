@@ -19,6 +19,7 @@ Here are my main takeaways:
 - Always cherish those 'Real' Moments in your life
 - Nothing's more important than our own families and good friends
 - Beliefs are always important
+- When you still have energy and passion, build your own bridge and Garden 🌁
 - Always remember to Connect Your Own Dots
 
 - For everything else, just BE PATIENT :)
