@@ -30,6 +30,6 @@ Pls discuss if any of these pique your interest!<br><br><br><br>
   - [x] Yogurt, Toast, and Protein
   - [ ] Ice-cream 🍧
 - [x] Go to school
-- [x] Gym🏋️, 🏊, 🫐🍧, and repeat<br><br><br><br>
+- [x] 🏋️, 🏊, 🫐, and repeat<br><br><br><br>
 
 
