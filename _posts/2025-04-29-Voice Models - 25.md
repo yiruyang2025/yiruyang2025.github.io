@@ -91,11 +91,10 @@ Core Evolution of Voice Models:
 
 
 
-# 5. Products for Disabled People<br><br><br><br>
+# 5. Products for Disabled People<br><br>
 
-
-
-
+- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)
+- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)<br><br><br><br>
 
 
 
