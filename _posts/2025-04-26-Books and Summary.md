@@ -27,9 +27,9 @@ Pls discuss if any of these pique your interest!<br><br><br><br>
 
 - [x] Brush Teeth
 - [ ] Breakfast
-  - [x] Yogurt and Protein
+  - [x] Yogurt, Toast, and Protein
   - [ ] Ice-cream 🍧
-- [x] Go to school<br><br><br><br>
-
+- [x] Go to school
+- [x] Gym🏋️, 🏊, 🫐🍧, and repeat<br><br><br><br>
 
 
