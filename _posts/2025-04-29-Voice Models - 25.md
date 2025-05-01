@@ -67,7 +67,7 @@ Core Evolution of Voice Models:
 
 
 **Possible Solutions🪨**
-- 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673
+- 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
 - 2018 [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
 
 
