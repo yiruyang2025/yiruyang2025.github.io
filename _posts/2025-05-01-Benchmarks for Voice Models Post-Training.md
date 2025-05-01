@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmarks for Voice Model Post-training - 25
+title: Benchmarks for Voice Models Post-training - 25
 date: 2025-05-01
 description: 🥥
 categories: AI/ML
