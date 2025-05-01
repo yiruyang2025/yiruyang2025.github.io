@@ -29,7 +29,7 @@ Also, if you're interested in the field of Academic Economics, pay attention to 
 Others:
 
 - 1. [Journal of Finance](https://afajof.org/)
-- 2. [The Accounting Review](https://aaapubs.org/loi/accr）
+- 2. [The Accounting Review](https://www.jstor.org/journal/accountingreview）
 
 
 <br><br><br><br><br><br><br><br>
