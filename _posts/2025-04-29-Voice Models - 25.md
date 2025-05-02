@@ -230,7 +230,25 @@ pending<br><br>
 
 # References
 
-- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br><br><br>
+- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br>
+
+# 📘 Top Journals in Speech and Language Research
+
+1.1 [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
+Top-tier open-access journal by ACL for high-quality NLP research.<br><br>
+
+1.2 [Computational Linguistics (MIT Press)](https://direct.mit.edu/coli)<br>
+The longest-running journal dedicated exclusively to computational linguistics and NLP theory and systems.<br><br>
+
+1.3 [Speech Communication (Elsevier)](https://www.journals.elsevier.com/speech-communication)<br>
+Covers research in speech processing, perception, and spoken dialogue systems across science and engineering.<br><br>
+
+1.4 [IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)](https://dl.acm.org/journal/taslp)<br>
+Publishes state-of-the-art techniques in audio, speech recognition, signal enhancement, and language processing.<br><br>
+
+1.5 [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
+A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
+
 
 
 
