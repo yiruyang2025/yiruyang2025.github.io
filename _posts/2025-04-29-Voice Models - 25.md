@@ -106,7 +106,10 @@ pending<br><br>
 
 
 
+
 # 4. Recent Technical Advances<br><br><br><br>
+
+
 
 - **2025 – [Neuralink – gets FDA nod for chip that will let speech impaired people speak, human trials soon](https://x.com/neuralink/status/1918005257252098197)**  <br><br>
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
@@ -198,6 +201,8 @@ pending<br><br>
 
 
 
+
+
 # 7. Others<br><br>
 
 **7.1 ASR: Automatic Speech Recognition**
@@ -226,6 +231,8 @@ pending<br><br>
 # References
 
 - [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br><br><br>
+
+
 
 
 
