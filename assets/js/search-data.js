@@ -136,11 +136,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/Books-and-Summary/";
           
         },
-      },{id: "post-reinforcement-learning-25",
+      },{id: "post-economics-bedtime-stories-26",
         
-          title: "Reinforcement Learning - 25",
+          title: "Economics Bedtime Stories - 26",
         
-        description: "🤖",
+        description: "🎠",
         section: "Posts",
         handler: () => {
           
