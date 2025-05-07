@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Why「Deep」Structures - 25",
         
-        description: "⛺️",
+        description: "🏄",
         section: "Posts",
         handler: () => {
           
