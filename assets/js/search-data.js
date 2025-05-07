@@ -59,15 +59,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Pancake-Time-with-Chess-Puzzles/";
           
         },
-      },{id: "post-benchmarks-for-voice-models-post-training-25",
+      },{id: "post-benchmarks-for-speech-processing-post-training-25",
         
-          title: "Benchmarks for Voice Models Post-training - 25",
+          title: "Benchmarks for Speech Processing Post-training - 25",
         
         description: "🥥",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Benchmarks-for-Voice-Models-Post-training/";
+            window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
       },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses",
