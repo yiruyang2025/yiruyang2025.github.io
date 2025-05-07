@@ -17,9 +17,11 @@ Welcome to story time✨!<br><br><br><br>
 
 # Topics for 2026<br><br>
 
-# 1. Causal Inference x Policy Design in Econ (Favourite one)**<br><br>
+# 1. Causal Inference in Policy Design x Economics (The Favourite one)<br><br>
 
-Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.<br><br>
+Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
+The key here is to Reduce the Variance first.
+<br><br>
 
 **TLDR - Key References**<br><br>
 
@@ -27,6 +29,7 @@ Causal identification in policy evaluation is a central challenge in economic re
 
 
 **Possible Solutions 🪨**<br>
+
 
 - [Causal forest](https://grf-labs.github.io/grf/reference/causal_forest.html)<br>
 - [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)<br>
@@ -55,6 +58,7 @@ Causal identification in policy evaluation is a central challenge in economic re
 
 # 2. Why does History Reduplicate Itself<br><br>
 
+<br><br><br><br><br><br><br><br>
 
  
 # 3. Others<br><br>
@@ -63,7 +67,7 @@ Causal identification in policy evaluation is a central challenge in economic re
 - GitHub Projects
   - [Economics PINN: Deep learning for solving and estimating dynamic macro-finance models, Yale, Lu Group](https://github.com/lu-group/pinn-macro-finance)<br><br><br><br>
 
-- Key References<br><br>
+- References<br><br>
   - [The economy needs agent-based modelling, 2009.](https://www.nature.com/articles/460685a)<br><br>
   - [Payne, Jonathan, Adam Rebei, and Yucheng Yang. 2025. Deep Learning for Search and Matching Models. February 1, 2025.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5123878)<br><br>
   - [Xu, Jun, Xiangnan He, and Hang Li. 2020. Deep Learning for Matching in Search and Recommendation. Vol. XX, No. XX, pp. 1–193. DOI: XXX.](https://dl.acm.org/doi/abs/10.1145/3209978.3210181?casa_token=pq_eQ9XrOvsAAAAA:96fZTufb1_1bGgdg51D2tOeJWlvlHf8SYonh2ERMX5nCT3GaAoTGMDtqwg0f8Ls8ODbDSBpG5t-y)<br><br><br><br>
