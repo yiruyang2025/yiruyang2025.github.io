@@ -14,4 +14,4 @@ images:
 
 Hi there, welcome to Gaming Time ✨! 
 
-For now, this section will be used to record some basic graph theory proofs 🙂.<br><br><br><br>
+<br><br><br><br>
