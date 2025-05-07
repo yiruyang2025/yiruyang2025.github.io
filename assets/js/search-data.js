@@ -70,7 +70,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
-      },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses",
+      },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses-27",
         
           title: "Technological Disruption to Labor Market in the Age of AI - Systemic Impacts...",
         
@@ -78,7 +78,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Technological-Disruption-to-Labor-Market-in-the-Age-of-AI-Systemic-Impacts-and-Adaptive-Responses/";
+            window.location.href = "/blog/2025/Technological-Disruption-to-Labor-Market-in-the-Age-of-AI-Systemic-Impacts-and-Adaptive-Responses-27/";
           
         },
       },{id: "post-api-design-25",
