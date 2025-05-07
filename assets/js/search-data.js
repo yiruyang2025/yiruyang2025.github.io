@@ -78,7 +78,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Voice-Models-25/";
+            window.location.href = "/blog/2025/Speech-Processing-25/";
           
         },
       },{id: "post-api-design-25",
