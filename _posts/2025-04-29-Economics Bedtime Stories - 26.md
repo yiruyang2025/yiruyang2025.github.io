@@ -17,7 +17,7 @@ Welcome to story time✨!<br><br><br><br>
 
 # Topics for 2026<br><br>
 
-# 1. Causal Inference in Policy Design x Economics (The Favourite one)<br><br>
+# 1. 🩵 Causal Inference in Policy Design x Economics (The Favourite one)<br><br>
 
 Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
 The key here is to Reduce the Variance first.
@@ -35,8 +35,7 @@ The key here is to Reduce the Variance first.
 - [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)
 
 
-
-<br><br><br>
+<br><br>
 
 
 **Key References**<br><br>
@@ -61,7 +60,7 @@ The key here is to Reduce the Variance first.
 <br><br><br><br><br><br><br><br>
 
  
-# 3. Others<br><br>
+# 3. Models Matching<br><br>
 
 - References<br><br>
   - [The economy needs agent-based modelling, 2009.](https://www.nature.com/articles/460685a)<br><br>
