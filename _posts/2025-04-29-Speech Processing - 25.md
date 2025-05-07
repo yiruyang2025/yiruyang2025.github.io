@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Voice Models - 25
+title: Speech Processing - 25
 date: 2025-04-29
 description: 🥥
-categories: AI/ML
+categories: Researcb-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
