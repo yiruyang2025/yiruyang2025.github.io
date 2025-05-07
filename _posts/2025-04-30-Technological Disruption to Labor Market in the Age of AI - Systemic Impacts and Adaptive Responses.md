@@ -3,7 +3,7 @@ layout: post
 title: Technological Disruption to Labor Market in the Age of AI - Systemic Impacts and Adaptive Responses
 date: 2025-04-30
 description: 📍
-categories: Research
+categories: Research-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
