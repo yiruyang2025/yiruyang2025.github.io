@@ -3,7 +3,7 @@ layout: post
 title: Books and Summary
 date: 2025-04-26
 description: ‪🏖️‬
-categories: Research
+categories: Research-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -12,18 +12,18 @@ images:
   venobox: true
 ---
 
-Hi there ✨！<br>
+Hi there ✨！<br><br>
 Pls discuss if any of these pique your interest!<br><br><br><br>
 
-# 1. April 2025<br>
+# 1. April 2025<br><br>
 
-**1.1** [2025, Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)<br>
+**1.1** [2025, Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)<br><br>
 
 
 **1.2**
 
 
-<br><br><br>
+<br><br><br><br>
 
 # 2026<br>
 
