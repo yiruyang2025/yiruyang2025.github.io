@@ -48,17 +48,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Speech-Processing-25/";
           
         },
-      },{id: "post-pancake-time-with-chess-puzzles",
-        
-          title: "Pancake Time with Chess Puzzles",
-        
-        description: "🥞",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Pancake-Time-with-Chess-Puzzles/";
-          
-        },
       },{id: "post-benchmarks-for-speech-processing-post-training-25",
         
           title: "Benchmarks for Speech Processing Post-training - 25",
@@ -68,6 +57,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
+          
+        },
+      },{id: "post-pancake-time-with-chess-puzzles",
+        
+          title: "Pancake Time with Chess Puzzles",
+        
+        description: "🥞",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Pancake-Time-with-Chess-Puzzles/";
           
         },
       },{id: "post-economics-bedtime-stories-26",
