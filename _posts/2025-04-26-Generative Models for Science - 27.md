@@ -3,7 +3,7 @@ layout: post
 title: Generative Models for Science - 27
 date: 2025-04-26
 description: 🫐
-categories: Research-super-cool
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
