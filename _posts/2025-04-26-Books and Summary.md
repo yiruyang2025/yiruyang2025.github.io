@@ -13,7 +13,7 @@ images:
 ---
 
 Hi there ✨！<br><br>
-Pls discuss if any of these pique your interest!<br><br><br><br>
+Pls discuss if any of these pique your interest!<br><br><br>
 
 # 1. April 2025<br><br>
 
@@ -25,7 +25,8 @@ Pls discuss if any of these pique your interest!<br><br><br><br>
 
 <br><br><br><br>
 
-# 2026<br>
+# 2026<br><br>
+
 
 **1.3** [2016, The Probabilistic Method, 4th Edition](https://dokumen.pub/the-probabilistic-method-4th-edition-4ed-1119061954-978-1-119-06195-3.html)<br><br><br><br>
 
