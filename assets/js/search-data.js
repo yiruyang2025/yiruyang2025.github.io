@@ -114,15 +114,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
-      },{id: "post-generative-models-for-science-25",
+      },{id: "post-generative-models-for-science-27",
         
-          title: "Generative Models for Science - 25",
+          title: "Generative Models for Science - 27",
         
         description: "🫐",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Generative-Models-for-Science/";
+            window.location.href = "/blog/2025/Generative-Models-for-Science-27/";
           
         },
       },{id: "post-books-and-summary",
