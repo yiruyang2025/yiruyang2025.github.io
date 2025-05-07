@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Economics Bedtime Stories - 26
-date: 2025-04-25
+title: Economics Bedtime Stories - 25
+date: 2025-05-04
 description: 🎠
-categories: Life
+categories: Research-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -23,7 +23,7 @@ Causal identification in policy evaluation is a central challenge in economic re
 The key here is to Reduce the Variance first.
 <br><br>
 
-**TLDR - Key References**<br><br>
+**TLDR - Key References**<br>
 
 - [2025 IZA World of Labor - Machine learning for causal inference in economics](https://wol.iza.org/articles/machine-learning-for-causal-inference-in-economics/long)<br><br>
 
@@ -32,11 +32,11 @@ The key here is to Reduce the Variance first.
 
 
 - [Causal forest](https://grf-labs.github.io/grf/reference/causal_forest.html)<br>
-- [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)<br>
+- [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)
 
 
 
-<br><br><br><br>
+<br><br><br>
 
 
 **Key References**<br><br>
@@ -63,12 +63,9 @@ The key here is to Reduce the Variance first.
  
 # 3. Others<br><br>
 
-
-- GitHub Projects
-  - [Economics PINN: Deep learning for solving and estimating dynamic macro-finance models, Yale, Lu Group](https://github.com/lu-group/pinn-macro-finance)<br><br><br><br>
-
 - References<br><br>
   - [The economy needs agent-based modelling, 2009.](https://www.nature.com/articles/460685a)<br><br>
+  - [Economics PINN: Deep learning for solving and estimating dynamic macro-finance models](https://github.com/lu-group/pinn-macro-finance)<br><br>
   - [Payne, Jonathan, Adam Rebei, and Yucheng Yang. 2025. Deep Learning for Search and Matching Models. February 1, 2025.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5123878)<br><br>
   - [Xu, Jun, Xiangnan He, and Hang Li. 2020. Deep Learning for Matching in Search and Recommendation. Vol. XX, No. XX, pp. 1–193. DOI: XXX.](https://dl.acm.org/doi/abs/10.1145/3209978.3210181?casa_token=pq_eQ9XrOvsAAAAA:96fZTufb1_1bGgdg51D2tOeJWlvlHf8SYonh2ERMX5nCT3GaAoTGMDtqwg0f8Ls8ODbDSBpG5t-y)<br><br><br><br>
 
