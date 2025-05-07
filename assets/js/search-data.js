@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/Speech-Processing-25/";
           
         },
+      },{id: "post-economics-bedtime-stories-26",
+        
+          title: "Economics Bedtime Stories - 26",
+        
+        description: "⛺️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Economics-Bedtime-Stories-26/";
+          
+        },
       },{id: "post-benchmarks-for-speech-processing-post-training-25",
         
           title: "Benchmarks for Speech Processing Post-training - 25",
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Pancake-Time-with-Chess-Puzzles/";
-          
-        },
-      },{id: "post-economics-bedtime-stories-26",
-        
-          title: "Economics Bedtime Stories - 26",
-        
-        description: "🎠",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Economics-Bedtime-Stories-26/";
           
         },
       },{id: "post-api-design-25",
