@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why「Deep」Structures - 25
-date: 2025-05-04
+date: 2025-04-27
 description: ⛺️
 categories: Research-super-cool
 thumbnail: assets/img/9.jpg
