@@ -12,6 +12,6 @@ images:
   venobox: true
 ---
 
-Hi there, welcome to Gaming Time ✨! 
+Welcome to the Pancake Time ✨! 
 
 <br><br><br><br>
