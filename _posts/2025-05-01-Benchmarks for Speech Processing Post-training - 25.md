@@ -31,9 +31,7 @@ pending<br><br>
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 2023 | **VoiceMOS (Zero-shot)** | Out-of-domain MOS prediction challenge metric | 1–5 (↑) |
-| 2024 | **MOSA-Net** | Multi-objective no-reference (quality + intelligibility + distortion) | metric-specific (↑) |
-| 2024 | **DNSMOS-Pro** | Lightweight on-device variant of DNSMOS | 1–5 (↑) |
+
 
 
 <br><br><br><br>
@@ -42,8 +40,7 @@ pending<br><br>
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 2023 | **G-MOS** | Cross-domain crowd MOS (VoiceMOS’23) | 1–5 (↑) |
-| 2024 | **SASV-EER** | Joint speaker-&-spoof error rate (SASV Challenge) | 0–1 (↓) |
+
 
 <br><br><br><br>
 
@@ -51,8 +48,7 @@ pending<br><br>
 
 | Year | Metric | Description | Typical Range |
 |------|--------|-------------|---------------|
-| 2023 | **ASR-BLEU** | BLEU on ASR transcripts of output speech | 0–100 (↑) |
-| 2024 | **BLASER 2.0** | Reference-free cross-modal quality metric | 0–1 (↑) |
+
 
 
 
