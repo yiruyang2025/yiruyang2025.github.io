@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Generative Models for Science - 25
+title: Generative Models for Science - 27
 date: 2025-04-26
 description: 🫐
-categories: AI/ML
+categories: Research-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
