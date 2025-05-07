@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-pancake-time-with-chess-puzzles",
+        },{id: "post-why-deep-structures-25",
+        
+          title: "Why「Deep」Structures - 25",
+        
+        description: "🏄",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Why-Deep-Structures-25/";
+          
+        },
+      },{id: "post-pancake-time-with-chess-puzzles",
         
           title: "Pancake Time with Chess Puzzles",
         
@@ -112,17 +123,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Generative-Models-for-Science/";
-          
-        },
-      },{id: "post-deep-learning-25-spring",
-        
-          title: "Deep Learning - 25 Spring",
-        
-        description: "🏄",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Deep-Learning-25-Spring/";
           
         },
       },{id: "post-books-and-summary",
