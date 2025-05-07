@@ -67,7 +67,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
+            window.location.href = "/blog/2025/Benchmarks-for-Voice-Models-Post-training/";
           
         },
       },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses",
