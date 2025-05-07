@@ -114,17 +114,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
-      },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses-27",
-        
-          title: "Technological Disruption to Labor Market in the Age of AI - Systemic Impacts...",
-        
-        description: "📍",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Technological-Disruption-to-Labor-Market-in-the-Age-of-AI-Systemic-Impacts-and-Adaptive-Responses-27/";
-          
-        },
       },{id: "post-generative-models-for-science-27",
         
           title: "Generative Models for Science - 27",
@@ -145,6 +134,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Books-and-Summary/";
+          
+        },
+      },{id: "post-ai-x-labor-market-27",
+        
+          title: "AI x Labor Market - 27",
+        
+        description: "🎠",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AI-x-Labor-Market-27/";
           
         },
       },{id: "books-the-godfather",
