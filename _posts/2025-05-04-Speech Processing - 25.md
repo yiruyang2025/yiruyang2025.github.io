@@ -62,7 +62,7 @@ pending<br><br>
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
 
 
-**2.2 Post-Training**<br><br><br><br>
+**2.2 Post-Training**<br><br>
 
 - **Pre-Train Style**<br><br>
 
@@ -91,7 +91,7 @@ pending<br><br>
 
 **3.2 Task Targeted Post-training will Degrade the model's performance on other Tasks - e.g. Safety Alignment**
 
-- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)<br><br><br><br>
+- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)<br><br>
 
 - 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
 
@@ -107,7 +107,7 @@ pending<br><br>
 
 
 
-# 4. Recent Technical Advances - pay attention to the 📍 ones<br><br><br><br>
+# 4. Recent Technical Advances - pay attention to the 📍 ones<br><br>
 
 
 
@@ -185,7 +185,7 @@ pending<br><br>
 - Computational Efficiency<br><br>
 
 
-- Customization / Personalization<br><br><br><br>
+- Customization / Personalization<br><br>
 
 
 
@@ -230,11 +230,14 @@ pending<br><br>
 
 # References
 
-- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br>
+- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
+
+
+<br><br><br><br>
 
 # Jounals and Conferences (pending)
 
-<br><br><br><br><br><br>
+<br><br>
 
 
 1.1 [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
