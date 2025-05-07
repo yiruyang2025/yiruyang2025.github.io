@@ -67,7 +67,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Benchmarks-for-Voice-Models-Post-training/";
+            window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
       },{id: "post-technological-disruption-to-labor-market-in-the-age-of-ai-systemic-impacts-and-adaptive-responses",
@@ -81,9 +81,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/Technological-Disruption-to-Labor-Market-in-the-Age-of-AI-Systemic-Impacts-and-Adaptive-Responses/";
           
         },
-      },{id: "post-voice-models-25",
+      },{id: "post-speech-processing-25",
         
-          title: "Voice Models - 25",
+          title: "Speech Processing - 25",
         
         description: "🥥",
         section: "Posts",
