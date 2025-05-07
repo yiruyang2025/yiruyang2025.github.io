@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speech Processing - 25
-date: 2025-04-29
+date: 2025-05-04
 description: 🥥
 categories: Researcb-super-cool
 thumbnail: assets/img/9.jpg
@@ -232,7 +232,10 @@ pending<br><br>
 
 - [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU) <br><br>
 
-# 📘 Top Journals in Speech and Language Research
+# Jounals and Conferences (pending)
+
+<br><br><br><br><br><br>
+
 
 1.1 [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
 Top-tier open-access journal by ACL for high-quality NLP research.<br><br>
