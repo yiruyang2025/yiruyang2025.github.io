@@ -3,7 +3,7 @@ layout: post
 title: Why「Deep」Structures - 26
 date: 2025-04-27
 description: ⛺️
-categories: Research-super-cool
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
