@@ -12,12 +12,12 @@ images:
   venobox: true
 ---
 
-Welcome to story time✨!<br><br><br><br>
+Welcome to story time✨!<br><br><br>
 
 
 # Topics for 2026<br><br>
 
-# 1. 🩵 Causal Inference in Policy Design x Economics (The Favourite one)<br><br>
+# 1. 🩵 Causal Inference in Policy Design x Economics - The Favourite one<br><br>
 
 Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
 The key here is to Reduce the Variance first.
