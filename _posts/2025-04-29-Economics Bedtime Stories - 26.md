@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Economics Bedtime Stories - 25
-date: 2025-05-04
+title: Economics Bedtime Stories - 26
+date: 2025-04-29
 description: 🎠
 categories: Research-super-cool
 thumbnail: assets/img/9.jpg
