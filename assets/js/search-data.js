@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-why-deep-structures-25",
-        
-          title: "Why「Deep」Structures - 25",
-        
-        description: "🏄",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Why-Deep-Structures-25/";
-          
-        },
-      },{id: "post-pancake-time-with-chess-puzzles",
+        },{id: "post-pancake-time-with-chess-puzzles",
         
           title: "Pancake Time with Chess Puzzles",
         
@@ -101,6 +90,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/API-Design/";
+          
+        },
+      },{id: "post-why-deep-structures-25",
+        
+          title: "Why「Deep」Structures - 25",
+        
+        description: "⛺️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Why-Deep-Structures-25/";
           
         },
       },{id: "post-lessons-learnt-from-parents-and-grandparents",
