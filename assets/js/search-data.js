@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-pancake-time-with-chess-puzzles",
+        },{id: "post-speech-processing-25",
+        
+          title: "Speech Processing - 25",
+        
+        description: "🥥",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Speech-Processing-25/";
+          
+        },
+      },{id: "post-pancake-time-with-chess-puzzles",
         
           title: "Pancake Time with Chess Puzzles",
         
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Technological-Disruption-to-Labor-Market-in-the-Age-of-AI-Systemic-Impacts-and-Adaptive-Responses/";
-          
-        },
-      },{id: "post-speech-processing-25",
-        
-          title: "Speech Processing - 25",
-        
-        description: "🥥",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Speech-Processing-25/";
           
         },
       },{id: "post-api-design-25",
