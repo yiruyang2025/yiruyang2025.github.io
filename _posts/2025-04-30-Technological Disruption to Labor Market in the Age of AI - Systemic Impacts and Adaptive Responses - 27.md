@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technological Disruption to Labor Market in the Age of AI - Systemic Impacts and Adaptive Responses - 27
-date: 2025-04-30
+date: 2025-04-26
 description: 📍
 categories: Research-super-cool
 thumbnail: assets/img/9.jpg
@@ -14,9 +14,9 @@ images:
 
 Hi there ✨!<br><br>
 
-Reading and Writing Alwaaaaays makes me feel So Excited! 
+Reading and Writing Always makes me feel So Excited.
 
-Hopefully this article can be completed in 2026. 
+Hopefully this article can be completed in 2027. The underlying of the topic actually still is [Causal Inference in Policy Design](https://yiruyang2025.github.io/blog/2025/Economics-Bedtime-Stories-26/)
 
 Also, if you're interested in the field of Academic Economics, pay attention to our Top 5 journals:<br><br>
 
