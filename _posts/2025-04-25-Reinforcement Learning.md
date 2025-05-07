@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Reinforcement Learning - 25
+title: Economics Bedtime Stories - 26
 date: 2025-04-25
-description: 🤖
-categories: AI/ML
+description: 🎠
+categories: Life
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -12,22 +12,63 @@ images:
   venobox: true
 ---
 
-Welcome ✨!<br><br><br><br>
+Welcome to story time✨!<br><br><br><br>
 
 
-# 1. Projects for Coding in Reinforcement Learning<br><br>
+# Topics for 2026<br><br>
+
+# 1. Causal Inference x Policy Design in Econ (Favourite one)**<br><br>
+
+Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.<br><br>
+
+**TLDR - Key References**<br><br>
+
+- [2025 IZA World of Labor - Machine learning for causal inference in economics](https://wol.iza.org/articles/machine-learning-for-causal-inference-in-economics/long)<br><br>
+
+
+**Possible Solutions 🪨**<br>
+
+- [Causal forest](https://grf-labs.github.io/grf/reference/causal_forest.html)<br>
+- [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)<br>
+
+
+
+<br><br><br><br>
+
+
+**Key References**<br><br>
+
+- [2024, Estimating Causal Effects with Double Machine Learning -- A Method Evaluation](https://arxiv.org/abs/2403.14385)<br><br>
+
+- [2024, How do applied researchers use the Causal Forest? A methodological review of a method](https://arxiv.org/abs/2404.13356)<br><br>
+
+- [2023, IMF - Dining and Wining During the Pandemic? A Quasi-Experiment on Tax Cuts and Consumer Spending](https://books.google.ch/books?hl=en&lr=&id=TTHYEAAAQBAJ&oi=fnd&dq=Dining+and+Wining+During+the+Pandemic%3F+A+Quasi-Experiment+on+Tax+Cuts+and+Consumer+Spending&ots=rmHpNy83Ob&sig=3h07y-XrNnesJefX2Pf8FvkPQVI&redir_esc=y)<br><br>
+
+- [2023, Swiss Journal of Economics and Statistics - Causal Machine Learning and its use for public policy](https://link.springer.com/article/10.1186/s41937-023-00113-y)<br><br>
+
+- [2022, Econometrica - Automatic Debiased Machine Learning of Causal and Structural Effects](https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA18515?casa_token=STItJz1tJSIAAAAA%3Ajk68Kw29nujyb4bmBRn3Ji59ixhLbN1Vh3cB5TNRySXR-TO0nHLakCnm3-U_EUDFIfJ1uCwxTbKbtHc)<br><br>
+
+- [2019, IMF - Machine Learning and Causality: The Impact of Financial Crises on Growth](https://books.google.ch/books?hl=en&lr=&id=Ta0aEAAAQBAJ&oi=fnd&pg=PA1&dq=https://www.imf.org/-/media/Files/Publications/WP/2019/wpiea2019228-print-pdf.ashx&ots=gKd_K9KoTO&sig=v9UueJTOOxRLbzSKN7sLG16ylV4&redir_esc=y#v=onepage&q&f=false)<br><br>
+
+<br><br>
+
+
+# 2. Why does History Reduplicate Itself<br><br>
+
+
+ 
+# 3. Others<br><br>
 
 
 - GitHub Projects
   - [Economics PINN: Deep learning for solving and estimating dynamic macro-finance models, Yale, Lu Group](https://github.com/lu-group/pinn-macro-finance)<br><br><br><br>
 
-
-# 2. Deep Learning for Search and Matching Models<br><br>
-
 - Key References<br><br>
   - [The economy needs agent-based modelling, 2009.](https://www.nature.com/articles/460685a)<br><br>
   - [Payne, Jonathan, Adam Rebei, and Yucheng Yang. 2025. Deep Learning for Search and Matching Models. February 1, 2025.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5123878)<br><br>
   - [Xu, Jun, Xiangnan He, and Hang Li. 2020. Deep Learning for Matching in Search and Recommendation. Vol. XX, No. XX, pp. 1–193. DOI: XXX.](https://dl.acm.org/doi/abs/10.1145/3209978.3210181?casa_token=pq_eQ9XrOvsAAAAA:96fZTufb1_1bGgdg51D2tOeJWlvlHf8SYonh2ERMX5nCT3GaAoTGMDtqwg0f8Ls8ODbDSBpG5t-y)<br><br><br><br>
+
+
 
 
 
