@@ -3,7 +3,7 @@ layout: post
 title: Speech Processing - 25
 date: 2025-05-04
 description: 🥥
-categories: Researcb-super-cool
+categories: Research-super-cool
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
