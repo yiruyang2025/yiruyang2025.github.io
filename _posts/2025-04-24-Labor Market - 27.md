@@ -30,12 +30,13 @@ Also, if you're interested in the field of Academic Economics, pay attention to 
 **For Working Papers**:
 
 - 1 [NBER Working Papers](https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date)
-- 2 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
-- 3 [VoxEU.org](https://cepr.org/voxeu)
-- 4 [Nobel Prize-winning Research](https://www.nobelprize.org/prizes/economic-sciences/)
-- 5 [John Bates Clark Medal - AEA](https://www.aeaweb.org/about-aea/honors-awards/bates-clark)
-- 6 [BBVA Frontiers of Knowledge Award – Economics, Finance, and Management](https://www.fbbva.es/en/)
-- 7 [Yrjö Jahnsson Award - EEA](https://www.eeassoc.org/awards/yrjo-jahnsson-award)<br><br><br>
+- 2 [SSRN - Social Science Research Network](https://www.ssrn.com/index.cfm/en/)
+- 3 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
+- 4 [VoxEU.org](https://cepr.org/voxeu)
+- 5 [Nobel Prize-winning Research](https://www.nobelprize.org/prizes/economic-sciences/)
+- 6 [John Bates Clark Medal - AEA](https://www.aeaweb.org/about-aea/honors-awards/bates-clark)
+- 7 [BBVA Frontiers of Knowledge Award – Economics, Finance, and Management](https://www.fbbva.es/en/)
+- 8 [Yrjö Jahnsson Award - EEA](https://www.eeassoc.org/awards/yrjo-jahnsson-award)<br><br><br>
 
 
 **Others**:
