@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Representation Learning - 25
-date: 2025-05-08
+date: 2025-05-06
 description: 🇨🇭
 categories: AI/ML
 thumbnail: assets/img/9.jpg
@@ -12,4 +12,4 @@ images:
   venobox: true
 ---
 
-No welcome session here ✨, a little bit tired after reading too many papers.<br><br>
+No welcome session here, a little bit tired after reading too many papers.<br><br>
