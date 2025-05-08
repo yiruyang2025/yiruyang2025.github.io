@@ -21,7 +21,7 @@ Welcome to story time✨!<br><br><br>
 # 1.📍 Causal Inference in Policy Design x Economics - The Favourite one<br><br>
 
 Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
-The key here is to Reduce the Variance first.
+The key here is to Reduce the Estimator Variance first.
 <br><br>
 
 **TLDR - Key References**<br>
