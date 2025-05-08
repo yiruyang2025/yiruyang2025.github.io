@@ -34,7 +34,7 @@ Core Evolution of Voice Models:
 
 <br><br><br>
 
-# 1. Latest Models in Industry<br><br>
+# 1. Sample Models from Industry<br><br>
 
 
 pending<br><br>
@@ -62,9 +62,13 @@ demo 1<br><br>
 
 demo 2<br><br>
 
-- **Reinforcement-Learning Style**<br><br><br><br>
+- **Reinforcement-Learning Style**<br><br>
 
 demo 3<br><br>
+
+
+
+<br><br>
 
 
 # 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
