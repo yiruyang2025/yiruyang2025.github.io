@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI x Labor Market - 27
+title: Labor Market - 27
 date: 2025-04-26
 description: 🎠
 categories: AI/ML
@@ -12,11 +12,11 @@ images:
   venobox: true
 ---
 
-Hi there ✨!<br>
+Hi there!<br>
 
 Reading and Writing Always makes me feel So Excited.
 
-Hopefully this article can be completed in 2027. The underlying of the topic actually still is [Causal Inference in Policy Design](https://yiruyang2025.github.io/blog/2025/Economics-Bedtime-Stories-26/)
+Hopefully this article can be completed in 2027. The underlying of the topic actually still is **[Causal Inference in Policy Design](https://yiruyang2025.github.io/blog/2025/Economics-Bedtime-Stories-26/)**
 
 Also, if you're interested in the field of Academic Economics, pay attention to our **Top 5 journals**:<br><br>
 
