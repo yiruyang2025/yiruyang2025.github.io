@@ -13,7 +13,7 @@ images:
 ---
 
 
-Welcome to story time✨!<br><br><br>
+Welcome to story time✨!<br><br>
 
 
 # Topic for 2025<br><br>
@@ -33,10 +33,8 @@ The key here is to Reduce the Estimator Variance first.
 
 - [Causal forest](https://grf-labs.github.io/grf/reference/causal_forest.html)<br>
 - [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)
-
-- **Regularization**<br>
-
-- Others can be compared with - Principal Component Analysis (PCA) or wavelet transforms<br>
+- **Regularization**
+- PCA - Principal Component Analysis
 
 <br><br>
 
