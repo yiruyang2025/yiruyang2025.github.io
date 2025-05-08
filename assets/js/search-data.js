@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Speech Processing - 25",
         
-        description: "⛺️",
+        description: "🥥",
         section: "Posts",
         handler: () => {
           
