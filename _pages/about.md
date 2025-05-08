@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-- Hi there 👋, welcome to my Study Camp✨! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
+- Hi there, welcome to my Study Camp✨! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - 📍 Programming - Python, (C++), Ruby, Java
 - Currently Studying - Speech Processing, Policy Design x Econ, Generative Models x Science
 - Pls kindly teach if u are good at - NLP, CAG, Parallel Computing
@@ -38,7 +38,7 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains!
 
-- Creating is super cool (as always) & Tech helps (hopefully), Cheers🥂!
+- Sometimes Economics for Policy Design is super cool & Tech helps (hopefully), Cheers!
 
 
 <div style="height: 7.5rem;"></div>
