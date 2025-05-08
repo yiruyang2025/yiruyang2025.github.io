@@ -42,6 +42,8 @@ Also, if you're interested in the field of Academic Economics, pay attention to 
 
 - 1 [Journal of Finance](https://afajof.org/)
 - 2 [The Accounting Review](https://www.jstor.org/journal/accountingreview)
+- 3 [JEL Classification System / EconLit Subject Descriptors](https://www.aeaweb.org/econlit/jelCodes.php)
+- 4 [IMF - Working papers](https://www.imf.org/en/Publications/WP)
 
 
 <br><br><br>
