@@ -114,6 +114,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
+      },{id: "post-labor-market-27",
+        
+          title: "Labor Market - 27",
+        
+        description: "🎠",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Labor-Market-27/";
+          
+        },
       },{id: "post-generative-models-for-science-27",
         
           title: "Generative Models for Science - 27",
@@ -134,17 +145,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Books-and-Summary/";
-          
-        },
-      },{id: "post-ai-x-labor-market-27",
-        
-          title: "AI x Labor Market - 27",
-        
-        description: "🎠",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/AI-x-Labor-Market-27/";
           
         },
       },{id: "books-the-godfather",
