@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Labor Market - 27
-date: 2025-04-26
+date: 2025-04-24
 description: 🎠
 categories: AI/ML
 thumbnail: assets/img/9.jpg
