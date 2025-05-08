@@ -2,7 +2,7 @@
 layout: post
 title: Speech Processing - 25
 date: 2025-05-04
-description: 🥥
+description: ⛺️
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
