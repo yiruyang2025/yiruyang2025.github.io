@@ -37,7 +37,7 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains!
 
-- Sometimes Economics for Policy Design is super cool & Tech helps (hopefully), Cheers!
+- Creating is super cool & Tech helps (hopefully), Cheers!
 
 
 <div style="height: 7.5rem;"></div>
