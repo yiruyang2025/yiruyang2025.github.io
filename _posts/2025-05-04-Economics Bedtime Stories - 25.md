@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Economics Bedtime Stories - 26
-date: 2025-05-02
+title: Economics Bedtime Stories - 25
+date: 2025-05-04
 description: ⛺️
 categories: Research-super-cool
 thumbnail: assets/img/9.jpg
@@ -17,7 +17,7 @@ Welcome to story time✨!<br><br><br>
 
 # Topics for 2026<br><br>
 
-# 1. 🩵 Causal Inference in Policy Design x Economics - The Favourite one<br><br>
+# 1.📍 Causal Inference in Policy Design x Economics - The Favourite one<br><br>
 
 Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
 The key here is to Reduce the Variance first.
