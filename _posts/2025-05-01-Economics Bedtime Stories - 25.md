@@ -73,5 +73,39 @@ The key here is to Reduce the Estimator Variance first.
 
 
 
+If you're interested in the field of Academic Economics, pay attention to our **Top 5 journals**:<br><br>
+
+- 1 [AER - American Economic Review](https://www.aeaweb.org/journals/aer)
+- 2 [QJE - Quarterly Journal of Economics](https://academic.oup.com/qje)
+- 3 [JPE - Journal of Political Economy](https://www.journals.uchicago.edu/loi/jpe)
+- 4 [Econometrica](https://www.econometricsociety.org/publications/econometrica)
+- 5 [Review of Economic Studies](https://academic.oup.com/restud)<br><br><br><br>
+
+
+**For Working Papers**:
+
+- 1 [NBER Working Papers](https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date)
+- 2 [SSRN - Social Science Research Network](https://www.ssrn.com/index.cfm/en/)
+- 3 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
+- 4 [VoxEU.org](https://cepr.org/voxeu)
+- 5 [Nobel Prize-winning Research](https://www.nobelprize.org/prizes/economic-sciences/)
+- 6 [John Bates Clark Medal - AEA](https://www.aeaweb.org/about-aea/honors-awards/bates-clark)
+- 7 [BBVA Frontiers of Knowledge Award – Economics, Finance, and Management](https://www.fbbva.es/en/)
+- 8 [Yrjö Jahnsson Award - EEA](https://www.eeassoc.org/awards/yrjo-jahnsson-award)<br><br><br>
+
+
+**Others**:
+
+- 1 [Journal of Finance](https://afajof.org/)
+- 2 [The Accounting Review](https://www.jstor.org/journal/accountingreview)
+- 3 [JEL Classification System / EconLit Subject Descriptors](https://www.aeaweb.org/econlit/jelCodes.php)
+- 4 [IMF - Working papers](https://www.imf.org/en/Publications/WP)
+
+
+<br><br><br>
+
+
+
+
 
 
