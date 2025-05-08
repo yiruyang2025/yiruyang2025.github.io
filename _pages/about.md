@@ -27,17 +27,17 @@ latest_posts:
 --- 
 - Hi there, welcome to my Study Camp ✨! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - 📍 Programming - Python, (C++), Ruby, Java
-- Currently Studying - Speech Processing, Policy Design x Econ, Generative Models x Science
-- Feel free to teach if u are good at - Riemannian geometry, High-dimensional statistics, CAG, Parallel Computing
+- Currently Studying - Speech Processing, Generative Models x Science
+- Feel free to teach if u are good at - CAG, Parallel Computing
 
 - In the long run, would like to have some Contribution - #AI for Science - e.g. optical Experiments Simulation by Diffusion models, #AI products for disabled people - e.g. Voice assistants 
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist))
 - 🪐 Enjoy reading Philosophy, Munger, Warren Buffett
 
-- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains!
+- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming 🖌️, Alumni (*always can learn a lot from them) from all different domains
 
-- Creating is super cool & Tech helps (hopefully), Cheers!
+- Creating is super cool & Tech helps (hopefully), Cheers
 
 
 <div style="height: 7.5rem;"></div>
