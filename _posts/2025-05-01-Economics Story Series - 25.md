@@ -85,8 +85,8 @@ If you're interested in the field of Academic Economics, pay attention to our **
 **For Working Papers**:
 
 - 1 [NBER Working Papers](https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date)
-- 2 [SSRN - Social Science Research Network](https://www.ssrn.com/index.cfm/en/)
-- 3 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
+- 2 [Journal of Economic Literature (JEL)](https://www.aeaweb.org/journals/jel)
+- 3 [SSRN - Social Science Research Network](https://www.ssrn.com/index.cfm/en/)
 - 4 [VoxEU.org](https://cepr.org/voxeu)
 - 5 [Nobel Prize-winning Research](https://www.nobelprize.org/prizes/economic-sciences/)
 - 6 [John Bates Clark Medal - AEA](https://www.aeaweb.org/about-aea/honors-awards/bates-clark)
@@ -98,8 +98,7 @@ If you're interested in the field of Academic Economics, pay attention to our **
 
 - 1 [Journal of Finance](https://afajof.org/)
 - 2 [The Accounting Review](https://www.jstor.org/journal/accountingreview)
-- 3 [JEL Classification System / EconLit Subject Descriptors](https://www.aeaweb.org/econlit/jelCodes.php)
-- 4 [IMF - Working papers](https://www.imf.org/en/Publications/WP)
+- 3 [IMF - Working papers](https://www.imf.org/en/Publications/WP)
 
 
 <br><br><br>
