@@ -88,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yiru's Study Notes
-blog_description: Speech Processing + Causal Inference in Policy Evaluation - 2025
+blog_name: Study Camp 2025
+blog_description: Speech Processing x AI Products
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
