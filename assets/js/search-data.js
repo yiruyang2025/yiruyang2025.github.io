@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-economics-bedtime-stories-25",
+        },{id: "post-representation-learning-25",
+        
+          title: "Representation Learning - 25",
+        
+        description: "🇨🇭",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Representation-Learning-25/";
+          
+        },
+      },{id: "post-economics-bedtime-stories-25",
         
           title: "Economics Bedtime Stories - 25",
         
