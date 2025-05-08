@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "Speech Processing - 25",
         
-        description: "🦩",
+        description: "🥥",
         section: "Posts",
         handler: () => {
           
@@ -63,7 +63,7 @@ ninja.data = [{
         
           title: "Benchmarks for Speech Processing Post-training - 25",
         
-        description: "🦩",
+        description: "🥥",
         section: "Posts",
         handler: () => {
           
