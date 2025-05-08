@@ -74,7 +74,7 @@ ninja.data = [{
         
           title: "Pancake Time with Chess Puzzles",
         
-        description: "🥞",
+        description: "🥥",
         section: "Posts",
         handler: () => {
           
