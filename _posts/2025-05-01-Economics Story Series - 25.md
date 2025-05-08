@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Economics Story Series - 25
+title: A Regularization Method for Causal Inference Identification - 26
 date: 2025-05-01
 description: ⛺️
 categories: Research-super-cool
