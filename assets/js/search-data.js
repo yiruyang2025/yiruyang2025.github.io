@@ -70,9 +70,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
-      },{id: "post-economics-story-series-25",
+      },{id: "post-a-regularization-method-for-causal-inference-identification-26",
         
-          title: "Economics Story Series - 25",
+          title: "A Regularization Method for Causal Inference Identification - 26",
         
         description: "⛺️",
         section: "Posts",
