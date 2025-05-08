@@ -147,17 +147,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Books-and-Summary/";
           
         },
-      },{id: "post-labor-market-27",
-        
-          title: "Labor Market - 27",
-        
-        description: "🎠",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Labor-Market-27/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
