@@ -12,10 +12,11 @@ images:
   venobox: true
 ---
 
+
 Welcome to story time✨!<br><br><br>
 
 
-# Topics for 2026<br><br>
+# Topic for 2025<br><br>
 
 # 1.📍 Causal Inference in Policy Design x Economics - The Favourite one<br><br>
 
@@ -55,12 +56,14 @@ The key here is to Reduce the Variance first.
 <br><br>
 
 
-# 2. Why does History Reduplicate Itself<br><br>
+# Topics for 2026<br><br>
+
+# 1. Why does History Reduplicate Itself<br><br>
 
 <br><br><br><br><br><br><br><br>
 
  
-# 3. Models Matching<br><br>
+# 2. Models Matching<br><br>
 
 - References<br><br>
   - [The economy needs agent-based modelling, 2009.](https://www.nature.com/articles/460685a)<br><br>
