@@ -70,15 +70,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
-      },{id: "post-economics-bedtime-stories-25",
+      },{id: "post-economics-story-series-25",
         
-          title: "Economics Bedtime Stories - 25",
+          title: "Economics Story Series - 25",
         
         description: "⛺️",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Economics-Bedtime-Stories-25/";
+            window.location.href = "/blog/2025/Economics-Story-Series-25/";
           
         },
       },{id: "post-pancake-time-with-chess-puzzles",
