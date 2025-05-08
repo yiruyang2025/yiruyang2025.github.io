@@ -39,16 +39,6 @@ Core Evolution of Voice Models:
 
 pending<br><br>
 
-**1.1 Google Sound Amplifier, 2019**
-  - [Sound Amplifier](https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier)
-  - [AudioEffect API](https://developer.android.com/reference/android/media/audiofx/AudioEffect)<br><br>
- 
-**1.2 Rogervoice, 2014**
-  - [Rogervoice](https://rogervoice.com/)
-  - [GitHub repository](https://github.com/rogervoice)<br><br>
-
-**1.3 Pedius, 2013**
-  - [Pedius](https://www.pedius.org/zh/zhuye/)<br><br><br><br>
 
 
 
@@ -66,13 +56,15 @@ pending<br><br>
 
 - **Pre-Train Style**<br><br>
 
+demo 1<br><br>
 
 - **Supervised-Fine-Tuning Style**<br><br>
 
+demo 2<br><br>
 
 - **Reinforcement-Learning Style**<br><br><br><br>
 
-
+demo 3<br><br>
 
 
 # 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
@@ -108,8 +100,6 @@ pending<br><br>
 
 
 # 4. Recent Technical Advances - pay attention to the 📍 ones<br><br>
-
-
 
 - **2025 – [Neuralink – gets FDA nod for chip that will let speech impaired people speak, human trials soon](https://x.com/neuralink/status/1918005257252098197)**  <br><br>
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
@@ -205,26 +195,7 @@ pending<br><br>
 
 # 7. Others<br><br>
 
-**7.1 ASR: Automatic Speech Recognition**
-  - [Whisper - OpenAI](https://github.com/openai/whisper)
 
-
-**7.2 TTS: Text-to-Speech**
-  - [Tacotron2 - Google](https://github.com/Rayhane-mamah/Tacotron-2)
-
-
-**7.3 Voice Cloning / Real-Time TTS**
-  - [ElevenLabs](https://elevenlabs.io/)
-  - [Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
-
-
-**7.4 Emotion & Multi-speaker TTS**
-  - [ChatTTS - 中英对话](https://github.com/2noise/ChatTTS)
-  - [OpenVoice](https://github.com/myshell-ai/OpenVoice)
-
-**7.5 Audio Agents**
-  - [GPT-4 Turbo with Audio](https://openai.com/gpt-4-turbo/)
-  - [FunAudioLLM](https://github.com/FunAudioLLM)  <br><br><br><br>
 
 
 
