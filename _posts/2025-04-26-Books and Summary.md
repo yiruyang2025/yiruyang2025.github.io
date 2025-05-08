@@ -3,7 +3,7 @@ layout: post
 title: Books and Summary
 date: 2025-04-26
 description: ‪🏖️‬
-categories: Research-super-cool
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
