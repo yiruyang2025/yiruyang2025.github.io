@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Economics Bedtime Stories - 25
+title: Economics Story Series - 25
 date: 2025-05-01
 description: ⛺️
 categories: Research-super-cool
