@@ -25,7 +25,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2014 | End-to-end ASR                   | DeepSpeech ([Hannun et al.](https://arxiv.org/abs/1412.5567))     |
 | 2017 | Tacotron (neural TTS)            | Tacotron ([Wang et al.](https://arxiv.org/abs/1703.10135))        |
 | 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
-| 2020 | Self-supervised speech learning  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
+| 2020 | Self-supervised                  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
 | 2022 | Multilingual speech models       | Whisper ([OpenAI, 2022](https://github.com/openai/whisper))       |
 | 2023 | Zero-shot voice cloning          | VALL-E  ([Microsoft, 2023](https://arxiv.org/abs/2301.02111))     |
 | 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
@@ -34,26 +34,61 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-**0.2 Technical History**
+**0.2 Key Technical History**
 
-| Period        | Model Category                  | Core Principle                                          |
-|---------------|---------------------------------|---------------------------------------------------------|
-| 2014–2017     | RNN - LSTM / GRU                | Sequence modeling, Solved vanishing gradient issues     |
-| 2018–2020     | Transformer / Conformer         | Self-Attention + CNN, Parallelizable computation        |
-| 2019–2022     | GAN-based Models*               | TTS, Real-time audio Denoising for Hearing Aids         |
-| 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                    |
-| Present       | SSL, Lightweight                | Self-supervised learning, Compression, Distillation     |
+| Period        | Model Category                  | Core Principle                                                     |
+|---------------|---------------------------------|--------------------------------------------------------------------|
+| 2014–2017     | RNN - LSTM / GRU                | Sequence modeling, LSTM / GRU Solved vanishing gradient issues     |
+| 2018–2020     | Transformer / Conformer         | Self-Attention + CNN, Parallelizable computation for Efficiency    |
+| 2019–2022     | GAN-based Models                | TTS, Real-time audio Denoising for Hearing Aids                    |
+| 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                               |
+| Present       | SSL, Lightweight                | Self-supervised learning, Compression, Distillation                |
 
 
 <br><br>
 
 # 1. Sample Models from Industry<br><br>
 
+**1.1 wav2vec 2.0 - Self-supervised**<br>
 
-
+- [Baevski et al.](https://arxiv.org/abs/2006.11477)<br>
+- [GitHub - facebookresearch/fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec) <br>
 
 
 <br><br>
+
+**1.2 VALL-E - Zero-shot**<br>
+
+- [Microsoft, 2023](https://arxiv.org/abs/2301.02111)<br>
+- [Unofficial GitHub Implementation](https://github.com/enhuiz/vall-e)<br>
+
+
+<br><br>
+
+**1.3 FastDiff - Diffusion-based**<br>
+
+- [Huang et al.](https://arxiv.org/abs/2305.10973)<br>
+- [GitHub - FastDiff](https://github.com/yl4579/FastDiff)<br>
+
+
+<br><br>
+
+**1.4 EnCodec - Neural Audio Codec**<br>
+
+- [Défossez et al., Meta (2022)](https://arxiv.org/abs/2210.13438) <br> 
+- [GitHub - facebookresearch/encodec](https://github.com/facebookresearch/encodec)<br>
+
+<br><br>
+
+**1.5 AudioLM 2 - Multi-modal** - will discuss in the future <br>
+
+- [Borsos et al., 2024](https://arxiv.org/abs/2402.05427)<br>  
+- [Google Research AudioLM Page](https://google-research.github.io/seanet/audiolm/)<br> 
+
+
+<br><br><br><br>
+
+
 
 # 2. Model Training<br><br>
 
@@ -113,15 +148,12 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
 <br><br>
 
-
 - 📍 **2024 – [Fast Timing-Conditioned Latent Audio Diffusion](https://openreview.net/forum?id=jOlO8t1xdx)**  <br><br>
-
 
 - 📍 **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
   Proposes a novel approach to text-to-speech synthesis using minimal supervision while maintaining high fidelity, making TTS systems more accessible for low-resource settings.<br><br>
 
 - 📍 **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
-
 
 - **2023 – [Voicebox: Versatile Generative Speech AI (Meta)](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)**  <br><br>
   A generative model capable of text-to-speech, style transfer, noise removal, and speech editing using just 2 seconds of input audio.<br><br>
@@ -186,7 +218,8 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 - [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
 
-<br><br>
+
+<br><br><br><br>
 
 
 **5.2 Aspects**<br><br>
@@ -246,10 +279,5 @@ Publishes state-of-the-art techniques in audio, speech recognition, signal enhan
 
 - [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
 A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
-
-
-
-
-
 
 
