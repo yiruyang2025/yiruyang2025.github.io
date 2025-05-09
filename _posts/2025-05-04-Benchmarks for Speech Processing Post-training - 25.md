@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Welcome ✨!  <br><br>
+Welcome!  <br><br>
 
 
 # 1.Introduction<br><br>
