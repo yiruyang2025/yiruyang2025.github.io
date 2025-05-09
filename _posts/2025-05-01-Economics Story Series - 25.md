@@ -34,7 +34,7 @@ The key here is to Reduce the Estimator Variance first.
 - [Causal forest](https://grf-labs.github.io/grf/reference/causal_forest.html)<br>
 - [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)
 - **Regularization** - [2022 IMF - Structural Reforms and Economic Growth: A Machine Learning Approach](https://books.google.ch/books?hl=en&lr=&id=vNqPEAAAQBAJ&oi=fnd&pg=PA2&dq=Structural+Reforms+and+Economic+Growth:+A+Machine+Learning+Approach&ots=Qd7GZ_OtMf&sig=ssZQ6t--rYGayW8nPml6WRfVKyo&redir_esc=y#v=onepage&q=Structural%20Reforms%20and%20Economic%20Growth%3A%20A%20Machine%20Learning%20Approach&f=false)
-- PCA - Principal Component Analysis - [2024 IMF - Exchange Rate Dynamics: A Principal Components Analysis](https://www.elibrary.imf.org/view/journals/002/2024/071/article-A003-en.xml)
+- [PCA - Principal Component Analysis - 2024 IMF - Exchange Rate Dynamics: A Principal Components Analysis](https://www.elibrary.imf.org/view/journals/002/2024/071/article-A003-en.xml)
 
 <br><br>
 
