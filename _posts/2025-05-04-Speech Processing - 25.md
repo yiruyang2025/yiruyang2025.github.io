@@ -18,7 +18,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 0. Some Background Knowledge<br><br>
 
-- **Core Evolution of Voice Models:**
+- **Core Evolution of Voice Models**
 
 | Year | Milestone                        | Model / Paper                                                     |
 |------|----------------------------------|-------------------------------------------------------------------|
@@ -32,13 +32,20 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427))     |
 
 
-<br>
+<br><br>
+
+- **Technical History**
+
+| Period        | Model Category                  | Core Principle                                          |
+|---------------|---------------------------------|---------------------------------------------------------|
+| 2014–2017     | **RNN - LSTM / GRU**            | Sequence modeling, Solved vanishing gradient issues     |
+| 2018–2020     | **Transformer / Conformer**     | Self-Attention + CNN, Parallelizable computation        |
+| 2019–2022     | **GAN-based Models**            | TTS, Real-time audio Denoising for Hearing Aids         |
+| 2021–Present  | **Diffusion Models**            | Zero-shot / Few-shot                                    |
+| Present       | **SSL, Lightweight**            | Self-supervised learning, Compression, Distillation     |
 
 
-
-
-
-<br>
+<br><br>
 
 # 1. Sample Models from Industry<br><br>
 
