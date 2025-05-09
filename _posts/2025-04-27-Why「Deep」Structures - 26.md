@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Welcome ✨!<br><br>
+Welcome!<br><br>
 
 Let's take a look at the history of Deep Learning Models we're using today.<br><br>
 
