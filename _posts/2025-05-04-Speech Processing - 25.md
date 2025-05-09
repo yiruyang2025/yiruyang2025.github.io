@@ -18,7 +18,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 0. Some Background Knowledge<br><br>
 
-- **Core Evolution of Voice Models**
+**0.1 Core Evolution of Voice Models**
 
 | Year | Milestone                        | Model / Paper                                                     |
 |------|----------------------------------|-------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-- **Technical History**
+**0.2 Technical History**
 
 | Period        | Model Category                  | Core Principle                                          |
 |---------------|---------------------------------|---------------------------------------------------------|
