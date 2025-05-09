@@ -180,7 +180,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 5. Products for Disabled People / Hearing Aid Enhancement<br><br>
 
-
 **5.1 Aspects**<br><br>
 
 - Model Adaptability<br><br>
@@ -203,12 +202,21 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br><br><br>
 
-# References
+
+
+# 6. Some Startups<br><br>
+
+- **[AudioShake](https://www.audioshake.ai/)**
+
+<br><br>
+
+- **[ElevenLabs](https://elevenlabs.io/)**
 
 <br><br>
 
 
 <br><br><br><br>
+
 
 # Jounals and Conferences (pending)
 
