@@ -26,7 +26,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2017 | Tacotron (neural TTS)            | Tacotron ([Wang et al.](https://arxiv.org/abs/1703.10135))        |
 | 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
 | 2020 | Self-supervised speech learning  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
-| 2022 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
+| 2022 | Multilingual speech models       | Whisper ([OpenAI, 2022](https://github.com/openai/whisper))       |
 | 2023 | Zero-shot voice cloning          | VALL-E  ([Microsoft, 2023](https://arxiv.org/abs/2301.02111))     |
 | 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
 | 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427))     |
@@ -38,11 +38,11 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 | Period        | Model Category                  | Core Principle                                          |
 |---------------|---------------------------------|---------------------------------------------------------|
-| 2014–2017     | **RNN - LSTM / GRU**            | Sequence modeling, Solved vanishing gradient issues     |
-| 2018–2020     | **Transformer / Conformer**     | Self-Attention + CNN, Parallelizable computation        |
-| 2019–2022     | **GAN-based Models**            | TTS, Real-time audio Denoising for Hearing Aids         |
-| 2021–Present  | **Diffusion Models**            | Zero-shot / Few-shot                                    |
-| Present       | **SSL, Lightweight**            | Self-supervised learning, Compression, Distillation     |
+| 2014–2017     | RNN - LSTM / GRU                | Sequence modeling, Solved vanishing gradient issues     |
+| 2018–2020     | Transformer / Conformer         | Self-Attention + CNN, Parallelizable computation        |
+| 2019–2022     | GAN-based Models*               | TTS, Real-time audio Denoising for Hearing Aids         |
+| 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                    |
+| Present       | SSL, Lightweight                | Self-supervised learning, Compression, Distillation     |
 
 
 <br><br>
