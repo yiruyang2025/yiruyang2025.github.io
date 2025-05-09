@@ -74,7 +74,7 @@ ninja.data = [{
         
           title: "Pancake Time with Chess Puzzles",
         
-        description: "🥞",
+        description: "🥥",
         section: "Posts",
         handler: () => {
           
@@ -107,7 +107,7 @@ ninja.data = [{
         
           title: "Lessons Learnt from parents and grandparents",
         
-        description: "🦩",
+        description: "🩵",
         section: "Posts",
         handler: () => {
           
