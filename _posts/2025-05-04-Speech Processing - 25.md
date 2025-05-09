@@ -82,13 +82,11 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
-
+# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br>
 
 **3.1 Catastrophic Forgetting**
 - 2024 [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
-- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br><br>
-
+- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br>
 
 **Possible Solutions 🪨**
 - 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
@@ -99,17 +97,13 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 **3.2 Task Targeted Post-training will Degrade the model's performance on other Tasks - e.g. Safety Alignment**
 
 - Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)
-- 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
+- 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br>
 
 
-**Possible Solutions 🪨**<br><br><br><br>
+**Possible Solutions 🪨**
 
 
-
-**3.3 Benchmarks**
-
-- 2024 [Dynamic-SUPERB Phase-2: A Collaboratively Expanding Benchmark for Measuring the Capabilities of Spoken Language Models with 180 Tasks](https://arxiv.org/abs/2411.05361)<br><br><br><br>
-
+<br><br><br><br>
 
 
 
@@ -176,8 +170,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   One of the first end-to-end deep learning systems for large-scale speech recognition, trained on hundreds of hours of data.<br><br><br><br>
 
 
-
-
 # 5. Products for Disabled People / Hearing Aid Enhancement<br><br>
 
 
@@ -194,9 +186,10 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 
 **5.2 Products**<br><br>
-- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)
-- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
+- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
 
+
+- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
 
 
 
@@ -214,19 +207,19 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 <br><br>
 
 
-1.1 [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
+- [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
 Top-tier open-access journal by ACL for high-quality NLP research.<br><br>
 
-1.2 [Computational Linguistics (MIT Press)](https://direct.mit.edu/coli)<br>
+- [Computational Linguistics (MIT Press)](https://direct.mit.edu/coli)<br>
 The longest-running journal dedicated exclusively to computational linguistics and NLP theory and systems.<br><br>
 
-1.3 [Speech Communication (Elsevier)](https://www.journals.elsevier.com/speech-communication)<br>
+- [Speech Communication (Elsevier)](https://www.journals.elsevier.com/speech-communication)<br>
 Covers research in speech processing, perception, and spoken dialogue systems across science and engineering.<br><br>
 
-1.4 [IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)](https://dl.acm.org/journal/taslp)<br>
+- [IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)](https://dl.acm.org/journal/taslp)<br>
 Publishes state-of-the-art techniques in audio, speech recognition, signal enhancement, and language processing.<br><br>
 
-1.5 [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
+- [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
 A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
 
 
