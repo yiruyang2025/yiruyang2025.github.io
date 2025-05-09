@@ -107,7 +107,7 @@ ninja.data = [{
         
           title: "Lessons Learnt from parents and grandparents",
         
-        description: "🩵",
+        description: "🦩",
         section: "Posts",
         handler: () => {
           
