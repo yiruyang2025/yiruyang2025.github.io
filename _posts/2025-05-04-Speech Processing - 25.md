@@ -18,7 +18,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 0. Some Background Knowledge<br>
 
-Core Evolution of Voice Models:
+**0.1 Core Evolution of Voice Models:**
 
 | Year | Milestone                        | Model / Paper                                                     |
 |------|----------------------------------|-------------------------------------------------------------------|
@@ -29,10 +29,16 @@ Core Evolution of Voice Models:
 | 2022 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
 | 2023 | Zero-shot voice cloning          | VALL-E  [Microsoft, 2023](https://arxiv.org/abs/2301.02111)       |
 | 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
-| 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427)      |
+| 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427))      |
 
 
-<br><br>
+<br>
+
+
+
+
+
+<br>
 
 # 1. Sample Models from Industry<br><br>
 
@@ -42,9 +48,9 @@ Core Evolution of Voice Models:
 
 <br><br>
 
-# 2. Model Training<br>
+# 2. Model Training<br><br>
 
-**2.1 Pre-training with text**<br><br>
+**2.1 Pre-training with text**<br>
 
 - [Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
 - [OpenAI - Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
@@ -52,24 +58,21 @@ Core Evolution of Voice Models:
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
 
 
-**2.2 Post-Training**<br><br>
+**2.2 Post-Training**<br>
 
+- **Pre-Train Style**
+  - 📍 **Distillation**
+  - Self-supervised / Label-free representation Learning
+  - demo 1<br><br>
 
-- **Pre-Train Style**<br><br>
+- **Supervised-Fine-Tuning Style**
+  - 📍 **Adapter (LoRA / QLoRA)**
+  - Prompt-tuning 
+  - demo 2<br><br>
 
-- 📍 **Distillation**
-- Self-supervised (Label-free representation learning)
-- demo 1<br><br>
+- **Reinforcement-Learning Style**
 
-- **Supervised-Fine-Tuning Style**<br><br>
-
-- 📍 **Adapter (LoRA / QLoRA)**
-- Prompt-tuning 
-- demo 2<br><br>
-
-- **Reinforcement-Learning Style**<br><br>
-
-- RLHF<br>
+  - RLHF<br>
 
 <br><br>
 
