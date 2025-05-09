@@ -205,7 +205,7 @@ demo 3<br><br>
 
 # References
 
-- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
+<br><br>
 
 
 <br><br><br><br>
