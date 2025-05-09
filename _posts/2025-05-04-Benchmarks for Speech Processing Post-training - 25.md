@@ -2,7 +2,7 @@
 layout: post
 title: Benchmarks for Speech Processing Post-training - 25
 date: 2025-05-04
-description: ⛺️
+description: 🥥
 categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
