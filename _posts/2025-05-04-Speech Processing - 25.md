@@ -82,7 +82,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br>
+# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
 
 **3.1 Catastrophic Forgetting**
 - 2024 [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
@@ -180,7 +180,17 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 5. Products for Disabled People / Hearing Aid Enhancement<br><br>
 
-**5.1 Aspects**<br><br>
+**5.1 Key References**<br><br>
+
+- [2023 A scoping review of literature using speech recognition technologies by individuals with disabilities in multiple contexts](https://pubmed.ncbi.nlm.nih.gov/34670100/)<br><br>
+
+- [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
+
+
+<br><br><br><br>
+
+
+**5.2 Aspects**<br><br>
 
 - Model Adaptability<br><br>
 
@@ -192,7 +202,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 
 
-**5.2 Products**<br><br>
+**5.3 Products**<br><br>
 - 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
 
 
