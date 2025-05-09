@@ -13,7 +13,7 @@ images:
 ---
 
 
-Welcome to story time :) !<br><br>
+Welcome to story time :) <br><br>
 
 
 # Topic for 2025<br><br>
