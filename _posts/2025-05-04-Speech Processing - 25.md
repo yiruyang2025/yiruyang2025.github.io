@@ -12,11 +12,11 @@ images:
   venobox: true
 ---
 
-Welcome ✨! 
+Welcome! 
 
 Let's start with the Model Post-training for Hearing Assistance - An Coding Demo Example using xxxxx<br><br>
 
-# 0. Some Background Knowledge<br><br>
+# 0. Some Background Knowledge<br>
 
 Core Evolution of Voice Models:
 
@@ -32,17 +32,17 @@ Core Evolution of Voice Models:
 | 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427)      |
 
 
-<br><br><br>
+<br><br>
 
 # 1. Sample Models from Industry<br><br>
 
 
-pending<br><br>
 
 
 
+<br><br>
 
-# 2. Model Training<br><br>
+# 2. Model Training<br>
 
 **2.1 Pre-training with text**<br><br>
 
@@ -54,29 +54,31 @@ pending<br><br>
 
 **2.2 Post-Training**<br><br>
 
+
 - **Pre-Train Style**<br><br>
 
-demo 1<br><br>
+- 📍 **Distillation**
+- Self-supervised (Label-free representation learning)
+- demo 1<br><br>
 
 - **Supervised-Fine-Tuning Style**<br><br>
 
-demo 2<br><br>
+- 📍 **Adapter (LoRA / QLoRA)**
+- Prompt-tuning 
+- demo 2<br><br>
 
 - **Reinforcement-Learning Style**<br><br>
 
-demo 3<br><br>
-
-
+- RLHF<br>
 
 <br><br>
-
 
 # 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
 
 
 **3.1 Catastrophic Forgetting**
 - 2024 [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
-- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br><br><br>
+- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br><br>
 
 
 **Possible Solutions 🪨**
