@@ -186,8 +186,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 - [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
 
-
-<br><br><br><br>
+<br><br>
 
 
 **5.2 Aspects**<br><br>
