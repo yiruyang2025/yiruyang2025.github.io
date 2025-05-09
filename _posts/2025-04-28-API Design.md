@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Welcome ✨!<br><br>
+Welcome!<br><br>
 Let me tell u how to design a your own API
 
 
