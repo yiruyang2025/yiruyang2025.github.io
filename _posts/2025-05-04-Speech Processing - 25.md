@@ -16,9 +16,9 @@ Welcome!
 
 Let's start with the Model Post-training for Hearing Assistance - An Coding Demo Example using xxxxx<br><br>
 
-# 0. Some Background Knowledge<br>
+# 0. Some Background Knowledge<br><br>
 
-**0.1 Core Evolution of Voice Models:**
+- **Core Evolution of Voice Models:**
 
 | Year | Milestone                        | Model / Paper                                                     |
 |------|----------------------------------|-------------------------------------------------------------------|
@@ -27,9 +27,9 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2019 | Real-time voice synthesis        | FastSpeech ([Ren et al.](https://arxiv.org/abs/1905.09263))       |
 | 2020 | Self-supervised speech learning  | wav2vec 2.0 ([Baevski et al.](https://arxiv.org/abs/2006.11477))  |
 | 2022 | Multilingual speech models       | Whisper (OpenAI, 2022)                                            |
-| 2023 | Zero-shot voice cloning          | VALL-E  [Microsoft, 2023](https://arxiv.org/abs/2301.02111)       |
+| 2023 | Zero-shot voice cloning          | VALL-E  ([Microsoft, 2023](https://arxiv.org/abs/2301.02111))     |
 | 2023–2024 | Diffusion-based TTS         | FastDiff ([Huang et al.](https://arxiv.org/abs/2305.10973))       |
-| 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427))      |
+| 2024 | Multi-modal voice models         | AudioLM 2 ([Borsos et al.](https://arxiv.org/abs/2402.05427))     |
 
 
 <br>
@@ -55,23 +55,22 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - [Spirit LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
 - [OpenAI - Navigating the Challenges and Opportunities of Synthetic Voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices/)
 - [Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
-- [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br><br>
+- [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 
 **2.2 Post-Training**<br>
 
 - **Pre-Train Style**
-  - 📍 **Distillation**
+  - 📍 Distillation
   - Self-supervised / Label-free representation Learning
   - demo 1<br><br>
 
 - **Supervised-Fine-Tuning Style**
-  - 📍 **Adapter (LoRA / QLoRA)**
+  - 📍 Adapter (LoRA / QLoRA)
   - Prompt-tuning 
   - demo 2<br><br>
 
 - **Reinforcement-Learning Style**
-
   - RLHF<br>
 
 <br><br>
@@ -92,8 +91,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 **3.2 Task Targeted Post-training will Degrade the model's performance on other Tasks - e.g. Safety Alignment**
 
-- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)<br><br>
-
+- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)
 - 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br><br><br>
 
 
@@ -189,24 +187,13 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 
 **5.2 Products**<br><br>
-- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
-- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)<br><br><br><br>
+- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)
+- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
 
 
 
 
-
-# 6. Speech Processing Labs<br><br><br><br>
-
-
-
-
-
-# 7. Others<br><br>
-
-
-
-
+<br><br><br><br>
 
 # References
 
