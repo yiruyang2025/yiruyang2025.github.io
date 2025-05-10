@@ -62,6 +62,10 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
+- [BERT - 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://chatgpt.com/c/681f9200-1028-8007-b453-bb0a10a1ccb0) - Masked Language Modeling - MLM
+
+<br><br>
+
 - [Conformer - 2020 Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
 
 <br><br>
