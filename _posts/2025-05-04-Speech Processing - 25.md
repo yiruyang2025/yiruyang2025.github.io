@@ -152,11 +152,11 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 - **Pre-Train Style**
   - 📍 Distillation
-  - Self-supervised / Label-free representation Learning
+  - SSL
   - demo 1<br><br>
 
 - **Supervised-Fine-Tuning Style**
-  - 📍 Adapter (LoRA / QLoRA)
+  - 📍 Adapter - LoRA / QLoRA
   - Prompt-tuning 
   - demo 2<br><br>
 
