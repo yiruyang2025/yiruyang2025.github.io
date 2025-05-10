@@ -71,7 +71,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-- Diffusion Models<br>
+- **Diffusion Models**<br>
 
   - [2015 Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)<br>
   
@@ -80,7 +80,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-- SSL<br>
+- **SSL**<br>
 
   - [2016 - Vision - Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles](https://arxiv.org/abs/1603.09246)<br>
   - [2020 - Vision - Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722)<br>
