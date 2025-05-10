@@ -84,7 +84,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
   - [2016 - Vision - Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles](https://arxiv.org/abs/1603.09246)<br>
   - [2020 - Vision - Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722)<br>
-  - [2019 - Speech - wav2vec - Meta: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)<br>
+  - [2019 - Speech - wav2vec - Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)<br>
 
 
 <br><br>
