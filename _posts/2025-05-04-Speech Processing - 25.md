@@ -314,6 +314,123 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 <br><br><br><br>
 
 
+# 7. Some Terms and their Nature<br><br>
+
+- **Attention** - Vector of Importance Weights<br>
+
+- **Encoder** - Bidirectional RNN<br>
+
+- **Additive Attention** - [2014 Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)<br>
+
+- **Dot-product Attention** - [2023 Attention Is All You Need](https://arxiv.org/abs/1706.03762)<br>
+
+
+
+
+---
+layout: post
+title: "Understanding Additive and Dot-Product Attention Mechanisms"
+date: 2025-05-10
+description: "An in-depth look at Additive and Dot-Product Attention with mathematical formulations."
+tags: [attention, deep learning, NLP]
+categories: [machine-learning]
+related_posts: false
+---
+
+In this post, we explore two fundamental attention mechanisms in deep learning: **Additive Attention** and **Dot-Product Attention**.
+
+### Additive Attention
+
+Additive Attention computes the attention scores using a feed-forward neural network:
+
+$$
+e_i = \mathbf{v}^T \tanh(\mathbf{W}_1 \mathbf{q} + \mathbf{W}_2 \mathbf{k}_i)
+$$
+
+$$
+\alpha_i = \frac{\exp(e_i)}{\sum_j \exp(e_j)}
+$$
+
+$$
+\mathbf{c} = \sum_i \alpha_i \mathbf{v}_i
+$$
+
+### Dot-Product Attention
+
+Dot-Product Attention calculates the attention scores by taking the dot product of the query and key vectors:
+
+$$
+e_i = \mathbf{q}^T \mathbf{k}_i
+$$
+
+$$
+\alpha_i = \frac{\exp(e_i)}{\sum_j \exp(e_j)}
+$$
+
+$$
+\mathbf{c} = \sum_i \alpha_i \mathbf{v}_i
+$$
+
+### Scaled Dot-Product Attention
+
+To mitigate the issue of large dot product values in high-dimensional spaces, Scaled Dot-Product Attention scales the dot products:
+
+$$
+\text{Attention}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left( \frac{\mathbf{Q} \mathbf{K}^T}{\sqrt{d_k}} \right) \mathbf{V}
+$$
+
+Understanding these attention mechanisms is crucial for grasping the inner workings of models like Transformers and their applications in NLP tasks.
+
+
+<br><br>
+
+
+- **Attention Layer** - Parameterized by a simple feed-forward network<br>
+
+- **Decoder** - RNN with input from previous state + dynamic context vector<br>
+
+- [**Tensor2Tensor Notebook**](https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb)<br>
+
+- **Self-Attention** - <br>
+
+
+- **Multi-head Self-attention** - <br>
+
+
+- **Activation Functions** - <br>
+
+  - **Softmax**:  
+  $$ \alpha_i = \frac{\exp(e_i)}{\sum_j \exp(e_j)} $$  
+  Used to normalize attention scores into a probability distribution over keys<br>
+
+  - **Tanh**:  
+  $$ \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} $$  
+  Maps input to the range \([-1, 1]\), commonly used in RNNs and attention scoring<br>
+
+  - **ReLU (Rectified Linear Unit)**:  
+  $$ \text{ReLU}(x) = \max(0, x) $$  
+  Introduces sparsity and alleviates the vanishing gradient problem<br>
+
+  - **GELU (Gaussian Error Linear Unit)**:  
+  $$ \text{GELU}(x) = x \cdot \Phi(x) $$  
+  where $$ \Phi(x) = \frac{1}{2} \left[ 1 + \text{erf} \left( \frac{x}{\sqrt{2}} \right) \right] $$ is the standard Gaussian cumulative distribution function (CDF).  
+  GELU is smoother than ReLU and is widely used in Transformers<br>
+  
+ 
+<br><br>
+
+- **Why need Positional Encodings** - <br>
+
+- **Why Adding Residual Connections** - <br>
+
+- **Layer Normalization** - <br>
+
+
+<br><br><br><br>
+
+
+
+
 # Jounals and Conferences (pending)
 
 <br><br>
@@ -333,5 +450,18 @@ Publishes state-of-the-art techniques in audio, speech recognition, signal enhan
 
 - [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
 A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
+
+
+
+# References
+
+<br><br>
+
+- [2021 Attention, Transformer, and BERT](https://www.aiotlab.org/teaching/dl_app/slides/6_3_attention_n_bert.pdf)
+
+
+
+<br><br><br><br>
+
 
 
