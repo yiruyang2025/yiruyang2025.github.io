@@ -42,8 +42,51 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2018–2020     | Transformer / Conformer         | Self-Attention + CNN, Parallelizable computation for Efficiency    |
 | 2019–2022     | GAN-based Models                | TTS, Real-time audio Denoising for Hearing Aids                    |
 | 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                               |
-| Present       | SSL, Lightweight                | Self-supervised learning, Compression, Distillation                |
+| Present       | SSL / Lightweight               | Self-supervised learning, Compression, Distillation                |
 
+<br><br>
+
+- [RNN - 1990 Finding structure in time](https://www.sciencedirect.com/science/article/abs/pii/036402139090002E)
+
+<br><br>
+
+- [LSTM - 1997 Long Short-Term Memory](https://ieeexplore.ieee.org/abstract/document/6795963)
+
+<br><br>
+
+- GRU
+
+<br><br>
+
+- [Transformer - 2017 Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
+
+<br><br>
+
+- [Conformer - 2020 Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
+
+<br><br>
+
+- [GAN - 2014 Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
+
+
+<br><br>
+
+- Diffusion Models<br>
+  - [2015 Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)<br>
+  
+  - [2020 Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)<br>
+
+
+<br><br>
+
+- SSL<br>
+
+  - [2016 - Vision - Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles](https://arxiv.org/abs/1603.09246)<br>
+  - [2020 - Vision - Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722)<br>
+  - [2019 - Speech - wav2vec - Meta: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)<br>
+
+
+<br><br>
 
 <br><br>
 
