@@ -296,24 +296,38 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 6. Some Startups<br><br>
 
-- **[AudioShake](https://www.audioshake.ai/)**
+- **[AudioShake](https://www.audioshake.ai/)**<br>
+  - Key Tech<br>
+    - Stem Separation - **CNN / RNN**<br>
+  - Markets - Music production, film and television post-production, podcast editing, game audio processing, user-generated content - UGC<br>
 
 <br><br>
 
-- **[ElevenLabs](https://elevenlabs.io/)**
+- **[ElevenLabs](https://elevenlabs.io/)** <br>
+
+  - Key Tech - TTS, Voice Cloning, Voice Conversion, STT - **DNN**<br>
+  - Markets - Audiobooks, podcast production, game dubbing, virtual assistants, educational content, film and television dubbing<br>
+  - [Python SDK](https://github.com/elevenlabs/elevenlabs-python)<br>
 
 <br><br>
 
-- **[LiveKit](https://livekit.io/)**
+- **[LiveKit](https://livekit.io/)** <br>
+
+  - Key Tech - Real-Time Communication Platform, Voice AI Agent Framework, Edge Infrastructure<br>
+  - Markets - Live video conferencing, voice chat, virtual events, online education, customer support<br>
+  - [livekit](https://github.com/livekit/livekit)<br>
 
 <br><br>
 
-- **[RealAvatar.ai](https://www.realavatar.ai/)**
+- **[RealAvatar.ai](https://www.realavatar.ai/)** <br>
+
+  - Key Tech - Multimodal AI Interaction, AI Avatars - **DNN / Transformer**<br>
+  - Markets - Education and training, customer service, virtual assistant, online consultation, content creation<br>
+
 
 <br><br>
 
 
-- **[ElevenLabs](https://elevenlabs.io/)**
 
 <br><br><br><br>
 
