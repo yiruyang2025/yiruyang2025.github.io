@@ -12,6 +12,6 @@ images:
   venobox: true
 ---
 
-Welcome to the Pancake Time ✨! 
+Welcome to the Pancake Time :) 
 
 <br><br><br><br>
