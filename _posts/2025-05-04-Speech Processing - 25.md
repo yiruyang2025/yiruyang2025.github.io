@@ -348,7 +348,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 ### Additive Attention
 
-Additive Attention computes the attention scores using a feed-forward neural network:
+Additive Attention computes the attention scores using a feed-forward neural network
 
 $$
 e_i = \mathbf{v}^T \tanh(\mathbf{W}_1 \mathbf{q} + \mathbf{W}_2 \mathbf{k}_i)
@@ -364,7 +364,7 @@ $$
 
 ### Dot-Product Attention
 
-Dot-Product Attention calculates the attention scores by taking the dot product of the query and key vectors:
+Dot-Product Attention calculates the attention scores by taking the dot product of the query and key vectors
 
 $$
 e_i = \mathbf{q}^T \mathbf{k}_i
@@ -380,7 +380,7 @@ $$
 
 ### Scaled Dot-Product Attention
 
-To mitigate the issue of large dot product values in high-dimensional spaces, Scaled Dot-Product Attention scales the dot products:
+To mitigate the issue of large dot product values in high-dimensional spaces, Scaled Dot-Product Attention scales the dot products
 
 $$
 \text{Attention}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left( \frac{\mathbf{Q} \mathbf{K}^T}{\sqrt{d_k}} \right) \mathbf{V}
@@ -402,7 +402,7 @@ $$
 - **Multi-head Self-attention** - <br>
 
 
-- **Activation Functions** - <br>
+- **Activation Functions** <br>
 
   - **Softmax**:  
   $$ \alpha_i = \frac{\exp(e_i)}{\sum_j \exp(e_j)} $$  
@@ -418,7 +418,7 @@ $$
 
   - **GELU - Gaussian Error Linear Unit**:  
   $$ \text{GELU}(x) = x \cdot \Phi(x) $$  
-  where $$ \Phi(x) = \frac{1}{2} \left[ 1 + \text{erf} \left( \frac{x}{\sqrt{2}} \right) \right] $$ is the standard Gaussian cumulative distribution function (CDF).  
+  where $$ \Phi(x) = \frac{1}{2} \left[ 1 + \text{erf} \left( \frac{x}{\sqrt{2}} \right) \right] $$ is the standard Gaussian cumulative distribution function - CDF 
   GELU is smoother than ReLU and is widely used in Transformers<br>
   
  
