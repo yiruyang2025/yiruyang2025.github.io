@@ -13,7 +13,7 @@ images:
 ---
 
 
-Welcome ✨!
+Welcome!
 
 Let's take a look at the history of Generative Models for Science<br><br><br><br>
 
