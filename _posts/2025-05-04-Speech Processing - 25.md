@@ -54,7 +54,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-- GRU
+- [GRU - 2014 Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/)
 
 <br><br>
 
