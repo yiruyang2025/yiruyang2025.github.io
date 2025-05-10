@@ -263,7 +263,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
 
 
-<br><br><br><br>
+<br><br>
 
 
 **5.2 Aspects**<br><br>
@@ -325,20 +325,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - **Dot-product Attention** - [2023 Attention Is All You Need](https://arxiv.org/abs/1706.03762)<br>
 
 
-
-
----
-layout: post
-title: "Understanding Additive and Dot-Product Attention Mechanisms"
-date: 2025-05-10
-description: "An in-depth look at Additive and Dot-Product Attention with mathematical formulations."
-tags: [attention, deep learning, NLP]
-categories: [machine-learning]
-related_posts: false
----
-
-In this post, we explore two fundamental attention mechanisms in deep learning: **Additive Attention** and **Dot-Product Attention**.
-
 ### Additive Attention
 
 Additive Attention computes the attention scores using a feed-forward neural network:
@@ -379,8 +365,6 @@ $$
 \text{Attention}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left( \frac{\mathbf{Q} \mathbf{K}^T}{\sqrt{d_k}} \right) \mathbf{V}
 $$
 
-Understanding these attention mechanisms is crucial for grasping the inner workings of models like Transformers and their applications in NLP tasks.
-
 
 <br><br>
 
@@ -407,11 +391,11 @@ Understanding these attention mechanisms is crucial for grasping the inner worki
   $$ \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} $$  
   Maps input to the range \([-1, 1]\), commonly used in RNNs and attention scoring<br>
 
-  - **ReLU (Rectified Linear Unit)**:  
+  - **ReLU - Rectified Linear Unit**:  
   $$ \text{ReLU}(x) = \max(0, x) $$  
   Introduces sparsity and alleviates the vanishing gradient problem<br>
 
-  - **GELU (Gaussian Error Linear Unit)**:  
+  - **GELU - Gaussian Error Linear Unit**:  
   $$ \text{GELU}(x) = x \cdot \Phi(x) $$  
   where $$ \Phi(x) = \frac{1}{2} \left[ 1 + \text{erf} \left( \frac{x}{\sqrt{2}} \right) \right] $$ is the standard Gaussian cumulative distribution function (CDF).  
   GELU is smoother than ReLU and is widely used in Transformers<br>
@@ -433,8 +417,7 @@ Understanding these attention mechanisms is crucial for grasping the inner worki
 
 # Jounals and Conferences (pending)
 
-<br><br>
-
+<br>
 
 - [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
 Top-tier open-access journal by ACL for high-quality NLP research.<br><br>
@@ -451,11 +434,11 @@ Publishes state-of-the-art techniques in audio, speech recognition, signal enhan
 - [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
 A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
 
-
+<br><br>
 
 # References
 
-<br><br>
+<br>
 
 - [2021 Attention, Transformer, and BERT](https://www.aiotlab.org/teaching/dl_app/slides/6_3_attention_n_bert.pdf)
 
