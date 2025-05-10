@@ -72,6 +72,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 <br><br>
 
 - Diffusion Models<br>
+
   - [2015 Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)<br>
   
   - [2020 Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)<br>
