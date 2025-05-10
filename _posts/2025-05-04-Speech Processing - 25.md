@@ -80,7 +80,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-**^^1.5 AudioLM 2 - Multi-modal** - will discuss in the future <br>
+****<i>1.5 AudioLM 2 - Multi-modal<i>** - will discuss in the future <br>
 
 - [Borsos et al., 2024](https://arxiv.org/abs/2402.05427)<br>  
 - [Google Research AudioLM Page](https://google-research.github.io/seanet/audiolm/)<br> 
@@ -256,6 +256,16 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
+- **[LiveKit](https://livekit.io/)**
+
+<br><br>
+
+- **[RealAvatar.ai](https://www.realavatar.ai/)**
+
+<br><br>
+
+
+- **[ElevenLabs](https://elevenlabs.io/)**
 
 <br><br><br><br>
 
