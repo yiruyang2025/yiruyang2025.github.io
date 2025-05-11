@@ -3,7 +3,7 @@ layout: post
 title: Why「Deep」Structures - 26
 date: 2025-04-27
 description: ⛺️
-categories: AI/ML
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -49,10 +49,10 @@ Let's take a look at the history of Deep Learning Models we're using today.<br><
 
 
  - **GAN**
-  - Generator vs Discriminator<br>
-  - Generates Images, Audio<br>
-  - Popular in TTS, audio enhancement, and image generation<br>
-  - [2014 - Generative Adversarial Nets](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html)<br>
+   - Generator vs Discriminator<br>
+   - Generates Images, Audio<br>
+   - Popular in TTS, audio enhancement, and image generation<br>
+   - [2014 - Generative Adversarial Nets](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html)<br>
 
 <br><br>
 
