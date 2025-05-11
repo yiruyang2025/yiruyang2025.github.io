@@ -224,7 +224,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - 📍 **2020 – [wav2vec 2.0: Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)** <br><br> 
   Demonstrated state-of-the-art ASR using very limited labeled data via self-supervised learning on large-scale unlabeled audio.<br><br>
 
-- **2020 – [Conformer: Convolution-augmented Transformer for ASR](https://arxiv.org/abs/2005.08100)**  <br><br>
+- 📍 **2020 – [Conformer: Convolution-augmented Transformer for ASR](https://arxiv.org/abs/2005.08100)**  <br><br>
   Combined CNNs and Transformers for effective modeling of both local and global features in speech, improving ASR accuracy.<br><br>
 
 - **2019 – [Project Euphonia (Google)](https://blog.google/outreach-initiatives/accessibility/speech-accessibility-project/)**  <br><br>
@@ -245,13 +245,13 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - **2017 – [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)**  <br><br>
   A unified neural network that predicts speech spectrograms from character sequences, streamlining the TTS pipeline.<br><br>
 
-- **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
+- 📍 **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
   Introduced deep generative modeling of raw audio, setting a new bar for natural-sounding speech synthesis.<br><br>
 
 - **2015 – [Listen, Attend and Spell](https://arxiv.org/abs/1508.01211)**  <br><br>
   Proposed an attention-based sequence-to-sequence model for end-to-end speech recognition, replacing phoneme-based systems.<br><br>
 
-- **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
+- 📍 **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
   Demonstrated that deep learning can perform ASR across languages and noisy conditions without hand-engineered features.<br><br>
 
 - **2014 – [Deep Speech: Scaling up End-to-End Speech Recognition](https://arxiv.org/abs/1412.5567)**  
@@ -262,7 +262,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 **5.1 Key References**<br><br>
 
-- [2023 A scoping review of literature using speech recognition technologies by individuals with disabilities in multiple contexts](https://pubmed.ncbi.nlm.nih.gov/34670100/)<br><br>
+- [2023 A scoping review of literature using speech recognition technologies by individuals with disabilities in multiple contexts](https://pubmed.ncbi.nlm.nih.gov/34670100/)
 
 - [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
 
@@ -288,8 +288,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
 
 
-
-<br><br><br><br>
+<br><br><br>
 
 
 
@@ -298,9 +297,10 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - **[AudioShake](https://www.audioshake.ai/)**<br>
   - Key Tech<br>
     - Stem Separation - **CNN / RNN**<br>
-  - Markets - Music production, film and television post-production, podcast editing, game audio processing, user-generated content - UGC<br>
+  - Markets
+    - Music production, film and television post-production, podcast editing, game audio processing, user-generated content - UGC<br>
 
-<br><br>
+<br>
 
 - **[ElevenLabs](https://elevenlabs.io/)** <br>
 
@@ -329,8 +329,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - Markets
     - Education and training, customer service, virtual assistant, online consultation, content creation<br>
 
-
-<br><br>
 
 <br><br><br><br>
 
@@ -428,8 +426,9 @@ $$
 
 - **Why Adding Residual Connections** - To Ease Gradient Flow and Improve Training Stability in Deep Networks<br>
 
+<br><br><br>
 
-**### Normalizations**<br>
+### **Normalizations**<br>
 
 - **Layer Normalization - For Speech Processing - Transformer** - To normalize inputs across features, speeding up convergence and Improving Generalization<br>
 
@@ -454,8 +453,6 @@ $$
 - [ICASSP - IEEE Intl. Conf. on Acoustics, Speech and Signal Processing](https://2025.ieeeicassp.org/)<br>
 
 - [INTERSPEECH - Intl. Conf. on Spoken Language Processing](https://www.interspeech2025.org/home)<br>
-
-<br><br>
 
 - [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
 
