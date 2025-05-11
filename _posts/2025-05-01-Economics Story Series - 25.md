@@ -35,9 +35,14 @@ The key here is to Reduce the Estimator Variance first.
 
 - [Double/debiased machine learning - DML - by Sample-splitting, cross-fitting and repeated cross-fitting](https://docs.doubleml.org/stable/guide/resampling.html#sample-splitting-cross-fitting-and-repeated-cross-fitting)<br>
 
+- **Bayesian Shrinkage** - for Macro Panel - [2025 Bayesian Shrinkage in High-Dimensional VAR Models: A Comparative Study](https://arxiv.org/abs/2504.05489)<br>
+
 - **Regularization** - [2022 IMF - Structural Reforms and Economic Growth: A Machine Learning Approach](https://books.google.ch/books?hl=en&lr=&id=vNqPEAAAQBAJ&oi=fnd&pg=PA2&dq=Structural+Reforms+and+Economic+Growth:+A+Machine+Learning+Approach&ots=Qd7GZ_OtMf&sig=ssZQ6t--rYGayW8nPml6WRfVKyo&redir_esc=y#v=onepage&q=Structural%20Reforms%20and%20Economic%20Growth%3A%20A%20Machine%20Learning%20Approach&f=false)<br>
 
+- Random Walks - [2024 IMF - Reconciling Random Walks and Predictability: A Dual- Component Model of Exchange Rate Dynamics](https://www.imf.org/en/Publications/WP/Issues/2024/12/14/Reconciling-Random-Walks-and-Predictability-A-Dual-Component-Model-of-Exchange-Rate-Dynamics-559469)<br>
+
 - [PCA - Principal Component Analysis - 2024 IMF - Exchange Rate Dynamics: A Principal Components Analysis](https://www.elibrary.imf.org/view/journals/002/2024/071/article-A003-en.xml)
+  - [2024 IMF - Exchange Rate Dynamics: A Principal Components Analysis](https://www.elibrary.imf.org/view/journals/002/2024/071/article-A003-en.xml)
 
 <br><br>
 
