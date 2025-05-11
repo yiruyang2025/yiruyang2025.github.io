@@ -424,11 +424,24 @@ $$
  
 <br><br>
 
-- **Why need Positional Encodings** - <br>
+- **Why need Positional Encodings** - To give the model a sense of token order, since Transformers have no recurrence or convolution<br>
 
-- **Why Adding Residual Connections** - <br>
+- **Why Adding Residual Connections** - To Ease Gradient Flow and Improve Training Stability in Deep Networks<br>
 
-- **Layer Normalization** - <br>
+
+**### Normalizations**<br>
+
+- **Layer Normalization - For Speech Processing - Transformer** - To normalize inputs across features, speeding up convergence and Improving Generalization<br>
+
+- **Batch Normalization - CNN / MLP** - To stabilize learning by normalizing across the batch for each feature<br>
+
+- **Instance Normalization** - To normalize each sample per channel, useful for style transfer and Image Generation<br>
+
+- **Group Normalization - Small Batch Image Generation** - To divide channels into groups and normalize within each group<br>
+
+- **RMSNorm - Lightweight Transformer** - A simplified version of LayerNorm without centering the mean.<br>
+
+- **Weight Normalization - RL / Sparse Network** - Normalizes weight vectors instead of activations.<br>
 
 
 <br><br><br><br>
@@ -436,33 +449,15 @@ $$
 
 
 
-# Jounals and Conferences (pending)
+# References<br>
 
-<br>
+- [ICASSP - IEEE Intl. Conf. on Acoustics, Speech and Signal Processing](https://2025.ieeeicassp.org/)<br>
 
-- [Transactions of the Association for Computational Linguistics (TACL)](https://direct.mit.edu/tacl)<br>
-Top-tier open-access journal by ACL for high-quality NLP research.<br><br>
-
-- [Computational Linguistics (MIT Press)](https://direct.mit.edu/coli)<br>
-The longest-running journal dedicated exclusively to computational linguistics and NLP theory and systems.<br><br>
-
-- [Speech Communication (Elsevier)](https://www.journals.elsevier.com/speech-communication)<br>
-Covers research in speech processing, perception, and spoken dialogue systems across science and engineering.<br><br>
-
-- [IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)](https://dl.acm.org/journal/taslp)<br>
-Publishes state-of-the-art techniques in audio, speech recognition, signal enhancement, and language processing.<br><br>
-
-- [Journal of the Acoustical Society of America (JASA)](https://asa.scitation.org/journal/jas)<br>
-A foundational journal for research in acoustics, phonetics, speech production and perception.<br><br>
+- [INTERSPEECH - Intl. Conf. on Spoken Language Processing](https://www.interspeech2025.org/home)<br>
 
 <br><br>
 
-# References
-
-<br>
-
-- [2021 Attention, Transformer, and BERT](https://www.aiotlab.org/teaching/dl_app/slides/6_3_attention_n_bert.pdf)
-
+- [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
 
 
 <br><br><br><br>
