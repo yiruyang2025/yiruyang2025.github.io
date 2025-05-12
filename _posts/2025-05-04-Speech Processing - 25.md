@@ -230,26 +230,8 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - **2019 – [Project Euphonia (Google)](https://blog.google/outreach-initiatives/accessibility/speech-accessibility-project/)**  <br><br>
   Uses AI to improve ASR for users with atypical speech, such as those with ALS or other disorders, enhancing speech accessibility.<br><br>
 
-- **2019 – [Parrotron: End-to-End Speech Conversion for Atypical Speech](https://arxiv.org/abs/1904.04169)**  <br><br>
-  Converts unintelligible speech into more standard patterns using speech-to-speech models, aiding those with speech impairments.<br><br>
-
-- **2019 – [Translatotron: Direct Speech-to-Speech Translation](https://ai.googleblog.com/2019/05/introducing-translatotron.html)**  <br><br>
-  First model to perform speech-to-speech translation directly without intermediate text, even preserving speaker identity.<br><br>
-
-- **2018 – [Google Duplex](https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html)** <br><br> 
-  Demonstrated natural-sounding, automated phone conversations using advanced TTS and speech understanding in constrained domains.<br><br>
-
-- **2017 – [Tacotron 2: Natural TTS Synthesis](https://arxiv.org/abs/1712.05884)**  <br><br>
-  Combines a sequence-to-sequence model with WaveNet to produce highly natural-sounding synthetic speech.<br><br>
-
-- **2017 – [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)**  <br><br>
-  A unified neural network that predicts speech spectrograms from character sequences, streamlining the TTS pipeline.<br><br>
-
 - 📍 **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
   Introduced deep generative modeling of raw audio, setting a new bar for natural-sounding speech synthesis.<br><br>
-
-- **2015 – [Listen, Attend and Spell](https://arxiv.org/abs/1508.01211)**  <br><br>
-  Proposed an attention-based sequence-to-sequence model for end-to-end speech recognition, replacing phoneme-based systems.<br><br>
 
 - 📍 **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
   Demonstrated that deep learning can perform ASR across languages and noisy conditions without hand-engineered features.<br><br>
@@ -282,10 +264,10 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 
 **5.3 Products**<br><br>
-- 2024 Hearing Tracker - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
+- **2024 Hearing Tracker** - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
 
 
-- 2023 DNN - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
+- **2023 DNN** - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
 
 
 <br><br><br>
@@ -310,17 +292,18 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
     - Audiobooks, podcast production, game dubbing, virtual assistants, educational content, film and television dubbing<br>
   - [Python SDK](https://github.com/elevenlabs/elevenlabs-python)<br>
 
-<br><br>
+<br>
 
 - **[LiveKit](https://livekit.io/)** <br>
 
   - Key Tech
     - Real-Time Communication Platform, Voice AI Agent Framework, Edge Infrastructure<br>
+    - **Transformer / DNN / VAD**<br>
   - Markets
     - Live video conferencing, voice chat, virtual events, online education, customer support<br>
   - [livekit](https://github.com/livekit/livekit)<br>
 
-<br><br>
+<br>
 
 - **[RealAvatar.ai](https://www.realavatar.ai/)** <br>
 
@@ -419,8 +402,7 @@ $$
   where $$ \Phi(x) = \frac{1}{2} \left[ 1 + \text{erf} \left( \frac{x}{\sqrt{2}} \right) \right] $$ is the standard Gaussian cumulative distribution function - CDF 
   GELU is smoother than ReLU and is widely used in Transformers<br>
   
- 
-<br><br>
+<br>
 
 - **Why need Positional Encodings** - To give the model a sense of token order, since Transformers have no recurrence or convolution<br>
 
@@ -428,7 +410,7 @@ $$
 
 <br><br><br>
 
-### **Normalizations**<br>
+### **Normalizations**<br><br>
 
 - **Layer Normalization - For Speech Processing - Transformer** - To normalize inputs across features, speeding up convergence and Improving Generalization<br>
 
@@ -443,9 +425,7 @@ $$
 - **Weight Normalization - RL / Sparse Network** - Normalizes weight vectors instead of activations.<br>
 
 
-<br><br><br><br>
-
-
+<br><br><br>
 
 
 # References<br>
