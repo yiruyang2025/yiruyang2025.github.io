@@ -169,7 +169,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
   <br><br>
 
-- **Others - Generative Enhancement Style**
+- Others - Generative Enhancement Style
   - 📍 **DNN-GAN for Speech Denoising**
   - demo 3<br><br>
 
