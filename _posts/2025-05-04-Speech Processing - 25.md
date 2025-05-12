@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Welcome! 
+Welcome,
 
 Let's start with the Model Post-training for Hearing Assistance - An Coding Demo Example using xxxxx<br><br>
 
@@ -241,8 +241,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - 📍 **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
   Demonstrated that deep learning can perform ASR across languages and noisy conditions without hand-engineered features.<br><br>
 
-- **2014 – [Deep Speech: Scaling up End-to-End Speech Recognition](https://arxiv.org/abs/1412.5567)**  
-  One of the first end-to-end deep learning systems for large-scale speech recognition, trained on hundreds of hours of data.<br><br><br><br>
+<br><br>
 
 
 # 5. Products for Disabled People / Hearing Aid Enhancement<br><br>
@@ -287,7 +286,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - Markets
     - Music production, film and television post-production, podcast editing, game audio processing, user-generated content - UGC<br>
 
-<br>
 
 - **[ElevenLabs](https://elevenlabs.io/)** <br>
 
@@ -297,7 +295,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
     - Audiobooks, podcast production, game dubbing, virtual assistants, educational content, film and television dubbing<br>
   - [Python SDK](https://github.com/elevenlabs/elevenlabs-python)<br>
 
-<br>
 
 - **[LiveKit](https://livekit.io/)** <br>
 
@@ -308,7 +305,6 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
     - Live video conferencing, voice chat, virtual events, online education, customer support<br>
   - [livekit](https://github.com/livekit/livekit)<br>
 
-<br>
 
 - **[RealAvatar.ai](https://www.realavatar.ai/)** <br>
 
