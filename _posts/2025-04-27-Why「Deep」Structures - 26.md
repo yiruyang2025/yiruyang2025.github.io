@@ -16,9 +16,35 @@ Welcome!<br>
 
 Let's take a look at the history of Deep Learning Models we're using today.<br><br>
 
-# 1. Key Tech<br><br>
+# 1. What is「Deep Structure」<br><br>
 
-- **RNN**
+Compared with the original machine learning models:
+
+ - **Linear Regression / SVM / Shallow Decision Trees**
+ 
+ Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
+
+<br>
+
+These deep models are capable of **Learning Hierarchical Features**, where each layer captures increasingly abstract representations of the data.
+
+<br>
+
+In practice, "Deep" means:
+
+- More than 3–4 layers in fully connected networks
+
+- 10+ layers in convolutional networks
+
+- Or even hundreds of layers in modern transformers like GPT and BERT
+
+
+<br><br>
+
+
+# 2. Key Tech<br><br>
+
+- **RNN -> LSTM**
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
