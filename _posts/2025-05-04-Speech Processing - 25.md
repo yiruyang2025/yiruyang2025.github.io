@@ -99,32 +99,28 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 **1.1  - Self-supervised**<br>
 
-- [Baevski et al.](https://arxiv.org/abs/2006.11477)<br>
-- [GitHub - facebookresearch/fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec) <br>
+ <br>
 
 
 <br><br>
 
 **1.2 - Zero-shot**<br>
 
-- [Microsoft, 2023](https://arxiv.org/abs/2301.02111)<br>
-- [Unofficial GitHub Implementation](https://github.com/enhuiz/vall-e)<br>
+<br>
 
 
 <br><br>
 
 **1.3 - Diffusion-based**<br>
 
-- [Huang et al.](https://arxiv.org/abs/2305.10973)<br>
-- [GitHub - FastDiff](https://github.com/yl4579/FastDiff)<br>
+<br>
 
 
 <br><br>
 
 **1.4  - Neural Audio Codec**<br>
 
-- [Défossez et al., Meta (2022)](https://arxiv.org/abs/2210.13438) <br> 
-- [GitHub - facebookresearch/encodec](https://github.com/facebookresearch/encodec)<br>
+<br>
 
 <br><br>
 
