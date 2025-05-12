@@ -38,8 +38,8 @@ Pls discuss if any of these pique your interest!<br><br><br>
 - [ ] Breakfast
   - [x] Oxygen and Stretch
   - [x] Yogurt, Toast, and Protein
-  - [ ] Ice-cream 🍧
+  - [ ] Ice-cream
 - [x] Go to school
-- [x] 🏋️, 🏊, 🫐, and repeat<br><br><br><br>
+<br><br><br><br>
 
 
