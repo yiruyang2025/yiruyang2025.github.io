@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Hi there ✨！<br><br>
+Hi there！<br><br>
 Pls discuss if any of these pique your interest!<br><br><br>
 
 # 1. April 2025<br><br>
