@@ -25,15 +25,14 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 --- 
-- Hi there, welcome to my Study Camp! You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
+- Hi there, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - 📍 Programming - Python, (C++), Ruby, Java / JavaScript
 - Currently Studying - Speech Processing, Generative Models x Science
 - Feel free to teach if u are good at - CAG, Parallel Computing
 
 - In the long run, would like to have some Contribution - #AI products for disabled people - e.g. Voice assistants, #AI for Science - e.g. optical Experiments Simulation by Diffusion models
 
-- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist))
-- 🪐 Enjoy reading Philosophy
+- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
