@@ -155,19 +155,25 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - SSL
   - demo 1<br><br>
 
+  <br><br>
+
 - **Supervised-Fine-Tuning Style**
   - 📍 **Adapter - LoRA / QLoRA**
   - Prompt-tuning 
   - demo 2<br><br>
 
+  <br><br>
+
 - **Reinforcement-Learning Style**
-  - RLHF<br>
+  - RLHF<br><br>
+
+  <br><br>
 
 - **Others - Generative Enhancement Style**
   - 📍 **DNN-GAN for Speech Denoising**
-  - demo 3<br>
+  - demo 3<br><br>
 
-<br><br>
+<br><br><br><br>
 
 # 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
 
