@@ -21,7 +21,7 @@ Let's take a look at the history of Generative Models for Science<br><br><br><br
 
 # 1. References<br><br>
 
-**1.1** 2024 [NeurlPS tutorial - Flow Matching for Generative Modeling](https://neurips.cc/virtual/2024/tutorial/99531) <br><br>
+**1.1** 2024 [NeurlPS tutorial - Flow Matching for Generative Modeling](https://neurips.cc/virtual/2024/tutorial/99531) x [2024 Flow Matching Guide and Code](https://arxiv.org/abs/2412.06264)<br><br>
 
 **1.2**  2023 [Generative Models: An Interdisciplinary Perspective](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-033121-110134)<br><br>
 
