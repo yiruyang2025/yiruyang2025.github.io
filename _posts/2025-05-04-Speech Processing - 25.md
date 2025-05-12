@@ -409,6 +409,11 @@ $$
 
 - **Why Adding Residual Connections** - To Ease Gradient Flow and Improve Training Stability in Deep Networks<br>
 
+- **Why Need Normalizations**
+  - Stabilize + Accelerate Training
+  - Improve Generalization
+  - Handle **scale variance across features**
+
 <br><br><br>
 
 ### **Normalizations**<br><br>
