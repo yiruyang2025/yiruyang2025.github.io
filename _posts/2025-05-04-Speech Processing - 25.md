@@ -116,9 +116,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 ****<i>1.5  - Multi-modal<i>** - will discuss in the future <br>
 
-
-<br><br><br><br>
-
+<br><br><br>
 
 
 # 2. Model Training<br><br>
