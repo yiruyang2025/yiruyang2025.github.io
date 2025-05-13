@@ -99,34 +99,23 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 **1.1  - Self-supervised**<br>
 
- <br>
-
 
 <br><br>
 
 **1.2 - Zero-shot**<br>
 
-<br>
-
-
 <br><br>
 
 **1.3 - Diffusion-based**<br>
-
-<br>
-
 
 <br><br>
 
 **1.4  - Neural Audio Codec**<br>
 
-<br>
 
 <br><br>
 
 ****<i>1.5  - Multi-modal<i>** - will discuss in the future <br>
-
-
 
 
 <br><br><br><br>
@@ -143,7 +132,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 
-**2.2 Main Sample Models from the Industry**<br>
+**📍 2.2 Some Sample Models from the Industry**<br>
 
 - **📍 Tülu 3 - by Ai2 - 2024**
   - [Tech Report](https://allenai.org/blog/tulu-3-technical)
@@ -151,9 +140,8 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - [Open Source](https://huggingface.co/collections/allenai/tulu-3-models-673b8e0dc3512e30e7dc54f5)
 
 
-- 
 
-<br><br>
+<br><br><br>
 
 
 
@@ -165,19 +153,19 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - SSL
   - demo 1<br><br>
 
-  <br><br>
+  <br><br><br>
 
 - **Supervised-Fine-Tuning Style**
   - 📍 **Adapter - LoRA / QLoRA**
   - Prompt-tuning 
   - demo 2<br><br>
 
-  <br><br>
+  <br><br><br>
 
 - **Reinforcement-Learning Style**
   - RLHF<br><br>
 
-  <br><br>
+  <br><br><br>
 
 - Others - Generative Enhancement Style
   - 📍 **DNN-GAN for Speech Denoising**
