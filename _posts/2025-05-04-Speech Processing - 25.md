@@ -143,7 +143,20 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 
-**2.2 Post-Training**<br>
+**2.2 Main Sample Models from the Industry**<br>
+
+- **📍 Tülu 3 - by Ai2 - 2024**
+  - [Tech Report](https://allenai.org/blog/tulu-3-technical)
+  - [OLMo 2](https://allenai.org/olmo) - Language models
+  - [Open Source](https://huggingface.co/collections/allenai/tulu-3-models-673b8e0dc3512e30e7dc54f5)
+
+
+<br><br>
+
+
+
+
+**2.3 Post-Training**<br>
 
 - **Pre-Train Style**
   - 📍 **Distillation**
