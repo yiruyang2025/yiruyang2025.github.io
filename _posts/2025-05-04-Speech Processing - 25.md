@@ -14,7 +14,7 @@ images:
 
 Welcome,
 
-Let's start with the Model Post-training for Hearing Assistance / xxx - 2 / 3 Coding Demo Example using Llama 3.1 as text Pre-Training<br><br>
+Let's start with the Model Post-training for Hearing Assistance - 3 Coding Demo Example using Llama 3.1 as text Pre-Training<br><br>
 
 # 0. Some Background Knowledge<br><br>
 
