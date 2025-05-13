@@ -99,3 +99,9 @@ In practice, "Deep" means:
 
 
 
+# 3. Some References<br><br>
+
+- [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
+
+
+<br><br><br><br>
