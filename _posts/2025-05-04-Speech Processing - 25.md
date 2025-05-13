@@ -447,6 +447,14 @@ $$
 <br><br><br>
 
 
+
+# 8. Some Labs<br><br>
+
+- [Distributed Computing](https://pw.ethz.ch/research/research-areas/distributed-computing.html)<br>
+
+<br><br><br><br>
+
+
 # References<br><br>
 
 - [ICASSP - IEEE Intl. Conf. on Acoustics, Speech and Signal Processing](https://2025.ieeeicassp.org/)<br>
