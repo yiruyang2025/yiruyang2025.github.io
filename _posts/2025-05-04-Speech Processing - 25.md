@@ -151,13 +151,12 @@ $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
 $$
 
-      Where：
+      Where:
       - $y_{\text{true}}$ : Ground-truth hard label  
       - $y_s$ : Student output logits  
       - $y_s^{(T)}$ : Student soft prediction with temperature $T$  
       - $y_t^{(T)}$ : Teacher soft prediction with temperature $T$  
       - $\alpha, \beta$ : Weight coefficients, used to balance supervised learning and distillation objectives
-<br>
 
   - SSL
   - demo 1<br><br>
