@@ -48,32 +48,31 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 - [RNN - 1990 Finding structure in time](https://www.sciencedirect.com/science/article/abs/pii/036402139090002E)
 
-<br><br>
+<br>
 
 - [LSTM - 1997 Long Short-Term Memory](https://ieeexplore.ieee.org/abstract/document/6795963)
 
-<br><br>
+<br>
 
 - [GRU - 2014 Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/)
 
-<br><br>
+<br>
 
 - [Transformer - 2017 Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 
-<br><br>
+<br>
 
 - [BERT - 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)- Masked Language Modeling - MLM
 
-<br><br>
+<br>
 
 - [Conformer - 2020 Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
 
-<br><br>
+<br>
 
 - [GAN - 2014 Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
-
-<br><br>
+<br>
 
 - **Diffusion Models**<br>
 
@@ -93,7 +92,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 <br><br>
 
-<br><br>
+<br>
 
 # 1. Some Sample Models from Industry<br><br>
 
