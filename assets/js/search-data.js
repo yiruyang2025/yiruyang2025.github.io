@@ -107,11 +107,11 @@ ninja.data = [{
         
           title: "A Regularization Method for Causal Inference Identification",
         
-        description: "⛺️",
+        description: "🐢",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Economics-Story-Series-26/";
+            window.location.href = "/blog/2025/Economics-Story-Series/";
           
         },
       },{id: "post-generative-models-for-science-27",
