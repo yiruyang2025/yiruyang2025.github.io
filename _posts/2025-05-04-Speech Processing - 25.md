@@ -115,20 +115,11 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 <br><br>
 
 ----
+<br>
+# Sample Code
 
-from transformers import AutoTokenizer, AutoModelForCausalLM
-
-model_id = "meta-llama/Meta-Llama-3-8B"
-
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(
-    model_id, torch_dtype="auto", device_map="auto"
-)
-
-inputs = tokenizer("How can LLaMA 3.1 help with speech post-training?", return_tensors="pt")
-outputs = model.generate(**inputs, max_new_tokens=50)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
-
+Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), hosted on Hugging Face, as the base language model for our reasoning-guided post-training tasks. The model is accessed through the transformers Python API with AutoModelForCausalLM, and supports scalable integration into voice-agent architectures via Hugging Face inference endpoints.
+<br>
 ----
 
 
