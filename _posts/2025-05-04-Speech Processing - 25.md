@@ -44,35 +44,15 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 | 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                               |
 | Present       | SSL / Lightweight               | Self-supervised learning, Compression, Distillation                |
 
-<br><br>
-
-- [RNN - 1990 Finding structure in time](https://www.sciencedirect.com/science/article/abs/pii/036402139090002E)
-
 <br>
 
-- [LSTM - 1997 Long Short-Term Memory](https://ieeexplore.ieee.org/abstract/document/6795963)
-
-<br>
-
-- [GRU - 2014 Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/)
-
-<br>
-
-- [Transformer - 2017 Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
-
-<br>
-
-- [BERT - 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)- Masked Language Modeling - MLM
-
-<br>
-
-- [Conformer - 2020 Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
-
-<br>
-
-- [GAN - 2014 Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
-
-<br>
+- [RNN - 1990 Finding structure in time](https://www.sciencedirect.com/science/article/abs/pii/036402139090002E)<br>
+- [LSTM - 1997 Long Short-Term Memory](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
+- [GRU - 2014 Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/)<br>
+- [Transformer - 2017 Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)<br>
+- [BERT - 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)- Masked Language Modeling - MLM<br>
+- [Conformer - 2020 Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)<br>
+- [GAN - 2014 Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)<br>
 
 - **Diffusion Models**<br>
 
@@ -80,8 +60,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   
   - [2020 Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)<br>
 
-
-<br><br>
+<br>
 
 - **SSL**<br>
 
@@ -89,34 +68,31 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - [2020 - Vision - Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/abs/1911.05722)<br>
   - [2019 - Speech - wav2vec - Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)<br>
 
-
 <br><br>
 
-<br>
 
 # 1. Some Sample Models from Industry<br><br>
 
-**1.1  - Self-supervised**<br>
+**1.1  - Self-supervised**
+
+<br><br>
+
+**1.2 - Zero-shot**
+
+<br><br>
+
+**1.3 - Diffusion-based**
+
+<br><br>
+
+**1.4  - Neural Audio Codec**
 
 
 <br><br>
 
-**1.2 - Zero-shot**<br>
+****<i>1.5  - Multi-modal<i>** - will discuss in the future
 
 <br><br>
-
-**1.3 - Diffusion-based**<br>
-
-<br><br>
-
-**1.4  - Neural Audio Codec**<br>
-
-
-<br><br>
-
-****<i>1.5  - Multi-modal<i>** - will discuss in the future <br>
-
-<br><br><br>
 
 
 # 2. Model Training<br><br>
@@ -325,8 +301,7 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - Markets
     - Education and training, customer service, virtual assistant, online consultation, content creation<br>
 
-
-<br><br><br><br>
+<br><br><br>
 
 
 # 7. Some Terms and their Nature<br><br>
@@ -390,13 +365,13 @@ $$
 
 - [**Tensor2Tensor Notebook**](https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb)<br>
 
-- **Self-Attention** - <br>
+- **Self-Attention** - Where **Each Token Attends to All other tokens** in the **same Sequence**<br>
 
 
-- **Multi-head Self-attention** - <br>
+- **Multi-head Self-attention** - Runs multiple self-attention mechanisms **in Parallel to capture different relationships**<br>
 
 
-- **Activation Functions** <br>
+- **Activation Functions - Non-linear functions after Neural Layers** <br>
 
   - **Softmax**:  
   $$ \alpha_i = \frac{\exp(e_i)}{\sum_j \exp(e_j)} $$  
@@ -426,7 +401,7 @@ $$
   - Improve Generalization
   - Handle **scale variance across features**
 
-<br><br><br>
+<br><br>
 
 ### **Normalizations**<br><br>
 
@@ -463,7 +438,7 @@ $$
 - [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
 
 
-<br><br><br><br>
+<br><br>
 
 
 
