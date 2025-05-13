@@ -2,7 +2,7 @@
 layout: post
 title: A Regularization Method for Causal Inference Identification
 date: 2025-04-27
-description: ⛺️
+description: 🐢
 categories: Life
 thumbnail: assets/img/9.jpg
 images:
@@ -13,7 +13,7 @@ images:
 ---
 
 
-Welcome to story time :) <br><br>
+Welcome to story time :) Sometimes I believe that "Slow" researches may have magnificantly magically great outcomes.<br><br>
 
 
 # Topic for 2025<br><br>
