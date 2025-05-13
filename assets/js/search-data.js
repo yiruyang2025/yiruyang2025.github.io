@@ -59,17 +59,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
           
         },
-      },{id: "post-a-regularization-method-for-causal-inference-identification-26",
-        
-          title: "A Regularization Method for Causal Inference Identification - 26",
-        
-        description: "⛺️",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Economics-Story-Series-25/";
-          
-        },
       },{id: "post-pancake-time-with-chess-puzzles",
         
           title: "Pancake Time with Chess Puzzles",
@@ -112,6 +101,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
+          
+        },
+      },{id: "post-a-regularization-method-for-causal-inference-identification",
+        
+          title: "A Regularization Method for Causal Inference Identification",
+        
+        description: "⛺️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Economics-Story-Series-26/";
           
         },
       },{id: "post-generative-models-for-science-27",
