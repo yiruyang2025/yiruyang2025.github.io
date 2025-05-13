@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Regularization Method for Causal Inference Identification - 26
-date: 2025-05-01
+title: A Regularization Method for Causal Inference Identification
+date: 2025-04-27
 description: ⛺️
 categories: Life
 thumbnail: assets/img/9.jpg
