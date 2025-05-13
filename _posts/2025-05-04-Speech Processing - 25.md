@@ -116,11 +116,14 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 ----
 <br>
+
 # Sample Code
 
-Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), hosted on Hugging Face, as the base language model for our reasoning-guided post-training tasks. The model is accessed through the transformers Python API with AutoModelForCausalLM, and supports scalable integration into voice-agent architectures via Hugging Face inference endpoints.
+Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), on Hugging Face. The model is accessed through the transformers Python API with AutoModelForCausalLM, and supports scalable integration into voice-agent architectures via Hugging Face inference endpoints.
+
 <br>
-----
+
+-----
 
 
 <br><br><br>
@@ -142,7 +145,21 @@ Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), hosted on Hugging Face, as 
 **2.3 Post-Training**<br>
 
 - **Pre-Train Style**
-  - 📍 **Distillation**
+  - 📍 **Distillation - fit well for post-training + Edge AI**
+     - Loss function
+$$
+\mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
+$$
+
+      - Where
+
+      - \( y_{\text{true}} \)：ground-truth hard label
+      - \( y_s \)：student output logits
+      - \( y_s^T \)：student soft prediction with temperature T
+      - \( y_t^T \)：teacher soft prediction with temperature T
+      - \( \alpha, \beta \)：Weight coefficient, used to balance supervised learning and distillation objectives<br><br>
+      
+     - **2025 – [Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274) - Behavioral Distillation - teaches a student model (**Base Model + Adapter**) to imitate the **CFG (Classifier-Free Guidance) - guided** predictions of the teacher model.
   - SSL
   - demo 1<br><br>
 
