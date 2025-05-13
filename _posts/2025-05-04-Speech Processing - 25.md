@@ -151,6 +151,8 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
   - [Open Source](https://huggingface.co/collections/allenai/tulu-3-models-673b8e0dc3512e30e7dc54f5)
 
 
+- 
+
 <br><br>
 
 
@@ -210,6 +212,10 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 
 # 4. Recent Technical Advances - pay attention to the 📍 ones<br><br>
 
+- 📍 **2025 – [Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)**  <br><br>
+   - [A codebase](https://github.com/cristianpjensen/agd)
+<br><br>
+ 
 - **2025 – [Neuralink – gets FDA nod for chip that will let speech impaired people speak, human trials soon](https://x.com/neuralink/status/1918005257252098197)**  <br><br>
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
 <br><br>
