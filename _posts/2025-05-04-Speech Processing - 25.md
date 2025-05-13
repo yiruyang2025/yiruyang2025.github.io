@@ -112,6 +112,25 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
   - [Toolkit for Llama models](https://github.com/meta-llama/llama-models?utm_source=chatgpt.com)
   - [2024 - Blog - Introducing Llama 3.1: Our most capable models to date](https://ai.meta.com/blog/meta-llama-3-1/?utm_source=chatgpt.com)
 
+<br><br>
+
+----
+
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+model_id = "meta-llama/Meta-Llama-3-8B"
+
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, torch_dtype="auto", device_map="auto"
+)
+
+inputs = tokenizer("How can LLaMA 3.1 help with speech post-training?", return_tensors="pt")
+outputs = model.generate(**inputs, max_new_tokens=50)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+
+----
+
 
 <br><br><br>
 
