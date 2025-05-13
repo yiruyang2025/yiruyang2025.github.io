@@ -103,15 +103,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
-      },{id: "post-a-regularization-method-for-causal-inference-identification",
+      },{id: "post-a-regularization-method-for-causal-inference-identification-26",
         
-          title: "A Regularization Method for Causal Inference Identification",
+          title: "A Regularization Method for Causal Inference Identification - 26",
         
         description: "🐢",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Economics-Story-Series/";
+            window.location.href = "/blog/2025/Economics-Story-Series-26/";
           
         },
       },{id: "post-generative-models-for-science-27",
