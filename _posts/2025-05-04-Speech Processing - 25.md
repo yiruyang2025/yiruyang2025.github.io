@@ -14,7 +14,7 @@ images:
 
 Welcome,
 
-Let's start with the Model Post-training for Hearing Assistance - A Coding Demo Example using xxx(pending arXiv)<br><br>
+Let's start with the Model Post-training for Hearing Assistance - A Coding Demo Example using xxx<br><br>
 
 # 0. Some Background Knowledge<br><br>
 
@@ -44,7 +44,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 | 2021–Present  | Diffusion Models                | Zero-shot / Few-shot                                               |
 | Present       | SSL / Lightweight               | Self-supervised learning, Compression, Distillation                |
 
-<br>
+<br><br><br>
 
 - [RNN - 1990 Finding structure in time](https://www.sciencedirect.com/science/article/abs/pii/036402139090002E)<br>
 - [LSTM - 1997 Long Short-Term Memory](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
@@ -59,8 +59,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 - **Diffusion Models**<br>
 
-  - [2015 Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)<br>
-  
+  - [2015 Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
   - [2020 Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)<br>
 
 <br>
