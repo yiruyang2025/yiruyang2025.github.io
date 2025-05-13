@@ -151,15 +151,17 @@ $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
 $$
 
-      - Where
+      Where：
 
-      - \( y_{\text{true}} \)：ground-truth hard label
-      - \( y_s \)：student output logits
-      - \( y_s^T \)：student soft prediction with temperature T
-      - \( y_t^T \)：teacher soft prediction with temperature T
-      - \( \alpha, \beta \)：Weight coefficient, used to balance supervised learning and distillation objectives<br><br>
+- \( y_{\text{true}} \)：ground-truth hard label  
+- \( y_s \)：student output logits  
+- \( y_s^T \)：student soft prediction with temperature \(T\)  
+- \( y_t^T \)：teacher soft prediction with temperature \(T\)  
+- \( \alpha, \beta \)：Weight coefficients, used to balance supervised learning and distillation objectives
+
+<br><br>
       
-     - **2025 – [Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274) - Behavioral Distillation - teaches a student model (**Base Model + Adapter**) to imitate the **CFG (Classifier-Free Guidance) - guided** predictions of the teacher model.
+     - **[2025 – Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)** - Behavioral Distillation - teaches a student model (Base Model + Adapter) to imitate the CFG (Classifier-Free Guidance) - guided predictions of the teacher model.
   - SSL
   - demo 1<br><br>
 
