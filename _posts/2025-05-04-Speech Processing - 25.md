@@ -158,8 +158,8 @@ $$
       - $y_t^{(T)}$ : Teacher soft prediction with temperature $T$  
       - $\alpha, \beta$ : Weight coefficients, used to balance supervised learning and distillation objectives
 <br>
-  - SSL
-  - demo 1<br><br>
+    - SSL
+    - demo 1<br><br>
 
   <br><br><br>
 
