@@ -131,6 +131,14 @@ Let's start with the Model Post-training for Hearing Assistance - An Coding Demo
 - [Toward Joint Language Modeling for Speech Units and Text](https://arxiv.org/abs/2310.08715)
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
+- **📍 Model in use**
+  - [Official Llama 3](https://github.com/meta-llama/llama3?utm_source=chatgpt.com)
+  - [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B?utm_source=chatgpt.com)
+  - [Toolkit for Llama models](https://github.com/meta-llama/llama-models?utm_source=chatgpt.com)
+  - [2024 - Blog - Introducing Llama 3.1: Our most capable models to date](https://ai.meta.com/blog/meta-llama-3-1/?utm_source=chatgpt.com)
+
+
+<br><br><br>
 
 **📍 2.2 Some Sample Models from the Industry**<br>
 
