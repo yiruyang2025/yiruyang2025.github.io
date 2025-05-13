@@ -239,6 +239,8 @@ $$
 - 📍 **2022 – [Whisper: Multilingual ASR via Large-Scale Weak Supervision](https://openai.com/research/whisper)**  <br><br>
   A general-purpose speech recognition system trained on 680,000 hours of audio, robust across accents, background noise, and multiple languages.<br><br>
 
+- 📍 **2022 - OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
+
 - **2021 – [Apple On-Device Speech Recognition for Siri](https://www.apple.com/newsroom/2021/06/ios-15-brings-new-ways-to-stay-connected-and-powerful-features-that-help-users-focus-explore-and-do-more-with-on-device-intelligence/)**  <br><br>
   Introduced local processing of Siri speech recognition, enhancing privacy and enabling offline voice commands.<br><br>
 
