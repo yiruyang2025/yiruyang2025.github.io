@@ -145,7 +145,7 @@ Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), on Hugging Face. The model 
 **2.3 Post-Training**<br>
 
 - **Pre-Train Style**
-  - 📍 **Distillation - fit well for post-training + Edge AI**
+  - 📍 **Distillation** - fit well for Edge AI
      - Loss function
 $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
