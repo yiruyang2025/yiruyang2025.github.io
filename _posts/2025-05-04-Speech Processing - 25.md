@@ -111,6 +111,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
   - [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B?utm_source=chatgpt.com)
   - [Toolkit for Llama models](https://github.com/meta-llama/llama-models?utm_source=chatgpt.com)
   - [2024 - Blog - Introducing Llama 3.1: Our most capable models to date](https://ai.meta.com/blog/meta-llama-3-1/?utm_source=chatgpt.com)
+  - **[Others - Ollama - Get up and running with LLMs Locally](https://github.com/ollama/ollama)**
 
 <br><br>
 
