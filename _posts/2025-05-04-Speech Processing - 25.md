@@ -153,15 +153,12 @@ $$
 
       Where：
 
-- \( y_{\text{true}} \)：ground-truth hard label  
-- \( y_s \)：student output logits  
-- \( y_s^T \)：student soft prediction with temperature \(T\)  
-- \( y_t^T \)：teacher soft prediction with temperature \(T\)  
-- \( \alpha, \beta \)：Weight coefficients, used to balance supervised learning and distillation objectives
-
-<br><br>
-      
-     - **[2025 – Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)** - Behavioral Distillation - teaches a student model (Base Model + Adapter) to imitate the CFG (Classifier-Free Guidance) - guided predictions of the teacher model.
+ \( y_{\text{true}} \)：ground-truth hard label  
+ \( y_s \)：student output logits  
+ \( y_s^T \)：student soft prediction with temperature \(T\)  
+ \( y_t^T \)：teacher soft prediction with temperature \(T\)  
+ \( \alpha, \beta \)：Weight coefficients, used to balance supervised learning and distillation objectives
+<br>
   - SSL
   - demo 1<br><br>
 
@@ -302,6 +299,8 @@ $$
 - **[AudioShake](https://www.audioshake.ai/)**<br>
   - Key Tech<br>
     - Stem Separation - **CNN / RNN**<br>
+    - **Supervised Fine-Tuning** - Utilizes labeled datasets to train models for separating different audio stems (e.g., vocals, drums)<br>
+    - **Transfer Learning** - Leverages pre-trained models on large audio datasets, adapting them to specific stem separation tasks
   - Markets
     - Music production, film and television post-production, podcast editing, game audio processing, user-generated content - UGC<br>
 
@@ -310,7 +309,10 @@ $$
 
   - Key Tech
     - TTS, Voice Cloning, Voice Conversion, STT - **DNN**<br>
-  - Markets
+    - Supervised Fine-Tuning - Trains models on paired text and speech data to generate natural-sounding speech<br>
+    - Voice Cloning - Adapts models to replicate specific voices using limited voice samples<br>
+    - **Multilingual Fine-Tuning** - Extends models to support multiple languages by fine-tuning on diverse linguistic datasets.
+  - Markets<br>
     - Audiobooks, podcast production, game dubbing, virtual assistants, educational content, film and television dubbing<br>
   - [Python SDK](https://github.com/elevenlabs/elevenlabs-python)<br>
 
@@ -320,6 +322,8 @@ $$
   - Key Tech
     - Real-Time Communication Platform, Voice AI Agent Framework, Edge Infrastructure<br>
     - **Transformer / DNN / VAD**<br>
+    - Supervised Fine-Tuning<br>
+    - Transfer Learning<br>
   - Markets
     - Live video conferencing, voice chat, virtual events, online education, customer support<br>
   - [livekit](https://github.com/livekit/livekit)<br>
@@ -329,6 +333,8 @@ $$
 
   - Key Tech
     - Multimodal AI Interaction, AI Avatars - **DNN / Transformer**<br>
+    - Supervised Fine-Tuning<br>
+    - Transfer Learning<br>
   - Markets
     - Education and training, customer service, virtual assistant, online consultation, content creation<br>
 
