@@ -222,7 +222,7 @@ $$
 
 - 📍 **2024 – [Fast Timing-Conditioned Latent Audio Diffusion](https://openreview.net/forum?id=jOlO8t1xdx)**  <br><br>
 
-- 📍 **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
+- **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
   Proposes a novel approach to text-to-speech synthesis using minimal supervision while maintaining high fidelity, making TTS systems more accessible for low-resource settings.<br><br>
 
 - 📍 **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
@@ -230,7 +230,7 @@ $$
 - **2023 – [Voicebox: Versatile Generative Speech AI (Meta)](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)**  <br><br>
   A generative model capable of text-to-speech, style transfer, noise removal, and speech editing using just 2 seconds of input audio.<br><br>
 
-- 📍 **2023 – [VALL-E: Zero-Shot Text-to-Speech via Neural Codec Language Modeling](https://arxiv.org/abs/2301.02111)**  <br><br>
+- **2023 – [VALL-E: Zero-Shot Text-to-Speech via Neural Codec Language Modeling](https://arxiv.org/abs/2301.02111)**  <br><br>
   Achieves personalized speech synthesis from a 3-second voice sample, preserving emotion and acoustic context in zero-shot TTS tasks.<br><br>
 
 - **2023 – [Apple Personal Voice & Live Speech](https://www.apple.com/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/)**  <br><br>
@@ -254,10 +254,10 @@ $$
 - **2019 – [Project Euphonia (Google)](https://blog.google/outreach-initiatives/accessibility/speech-accessibility-project/)**  <br><br>
   Uses AI to improve ASR for users with atypical speech, such as those with ALS or other disorders, enhancing speech accessibility.<br><br>
 
-- 📍 **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
+- **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
   Introduced deep generative modeling of raw audio, setting a new bar for natural-sounding speech synthesis.<br><br>
 
-- 📍 **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
+- **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
   Demonstrated that deep learning can perform ASR across languages and noisy conditions without hand-engineered features.<br><br>
 
 <br><br>
