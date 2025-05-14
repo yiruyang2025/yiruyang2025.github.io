@@ -128,8 +128,8 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 - **DataSet in use**
   - xx
-  - **Some Parameters for Pre-training Configuration**
-  - **Some Parameters for Evaluation Settings**
+  - 📍 **Parameters for Pre-training Configuration**
+  - 📍 **Parameters for Evaluation Settings**
 
 
 
@@ -140,7 +140,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 xx
 
-<br>
+<br><br>
 
 -----
 
@@ -204,10 +204,11 @@ $$
 
 ----
 <br>
-# Sample Code with xx
+# Sample Code
 
+xx
 
-<br>
+<br><br>
 
 -----
 
