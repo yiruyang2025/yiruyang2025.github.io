@@ -44,9 +44,25 @@ In practice, "Deep" means:
 
 # 2. Key Tech<br><br>
 
+- **MLP**
+  - Multilayer Perceptron
+  - Feedforward fully connected networks
+  - Used in classification, regression, or small-scale tabular/audio tasks
+  - 1989 - Universal Approximation Theorem / Still used as light head in multimodal systems<br>
+
+<br><br>
+
 - **RNN -> LSTM**
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
+
+<br><br>
+
+- **CNN**
+  - Convolutional Neural Networks
+  - When inputs are images or grid-like data
+  - Extracts spatial features, widely used in image/audio tasks
+  - 1998 - LeNet / 2012 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<br>
 
 <br><br>
 
