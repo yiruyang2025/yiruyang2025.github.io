@@ -200,29 +200,11 @@ $$
     - To Fine-tune Efficiently by training Only A Small Set of Parameters
     - Issues may occur - Task Mismatch with the Pre-training Model + Output Alignment (Enhancement tasks require frame-level supervision, but wav2vec2 is trained for sequence-to-sequence token prediction)
 
-<br>
+<br><br>
 
 ----
-# Sample Code with QLoRA
-
-from peft import get_peft_model, LoraConfig, prepare_model_for_kbit_training
-
-model = AutoModelForCTC.from_pretrained(
-    "facebook/wav2vec2-base", 
-    quantization_config=BitsAndBytesConfig(load_in_4bit=True)
-)
-
-model = prepare_model_for_kbit_training(model)
-
-peft_config = LoraConfig(
-    r=8,
-    lora_alpha=16,
-    lora_dropout=0.1,
-    bias="none",
-    task_type="CTC"
-)
-
-model = get_peft_model(model, peft_config)
+<br>
+# Sample Code with xx
 
 
 <br>
@@ -230,9 +212,8 @@ model = get_peft_model(model, peft_config)
 -----
 
 
+<br><br><br>
 
-
-  <br><br><br>
 
 - **Reinforcement-Learning Style**
   - RLHF<br><br>
