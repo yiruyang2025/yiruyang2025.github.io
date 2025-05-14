@@ -168,7 +168,7 @@ xx
 **2.3 Post-Training**<br>
 
 - **Pre-Train Style**
-  - Distillation
+  - 📍 Distillation
      - Loss function
 $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
@@ -182,28 +182,26 @@ $$
       - $\alpha, \beta$ : Weight coefficients, used to balance supervised learning and distillation objectives
 
   - SSL
-  - demo 1<br><br>
-
+  - demo 1<br>
 
   <br><br><br>
 
 - **Supervised-Fine-Tuning Style**
-  - Adapter
+  - 📍 Adapter - lightweight
   - Prompt-tuning 
-  - demo 2<br><br>
-
+  - demo 2<br>
 
 <br><br><br>
 
 
 - **Reinforcement-Learning Style**
-  - RLHF<br><br>
+  - RLHF<br>
 
   <br><br><br>
 
 - Others - Generative Enhancement Style
   - **DNN-GAN for Speech Denoising**
-  - demo 3<br><br>
+  - demo 3<br>
 
 <br><br><br><br>
 
