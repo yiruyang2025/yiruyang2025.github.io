@@ -107,11 +107,17 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 - **📍 Model in use**
+  - [wav2vec 2.0](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)
+ 
+  <br><br>
+
+  - **Some Others**
+
   - [Official Llama 3](https://github.com/meta-llama/llama3?utm_source=chatgpt.com)
   - [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B?utm_source=chatgpt.com)
   - [Toolkit for Llama models](https://github.com/meta-llama/llama-models?utm_source=chatgpt.com)
   - [2024 - Blog - Introducing Llama 3.1: Our most capable models to date](https://ai.meta.com/blog/meta-llama-3-1/?utm_source=chatgpt.com)
-  - **[Others - Ollama - Get up and running with LLMs Locally](https://github.com/ollama/ollama)**
+  - **[Ollama - Get up and running with LLMs Locally](https://github.com/ollama/ollama)**
 
 <br><br>
 
@@ -181,7 +187,7 @@ $$
   <br><br><br>
 
 - Others - Generative Enhancement Style
-  - 📍 **DNN-GAN for Speech Denoising**
+  - **DNN-GAN for Speech Denoising**
   - demo 3<br><br>
 
 <br><br><br><br>
@@ -479,6 +485,10 @@ $$
 - [INTERSPEECH - Intl. Conf. on Spoken Language Processing](https://www.interspeech2025.org/home)<br>
 
 - [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
+
+
+
+
 
 
 <br><br>
