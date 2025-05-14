@@ -108,6 +108,8 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 - **📍 Model in use**
   - [wav2vec 2.0](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)
+  - Structure - CNN encoder + Transformer
+  - Original Task - Automatic Speech Recognition (ASR)
  
   <br><br>
 
@@ -170,12 +172,21 @@ $$
   - SSL
   - demo 1<br><br>
 
+  - Why **Distillation**
+    - To reduce Model Size + Inference Latency
+    - Issues may occur - Information Loss + Capacity Bottleneck (can be sloved by 📍 **Adapter-Only Distillation**)
+
+
   <br><br><br>
 
 - **Supervised-Fine-Tuning Style**
   - 📍 **Adapter - LoRA / QLoRA** - fit well for Edge AI
   - Prompt-tuning 
   - demo 2<br><br>
+
+  - Why **Adapter**
+    - To Fine-tune Efficiently by training Only A Small Set of Parameters
+    - Issues may occur - Task Mismatch with the Pre-training Model + Output Alignment (Enhancement tasks require frame-level supervision, but wav2vec2 is trained for sequence-to-sequence token prediction)
 
   <br><br><br>
 
