@@ -122,8 +122,6 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 <br><br>
 
 ----
-<br>
-
 # Sample Code
 
 xx
