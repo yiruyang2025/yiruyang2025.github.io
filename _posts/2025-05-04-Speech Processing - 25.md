@@ -193,18 +193,6 @@ $$
   - demo 2<br><br>
 
 
-<br><br>
-
-----
-# Sample Code
-
-xx
-
-<br><br>
-
------
-
-
 <br><br><br>
 
 
