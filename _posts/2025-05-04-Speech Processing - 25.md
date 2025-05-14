@@ -126,6 +126,17 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 <br><br>
 
+- **DataSet in use**
+  - **[LibriSpeech](https://www.openslr.org/12/)**
+  - **Some Parameters for Pre-training Configuration**
+
+<br><br>
+
+  - **Some Parameters for Evaluation Settings**
+
+
+<br><br>
+
 ----
 # Sample Code
 
