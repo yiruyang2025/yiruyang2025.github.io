@@ -120,7 +120,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 # Sample Code
 
-Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), on Hugging Face. The model is accessed through the transformers Python API with AutoModelForCausalLM, and supports scalable integration into voice-agent architectures via Hugging Face inference endpoints.
+xx
 
 <br>
 
@@ -129,12 +129,16 @@ Utilize the pre-trained LLaMA 3.1 (Meta-Llama-3-8B), on Hugging Face. The model 
 
 <br><br><br>
 
-**📍 2.2 Some Sample Models from the Industry**<br>
+**📍 2.2 Some Sample Models from the Industry for Fine-tuning**<br>
 
-- **📍 Tülu 3 - by Ai2 - 2024**
+- **Language - Tülu 3 - by Ai2 - 2024**
   - [Tech Report](https://allenai.org/blog/tulu-3-technical)
   - [OLMo 2](https://allenai.org/olmo) - Language models
   - [Open Source](https://huggingface.co/collections/allenai/tulu-3-models-673b8e0dc3512e30e7dc54f5)
+
+<br><br>
+
+- **Speech -**
 
 
 
@@ -165,7 +169,7 @@ $$
   <br><br><br>
 
 - **Supervised-Fine-Tuning Style**
-  - 📍 **Adapter - LoRA / QLoRA**
+  - 📍 **Adapter - LoRA / QLoRA** - fit well for Edge AI
   - Prompt-tuning 
   - demo 2<br><br>
 
