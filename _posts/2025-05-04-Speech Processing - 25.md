@@ -168,7 +168,7 @@ xx
 **2.3 Post-Training**<br>
 
 - **Pre-Train Style**
-  - 📍 **Distillation** - fit well for Edge AI
+  - Distillation
      - Loss function
 $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
@@ -184,21 +184,14 @@ $$
   - SSL
   - demo 1<br><br>
 
-  - Why **Distillation**
-    - To reduce Model Size + Inference Latency
-    - Issues may occur - Information Loss + Capacity Bottleneck (can be sloved by 📍 **Adapter-Only Distillation**)
-
 
   <br><br><br>
 
 - **Supervised-Fine-Tuning Style**
-  - 📍 **Adapter - LoRA / QLoRA** - fit well for Edge AI
+  - Adapter
   - Prompt-tuning 
   - demo 2<br><br>
 
-  - Why **Adapter**
-    - To Fine-tune Efficiently by training Only A Small Set of Parameters
-    - Issues may occur - Task Mismatch with the Pre-training Model + Output Alignment (Enhancement tasks require frame-level supervision, but wav2vec2 is trained for sequence-to-sequence token prediction)
 
 <br><br>
 
@@ -253,10 +246,6 @@ xx
 
 # 4. Recent Technical Advances - pay attention to the 📍 ones<br><br>
 
-- 📍 **2025 – [Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)**  <br><br>
-   - [A codebase](https://github.com/cristianpjensen/agd)
-<br><br>
- 
 - **2025 – [Neuralink – gets FDA nod for chip that will let speech impaired people speak, human trials soon](https://x.com/neuralink/status/1918005257252098197)**  <br><br>
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
 <br><br>
