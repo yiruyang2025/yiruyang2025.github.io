@@ -112,6 +112,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
   - Original Task - **Automatic Speech Recognition (ASR)**
   - [base model](https://huggingface.co/facebook/wav2vec2-base)
   - [Speech Recognition Pre-Training - Sample codes](https://github.com/huggingface/transformers/tree/main/examples/pytorch/speech-pretraining)
+  - [Some discussion](https://discuss.huggingface.co/t/pre-training-for-wav2vec2-xlsr-via-huggingface/7490)
  
   <br><br>
 
