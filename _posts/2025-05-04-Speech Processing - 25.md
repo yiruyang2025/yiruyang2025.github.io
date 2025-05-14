@@ -244,6 +244,8 @@ $$
 - **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
   Proposes a novel approach to text-to-speech synthesis using minimal supervision while maintaining high fidelity, making TTS systems more accessible for low-resource settings.<br><br>
 
+- **2023 - [Language-Universal Adapter Learning with Knowledge Distillation for End-to-End Multilingual Speech Recognition](https://arxiv.org/abs/2303.01249)**<br><br>
+
 - **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
 
 - **2023 – [Voicebox: Versatile Generative Speech AI (Meta)](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)**  <br><br>
