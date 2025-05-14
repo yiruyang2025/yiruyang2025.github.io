@@ -203,7 +203,6 @@ $$
 <br><br>
 
 ----
-<br>
 # Sample Code
 
 xx
