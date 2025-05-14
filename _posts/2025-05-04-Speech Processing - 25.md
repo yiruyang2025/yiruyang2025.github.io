@@ -232,7 +232,7 @@ $$
 - **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
   Proposes a novel approach to text-to-speech synthesis using minimal supervision while maintaining high fidelity, making TTS systems more accessible for low-resource settings.<br><br>
 
-- 📍 **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
+- **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
 
 - **2023 – [Voicebox: Versatile Generative Speech AI (Meta)](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)**  <br><br>
   A generative model capable of text-to-speech, style transfer, noise removal, and speech editing using just 2 seconds of input audio.<br><br>
@@ -249,7 +249,9 @@ $$
 - 📍 **2022 – [Whisper: Multilingual ASR via Large-Scale Weak Supervision](https://openai.com/research/whisper)**  <br><br>
   A general-purpose speech recognition system trained on 680,000 hours of audio, robust across accents, background noise, and multiple languages.<br><br>
 
-- 📍 **2022 - OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
+- **2022 - OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
+
+- 📍 **2021 - [RNN BASED INCREMENTAL ONLINE SPOKEN LANGUAGE UNDERSTANDING](https://ieeexplore.ieee.org/abstract/document/9383614?casa_token=rDtl8lzqRf0AAAAA:wS41gFXYzwvNOaQu8QvljgIb3Qaz5iPAxoYUJCgW9wQKFf-xlIWIvYW4Ux2M5hRrQEMB75D_jDT6)**<br><br>
 
 - **2021 – [Apple On-Device Speech Recognition for Siri](https://www.apple.com/newsroom/2021/06/ios-15-brings-new-ways-to-stay-connected-and-powerful-features-that-help-users-focus-explore-and-do-more-with-on-device-intelligence/)**  <br><br>
   Introduced local processing of Siri speech recognition, enhancing privacy and enabling offline voice commands.<br><br>
