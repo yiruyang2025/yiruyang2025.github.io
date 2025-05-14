@@ -247,7 +247,7 @@ $$
 - 📍 **2022 – [Whisper: Multilingual ASR via Large-Scale Weak Supervision](https://openai.com/research/whisper)**  <br><br>
   A general-purpose speech recognition system trained on 680,000 hours of audio, robust across accents, background noise, and multiple languages.<br><br>
 
-- **2022 - OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
+- **2022 - [OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
 
 - 📍 **2021 - [RNN BASED INCREMENTAL ONLINE SPOKEN LANGUAGE UNDERSTANDING](https://ieeexplore.ieee.org/abstract/document/9383614?casa_token=rDtl8lzqRf0AAAAA:wS41gFXYzwvNOaQu8QvljgIb3Qaz5iPAxoYUJCgW9wQKFf-xlIWIvYW4Ux2M5hRrQEMB75D_jDT6)**<br><br>
 
