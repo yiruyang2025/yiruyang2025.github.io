@@ -75,7 +75,7 @@ In practice, "Deep" means:
 
 - **Mamba**
 - Linear-Time Sequence Modeling<br>
-- State Space Model (SSM) with selective long-range memory<br>
+- State Space Model - SSM - with selective long-range memory<br>
 - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
 
 <br><br>
