@@ -381,7 +381,7 @@ $$
 
 - **Encoder** - Bidirectional RNN<br>
 
-- **Activation Recomputation** - Memory-saving technique that recomputes certain activations during backpropagation instead of storing all during the forward pass - Typically Save 30–70% GPU Memory, depending on model depth and recompute granularity<br>
+- **Activation Recomputation / Gradient Checkpoint** - Memory-saving technique - Save “important activations” during Forward pass, then recompute / computation overhead when needed in backward pass - Typically Save 30–70% GPU Memory, **depending on model depth and recompute granularity**<br>
 
 - **Additive Attention** - [2014 Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)<br>
 
