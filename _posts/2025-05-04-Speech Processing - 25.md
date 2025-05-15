@@ -195,7 +195,7 @@ $$
   - Prompt-tuning 
   - demo 2<br>
 
-- Why Adapter
+  - Why Adapter
     - To Fine-tune Efficiently by training Only A Small Set of Parameters
     - Issues may occur - Task Mismatch with the Pre-training Model + Output Alignment (Enhancement tasks require frame-level supervision, but wav2vec2 is trained for sequence-to-sequence token prediction)
 
