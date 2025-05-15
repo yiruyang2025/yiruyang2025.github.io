@@ -70,6 +70,8 @@ In practice, "Deep" means:
 - **Transformer**
   - When inputs are sequences<br>
   - Self-attention + Parallel computation<br>
+  - [2015 ICLR - Neural Machine Translation by Jointly Learning to Align and Translate - **Additive Attention**](https://arxiv.org/abs/1409.0473)<br>
+  - [2017 NeuralPS - Attention Is All You Need - **Self-Attention / Scaled Dot-Product Attention**](https://arxiv.org/abs/1706.03762)<br>
 
 <br><br>
 
