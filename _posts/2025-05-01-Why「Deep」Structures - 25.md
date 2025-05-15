@@ -109,6 +109,13 @@ In practice, "Deep" means:
   -  Gradual denoising process to generate samples from noise<br>
   -  Currently SoTA in image and speech generation<br>
   -  Training is stable, generation is slow<br>
+  -  **In Diffusion**
+     - The model learns to reverse noise through a pre-defined noise schedule
+     - It does not evaluate or penalize each intermediate step
+     - There is no "fitness score" like in genetic algorithms
+  - **In genetic algorithms - GA**
+     - Every candidate (individual) is evaluated using a fitness function
+     - Poor candidates are penalized or discarded<br>
   - [2020 - Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)<br>
 
 <br><br>
