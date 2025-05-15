@@ -210,6 +210,10 @@ $$
 
 <br><br><br><br>
 
+**2.4 Some Parameters and Optimatzers**<br>
+
+<br><br><br><br>
+
 # 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
 
 **3.1 Catastrophic Forgetting**
