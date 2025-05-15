@@ -74,9 +74,9 @@ In practice, "Deep" means:
 <br><br>
 
 - **Mamba**
-- Linear-Time Sequence Modeling<br>
-- State Space Model - SSM - with selective long-range memory<br>
-- [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
+  - Linear-Time Sequence Modeling<br>
+  - State Space Model - SSM - with selective long-range memory<br>
+  - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
 
 <br><br>
 
@@ -116,7 +116,7 @@ In practice, "Deep" means:
   - **In genetic algorithms - GA**
      - Every candidate (individual) is evaluated using a fitness function
      - Poor candidates are penalized or discarded<br>
-  - [2020 - Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)<br>
+     - [2020 - Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)<br>
 
 <br><br>
 
