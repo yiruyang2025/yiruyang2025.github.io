@@ -62,6 +62,7 @@ In practice, "Deep" means:
   - Convolutional Neural Networks
   - When inputs are images or grid-like data
   - Extracts spatial features, widely used in image/audio tasks
+  - Fully Connected Layer -> Receptive Field -> Parameter Sharing -> Convolutional Layer
   - 1998 - LeNet / 2012 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<br>
 
 <br><br>
@@ -72,6 +73,12 @@ In practice, "Deep" means:
 
 <br><br>
 
+- **Mamba**
+- Linear-Time Sequence Modeling<br>
+- State Space Model (SSM) with selective long-range memory<br>
+- [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
+
+<br><br>
 
 - **BERT**
   - Bidirectional Encoder Representations from Transformers<br>
