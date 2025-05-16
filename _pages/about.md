@@ -39,6 +39,6 @@ latest_posts:
 - Creating is super cool & Tech helps (hopefully), Cheers<br>
 
 - 📍 Project 1 - Demos for speech processing using wav2vec 2.0 (CTC) and xxx Distillation - deployed on colab
-- 📍 Project 2 - pending for Master Project
+- 📍 Project 2 - pending for **Master Project**
 
 <div style="height: 7.5rem;"></div>
