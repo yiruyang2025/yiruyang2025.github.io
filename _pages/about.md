@@ -38,8 +38,8 @@ latest_posts:
 
 - Creating is super cool & Tech helps (hopefully), Cheers<br>
 
-- 📍 Project 1 - Demos for speech processing using wav2vec 2.0 (CTC) and xxx Distillation - deployed on colab - May 2025
-- 📍 Project 2 - Traditional machine learning for classification - CNN + MLP - May 2025
+- 📍 Project 1 - Demos for speech processing using wav2vec 2.0 (CTC) and xxx Distillation - deployed on colab
+- 📍 Project 2 - Traditional machine learning for classification - CNN + MLP
 
 
 <div style="height: 7.5rem;"></div>
