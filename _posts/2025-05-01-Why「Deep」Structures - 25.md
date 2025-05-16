@@ -147,6 +147,17 @@ CTC collapse:              →         "hello"
 
 <br><br>
 
+**📍 Why LSTM / other RNN Layer after Self-Attention Layer**
+   - Streamability
+   - Positional bias
+   - Smoothing
+   - Lightweight after quantization
+   - Distillation bridge
+   - TLDR - Attention offers global context; the follow-up LSTM supplies sequential inertia, latency control, and quantization-friendly compression—ideal for hearing-aid ASR
+
+
+<br><br>
+
 # 4. Some References<br><br>
 
 - [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
