@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-speech-processing-25",
+        },{id: "post-master-thesis-in-audio-25",
+        
+          title: "Master Thesis in Audio - 25",
+        
+        description: "🦔",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Master-Thesis-in-Audio-25/";
+          
+        },
+      },{id: "post-speech-processing-25",
         
           title: "Speech Processing - 25",
         
