@@ -248,6 +248,8 @@ $$
   This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
 <br><br>
 
+- **2024 – [RAST: A Reference-Audio Synchronization Tool for Dubbed Content](https://www.isca-archive.org/interspeech_2024/meyer24b_interspeech.pdf)**  <br><br>
+
 - 📍 **2024 – [Fast Timing-Conditioned Latent Audio Diffusion](https://openreview.net/forum?id=jOlO8t1xdx)**  <br><br>
 
 - **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
