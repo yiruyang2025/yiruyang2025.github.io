@@ -153,7 +153,7 @@ CTC collapse:              →         "hello"
    - Smoothing
    - Lightweight after quantization
    - Distillation bridge
-   - TLDR - Attention offers global context; the follow-up LSTM supplies sequential inertia, latency control, and quantization-friendly compression—ideal for hearing-aid ASR
+   - TLDR - **Attention offers Global Context, the follow-up LSTM supplies Sequential Inertia, Latency Control, and Quantization**-friendly compression—ideal for hearing-aid ASR
 
 
 <br><br>
