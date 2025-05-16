@@ -37,6 +37,8 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - Creating is super cool & Tech helps (hopefully), Cheers
+- 📍 Project 1 - Demos for Speech Processing using wav2vec 2.0 (CTC) and xxx Distillation - Deployed on Colab - May 2025
+- 📍 Project 2 - Traditional Machine Learning for Classification - CNN + MLP - May 2025
 
 
 <div style="height: 7.5rem;"></div>
