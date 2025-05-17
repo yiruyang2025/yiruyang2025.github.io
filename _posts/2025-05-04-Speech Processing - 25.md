@@ -132,7 +132,9 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 <br><br>
 
 - **DataSet in use**
-  - xx
+  - LibriSpeech ASR Corpus
+  - Hugging Face: https://huggingface.co/datasets/librispeech_asr
+  - OpenSLR: http://www.openslr.org/12
 
 
 <br><br>
