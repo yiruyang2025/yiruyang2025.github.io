@@ -107,6 +107,11 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 - **📍 Model in use**
+  - **[facebook/wav2vec2-large-960h-lv60-self](https://huggingface.co/facebook/wav2vec2-large-960h-lv60-self)**
+
+  <br><br>
+
+
   - **[wav2vec 2.0](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)**
   - Structure - **CNN encoder + Transformer**
   - Original Task - **CTC-based ASR - Automatic Speech Recognition**
