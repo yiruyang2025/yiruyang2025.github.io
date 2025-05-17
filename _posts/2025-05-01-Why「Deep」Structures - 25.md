@@ -129,6 +129,15 @@ In practice, "Deep" means:
 
 <br><br>
 
+- **📍 MEMORY - Transformers vs. RNN / LSTM**
+  - [Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254)
+    - RetNet - Retention Network -> Gated Retention<br>
+  
+
+
+
+<br><br>
+
 
 # 3. Some Norms and Their Nature<br><br>
 
