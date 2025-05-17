@@ -107,7 +107,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 - [Dialogue GSLM](https://arxiv.org/abs/2203.16502)<br><br><br>
 
 - **📍 Model in use**
-  - **[facebook/wav2vec2-large-960h-lv60-self](https://huggingface.co/facebook/wav2vec2-large-960h-lv60-self)**
+  - **[wav2vec2-large-robust-ft-libri-960h](https://huggingface.co/facebook/wav2vec2-large-robust-ft-libri-960h)**
 
   <br><br>
 
