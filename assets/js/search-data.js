@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-master-thesis-in-audio-25",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-05-18-Memory-and-Self-Reflection-25/";
+          
+        },
+      },{id: "post-master-thesis-in-audio-25",
         
           title: "Master Thesis in Audio - 25",
         
