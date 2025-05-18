@@ -12,24 +12,20 @@ images:
   venobox: true
 ---
 
-Hi there！<br><br>
+Hi there,
 Pls discuss if any of these pique your interest! <br><br><br>
 
 # 1. 2025<br><br>
 
-
 <p align="left">
-  <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="50%">
+  <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="75%">
 </p>
-
-
 
 <br><br>
 
 # 2026<br><br>
 
-
-
+<br><br>
 
 
 # 2. Check List
