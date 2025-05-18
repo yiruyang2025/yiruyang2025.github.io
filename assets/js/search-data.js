@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Memory and Self-Reflection - 25",
         
-        description: "‪🥛",
+        description: "‪🌲",
         section: "Posts",
         handler: () => {
           
