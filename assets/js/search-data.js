@@ -81,17 +81,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Why-Deep-Structures-25/";
           
         },
-      },{id: "post-knowledge-map",
-        
-          title: "Knowledge map",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Knowledge-Map/";
-          
-        },
       },{id: "post-pancake-time-with-chess-puzzles",
         
           title: "Pancake Time with Chess Puzzles",
@@ -156,6 +145,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Books-and-Summary/";
+          
+        },
+      },{id: "post-knowledge-map",
+        
+          title: "Knowledge Map",
+        
+        description: "‪❄️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Knowledge-Map/";
           
         },
       },{id: "books-the-godfather",
