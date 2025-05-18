@@ -73,6 +73,99 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 <br><br>
 
 
+**📍 0.3 Label Encoding Methods in Speech Models and Distillation**
+
+<br>
+
+Label encoding refers to methods that convert categorical labels into numerical representations for machine learning. These strategies have evolved to serve different training paradigms, including classification, multi-label tasks, and model compression (e.g., distillation).
+
+
+<br><br>
+
+
+### Historical Context
+
+- **One-hot encoding**: Early standard in classification models.
+- **Label/Ordinal/Binary encoding**: Introduced for efficient encoding in decision trees and statistical models.
+- **Embedding encoding**: Emerged with deep learning to represent semantic relationships.
+- **Soft label**: Popularized in knowledge distillation (Hinton et al., 2015).
+
+<br>
+
+### Common Label Encodings Overview
+
+<br>
+
+| Method        | Example              | Relationship Preserved | Use Case |
+|---------------|----------------------|--------------------------|----------|
+| One-hot       | `[0, 1, 0]`          | ❌                      | CTC loss in ASR |
+| Integer Label | `0, 1, 2`            | ⚠️ (Implied order)      | Tree models |
+| Ordinal       | `1, 2, 3`            | ✅                      | Ranked categories |
+| Binary        | `A=0001`             | Partially               | Large-ID categories |
+| Embedding     | `[0.1, -0.2, 0.3]`   | ✅ (Learned)            | Token representation |
+| Multi-hot     | `[1, 0, 1]`          | ❌                      | Multi-label tasks |
+| Soft label    | `[0.1, 0.7, 0.2]`    | ✅                      | Distillation training |
+
+<br><br>
+
+### In QDLoRA: Distillation + Adapter Usage
+
+<br>
+
+| Stage                          | Encoding Used      | Why |
+|-------------------------------|--------------------|-----|
+| CTC Supervision               | One-hot            | Sparse, simple for alignment |
+| Distillation from Teacher     | Soft label         | Transfers fine-grained knowledge |
+| Token Input/Output            | Embedding encoding | Learns contextual semantics |
+| Adapter Fine-tuning           | No label encoding  | Guided by soft logits |
+
+<br>
+
+In DQLoRA, label encodings are implicitly embedded into CTC alignment and distillation loss (KL). Efficient use of soft labels and adapter-only training leads to significant compute and memory reduction for hearing aid ASR deployment.
+
+<br><br>
+
+## What Domain Does Label Encoding Belong To?
+
+<br>
+
+Label encoding methods are fundamental to many stages of machine learning pipelines, from raw data preprocessing to model compression.
+
+<br>
+
+| Encoding Knowledge | Domain |
+|--------------------|--------|
+| Categorical label transformation | **Machine Learning** |
+| One-hot, Binary, Ordinal encoding | **Data Preprocessing / Feature Engineering** |
+| Embedding encoding | **Representation Learning / NLP / Speech** |
+| Soft label distillation | **Model Compression / Knowledge Transfer** |
+| Token label supervision | **Deep Learning (CTC, ASR, Transformer)** |
+
+<br>
+
+These methods are crucial for enabling models to interpret, learn, and generalize from categorical data, especially in speech and language processing.
+
+<br><br>
+
+## Historical Timeline and Motivation
+
+| Encoding Method | Introduced | Why It Was Introduced |
+|-----------------|------------|------------------------|
+| **One-hot Encoding** | 1960s–1970s | To represent categories without implying order; widely used in early neural nets and perceptrons |
+| **Label / Integer Encoding** | 1980s | Compact representation for tree models; useful in statistical and rule-based methods |
+| **Ordinal Encoding** | 1980s | Needed when categories have intrinsic order (e.g., low < medium < high) |
+| **Binary Encoding** | 1990s | To handle high-cardinality categories without exploding dimensionality (e.g., postal codes, product IDs) |
+| **Embedding Encoding** | 2013+ | Emerged with Word2Vec and deep learning to learn semantic similarity between tokens |
+| **Soft Label (for Distillation)** | 2015 (Hinton et al.) | To enable compact student models to mimic richer knowledge from larger teachers |
+| **Multi-hot Encoding** | 2000s | Designed for multi-label classification tasks (e.g., image with multiple objects) |
+
+<br>
+
+Most modern deep learning tasks—especially those involving transformers, adapters, or sequence models—use a combination of one-hot, embedding, and soft labels depending on the training phase.
+
+
+<br><br><br><br>
+
 # 1. Some Sample Models from Industry<br><br>
 
 **1.1  - Self-supervised**
