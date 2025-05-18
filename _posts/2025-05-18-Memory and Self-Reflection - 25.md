@@ -14,7 +14,7 @@ images:
 
 
 Welcome, <br> 
-**How to "Force" LLM Agent thinks twice, thirds... when it failed at the very first beginning**
+Let's do some parellel Attention calculation.
 
 
 <br> <br> <br> <br> 
