@@ -82,6 +82,13 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 <br><br>
 
+<p align="left">
+  <img src="/assets/img/SpeechProcessing_Pic1.jpg" alt="Knowledge Map" width="75%">
+</p>
+
+
+<br><br>
+
 
 ### Historical Context
 
