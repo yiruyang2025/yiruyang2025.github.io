@@ -81,11 +81,9 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 <br>
 
-<p align="left" style="margin: 0; padding: 0;">
-  <img src="/assets/img/SpeechProcessing_Pic1.jpg"
-       alt="Knowledge Map"
-       style="display: block; transform: scale(0.45); transform-origin: top left;">
-</p>
+<img src="/assets/img/SpeechProcessing_Pic1.jpg"
+     alt="Knowledge Map"
+     style="width: 45%; height: auto; display: block; margin: 0; padding: 0;">
 
 <br>
 
