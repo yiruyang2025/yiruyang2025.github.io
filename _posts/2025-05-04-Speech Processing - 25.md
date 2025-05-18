@@ -77,7 +77,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 <br>
 
-Label encoding refers to methods that convert categorical labels into numerical representations for machine learning. These strategies have evolved to serve different training paradigms, including classification, multi-label tasks, and model compression (e.g., distillation).
+- Label encoding refers to methods that convert categorical labels into numerical representations for machine learning. These strategies have evolved to serve different training paradigms, including classification, multi-label tasks, and model compression (e.g., distillation).
 
 
 <br><br>
@@ -108,28 +108,12 @@ Label encoding refers to methods that convert categorical labels into numerical 
 
 <br><br>
 
-### In QDLoRA: Distillation + Adapter Usage
-
-<br>
-
-| Stage                          | Encoding Used      | Why |
-|-------------------------------|--------------------|-----|
-| CTC Supervision               | One-hot            | Sparse, simple for alignment |
-| Distillation from Teacher     | Soft label         | Transfers fine-grained knowledge |
-| Token Input/Output            | Embedding encoding | Learns contextual semantics |
-| Adapter Fine-tuning           | No label encoding  | Guided by soft logits |
-
-<br>
-
-In DQLoRA, label encodings are implicitly embedded into CTC alignment and distillation loss (KL). Efficient use of soft labels and adapter-only training leads to significant compute and memory reduction for hearing aid ASR deployment.
-
-<br><br>
 
 ## What Domain Does Label Encoding Belong To?
 
 <br>
 
-Label encoding methods are fundamental to many stages of machine learning pipelines, from raw data preprocessing to model compression.
+- Label encoding methods are fundamental to many stages of machine learning pipelines, from raw data preprocessing to model compression.
 
 <br>
 
@@ -143,7 +127,7 @@ Label encoding methods are fundamental to many stages of machine learning pipeli
 
 <br>
 
-These methods are crucial for enabling models to interpret, learn, and generalize from categorical data, especially in speech and language processing.
+- These methods are crucial for enabling models to interpret, learn, and generalize from categorical data, especially in speech and language processing.
 
 <br><br>
 
@@ -161,7 +145,7 @@ These methods are crucial for enabling models to interpret, learn, and generaliz
 
 <br>
 
-Most modern deep learning tasks—especially those involving transformers, adapters, or sequence models—use a combination of one-hot, embedding, and soft labels depending on the training phase.
+- Most modern deep learning tasks—especially those involving transformers, adapters, or sequence models—use a combination of one-hot, embedding, and soft labels depending on the training phase.
 
 
 <br><br><br><br>
