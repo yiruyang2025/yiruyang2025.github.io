@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-",
+        },{id: "post-memory-and-self-reflection-25",
         
-          title: "",
+          title: "Memory and Self-Reflection - 25",
         
-        description: "",
+        description: "‪🥛",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-05-18-Memory-and-Self-Reflection-25/";
+            window.location.href = "/blog/2025/Memory-and-Self-Reflection-25/";
           
         },
       },{id: "post-master-thesis-in-audio-25",
