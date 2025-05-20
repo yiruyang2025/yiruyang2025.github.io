@@ -59,6 +59,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/Master-Thesis-in-Audio-25/";
           
         },
+      },{id: "post-single-channel-speech-enhancement-x-adapter-only-distillation-25",
+        
+          title: "Single-Channel Speech Enhancement x Adapter-Only Distillation - 25",
+        
+        description: "⛺️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Speech-Enhancement-x-Adapter-Only-Distillation-25/";
+          
+        },
       },{id: "post-benchmarks-for-speech-processing-post-training-25",
         
           title: "Benchmarks for Speech Processing Post-training - 25",
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Benchmarks-for-Speech-Processing-Post-training-25/";
-          
-        },
-      },{id: "post-lightweight-asr-for-hearing-enhancement-25",
-        
-          title: "Lightweight ASR for Hearing Enhancement - 25",
-        
-        description: "⛺️",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Lightweight-ASR-for-Hearing-Enhancement-25/";
           
         },
       },{id: "post-why-deep-structures-25",
