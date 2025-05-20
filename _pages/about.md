@@ -38,7 +38,7 @@ latest_posts:
 
 - Creating is super cool & Tech helps (hopefully), Cheers<br>
 
-- 📍 [Project 1 - Edge AI](https://yiruyang2025.github.io/blog/2025/Speech-Processing-25/) - Demos for speech processing using wav2vec2-large-robust-ft-libri-960h (CTC) as Pre-trainined and xxx **Distillation** - deployed on colab
+- 📍 [Project 1 - Hearing Enhancement](https://yiruyang2025.github.io/blog/2025/Speech-Processing-25/) - Demos for speech processing using wav2vec2-large-robust-ft-libri-960h (CTC) as Pre-trainined and xxx **Distillation** - deployed on colab
 - 📍 [Project 2](https://yiruyang2025.github.io/blog/2025/Master-Thesis-in-Audio-25/) - pending for **Master Project**
 
 <div style="height: 7.5rem;"></div>
