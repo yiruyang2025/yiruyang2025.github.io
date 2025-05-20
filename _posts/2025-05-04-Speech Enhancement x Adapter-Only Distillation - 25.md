@@ -79,11 +79,6 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 - Label encoding refers to methods that convert categorical labels into numerical representations for machine learning. These strategies have evolved to serve different training paradigms, including classification, multi-label tasks, and model compression (e.g., distillation).
 
-<br>
-
-<img src="/assets/img/SpeechProcessing_Pic1.jpg"
-     alt="Knowledge Map"
-     style="width: 45%; height: auto; display: block; margin: 0; padding: 0;">
 
 <br>
 
