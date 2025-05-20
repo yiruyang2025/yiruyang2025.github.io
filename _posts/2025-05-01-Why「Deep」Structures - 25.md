@@ -107,7 +107,7 @@ In practice, "Deep" means:
 
 <br><br>
 
-- **📍 Diffusion Based**
+- **Diffusion Based**
   -  Gradual denoising process to generate samples from noise<br>
   -  Currently SoTA in image and speech generation<br>
   -  Training is stable, generation is slow<br>
