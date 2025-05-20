@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-memory-and-self-reflection-25",
+        },{id: "post-generalization-x-dynamic-gated-rnn-compute-efficient-speech-enhancement-26",
+        
+          title: "Generalization x Dynamic Gated RNN Compute-efficient Speech Enhancement - 26",
+        
+        description: "‪🧑‍🚀",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Generalization-x-Dynamic-Gated-RNN-Compute-efficient-Speech-Enhancement-26/";
+          
+        },
+      },{id: "post-memory-and-self-reflection-25",
         
           title: "Memory and Self-Reflection - 25",
         
