@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generalization x Dynamic Gated RNN Compute-efficient Speech Enhancement
+title: Generalization x Dynamic Gated RNN Compute-efficient Speech Enhancement - 26
 date: 2025-05-19
 description: ‪🧑‍🚀
 categories: Research
