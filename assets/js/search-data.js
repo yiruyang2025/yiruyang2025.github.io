@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Generalization x RNN / LSTM based Compute-efficient Speech Enhancement - 26",
         
-        description: "‪🧑‍🚀",
+        description: "‪⛺️",
         section: "Posts",
         handler: () => {
           
