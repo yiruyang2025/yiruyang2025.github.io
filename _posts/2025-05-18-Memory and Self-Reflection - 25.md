@@ -16,7 +16,7 @@ images:
 Welcome, <br> 
 Let's do some parellel Attention calculation.
 
-<br><br>
+<br>
 
 - **📍 MEMORY - Transformers vs. RNN / LSTM**
   - [Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254)
