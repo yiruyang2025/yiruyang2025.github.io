@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Regularization Method for Causal Inference Identification
+title: Economics Story Series
 date: 2025-04-27
 description: 🐢
 categories: AI/ML
