@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy a AI Agent - 25
+title: Deploy an AI Agent - 25
 date: 2025-05-21
 description: ⛄️
 categories: Research
