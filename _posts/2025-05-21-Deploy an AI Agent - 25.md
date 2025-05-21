@@ -13,18 +13,19 @@ images:
 ---
 
 
-Welcome<br>
+Welcome<br><br><br>
+
 
 
 ## 1. From [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
 
-<br><br><br>
+<br>
 
 **1. Model Editing**<br>
 
 - ACL 2024 - An Easy-to-use Knowledge Editing Framework for LLMs - [Easy Edit](https://github.com/zjunlp/EasyEdit)
 
-<br><br>
+<br>
 
 **2. Model Merging**<br>
 
@@ -32,12 +33,12 @@ Welcome<br>
 - [2025 - Mergenetic: a Simple Evolutionary Model Merging Library](https://arxiv.org/abs/2505.11427?utm_source=chatgpt.com)
 
 
-<br><br><br><br>
+<br><br>
 
 
 ## 2. Some Others
 
-<br><br><br>
+<br>
 
 **1. Model Management & Versioning**  
    - Model registry (e.g. MLflow, SageMaker Model Registry)  
