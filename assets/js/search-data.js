@@ -70,15 +70,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Master-Thesis-in-Audio-25/";
           
         },
-      },{id: "post-single-channel-speech-enhancement-x-adapter-only-distillation-25",
+      },{id: "post-single-channel-speech-enhancement-25",
         
-          title: "Single-Channel Speech Enhancement x Adapter-Only Distillation - 25",
+          title: "Single-Channel Speech Enhancement - 25",
         
         description: "⛺️",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Speech-Enhancement-x-Adapter-Only-Distillation-25/";
+            window.location.href = "/blog/2025/Speech-Enhancement-25/";
           
         },
       },{id: "post-benchmarks-for-speech-processing-post-training-25",
