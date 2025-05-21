@@ -114,6 +114,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/API-Design/";
           
         },
+      },{id: "post-economics-story-series",
+        
+          title: "Economics Story Series",
+        
+        description: "🐢",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Key-Techs-for-Deploy-a-AI-Agent-26/";
+          
+        },
       },{id: "post-lessons-learnt-from-parents-and-grandparents",
         
           title: "Lessons Learnt from parents and grandparents",
