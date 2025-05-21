@@ -16,7 +16,7 @@ images:
 Welcome<br>
 
 
-# 1. From [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
+## 1. From [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
 
 <br><br><br>
 
@@ -26,7 +26,7 @@ Welcome<br>
 
 <br><br>
 
-**2. Model Editing<br>
+**2. Model Merging**<br>
 
 - Github - [Tools for merging pretrained large language models](https://github.com/arcee-ai/mergekit?utm_source=chatgpt.com)
 - [2025 - Mergenetic: a Simple Evolutionary Model Merging Library](https://arxiv.org/abs/2505.11427?utm_source=chatgpt.com)
@@ -35,7 +35,7 @@ Welcome<br>
 <br><br><br><br>
 
 
-# 2. Others
+## 2. Some Others
 
 <br><br><br>
 
