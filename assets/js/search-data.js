@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Deploy an AI Agent - 25",
         
-        description: "⛄️",
+        description: "🍒",
         section: "Posts",
         handler: () => {
           
