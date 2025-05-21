@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-generalization-x-rnn-lstm-based-compute-efficient-speech-enhancement-26",
-        
-          title: "Generalization x RNN / LSTM based Compute-efficient Speech Enhancement - 26",
-        
-        description: "‪⛺️",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Generalization-x-Dynamic-Gated-RNN-Compute-efficient-Speech-Enhancement-26/";
-          
-        },
-      },{id: "post-memory-and-self-reflection-25",
+        },{id: "post-memory-and-self-reflection-25",
         
           title: "Memory and Self-Reflection - 25",
         
