@@ -114,17 +114,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Pancake-Time-with-Chess-Puzzles/";
           
         },
-      },{id: "post-api-design-25",
-        
-          title: "API Design - 25",
-        
-        description: "🔧",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/API-Design/";
-          
-        },
       },{id: "post-lessons-learnt-from-parents-and-grandparents",
         
           title: "Lessons Learnt from parents and grandparents",
