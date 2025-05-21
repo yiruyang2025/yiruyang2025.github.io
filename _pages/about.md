@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi there, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - 📍 Programming - Python, (C++), Ruby / HTML, Java / JavaScript
-- Currently Studying - Speech Processing, Generative Models x Science
+- Currently Studying - Speech Processing, Generative Models
 - Feel free to teach if u are good at - CAG, Parallel Computing
 
 - In the long run, would like to have some Contribution - #AI products for disabled people - e.g. Voice assistants, #AI for Science - e.g. optical Experiments Simulation
