@@ -125,15 +125,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
-      },{id: "post-a-regularization-method-for-causal-inference-identification",
+      },{id: "post-economics-story-series",
         
-          title: "A Regularization Method for Causal Inference Identification",
+          title: "Economics Story Series",
         
         description: "🐢",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Economics-Story-Series-26/";
+            window.location.href = "/blog/2025/Economics-Story-Series/";
           
         },
       },{id: "post-generative-models-for-science-27",
