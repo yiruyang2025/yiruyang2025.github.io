@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Economics Story Series
-date: 2025-04-27
-description: 🐢
-categories: AI/ML
+title: Deploy a AI Agent - 25
+date: 2025-05-21
+description: ⛄️
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
