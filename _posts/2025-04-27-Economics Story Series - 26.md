@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Regularization Method for Causal Inference Identification - 26
+title: A Regularization Method for Causal Inference Identification
 date: 2025-04-27
 description: 🐢
 categories: AI/ML
@@ -13,10 +13,10 @@ images:
 ---
 
 
-Welcome to story time :) Sometimes I believe that "Slow" researches may have magnificantly magically great outcomes.<br><br>
+Welcome to story time, sometimes I believe that "Slow" researches may have magnificantly magically great outcomes.<br><br>
 
 
-# Topic for 2025<br><br>
+# Topics<br><br>
 
 # 1. Causal Inference in Policy Design x Economics - The Favourite one<br><br>
 
@@ -64,7 +64,7 @@ The key here is to Reduce the Estimator Variance first.
 <br><br>
 
 
-# Topics for 2026<br><br>
+# Topics<br><br>
 
 # 1. Why does History Reduplicate Itself<br><br>
 
