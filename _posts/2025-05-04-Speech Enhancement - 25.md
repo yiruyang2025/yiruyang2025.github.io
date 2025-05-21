@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Single-Channel Speech Enhancement x Adapter-Only Distillation - 25
+title: Single-Channel Speech Enhancement - 25
 date: 2025-05-04
 description: ⛺️
 categories: Research
