@@ -125,9 +125,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/Lessons-Learnt-from-parents-and-grandparents/";
           
         },
-      },{id: "post-a-regularization-method-for-causal-inference-identification-26",
+      },{id: "post-a-regularization-method-for-causal-inference-identification",
         
-          title: "A Regularization Method for Causal Inference Identification - 26",
+          title: "A Regularization Method for Causal Inference Identification",
         
         description: "🐢",
         section: "Posts",
