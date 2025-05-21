@@ -37,7 +37,7 @@ Pls discuss if any of these pique your interest!<br><br><br>
 
 # 2027<br><br>
 
-- **1.5** - Become an Expert in Speech Enhancement -> Hearing Enhancement**
+**1.5** - Become an Expert in Speech Enhancement -> Hearing Enhancement**
 
 
 <br><br><br><br>
