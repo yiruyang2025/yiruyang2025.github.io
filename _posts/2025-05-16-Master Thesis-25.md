@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Master Thesis in Audio - 25
+title: Master Thesis - 25
 date: 2025-05-16
 description: 🦔
 categories: Research
