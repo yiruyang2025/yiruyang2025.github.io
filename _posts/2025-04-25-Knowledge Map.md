@@ -12,8 +12,7 @@ images:
   venobox: true
 ---
 
-Hi there,
-Pls discuss if any of these pique your interest! <br><br><br>
+Hi there, <br><br>
 
 # 1. 2025<br><br>
 
@@ -33,6 +32,6 @@ Pls discuss if any of these pique your interest! <br><br><br>
 - [ ] Reading
   - [ ] Chatting
   - [x] Fruit Gelato without sugar
-- [x] Take a **"Random"** Walk
+- [x] Take a Walk
 <br><br><br><br>
 
