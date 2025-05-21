@@ -30,7 +30,7 @@ latest_posts:
 - Currently Studying - Speech Processing, Generative Models x Science
 - Feel free to teach if u are good at - CAG, Parallel Computing
 
-- In the long run, would like to have some Contribution - #AI products for disabled people - e.g. Voice assistants, #AI for Science - e.g. optical Experiments Simulation by Diffusion models
+- In the long run, would like to have some Contribution - #AI products for disabled people - e.g. Voice assistants, #AI for Science - e.g. optical Experiments Simulation
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
