@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Hi there, <br><br>
+Hi there, I build pretty things here.<br><br>
 
 # 1. 2025<br><br>
 
