@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-memory-and-self-reflection-25",
+        },{id: "post-deploy-a-ai-agent-25",
+        
+          title: "Deploy a AI Agent - 25",
+        
+        description: "⛄️",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Deploy-a-AI-Agent-25/";
+          
+        },
+      },{id: "post-memory-and-self-reflection-25",
         
           title: "Memory and Self-Reflection - 25",
         
@@ -112,17 +123,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/API-Design/";
-          
-        },
-      },{id: "post-economics-story-series",
-        
-          title: "Economics Story Series",
-        
-        description: "🐢",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Key-Techs-for-Deploy-a-AI-Agent-26/";
           
         },
       },{id: "post-lessons-learnt-from-parents-and-grandparents",
