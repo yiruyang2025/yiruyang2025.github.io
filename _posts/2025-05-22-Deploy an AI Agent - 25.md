@@ -34,6 +34,14 @@ Welcome,
 
 **1.2 Model Merging**
 
+<br>
+
+<p align="left">
+  <img src="/assets/img/ModelEditing_and_Merging.jpg" alt="Knowledge Map" width="60%">
+</p>
+
+
+
 <br><br><br>
 
 
