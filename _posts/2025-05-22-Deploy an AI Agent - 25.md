@@ -13,9 +13,9 @@ images:
 ---
 
 
-Welcome<br>
+Welcome,
 
-
+<br><br>
 
 ## 1. Post-training
 
@@ -32,10 +32,12 @@ Welcome<br>
 
 <br><br>
 
-**2. Model Merging**<br>
+**2. Model Merging**
+
+<br><br><br>
 
 
-**References**<br>
+**References**
 
 
 <br><br><br><br>
