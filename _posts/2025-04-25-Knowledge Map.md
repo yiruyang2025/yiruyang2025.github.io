@@ -23,7 +23,7 @@ Hi there, I build pretty things here.<br><br>
 <br>
 
 
-**Post-Training Techniques**
+## Post-Training Techniques
 
 ❄️ **Efficient Adaptation**
   - Adapter (reduce training parameters)
@@ -47,8 +47,7 @@ Hi there, I build pretty things here.<br><br>
   - Few-shot Learning
   - Zero-shot Learning
 
-
-<br><br><br>
+<br><br>
 
 
 # 2026<br><br>
@@ -56,12 +55,13 @@ Hi there, I build pretty things here.<br><br>
 <br><br>
 
 
-# 2. Check List
+# 2. Check List - 2025
 
 - [ ] Reading
   - [ ] Chatting
   - [x] Fruit Gelato without sugar
 - [x] Take a Walk, + walk into a lot of offices and **sell my Research Ideas untill find 1-2 group accepts it**
+
 
 <br><br><br><br>
 
