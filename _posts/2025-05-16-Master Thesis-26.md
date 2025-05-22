@@ -19,6 +19,6 @@ Let me build a Visualized Interactive Demo on Colab to **teach** you about the F
 
 <br>
 
-Hopefully it will turn out to a suuuuper cool one
+Hopefully it will turn out to a cool one
 
 <br><br>
