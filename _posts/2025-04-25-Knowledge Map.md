@@ -22,33 +22,34 @@ Hi there, I build pretty things here.<br><br>
 
 <br>
 
---
 
 **Post-Training Techniques**
 
-├── ❄️ **Efficient Adaptation**
-│ ├── Adapter (reduce training parameters)
-│ ├── Distillation (transfer knowledge)
-│ └── Pruning (delete redundant structure)
+❄️ **Efficient Adaptation**
+  - Adapter (reduce training parameters)
+  - Distillation (transfer knowledge)
+  - Pruning (delete redundant structure)
 
+<br>
 
-├── ❄️ **Representation Learning**
-│   └── Self-Supervised Learning - SSL
+❄️ **Representation Learning**
+  - Self-Supervised Learning - SSL
 
+<br>
 
-├── ❄️ **Model Manipulation**
-│   ├── Model Editin
-│   └── Model Merging
+❄️ **Model Manipulation**
+  - Model Editin
+  - Model Merging
 
+<br>
 
 ❄️ **Pending Generalization**
-├── Few-shot Learning
-└── Zero-shot Learning
-
---
+  - Few-shot Learning
+  - Zero-shot Learning
 
 
-<br><br>
+<br><br><br>
+
 
 # 2026<br><br>
 
@@ -60,7 +61,7 @@ Hi there, I build pretty things here.<br><br>
 - [ ] Reading
   - [ ] Chatting
   - [x] Fruit Gelato without sugar
-- [x] Take a Walk, + walk into a lot of offices and sell my Research Ideas untill find 1-2 group accepts it
+- [x] Take a Walk, + walk into a lot of offices and **sell my Research Ideas untill find 1-2 group accepts it**
 
 <br><br><br><br>
 
