@@ -41,6 +41,9 @@ Welcome,
 </p>
 
 
+<p align="left">
+  <img src="/assets/img/Task_Vector.jpg" alt="Knowledge Map" width="60%">
+</p>
 
 <br><br><br>
 
