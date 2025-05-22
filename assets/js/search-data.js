@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-memory-and-self-reflection-25",
+        },{id: "post-deploy-an-ai-agent-25",
+        
+          title: "Deploy an AI Agent - 25",
+        
+        description: "🍒",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Deploy-an-AI-Agent-25/";
+          
+        },
+      },{id: "post-memory-and-self-reflection-25",
         
           title: "Memory and Self-Reflection - 25",
         
