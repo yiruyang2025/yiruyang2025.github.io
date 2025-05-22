@@ -23,7 +23,9 @@ Hi there, I build pretty things here.<br><br>
 <br>
 
 
-## Post-Training Techniques<br>
+## Post-Training Techniques
+
+<br>
 
 ❄️ **Efficient Adaptation**
   - Adapter (reduce training parameters)
