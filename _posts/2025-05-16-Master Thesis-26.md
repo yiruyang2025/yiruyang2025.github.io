@@ -13,7 +13,11 @@ images:
 ---
 
 Welcome, <br>
-Let me build a Visualized Interactive Demo on Colab to **teach** you about the Feature Space / Latent Space / Embedding Space / Noise Space I / we used in the thesis.<br>
+<br>
+
+Let me build a Visualized Interactive Demo on Colab to **teach** you about the Feature Space / Latent Space / Embedding Space / Noise Space I / we **used in the thesis**
+
+<br><br>
 
 Hopefully it'll turn out to a super cool one.
 
