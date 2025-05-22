@@ -59,15 +59,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Memory-and-Self-Reflection-25/";
           
         },
-      },{id: "post-master-thesis-25",
+      },{id: "post-master-thesis-26",
         
-          title: "Master Thesis - 25",
+          title: "Master Thesis - 26",
         
         description: "🦔",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Master-Thesis-25/";
+            window.location.href = "/blog/2025/Master-Thesis-26/";
           
         },
       },{id: "post-single-channel-speech-enhancement-25",
