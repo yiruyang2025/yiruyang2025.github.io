@@ -39,6 +39,6 @@ latest_posts:
 - Creating is super cool & Tech helps (hopefully), Cheers<br>
 
 - 📍 [Project 1 - Speech Enhancement](https://yiruyang2025.github.io/blog/2025/Speech-Enhancement-25/) - **Single-Channel Computation Efficiency**
-- 📍 [Project 2](https://yiruyang2025.github.io/blog/2025/Master-Thesis-25/) - pending for **Master Thesis**
+- 📍 [Project 2](https://yiruyang2025.github.io/blog/2025/Master-Thesis-26/)- pending for **Master Thesis**
 
-<div style="height: 7.5rem;"></div>
+<div style="height: 6rem;"></div>
