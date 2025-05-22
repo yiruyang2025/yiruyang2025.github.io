@@ -585,7 +585,7 @@ $$
 
 # 8. Some Labs<br><br>
 
-- [Distributed Computing](https://pw.ethz.ch/research/research-areas/distributed-computing.html)<br>
+Looking for a lab where I can do Speech Enhancement / Processing.
 
 <br><br><br><br>
 
