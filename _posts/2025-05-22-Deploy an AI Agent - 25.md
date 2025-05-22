@@ -17,7 +17,7 @@ Welcome<br><br><br>
 
 
 
-## 1. From [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
+## 1. Post-training
 
 <br>
 
@@ -32,6 +32,12 @@ Welcome<br><br><br>
 - Github - [Tools for merging pretrained large language models](https://github.com/arcee-ai/mergekit?utm_source=chatgpt.com)
 - [2025 - Mergenetic: a Simple Evolutionary Model Merging Library](https://arxiv.org/abs/2505.11427?utm_source=chatgpt.com)
 
+
+<br>
+
+**References**<br>
+
+- [Hung-yi Lee](https://www.youtube.com/@HungyiLeeNTU)
 
 <br><br>
 
