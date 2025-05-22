@@ -13,7 +13,7 @@ images:
 ---
 
 
-Welcome to story time, sometimes I believe that "Slow" researches may have magnificantly magically great outcomes.<br><br>
+Welcome to story time<br><br>
 
 
 # Topics<br><br>
