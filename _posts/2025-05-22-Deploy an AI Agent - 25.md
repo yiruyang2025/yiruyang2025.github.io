@@ -43,7 +43,7 @@ Welcome,
   - 2021 Task Arithmetic - Linear combination of model weights
   - LoRA Merging - Fusion of multiple LoRA adapters
 
-<br><br>
+<br>
 
 <p align="left">
   <img src="/assets/img/ModelEditing_and_Merging.jpg" alt="Knowledge Map" width="60%">
@@ -54,6 +54,15 @@ Welcome,
 <p align="left">
   <img src="/assets/img/Task_Vector.jpg" alt="Knowledge Map" width="60%">
 </p>
+
+<br>
+
+**1.3 Machine Un-Learning**<br>
+
+
+<br>
+
+
 
 <br><br><br>
 
