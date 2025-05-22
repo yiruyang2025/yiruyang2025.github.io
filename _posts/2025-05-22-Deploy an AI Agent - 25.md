@@ -21,7 +21,7 @@ Welcome,
 
 <br>
 
-**1. Model Editing**<br>
+**1.1 Model Editing**<br>
 
 - ACL 2024 - An Easy-to-use Knowledge Editing Framework for LLMs - [Easy Edit](https://github.com/zjunlp/EasyEdit)
 
@@ -32,12 +32,12 @@ Welcome,
 
 <br><br>
 
-**2. Model Merging**
+**1.2 Model Merging**
 
 <br><br><br>
 
 
-**References**
+## 2. References
 
 
 <br><br><br><br>
