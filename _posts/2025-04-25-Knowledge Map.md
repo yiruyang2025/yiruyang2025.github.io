@@ -29,14 +29,20 @@ Hi there, I build pretty things here.<br><br>
   - Adapter (reduce training parameters)
   - Distillation (transfer knowledge)
   - Pruning (delete redundant structure)
+
 <br>
+
 ❄️ **Representation Learning**
   - Self-Supervised Learning - SSL
+
 <br>
+
 ❄️ **Model Manipulation**
   - Model Editing
   - Model Merging
+
 <br>
+
 ❄️ **Pending Generalization**
   - Few-shot Learning
   - Zero-shot Learning
