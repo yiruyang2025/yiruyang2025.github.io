@@ -16,6 +16,12 @@ Welcome,
 
 Let's start with the Model Post-training for Hearing Assistance - A Coding Demo Example using xxx<br><br>
 
+# Some Labs<br><br>
+
+📍 Actively Looking for a lab where I can do Speech Enhancement / Processing.
+
+<br><br>
+
 # 0. Some Background Knowledge<br><br>
 
 **0.1 Core Evolution of Voice Models**
@@ -147,7 +153,9 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 - Most modern deep learning tasks—especially those involving transformers, adapters, or sequence models—use a combination of one-hot, embedding, and soft labels depending on the training phase.
 
 
+
 <br><br><br><br>
+
 
 # 1. Some Sample Models from Industry<br><br>
 
@@ -582,12 +590,6 @@ $$
 <br><br><br>
 
 
-
-# 8. Some Labs<br><br>
-
-Looking for a lab where I can do Speech Enhancement / Processing.
-
-<br><br><br><br>
 
 
 # References<br><br>
