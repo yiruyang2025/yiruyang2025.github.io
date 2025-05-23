@@ -2,7 +2,7 @@
 layout: post
 title: AI x Environment x Robotics - 26
 date: 2025-05-21
-description: ‪🌕
+description: ‪⛺️
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
