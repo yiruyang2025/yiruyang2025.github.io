@@ -3,7 +3,7 @@ layout: post
 title: Deploy an AI Agent - 25
 date: 2025-05-22
 description: 💻
-categories: Research
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
