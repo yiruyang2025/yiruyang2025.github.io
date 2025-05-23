@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Generative Models in Speech Enhancement - 25",
         
-        description: "🥮",
+        description: "⛺️",
         section: "Posts",
         handler: () => {
           
