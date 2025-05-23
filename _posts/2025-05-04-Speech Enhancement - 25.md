@@ -572,7 +572,7 @@ $$
 
 <br><br>
 
-#  Why Need Normalizations
+# 📍 Why Need Normalizations
 
 - **Stabilize and accelerate training** by controlling the distribution of activations  
 - Improve **generalization** across tasks  
@@ -607,9 +607,9 @@ $$
   - Normalizes weight vectors instead of activations  
   - Used in: Reinforcement Learning, Sparse Models  
 
-<br><br><br><br>
+<br><br><br>
 
-#  Why Need Regularization
+# 📍 Why Need Regularization
 
 - Prevent **overfitting** to training data  
 - Improve **robustness** and **generalization**  
