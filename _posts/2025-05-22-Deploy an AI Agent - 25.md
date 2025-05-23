@@ -60,8 +60,14 @@ Welcome,
 **1.3 Machine Un-Learning**<br>
 
 
-<br>
+<br><br><br>
 
+
+
+
+**1.4 Hard to modify – update knowledge to LMs**<br>
+
+- [ACL 2023 Tutorial - Retrieval-based Language Models and Applications](acl2023-retrieval-lm.github.io)
 
 
 <br><br><br>
