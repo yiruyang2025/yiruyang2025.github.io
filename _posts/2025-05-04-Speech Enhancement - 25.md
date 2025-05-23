@@ -590,25 +590,25 @@ $$
 ----
 ### Regularization - Limit the model's learning ability to prevent overfitting<br>
 
-| Regularization Method           | Type                    | How it Works                                                                 | Effect                                                                 |
-|---------------------------------|-------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| **L1 Regularization (Lasso)**   | Weight penalty          | Adds `λ‖w‖₁` to the loss function, encouraging sparsity in weights           | Promotes feature selection by driving some weights to zero              |
-| **L2 Regularization (Ridge)**   | Weight penalty          | Adds `λ‖w‖₂²` to the loss function, penalizing large weights                 | Prevents overfitting by discouraging complex models                     |
-| **Elastic Net Regularization**  | Combined penalty        | Combines L1 and L2 penalties: `λ₁‖w‖₁ + λ₂‖w‖₂²`                             | Balances sparsity and weight decay, useful for correlated features      |
-| **Dropout**                     | Stochastic structure    | Randomly drops neurons during training                                       | Prevents co-adaptation of neurons, reducing overfitting                 |
-| **DropConnect**                 | Stochastic structure    | Randomly drops weights (connections) during training                         | Similar to Dropout but operates on weights, promoting robustness        |
-| **Stochastic Depth**            | Architecture noise      | Randomly skips entire layers during training                                 | Acts as an ensemble of networks, improving generalization               |
-| **Early Stopping**              | Training control        | Stops training when validation performance degrades                          | Prevents overfitting by halting training at the optimal point           |
-| **Batch Normalization**         | Normalization           | Normalizes layer inputs during training                                      | Stabilizes learning and provides regularization effect                  |
-| **Layer Normalization**         | Normalization           | Normalizes across features within each layer                                 | Improves training stability, especially in RNNs                         |
-| **Weight Decay**                | Optimizer modification  | Applies L2 penalty directly during weight updates (e.g., in AdamW optimizer) | Controls weight magnitude, preventing overfitting                       |
-| **Label Smoothing**             | Loss modification       | Softens the target labels, distributing some probability to other classes    | Prevents overconfidence, improving model calibration                    |
-| **Data Augmentation**           | Input expansion         | Applies transformations to training data (e.g., rotation, noise)             | Increases data diversity, enhancing model generalization                |
-| **Mixup**                       | Input mixing            | Combines pairs of inputs and labels to create new samples                    | Encourages linear behavior between classes, improving robustness        |
-| **CutMix**                      | Input mixing            | Replaces a region of an image with a patch from another image                | Combines benefits of regional dropout and data augmentation             |
-| **Noise Injection**             | Input/model noise       | Adds noise to inputs, weights, or activations during training                | Encourages the model to learn robust features                           |
-| **Max-Norm Constraints**        | Weight constraint       | Enforces an upper bound on the norm of weight vectors                        | Prevents weights from growing too large, aiding generalization          |
-| **Gradient Clipping**           | Optimization control    | Limits the magnitude of gradients during backpropagation                     | Prevents exploding gradients, stabilizing training                      |
+| Regularization Method         | Type                  | How it Works                                                                     | Effect                                                           |
+|------------------------------|-----------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------|
+| **L1 Regularization (Lasso)**| Weight penalty        | Adds λ‖w‖₁ to the loss function, encouraging sparsity in weights                 | Promotes feature selection by driving some weights to zero       |
+| **L2 Regularization (Ridge)**| Weight penalty        | Adds λ‖w‖₂² to the loss function, penalizing large weights                      | Prevents overfitting by discouraging complex models              |
+| **Elastic Net Regularization**| Combined penalty     | Combines L1 and L2 penalties: λ₁‖w‖₁ + λ₂‖w‖₂²                                   | Balances sparsity and weight decay, useful for correlated features |
+| **Dropout**                 | Stochastic structure  | Randomly drops neurons during training                                           | Prevents co-adaptation of neurons, reducing overfitting          |
+| **DropConnect**             | Stochastic structure  | Randomly drops weights (connections) during training                             | Similar to Dropout but operates on weights, promoting robustness |
+| **Stochastic Depth**        | Architecture noise    | Randomly skips entire layers during training                                     | Acts as an ensemble of networks, improving generalization        |
+| **Early Stopping**          | Training control      | Stops training when validation performance degrades                              | Prevents overfitting by halting training at the optimal point    |
+| **Batch Normalization**     | Normalization         | Normalizes layer inputs during training                                          | Stabilizes learning and provides regularization effect           |
+| **Layer Normalization**     | Normalization         | Normalizes across features within each layer                                     | Improves training stability, especially in RNNs                  |
+| **Weight Decay**            | Optimizer modification| Applies L2 penalty directly during weight updates (e.g., in AdamW optimizer)     | Controls weight magnitude, preventing overfitting                |
+| **Label Smoothing**         | Loss modification     | Softens the target labels, distributing some probability to other classes        | Prevents overconfidence, improving model calibration             |
+| **Data Augmentation**       | Input expansion       | Applies transformations to training data (e.g., rotation, noise)                 | Increases data diversity, enhancing model generalization         |
+| **Mixup**                   | Input mixing          | Combines pairs of inputs and labels to create new samples                        | Encourages linear behavior between classes, improving robustness |
+| **CutMix**                  | Input mixing          | Replaces a region of an image with a patch from another image                    | Combines benefits of regional dropout and data augmentation      |
+| **Noise Injection**         | Input/model noise     | Adds noise to inputs, weights, or activations during training                    | Encourages the model to learn robust features                    |
+| **Max-Norm Constraints**    | Weight constraint     | Enforces an upper bound on the norm of weight vectors                            | Prevents weights from growing too large, aiding generalization   |
+| **Gradient Clipping**       | Optimization control  | Limits the magnitude of gradients during backpropagation                         | Prevents exploding gradients, stabilizing training               |
 ----
 
 
