@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generative Models in Speech Enhancement - 25
+title: Generative Models for Speech Enhancement - 25
 date: 2025-05-23
 description: ⛺️
 categories: Research
@@ -13,6 +13,6 @@ images:
 ---
 
 
-Welcome,
+Welcome, the structure will mainly be Designed for Industrial Deployment.
 
 <br><br>
