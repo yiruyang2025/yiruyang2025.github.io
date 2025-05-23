@@ -12,4 +12,4 @@ images:
   venobox: true
 ---
 
-Hi there, I collect pretty things here.<br><br>
+Hi there, I collect pretty things here <br><br>
