@@ -67,8 +67,7 @@ Welcome,
 
 **1.4 Hard to modify – update knowledge to LMs**<br>
 
-- [ACL 2023 Tutorial - Retrieval-based Language Models and Applications](acl2023-retrieval-lm.github.io)
-
+- [ACL 2023 Tutorial - Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)
 
 <br><br><br>
 
