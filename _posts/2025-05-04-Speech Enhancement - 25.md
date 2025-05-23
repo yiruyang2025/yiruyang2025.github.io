@@ -297,9 +297,18 @@ $$
 
 - Others - Generative Enhancement Style
   - **DNN-GAN for Speech Denoising**
-  - demo 3<br>
+    
+ <br>
 
-<br><br><br><br>
+ - [**Quantization vs. Pruning vs. Distillation - Optimizing NNs for Inference**](https://youtu.be/UcwDgsMgTu4?si=1x7k4IVNI_rIiYSO)
+
+
+<br><br><br>
+
+
+
+
+<br>
 
 **2.4 Some Parameters and Optimatzers**<br>
 
