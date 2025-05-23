@@ -18,7 +18,7 @@ Let's start with the Model Post-training for Hearing Assistance - A Coding Demo 
 
 # Some Labs<br><br>
 
-📍 Actively Looking for a lab where I can do Speech Enhancement / Processing.
+📍 Actively Looking for a lab where I can do Speech Enhancement / Processing
 
 <br><br>
 
