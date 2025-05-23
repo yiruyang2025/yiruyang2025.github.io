@@ -72,7 +72,17 @@ Welcome,
 <br><br><br>
 
 
-## 2. References
+
+## 2. Multi-LLM Agent
+
+<br>
+
+  - [2024 - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent](https://arxiv.org/abs/2401.07324)
+
+
+<br><br><br>
+
+## References
 
 
 <br><br><br><br>
