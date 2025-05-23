@@ -2,7 +2,7 @@
 layout: post
 title: Generative Models in Speech Enhancement - 25
 date: 2025-05-23
-description: 🥮
+description: ⛺️
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
