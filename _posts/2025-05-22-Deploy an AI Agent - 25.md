@@ -82,6 +82,26 @@ Welcome,
 
 <br><br><br>
 
+## 3. Why Can Neural Networks Be Compressed
+
+<br>
+
+**1. Redundancy**<br>
+
+Most neural networks contain abundant redundant parameters
+Many weights contribute minimally to final predictions
+Network capacity typically exceeds actual requirements
+
+<br><br>
+
+**2. Over-parameterization**<br>
+
+Modern NNs often have millions to billions of parameters
+Actual tasks may only require a small subset
+Large capacity needed for training, but can be streamlined for inference
+
+<br><br><br>
+
 ## References
 
 
