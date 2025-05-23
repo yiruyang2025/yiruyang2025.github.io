@@ -572,48 +572,97 @@ $$
 
 <br><br>
 
-----
-### **Normalizations** - Adjust feature/activation distribution to improve training stability<br>
+#  Why Need Normalizations
 
-| Normalization Method   | Primary Usage Scenario                     | How It Works                                                                 | Common Applications                     |
-|------------------------|---------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------|
-| **Layer Normalization**| Transformer-based models, speech processing | Normalizes across all features within each sample (token-wise)               | Transformers, wav2vec2, ASR, NLP        |
-| **Batch Normalization**| CNNs, MLPs (dense layers)                  | Normalizes each feature across the entire batch                              | Image classification, ResNet, VGG       |
-| **Instance Normalization**| Image generation, style transfer       | Normalizes each individual sample and channel separately                     | StyleGAN, image-to-image translation    |
-| **Group Normalization**| Small batch sizes in vision tasks         | Divides channels into groups, normalizes within each                         | GANs, segmentation models (with small batches) |
-| **RMSNorm**            | Lightweight or efficient Transformers      | Removes mean-centering; scales only by variance (root mean square)          | TinyLMs, low-latency Transformer models |
-| **Weight Normalization**| Reinforcement learning, sparse networks   | Reparameterizes weights into norm and direction, applied to weights not activations | Policy networks, sparsity-constrained nets |
-----
+- **Stabilize and accelerate training** by controlling the distribution of activations  
+- Improve **generalization** across tasks  
+- Handle **scale variance** across features, samples, and batches  
+- Enable training with **higher learning rates** without divergence  
 
-<br><br><br>
+<br><br>
 
-----
-### Regularization - Limit the model's learning ability to prevent overfitting<br>
+## Techniques
 
-| Regularization Method         | Type                  | How it Works                                                                     | Effect                                                           |
-|------------------------------|-----------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------|
-| **L1 Regularization (Lasso)**| Weight penalty        | Adds λ‖w‖₁ to the loss function, encouraging sparsity in weights                 | Promotes feature selection by driving some weights to zero       |
-| **L2 Regularization (Ridge)**| Weight penalty        | Adds λ‖w‖₂² to the loss function, penalizing large weights                      | Prevents overfitting by discouraging complex models              |
-| **Elastic Net Regularization**| Combined penalty     | Combines L1 and L2 penalties: λ₁‖w‖₁ + λ₂‖w‖₂²                                   | Balances sparsity and weight decay, useful for correlated features |
-| **Dropout**                 | Stochastic structure  | Randomly drops neurons during training                                           | Prevents co-adaptation of neurons, reducing overfitting          |
-| **DropConnect**             | Stochastic structure  | Randomly drops weights (connections) during training                             | Similar to Dropout but operates on weights, promoting robustness |
-| **Stochastic Depth**        | Architecture noise    | Randomly skips entire layers during training                                     | Acts as an ensemble of networks, improving generalization        |
-| **Early Stopping**          | Training control      | Stops training when validation performance degrades                              | Prevents overfitting by halting training at the optimal point    |
-| **Batch Normalization**     | Normalization         | Normalizes layer inputs during training                                          | Stabilizes learning and provides regularization effect           |
-| **Layer Normalization**     | Normalization         | Normalizes across features within each layer                                     | Improves training stability, especially in RNNs                  |
-| **Weight Decay**            | Optimizer modification| Applies L2 penalty directly during weight updates (e.g., in AdamW optimizer)     | Controls weight magnitude, preventing overfitting                |
-| **Label Smoothing**         | Loss modification     | Softens the target labels, distributing some probability to other classes        | Prevents overconfidence, improving model calibration             |
-| **Data Augmentation**       | Input expansion       | Applies transformations to training data (e.g., rotation, noise)                 | Increases data diversity, enhancing model generalization         |
-| **Mixup**                   | Input mixing          | Combines pairs of inputs and labels to create new samples                        | Encourages linear behavior between classes, improving robustness |
-| **CutMix**                  | Input mixing          | Replaces a region of an image with a patch from another image                    | Combines benefits of regional dropout and data augmentation      |
-| **Noise Injection**         | Input/model noise     | Adds noise to inputs, weights, or activations during training                    | Encourages the model to learn robust features                    |
-| **Max-Norm Constraints**    | Weight constraint     | Enforces an upper bound on the norm of weight vectors                            | Prevents weights from growing too large, aiding generalization   |
-| **Gradient Clipping**       | Optimization control  | Limits the magnitude of gradients during backpropagation                         | Prevents exploding gradients, stabilizing training               |
-----
+- **Layer Normalization**  
+  - Normalizes across all features within each token (sample-wise)  
+  - Used in: Transformers, Speech Models (e.g., wav2vec2, ASR)  
 
+- **Batch Normalization**  
+  - Normalizes each feature across the batch  
+  - Used in: CNNs, MLPs, Image Classification (ResNet, VGG)  
 
-<br><br><br>
+- **Instance Normalization**  
+  - Normalizes each sample and channel separately  
+  - Used in: Style Transfer, Image Generation  
 
+- **Group Normalization**  
+  - Normalizes within groups of channels  
+  - Used in: Vision tasks with small batches (e.g., segmentation, GANs)  
+
+- **RMSNorm**  
+  - Root-mean-square-only scaling (no mean subtraction)  
+  - Used in: Lightweight Transformers, TinyLMs  
+
+- **Weight Normalization**  
+  - Normalizes weight vectors instead of activations  
+  - Used in: Reinforcement Learning, Sparse Models  
+
+<br><br><br><br>
+
+#  Why Need Regularization
+
+- Prevent **overfitting** to training data  
+- Improve **robustness** and **generalization**  
+- Avoid **co-adaptation** of neurons  
+- Stabilize **weight growth and gradient flow**  
+
+<br><br>
+
+##  Techniques
+
+- **L1 Regularization (Lasso)**  
+  - Encourages sparsity, useful for feature selection  
+
+- **L2 Regularization (Ridge)**  
+  - Penalizes large weights, discourages complexity  
+
+- **Elastic Net**  
+  - Combines L1 + L2 for balanced sparsity + smoothness  
+
+- **Dropout**  
+  - Randomly removes neurons during training to prevent co-adaptation  
+
+- **DropConnect**  
+  - Randomly removes connections (weights), adds structural noise  
+
+- **Stochastic Depth**  
+  - Randomly skips entire layers, improves ensemble-like diversity  
+
+- **Early Stopping**  
+  - Halts training when validation loss stops improving  
+
+- **Weight Decay**  
+  - Applies L2 penalty during optimizer update (e.g., AdamW)  
+
+- **Label Smoothing**  
+  - Softens targets to avoid overconfidence in classification  
+
+- **Data Augmentation**  
+  - Expands training data via noise, rotation, cropping, etc.  
+
+- **Mixup / CutMix**  
+  - Mix inputs and/or regions from multiple samples for better decision boundaries  
+
+- **Noise Injection**  
+  - Adds Gaussian noise to inputs or gradients for robustness  
+
+- **Max-Norm Constraint**  
+  - Limits the norm of weights for regularized learning  
+
+- **Gradient Clipping**  
+  - Prevents exploding gradients, especially in RNNs  
+  
+ <br><br><br><br>
 
 
 
