@@ -674,6 +674,7 @@ $$
 
 - [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
 
+- [2024 WizardLM - WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions](https://openreview.net/forum?id=CfXh93NDgH)
 
 
 
