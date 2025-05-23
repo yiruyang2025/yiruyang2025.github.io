@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI x Environment x Robotics - 26
+title: AI x Robotics - HCI - 26
 date: 2025-05-21
 description: ‪⛺️
 categories: Research
