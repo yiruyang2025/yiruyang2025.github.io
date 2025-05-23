@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-generative-models-in-speech-enhancement-25",
+        },{id: "post-generative-models-for-speech-enhancement-25",
         
-          title: "Generative Models in Speech Enhancement - 25",
+          title: "Generative Models for Speech Enhancement - 25",
         
         description: "⛺️",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Generative-Models-in-Speech-Enhancement-25/";
+            window.location.href = "/blog/2025/Generative-Models-for-Speech-Enhancement-25/";
           
         },
       },{id: "post-deploy-an-ai-agent-25",
