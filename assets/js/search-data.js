@@ -52,7 +52,7 @@ ninja.data = [{
         
           title: "AI x Environment x Robotics - 26",
         
-        description: "‪🌕",
+        description: "‪⛺️",
         section: "Posts",
         handler: () => {
           
