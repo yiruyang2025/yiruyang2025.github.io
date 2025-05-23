@@ -48,15 +48,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Deploy-an-AI-Agent-25/";
           
         },
-      },{id: "post-ai-x-environment-x-robotics-26",
+      },{id: "post-ai-x-robotics-hci-26",
         
-          title: "AI x Environment x Robotics - 26",
+          title: "AI x Robotics - HCI - 26",
         
         description: "‪⛺️",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/AI-x-Environment-x-Robotics-26/";
+            window.location.href = "/blog/2025/AI-x-Robotics-HCI-26/";
           
         },
       },{id: "post-memory-and-self-reflection-25",
