@@ -17,8 +17,5 @@ Welcome, <br>
 
 Let me build a Visualized Interactive Demo on Colab to **teach** you about the Feature Space / Latent Space / Embedding Space / Noise Space I / we **used in the thesis** - Speech Processing
 
-<br>
-
-Hopefully it will turn out to a cool one
 
 <br><br>
