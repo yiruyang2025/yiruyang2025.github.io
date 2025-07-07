@@ -298,6 +298,12 @@ Activation Function Characteristics Comparison:
 
 <br>
 
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project1_4.jpg" alt="Project 1 Visualization" width="45%">
+</p>
+
+<br>
+
 **🧊 Distillation Ice Factory**
 
 ```
