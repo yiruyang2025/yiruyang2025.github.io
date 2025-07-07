@@ -15,12 +15,21 @@ A Lightweight Pre-trained Model
 
 Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
+<br>
+
+
+ - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
+
+ - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
+
 
 <br>
 
 **Hypothesis**
 
 Sometimes `Geometric dimensionality reduction` may help more than compression / sparsity
+
+<br>
 
 ```
 Short-term memory ──▶ Attention ──▶ Hidden activation h
@@ -35,10 +44,6 @@ Riemann P-PCA dimensionality reduction (R-PCA)
 Compressed memory ←— Quantization (Sphere PQ)
 ```
 
-
- - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
-
- - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
 
 
 <br>
