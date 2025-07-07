@@ -100,6 +100,70 @@ Sometimes Geometry is so elegant in the AI domain
 
 <br>
 
+```
+┌─────────────────────────────────────────┐
+│ 🏝️ Each position is an isolated island  │
+│                                         │
+│  [·] [·] [·] [·]  ← Only sees itself    │
+│  [·] [X] [·] [·]  ← No spatial context  │
+│  [·] [·] [·] [·]  ← Pure local view     │
+│  [·] [·] [·] [·]                        │
+│                                         │
+│  output[i,j] = X[i,j]                   │
+└─────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│ 🌊 Information flows like rivers in all directions              │
+│                                                                 │
+│    ←←←← LR Flow (Left→Right)                                    │
+│    ↑ ┌─→─→─→─→─┐ ↑                                              │
+│    ↑ │ 🌊 [X] 🌊 │ ↑  ← Center aggregates from ALL directions    │
+│    ↑ └─←─←─←─←─┘ ↑                                              │
+│    ↑     ↓↓↓↓     ↑                                             │
+│    TB Flow    BT Flow                                           │
+│  (Top→Bot)  (Bot→Top)                                           │
+│              ↓                                                  │
+│  LR[i,j] = scan_LR(X)[i,j]    # ←←← Accumulate left history     │
+│  RL[i,j] = scan_RL(X)[i,j]    # →→→ Accumulate right history    │
+│  TB[i,j] = scan_TB(X)[i,j]    # ↑↑↑ Accumulate top history      │
+│  BT[i,j] = scan_BT(X)[i,j]    # ↓↓↓ Accumulate bottom history   │
+│                                                                 │
+│  output[i,j] = LR + RL + TB + BT  # 🌊 River confluence         │
+└─────────────────────────────────────────────────────────────────┘
+
+🐌 Global Attention: O((H·W)²) - Every pixel talks to every pixel
+   ┌──────────────────────────────────────────────────────────┐
+   │ 💬 Chatty pixels: 64×64 = 4,096 → 16,777,216 connections │
+   └──────────────────────────────────────────────────────────┘
+
+🚀 Mamba Scans: O(H·W) - Linear recurrence per direction
+   ┌─────────────────────────────────────────────────────────┐
+   │ 🌊 River flows: 64×64 = 4,096 → 4,096 × 4 = 16,384 ops  │
+   └─────────────────────────────────────────────────────────┘
+
+🌊 Four Rivers Converge into One Mighty Stream:
+
+     ←←←LR←←←
+        ↑
+    ↑   |   ↓
+    TB [🎯] BT  → Full Spatial Awareness
+    ↑   |   ↓
+        ↓
+     →→→RL→→→
+
+Each position becomes a confluence point where all directional 
+information streams meet, creating complete spatial understanding
+with linear computational cost! 🌊⚡
+```
+
+
+
+
+
+
+
+<br><br>
+
 ## References
 
 `1. Spatiotemporal Video Encoding`
