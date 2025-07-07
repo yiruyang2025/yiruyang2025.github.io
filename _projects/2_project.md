@@ -11,11 +11,9 @@ related_publications: true
 <br>
 
 
-`Extreme Sparsity` Self-Supervised Learning / xx
+A lightweight Pre-trained Model
 
-<br>
-
- (Spatiotemporal Modeling) / Neural Activity Prediciton via Extreme Sparse Modeling
+Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
