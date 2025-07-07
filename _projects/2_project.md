@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
-A lightweight Pre-trained Model
+A Lightweight Pre-trained Model
 
 Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
