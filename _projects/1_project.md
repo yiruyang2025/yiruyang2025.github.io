@@ -206,7 +206,55 @@ output = original_whisper(audio) + lora_adaptation(audio) * dropout_mask
 ```
 
 
-<br><br>
+<br>
+
+```
+🎯 Fourier Transform (Continuous FT)
+Purpose: Decompose continuous-time signals into global frequency spectrum for spectral analysis and filter design
+X(ω) = ∫₋∞⁺∞ x(t) · e⁻ʲωt dt
+x(t) = 1/2π ∫₋∞⁺∞ X(ω) · eʲωt dω
+
+Frequency Resolution: ██████████████ (perfect)
+Time Resolution: ███░░░░░░░░░ (none)
+
+🎯 Discrete Fourier Transform (DFT)
+Purpose: Analyze discrete signal spectrum for digital filtering and feature extraction
+X[k] = ∑_{n=0}^{N-1} x[n] · e⁻ʲ2πkn/N
+x[n] = 1/N ∑_{k=0}^{N-1} X[k] · eʲ2πkn/N
+
+Frequency Resolution: ███████████░░ (depends on N)
+Time Resolution: ███░░░░░░░░░ (none)
+
+🎯 Fast Fourier Transform (FFT)
+Purpose: Efficient DFT computation enabling real-time spectral analysis and audio processing
+(Same formulas as DFT, reduces complexity from O(N²) to O(N log N))
+
+Computational Speed: ██████████████ (real-time capable)
+Algorithmic Efficiency: ████████░░░░ (N log N vs. N²)
+
+🎯 Short-Time Fourier Transform (STFT)
+Purpose: Time-localized frequency analysis of non-stationary signals (speech, music, vibrations)
+STFT{x}(τ,ω) = ∫₋∞⁺∞ x(t) · w(t−τ) · e⁻ʲωt dt
+
+Time Resolution: ██████░░░░░░ (window length governed)
+Frequency Resolution: ██████░░░░░░ (inverse of window length)
+
+🎯 Wavelet Transform (CWT/DWT)
+Purpose: Multi-scale analysis with variable time-frequency resolution for transient detection, compression, fault diagnosis
+CWT{x}(a,b) = 1/√|a| ∫₋∞⁺∞ x(t) · ψ*((t−b)/a) dt
+(DWT implemented via filter banks and down-sampling)
+
+Time Resolution: ██████░░░░░░ (good at high frequencies)
+Frequency Resolution: ██████░░░░░░ (good at low frequencies)
+
+Trade-off Principle: Higher time resolution → Lower frequency resolution (Heisenberg uncertainty principle)
+```
+
+
+
+
+
+<br>
 
 ```
 Raw Audio
