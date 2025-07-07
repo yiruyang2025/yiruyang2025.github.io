@@ -34,7 +34,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [Ego4D]
 
-[realtime track, e.g. locate your pet / Spatiotemporal Modeling](https://docs.xreal.com/Sample%20Code)
+[realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
 
 
 <br><br>
