@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Adapter-Guided Distillation for ASR
-description: Whisper-large-v2 + Geometric Loss
+description: Whisper-large-v2 + On-device
 img: assets/img/4.jpg
 importance: 1
 category: work
