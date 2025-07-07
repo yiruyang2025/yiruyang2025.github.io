@@ -57,30 +57,12 @@ related_publications: true
 
 [1 - 2014 - Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
 
-
 [2 - 2015 - Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 
 
 <br>
 
-
-<br>
-
-`[Compressive Transformer]`
-
-[Differentiable Neural Computer]
-
-[Sparse Access Memory]
-
-[AlphaDev]
-
-[Ego4D]
-
-[realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
-
-
-<br>
 
 ## Topics
 
