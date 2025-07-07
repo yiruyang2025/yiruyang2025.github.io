@@ -31,6 +31,22 @@ related_publications: true
 - ALIGN - 2021
 
 
+<br>
+
+
+`[Compressive Transformer]` - [x](https://github.com/lucidrains/compressive-transformer-pytorch)
+
+[Differentiable Neural Computer]
+
+[Sparse Access Memory]
+
+[AlphaDev]
+
+[Ego4D]
+
+[realtime track, e.g. locate your pet / Spatiotemporal Modeling](https://docs.xreal.com/Sample%20Code)
+
+
 <br><br>
 
 
