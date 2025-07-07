@@ -23,7 +23,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
  - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
 
 
-<br>
+<br><br>
 
 **Hypothesis**
 
