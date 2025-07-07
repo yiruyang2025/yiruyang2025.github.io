@@ -34,7 +34,7 @@ related_publications: true
 <br>
 
 
-`[Compressive Transformer]` - [x](https://github.com/lucidrains/compressive-transformer-pytorch)
+`[Compressive Transformer]`
 
 [Differentiable Neural Computer]
 
