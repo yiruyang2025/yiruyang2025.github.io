@@ -8,20 +8,11 @@ category: work
 related_publications: true
 ---
 
+<br>
 
 [2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
 
 
-
-
-
-
-
-<br>
-
-- [2012](https://www.theverge.com/2012/2/11/2789943/vincent-van-gogh-starry-night-multitouch-interactive?utm_source=chatgpt.com)
-
-- with sound
 
 <br><br>
 
