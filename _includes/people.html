@@ -1,0 +1,257 @@
+<!-- people.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <div class="people-container">
+      <!-- Display people by categories defined in _data/people.yml -->
+      {% for category_name in page.display_categories %}
+        {% if category_name == "Friends and Alumni🌍" %}
+          <div style="height: 40px; clear: both;"></div> <!-- Space before Friends and Alumni section -->
+        {% endif %}
+        
+        <h2 class="category-title">{{ category_name }}</h2>
+        
+        {% assign category_data = site.data.people[category_name] %}
+        {% if category_data %}
+          {% for group in category_data %}
+            {% if group.name %}
+              <h3 class="group-name">{{ group.name }}</h3>
+            {% endif %}
+            
+            {% if group.people %}
+              {% for person in group.people %}
+                <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+                  {% if person.image %}
+                    <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                         src="{{ person.image | prepend: '/assets/img/people/' | relative_url }}" 
+                         alt="{{ person.name }}">
+                  {% endif %}
+                  <div class="profile-info">
+                    <h4>{{ person.name }}</h4>
+                    <p class="position">{{ person.position }}</p>
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-links">
+                      {% if person.email %}
+                      <p class="email"><i class="fas fa-envelope"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+                      {% endif %}
+                      
+                      {% if person.website %}
+                      <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+                      {% endif %}
+                      
+                      <!-- Social/Academic Profiles -->
+                      <div class="social-links">
+                        {% if person.github_username %}
+                        <a href="https://github.com/{{ person.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        
+                        {% if person.linkedin_username %}
+                        <a href="https://www.linkedin.com/in/{{ person.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        {% endif %}
+                        
+                        {% if person.scholar_userid %}
+                        <a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                        {% endif %}
+                        
+                        {% if person.twitter %}
+                        <a href="https://twitter.com/{{ person.twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        
+                        {% if person.orcid_id %}
+                        <a href="https://orcid.org/{{ person.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
+                        {% endif %}
+                      </div>
+                    </div>
+                    
+                    {% if person.interests %}
+                    <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+                    {% endif %}
+                    
+                    {% if person.description %}
+                    <p class="description">{{ person.description }}</p>
+                    {% endif %}
+                    
+                    {% if person.more_info %}
+                    <div class="more-info">
+                      {{ person.more_info }}
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      
+      <!-- If no display_categories defined, fall back to showing all people -->
+      {% if page.display_categories.size == 0 %}
+        {% for person in site.data.people %}
+          <div class="profile float-{% if person.align %}{{ person.align }}{% else %}left{% endif %}">
+            {% if person.image %}
+              <img class="img-fluid {% if person.image_circular %}rounded-circle{% else %}z-depth-1 rounded{% endif %}" 
+                   src="{{ person.image | prepend: '/assets/img/' | relative_url }}" 
+                   alt="{{ person.name }}">
+            {% endif %}
+            <div class="profile-info">
+              <h4>{{ person.name }}</h4>
+              <p class="position">{{ person.position }}</p>
+              
+              <!-- Contact Information -->
+              <div class="contact-links">
+                {% if person.email %}
+                <p class="email"><i class="fas fa-envelope"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+                {% endif %}
+                
+                {% if person.website %}
+                <p class="website"><i class="fas fa-globe"></i> <a href="{{ person.website }}" target="_blank">Website</a></p>
+                {% endif %}
+                
+                <!-- Social/Academic Profiles -->
+                <div class="social-links">
+                  {% if person.github_username %}
+                  <a href="https://github.com/{{ person.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                  {% endif %}
+                  
+                  {% if person.linkedin_username %}
+                  <a href="https://www.linkedin.com/in/{{ person.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                  {% endif %}
+                  
+                  {% if person.scholar_userid %}
+                  <a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                  {% endif %}
+                </div>
+              </div>
+              
+              {% if person.interests %}
+              <p class="interests"><strong>Research Interests:</strong> {{ person.interests }}</p>
+              {% endif %}
+              
+              {% if person.description %}
+              <p class="description">{{ person.description }}</p>
+              {% endif %}
+              
+              {% if person.more_info %}
+              <div class="more-info">
+                {{ person.more_info }}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </article>
+</div>
+
+<style>
+  .people-container {
+    margin-top: 30px;
+  }
+  
+  .category-title {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    clear: both;
+  }
+  
+  .group-name {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    clear: both;
+    font-size: 1.4rem;
+  }
+  
+  .profile {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .float-left img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .float-right img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .profile-info {
+    overflow: hidden;
+  }
+  
+  .profile-info h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .email, .website, .interests {
+    margin: 5px 0;
+  }
+  
+  .contact-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    margin: 10px 0;
+  }
+  
+  .social-links a {
+    margin-right: 12px;
+    font-size: 1.2rem;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #0076df;
+  }
+  
+  .description {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .more-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  @media (max-width: 768px) {
+    .float-left img, .float-right img {
+      float: none;
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 200px;
+    }
+  }
+</style>
