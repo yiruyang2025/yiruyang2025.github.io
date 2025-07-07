@@ -20,6 +20,8 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 
 <br>
 
+-> Learnt how to do `INT8` - Inference - Post-Training `Quantization`
+
 `📍 If you have some Time`
 
 - Accurately analyze `how` LoRA `weights affect knowledge transfer`
