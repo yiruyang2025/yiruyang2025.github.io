@@ -25,14 +25,6 @@ related_publications: true
 
 <br>
 
-- EVA-CLIP (2023), OpenCLIP (2023), CLIP-ViP (2023)
-- [Multimodal Nerons in NNs](https://distill.pub/2021/multimodal-neurons/)
-- LiT - 2022
-- ALIGN - 2021
-
-
-<br>
-
 
 `[Compressive Transformer]`
 
@@ -59,6 +51,12 @@ related_publications: true
 
 [2 - 2015 - Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
+<br>
+
+- EVA-CLIP (2023), OpenCLIP (2023), CLIP-ViP (2023)
+- [Multimodal Nerons in NNs](https://distill.pub/2021/multimodal-neurons/)
+- LiT - 2022
+- ALIGN - 2021
 
 
 <br>
