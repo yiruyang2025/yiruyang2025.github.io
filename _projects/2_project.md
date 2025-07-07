@@ -32,7 +32,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [AlphaDev]
 
-[Ego4D]
+[Ego4D](https://ego4d-data.org/)
 
 [realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
 
