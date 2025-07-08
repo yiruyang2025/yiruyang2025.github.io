@@ -22,7 +22,9 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 
 -> Learnt how to do `INT8` - Inference - Post-Training `Quantization`
 
-Function pending - Separate the xxx(e.g. Dangerous) sound from the mixed audio track and generate a separate audio track -> AI Warning
+-> Functions pending - Separate the xxx(e.g. Dangerous) sound from the mixed audio track and generate a separate audio track -> AI Warning
+
+<br>
 
 ```
 - Extract the spectral or time domain features, then train the U-Net, Conv-TasNet, Demucs and other networks to output multiple audio streams
