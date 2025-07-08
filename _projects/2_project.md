@@ -31,9 +31,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 Sometimes `Geometric dimensionality reduction` may help more than compression / sparsity
 
-<br>
-
-Let's build our own assistants, Inspired by a 3-legged pet dog can be saw daily in the street park
 
 <br>
 
