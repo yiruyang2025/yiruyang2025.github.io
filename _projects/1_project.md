@@ -52,30 +52,7 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 - Write a script to test by yourself
 
 
-<br>
-
-```
-Hidden states H ∈ ℝ^{B×S×D}
-    ↓
-Reshape & center:
-X = reshape(H, (B·S, D)),  X_c = X − 𝟙·(𝟙ᵀX)/(B·S)
-    ↓
-Covariance matrix:
-C = X_cᵀ X_c / (B·S − 1) ∈ ℝ^{D×D}
-    ↓
-Eigen-decomposition:
-C = Q diag(λ₁,…,λ_D) Qᵀ, λ₁≥⋯≥λ_D>0
-    ↓
-Compute geometric metrics:
-κ = λ₁/λ_D  (D_condition number)  
-D_ld = −∑_{i=1}^D log λ_i  (LogDet Divergence to I)  
-r_eff = exp(−∑_{i=1}^D p_i log p_i), p_i=λ_i/∑_jλ_j  (Effective rank)
-    ↓
-Monitor κ, D_ld, r_eff → Adjust hidden-align / LogDet weight
-```
-
-
-<br>
+<br><br>
 
 - [2022 - Learning to Optimize on Riemannian Manifolds](https://ieeexplore.ieee.org/abstract/document/9925104?casa_token=bNY_doF6LMEAAAAA:e2F5F0S8BqsdwcNyGn1v6W7qGZxO_T4yhV6EyqY9NYEsSmVL8R7JIoMNzFuMK4rBiLATHnJOixBf)
 
