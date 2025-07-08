@@ -33,6 +33,10 @@ Sometimes `Geometric dimensionality reduction` may help more than compression / 
 
 <br>
 
+Let's build our own assistants, Inspired by a 3-legged pet dog can be saw daily in the street park
+
+<br>
+
 `[Compressive Transformer]`
 
 [Mamba]
