@@ -24,6 +24,12 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 
 Function pending - Separate the xxx(e.g. Dangerous) sound from the mixed audio track and generate a separate audio track -> AI Warning
 
+```
+- Extract the spectral or time domain features, then train the U-Net, Conv-TasNet, Demucs and other networks to output multiple audio streams
+
+- Give it a "label" to tell it how many channels to split (vocals/drums/bass/other), and it will split the signal
+```
+
 <br>
 
 `📍 If you have some Time`
