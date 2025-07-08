@@ -33,6 +33,23 @@ Sometimes `Geometric dimensionality reduction` may help more than compression / 
 
 <br>
 
+`[Compressive Transformer]`
+
+[Mamba]
+
+[Differentiable Neural Computer]
+
+[Sparse Access Memory]
+
+[AlphaDev]
+
+[Ego4D](https://ego4d-data.org/)
+
+[realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
+
+
+<br><br>
+
 ```
 Short-term memory ──▶ Attention ──▶ Hidden activation h
 │
@@ -45,24 +62,6 @@ Riemann P-PCA dimensionality reduction (R-PCA)
 ▼
 Compressed memory ←— Quantization (Sphere PQ)
 ```
-
-
-
-
-<br><br>
-
-`[Compressive Transformer]`
-
-[Differentiable Neural Computer]
-
-[Sparse Access Memory]
-
-[AlphaDev]
-
-[Ego4D](https://ego4d-data.org/)
-
-[realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
-
 
 <br><br>
 
