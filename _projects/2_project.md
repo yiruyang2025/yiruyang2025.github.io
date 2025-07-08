@@ -27,6 +27,8 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 **Hypothesis**
 
+<br>
+
 Sometimes `Geometric dimensionality reduction` may help more than compression / sparsity
 
 <br>
