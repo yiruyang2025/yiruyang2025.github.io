@@ -22,6 +22,8 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 
 -> Learnt how to do `INT8` - Inference - Post-Training `Quantization`
 
+Function pending - Separate the xxx(e.g. Dangerous) sound from the mixed audio track and generate a separate audio track -> AI Warning
+
 <br>
 
 `📍 If you have some Time`
