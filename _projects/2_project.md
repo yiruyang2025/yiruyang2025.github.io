@@ -48,7 +48,7 @@ Compressed memory ←— Quantization (Sphere PQ)
 
 <br>
 
-Sometimes Geometry is so elegant in the AI domain
+Geometry is so elegant in the AI domain
 
 <br><br>
 
