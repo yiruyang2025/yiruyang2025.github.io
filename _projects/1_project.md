@@ -52,7 +52,7 @@ Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.
 - Write a script to test by yourself
 
 
-<br><br>
+<br>
 
 - [2022 - Learning to Optimize on Riemannian Manifolds](https://ieeexplore.ieee.org/abstract/document/9925104?casa_token=bNY_doF6LMEAAAAA:e2F5F0S8BqsdwcNyGn1v6W7qGZxO_T4yhV6EyqY9NYEsSmVL8R7JIoMNzFuMK4rBiLATHnJOixBf)
 
