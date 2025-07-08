@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Adapter-Guided Distillation for ASR
-description: Whisper-large-v2 + Real-time On-device
+description: Whisper-large-v2 + On-device
 img: assets/img/4.jpg
 importance: 1
 category: work
