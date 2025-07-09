@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-`Whisper-large-v2 → distil-whisper/distil-small.en` + LoRA + Hidden-State Alignment
+`Whisper-large-v2 → distil-whisper/distil-small.en` + LoRA + Hidden Space Alignment
 
 `WER` -> `Inference` + `Memory` -> Lightweight On-Device
 
