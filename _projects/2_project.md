@@ -17,7 +17,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 <br>
 
-  - Benchmarks pending
+  - `Benchmarks pending`
 
 <br>
 
