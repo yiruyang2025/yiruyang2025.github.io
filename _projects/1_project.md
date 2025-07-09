@@ -189,7 +189,7 @@ Backpropagate to update LoRA adapter parameters
 ```
 <br>
 
-📍 **`Visual Demo for our LoRA Family`** - hopefully realtime On-Device
+📍 **`Visual + ASR Demo for our LoRA Family`** - hopefully realtime On-Device
 
 
 <br>
