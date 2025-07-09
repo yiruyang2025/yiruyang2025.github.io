@@ -38,7 +38,7 @@ latest_posts:
 
 - Tech helps (hopefully)<br>
 
-- 📍 [Project 1 - A Highly Efficient Knowledge Distillation for ASR](https://yiruyang2025.github.io/projects/1_project/) - demo pending - **Lightweight On-Device** + Hidden-State Alignment
+- 📍 [Project 1 - A Highly Efficient Knowledge Distillation for ASR](https://yiruyang2025.github.io/projects/1_project/) - demo pending - **Lightweight On-Device** + Hidden Space Alignment
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 
 <div style="height: 6rem;"></div>
