@@ -22,17 +22,12 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
  - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
 
+ - [2025 - On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
+
 
 <br><br>
 
-**Hypothesis**
 
-<br>
-
-Sometimes `Geometric dimensionality reduction` may help more than compression / sparsity
-
-
-<br>
 
 `[Compressive Transformer]`
 
