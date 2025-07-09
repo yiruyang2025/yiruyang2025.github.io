@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Spatiotemporal Modeling + Lightweight On-device
+description: Spatiotemporal Modeling / xx
 img: assets/img/4.jpg
 importance: 2
 category: work
