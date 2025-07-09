@@ -187,7 +187,9 @@ KL(pᵗᵉᵃᶜʰᵉʳ ‖ pˢᵗᵘᵈᵉⁿᵗ)
     ↓
 Backpropagate to update LoRA adapter parameters
 ```
+<br>
 
+📍 **`Visual Demo for our LoRA Family`** - hopefully realtime On-Device
 
 
 <br>
@@ -504,9 +506,8 @@ total_frames = 30 * frame_rate  # 3000 frames
 correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 ```
 
-<br>
 
-📍 **`Visual Demo for our LoRA Family`**
+
 
 <br>
 
