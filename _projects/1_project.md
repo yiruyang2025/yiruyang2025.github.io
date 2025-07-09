@@ -16,7 +16,7 @@ related_publications: true
 
 📍 Always be Careful towards your `Objective Function`, + sometimes directions matter more
 
-Hidden-State Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.nn Initialization` by yourself
+Hidden Space Alignment for our model Cell 2.6 -> Or do some `Hidden-State Torch.nn Initialization` by yourself
 
 <br>
 
