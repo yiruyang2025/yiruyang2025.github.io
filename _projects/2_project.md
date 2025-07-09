@@ -48,7 +48,21 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 [realtime track, e.g. locate your pet](https://docs.xreal.com/Sample%20Code)
 
 
-<br><br>
+<br>
+
+
+
+`4. Low-Latency Decoding` - `CTC + RNN-Transducer`📍 
+
+- Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
+
+- Graves, A. “Sequence Transduction with Recurrent Neural Networks.” ICASSP 2012. - **RNN-T**
+
+- For interactive translation, non-autoregressive decoders such as CTC or RNN-Transducer enable single-pass inference
+- Understanding the trade-offs between greedy decoding and beam search is essential for minimizing latency under resource constraints
+
+
+<br>
 
 ```
 Short-term memory ──▶ Attention ──▶ Hidden activation h
@@ -176,14 +190,6 @@ Mamba Scans: O(H·W) - Linear recurrence per direction
 - Aligning visual signals (hand motion, appearance) with text tokens relies on robust cross-attention mechanisms
 - Architectures employ encoder–decoder attention, co-attention blocks, and both early- and late-fusion strategies to integrate vision and language features
 
-`4. Low-Latency Decoding` - `CTC + RNN-Transducer`📍 
-
-- Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
-
-- Graves, A. “Sequence Transduction with Recurrent Neural Networks.” ICASSP 2012. - **RNN-T**
-
-- For interactive translation, non-autoregressive decoders such as CTC or RNN-Transducer enable single-pass inference
-- Understanding the trade-offs between greedy decoding and beam search is essential for minimizing latency under resource constraints
 
 `5. Adapter & Distillation Methods` 
 - The Gemma family uses adapter modules to fine-tune large models with minimal overhead. Techniques like LoRA, prefix-tuning, and adapter fusion inject low-rank updates into fixed backbones
