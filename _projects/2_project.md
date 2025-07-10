@@ -45,7 +45,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [Realtime track / Prompt your own video on device](https://docs.xreal.com/Sample%20Code)
 
-
+[On device](https://www.linkedin.com/posts/sergiocuesta_augmentedreality-arglasses-futuretech-ugcPost-7297734119021514753-Wkat?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 <br>
 
