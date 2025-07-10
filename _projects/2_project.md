@@ -43,9 +43,8 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [Ego4D](https://ego4d-data.org/)
 
-[Realtime track / Prompt your own video on device](https://docs.xreal.com/Sample%20Code)
+[Realtime track on device](https://docs.xreal.com/Sample%20Code)
 
-[On device](https://www.linkedin.com/posts/sergiocuesta_augmentedreality-arglasses-futuretech-ugcPost-7297734119021514753-Wkat?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 <br>
 
@@ -164,7 +163,6 @@ Mamba Scans: O(H·W) - Linear recurrence per direction
 
 - [📍 Alpha-CLIP - CVPR 2024 - A CLIP Model Focusing on `Wherever` You Want](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Alpha-CLIP_A_CLIP_Model_Focusing_on_Wherever_You_Want_CVPR_2024_paper.html)
 
- - [2025 - What Are You Doing? A Closer Look at Controllable Human Video Generation](https://arxiv.org/abs/2503.04666)
 
 <br>
 
