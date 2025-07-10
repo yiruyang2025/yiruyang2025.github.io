@@ -32,7 +32,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 `[Compressive Transformer]`
 
-[realtime track on your own device](https://docs.xreal.com/Sample%20Code)
+[Realtime track on your own device](https://docs.xreal.com/Sample%20Code)
 
 [Mamba]
 
