@@ -15,10 +15,6 @@ A Lightweight Pre-trained Model
 
 Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
-<br>
-
-  - `Benchmarks pending`
-
 
 <br>
 
