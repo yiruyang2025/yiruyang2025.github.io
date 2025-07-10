@@ -52,17 +52,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 <br>
 
 
-
-`4. Low-Latency Decoding` - `CTC + RNN-Transducer`📍 
-
-- Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
-
-- Graves, A. “Sequence Transduction with Recurrent Neural Networks.” ICASSP 2012. - **RNN-T**
-
-- For interactive translation, non-autoregressive decoders such as CTC or RNN-Transducer enable single-pass inference
-- Understanding the trade-offs between greedy decoding and beam search is essential for minimizing latency under resource constraints
-
-
 <br>
 
 ```
