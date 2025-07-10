@@ -25,7 +25,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
  - [2025 - On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
 
-- [2025 - What Are You Doing? A Closer Look at Controllable Human Video Generation](https://arxiv.org/abs/2503.04666)
+
 
 <br><br>
 
@@ -162,7 +162,7 @@ Mamba Scans: O(H·W) - Linear recurrence per direction
 
 - [📍 Alpha-CLIP - CVPR 2024 - A CLIP Model Focusing on `Wherever` You Want](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Alpha-CLIP_A_CLIP_Model_Focusing_on_Wherever_You_Want_CVPR_2024_paper.html)
 
-
+ - [2025 - What Are You Doing? A Closer Look at Controllable Human Video Generation](https://arxiv.org/abs/2503.04666)
 
 <br>
 
