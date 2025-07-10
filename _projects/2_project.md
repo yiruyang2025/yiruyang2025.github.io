@@ -78,9 +78,12 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
    - `contrastive learning`
    - `CLIP - ViT + Transformer`
 
+<br>
 
 2. Spatiotemporal Modeling
 
+
+<br>
 
 3. Extreme Sparsity Self-Supervised Learning
 
