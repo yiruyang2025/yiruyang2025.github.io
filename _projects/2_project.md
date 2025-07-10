@@ -32,8 +32,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 `[Compressive Transformer]`
 
-[Realtime track on your own device](https://docs.xreal.com/Sample%20Code)
-
 [Mamba]
 
 [Differentiable Neural Computer]
@@ -43,6 +41,8 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 [AlphaDev]
 
 [Ego4D](https://ego4d-data.org/)
+
+[Realtime track on your own device](https://docs.xreal.com/Sample%20Code)
 
 
 
