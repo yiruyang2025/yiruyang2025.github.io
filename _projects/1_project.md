@@ -995,6 +995,16 @@ Key Technical Details:
 
 `Some other topics`
 
+
+`4. Low-Latency Decoding` - `CTC + RNN-Transducer`📍 
+
+- Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
+
+- Graves, A. “Sequence Transduction with Recurrent Neural Networks.” ICASSP 2012. - **RNN-T**
+
+- For interactive translation, non-autoregressive decoders such as CTC or RNN-Transducer enable single-pass inference
+- Understanding the trade-offs between greedy decoding and beam search is essential for minimizing latency under resource constraints
+
 - [2022 - Cross-Architecture Knowledge Distillation](https://openaccess.thecvf.com/content/ACCV2022/html/Liu_Cross-Architecture_Knowledge_Distillation_ACCV_2022_paper.html)
 
 - [2025 - Cross-Architecture Knowledge Distillation for Speech Enhancement: From Cmgan to Unet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5222345)
