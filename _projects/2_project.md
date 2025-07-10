@@ -25,6 +25,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
  - [2025 - On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
 
+- [2025 - What Are You Doing? A Closer Look at Controllable Human Video Generation](https://arxiv.org/abs/2503.04666)
 
 <br><br>
 
@@ -99,10 +100,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 Global Attention: O((H·W)²) - Every pixel talks to every pixel
 Mamba Scans: O(H·W) - Linear recurrence per direction
 ```
-
-
-
-
 
 
 
