@@ -19,7 +19,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 <br>
 
 
-[2025 - ICLR Tutorial - Associative Memory Tutorial](https://arxiv.org/pdf/2507.06211)
+[📍 2025 - ICLR Tutorial - Associative Memory Tutorial](https://arxiv.org/pdf/2507.06211)
 
 
 
