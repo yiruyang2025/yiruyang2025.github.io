@@ -109,14 +109,7 @@ Compressed memory ←— Quantization (Sphere PQ)
 
 ```
 Global Attention: O((H·W)²) - Every pixel talks to every pixel
-   ┌──────────────────────────────────────────────────────────┐
-   │ 💬 Chatty pixels: 64×64 = 4,096 → 16,777,216 connections │
-   └──────────────────────────────────────────────────────────┘
-
 Mamba Scans: O(H·W) - Linear recurrence per direction
-   ┌─────────────────────────────────────────────────────────┐
-   │ 🌊 River flows: 64×64 = 4,096 → 4,096 × 4 = 16,384 ops  │
-   └─────────────────────────────────────────────────────────┘
 ```
 
 
