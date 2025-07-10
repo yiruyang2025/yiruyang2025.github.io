@@ -74,7 +74,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 ## Topics
 
-1. Multimodal Alignment
+**1. Multimodal Alignment**
 
    - `cross-attention`
    - `contrastive learning`
@@ -82,12 +82,12 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 <br>
 
-2. Spatiotemporal Modeling
+**2. Spatiotemporal Modeling**
 
 
 <br>
 
-3. Extreme Sparsity Self-Supervised Learning
+**3. Extreme Sparsity Self-Supervised Learning**
 
    - `Sparse Autoencoder`
    - `Masked Autoencoders - MAE` - [CVPR 2022 - Masked Autoencoders Are Scalable Vision Learners](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper)
