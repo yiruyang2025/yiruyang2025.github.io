@@ -74,6 +74,8 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 ## Topics
 
+<br>
+
 **1. Multimodal Alignment**
 
    - `cross-attention`
