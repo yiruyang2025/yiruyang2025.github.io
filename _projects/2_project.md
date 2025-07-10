@@ -47,22 +47,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 <br>
 
-
-<br>
-
-```
-Short-term memory ──▶ Attention ──▶ Hidden activation h
-│
-▼
-Manifold mapping (Hypersphere)
-│
-▼
-Riemann P-PCA dimensionality reduction (R-PCA)
-│
-▼
-Compressed memory ←— Quantization (Sphere PQ)
-```
-
 <br><br>
 
 
