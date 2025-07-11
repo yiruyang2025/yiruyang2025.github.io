@@ -16,16 +16,19 @@ related_publications: true
 with 2 co-supervisors (hopefully)
 
 
-<br>
+<br><br><br><br>
+
+
+
+
+
+## Some other topics
+
 
 Masked Flow Matching for Real-Time Signal Processing
 
 [2010 - Meta-learning for time series forecasting and forecast combination](https://www.sciencedirect.com/science/article/pii/S0925231210001074?casa_token=eu0V3jGb8eIAAAAA:haVDZz9weP60Wt5smAtoHOmf0YEq8r8PPyf7BPNNaf6wLATzcWteTR6Vaqdda_6ipjyELg1YLs23)
 
-
-
-
-<br>
 
 **Backbone: Masked Flow Matching + Bayesian Layers**  
 – Variational analogs of convolutional/fully-connected layers (e.g. `DenseVariational`, `BayesianLinear`)  
