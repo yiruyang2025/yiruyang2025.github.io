@@ -11,9 +11,8 @@ related_publications: true
 <br>
 
 
-`Cross-Modal Representation Learning`
+Representation Learning
 
-with 2 co-supervisors (hopefully)
 
 
 <br><br><br><br><br><br><br><br><br><br>
