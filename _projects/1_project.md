@@ -14,9 +14,7 @@ related_publications: true
 
 `WER` -> `Inference` + `Memory` -> Lightweight On-Device
 
--> Test it on your own device for the inference + WER
-
-<br>
+Test it on your own device for the inference + WER
 
 📍 Always be Careful towards your `Objective Function`, + sometimes directions matter more
 
