@@ -191,8 +191,6 @@ Backpropagate to update LoRA adapter parameters
 ```
 <br>
 
-📍 **`Visual + ASR Demo for our LoRA Family`** - hopefully realtime On-Device
-
 
 <br>
 
