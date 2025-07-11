@@ -16,7 +16,7 @@ related_publications: true
 
 Test it on your own device for the inference + WER
 
-📍 Always be Careful towards your `Objective Function`, + sometimes directions matter more
+Always be Careful towards your `Objective Function`, + sometimes directions matter more
 
 Hidden Space Alignment for our model Cell 2.6 / 2.7 -> Or do some `Hidden-State Torch.nn Initialization` by yourself
 
