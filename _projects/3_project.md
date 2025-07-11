@@ -16,14 +16,13 @@ related_publications: true
 with 2 co-supervisors (hopefully)
 
 
-<br><br><br><br>
+<br><br><br><br><br><br><br>
 
 
 
 
 
 ## Some other topics
-
 
 Masked Flow Matching for Real-Time Signal Processing
 
@@ -34,7 +33,7 @@ Masked Flow Matching for Real-Time Signal Processing
 – Variational analogs of convolutional/fully-connected layers (e.g. `DenseVariational`, `BayesianLinear`)  
 – Weights modeled by variational distribution $q(w)$  
 
-<br><br>
+<br>
 
 **ELBO Loss**  
 Minimize the negative Evidence Lower Bound:  
