@@ -1,12 +1,20 @@
 ---
 layout: page
 title: 2026 - Project 3
-description: Masked Flow Matching / xx
+description: Representation Learning
 img: assets/img/4.jpg
 importance: 3
 category: work
 related_publications: true
 ---
+
+<br>
+
+
+`Cross-Modal Representation Learning`
+
+with 2 co-supervisors (hopefully)
+
 
 <br>
 
