@@ -45,8 +45,7 @@ latest_posts:
 
 `Interests`
   - Interpretability
-  - Generative Models
-  - Foundation Models
+  - Generative Models, Foundation Models
   - Representation Learning
 
 <div style="height: 5rem;"></div>
