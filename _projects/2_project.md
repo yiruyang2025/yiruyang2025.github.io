@@ -18,11 +18,6 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 <br>
 
-
-[📍 2025 - ICLR Tutorial - Associative Memory Tutorial](https://arxiv.org/pdf/2507.06211)
-
-
-
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
 
  - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
