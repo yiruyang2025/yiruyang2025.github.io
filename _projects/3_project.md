@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Project 3
+title: 2025 - Project 3
 description: Representation Learning
 img: assets/img/4.jpg
 importance: 3
