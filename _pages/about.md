@@ -43,7 +43,7 @@ latest_posts:
 
 <br>
 
-`Interests`
+**Interests**
   - Interpretability
   - Foundation Models
   - Representation Learning
