@@ -36,8 +36,6 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- Tech helps (hopefully)<br>
-
 - 📍 [Project 1 - A Highly Efficient Knowledge Distillation for ASR](https://yiruyang2025.github.io/projects/1_project/) - dynamic Hidden Space Alignment - Hypersphere / Local Curvature Estimation
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 
