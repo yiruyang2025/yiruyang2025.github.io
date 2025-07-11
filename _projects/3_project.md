@@ -16,7 +16,7 @@ related_publications: true
 with 2 co-supervisors (hopefully)
 
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -46,7 +46,7 @@ $$
 \underbrace{\lambda\;\mathrm{KL}\bigl(q_\phi(w)\,\|\,p(w)\bigr)}_{\displaystyle\text{（2）Variational Regularization}}
 $$
 
-<br><br>
+<br>
 
 **Inference via Weight Sampling**  
 Perform $T$ stochastic forward passes with $w_t \sim q(w)$, then compute:  
@@ -60,9 +60,6 @@ $$
 
 **Decision Making**  
 If $\sigma(x) > \tau$, trigger a fallback or alert
-
-
-<br>
 
 
 <br><br>
