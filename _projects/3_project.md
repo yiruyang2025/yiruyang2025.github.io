@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: Representation Learning
+description: Cross-Modal Representation Learning
 img: assets/img/4.jpg
 importance: 3
 category: work
