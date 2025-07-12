@@ -42,7 +42,6 @@ latest_posts:
 <br>
 
 **Interests**
-  - Audio
   - Interpretability
   - Foundation Models
   - Representation Learning
