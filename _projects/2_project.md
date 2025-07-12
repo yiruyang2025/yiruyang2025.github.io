@@ -25,6 +25,22 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
  - [2025 - On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
 
 
+<br>
+
+
+```
+Input: Stimulus Time Series / Task Labels
+    ↓
+[ Base Neural Network (GCN / RNN / Transformer) ]
+    ↓
+┌───────────────┬───────────────┬───────────────┐
+│  Region-LoRA  │ Structure-LoRA│ Detail-LoRA   │
+└───────────────┴───────────────┴───────────────┘
+    ↓               ↓              ↓
+Multi-level Feature Fusion → Decoder → Synthetic EEG/fMRI
+```
+
+
 
 <br><br>
 
