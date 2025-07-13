@@ -34,7 +34,7 @@ Representation Learning
 
 [Ai2] - Molmo
 
-[Clip]
+[CLIP]
 
 
 <br><br>
