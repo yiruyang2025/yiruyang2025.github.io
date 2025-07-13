@@ -18,7 +18,7 @@ Representation Learning
 
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
-[2023 - AudioCraft](https://ai.meta.com/blog/audiocraft-musicgen-audiogen-encodec-generative-ai-audio/)
+[2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
 
 
 <br><br><br><br><br><br><br><br><br><br>
