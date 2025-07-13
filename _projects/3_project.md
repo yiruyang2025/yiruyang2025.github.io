@@ -32,7 +32,9 @@ Representation Learning
 
 [Gemini]
 
-[Ai2]
+[Ai2] - Molmo
+
+[Clip]
 
 
 <br><br>
