@@ -46,9 +46,45 @@ images:
 
 
 
+
+
+
+
+
+
+## References
+
+
+**1. Contrastive Loss**
+
+[1993 NIPS - Signature Verification using a “Siamese” Time Delay Neural Network](https://proceedings.neurips.cc/paper/1993/hash/288cc0ff022877bd3df94bc9360b9c5d-Abstract.html)
+
+[2006 CVPR - Dimensionality Reduction by Learning an Invariant Mapping](https://ieeexplore.ieee.org/document/1640964)
+
+
+**Implementations**
+
+[CLIP]  [DALL·E 3]
+
+
+
+**2. Fusion**
+
+
+[2011 - Multimodal Deep Learning](https://d1wqtxts1xzle7.cloudfront.net/74090107/icml11-MultimodalDeepLearning-libre.pdf?1635868597=&response-content-disposition=inline%3B+filename%3DMultimodal_deep_learning.pdf&Expires=1752407377&Signature=Oq6xDECIppt4tyqVPOPbxUz2Tp6hPlMk7oSIG4~iwiJ6pONeoF6RzJgaLcquZ14DamAru-WXhiwiuOyeRaQtbzcohkXJBlxW1MEyJH7vinRGVk8otM2Arv0j00DWw3jv~lcZ1m5VkMhPMNZC69dxrzKYF94I8TsLiQZhuMeJ9K0v1fC6yy5vxpo2y0TB0Xy1AEc~YX2vLqEAEWYmJCdhi16UH1v0T38etc12g1I-olQvpcevbh-IW9jwpxzdnLbJgXh-~Fs2kKr31G-q~1XsDrK302ywvQicxDKDxDmFg-xKLXrCrYfkwwZ4z~wQDaCmFDJrUvCCkrvFgbJk4hT9sQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+
+
+[2019 - ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations](https://arxiv.org/abs/1908.02265)
+
+
+[2019 - UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740)
+
+
+<br><br>
+
+
+
 `Study Notes`
-
-
 
 <br>
 
