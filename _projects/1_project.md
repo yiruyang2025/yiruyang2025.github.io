@@ -38,7 +38,7 @@ torch.save(quantized.state_dict(), "student_quantized.pt")
 Remove the export of RiemannianProjector (or put it in the cloud for inference, not deployed to the glasses).
 (Optional) Distill the quantized model again to a smaller student architecture
 
-Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
+Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test on-device
 ```
 
 
