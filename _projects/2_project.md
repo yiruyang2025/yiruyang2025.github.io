@@ -46,6 +46,11 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 <br>
 
+
+[2025 - SynMotion: Semantic-Visual Adaptation for Motion Customized Video Generation](https://lucaria-academy.github.io/SynMotion/)
+
+
+
 <br><br>
 
 
