@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Spatiotemporal Modeling + On-device
+description: Spatiotemporal Modeling
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
-A Lightweight Pre-trained Model
+Pre-trained Model
 
 Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
