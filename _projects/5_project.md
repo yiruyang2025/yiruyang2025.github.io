@@ -11,13 +11,17 @@ related_publications: true
 <br>
 
 
-[2024 - NVIDIA Clara - SDK](https://developer.nvidia.com/industries/healthcare)
+[2024 - Clara - SDK](https://developer.nvidia.com/industries/healthcare)
 
 
-<br>
+
+
+<br><br>
 
 
 ## References
+
+<br><br>
 
 [2015 - U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 
