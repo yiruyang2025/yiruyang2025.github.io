@@ -16,9 +16,6 @@ Representation Learning
 <br>
 
 
-`3DV`
-
-
 
 
 
