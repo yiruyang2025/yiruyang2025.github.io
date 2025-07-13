@@ -92,7 +92,9 @@ Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
 
 By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curve can be "dynamically" changed without affecting the original function and structure
 
-We found that **4 layers** was the minimum required to get reasonable WER performance for distil-small.en, where it performs to within 3% WER of Whisper large-v2 while being **5.6x faster**
+"We found that **4 layers** was the minimum required to get reasonable WER performance for distil-small.en, where it performs to within 3% WER of Whisper large-v2 while being **5.6x faster**"
+
+"While distil-medium.en and distil-large-v2 use 2 decoder layers each, distil-small.en uses 4. Using more decoder layers improves the WER performance of the model, at the expense of **slower inference speed**"
 
 <br>
 
