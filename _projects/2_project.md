@@ -49,7 +49,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 <br>
 
 
-[2025 - SynMotion: Semantic-Visual Adaptation for Motion Customized Video Generation](https://lucaria-academy.github.io/SynMotion/)
+
 
 
 
@@ -64,6 +64,8 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 [1 - 2014 - Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
 
 [2 - 2015 - Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+[3 - 2025 - SynMotion: Semantic-Visual Adaptation for Motion Customized Video Generation](https://lucaria-academy.github.io/SynMotion/)
 
 <br>
 
