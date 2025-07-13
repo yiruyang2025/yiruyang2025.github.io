@@ -63,7 +63,8 @@ images:
 
 **Implementations**
 
-[CLIP]  [DALL·E 3]
+[CLIP]  
+[DALL·E 3]
 
 
 <br><br>
