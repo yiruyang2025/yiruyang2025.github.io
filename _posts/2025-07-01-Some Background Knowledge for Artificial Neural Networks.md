@@ -49,9 +49,6 @@ images:
 
 
 
-
-
-
 ## References
 
 
@@ -62,10 +59,14 @@ images:
 [2006 CVPR - Dimensionality Reduction by Learning an Invariant Mapping](https://ieeexplore.ieee.org/document/1640964)
 
 
+
+
 **Implementations**
 
 [CLIP]  [DALL·E 3]
 
+
+<br><br>
 
 
 **2. Fusion**
@@ -80,7 +81,7 @@ images:
 [2019 - UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740)
 
 
-<br><br>
+<br><br><br><br>
 
 
 
