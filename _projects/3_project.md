@@ -13,6 +13,12 @@ related_publications: true
 
 Representation Learning
 
+<br>
+
+
+[2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
+
+[2023 - AudioCraft](https://ai.meta.com/blog/audiocraft-musicgen-audiogen-encodec-generative-ai-audio/)
 
 
 <br><br><br><br><br><br><br><br><br><br>
