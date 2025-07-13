@@ -78,7 +78,7 @@ Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
 
 `The choice of your Surface`
 
-- Write a script to test by yourself
+- Write a script to test
 
 
 <br>
