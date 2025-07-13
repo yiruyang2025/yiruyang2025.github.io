@@ -34,12 +34,8 @@ Representation Learning
 
 [Ai2]
 
-[Anthropic]
-
 
 <br><br>
-
-
 
 
 
@@ -60,8 +56,6 @@ Representation Learning
 
 [2021 - UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/abs/2103.10504)
 
-
-[2024 - Clara - SDK](https://developer.nvidia.com/industries/healthcare)
 
 <br><br>
 
