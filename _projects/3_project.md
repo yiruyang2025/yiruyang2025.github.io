@@ -28,6 +28,13 @@ Representation Learning
 [2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
 
 
+[Gemini]
+
+[Ai2]
+
+[Anthropic]
+
+
 <br><br>
 
 
