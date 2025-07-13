@@ -21,6 +21,8 @@ Representation Learning
 
 `LLM + Audio`
 
+📍 A Large Language Model That Can Speak and Listen
+
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
 [2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
@@ -29,7 +31,7 @@ Representation Learning
 <br><br>
 
 
-[2024 - Clara - SDK](https://developer.nvidia.com/industries/healthcare)
+
 
 
 <br><br>
@@ -50,6 +52,7 @@ Representation Learning
 [2021 - UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/abs/2103.10504)
 
 
+[2024 - Clara - SDK](https://developer.nvidia.com/industries/healthcare)
 
 <br><br>
 
