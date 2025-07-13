@@ -18,7 +18,6 @@ Representation Learning
 
 `3DV`
 
-[2025 - Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynamic Scenes](https://arxiv.org/abs/2506.07917)
 
 
 
