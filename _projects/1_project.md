@@ -29,6 +29,22 @@ Hidden Space Alignment for our model Cell 2.6 / 2.7 -> Or do some `Hidden-State 
 <br>
 
 ```
+📍 Try retraining with r=32 first, and compare the size and performance after exporting
+Dynamically quantize the model in the original student.save_pretrained(...) directory:
+
+from torch.quantization import quantize_dynamic
+quantized = quantize_dynamic(student, {torch.nn.Linear}, dtype=torch.qint8)
+torch.save(quantized.state_dict(), "student_quantized.pt")
+Remove the export of RiemannianProjector (or put it in the cloud for inference, not deployed to the glasses).
+(Optional) Distill the quantized model again to a smaller student architecture
+
+Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
+```
+
+
+<br>
+
+```
 - Extract the spectral or time domain features, then train the U-Net, Conv-TasNet, Demucs and other networks to output multiple audio streams
 
 - Give it a "label" to tell it how many channels to split (vocals/drums/bass/other), and it will split the signal
