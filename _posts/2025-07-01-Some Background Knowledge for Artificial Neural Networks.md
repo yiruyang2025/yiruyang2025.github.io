@@ -38,6 +38,9 @@ images:
 
 [2018 - The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 
+[2008 - Kernel methods in machine learning](https://projecteuclid.org/journals/annals-of-statistics/volume-36/issue-3/Kernel-methods-in-machine-learning/10.1214/009053607000000677.full)
+
+
 
 <br><br><br>
 
