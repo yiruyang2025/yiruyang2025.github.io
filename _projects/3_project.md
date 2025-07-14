@@ -42,6 +42,8 @@ Representation Learning
 
 ## References 1
 
+<br><br>
+
 [2025 - Xlsr-transducer: Streaming asr for self-supervised pretrained models](https://arxiv.org/pdf/2407.04439)
 
 [2022 - Block-Recurrent Transformers](https://proceedings.neurips.cc/paper_files/paper/2022/file/d6e0bbb9fc3f4c10950052ec2359355c-Paper-Conference.pdf)
