@@ -40,7 +40,7 @@ Representation Learning
 <br><br>
 
 
-## Reference 1
+## References 1
 
 [2025 - Xlsr-transducer: Streaming asr for self-supervised pretrained models](https://arxiv.org/pdf/2407.04439)
 
