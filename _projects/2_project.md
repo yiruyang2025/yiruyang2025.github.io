@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Spatiotemporal Modeling
+description: Latent Flow Matching
 img: assets/img/4.jpg
 importance: 2
 category: work
