@@ -50,7 +50,89 @@ Let's take a look at the history of Generative Models for Science<br><br><br><br
 **4.1 The Github Project** [A Toolbox for Binarized Spectral Compressive Imaging](https://github.com/caiyuanhao1998/BiSCI)<br><br><br><br>
 
 
+## 5. Others
 
+
+## Topics
+
+<br>
+
+**1. Multimodal Alignment**
+
+   - `cross-attention`
+   - `contrastive learning`
+   - `CLIP - ViT + Transformer`
+
+<br>
+
+**2. Extreme Sparsity Self-Supervised Learning**
+
+   - `Sparse Autoencoder`
+   - `Masked Autoencoders - MAE` - [CVPR 2022 - Masked Autoencoders Are Scalable Vision Learners](https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper)
+   - `Extreme Sparsity`
+
+
+<br>
+
+```
+Global Attention: O((H·W)²) - Every pixel talks to every pixel
+Mamba Scans: O(H·W) - Linear recurrence per direction
+```
+
+
+
+<br><br>
+
+## References
+
+`1. Spatiotemporal Video Encoding`
+
+- Feichtenhofer, C., Fan, H., Malik, J., & `He, K`. “SlowFast Networks for Video Recognition.” CVPR 2019.
+
+- Capture both spatial detail (handshape, body posture) and temporal dynamics (movement trajectories)
+- Common backbones include ViViT- or TimeSformer-style vision Transformers and 3D CNNs such as SlowFast or MViT
+
+`2. Pose & Keypoint Extraction`
+
+- Cao, Z., Hidalgo Martinez, G., Simon, T., Wei, S.-E., & Sheikh, Y. “OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields.” CVPR 2017.
+
+- Real-time sign recognition often begins by detecting hand and body keypoints with tools like MediaPipe or OpenPose
+- These skeletal sequences are then encoded by Graph Convolutional Networks (GCNs) or lightweight Transformers, reducing raw‐pixel complexity
+
+📍 `3. Multimodal Alignment & Fusion` 
+
+- Transformer, ViLBERT
+
+- Aligning visual signals (hand motion, appearance) with text tokens relies on robust cross-attention mechanisms
+- Architectures employ encoder–decoder attention, co-attention blocks, and both early- and late-fusion strategies to integrate vision and language features
+
+
+`5. Adapter & Distillation Methods` 
+- The Gemma family uses adapter modules to fine-tune large models with minimal overhead. Techniques like LoRA, prefix-tuning, and adapter fusion inject low-rank updates into fixed backbones
+- Cross-modal distillation—combining KL divergence on output distributions with hidden-state alignment—transfers knowledge from teacher to student efficiently
+
+`6. Quantization & On-Device Compression`  
+- SignGemma targets mobile and edge deployment, requiring post-training quantization (8-bit, 4-bit), mixed-precision (FP16/BF16), and optimized transformer kernels (e.g., FlashAttention)
+- Mastery of these methods ensures model size and compute footprint fit constrained hardware
+
+`7. Multilingual & 📍 Zero-Shot Transfer` 
+
+- mBERT（Multilingual BERT），Devlin et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” NAACL 2019.
+
+- Supporting multiple sign languages (e.g., ASL, BSL) demands domain adaptation strategies
+- Key approaches include multilingual pre-training, adapter-based language extension, and contrastive video–text learning to enable zero-shot transfer across language variants
+
+
+<br>
+
+- [2025 - Simplifying DINO via Coding Rate Regularization](https://arxiv.org/abs/2502.10385)
+
+- [**Text-to-Image Diffusion Models** are Zero-Shot Video Generators](https://github.com/Picsart-AI-Research/Text2Video-Zero)
+   - Latent Memory Module
+
+
+ 
+<br><br><br><br>
 
 
 
