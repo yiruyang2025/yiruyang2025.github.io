@@ -31,7 +31,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 `[Compressive Transformer]`
 
-[Mamba]
+[Mamba], [RWKV]
 
 [Differentiable Neural Computer]
 
