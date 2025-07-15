@@ -32,8 +32,6 @@ Representation Learning
 
 [Gemini]
 
-[Ai2] - Molmo
-
 [CLIP]
 
 
