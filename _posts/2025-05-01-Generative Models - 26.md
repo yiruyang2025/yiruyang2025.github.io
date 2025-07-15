@@ -137,5 +137,117 @@ Mamba Scans: O(H·W) - Linear recurrence per direction
 
 
 
+`CLIP`
+
+```
+[Input Image (224×224×3)] → [Vision Encoder: ViT-B/32 or RN50] → [Image Features (512)]
+         ↓                                                              ↓
+[Resize + CenterCrop]                                        [Layer Normalization]
+         ↓                                                              ↓
+[ToTensor + Normalize]                                       [Linear Projection Matrix]
+         ↓                                                              ↓
+[CLIP Transform Pipeline]                                    [L2 Normalization]
+                                                                       ↓
+                                          [InfoNCE Loss with Learnable Temperature]
+                                                    ↑           ↓
+                                        [torch.matmul(I_f, T_f.T) * exp(τ)]
+                                                    ↑
+[Input Text (max 77 tokens)] → [Text Encoder: Transformer] → [Text Features (512)]
+         ↓                                                              ↓
+[ftfy.fix_text() + html.unescape()]                         [Layer Normalization]
+         ↓                                                              ↓
+[BPE Tokenization (49152 vocab)]                            [Linear Projection Matrix]
+         ↓                                                              ↓
+[Add [SOS]/[EOS] tokens + Pad]                             [L2 Normalization]
+```
+
+
+<br><br>
+
+`High-Level Topics`
+
+
+```
+Cross-Modal Alignment
+├── Core Architectures
+│   ├── Dual-Encoder Model
+│   │   └─ CLIP (Contrastive Language–Image Pre-training)  
+│   ├── Multimodal Transformers
+│   │   └─ ViLBERT, UNITER, FLAVA, Florence  
+│   ├── Co-Attention Networks
+│   │   └─ VisualBERT, LXMERT  
+│   └── Graph-Based Alignment
+│       └─ MMG (Multimodal Graph), VLP-GNN  
+│
+├── Pretraining & Losses
+│   ├── Contrastive Learning  
+│   │   └─ InfoNCE, LoCL, SLiC (Hard Negative Mining)  
+│   ├── Masked Multimodal Modeling  
+│   │   └─ VideoMAE+Text, MM-BEiT  
+│   ├── Image–Text Matching (ITM) 
+│   │   └─ alignment head + triplet loss  
+│   └── Cross-Modal Distillation  
+│       └─ CLIP Distill, Florence→TinyFlorence  
+│
+├── Attention Mechanisms
+│   ├── Cross-Attention 
+│   ├── Co-Attention 
+│   ├── Hierarchical Attention 
+│   └── Efficient Attention 
+│       └─ Performer, Linformer, FlashAttention  
+│
+├── Advanced Techniques
+│   ├── Adapter & Prefix-Tuning
+│   │   └─ LoRA, AdapterFusion  
+│   ├── Prompt-Based Alignment 
+│   │   └─ CoOp, MaPLe  
+│   ├── Multimodal Fusion Strategies
+│   │   └─ Early-Fusion / Late-Fusion / Joint-Fusion  
+│   └── Self-Supervised Alignmen  
+│       └─ SLIP, CLIP-style Vision–Speech, VideoCLIP  
+│
+└── Optimization & Deployment
+    ├── Model Compression
+    │   └─ Quantization, Pruning, Knowledge Distillation  
+    ├── Hardware Acceleratio  
+    │   └─ TensorRT, ONNX-Runtime, FlashAttention  
+    ├── Real-time Inference  
+    │   └─ Streamable Cross-Attention, Low-Latency Decoding  
+    └── Edge & On-Device 
+        └─ TFLite, PyTorch Mobile, CoreML
+```
+
+<br>
+
+```
+Spatiotemporal Modeling
+├── Core Architectures
+│   ├── 3D CNNs
+│   ├── Video Transformers
+│   ├── Graph Neural Networks
+│   └── Hybrid Models
+├── Attention Mechanisms 
+│   ├── Temporal Attention 
+│   ├── Spatial Attention 
+│   ├── Cross-Modal Attention
+│   └── Efficient Attention
+├── Advanced Techniques 
+│   ├── Neural Radiance Fields 
+│   ├── Flow-based Methods 
+│   ├── Memory Networks
+│   └── State Space Models
+└── Optimization & Deployment 
+    ├── Model Compression 
+    ├── Hardware Acceleration
+    ├── Real-time Processing 
+    └── Edge Computing
+```
+
+
+<br><br><br><br>
+
+
+
+
 
 
