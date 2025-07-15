@@ -39,11 +39,11 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [AlphaDev]
 
-[2025 - Scaling 4D Representations](https://arxiv.org/pdf/2412.15212)
+[Scaling 4D Representations](https://arxiv.org/pdf/2412.15212)
 
 [Ego4D](https://ego4d-data.org/)
 
-[Realtime track on device - e.g. trace your pet](https://docs.xreal.com/Sample%20Code)
+[Realtime track on device](https://docs.xreal.com/Sample%20Code)
 
 
 <br>
