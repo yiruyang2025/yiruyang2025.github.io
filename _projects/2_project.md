@@ -13,8 +13,6 @@ related_publications: true
 
 Pre-trained Model
 
-Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
-
 
 <br>
 
@@ -22,7 +20,7 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
  - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
 
- - [2025 - On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
+ - [On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
 
 
 <br><br><br>
@@ -44,9 +42,9 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 [Ego4D](https://ego4d-data.org/)
 
 
-<br><br><br>
+<br><br>
 
-**Modules**
+## Modules
 
 <br>
 
@@ -81,7 +79,6 @@ Transformer in Latent Space
 
 <br>
 
-<br>
  
 - [PaliGemma 2 - 2024](https://arxiv.org/abs/2412.03555)
 
@@ -227,116 +224,6 @@ $$
 
 <br><br>
 
-`CLIP`
-
-```
-[Input Image (224×224×3)] → [Vision Encoder: ViT-B/32 or RN50] → [Image Features (512)]
-         ↓                                                              ↓
-[Resize + CenterCrop]                                        [Layer Normalization]
-         ↓                                                              ↓
-[ToTensor + Normalize]                                       [Linear Projection Matrix]
-         ↓                                                              ↓
-[CLIP Transform Pipeline]                                    [L2 Normalization]
-                                                                       ↓
-                                          [InfoNCE Loss with Learnable Temperature]
-                                                    ↑           ↓
-                                        [torch.matmul(I_f, T_f.T) * exp(τ)]
-                                                    ↑
-[Input Text (max 77 tokens)] → [Text Encoder: Transformer] → [Text Features (512)]
-         ↓                                                              ↓
-[ftfy.fix_text() + html.unescape()]                         [Layer Normalization]
-         ↓                                                              ↓
-[BPE Tokenization (49152 vocab)]                            [Linear Projection Matrix]
-         ↓                                                              ↓
-[Add [SOS]/[EOS] tokens + Pad]                             [L2 Normalization]
-```
-
-
-
-
-
-
-<br><br>
-
-`High-Level Topics`
-
-
-```
-Cross-Modal Alignment
-├── Core Architectures
-│   ├── Dual-Encoder Model
-│   │   └─ CLIP (Contrastive Language–Image Pre-training)  
-│   ├── Multimodal Transformers
-│   │   └─ ViLBERT, UNITER, FLAVA, Florence  
-│   ├── Co-Attention Networks
-│   │   └─ VisualBERT, LXMERT  
-│   └── Graph-Based Alignment
-│       └─ MMG (Multimodal Graph), VLP-GNN  
-│
-├── Pretraining & Losses
-│   ├── Contrastive Learning  
-│   │   └─ InfoNCE, LoCL, SLiC (Hard Negative Mining)  
-│   ├── Masked Multimodal Modeling  
-│   │   └─ VideoMAE+Text, MM-BEiT  
-│   ├── Image–Text Matching (ITM) 
-│   │   └─ alignment head + triplet loss  
-│   └── Cross-Modal Distillation  
-│       └─ CLIP Distill, Florence→TinyFlorence  
-│
-├── Attention Mechanisms
-│   ├── Cross-Attention 
-│   ├── Co-Attention 
-│   ├── Hierarchical Attention 
-│   └── Efficient Attention 
-│       └─ Performer, Linformer, FlashAttention  
-│
-├── Advanced Techniques
-│   ├── Adapter & Prefix-Tuning
-│   │   └─ LoRA, AdapterFusion  
-│   ├── Prompt-Based Alignment 
-│   │   └─ CoOp, MaPLe  
-│   ├── Multimodal Fusion Strategies
-│   │   └─ Early-Fusion / Late-Fusion / Joint-Fusion  
-│   └── Self-Supervised Alignmen  
-│       └─ SLIP, CLIP-style Vision–Speech, VideoCLIP  
-│
-└── Optimization & Deployment
-    ├── Model Compression
-    │   └─ Quantization, Pruning, Knowledge Distillation  
-    ├── Hardware Acceleratio  
-    │   └─ TensorRT, ONNX-Runtime, FlashAttention  
-    ├── Real-time Inference  
-    │   └─ Streamable Cross-Attention, Low-Latency Decoding  
-    └── Edge & On-Device 
-        └─ TFLite, PyTorch Mobile, CoreML
-```
-
-<br>
-
-```
-Spatiotemporal Modeling
-├── Core Architectures
-│   ├── 3D CNNs
-│   ├── Video Transformers
-│   ├── Graph Neural Networks
-│   └── Hybrid Models
-├── Attention Mechanisms 
-│   ├── Temporal Attention 
-│   ├── Spatial Attention 
-│   ├── Cross-Modal Attention
-│   └── Efficient Attention
-├── Advanced Techniques 
-│   ├── Neural Radiance Fields 
-│   ├── Flow-based Methods 
-│   ├── Memory Networks
-│   └── State Space Models
-└── Optimization & Deployment 
-    ├── Model Compression 
-    ├── Hardware Acceleration
-    ├── Real-time Processing 
-    └── Edge Computing
-```
-
 <br><br>
 
 - [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
@@ -346,7 +233,7 @@ Spatiotemporal Modeling
 - [2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
   - 2025 - New York is a Zoo
   - 2025 - The Retrieval
- 
+<br>
 - [Sparse Autoencoders - 2024 - Scaling and evaluating sparse autoencoder](https://arxiv.org/abs/2406.04093)
 
 
@@ -354,6 +241,7 @@ Spatiotemporal Modeling
 <br><br>
 
 
-
 <br><br><br>
+
+
 
