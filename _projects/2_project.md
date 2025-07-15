@@ -43,15 +43,26 @@ Spatiotemporal Modeling / Neural Activity Prediciton via Extreme Sparse Modeling
 
 [Ego4D](https://ego4d-data.org/)
 
-[Realtime track on device](https://docs.xreal.com/Sample%20Code)
 
+<br><br><br>
+
+**Modules**
 
 <br>
 
+`Phenaki`
 
+Causal ViViT
 
+VQ-VAE
 
+MaskGIT
 
+C-ViViT 
+
+T5X Encoder
+
+Transformer in Latent Space
 
 <br><br>
 
