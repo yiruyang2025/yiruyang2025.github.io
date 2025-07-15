@@ -16,7 +16,10 @@ images:
 
 [2023 - Mamba](https://arxiv.org/pdf/2312.00752)
 
-<br>
+[2023 - RWKV](https://www.rwkv.com/)
+
+
+<br><br>
 
 
 **RNN vs. Mamba vs. Transformer**
