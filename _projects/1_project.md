@@ -348,7 +348,7 @@ intermediate = 0.1 * student_probs + 0.9 * teacher_probs
 
 Add a projection layer to ensure dimension alignment, and the projected student hidden state is aligned with the teacher hidden state by **MSE for Hidden-State / Encoder Alignment Loss**
 
-Even `without a decoder`, the `student encoder` can internalize the teacher’s linguistic knowledge by `Mimicking its Output Distributions` and `Hidden‐State Representations` --> 📍 `KL Loss + MSE Loss` 
+Even `without a decoder`, the `student encoder` can internalize the teacher’s linguistic knowledge by `Mimicking its Output Distributions` and `Hidden‐State Representations` --> 📍 `KL Loss + CE / CTC Loss` 
 
 <br>
 
