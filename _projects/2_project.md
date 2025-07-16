@@ -42,13 +42,12 @@ Pre-trained Model
 [Ego4D](https://ego4d-data.org/)
 
 
-<br><br>
+<br><br><br><br>
 
 ## Modules
 
 <br>
 
-**Phenaki**
 
 Causal ViViT
 
