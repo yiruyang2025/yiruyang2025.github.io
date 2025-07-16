@@ -48,7 +48,7 @@ Pre-trained Model
 
 <br>
 
-`Phenaki`
+**Phenaki**
 
 Causal ViViT
 
