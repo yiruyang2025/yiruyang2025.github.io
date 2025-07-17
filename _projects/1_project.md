@@ -14,7 +14,7 @@ related_publications: true
 
 `WER` -> `Inference Latency` + `Memory` -> Lightweight On-Device
 
-Test it on your own device for the inference + WER with our model Cell 2.6 / 2.7
+Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 <br>
 
