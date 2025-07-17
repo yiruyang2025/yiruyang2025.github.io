@@ -2,8 +2,8 @@
 layout: post
 title: Some Background Knowledge for Artificial Neural Networks
 date: 2025-07-01
-description: 🔹
-categories: AI/ML
+description: ⛺️
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -20,6 +20,20 @@ images:
 <br>
 
 [Colah's Blog](https://colah.github.io/)
+
+
+
+
+<br><br>
+
+
+## References
+
+[1950 - Lothar Collatz “Über die Differenzengleichung xₙ₊₁ = aₙ xₙ + bₙ”, Mathematische Nachrichten, Bd. 3 (1950).](https://www.digizeitschriften.de/search?filter%5BZeitschriften%5D%5B1%5D=245319514%7Clog1&filter%5BObjekttyp%5D%5B1%5D=volume)
+
+[2003 - The 3x+1 problem: An annotated bibliography (1963--1999) (sorted by author)](https://arxiv.org/abs/math/0309224)
+
+
 
 
 
