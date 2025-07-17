@@ -1006,7 +1006,7 @@ Key Technical Details:
 `Some other topics`
 
 
-`4. Low-Latency Decoding` - `CTC + RNN-Transducer`📍 
+`4. Low-Latency Decoding` - `CTC + RNN-Transducer`
 
 - Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
 
