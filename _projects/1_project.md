@@ -56,7 +56,7 @@ Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
 - Use `feature visualization` to understand `what` the teacher and student have learned
 - Verify the role of different loss functions through ablation experiments
 - Do some monitor on - `The degree of "geometric degradation" of the hidden state` -> to dynamically `adjust the alignment / regularization weights` accordingly
-- [2019 - TinyBERT](https://arxiv.org/abs/1909.10351)
+
 
 <br>
 
