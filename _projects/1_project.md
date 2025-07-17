@@ -65,12 +65,6 @@ Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
 
 <br>
 
-[2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
-
-- Do not expect to find content that will help you with numerical calculations
-
-<br>
-
 
 `The choice of your Surface`
 
