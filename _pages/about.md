@@ -47,4 +47,4 @@ latest_posts:
   - Latent Space, Foundation Models
   - Representation Learning
 
-<div style="height: 4rem;"></div>
+<div style="height: 5rem;"></div>
