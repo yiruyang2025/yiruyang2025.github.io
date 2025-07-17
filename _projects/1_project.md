@@ -22,7 +22,7 @@ Hidden Space Alignment for our model Cell 2.6 / 2.7 -> Or do some `Hidden-State 
 
 -> `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
 
--> Hidden / Latent Space Alignment ongoing
+-> Alignment ongoing
 
 <br>
 
