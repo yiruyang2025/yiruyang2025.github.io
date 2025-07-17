@@ -19,9 +19,9 @@ Representation Learning
 <br><br><br>
 
 
-`LLM + Audio`
 
-A Large Language Model That Can Speak and Listen
+
+
 
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
