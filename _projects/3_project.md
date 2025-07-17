@@ -28,22 +28,15 @@ A Large Language Model That Can Speak and Listen
 [2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
 
 
-<br><br>
-
-[Gemini]
-
-[CLIP]
+<br><br><br><br>
 
 
-<br><br>
 
 
-## References 1
-
-<br><br>
 
 
-## References 2
+
+## References
 
 <br><br>
 
