@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - Interpretability
-  - Foundation Models
+  - Latent Space, Foundation Models
   - Representation Learning
 
 <div style="height: 5rem;"></div>
