@@ -12,7 +12,7 @@ related_publications: true
 
 `Whisper-large-v2 → distil-whisper/distil-small.en` + LoRA + Hidden Space Alignment
 
-`WER` -> `Inference` + `Memory` -> Lightweight On-Device
+`WER` -> `Inference Latency` + `Memory` -> Lightweight On-Device
 
 Test it on your own device for the inference + WER
 
