@@ -31,7 +31,7 @@ images:
 
 <br><br>
 
-**Collatz Conjecture / 3n + 1 problem / hailstone problem**
+**1. Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
 <br>
 
