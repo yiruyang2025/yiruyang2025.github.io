@@ -37,6 +37,8 @@ images:
 
 [2017 - Collatz Conjecture in Color - Numberphile](https://www.youtube.com/watch?v=LqKpkdRRLZw)
 
+<br><br>
+
 
 **topic 2**
 
