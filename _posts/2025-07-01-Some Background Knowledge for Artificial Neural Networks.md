@@ -24,10 +24,12 @@ images:
 
 
 
-<br><br>
+<br><br><br><br>
 
 
 ## References
+
+<br><br>
 
 **Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
