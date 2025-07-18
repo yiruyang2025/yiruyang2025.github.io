@@ -1209,7 +1209,8 @@ Some Notes
 ## References
 
 - [FitNets]
-
+- [1991 - Adaptive Mixtures of Local Experts](https://ieeexplore.ieee.org/abstract/document/6797059)
+- [2025 - TAID]
 
 
 <br><br>
