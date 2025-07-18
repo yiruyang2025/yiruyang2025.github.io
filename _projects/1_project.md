@@ -25,6 +25,8 @@ Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 -> Restructure the Student Backbone for a smaller on-device size
 
+[2025 - AXLearn: Modular Large Model Training on Heterogeneous Infrastructure](https://arxiv.org/abs/2507.05411)
+
 <br>
 
 ```
