@@ -26,8 +26,7 @@ Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 **[Attention U-Net]**
 
-
-
+-> Restructure the Student Backbone for a smaller on-device size
 
 <br>
 
