@@ -20,7 +20,14 @@ Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 -> `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
 
--> Alignment ongoing
+
+<br>
+
+
+**[Attention U-Net]**
+
+
+
 
 <br>
 
