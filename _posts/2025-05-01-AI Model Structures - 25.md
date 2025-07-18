@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Model Structures - 25
+title: ML Model Structures - 25
 date: 2025-05-01
 description: 🔹
 categories: AI/ML
