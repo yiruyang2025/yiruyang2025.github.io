@@ -167,7 +167,7 @@ $$
 
 📍 3. Self-Supervised Learning from Extreme Sparsity  
 - **Key Results**:  
-  - `SparseMAE (ICCV ’23): masked autoencoding with <0.1 % tokens` 📍 
+  - `SparseMAE (ICCV ’23): masked autoencoding with <0.1 % tokens`
   - Contrastive-Sparse (ICLR ’24): adaptive masking focus on high-entropy regions  
 - **Goals**:  
   - near-fully-supervised performance with ‰-level labels  
