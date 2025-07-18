@@ -2,8 +2,8 @@
 layout: post
 title: Some Background Knowledge for Artificial Neural Networks
 date: 2025-07-01
-description: ⛺️
-categories: Research
+description: 🔹
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
