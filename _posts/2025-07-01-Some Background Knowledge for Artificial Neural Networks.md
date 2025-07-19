@@ -15,12 +15,6 @@ images:
 <br>
 
 
-`Some Websites`
-
-<br>
-
-[Colah's Blog](https://colah.github.io/)
-
 
 
 
@@ -30,6 +24,9 @@ images:
 ## References
 
 <br><br>
+
+
+[Colah's Blog](https://colah.github.io/)
 
 **1. Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
