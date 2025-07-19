@@ -17,6 +17,10 @@ related_publications: true
 
 [ICML 2025 - SRM: Spatial Reasoning with Denoising Models](https://geometric-rl.mpi-inf.mpg.de/srm/)
 
+[2024 - 3D‑Aware Fine‑Tuning](https://arxiv.org/abs/2407.20229?utm_source=chatgpt.com)
+
+[2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
+
 <br>
 
 
