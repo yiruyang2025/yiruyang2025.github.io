@@ -30,8 +30,6 @@ latest_posts:
 - Currently Studying - **Speech Processing** -> all
 - Feel free to teach if u are good at - CAG, Parallel Computing
 
-- In the long run, would like to have some Contribution - #AI products for disabled people - e.g. Voice Assistant
-
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
