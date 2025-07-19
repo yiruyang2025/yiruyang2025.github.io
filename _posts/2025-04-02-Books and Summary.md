@@ -53,8 +53,6 @@ Pls discuss if any of these pique your interest<br><br><br>
 - [x] Brush Teeth
 - [ ] Breakfast
   - [x] Oxygen and Stretch
-  - [x] Yogurt, Toast, and Protein 🫐
-  - [ ] Ice-cream
 - [x] Go to school
 <br><br><br><br>
 
