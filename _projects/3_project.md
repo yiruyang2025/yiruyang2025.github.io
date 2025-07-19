@@ -20,6 +20,9 @@ related_publications: true
 <br>
 
 
+using Diffusion / Flow matching
+
+
 <br><br><br>
 
 
