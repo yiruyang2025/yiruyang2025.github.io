@@ -11,7 +11,9 @@ related_publications: true
 <br>
 
 
-Representation Learning
+[TransUNet]
+
+[DINOv2]
 
 <br>
 
