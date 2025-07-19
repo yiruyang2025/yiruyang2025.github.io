@@ -42,6 +42,6 @@ latest_posts:
 **Interests**
   - Interpretability
   - Foundation Models - on Device
-  - 3D Representation Learning
+  - Representation Learning
 
 <div style="height: 5rem;"></div>
