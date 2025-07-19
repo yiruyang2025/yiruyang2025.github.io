@@ -11,10 +11,9 @@ related_publications: true
 <br>
 
 
-Pre-trained Model
 
+<br><br><br><br>
 
-<br>
 
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
 
@@ -27,7 +26,7 @@ Pre-trained Model
 
 
 
-`[Compressive Transformer]`
+**[Compressive Transformer]**
 
 [Mamba], [RWKV]
 
