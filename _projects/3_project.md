@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: 3D Representation Learning
+description: Representation Learning
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -11,20 +11,19 @@ related_publications: true
 <br>
 
 
-[TransUNet]
+
+
+
+
+
 
 [DINOv2]
-
-[ICML 2025 - SRM: Spatial Reasoning with Denoising Models](https://geometric-rl.mpi-inf.mpg.de/srm/)
-
-[2024 - 3D‑Aware Fine‑Tuning](https://arxiv.org/abs/2407.20229?utm_source=chatgpt.com)
 
 [2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
 
 <br>
 
 
-using Diffusion / Flow matching
 
 
 <br><br><br>
