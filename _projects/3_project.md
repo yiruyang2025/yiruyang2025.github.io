@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: Cross-Modal Representation Learning
+description: 3D Representation Learning
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -14,6 +14,8 @@ related_publications: true
 [TransUNet]
 
 [DINOv2]
+
+[ICML 2025 - SRM: Spatial Reasoning with Denoising Models](https://geometric-rl.mpi-inf.mpg.de/srm/)
 
 <br>
 
