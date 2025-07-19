@@ -28,6 +28,8 @@ images:
 
 [Colah's Blog](https://colah.github.io/)
 
+<br><br>
+
 **1. Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
 <br>
