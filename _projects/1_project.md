@@ -1217,6 +1217,7 @@ Some Notes
 
 - [2025 - AXLearn: Modular Large Model Training on Heterogeneous Infrastructure](https://arxiv.org/abs/2507.05411)
 - [2013 - Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
+- [2014 - Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 
 
 <br><br>
