@@ -12,7 +12,7 @@ related_publications: true
 
 **Whisper-large-v3** → `our_model_Geflüster-small.en` + LoRA-guided Distillation
 
-`WER` -> `Inference Latency` + `Memory` -> Lightweight On-Device
+`WER` -> `Inference Latency` + `Memory` -> XX-MB On-Device
 
 Test it on your own device for the inference + WER with model Cell 2.6 (linear projection) / 2.7 (n-GPT projection)
 
