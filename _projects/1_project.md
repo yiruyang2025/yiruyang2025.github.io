@@ -23,10 +23,6 @@ Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 <br>
 
--> Restructure the Student Backbone for a smaller on-device size
-
-
-<br>
 
 ```
 📍 Try retraining with r=32 first, and compare the size and performance after exporting
