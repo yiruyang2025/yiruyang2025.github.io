@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-`Whisper-large-v2 / v3 → our_model_Geflüster-small.en` + LoRA-guided Distillation
+**Whisper-large-v3** → `our_model_Geflüster-small.en` + LoRA-guided Distillation
 
 `WER` -> `Inference Latency` + `Memory` -> Lightweight On-Device
 
