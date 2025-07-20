@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-`Whisper-large-v2 → distil-whisper/distil-small.en` + LoRA + Hidden Space Alignment
+`Whisper-large-v2 / v3 → distil-whisper/distil-small.en` + LoRA-guided Distillation
 
 `WER` -> `Inference Latency` + `Memory` -> Lightweight On-Device
 
@@ -100,8 +100,8 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
 
 **`Teacher`**  
 
-- **Model**: [`openai/whisper-large-v2`](https://huggingface.co/openai/whisper-large-v2) - 📍 ≈1.55 B parameters (FP16)  / whisper-large-v3
-- **Input**: raw waveform → `80-channel log-Mel spectrogram (mono, 16 kHz)`  / 128-channel log-Mel
+- **Model**: [`openai/whisper-large-v2`](https://huggingface.co/openai/whisper-large-v2) - 📍 ≈1.55 B parameters (FP16)  / `whisper-large-v3`
+- **Input**: raw waveform → `80-channel log-Mel spectrogram (mono, 16 kHz)`  / `128-channel log-Mel`
 - **Encoder**  
   - Hidden size: 1 280  
   - Layers: 32  
