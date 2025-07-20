@@ -23,6 +23,30 @@ Test it on your own device for the inference + WER with model Cell 2.6 / 2.7
 
 <br>
 
+```
+the parameters that dominate memory footprint and inference latency
+- fused LoRA into the backbone and applied quantization:
+
+1. Embedding matrix
+Quantized token‑to‑hidden lookup table (+ scale/zero‑point metadata)
+
+2. Fused Transformer weights
+Self‑Attention: Q, K, V, and output projection matrices (each with fused LoRA ΔW), plus biases; all quantized
+Feed‑Forward: two linear layers (with fused LoRA updates), plus biases; all quantized
+
+3. LayerNorm parameters
+γ (scale) and β (shift) for each layer—typically kept in FP16/FP32 for stability
+
+4. Output projection head
+Final hidden‑to‑vocab weight matrix and bias, quantized (+ metadata)
+
+5. Quantization metadata
+Per‑tensor (or per‑channel) scale and zero‑point arrays that map integer ops back to real values
+```
+
+
+
+<br>
 
 ```
 📍 Try retraining with r=32 first, and compare the size and performance after exporting
