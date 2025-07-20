@@ -10,7 +10,16 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3** → `our_model_Geflüster-small.en` + LoRA-guided Distillation
+**Whisper-large-v3** → `our_model_Säuseln-small.en` + LoRA-guided Distillation
+
+```
+Sonnet 64
+
+And nothing ’gainst Time’s scythe can make defence,
+From each of life moment, to brave him when he takes thee hence.
+
+**Shakespeare, William.** “Sonnet 64,” lines 11–12, in The Sonnets * (1609).*
+```
 
 `WER` -> `Inference Latency` + `Memory` -> XX-MB On-Device
 
