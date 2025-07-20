@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - A Highly Efficient Knowledge Distillation for ASR
-description: Whisper-large-v2 + XX-MB On-device
+description: Whisper-large-v3 + XX-MB On-device
 img: assets/img/4.jpg
 importance: 1
 category: work
