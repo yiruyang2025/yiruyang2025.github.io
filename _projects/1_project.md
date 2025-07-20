@@ -96,11 +96,6 @@ Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test
 <br>
 
 
-- [2015 - Matrix Backpropagation for Deep Networks With Structured Layers](https://openaccess.thecvf.com/content_iccv_2015/html/Ionescu_Matrix_Backpropagation_for_ICCV_2015_paper.html)
-
-<br>
-
-
 By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curve can be "dynamically" changed without affecting the original function and structure -> Turned out results not good for our model structure
 
 "We found that **4 layers** was the minimum required to get reasonable WER performance for distil-small.en, where it performs to within 3% WER of Whisper large-v2 while being **5.6x faster**"
@@ -1238,7 +1233,9 @@ Some Notes
 - [2013 - Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
 - [2014 - Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
+- [2015 - Matrix Backpropagation for Deep Networks With Structured Layers](https://openaccess.thecvf.com/content_iccv_2015/html/Ionescu_Matrix_Backpropagation_for_ICCV_2015_paper.html)
 
+<br>
 
 <br><br>
 
