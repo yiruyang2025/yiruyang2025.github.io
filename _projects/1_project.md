@@ -12,6 +12,8 @@ related_publications: true
 
 **Whisper-large-v3** → `our_model_Säuseln-small.en` + LoRA-guided Distillation
 
+<br>
+
 ```
 Sonnet 64
 
@@ -20,6 +22,7 @@ From each of life moment, to brave him when he takes thee hence.
 
 **Shakespeare, William.** “Sonnet 64,” lines 11–12, in The Sonnets * (1609).*
 ```
+<br>
 
 `WER` -> `Inference Latency` + `Memory` -> XX-MB On-Device
 
