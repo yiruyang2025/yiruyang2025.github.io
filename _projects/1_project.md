@@ -32,6 +32,13 @@ Test it on your own device for the inference + WER with model Cell 2.6 (linear p
 
 -> `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
 
+<br>
+
+**Key Improvements**
+
+1. LoRA + Lightweight Decoder + non-linear Projection to Guide the Student in the Hidden State -> similar WER
+2. Only Forward 1 time -> Low Inference Latency on-device
+
 
 <br>
 
