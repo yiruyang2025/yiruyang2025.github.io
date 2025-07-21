@@ -24,6 +24,9 @@ related_publications: true
 
 - [2020 - LEMMA: A Multi-view Dataset for L Earning Multi-agent Multi-task Activities](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
+- [2025 - SnapMoGen](https://arxiv.org/abs/2507.09122)
+
+
 <br><br><br>
 
 
