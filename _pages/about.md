@@ -44,4 +44,4 @@ latest_posts:
   - Foundation Models - on Device
   - Representation Learning
 
-<div style="height: 5rem;"></div>
+<div style="height: 4rem;"></div>
