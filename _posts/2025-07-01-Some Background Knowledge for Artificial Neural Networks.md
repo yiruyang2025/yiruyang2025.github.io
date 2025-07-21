@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some Background Knowledge for Artificial Neural Networks
+title: Some Background Knowledge for Artificial Neural Networks - 25
 date: 2025-07-01
 description: 🔹
 categories: AI/ML
