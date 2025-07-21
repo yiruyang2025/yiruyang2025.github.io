@@ -147,7 +147,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
       2. Decoder（Encoder-Decoder Attn）`encoder_attn.q_proj`, `encoder_attn.k_proj`, `encoder_attn.v_proj`, `encoder_attn.out_proj`
       3. Decoder（Feed-Forward）`fc1`, `fc2`
 
-<br><br>
+<br>
 
 **`Our Student`**  
 
