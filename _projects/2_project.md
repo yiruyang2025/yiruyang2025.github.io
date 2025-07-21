@@ -25,9 +25,7 @@ related_publications: true
 - [2025 - SnapMoGen](https://arxiv.org/abs/2507.09122)
 
 
-<br><br><br>
-
-
+<br>
 
 **[Compressive Transformer]**
 
@@ -43,8 +41,7 @@ related_publications: true
 
 [Ego4D](https://ego4d-data.org/)
 
-
-<br><br><br><br>
+<br><br>
 
 ## Modules
 
