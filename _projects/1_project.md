@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3-turbo** → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
+**Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
 
 <br>
 
