@@ -1108,7 +1108,7 @@ Some Notes
 - [ASR WER + Latency](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 - [2021 - 1-bit Adam: Communication Efficient Large-Scale Training with Adam’s Convergence Speed](https://proceedings.mlr.press/v139/tang21a.html)
 - [2024 - SqueezeAttention: 2D Management of KV-Cache in LLM Inference via Layer-wise Optimal Budget](https://arxiv.org/abs/2404.04793)
-
+- [2025 - Qwen/Qwen3-235B-A22B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507)
 
 <br><br>
 
