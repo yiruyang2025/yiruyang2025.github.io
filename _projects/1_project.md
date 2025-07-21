@@ -171,7 +171,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 - simple **80/10/10** split for val/test, Do not touch your Test Set, **SEED = 42**
 - **INT8** - Inference - **Post-Training Quantization**
 - 4 layers was the minimum required to get reasonable WER performance for distil-small.en, where it performs to `within 3% WER of Whisper large-v2 while being 5.6x faster`
-- training samples `≈ xx hrs`
+- training samples `≈ 22 000 hrs`
 
 <br>
 
