@@ -158,7 +158,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
   - Layers: 12 (inherited from Whisper-large-v3)  
   - **All parameters frozen**  
 - **Decoder**  -> CE Loss - the decoder’s final softmax outputs + KL Loss - logits before the decoder’s final softmax
-  - Layers: 4 (pre-distilled)
+  - Layers: `4`
   - Auto-regressive transformer LM  
   - **LoRA injection** into every decoder layer - **r = 64**
       1. Decoder (Self-Attn) `self_attn.q_proj`, `self_attn.k_proj`, `self_attn.v_proj`, `self_attn.out_proj`
