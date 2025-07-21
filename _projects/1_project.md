@@ -515,7 +515,7 @@ correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 | TinyBERT        | EMNLP 2020                           | 800 M words + 2.5 B words             |
 | MobileBERT      | ICLR 2020                            | 800 M words + 2.5 B words             |
 | distil-small.en  |                                     | ≈ 22 000 hours of pseudo-labelled audio across 10 domains (>18 000 speakers)               |
-| Our Work        | No Target Venue                      | ≈ **22 000** hours)                    |
+| Our Work        | No Target Venue                      | ≈ **22 000** hours                    |
 
 
 <br>
