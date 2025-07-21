@@ -34,7 +34,7 @@ Test it on your own device for the inference + WER with model Cell 2.6 (linear p
 
 **Key Improvements**
 
-1. LoRA + Lightweight Decoders + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `low inference Latency`
+1. LoRA + Lightweight Decoders + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `lower inference Latency`
 
 
 <br>
