@@ -12,8 +12,6 @@ related_publications: true
 
 **Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
 
-<br>
-
 ```
 Sonnet 64
 
@@ -36,7 +34,7 @@ Test it on your own device for the inference + WER with model Cell 2.6 (linear p
 
 **Key Improvements**
 
-1. LoRA + Lightweight Decoder + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `low inference Latency`
+1. LoRA + Lightweight Decoders + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `low inference Latency`
 
 
 <br>
