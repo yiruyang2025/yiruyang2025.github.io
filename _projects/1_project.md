@@ -69,14 +69,14 @@ Per‑tensor (or per‑channel) scale and zero‑point arrays that map integer o
 `📍 If you have some Time`
 
 - Accurately analyze `how` LoRA `weights affect knowledge transfer`
-- Use `feature visualization` to understand `what` the teacher and student have learned
+- Use `feature visualization` to understand `what` the student have learned
 - Verify the role of different loss functions through ablation experiments
 
 <br>
 
 ```
 %load_ext tensorboard
-%tensorboard --logdir /content/drive/MyDrive/distil_run_cell2.6/tb
+%tensorboard --logdir /content/drive/MyDrive/distil_run_cell2.x/tb
 ```
 
 <br>
@@ -94,7 +94,7 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
 
 "We found that **4 layers** was the minimum required to get reasonable WER performance for distil-small.en, where it performs to within 3% WER of Whisper large-v2 while being **5.6x faster**"
 
-"While distil-medium.en and distil-large-v2 use 2 decoder layers each, distil-small.en uses 4. Using more decoder layers improves the WER performance of the model, at the expense of **slower inference speed**"
+"While distil-medium.en and distil-large-v2 use **2 layers of decoders** layers each, distil-small.en uses 4. Using more decoder layers improves the WER performance of the model, at the expense of **slower inference speed**"
 
 <br>
 
@@ -111,7 +111,6 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 **`Teacher`**  
 - **Model**: [`whisper-large-v3`](https://huggingface.co/openai/whisper-large-v3) - 📍 ≈1.55 B parameters (FP16)
-- **Training Data** - The large-v3 checkpoint is 
 - **Input**: `128-channel log-Mel` (mono, 16 kHz)
 - **Encoder**  
   - Hidden size: 1 280
@@ -178,8 +177,6 @@ Backpropagate to update LoRA adapter parameters
 <br>
 
 
-<br>
-
 `check points` of Sample Student Models
 
 **distil-large-v3** (≈756 M parameters) is the **best-performing** distilled checkpoint, performing to within 1.5% WER of Whisper large-v3 on out-of-distribution short-form audio and within 1% WER on long-form decoding
@@ -187,8 +184,6 @@ Backpropagate to update LoRA adapter parameters
 **distil-medium.en** (≈394 M params) provides a balanced trade-off between performance and efficiency, and is recommended for most applications along with distil-large-v2
 
 **distil-small.en** (≈166 M params) is the most compact option and performs to within 3% WER of Whisper large-v2 while being 5.6x faster, making it ideal for `memory-constrained applications (e.g. on-device)`
-
-
 
 <br>
 
@@ -324,15 +319,6 @@ Even `without a decoder`, the `student encoder` can internalize the teacher’s 
 - Student (whisper-small): 768 dimensions
 - Teacher (whisper-large-v2): 1280 dimensions
 - **`Projection Layer`** - Linear(768 → 1280) to align student and teacher hidden dimensions
-
-<br>
-
-`Performance Enhancement`
-
-[Auxiliary teacher - 2019 - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
-
-[FitNets: Hints for Thin Deep Nets - 2014](https://arxiv.org/abs/1412.6550)
-
 
 <br>
 
@@ -1193,6 +1179,8 @@ Some Notes
 - [2014 - Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
 - [2015 - Matrix Backpropagation for Deep Networks With Structured Layers](https://openaccess.thecvf.com/content_iccv_2015/html/Ionescu_Matrix_Backpropagation_for_ICCV_2015_paper.html)
+- [2019 - Auxiliary teacher - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
+
 
 <br>
 
