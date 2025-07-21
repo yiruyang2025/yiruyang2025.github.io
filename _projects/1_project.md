@@ -22,7 +22,7 @@ From each of life moment, to brave him when he takes thee hence.
 ```
 <br>
 
-`WER` -> `Inference Latency` + `Memory` -> XX-MB On-Device
+`WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
 
 Test it on your own device for the inference + WER with model Cell 2.6 (linear projection) / 2.7 (n-GPT projection)
 
