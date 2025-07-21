@@ -601,30 +601,21 @@ decoder.layers.*.fc1, fc2
 
 The num_workers parameter in PyTorch DataLoader controls the number of CPU processes responsible for data loading and preprocessing. This directly impacts GPU utilization through data pipeline optimization
 
-`Data Pipeline Architecture`
-
-`Optimal Pipeline (num_workers > 0)`
-
-- CPU Thread 1: Load batch_1 → Preprocess → Transfer to GPU
-- CPU Thread 2: Load batch_2 → Preprocess → Queue for transfer  
-- GPU:          Process batch_1 while CPU prepares batch_2
-
 <br>
 
 `Performance Comparison`
 
-`Single-threaded (num_workers=0)`
+**Single-threaded (num_workers=0)**
 
 - CPU: Load→Preprocess→Transfer | GPU idle | Load→Preprocess→Transfer
 - GPU: Idle                     | Compute  | Idle
   
-`Multi-threaded (num_workers=4)`
+**Multi-threaded (num_workers=4)**
 
 - CPU: Continuous data preparation (4 parallel threads)
-
 - GPU: Continuous computation (minimal idle time)
 
-`Key Insight`
+**Key Insight**
 
 - Increasing num_workers enhances "CUDA kernel parallelism" not by adding GPU parallelism, but by eliminating GPU starvation. Multiple CPU workers ensure the GPU receives a steady stream of preprocessed data, maximizing hardware utilization and reducing training time
 - The optimal num_workers typically ranges from 2-4 per GPU, depending on CPU core count and I/O bottlenecks
@@ -690,7 +681,7 @@ Since the softmax outputs retain probabilities for all tokens, the KL term trans
 $$
 L_{\text{total}}
 = L_{\mathrm{CE}}
-+ \0.8\,T^{2}\,L_{\mathrm{KD}}
++ 0.xx\,T^{2}\,L_{\mathrm{KD}}
 + \alpha\,L_{\mathrm{hidden\_align}}
 $$
 
@@ -710,50 +701,6 @@ $$
    &&\text{is the projected hidden-state MSE loss with weight }\alpha
 \end{aligned}
 $$  
-
-
-<br><br>
-
-
-Fleurs en US
-<br>
-
-  - [FLEURS - ASR](https://huggingface.co/datasets/google/fleurs)
-  - [optional](https://paperswithcode.com/dataset/fleurs)
-
-<br>
-
-```
-Tasks: Automatic Speech Recognition
-Languages: Afrikaans, Amharic, Arabic, … + 99
-Size: 10K < n < 100K
-ArXiv: 2205.12446, 2106.03193
-Tags: speech-recognition
-License: cc-by-4.0
-FLEURS: **102 languages**
-```
-
-<br>
-
-**LibriSpeech**
-<br>
-  - [Libri - ASR](https://huggingface.co/datasets/openslr/librispeech_asr)
-  - [optional](https://paperswithcode.com/dataset/librispeech)
-
-
-<br>
-
-```
-Tasks: Automatic Speech Recognition, Audio Classification (speaker-identification)
-Languages: English
-Size: 100K < n < 1M
-License: CC-BY-4.0
-
-from datasets import load_dataset, Audio
-
-# 1. Load first xxxx examples of the clean-100 training split
-# 📍 streaming=True Download otherwise you'll never succeed
-```
 
 
 <br><br>
@@ -1155,7 +1102,6 @@ Some Notes
 - [2019 - Auxiliary teacher - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
 
 
-<br>
 
 <br><br>
 
