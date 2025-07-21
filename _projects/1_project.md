@@ -157,7 +157,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
   - `Same 80-channel log-Mel input` 
   - Layers: 12 (inherited from Whisper-large-v3)  
   - **All parameters frozen**  
-- **Decoder**  
+- **Decoder**  -> CE Loss - the decoder’s final softmax outputs + KL Loss - logits before the decoder’s final softmax
   - Layers: 4 (pre-distilled)
   - Auto-regressive transformer LM  
   - **LoRA injection** into every decoder layer - **r = 64**
@@ -865,42 +865,41 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 🍩 Vocabulary Mismatch = Multilingual "Plain" vs English "Decorated" Pipeline
 ═══════════════════════════════════════════════════════════════════════════════
 
-Large Vocab → Filter English → Student English-Only → Aligned Output
-(Original)     (Resize)        (Slice/Filter)        (Consistent vocab)
-    ↓             ↓                 ↓                      ↓
-┌─────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────┐
-│Multi-Lingual│→│🍰 Trim Large    │→│🎯 Keep English   │→│ Distil Vocab│
-│51865 tokens │ │   Embedding     │ │   Tokens Only   │ │ 51864 size  │
-│             │ │ ↓ to 51864      │ │ ↓ keep 51864    │ │             │
-└─────────────┘ └─────────────────┘ └─────────────────┘ └─────────────┘
-    ↓                 ↓                 ↓                      ↓
-  V₀ (51865)    V₁ (resize/slice)   V₂ (student)         V_out (match)
+Large Vocab → Filter English → Student English‑Only → Aligned Output
+(Original)    (Trim Embedding)  (Slice/Filter)        (Consistent vocab)
+    ↓                 ↓                      ↓                      ↓
+┌─────────────┐   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────┐
+│Multi‑Lingual│→  │🍰 Trim Large    │→  │🎯 Keep English   │→  │ Distil Vocab│
+│51866 tokens │   │Embedding ↓ to   │   │Tokens Only ↓    │   │51864 size   │
+│(v3)         │   │51864            │   │keep 51864       │   │             │
+└─────────────┘   └─────────────────┘   └─────────────────┘   └─────────────┘
+    ↓                 ↓                      ↓                      ↓
+  V₀ (51866)      V₁ (trimmed)         V₂ (student)         V_out (match)
 
 Pipeline Steps:
-1. V₀: Original teacher has 51865-token multilingual vocabulary
-2. V₁: Resize embedding layer to remove 1 token (51864)  
-3. V₂: Student model uses English-only subset (51864 tokens)
-4. V_out: Final vocabulary alignment ensures consistent token mapping
+1. **V₀**: Teacher `openai/whisper-large-v3` uses a 51 866‑token multilingual vocabulary  
+2. **V₁**: Resize the teacher’s embedding matrix down to **51 864** slots (remove non‑English tokens)  
+3. **V₂**: Student model (English‑only) loads that 51 864‑sized embedding  
+4. **V_out**: Ensures output token IDs align exactly between teacher‑derived embeddings and student’s vocab  
 
 Vocabulary Alignment Strategy:
 ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
 │   Teacher    │ →  │   Student    │ →  │   Output     │
-│ Multilingual │    │ English-Only │    │  Matched     │
-│   Vocab      │    │    Vocab     │    │   Vocab      │
+│ Whisper-v3   │    │ English‑Only │    │  Aligned     │
+│ 51866 tokens │    │  51864 toks  │    │  51864 toks  │
 └──────────────┘    └──────────────┘    └──────────────┘
 
 Key Technical Details:
-- Teacher: openai/whisper-large-v2 (51865 tokens)
-- Student: distil-whisper/distil-small.en (51864 tokens) 
-- Solution: Vocabulary dimension alignment via embedding resize
-- Result: Consistent token space for knowledge distillation
+- **Teacher**: `openai/whisper-large-v3` (51 866‑token vocab)  
+- **Student**: English‑only distilled model (51 864‑token vocab)  
+- **Solution**: Align token spaces by trimming the teacher’s embedding to the student’s English subset  
+- **Result**: Consistent token IDs & embedding dimensions for seamless knowledge distillation
 ```
 
 <br>
 
 
-**Connectionist Temporal Classification (CTC) in Knowledge Distillation**  
-
+**Connectionist Temporal Classification (CTC) in Knowledge Distillation**  - No need since Encoder-Decoder Seq2Seq Model here 
 
 - **Proposer & Year**: Alex Graves et al. (2006 ICML)  
 - **Motivation**:  
@@ -930,7 +929,6 @@ Key Technical Details:
 
 **Rectification Loss (Representation-Level Supervision)**  
 
-
 - **Proposer & Year**: Romero et al. (2014 ICLR “FitNets”)  
 - **Motivation**:  
   Teacher’s internal feature representations carry structural and reasoning cues beyond output labels.  
@@ -953,25 +951,6 @@ Key Technical Details:
 
 **Multi-stage Intermediary**
   - If the teacher-student difference is too large, an auxiliary teacher with a more similar structure can be introduced to complete the alignment **in two steps**
-
-**`Outline`**
-
-- 1 Introduction
-- 2 Related Work
-- 3 Methodology
-    - 3.1 LoRA Quantization
-    - 3.2 Training Details
-    - 3.3 Ablation: LoRA Only
-    - 3.4 Combined LoRA + Hidden Alignment
-- 4 Experimental Setup
-    - 4.1 Datasets
-    - 4.2 Hyper-parameter Search
-- 5 Results
-    - 5.1 Main Results
-    - 5.2 Ablation Studies
-- 6 Discussion
-- 7 Conclusion & Future Work
-- Appendices (code snippets, install, extra figs)
 
 
 <br><br>
