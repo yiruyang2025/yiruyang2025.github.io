@@ -56,24 +56,6 @@ Final hidden‑to‑vocab weight matrix and bias, quantized (+ metadata)
 Per‑tensor (or per‑channel) scale and zero‑point arrays that map integer ops back to real values
 ```
 
-
-
-<br>
-
-```
-📍 Try retraining with r=32 first, and compare the size and performance after exporting
-Dynamically quantize the model in the original student.save_pretrained(...) directory:
-
-from torch.quantization import quantize_dynamic
-quantized = quantize_dynamic(student, {torch.nn.Linear}, dtype=torch.qint8)
-torch.save(quantized.state_dict(), "student_quantized.pt")
-Remove the export of RiemannianProjector (or put it in the cloud for inference, not deployed to the glasses).
-(Optional) Distill the quantized model again to a smaller student architecture
-
-Finally, package ONNX and use Barracuda/ONNX Runtime Mobile for hot loading test on-device
-```
-
-
 <br>
 
 ```
@@ -118,23 +100,21 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
 
 `Single card peak ~ 13–15 GB VRAM -> Start your Experiment with FP16 + AMP`
 
-- Teacher (Whisper-large-v2): ≈ 3 GB (FP16)
-- Student (distil-small) + LoRA + Optimizer + Gradients: ≈ 2-2.5 GB
-- Activations (per GPU): ≈ 6–8 GB
-- Batch collision margin: ≈ 2 GB for temporary buffering, communication, AMP cache
-- In `LoRATrainer.fwd()`, bypass `PeftModel.forward()` and `directly call the underlying model model.model` that has been injected with LoRA weights
-- Practical measurement method: Insert at key locations
+Whisper large-v3 has the same architecture as the previous large and large-v2 models, except for the following minor differences:
+
+1. The spectrogram input uses 128 Mel frequency bins instead of 80
+2. A new language token for Cantonese
 
 
 <br>
 
 
 **`Teacher`**  
-
-- **Model**: [`openai/whisper-large-v2`](https://huggingface.co/openai/whisper-large-v2) - 📍 ≈1.55 B parameters (FP16)  / [`whisper-large-v3`](https://huggingface.co/openai/whisper-large-v3)
-- **Input**: raw waveform → `80-channel log-Mel spectrogram (mono, 16 kHz)`  / `128-channel log-Mel`
+- **Model**: [`whisper-large-v3`](https://huggingface.co/openai/whisper-large-v3) - 📍 ≈1.55 B parameters (FP16)
+- **Training Data** - The large-v3 checkpoint is 
+- **Input**: `128-channel log-Mel` (mono, 16 kHz)
 - **Encoder**  
-  - Hidden size: 1 280  
+  - Hidden size: 1 280
   - Layers: 32  
   - Sequence length: ~ 1 500 frames  
   - **All parameters frozen**  
@@ -142,9 +122,9 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
   - Auto-regressive transformer LM  
   - Hidden size: 1 280  
   - Layers: 32  
-  - Output: token logits over vocabulary  
+  - Output: `token logits over vocabulary`  
   - **No parameters updated**
-  - (ASR) and speech translation. Trained on `≈680 000` hours of labelled data
+  - (ASR) and speech translation. Trained on `1 million hours` of weakly labeled audio and `4 million hours` of pseudo-labeled audio collected using Whisper large-v2
 
 
 `Input Audio → Encoder → Decoder (Auto-Regressive) → Transcript Tokens`
@@ -152,7 +132,7 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
 
 <br>
 
-**`Student`**  
+**`Sample Student`**  
 
 - **Backbone Model**: [distil-whisper/distil-small.en](https://huggingface.co/distil-whisper/distil-small.en) - 📍 ≈166 M parameters (FP16)  
 - **Hidden size**: 768  
@@ -164,17 +144,11 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
   - Layers: 4 (pre-distilled)
   - Auto-regressive transformer LM  
   - **LoRA injection** into every decoder layer:
-    
-    - Rank r = 32 / 64, alpha = xx, dropout = xx  <- Small data volume → 0.1–0.2; Large data volume → 0.05–0.1
-    - Target modules per layer  
-
       1. Decoder (Self-Attn) `self_attn.q_proj`, `self_attn.k_proj`, `self_attn.v_proj`, `self_attn.out_proj`
       2. Decoder（Encoder-Decoder Attn）`encoder_attn.q_proj`, `encoder_attn.k_proj`, `encoder_attn.v_proj`, `encoder_attn.out_proj`
       3. Decoder（Feed-Forward）`fc1`, `fc2`
-<br>
 
-
-<br>
+<br><br>
 
 - simple **80/10/10** split for val/test, Do not touch your Test Set, **SEED = 42**
 - **INT8** - Inference - **Post-Training Quantization**
@@ -183,33 +157,6 @@ By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curv
 
 <br>
 
-**If Whisper-large-v3**
-
-```
-Increased computational complexity
-Feature extraction time: 80 bins → 128 bins (+60%)
-Memory usage: (B, 80, 3000) → (B, 128, 3000) (+60%)
-
-GPU memory: 8GB → 24GB+ (enough for larger features)
-```
-
-<br>
-
-
-**distil-whisper/distil-small.en**
-
-```
-Official hyperparameter configuration
-
-Temperature parameter: 2.0
-AdamW: β1=0.9, β2=0.999, ε=1e-8, weight_decay=0.0
-Gradient Clipping: 1.0
-Learning Rate from zero to a maximum of 1e-4 over the first 500 steps, and then linearly decaying it to zero
-
-The model was trained for 50,000 optimisation steps (or 12 epochs) with batch size 2056
-```
-
-<br><br>
 
 ```
 Raw Audio
@@ -233,7 +180,7 @@ Backpropagate to update LoRA adapter parameters
 
 <br>
 
-`check points`
+`check points` of Sample Student Models
 
 **distil-large-v3** (≈756 M parameters) is the **best-performing** distilled checkpoint, performing to within 1.5% WER of Whisper large-v3 on out-of-distribution short-form audio and within 1% WER on long-form decoding
 
