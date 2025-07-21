@@ -155,7 +155,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 **`Our Student`**  
 
-- **Säuseln-v3.en** - 📍 ≈ XX M parameters (FP16) - on-device
+- **Säuseln-v3.en** - 📍 ≈ xx M parameters (FP16) - on-device
 - **Hidden size**: 768  
 - **Encoder**  
   - `Same 128-channel log-Mel input` 
