@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 4
-description: NN's Interpretability
+description: NN's Interpretability x Malachy's Castle
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -18,4 +18,9 @@ related_publications: true
 
 
 [`Malachy`](https://eu.jellycat.com/malachy-dragon/)'s Castle
+
+VLM / World Model Reasoning
+
+
+<br><br><br><br>
 
