@@ -36,7 +36,7 @@ Test it on your own device for the inference + WER with model Cell 2.6 (linear p
 
 **Key Improvements**
 
-1. LoRA + Lightweight Decoder + non-linear Projection to Guide the Student in the Hidden State -> similar WER + Low Inference Latency on-device
+1. LoRA + Lightweight Decoder + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `low inference Latency`
 
 
 <br>
@@ -1106,6 +1106,7 @@ Some Notes
 - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
 - [2015 - Matrix Backpropagation for Deep Networks With Structured Layers](https://openaccess.thecvf.com/content_iccv_2015/html/Ionescu_Matrix_Backpropagation_for_ICCV_2015_paper.html)
 - [2019 - Auxiliary teacher - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
+- [2023 - Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
 
 
 
