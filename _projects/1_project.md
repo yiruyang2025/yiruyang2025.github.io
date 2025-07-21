@@ -1108,6 +1108,7 @@ Some Notes
 - [2019 - Auxiliary teacher - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
 - [2023 - Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
 - [ASR WER + Latency](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
+- [2021 - 1-bit Adam: Communication Efficient Large-Scale Training with Adam’s Convergence Speed](https://proceedings.mlr.press/v139/tang21a.html)
 
 
 <br><br>
