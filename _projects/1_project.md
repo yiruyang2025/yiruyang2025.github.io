@@ -136,7 +136,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 - **Backbone Model**: [distil-whisper/distil-small.en](https://huggingface.co/distil-whisper/distil-small.en) - 📍 ≈166 M parameters (FP16)  
 - **Hidden size**: 768  
 - **Encoder**  
-  - `Same 80-channel log-Mel input` 
+  - `80-channel log-Mel input` 
   - Layers: 12 (inherited from Whisper-small)  
   - **All parameters frozen**  
 - **Decoder**  
@@ -154,7 +154,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 - **Säuseln-v3.en** - 📍 ≈ XX M parameters (FP16) - on-device
 - **Hidden size**: 768  
 - **Encoder**  
-  - `Same 80-channel log-Mel input` 
+  - `Same 128-channel log-Mel input` 
   - Layers: 12 (inherited from Whisper-large-v3)  
   - **All parameters frozen**  
 - **Decoder**  -> CE Loss - the decoder’s final softmax outputs + KL Loss - logits before the decoder’s final softmax
@@ -214,7 +214,7 @@ Backpropagate to update LoRA adapter parameters
 🍩 Transformer = Non-Sugar Donut Factory Assembly Line  
 ═══════════════════════════════════════════════════════
 Raw Donuts → Community Check → Solo Decoration → Finished Donuts  
-(Input)       (Attention)       (FFN)           (Output)
+(Input)       (Attention)       (FFN)            (Output)
     ↓             ↓                ↓               ↓
 ┌─────────┐  ┌──────────────┐  ┌──────────────┐    ┌─────────┐
 │ Plain   │→ │👥 Community  │→ │ 🎨 Solo       │ →  │Gourmet  │
@@ -236,7 +236,6 @@ FFN: Nonlinear transformation → Can transcend input space
 ```
 Activation Function Characteristics Comparison:
 ═════════════════════════════════════════════════
-
 ┌──────────┬────────────┬───────────────┬──────────────┬─────────────┐
 │Function  │ Smoothness │ Computational │ Gradient     │ Performance │
 │          │            │ Complexity    │ Properties   │             │
@@ -272,7 +271,7 @@ Activation Function Characteristics Comparison:
 
 ```
 Raw Material (Input) → Processing (Distill) → Packaging (Loss) → Finished Product (Student)
-↓                         ↓                        ↓                       ↓
+    ↓                       ↓                       ↓                    ↓
 X₀ (Teacher Output)    X₁ (Distillation)    X₂ (Loss Computation)     Student
 ```
 
@@ -515,8 +514,8 @@ correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 | DistilBERT      | NeurIPS 2019                         | 800 M words + 2.5 B words             |
 | TinyBERT        | EMNLP 2020                           | 800 M words + 2.5 B words             |
 | MobileBERT      | ICLR 2020                            | 800 M words + 2.5 B words             |
-| distil-small.en  |                                   | ≈ 22 000 hours of pseudo-labelled audio across 10 domains (>18 000 speakers)               |
-| Our Work        | No Target Venue                      | ≈ **XXXXX** hours)                    |
+| distil-small.en  |                                     | ≈ 22 000 hours of pseudo-labelled audio across 10 domains (>18 000 speakers)               |
+| Our Work        | No Target Venue                      | ≈ **22 000** hours)                    |
 
 
 <br>
@@ -712,21 +711,6 @@ $$
 \end{aligned}
 $$  
 
-<br>
-
-
-**`Connectionist Temporal Classification (CTC) in Knowledge Distillation`**
-
-- **Proposer & Year**: Alex Graves et al. (2006 ICML)
-
-- **Motivation**
-  - RNNs require exact frame-level alignment, which is unavailable in tasks like speech and handwriting recognition
- 
-- **Key Innovations**  
-  - Automatic alignment  
-  - Path marginalization over all possible alignments  
-  - Blank token mechanism to handle repeats and separations
-
 
 <br><br>
 
@@ -898,7 +882,6 @@ Key Technical Details:
 
 <br>
 
-
 **Connectionist Temporal Classification (CTC) in Knowledge Distillation**  - No need since Encoder-Decoder Seq2Seq Model here 
 
 - **Proposer & Year**: Alex Graves et al. (2006 ICML)  
@@ -957,7 +940,6 @@ Key Technical Details:
 
 
 `Some other topics`
-
 
 `4. Low-Latency Decoding` - `CTC + RNN-Transducer`
 
