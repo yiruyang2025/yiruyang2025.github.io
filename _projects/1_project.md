@@ -1109,6 +1109,7 @@ Some Notes
 - [2023 - Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
 - [ASR WER + Latency](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 - [2021 - 1-bit Adam: Communication Efficient Large-Scale Training with Adam’s Convergence Speed](https://proceedings.mlr.press/v139/tang21a.html)
+- [2024 - SqueezeAttention: 2D Management of KV-Cache in LLM Inference via Layer-wise Optimal Budget](https://arxiv.org/abs/2404.04793)
 
 
 <br><br>
