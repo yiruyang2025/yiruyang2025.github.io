@@ -22,7 +22,6 @@ A Coding Demo Example for **Distilled-ASR** using xxx with - A Visual Interactiv
 <br>
 
 - **A dynamic Latent Trajectory Visualization**
-
 - with **LoRA / QLoRA Adapter**
  
 <br>
@@ -58,8 +57,6 @@ A Coding Demo Example for **Distilled-ASR** using xxx with - A Visual Interactiv
 
 - [2025 - Nature Human Behaviour - A unified acoustic-to-speech-to-language embedding space captures the neural basis of NLP](https://www.nature.com/articles/s41562-025-02105-9)
   
-<br>
-
 - [1989 - The Cascade-Correlation Learning Architecture](https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html)
 
 
