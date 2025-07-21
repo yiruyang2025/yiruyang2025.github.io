@@ -40,7 +40,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Interpretability
+  - Interpretability, Knowledge Distillation
   - Foundation Models - on Device
   - Representation Learning
 
