@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - A Highly Efficient Projection for ASR Knowledge Distillation
-description: Whisper-large-v3 -> Säuseln-v3.en
+description: Whisper-large-v3-turbo -> Säuseln-v3.en
 img: assets/img/4.jpg
 importance: 1
 category: work
@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3** → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
+**Whisper-large-v3-turbo** → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
 
 <br>
 
@@ -110,7 +110,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 
 **`Teacher`**  
-- **Model**: [`whisper-large-v3`](https://huggingface.co/openai/whisper-large-v3) - 📍 ≈1.55 B parameters (FP16)
+- **Model**: [`whisper-large-v3-turbo`](https://huggingface.co/openai/whisper-large-v3-turbo) - 📍 ≈ 809 M parameters (FP16)
 - **Input**: `128-channel log-Mel` (mono, 16 kHz)
 - **Encoder**  
   - Hidden size: 1 280
@@ -120,7 +120,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 - **Decoder**  
   - Auto-regressive transformer LM  
   - Hidden size: 1 280  
-  - Layers: 32  
+  - Layers: `4` 
   - Output: `token logits over vocabulary`  
   - **No parameters updated**
   - (ASR) and speech translation. Trained on `1 million hours` of weakly labeled audio and `4 million hours` of pseudo-labeled audio collected using Whisper large-v2
