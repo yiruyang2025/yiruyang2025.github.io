@@ -27,7 +27,6 @@ A Coding Demo Example for **Distilled-ASR** using xxx with - A Visual Interactiv
  
 <br>
 
-📍
 - CTC
 - Seq2Seq+Attention
 - RNN-Transducer
