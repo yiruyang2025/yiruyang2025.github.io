@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - A Highly Efficient Projection for ASR Knowledge Distillation
-description: Whisper-large-v3 -> Säuseln-small.en
+description: Whisper-large-v3 -> Säuseln-v3.en
 img: assets/img/4.jpg
 importance: 1
 category: work
@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3** → `our_model_Säuseln-small.en` + LoRA-guided Distillation
+**Whisper-large-v3** → `our_model_Säuseln-v3.en` + LoRA-guided Distillation
 
 <br>
 
@@ -148,6 +148,25 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
       3. Decoder（Feed-Forward）`fc1`, `fc2`
 
 <br><br>
+
+**`Our Student`**  
+
+- **Säuseln-v3.en** - 📍 ≈ XX M parameters (FP16) - on-device
+- **Hidden size**: 768  
+- **Encoder**  
+  - `Same 80-channel log-Mel input` 
+  - Layers: 12 (inherited from Whisper-large-v3)  
+  - **All parameters frozen**  
+- **Decoder**  
+  - Layers: 4 (pre-distilled)
+  - Auto-regressive transformer LM  
+  - **LoRA injection** into every decoder layer - **r = 64**
+      1. Decoder (Self-Attn) `self_attn.q_proj`, `self_attn.k_proj`, `self_attn.v_proj`, `self_attn.out_proj`
+      2. Decoder（Encoder-Decoder Attn）`encoder_attn.q_proj`, `encoder_attn.k_proj`, `encoder_attn.v_proj`, `encoder_attn.out_proj`
+      3. Decoder（Feed-Forward）`fc1`, `fc2`
+  - For ASR Distillation, higher T at the begining and then cooler down - `**Cosine Annealing**`
+
+<br>
 
 - simple **80/10/10** split for val/test, Do not touch your Test Set, **SEED = 42**
 - **INT8** - Inference - **Post-Training Quantization**
@@ -479,21 +498,14 @@ correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 ```
 
 
-
-
 <br>
 
-Whisper small.en is the smallest Distil-Whisper checkpoint, with just 166M parameters, making it the ideal choice for memory constrained applications (e.g. on-device), for most other applications, the distil-medium.en or distil-large-v2 checkpoints are recommended
-
-Distil-Whisper is also evaluated on the `ESB benchmark` datasets as part of the OpenASR leaderboard, where it performs to within 0.2 % WER of Whisper
-
-<br>
 
 - Always remember to do **Automatic checkpoint saving**
 - !pip install -U bitsandbytes>=0.41.0
 - Put Your Teacher model on CPU
-- MIN_DURATION = 2.0 # Same as Distil-Whisper-small.en
-- MAX_DURATION = 30.0 # Same as **Whisper-large-v2 maximum acceptance length**
+- MIN_DURATION = 1.0
+- MAX_DURATION = 30.0 # Same as **Whispe maximum acceptance length**
 
 
 <br>
