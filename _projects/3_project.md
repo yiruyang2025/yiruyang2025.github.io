@@ -11,7 +11,7 @@ related_publications: true
 
 
 
-<br><br>
+<br><br><br><br>
 
 
 [DINOv2]
@@ -19,15 +19,6 @@ related_publications: true
 [2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
 
 <br>
-
-
-
-
-<br><br><br>
-
-
-
-
 
 
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
