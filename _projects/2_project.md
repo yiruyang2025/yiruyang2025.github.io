@@ -38,8 +38,10 @@ related_publications: true
 ## Topics
 
 [Aria](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
+
 [LEMMA - 2020](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
-- egocentric vision, intent prediction, anticipation, multimodal learning
+
+- Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 
