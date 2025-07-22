@@ -15,7 +15,7 @@ related_publications: true
 <br><br><br><br><br><br><br>
 
 
-[📍VisualSpeaker](https://arxiv.org/pdf/2507.06060)
+[📍📍 VisualSpeaker](https://arxiv.org/pdf/2507.06060)
 
 
 <br>
