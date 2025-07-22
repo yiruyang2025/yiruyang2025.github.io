@@ -21,6 +21,8 @@ related_publications: true
 
 [2022 - AR transcription and translation](https://x.com/Google/status/1524464030668177409)
 
+[2025 - Eye Tracking](https://acl2025-eyetracking-and-nlp.github.io/)
+
 
 <br>
 
