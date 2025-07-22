@@ -17,9 +17,9 @@ related_publications: true
 
 [📍 2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
 
-[2023 - 3DiFACE: Diffusion-based Speech-driven 3D Facial Animation and Editing](https://arxiv.org/abs/2312.00870)
-
 [📍 2022 - AR transcription and translation](https://x.com/Google/status/1524464030668177409)
+
+[2023 - 3DiFACE: Diffusion-based Speech-driven 3D Facial Animation and Editing](https://arxiv.org/abs/2312.00870)
 
 <br>
 
@@ -31,6 +31,12 @@ related_publications: true
 
 - [2025 - SnapMoGen](https://arxiv.org/abs/2507.09122)
 
+
+<br>
+
+
+
+## Modules
 
 <br>
 
@@ -48,12 +54,8 @@ related_publications: true
 
 [Ego4D](https://ego4d-data.org/)
 
-<br><br>
-
-## Modules
 
 <br>
-
 
 Causal ViViT
 
