@@ -36,7 +36,8 @@ latest_posts:
 
 - 📍 [Project 1 - A Highly Efficient Projection for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - **Säuseln-v3.en**
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
-
+- 📍 [Project 3 - 3D Representation Pre-train + Self-Distillation](https://yiruyang2025.github.io/projects/3_project/)
+  
 <br>
 
 **Interests**
