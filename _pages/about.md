@@ -42,6 +42,6 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation
   - Foundation Models, Flow Matching
-  - Representation Learning
+  - Cross-Modal Representation Learning
 
 <div style="height: 4rem;"></div>
