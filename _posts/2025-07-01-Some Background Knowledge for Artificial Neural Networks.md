@@ -58,7 +58,7 @@ Representation Robustness  ←─── TRADE‑OFF ───→  Training Effic
                   Diffusion Loss (Denoising Objective)
         • Learn to reverse a noise process on 3D data (e.g., point clouds)
         • Yields generative and noise‑robust latent features
-          │                                         │
+          │                                               │
           └──────────── PROPOSED INTEGRATION ─────────────┘
                                │
                                ▼
