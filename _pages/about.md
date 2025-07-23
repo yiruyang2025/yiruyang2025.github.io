@@ -41,7 +41,7 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - Foundation Models - on Device
+  - Foundation Models, Flow Matching
   - Representation Learning
 
 <div style="height: 4rem;"></div>
