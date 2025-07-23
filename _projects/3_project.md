@@ -58,7 +58,7 @@ Enhanced 3D features
 
 <br>
 
-Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
+`Explore 3D Representation Learning by -> Combining Self-Distillation Loss + Diffusion Loss`
 
 
 <br>
