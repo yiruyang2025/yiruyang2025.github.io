@@ -43,7 +43,29 @@ images:
 <br><br>
 
 
-**2. Self-Distillation Loss**
+**2. Self-Distillation Loss + Diffusion Loss**
+
+```
+Representation Robustness  ←─── TRADE‑OFF ───→  Training Efficiency & Reuse
+          ▲                                         ▲
+          │                                         │
+  Self‑Distillation Loss                 Pretrained Priors (Stable Diffusion, DINOv2)
+  • Enforces invariance across           • Inject rich 2D visual semantics
+    views/augmentations                  • Accelerate convergence, improve transfer
+  • Stabilizes training dynamics
+          │                                         │
+          ▼                                         ▼
+                  Diffusion Loss (Denoising Objective)
+        • Learn to reverse a noise process on 3D data (e.g., point clouds)
+        • Yields generative and noise‑robust latent features
+          │                                         │
+          └──────────── PROPOSED INTEGRATION ─────────────┘
+                               │
+                               ▼
+                 Unified, High‑Quality 3D Latent Space
+     → Better downstream performance (classification, segmentation, reconstruction)
+     → Strong generalization from 2D/3D synergy
+```
 
 
 <br><br>
