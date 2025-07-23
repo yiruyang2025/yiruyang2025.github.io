@@ -10,31 +10,63 @@ related_publications: true
 
 
 
-
-<br><br><br><br>
+<br><br>
 
 
 [DINOv2]
 
 [2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
 
-<br>
-
-
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
 [2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
 
 
-<br><br><br><br>
+<br><br>
+
+## Structure of DINOv2
 
 
 
 
 
+<br><br>
+
+## Improve 3D pretraining strategies by combining Self-Distillation & Diffusion Losses / Flow-matching Losses
 
 
-## References
+- Combine the representation learning strengths of self-distillation models—such as DINOv2, which excels at segmentation and classification—with the high-fidelity feature capabilities of current generative diffusion models
+- Begin by fine-tuning a 3D point cloud diffusion model (e.g., PointDif) and integrating self-distillation losses inspired by DINOv2, or contrastive-like regularizers as introduced in Diffuse and Disperse
+- Then analyze the impact of these representation-enhancing losses on downstream tasks such as 3D segmentation and 3D classification
+
+
+
+<br>
+
+
+## References 1
+
+
+[1] DINOv2: Learning robust visual features without supervision, Oquab et al. TMLR 2023
+
+[2] High-resolution image synthesis with latent diffusion models, Rombach et al. CVPR 2022
+
+[3] Point Cloud Pre-training with Diffusion Models, Zheng et al. CVPR 2024
+
+[4] Diffuse and Disperse, Wang et al. ArXiv 2025
+
+[5] A Tale of Two Features: Stable Diffusion Complements DINO for Zero-Shot Semantic Correspondence, Zhang et al. NeurIPS 2023
+
+[6] 3D Scene Understanding with Open Vocabularies, Peng at al. CVPR 2023
+
+[7] Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning, Chen et al. ArXiv 2025
+
+
+
+<br><br><br>
+
+
+## References 2
 
 <br><br>
 
