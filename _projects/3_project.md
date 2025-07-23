@@ -24,6 +24,36 @@ related_publications: true
 
 <br>
 
+```
+**Self-Distillation + Diffusion**
+    ↓
+[ 3D Diffusion Network ]
+    ←— combine point‑cloud denoising loss with DINOv2‑style self‑distillation loss
+    ↓
+Enhanced 3D features
+
+**2D → 3D Distillation**
+    ↓
+[ Multi‑View 2D Encoder (Stable Diffusion / DINOv2) ]
+    ↓
+[ Feature Projection & Distillation ]
+    ←— align 2D features to 3D points via multi‑view correspondences
+    ↓
+3D backbone embeddings
+
+**Overall Goal**
+    ↓
+[ Unified 3D Representation ]
+    ←— fuses high‑fidelity geometry (diffusion) + strong discriminative cues (distillation)
+```
+
+
+
+
+
+
+<br>
+
 ## The Topic
 
 <br>
@@ -89,7 +119,7 @@ Explore 3D representation learning by -> combining self-distillation loss and di
 <br><br>
 
 
-**Possible Improvements**
+## Possible Improvements
 
 
 [2025 - Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)
