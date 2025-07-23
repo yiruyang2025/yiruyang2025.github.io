@@ -22,13 +22,18 @@ related_publications: true
 [2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
 
 
-<br><br>
+<br>
 
-**Structure of DINOv2 and Goals**
+## The Topic
+
+-> Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
+
 
 <br>
 
-- Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
+**Structure of DINOv2 and Goals**
+
+
 
 - **Why pre-train 3D representations?**
   - `Goal` - Before 3D downstream tasks (such as segmentation, classification, and registration), let the model be trained on large-scale unlabeled point clouds to obtain universal and robust feature representations.
