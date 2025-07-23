@@ -31,7 +31,31 @@ related_publications: true
 
 <br>
 
-**Structure of DINOv2 and Goals**
+**DINOv2**
+
+- **Hybrid discriminative objective based on DINO + iBOT**
+  - Image-level (DINO) - Two networks (student, teacher) process different strong/weak enhancements of the same image, similar to the "prototype classification" cross entropy loss on the [CLS] token
+  - Patch-level (iBOT) - The student inputs a masked patch to predict the corresponding unmasked patch of the teacher. Similar to Masked Image Modeling (MIM), it also uses classification-based prototype alignment
+
+ <br>
+ 
+- **KoLeo regularization**
+  - The logarithmic penalty of the minimum adjacent distance within the batch encourages features to be evenly spread on the sphere
+
+<br>
+
+- **Training a large model and then distilling**
+  - First, use ViT‑g/14 (student–teacher architecture) with 1B parameters to self-supervise a large number of iterations on 142M images
+  - Then distill the small models (ViT‑L, ViT‑B, ViT‑S) from the large model - use the same DINO objective, but replace the teacher with a frozen large ViT‑g, and train the student from scratch, which is fast and low-cost
+
+
+<br>
+
+-> Relying solely on self-supervised pre-training, can obtain general, out-of-the-box visual features that are on par with or better than large-scale weak supervision (such as CLIP)
+
+<br>
+
+**Goals**
 
 
 - **Why pre-train 3D representations?**
@@ -95,6 +119,8 @@ related_publications: true
 
 
 <br>
+
+[2015 - U-Net](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)
 
 [1] DINOv2: Learning robust visual features without supervision, Oquab et al. TMLR 2023
 
