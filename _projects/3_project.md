@@ -34,10 +34,9 @@ related_publications: true
 
 ## Improve 3D pretraining strategies by combining Self-Distillation & Diffusion Losses / Flow-matching Losses
 
-
-- 1. Combine the representation learning strengths of self-distillation models—such as DINOv2, which excels at segmentation and classification—with the high-fidelity feature capabilities of current generative diffusion models
-- 2. Begin by fine-tuning a 3D point cloud diffusion model (e.g., PointDif) and integrating self-distillation losses inspired by DINOv2, or contrastive-like regularizers as introduced in Diffuse and Disperse
-- 3. Then analyze the impact of these representation-enhancing losses on downstream tasks such as 3D segmentation and 3D classification
+- Combine the representation learning strengths of self-distillation models—such as DINOv2, which excels at segmentation and classification—with the high-fidelity feature capabilities of current generative diffusion models
+- Begin by fine-tuning a 3D point cloud diffusion model (e.g., PointDif) and integrating self-distillation losses inspired by DINOv2, or contrastive-like regularizers as introduced in Diffuse and Disperse
+- Then analyze the impact of these representation-enhancing losses on downstream tasks such as 3D segmentation and 3D classification
 
 
 
