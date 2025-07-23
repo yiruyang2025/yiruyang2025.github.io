@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: 3D Representation Learning
+description: 3D Representation Learning + Self‑Distillation
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -57,12 +57,41 @@ related_publications: true
 
 
 
+<br><br>
+
+
+**Possible Improvements**
+
 <br>
+
+- `1. A More Efficient Self-Distillation`
+  - Freeze the backbone: keep the original diffusion model (or self-distillation model) parameter θ unchanged
+  - Insert lightweight adapter: add a small trainable module ψ after the key layer (such as Transformer's attention block, PointNet's MLP block, etc.)
+  - Single forward simulated self-distillation: Adapter learns to approximate the "teacher model + guidance mechanism" (in AGD, it simulates Classifier-Free Guidance), so that reasoning only needs one forward pass, which can simultaneously retain the generation function and distillation signal
+
+<br>
+ 
+- `2. Flow Matching Loss` vs. Diffusion Loss
+  - **Advantages**
+  - More stable convergence and fewer iterations: No longer fighting against noise randomness, FlowMatching often converges faster than ScoreMatching/DDPM
+  - Fast sampling: Especially if you choose the OT path, you can generate samples with dozens of forward passes, which can theoretically reduce the number of inference steps by half or more
+  - **Challenges**
+  - Complexity of velocity field design: To achieve accurate mapping and ODE integration on unordered point clouds, additional engineering is required
+  - Existing library support: Most 3D diffusion frameworks only implement random diffusion. To change to ODE, you need to connect to torchdiffeq or similar components yourself
+
+
+<br><br>
 
 
 ## References 1
 
 <br><br>
+
+[2025 - Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)
+
+[2022 - Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
+
+<br>
 
 [1] DINOv2: Learning robust visual features without supervision, Oquab et al. TMLR 2023
 
@@ -85,11 +114,6 @@ related_publications: true
 [2025 - How I Understand Flow Matching](https://www.youtube.com/watch?v=DDq_pIfHqLs)
 
 [Flow Matching - GIF](https://x.com/mathusmassias/status/1935246909473521829?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-
-
-<br>
-
-
 
 
 <br><br>
