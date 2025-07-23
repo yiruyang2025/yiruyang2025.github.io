@@ -10,7 +10,7 @@ related_publications: true
 
 
 
-<br><br>
+<br>
 
 
 [DINOv2]
@@ -26,7 +26,9 @@ related_publications: true
 
 ## The Topic
 
--> Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
+<br>
+
+Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
 
 
 <br>
@@ -47,7 +49,6 @@ related_publications: true
 - **Training a large model and then distilling**
   - First, use ViT‑g/14 (student–teacher architecture) with 1B parameters to self-supervise a large number of iterations on 142M images
   - Then distill the small models (ViT‑L, ViT‑B, ViT‑S) from the large model - use the same DINO objective, but replace the teacher with a frozen large ViT‑g, and train the student from scratch, which is fast and low-cost
-
 
 <br>
 
@@ -75,7 +76,7 @@ related_publications: true
   - Principle - Gradually add noise to the unlabeled point cloud during the training phase, and then let the network learn to denoise at each noise level. The loss is generally the mean square error between the predicted noise and the real noise
   - Effect - The network learns both global and local "generative capabilities" and can capture high-fidelity distribution details
 
-<br><br>
+<br>
 
 **Improve 3D Pretraining Strategies by Combining Self-Distillation & Diffusion Losses**
 
@@ -90,7 +91,6 @@ related_publications: true
 
 **Possible Improvements**
 
-<br>
 
 [2025 - Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)
 
@@ -120,6 +120,11 @@ related_publications: true
 
 <br>
 
+[2025 - How I Understand Flow Matching](https://www.youtube.com/watch?v=DDq_pIfHqLs)
+
+[Flow Matching - GIF](https://x.com/mathusmassias/status/1935246909473521829?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+
+
 [2015 - U-Net](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)
 
 [1] DINOv2: Learning robust visual features without supervision, Oquab et al. TMLR 2023
@@ -135,14 +140,6 @@ related_publications: true
 [6] 3D Scene Understanding with Open Vocabularies, Peng at al. CVPR 2023
 
 [7] Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning, Chen et al. ArXiv 2025
-
-
-
-<br>
-
-[2025 - How I Understand Flow Matching](https://www.youtube.com/watch?v=DDq_pIfHqLs)
-
-[Flow Matching - GIF](https://x.com/mathusmassias/status/1935246909473521829?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 
 <br><br>
