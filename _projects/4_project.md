@@ -10,6 +10,19 @@ related_publications: true
 
 <br>
 
-Dataset
+Dataset Labeling for [Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
+
+
+<br>
+
+Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
+
+<br>
+
+## References
+
+
+[2020 - LEMMA: A Multi-view Dataset for L Earning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
+
 
 <br><br>
