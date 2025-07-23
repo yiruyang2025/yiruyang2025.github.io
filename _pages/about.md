@@ -45,6 +45,6 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation
   - Foundation Models, Flow Matching
-  - 3D (+Cross-Modal) Representation Learning, Audio Generation & Separation
+  - 3D (+Cross-Modal) Representation Learning, Audio Generation & Separation, SSL
 
 <div style="height: 4rem;"></div>
