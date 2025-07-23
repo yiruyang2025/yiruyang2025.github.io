@@ -43,7 +43,7 @@ images:
 <br><br>
 
 
-**2**
+**2. Self-Distillation Loss**
 
 
 <br><br>
