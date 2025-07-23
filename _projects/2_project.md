@@ -59,11 +59,11 @@ related_publications: true
 
 
 
-- [📍 2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
+- [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
 
 - [2025 - Generative modelling in latent space](https://sander.ai/2025/04/15/latents.html)<br>
 
-- [📍 2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
+- [2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
   - 2025 - New York is a Zoo
   - 2025 - The Retrieval
 <br>
