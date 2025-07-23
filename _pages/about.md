@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- 📍 Programming - Python, (C++), Ruby / HTML, Java / JavaScript
+- 📍 Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
 - Currently Studying - **Speech Processing** -> all
 - Feel free to teach if u are good at - CAG, Parallel Computing
 
