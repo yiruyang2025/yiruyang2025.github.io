@@ -24,15 +24,32 @@ related_publications: true
 
 <br><br>
 
-## Structure of DINOv2
+**Structure of DINOv2 and Goals**
 
+<br>
 
+- Explore 3D representation learning by -> combining self-distillation loss and diffusion loss
 
+- **Why pre-train 3D representations?**
+  - `Goal` - Before 3D downstream tasks (such as segmentation, classification, and registration), let the model be trained on large-scale unlabeled point clouds to obtain universal and robust feature representations.
 
+  - `Challenges` - Point clouds do not have natural pixel grids like images, but are more sparse and disordered, requiring special network structures (PointNet, Point Transformer...) and task design.
+
+<br>
+
+- **Self-Distillation's "Representation Learning" Advantages**
+  - Principle - Let the model act as both a "teacher" and a "student" at the same time, aligning features with each other through different augmented views (or different model branches)
+  - Effect - Methods such as DINOv2 can learn very discriminative features for downstream segmentation/classification, and do not rely on labels
+ 
+<br>
+
+- **Diffusion Loss' "Generative" Advantages**
+  - Principle - Gradually add noise to the unlabeled point cloud during the training phase, and then let the network learn to denoise at each noise level. The loss is generally the mean square error between the predicted noise and the real noise
+  - Effect - The network learns both global and local "generative capabilities" and can capture high-fidelity distribution details
 
 <br><br>
 
-## Improve 3D pretraining strategies by combining Self-Distillation & Diffusion Losses / Flow-matching Losses
+`Improve 3D pretraining strategies by combining Self-Distillation & Diffusion Losses / Flow-matching Losses`
 
 - Combine the representation learning strengths of self-distillation models—such as DINOv2, which excels at segmentation and classification—with the high-fidelity feature capabilities of current generative diffusion models
 - Begin by fine-tuning a 3D point cloud diffusion model (e.g., PointDif) and integrating self-distillation losses inspired by DINOv2, or contrastive-like regularizers as introduced in Diffuse and Disperse
@@ -45,6 +62,7 @@ related_publications: true
 
 ## References 1
 
+<br><br>
 
 [1] DINOv2: Learning robust visual features without supervision, Oquab et al. TMLR 2023
 
@@ -65,6 +83,13 @@ related_publications: true
 <br>
 
 [2025 - How I Understand Flow Matching](https://www.youtube.com/watch?v=DDq_pIfHqLs)
+
+[Flow Matching - GIF](https://x.com/mathusmassias/status/1935246909473521829?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+
+
+<br>
+
+
 
 
 <br><br>
