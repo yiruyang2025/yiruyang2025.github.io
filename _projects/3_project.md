@@ -34,7 +34,6 @@ related_publications: true
 **Structure of DINOv2 and Goals**
 
 
-
 - **Why pre-train 3D representations?**
   - `Goal` - Before 3D downstream tasks (such as segmentation, classification, and registration), let the model be trained on large-scale unlabeled point clouds to obtain universal and robust feature representations.
 
@@ -54,7 +53,7 @@ related_publications: true
 
 <br><br>
 
-`Improve 3D pretraining strategies by combining Self-Distillation & Diffusion Losses / Flow-matching Losses`
+**Improve 3D Pretraining Strategies by Combining Self-Distillation & Diffusion Losses**
 
 - Combine the representation learning strengths of self-distillation models—such as DINOv2, which excels at segmentation and classification—with the high-fidelity feature capabilities of current generative diffusion models
 - Begin by fine-tuning a 3D point cloud diffusion model (e.g., PointDif) and integrating self-distillation losses inspired by DINOv2, or contrastive-like regularizers as introduced in Diffuse and Disperse
@@ -69,12 +68,16 @@ related_publications: true
 
 <br>
 
+[2025 - Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)
+
 - `1. A More Efficient Self-Distillation`
   - Freeze the backbone: keep the original diffusion model (or self-distillation model) parameter θ unchanged
   - Insert lightweight adapter: add a small trainable module ψ after the key layer (such as Transformer's attention block, PointNet's MLP block, etc.)
   - Single forward simulated self-distillation: Adapter learns to approximate the "teacher model + guidance mechanism" (in AGD, it simulates Classifier-Free Guidance), so that reasoning only needs one forward pass, which can simultaneously retain the generation function and distillation signal
 
 <br>
+
+ [2022 - Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
  
 - `2. Flow Matching Loss` vs. Diffusion Loss
   - **Advantages**
@@ -90,11 +93,6 @@ related_publications: true
 
 ## References 1
 
-<br><br>
-
-[2025 - Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)
-
-[2022 - Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
 
 <br>
 
