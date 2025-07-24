@@ -53,7 +53,7 @@ Enhanced 3D features
 
 <br>
 
-`High level direction` – Expand the prior work from single-view to multi-view, and from static scenario to dynamic scenario
+`High level direction` – Expand the prior work from single-view to multi-view + from static scenario to dynamic scenario
 
 <br>
 
