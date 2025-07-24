@@ -8,11 +8,7 @@ category: work
 related_publications: true
 ---
 
-<br><br><br><br>
-
-
-
-
+<br><br><br>
 
 
 
@@ -24,12 +20,9 @@ related_publications: true
 
 [2020 - Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions](https://openaccess.thecvf.com/content_CVPR_2020/html/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.html)
 
-<br>
 
 
-
-
-<br><br><br><br><br><br>
+<br><br><br>
 
 
 [2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
@@ -41,7 +34,7 @@ related_publications: true
 [2025 - Eye Tracking](https://acl2025-eyetracking-and-nlp.github.io/)
 
 
-<br>
+<br><br><br>
 
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
 
