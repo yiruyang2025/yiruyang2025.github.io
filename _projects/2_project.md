@@ -8,10 +8,17 @@ category: work
 related_publications: true
 ---
 
-<br><br>
+<br><br><br><br>
 
 
-[📍 2018 - Learning Priors for Semantic 3D Reconstruction](https://openaccess.thecvf.com/content_ECCV_2018/html/Ian_Cherabier_Learning_Priors_for_ECCV_2018_paper.html)
+
+
+
+
+
+[CAT-3D]
+
+[2018 - Learning Priors for Semantic 3D Reconstruction](https://openaccess.thecvf.com/content_ECCV_2018/html/Ian_Cherabier_Learning_Priors_for_ECCV_2018_paper.html)
 
 [2017 - Semantically Informed Multi‑view Surface Refinement](https://openaccess.thecvf.com/content_iccv_2017/html/Blaha_Semantically_Informed_Multiview_ICCV_2017_paper.html)
 
