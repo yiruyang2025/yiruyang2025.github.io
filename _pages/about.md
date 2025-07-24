@@ -43,7 +43,6 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - Planar Image Unfolding
   - Foundation Models, Flow Matching
   - 3D (+Cross-Modal) Representation Learning, Audio Generation & Separation, SSL
 
