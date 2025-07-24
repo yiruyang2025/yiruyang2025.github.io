@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description:
+description: 3D Recontruction / Robotics Navigation
 img: assets/img/4.jpg
 importance: 2
 category: work
