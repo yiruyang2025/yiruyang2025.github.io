@@ -50,11 +50,6 @@ Enhanced 3D features
 <br>
 
 # Some other Topics
-
-<br>
-
-`High level direction` – Expand the prior work from single-view to multi-view + from static scenario to dynamic scenario
-
 <br>
 
 [1] Cherabier, I., Schönberger, J.L., Oswald, M.R., Pollefeys, M., Geiger, A.: Learning Priors for Semantic 3D Reconstruction. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
