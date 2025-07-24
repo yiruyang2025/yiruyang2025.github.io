@@ -11,6 +11,8 @@ related_publications: true
 <br>
 
 
+[📍 2018 - Learning Priors for Semantic 3D Reconstruction](https://openaccess.thecvf.com/content_ECCV_2018/html/Ian_Cherabier_Learning_Priors_for_ECCV_2018_paper.html)
+
 
 <br><br><br><br><br><br><br>
 
