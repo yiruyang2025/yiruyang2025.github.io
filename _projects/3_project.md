@@ -47,6 +47,17 @@ Enhanced 3D features
     ←— fuses high‑fidelity geometry (diffusion) + strong discriminative cues (distillation)
 ```
 
+<br>
+
+# Some other Topics
+
+[1] Cherabier, I., Schönberger, J.L., Oswald, M.R., Pollefeys, M., Geiger, A.: Learning Priors for Semantic 3D Reconstruction. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2024)
+[2] Wang, Y., Pan, L., Pollefeys, M., Larsson, V.: Structure‑from‑Motion with a Non‑Parametric Camera Model. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2025)
+[3] Wald, J., Dhamo, H., Navab, N., Tombari, F.: Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions. In: Proceedings of International Conference on 3D Vision (3DV) (2025)
+[4] Tombari, F., Di Stefano, L.: Object Recognition in 3D Scenes with Occlusions and Clutter by Hough Voting. In: Proceedings of International Conference on Computer Vision (ICCV) (2019)
+[5] Peng, S., Genova, K., Jiang, C. M., Tagliasacchi, A., Pollefeys, M., Funkhouser, T.: OpenScene: 3D Scene Understanding with Open Vocabularies. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2023)
+[6] Song, S., Yu, F., Zeng, A., Chang, A.X., Savva, M., Funkhouser, T.: Semantic Scene Completion From a Single Depth Image. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017)
+
 
 
 
