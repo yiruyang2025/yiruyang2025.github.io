@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: 3D Recontruction / Robotics Navigation
+description: 3D Recontruction / Robotics Navigation / AI for Bio Structure
 img: assets/img/4.jpg
 importance: 2
 category: work
