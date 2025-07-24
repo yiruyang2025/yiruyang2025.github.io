@@ -20,7 +20,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 ## References
 
 
-[2020 - LEMMA: A Multi-view Dataset for L Earning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
+[2020 - LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
 
 
 <br><br>
