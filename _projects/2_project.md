@@ -13,8 +13,16 @@ related_publications: true
 
 [📍 2018 - Learning Priors for Semantic 3D Reconstruction](https://openaccess.thecvf.com/content_ECCV_2018/html/Ian_Cherabier_Learning_Priors_for_ECCV_2018_paper.html)
 
+[2017 - Semantically Informed Multi‑view Surface Refinement](https://openaccess.thecvf.com/content_iccv_2017/html/Blaha_Semantically_Informed_Multiview_ICCV_2017_paper.html)
 
-<br><br><br><br><br><br><br>
+[2020 - Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions](https://openaccess.thecvf.com/content_CVPR_2020/html/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.html)
+
+<br>
+
+
+
+
+<br><br><br><br><br><br>
 
 
 [📍 2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
