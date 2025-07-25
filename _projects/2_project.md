@@ -60,6 +60,9 @@ related_publications: true
 [2025 - Oral - MaskControl: Spatio-Temporal Control for Masked Motion Synthesis](https://www.ekkasit.com/ControlMM-page/)
 
 
+[2025 - EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos](https://rchalyang.github.io/EgoVLA/)
+
+
 
 
 <br><br><br>
