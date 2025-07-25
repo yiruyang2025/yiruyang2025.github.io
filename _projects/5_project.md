@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 5
-description: NN's Interpretability x Malachy's Castle
+description: NN's Interpretability / Malachy's Castle / AI for Bio
 img: assets/img/4.jpg
 importance: 5
 category: work
