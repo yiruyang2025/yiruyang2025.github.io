@@ -8,9 +8,6 @@ category: work
 related_publications: true
 ---
 
-<br><br><br>
-
-actively looking for suggestions
 
 
 <br><br><br>
