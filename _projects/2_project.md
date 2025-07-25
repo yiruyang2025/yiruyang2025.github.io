@@ -22,6 +22,15 @@ related_publications: true
 
 
 
+<br>
+
+**Bio Singal**
+
+[2025 - LSM-2: Learning from Incomplete Wearable Sensor Data](https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/)
+
+
+
+
 <br><br>
 
 **Trustworthy**
