@@ -37,7 +37,11 @@ related_publications: true
 
 [2025 - IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization and Perturbation Optimization](https://arxiv.org/abs/2507.06856)
 
-<br><br><br>
+<br><br>
+
+
+**CV**
+
 
 
 [2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
