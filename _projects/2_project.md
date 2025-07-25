@@ -53,6 +53,15 @@ related_publications: true
 [2025 - Eye Tracking](https://acl2025-eyetracking-and-nlp.github.io/)
 
 
+<br>
+
+**3D Vision**
+
+[2025 - Oral - MaskControl: Spatio-Temporal Control for Masked Motion Synthesis](https://www.ekkasit.com/ControlMM-page/)
+
+
+
+
 <br><br><br>
 
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
