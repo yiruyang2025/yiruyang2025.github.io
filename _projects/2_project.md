@@ -67,6 +67,9 @@ related_publications: true
 
 <br><br><br>
 
+
+**Some help from the industry**
+
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
 
  - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
