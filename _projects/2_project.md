@@ -20,6 +20,8 @@ related_publications: true
 
 [2020 - Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions](https://openaccess.thecvf.com/content_CVPR_2020/html/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.html)
 
+[📍 2025 - CrossOver: 3D Scene Cross-Modal Alignment](https://openaccess.thecvf.com/content/CVPR2025/html/Sarkar_CrossOver_3D_Scene_Cross-Modal_Alignment_CVPR_2025_paper.html)
+
 
 
 <br><br>
