@@ -53,7 +53,7 @@ related_publications: true
 
 <br><br><br>
 
-## Topics 1 
+## Topics
 
 <br>
 
@@ -87,11 +87,6 @@ related_publications: true
 
 
 <br>
-
-## Topics 2
-
-[]
-
 
 
 <br><br>
