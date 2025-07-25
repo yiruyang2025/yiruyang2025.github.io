@@ -22,6 +22,12 @@ related_publications: true
 
 
 
+<br>
+
+**Trustworthy**
+
+[2025 - IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization and Perturbation Optimization](https://arxiv.org/abs/2507.06856)
+
 <br><br><br>
 
 
@@ -47,7 +53,7 @@ related_publications: true
 
 <br><br><br>
 
-## Topics
+## Topics 1 
 
 <br>
 
@@ -78,6 +84,13 @@ related_publications: true
   - 2025 - The Retrieval
 <br>
 - [Sparse Autoencoders - 2024 - Scaling and evaluating sparse autoencoder](https://arxiv.org/abs/2406.04093)
+
+
+<br>
+
+## Topics 2
+
+[]
 
 
 
