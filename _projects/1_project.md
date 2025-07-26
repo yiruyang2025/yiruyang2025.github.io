@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - A Highly Efficient Projection for ASR Knowledge Distillation
-description: Whisper-large-v3-turbo -> Säuseln-v3.en
+description: Whisper-large-v3-turbo
 img: assets/img/4.jpg
 importance: 1
 category: work
