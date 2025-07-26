@@ -85,7 +85,6 @@ related_publications: true
 <br><br><br>
 
 
-**Some help from the industry 🇨🇭**
 
  - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
 
