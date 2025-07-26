@@ -22,6 +22,7 @@ related_publications: true
 
 [📍 2025 - CrossOver: 3D Scene Cross-Modal Alignment](https://openaccess.thecvf.com/content/CVPR2025/html/Sarkar_CrossOver_3D_Scene_Cross-Modal_Alignment_CVPR_2025_paper.html)
 
+[📍📍 2002 - Marc Pollefeys and Luc Van Gool - From Images to 3D Models](https://cacm.acm.org/research/from-images-to-3d-models/)
 
 
 <br><br>
@@ -83,7 +84,7 @@ related_publications: true
 
 [3] Wald, J., Dhamo, H., Navab, N., Tombari, F.: Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions. In: Proceedings of International Conference on 3D Vision (3DV) (2020)
 
-[4] Tombari, F., Di Stefano, L.: Object Recognition in 3D Scenes with Occlusions and Clutter by 📍 Hough Voting. In: Proceedings of International Conference on Computer Vision (ICCV) (2019)
+[4] Tombari, F., Di Stefano, L.: Object Recognition in 3D Scenes with Occlusions and Clutter by 📍📍 Hough Voting. In: Proceedings of International Conference on Computer Vision (ICCV) (2019)
 
 [5] Peng, S., Genova, K., Jiang, C. M., Tagliasacchi, A., Pollefeys, M., Funkhouser, T.: OpenScene: 3D Scene Understanding with Open Vocabularies. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2023)
 
