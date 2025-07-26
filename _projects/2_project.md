@@ -24,6 +24,8 @@ related_publications: true
 
 [📍📍 2002 - Marc Pollefeys and Luc Van Gool - From Images to 3D Models](https://cacm.acm.org/research/from-images-to-3d-models/)
 
+[2022 - Advancing the foundations of mixed reality](https://www.microsoft.com/en-us/research/blog/eccv-2022-highlights-advancing-the-foundations-of-mixed-reality/?OCID=msr_blog_ECCVHighlights_Lab)
+
 
 <br><br>
 
