@@ -43,7 +43,7 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - Foundation Models, Flow Matching
+  - World Modeling, Flow Matching
   - 3D Perception / Reconstruction, Audio Generation & Separation, SSL
 
 <div style="height: 4rem;"></div>
