@@ -22,7 +22,7 @@ related_publications: true
 
 [📍 2025 - CrossOver: 3D Scene Cross-Modal Alignment](https://openaccess.thecvf.com/content/CVPR2025/html/Sarkar_CrossOver_3D_Scene_Cross-Modal_Alignment_CVPR_2025_paper.html)
 
-[📍📍 2002 - Marc Pollefeys and Luc Van Gool - From Images to 3D Models](https://cacm.acm.org/research/from-images-to-3d-models/)
+[📍 2002 - From Images to 3D Models](https://cacm.acm.org/research/from-images-to-3d-models/)
 
 [2022 - Advancing the foundations of mixed reality](https://www.microsoft.com/en-us/research/blog/eccv-2022-highlights-advancing-the-foundations-of-mixed-reality/?OCID=msr_blog_ECCVHighlights_Lab)
 
