@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: 3D Representation Learning + Self‑Distillation
+description: Implicit 3D Representations
 img: assets/img/4.jpg
 importance: 3
 category: work
