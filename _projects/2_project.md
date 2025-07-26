@@ -46,7 +46,7 @@ related_publications: true
 
 
 
-[2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
+[📍 2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
 
 [2023 - 3DiFACE: Diffusion-based Speech-driven 3D Facial Animation and Editing](https://arxiv.org/abs/2312.00870)
 
