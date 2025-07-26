@@ -70,6 +70,13 @@ related_publications: true
 
 <br>
 
+📍 Large multimodal models [CLIP], [DALL·E], [ALIGN]
+
+📍 Implicit 3D representations [NeRF], [DeepSDF]
+
+
+<br>
+
 [1] Cherabier, I., Schönberger, J.L., Oswald, M.R., Pollefeys, M., Geiger, A.: Learning Priors for Semantic 3D Reconstruction. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2018)
 
 [2] Wang, Y., Pan, L., Pollefeys, M., Larsson, V.: Structure‑from‑Motion with a Non‑Parametric Camera Model. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2025)
