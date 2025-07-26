@@ -59,6 +59,9 @@ related_publications: true
 
 **3D Vision**
 
+
+[📍 2025 - AnyCam: Learning to Recover Camera Poses and Intrinsics from Casual Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Wimbauer_AnyCam_Learning_to_Recover_Camera_Poses_and_Intrinsics_from_Casual_CVPR_2025_paper.html)
+
 [2025 - Oral - MaskControl: Spatio-Temporal Control for Masked Motion Synthesis](https://www.ekkasit.com/ControlMM-page/)
 
 
