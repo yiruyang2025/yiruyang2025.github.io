@@ -33,6 +33,8 @@ Systems on Chips (Cuda, HPC)
 
 Vision Algorithms for Mobile Robotics (L+E)
 
+Geometry for Computational Design and Fabrication
+
 Graph Theory
 
 Real Analysis
