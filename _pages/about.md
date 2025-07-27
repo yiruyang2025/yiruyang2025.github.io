@@ -43,7 +43,7 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation
   - World Modeling, Flow Matching
-  - 3D Perception / Reconstruction, Audio Generation & Separation, SSL
+  - 3D Perception / Reconstruction, Media Generation & Separation, SSL
   - AI for Future Power System
 
 <div style="height: 4rem;"></div>
