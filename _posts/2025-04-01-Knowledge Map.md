@@ -31,7 +31,7 @@ Seminar in Visual Computing
 
 Systems on Chips (Cuda, HPC)
 
-Vision Algorithms for Mobile Robotics
+Vision Algorithms for Mobile Robotics (L+E)
 
 Graph Theory
 
