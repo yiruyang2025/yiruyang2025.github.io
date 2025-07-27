@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending, 3D Reconstruction / Robotics Navigation
 - 📍 [Project 3 - 3D Representation Pre-train](https://yiruyang2025.github.io/projects/3_project/) - DINOv2
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric Vision
-- 📍 [Project 5 - Latent Flow-matching / Robotics](https://yiruyang2025.github.io/projects/5_project/) - GeoSpatial Intelligence (from prompt to 3D World)
+- 📍 [Project 5 - Latent Flow-matching](https://yiruyang2025.github.io/projects/5_project/) - GeoSpatial Intelligence (from prompt to 3D World)
 
 <br>
 
