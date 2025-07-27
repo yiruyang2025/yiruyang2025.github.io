@@ -19,6 +19,28 @@ Hi there, let's build and collect pretty things here
 
 # 1. 2025<br><br>
 
+## Relevant Coursework
+
+
+Deep Learning (Python)
+
+Mixed Reality (C++)
+
+Seminar in Visual Computing
+
+Systems on Chips (Cuda, HPC)
+
+Vision Algorithms for Mobile Robotics
+
+Graph Theory
+
+Real Analysis
+
+
+
+
+<br><br>
+
 <p align="left">
   <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="75%">
 </p>
