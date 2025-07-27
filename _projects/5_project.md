@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 5
-description: Veo / AI for Bio
+description: Mamba for Veo3
 img: assets/img/4.jpg
 importance: 5
 category: work
