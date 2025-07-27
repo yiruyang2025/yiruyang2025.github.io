@@ -16,15 +16,19 @@ Hi there, let's build and collect pretty things here
 
 <br>
 
-## Related Coursework - 2025
+## 1. 2025 - Related Coursework
 
-📍 Deep Learning - Python
+<br>
+
+Deep Learning - Python 📍
 
 Graph Theory
 
 Deep Neural Networks
 
-📍 Mixed Reality - C++
+Vision Algorithms for Mobile Robotics (Prof. Davide Scaramuzza) 📍
+
+Mixed Reality - C++ 📍
 
 Geometry for Computational Design and Fabrication
 
@@ -32,13 +36,13 @@ Seminar in Visual Computing
 
 Systems on Chip - Parallel Computing
 
-📍 3D Vision / Reconstruction
+3D Visison (Reconstruction) 📍
 
 
 
 <br><br>
 
-# 1. 2025<br><br>
+# 2. 2025<br><br>
 
 <p align="left">
   <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="75%">
@@ -84,12 +88,12 @@ Systems on Chip - Parallel Computing
 <br><br>
 
 
-# 2026<br><br>
+# 3. 2026<br><br>
 
 <br><br>
 
 
-# 2. Check List - 2025
+# Check List
 
 - [ ] Reading
   - [ ] Chatting
