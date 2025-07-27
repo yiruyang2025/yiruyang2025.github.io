@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Robotics
 - 📍 [Project 4 - Dataset for Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - World Modeling
-- 📍 [Project 5 - Latent Flow-matching](https://yiruyang2025.github.io/projects/5_project/) - Veo - Mamba for Veo3: Improve AI Character Consistency Across Shots, **Memory** Module
+- 📍 [Project 5 - Latent Flow-matching](https://yiruyang2025.github.io/projects/5_project/)
 
 
 <br>
