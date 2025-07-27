@@ -37,14 +37,14 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - 3D Representation Pre-train](https://yiruyang2025.github.io/projects/3_project/) - DINOv2
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric Vision
-- 📍 [Project 5 - Media Generation / Robotics](https://yiruyang2025.github.io/projects/5_project/)
+- 📍 [Project 5 - Media Generation / Robotics](https://yiruyang2025.github.io/projects/5_project/) - GeoSpatial Intelligence
 
 <br>
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - World Modeling, Flow Matching
-  - 3D Perception / Reconstruction, Media Generation & Separation, SSL
+  - World Modeling, (Latent) Flow Matching
+  - 3D Reconstruction, Media Generation, GeoSpatial Intelligence
   - Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
