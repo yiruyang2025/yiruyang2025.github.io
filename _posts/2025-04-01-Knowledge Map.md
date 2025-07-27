@@ -21,6 +21,7 @@ Hi there, let's build and collect pretty things here
 
 ## Relevant Coursework
 
+<br>
 
 Deep Learning (Python)
 
