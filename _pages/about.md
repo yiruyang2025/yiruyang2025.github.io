@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Robotics, DINOv2
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - World Modeling
-- 📍 [Project 5 - Latent Flow-matching, *Memory* Module for AI Character Consistency](https://yiruyang2025.github.io/projects/5_project/) - AI x Art
+- 📍 [Project 5 - Latent Flow-matching, [Memory] Module for AI Character Consistency](https://yiruyang2025.github.io/projects/5_project/) - AI x Art
 
 
 <br>
