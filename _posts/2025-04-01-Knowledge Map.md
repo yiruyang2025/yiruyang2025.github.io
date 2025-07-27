@@ -32,6 +32,8 @@ Seminar in Visual Computing
 
 Systems on Chips
 
+3D Vision
+
 
 
 <br><br>
