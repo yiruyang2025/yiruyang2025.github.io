@@ -38,6 +38,8 @@ Systems on Chip - Parallel Computing
 
 3D Vision (Reconstruction) 📍
 
+Large-Scale AI Engineering (📍 CSCS Cluster - pending if can have a position)
+
 
 
 <br><br>
