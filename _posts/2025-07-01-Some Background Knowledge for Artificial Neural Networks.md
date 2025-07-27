@@ -42,8 +42,16 @@ images:
 
 <br><br>
 
+**2. Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]**
 
-**2. Self-Distillation Loss + Diffusion Loss**
+[repo](https://github.com/maxxxzdn/erwin)
+
+
+
+
+<br><br>
+
+**3. Self-Distillation Loss + Diffusion Loss**
 
 ```
 Representation Robustness  ←─── TRADE‑OFF ───→  Training Efficiency & Reuse
