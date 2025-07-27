@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 4
-description: World Modeling
+description: Dataset, World Modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
