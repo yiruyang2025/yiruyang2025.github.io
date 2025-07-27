@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **Audio / 3D Vision / (Robotics)**
+- 📍 Skill Set - **Latent Flow Matching / 3D Vision / (Robotics)**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project 1 - A Highly Efficient Projection for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper-large-v3-turbo
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - 3D Representation Pre-train](https://yiruyang2025.github.io/projects/3_project/) - Gemini Robotics
-- 📍 [Project 4 - Dataset for Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric Vision
+- 📍 [Project 4 - Dataset for Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - World Modeling
 - 📍 [Project 5 - Latent Flow-matching](https://yiruyang2025.github.io/projects/5_project/) - Veo - Mamba for Veo3: Improve AI Character Consistency Across Shots
 
 
