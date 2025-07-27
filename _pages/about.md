@@ -44,8 +44,8 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - World Modeling, (Latent) Flow Matching
+  - World Modeling, **Latent Flow Matching**
   - 3D Reconstruction, GeoSpatial Intelligence, AI Characters Consistency
-  - Robotics, AI for Future Power System
+  - Gemini Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
