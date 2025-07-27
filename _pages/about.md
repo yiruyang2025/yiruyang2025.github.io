@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation
-  - World Modeling, Stable Diffusion / Latent Flow-matching
+  - World Modeling, Latent Flow-matching
   - 3D Perception / Reconstruction, GeoSpatial Intelligence
   - Robotics, AI for Future Power System
 
