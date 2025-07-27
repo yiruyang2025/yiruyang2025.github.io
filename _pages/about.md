@@ -34,7 +34,7 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - A Highly Efficient Projection for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper-large-v3-turbo
-- 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending, 3D Reconstruction / Robots Navigation
+- 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - 3D Representation Pre-train](https://yiruyang2025.github.io/projects/3_project/) - DINOv2
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric Vision
 - 📍 [Project 5 - Latent Flow-matching](https://yiruyang2025.github.io/projects/5_project/) - Veo, AI Characters Consistency
