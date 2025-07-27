@@ -18,19 +18,19 @@ Hi there, let's build and collect pretty things here
 
 **Related Coursework**
 
-Deep Learning
+Deep Learning (Python)
 
 Graph Theory
 
 Deep Neural Networks
 
-Mixed Reality
+Mixed Reality (C++)
 
 Geometry for Computational Design and Fabrication
 
 Seminar in Visual Computing
 
-Systems on Chips
+Systems on Chip (Parallel Computing)
 
 3D Vision
 
