@@ -45,6 +45,6 @@ latest_posts:
   - Interpretability, Knowledge Distillation
   - World Modeling, Flow Matching
   - 3D Perception / Reconstruction, Media Generation & Separation, SSL
-  - AI for Future Power System
+  - Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
