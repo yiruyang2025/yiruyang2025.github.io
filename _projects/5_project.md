@@ -11,7 +11,7 @@ related_publications: true
 <br><br>
 
 
-[Neural Network's Interpretability]
+[Neural Network's Interpretability] - Colah's Blog
 
 [2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
 
