@@ -16,7 +16,7 @@ Hi there, let's build and collect pretty things here
 
 <br>
 
-## 1. 2025 - Related Coursework
+# 1. 2025 - Related Coursework
 
 <br>
 
