@@ -20,12 +20,12 @@ related_publications: true
 <br><br>
 
 
-**Related Works**
+## Related Works
 
 <br>
 
 
-`Google DeepMind Veo 3 (text→video) - U-Net Diffusion + Cross-frame Attention`
+`1. Google DeepMind Veo 3 (text→video) - U-Net Diffusion + Cross-frame Attention`
 
 <br>
 
@@ -34,7 +34,7 @@ While this improves short-range consistency, the quadratic cost of attention lim
 
 <br>
 
-`Runway Gen-4 (text→video) - Latent Diffusion with VAE`
+`2. Runway Gen-4 (text→video) - Latent Diffusion with VAE`
 
 <br>
 
@@ -44,7 +44,7 @@ It excels at refining keyframes in terms of identity and style but lacks tempora
 <br>
 
 
-`Sora (text→video) - Streaming Latent Diffusion with Sliding-window Attention`
+`3. Sora (text→video) - Streaming Latent Diffusion with Sliding-window Attention`
 
 <br>
 
@@ -54,7 +54,7 @@ It ensures short-term continuity but is constrained by limited window size, maki
 <br>
 
 
-`Mamba - State Space Model (Sequence → Sequence, universal module for sequence modeling)`
+`4. Mamba - State Space Model (Sequence → Sequence, universal module for sequence modeling)`
 
 <br>
 
@@ -63,7 +63,7 @@ This enables linear-time modeling of long-range dependencies in latent space, si
 
 <br>
 
-`Black Forest Labs (image→image)`
+`5. Black Forest Labs (image→image)`
 
 <br>
 
@@ -72,7 +72,7 @@ Excellent performance in image editing and a small number of frames, good suppor
 
 <br>
 
-`MambaVision (Mamba + Attention)`
+`6. MambaVision (Mamba + Attention)`
 
 <br>
 
