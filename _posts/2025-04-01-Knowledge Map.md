@@ -12,7 +12,23 @@ images:
   venobox: true
 ---
 
-Hi there, let's build and collect pretty things here<br><br>
+Hi there, let's build and collect pretty things here
+
+<br><br>
+
+**Related Coursework**
+
+Deep Learning
+Graph Theory
+Deep Neural Networks
+Mixed Reality
+Geometry for Computational Design and Fabrication
+Seminar in Visual Computing
+Systems on Chips
+
+
+
+<br><br>
 
 # 1. 2025<br><br>
 
