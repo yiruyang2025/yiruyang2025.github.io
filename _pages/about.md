@@ -46,6 +46,6 @@ latest_posts:
   - Interpretability, Knowledge Distillation
   - World Modeling, Stable Diffusion / Latent Flow-matching
   - 3D Perception / Reconstruction, GeoSpatial Intelligence
-  - Gemini Robotics, AI for Future Power System
+  - Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
