@@ -45,7 +45,7 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation
   - World Modeling, Latent Flow-matching, Compressive Transformer
-  - 3D Reconstruction, GeoSpatial Intelligence
+  - 3D Vision, GeoSpatial Intelligence
   - Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
