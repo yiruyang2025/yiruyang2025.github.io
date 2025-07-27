@@ -16,35 +16,8 @@ Hi there, let's build and collect pretty things here
 
 <br>
 
-# 1. 2025 - Relevant Coursework
 
-<br>
-
-Deep Learning - Python
-
-Graph Theory
-
-Deep Neural Networks
-
-Vision Algorithms for Mobile Robotics
-
-Mixed Reality - C++
-
-Geometry for Computational Design and Fabrication
-
-Seminar in Visual Computing
-
-Systems on Chip - Parallel Computing
-
-3D Vision (Reconstruction)
-
-Large-Scale AI Engineering
-
-
-
-<br><br>
-
-# 2. 2025<br><br>
+# 1. 2025<br><br>
 
 <p align="left">
   <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="75%">
@@ -90,7 +63,7 @@ Large-Scale AI Engineering
 <br><br>
 
 
-# 3. 2026<br><br>
+# 2. 2026<br><br>
 
 <br><br>
 
