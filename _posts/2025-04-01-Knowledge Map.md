@@ -14,23 +14,23 @@ images:
 
 Hi there, let's build and collect pretty things here
 
-<br><br>
+<br>
 
-**Related Coursework**
+## Related Coursework - 2025
 
-Deep Learning (Python)
+Deep Learning - Python
 
 Graph Theory
 
 Deep Neural Networks
 
-Mixed Reality (C++)
+Mixed Reality - C++
 
 Geometry for Computational Design and Fabrication
 
 Seminar in Visual Computing
 
-Systems on Chip (Parallel Computing)
+Systems on Chip - Parallel Computing
 
 3D Vision
 
