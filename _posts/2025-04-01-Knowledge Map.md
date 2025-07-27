@@ -16,19 +16,19 @@ Hi there, let's build and collect pretty things here
 
 <br>
 
-# 1. 2025 - Related Coursework
+# 1. 2025 - Relevant Coursework
 
 <br>
 
-Deep Learning - Python 📍
+Deep Learning - Python
 
 Graph Theory
 
 Deep Neural Networks
 
-Vision Algorithms for Mobile Robotics (Prof. Davide Scaramuzza) 📍
+Vision Algorithms for Mobile Robotics
 
-Mixed Reality - C++ 📍
+Mixed Reality - C++
 
 Geometry for Computational Design and Fabrication
 
@@ -36,9 +36,9 @@ Seminar in Visual Computing
 
 Systems on Chip - Parallel Computing
 
-3D Vision (Reconstruction) 📍
+3D Vision (Reconstruction)
 
-📍 Large-Scale AI Engineering (Swiss CSCS Cluster - pending if can have a position, ETH AI Center)
+Large-Scale AI Engineering
 
 
 
