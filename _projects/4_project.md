@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 4
-description: Dataset for Aria Glass Hardware
+description: World Modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
