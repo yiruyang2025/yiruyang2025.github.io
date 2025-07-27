@@ -36,7 +36,7 @@ Seminar in Visual Computing
 
 Systems on Chip - Parallel Computing
 
-3D Visison (Reconstruction) 📍
+3D Vision (Reconstruction) 📍
 
 
 
