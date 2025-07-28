@@ -29,7 +29,7 @@ From each of life moment, to brave him when he takes thee hence.
 
 `WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
 
-Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere projection) / 2.7 (Dynamic Hypersphere projection)
+Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment)
 
 <br>
 
