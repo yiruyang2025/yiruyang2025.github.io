@@ -46,6 +46,6 @@ latest_posts:
   - Interpretability, Knowledge Distillation
   - World Modeling, Latent Flow-matching, Compressive Transformer
   - 3D Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  - Robotics, AI for Future Power System, AI for Peace
+  - Robotics, AI for Future Power System
 
 <div style="height: 4rem;"></div>
