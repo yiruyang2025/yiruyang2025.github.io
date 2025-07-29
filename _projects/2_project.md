@@ -12,7 +12,10 @@ related_publications: true
 
 <br><br>
 
-Youtube - [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
+**Youtube**
+
+1. [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
+2. [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
 <br><br><br>
 
