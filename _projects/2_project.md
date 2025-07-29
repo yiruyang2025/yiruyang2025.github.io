@@ -17,7 +17,7 @@ related_publications: true
 1. [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 2. [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
-<br><br><br>
+<br><br>
 
 **Benchmark**
 
@@ -26,6 +26,56 @@ related_publications: true
 
 **Dataset**
 
+
+<br><br>
+
+
+## Research
+
+<br>
+
+
+**Stage 1 – Cross-modal alignment**
+
+OpenScene, CLIP space, DINOv2 space, text-3D embedding
+
+**Goal**
+
+The reconstructed 3D features are no longer purely geometric but instead contain semantic information and can be aligned with modalities such as text and images. This allows the model to:
+
+  - Easier to understand the meaning of the reconstruction results
+
+  - Cross-modal retrieval (text → point cloud, image → mesh)
+
+  - Supports zero-shot labeling, classification, and querying
+
+
+<br>
+
+**Stage 2 – Shape the Semantic Space**
+
+Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
+
+**Goal**
+
+  - Semantic grouping after filtering and voting (more general than standard segmentation)
+  - A semantically shape-aware structure space that can be used as a priori for Stage 3
+
+<br>
+
+**Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
+
+
+<br>
+
+**Stage 4 – Self-Distillation for Efficiency & Real-time Inference**
+
+<br>
+
+**Goal**
+
+   - Low Inference Latency
+   - On-device
 
 
 <br><br>
