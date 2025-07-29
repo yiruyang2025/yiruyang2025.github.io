@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: 3D Vision (pending)
+description: 3D Vision / Robotics (pending)
 img: assets/img/4.jpg
 importance: 2
 category: work
