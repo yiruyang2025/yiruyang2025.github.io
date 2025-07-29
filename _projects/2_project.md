@@ -10,6 +10,11 @@ related_publications: true
 
 
 
+<br>
+
+[Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
+
+
 <br><br><br>
 
 [CAT-3D]
