@@ -39,6 +39,8 @@ related_publications: true
 
 OpenScene, CLIP space, DINOv2 space, text-3D embedding
 
+<br>
+
 **Goal**
 
 The reconstructed 3D features are no longer purely geometric but instead contain semantic information and can be aligned with modalities such as text and images. This allows the model to:
@@ -55,6 +57,8 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 **Stage 2 – Shape the Semantic Space**
 
 Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
+
+<br>
 
 **Goal**
 
