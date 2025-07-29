@@ -37,7 +37,7 @@ related_publications: true
 
 **Stage 1 – Cross-modal alignment**
 
-OpenScene, CLIP space, DINOv2 space, text-3D embedding
+`OpenScene, CLIP space, DINOv2 space, text-3D embedding`
 
 <br>
 
