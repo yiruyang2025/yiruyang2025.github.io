@@ -66,9 +66,13 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 **Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
 
 
-<br>
+<br><br><br>
 
 **Stage 4 – Self-Distillation for Efficiency & Real-time Inference**
+
+
+`DINOv2`
+
 
 <br>
 
