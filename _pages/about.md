@@ -34,8 +34,8 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - A Highly Efficient Dynamic Geometric Alignment for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper-large-v3-turbo, low latency Inference on-device
-- 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending, 3D Vision
-- 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Robotics, DINOv2
+- 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
+- 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Robotics
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/)
 - 📍 [Project 5 - Latent Flow-matching, Memory Module for AI Character Consistency](https://yiruyang2025.github.io/projects/5_project/) - Runway Gen-4
 
@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation, on-Device
-  - World Modeling, Latent Flow-matching, Point Cloud Analysis
+  - World Modeling, Point Cloud Analysis
   - 3D Vision / Reconstruction, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
   - Robotics, Future Power System
 
