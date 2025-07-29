@@ -44,7 +44,6 @@ latest_posts:
 
 **Interests**
   - Interpretability, Knowledge Distillation, on-Device
-  - World Modeling, Point Cloud Analysis
   - 3D Vision / Reconstruction, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
   - Robotics
 
