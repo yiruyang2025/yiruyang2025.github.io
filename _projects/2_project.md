@@ -14,7 +14,7 @@ related_publications: true
 
 Youtube - [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 
-<br>
+<br><br><br>
 
 **Benchmark**
 
