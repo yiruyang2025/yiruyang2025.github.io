@@ -97,7 +97,7 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 <br><br>
 
-## 📍📍 3D motion Generation
+## 3D motion Generation
 
 Most existing motion research focuses on healthy adults, while studies and data on children with impaired gait are very limited.
 
