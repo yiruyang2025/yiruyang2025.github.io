@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Robotics / 3D motion generation (pending)
+description: 3D motion generation (pending)
 img: assets/img/4.jpg
 importance: 2
 category: work
