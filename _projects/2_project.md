@@ -10,8 +10,8 @@ related_publications: true
 
 <br><br>
 
-1. [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
-2. [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
+[Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
+[3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
 <br><br>
 
