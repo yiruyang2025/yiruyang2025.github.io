@@ -70,6 +70,14 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 **Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
 
+`D-NeRF`
+
+<br>
+
+**Goal**
+
+  - [2021 - CVPR D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://openaccess.thecvf.com/content/CVPR2021/html/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.html?ref=labelbox.ghost.io)
+  - [2023 - DeepLS: Local Search for Network Optimization Based on Lightweight Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10155296?casa_token=b8l78Uv-H1AAAAAA:U4ZrGd_uM2HkYEzeatrRLNIU9RPKDnyzng3i874NdXPrGdVPLDsBJgBFLWb-26OwSrxwryK7NA)
 
 <br><br><br>
 
