@@ -12,7 +12,7 @@ related_publications: true
 
 **Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln-v3.en` + LoRA-guided Dynamic + Geometric Distillation
 
-parallel training on `s3it Cluster`
+parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
 
 <br>
