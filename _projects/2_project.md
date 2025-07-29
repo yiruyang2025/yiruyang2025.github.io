@@ -22,18 +22,18 @@ related_publications: true
 
 ## Benchmark
 
-<br><br>
+<br><br><br><br>
 
 
 ## Dataset
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 ## Research
 
-<br>
+<br><br><br><br><br>
 
 
 **Stage 1 – Cross-modal alignment**
