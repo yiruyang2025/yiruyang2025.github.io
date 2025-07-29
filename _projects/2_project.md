@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Robotics / 3DV (pending)
+description: Robotics / 3D motion generation (pending)
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -93,6 +93,14 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
    - Low Inference Latency
    - On-device
+
+
+<br><br>
+
+## 📍📍 3D motion Generation
+
+Most existing motion research focuses on healthy adults, while studies and data on children with impaired gait are very limited.
+
 
 
 <br><br>
