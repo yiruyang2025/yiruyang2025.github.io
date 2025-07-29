@@ -8,11 +8,7 @@ category: work
 related_publications: true
 ---
 
-
-
 <br><br>
-
-**Youtube**
 
 1. [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 2. [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
@@ -84,6 +80,12 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
    - Low Inference Latency
    - On-device
+
+
+<br><br>
+
+## Robotics
+
 
 
 <br><br>
