@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 5
-description: 3D Motion Generation for Disability
+description: Robotics
 img: assets/img/4.jpg
 importance: 5
 category: work
