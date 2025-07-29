@@ -10,21 +10,25 @@ related_publications: true
 
 <br><br>
 
+## Background Knowledge
+
+<br>
+
 [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 
 [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
 <br><br>
 
-**Benchmark**
+## Benchmark
 
 <br><br>
 
 
-**Dataset**
+## Dataset
 
 
-<br><br>
+<br><br><br>
 
 
 ## Research
@@ -89,7 +93,14 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 
 
-<br><br>
+<br><br><br><br>
+
+
+
+
+## References
+
+<br>
 
 [CAT-3D]
 
@@ -187,22 +198,12 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 <br>
 
-[Aria](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
-
-[LEMMA - 2020](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
-
-- Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
-
-<br>
-
 - Veo3 - Deepmind
 - Gen-4 - Runway
 - Movie Gen - Meta
 - Flow Loss
 
-
 <br>
-
 
 
 - [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
