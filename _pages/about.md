@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Interpretability, Knowledge Distillation
+  - Interpretability, Knowledge Distillation, on-Device
   - World Modeling, Latent Flow-matching
   - 3D Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), 3D Reconstruction
   - Robotics, AI for Future Power System
