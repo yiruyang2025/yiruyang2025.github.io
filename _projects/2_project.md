@@ -11,6 +11,7 @@ related_publications: true
 <br><br>
 
 [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
+
 [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
 <br><br>
