@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - A Highly Efficient ASR Knowledge Distillation
-description: Whisper-large-v3-turbo, Low Latency Inference on-device
+description: Whisper, Low Latency Inference on-device
 img: assets/img/4.jpg
 importance: 1
 category: work
