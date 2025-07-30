@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 5
-description: Robotics / World Modeling
+description: World Modeling / Bio
 img: assets/img/4.jpg
 importance: 5
 category: work
