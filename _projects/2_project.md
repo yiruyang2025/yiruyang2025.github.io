@@ -95,7 +95,7 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
    - On-device
 
 
-<br><br>
+<br><br><br><br>
 
 ## 3D motion Generation
 
@@ -103,7 +103,7 @@ Most existing motion research focuses on healthy adults, while studies and data 
 
 
 
-<br><br>
+<br><br><br><br>
 
 ## Robotics
 
