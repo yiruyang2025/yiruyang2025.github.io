@@ -18,7 +18,7 @@ related_publications: true
 
 [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
 
-[📍 Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
+[Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
 
 
 <br><br>
