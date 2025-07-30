@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 4
-description: Dataset, Aria Glass
+description: Dataset, Aria Glass Gen-2
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -10,10 +10,10 @@ related_publications: true
 
 <br>
 
-Dataset Labeling for [Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
+Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
 
-[Aria Gen 2](https://www.projectaria.com/glasses/)
+[2025 - Aria Gen 2](https://www.projectaria.com/glasses/)
 
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
