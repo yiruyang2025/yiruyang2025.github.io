@@ -96,7 +96,6 @@ Real Analysis
 
 <br>
 
-[2010 - Science](http://slow-science.org/)
 
 <br><br>
 
