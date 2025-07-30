@@ -35,6 +35,15 @@ related_publications: true
   - A preoperative MRI scan (also taken with fiducials) can be co-registered into the camera’s reference frame allowing display of `the geometric ultrasound focus location on top of the scan`. This enables real-time targeting assessment for anatomically defined targets, and opens the door for acoustic modeling of the therapy
 
 
+<br><br>
+
+
+## Real-Time Bioimpedance for Organ Preservation
+
+<br>
+
+
+  - Data visualization, modeling, and system validation
 
 <br><br><br><br>
 
