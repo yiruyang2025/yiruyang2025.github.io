@@ -21,17 +21,6 @@ Hi there, let's build and collect pretty things here
 
 <br><br>
 
-## Key Underlying Skill Sets
-
-<br>
-
-- 3D Reconstruction for Generation - step 2
-
-- the Geometric Location - step 1
-
-
-<br><br>
-
 ## Relevant Coursework
 
 <br>
