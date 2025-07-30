@@ -17,6 +17,10 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br>
 
+[ICLR 2021 - FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch)
+
+<br>
+
 ```
 Sonnet 64
 
