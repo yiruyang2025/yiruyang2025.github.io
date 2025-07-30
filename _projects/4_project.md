@@ -13,6 +13,8 @@ related_publications: true
 Dataset Labeling for [Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
 
+[Aria Gen 2](https://www.projectaria.com/glasses/)
+
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br>
