@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project 5
-description: World Modeling / Bio
+description: BioEngineering + Neurosurgery
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -11,10 +11,11 @@ related_publications: true
 <br><br>
 
 
-You have no idea how cool it is.
+You have no idea how cool it is
 
 📍 [Neurotechnology](https://neurotechnology.ethz.ch/)
 
+📍 [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
 
 
 <br><br>
