@@ -37,6 +37,18 @@ related_publications: true
 
 <br><br>
 
+## Neuralink-like brain machine interface in Virtual Reality
+
+[link](https://loaloaf.github.io/VRprojectETH/)
+
+<br>
+
+Investigating neural population dynamics across 12+ brain regions using a 1024-channel brain-machine interface during a VR learning task in rats
+
+
+
+<br><br>
+
 
 ## Real-Time Bioimpedance for Organ Preservation
 
