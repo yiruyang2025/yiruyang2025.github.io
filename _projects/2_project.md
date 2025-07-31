@@ -30,6 +30,7 @@ related_publications: true
 
 CAT-3D: Cost-Aggregation Transformers for 3D Open‑Vocabulary Semantic Segmentation
 
+3DFeatProbe: Disentangling the Ingredients of 3D Aware Visual Features
 
 <br><br>
 
