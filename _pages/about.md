@@ -27,15 +27,15 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **Speech Processing / (3D Reconstruction) / (Robotics)**
+- 📍 Skill Set - **Speech Processing / (3D Reconstruction) / Vision Algorithms**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Project 1 - A Highly Efficient Dynamic Geometric Alignment for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - Whisper, low latency Inference on-device
+- 📍 [Project 1 - A Highly Efficient Dynamic Geometric Alignment for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
-- 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Robotics
+- 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - Vision Algorithms
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric
 - 📍 [Project 5 - Latent Flow-matching / Real-Time Bioimpedance for Organ Preservation / Neuronavigation-guided targeting for ultrasound-mediated focal drug delivery to the Brain](https://yiruyang2025.github.io/projects/5_project/) - Runway Gen-4, the Geometric ultrasound focus Location
 
@@ -45,6 +45,6 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation, on-Device
   - 3D Reconstruction / Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  - Robotics, Multi-Modality, Bio / Neruo Engineering, Future Power System
+  - Vision Algorithms, Multi-Modality, Bio / Neruo Engineering, Future Power System
 
 <div style="height: 4rem;"></div>
