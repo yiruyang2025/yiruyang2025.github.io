@@ -23,6 +23,13 @@ related_publications: true
 
 <br><br>
 
+## Projects wanna join but seems can never have the opportunity to join - -
+
+CAT-3D: Cost-Aggregation Transformers for 3D Open‑Vocabulary Semantic Segmentation
+
+
+<br><br>
+
 ## Benchmark
 
 <br><br><br><br>
