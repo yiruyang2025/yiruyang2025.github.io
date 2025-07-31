@@ -23,7 +23,10 @@ related_publications: true
 
 <br><br>
 
-## Projects wanna join but seems can never have the opportunity to join - - (already give up after worked too hard for 1 week as a Econ BA student)
+## Projects wanna join but seems can never have the opportunity to join - - (already gave up after worked too hard for 1 week as a Econ BA student)
+
+
+<br>
 
 CAT-3D: Cost-Aggregation Transformers for 3D Open‑Vocabulary Semantic Segmentation
 
