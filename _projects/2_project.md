@@ -14,6 +14,11 @@ related_publications: true
 
 <br>
 
+[📍](https://x.com/TheGraphicsFrog/status/1920360716097274059)
+
+
+<br>
+
 [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 
 [3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
