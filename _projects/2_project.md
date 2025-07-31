@@ -23,7 +23,7 @@ related_publications: true
 
 <br><br>
 
-## Projects wanna join but seems can never have the opportunity to join - - (already gave up after worked too hard for 1 week)
+## Projects wanna join
 
 
 <br>
