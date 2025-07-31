@@ -11,11 +11,10 @@ related_publications: true
 <br><br>
 
 
-You have no idea how cool it is
 
-📍 [Neurotechnology](https://neurotechnology.ethz.ch/)
+[Neurotechnology](https://neurotechnology.ethz.ch/)
 
-📍 [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
+[Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
 
 
 <br><br>
