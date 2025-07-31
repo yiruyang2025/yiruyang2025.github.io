@@ -11,6 +11,15 @@ related_publications: true
 <br><br>
 
 
+You have no idea how cool it is.
+
+📍 [Neurotechnology](https://neurotechnology.ethz.ch/)
+
+
+
+<br><br>
+
+
 [Neural Network's Interpretability] - Colah's Blog
 
 [2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
