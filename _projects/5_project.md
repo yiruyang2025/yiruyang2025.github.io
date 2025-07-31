@@ -28,6 +28,10 @@ related_publications: true
 
 <br>
 
+[[1] Ozdas, M.S., Shah, A.S., Johnson, P.M. et al. Non-invasive molecularly-specific millimeter-resolution manipulation of brain circuits by ultrasound-mediated aggregation and uncaging of drug carriers. Nat Commun 11, 4929 (2020)](https://www.nature.com/articles/s41467-020-18059-7)
+
+<br>
+
   - The system’s accuracy will then be validated in-vitro using a robotic positioning system
   
   - An important challenge in the clinical translation of our method is the precise targeting of ultrasound waves non-invasively across the intact skull, mostly due to a lack of real-time targeting feedback
@@ -38,6 +42,8 @@ related_publications: true
 <br><br>
 
 ## Neuralink-like brain machine interface in Virtual Reality
+
+<br>
 
 [link](https://loaloaf.github.io/VRprojectETH/)
 
