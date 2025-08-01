@@ -18,6 +18,8 @@ Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.githu
 
 [Tech report](https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/)
 
+<br>
+
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br>
