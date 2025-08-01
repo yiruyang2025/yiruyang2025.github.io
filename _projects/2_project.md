@@ -28,19 +28,6 @@ related_publications: true
 
 <br><br>
 
-## Projects wanna join
-
-
-<br>
-
-CAT-3D: Cost-Aggregation Transformers for 3D Open‑Vocabulary Semantic Segmentation
-
-3DFeatProbe: Disentangling the Ingredients of 3D Aware Visual Features
-
-Multiview 3D Reconstruction and 6DoF Pose Estimation of Articulated Surgical Tools for Open Surgery
-
-<br><br>
-
 ## Benchmark
 
 <br><br><br><br>
