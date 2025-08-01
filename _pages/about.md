@@ -45,6 +45,6 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation, on-Device
   - 3D Reconstruction / Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
-  - Vision Algorithms, Multi-Modality, Bio / Neruo Engineering, Future Power System
+  - Bio / Neruo Engineering, Future Power System
 
 <div style="height: 4rem;"></div>
