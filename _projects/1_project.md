@@ -21,6 +21,8 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 [ICML 2025 - Distillation Scaling Laws](https://arxiv.org/abs/2502.08606)
 
+[whisper-tiny](https://huggingface.co/openai/whisper-tiny)
+
 <br>
 
 ```
