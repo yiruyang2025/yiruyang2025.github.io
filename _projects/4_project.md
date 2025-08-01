@@ -12,6 +12,7 @@ related_publications: true
 
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
+[ToolKit](https://github.com/facebookresearch/projectaria_tools) - On-device
 
 [2025 - Aria Gen 2](https://www.projectaria.com/glasses/)
 
