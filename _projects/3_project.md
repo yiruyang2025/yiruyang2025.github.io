@@ -30,7 +30,7 @@ related_publications: true
 view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
 in NeRF through "Lifted Priors" and reconstructs the complete scene
 
-<br>
+<br><br>
 
 ```
 **Self-Distillation + Diffusion**
