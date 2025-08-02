@@ -27,6 +27,7 @@ related_publications: true
 
 [Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
 
+<br><br>
 
 [2023 - AGILE3D](https://arxiv.org/abs/2306.00977)
 
