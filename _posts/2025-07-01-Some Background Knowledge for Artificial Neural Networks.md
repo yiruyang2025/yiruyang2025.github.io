@@ -227,3 +227,29 @@ Solution: Architectural paradigm shift
 
 
 <br><br>
+
+## 2020 - System Design Interview An Insider’s Guide - Alex Xu - Ver1.0
+
+<br>
+
+[2024 - A Beginner’s Guide to System Design](https://medium.com/@sentalkssane/a-beginners-guide-to-system-design-76d64689788b)
+
+<br>
+
+**Common Data Capacity Units (Power-of-Two Table)**
+
+```
+| Unit Symbol | Name     | Definition                          | Exact Bytes         | Decimal Approximation |
+| ----------- | -------- | ----------------------------------- | ------------------- | --------------------- |
+| bit         | bit      | a single binary digit               | 1 bit               | —                     |
+| B           | byte     | 8 bits                              | 8 bits              | —                     |
+| KiB         | kibibyte | 2¹⁰ bytes = 1 024 bytes             | 1 024 B             | ≈ 1.02 KB (10³)       |
+| MiB         | mebibyte | 2²⁰ bytes = 1 048 576 bytes         | 1 048 576 B         | ≈ 1.05 MB (10⁶)       |
+| GiB         | gibibyte | 2³⁰ bytes = 1 073 741 824 bytes     | 1 073 741 824 B     | ≈ 1.07 GB (10⁹)       |
+| TiB         | tebibyte | 2⁴⁰ bytes = 1 099 511 627 776 bytes | 1 099 511 627 776 B | ≈ 1.10 TB (10¹²)      |
+```
+
+
+
+<br><br><br>
+
