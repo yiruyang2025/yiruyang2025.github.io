@@ -28,7 +28,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
 
-[XReal - SDK](https://docs.xreal.com/)
 
 <br>
 
