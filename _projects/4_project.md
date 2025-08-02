@@ -22,6 +22,8 @@ Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.githu
 
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
+[HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
+
 <br>
 
 [Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
