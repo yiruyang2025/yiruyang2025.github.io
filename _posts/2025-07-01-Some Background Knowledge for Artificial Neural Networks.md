@@ -228,7 +228,7 @@ Solution: Architectural paradigm shift
 
 <br><br>
 
-## 2020 - System Design Interview An Insider’s Guide - Alex Xu - Ver1.0
+## 2020 - System Design Interview An Insider’s Guide - Alex Xu - Ver_1.0
 
 <br>
 
