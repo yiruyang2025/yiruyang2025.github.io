@@ -28,6 +28,8 @@ related_publications: true
 [Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
 
 
+[2023 - AGILE3D](AGILE3D: Attention Guided Interactive Multi-object 3D Segmentation)
+
 <br><br><br><br>
 
 
