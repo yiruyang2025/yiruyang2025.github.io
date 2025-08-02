@@ -24,6 +24,14 @@ related_publications: true
 
 <br>
 
+**Semantic Implicit (NeRF)***
+
+[1] Monocular Semantic Reconstruction Using NeRF-Lifted Noisy Priors, tightly couples single-
+view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
+in NeRF through "Lifted Priors" and reconstructs the complete scene
+
+<br>
+
 ```
 **Self-Distillation + Diffusion**
     ↓
