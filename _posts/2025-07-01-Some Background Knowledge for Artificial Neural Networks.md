@@ -62,7 +62,7 @@ images:
 | `Eye Gaze + Image Analysis (e.g., FAM-HRI)`     | **2D CV**           | DINOv2 / SAM2 / Grounding DINO                                |
 | Pick-and-Place Robot Manipulation             | **2D → 3D Hybrid**  | CV-based 2D mask projected into 3D (e.g., SAM2 + RGB-D depth) |
 | 3D Reconstruction / Point Cloud Segmentation  | **3DV**             | PointNeXt, Point-BERT, OpenScene                              |
-| `AR Glasses + Real-Time Semantic Understanding | **Primarily 2D CV** | SAM2 + DINOv2 + GPT (e.g., FAM-HRI stack)`                     |
+| `AR Glasses + Real-Time Semantic Understanding` | **Primarily 2D CV** | SAM2 + DINOv2 + GPT (e.g., FAM-HRI stack)                     |
 | SLAM / Robot Navigation                       | **Strictly 3DV**    | ORB-SLAM3, MapTR, NeRF, MVSNet                                |
 
 
