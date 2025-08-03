@@ -14,7 +14,9 @@ related_publications: true
 
 <br><br>
 
-Textbooks Pending, have no idea
+Textbooks Pending
+
+[CVPR 2025 - CrossOver](https://github.com/GradientSpaces/CrossOver)
 
 <br><br><br><br>
 
