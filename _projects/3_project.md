@@ -33,6 +33,26 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 <br><br>
 
 ```
+| Directions                       | Methods                                         |
+| --------------------------- | -------------------------------------------- |
+| NeRF + Semantic Guidance             | Semantic NeRF, RegNeRF, Co-SLAM NeRF         |
+| Feed-forward Reconstruction | One-Forward-NeRF, VolRecon, PlanarRecon      |
+| Sparse-view Completion      | ReconFusion (CVPR 2024), SPARS3R (CVPR 2025) |
+| Shape priors 注入方式           | ViT feature guidance, latent code fusion     |
+```
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
+```
 **Self-Distillation + Diffusion**
     ↓
 [ 3D Diffusion Network ]
