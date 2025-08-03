@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 4
-description: Dataset, Aria Glass Gen-2, FAM-HRI
+description: Dataset, Aria Glass Gen-2
 img: assets/img/4.jpg
 importance: 4
 category: work
