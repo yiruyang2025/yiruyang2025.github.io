@@ -51,6 +51,7 @@ images:
 | `Segment Anything 3D (exp.)` | Point cloud + RGB | 3D Vision  | Yes — Native 3D segmentation model                                    |
 | `OpenScene / OpenMask3D`     | RGB + depth       | 3D + 2D CV | Yes — Multimodal cross-domain visual perception                       |
 
+<br>
 
 **Task-Oriented Models**
 
