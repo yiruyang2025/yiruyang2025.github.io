@@ -12,11 +12,15 @@ related_publications: true
 
 ## Geometric Consistency 
 
-<br>
+<br><br>
 
 ## Textbooks Pending, have no idea
 
 <br>
+
+## Upperstream Topics for 3D Reconstruction
+
+<br><br>
 
 `1. Regularization → Similar to Laplacian energy minimization`
 
