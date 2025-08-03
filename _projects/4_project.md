@@ -10,6 +10,11 @@ related_publications: true
 
 <br>
 
+[OpenGaze]
+
+
+<br><br>
+
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
 [ToolKit](https://github.com/facebookresearch/projectaria_tools) - On-device
