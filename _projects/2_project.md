@@ -126,7 +126,7 @@ Hybrid models:
 
 ## Research
 
-<br><br><br><br><br>
+<br><br><br>
 
 
 **Stage 1 – Cross-modal alignment**
