@@ -38,6 +38,18 @@ related_publications: true
 
 
 
+## Geometric Constraint
+
+<br>
+
+| Geometric Constraint Type       | Corresponding Model Method   | Origin and Purpose                                                                      |
+| ------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------- |
+| **Laplacian Smoothness**        | Curvature loss in NeRF/SDF   | Inspired by Sorkine’s mesh processing techniques; encourages local surface smoothness   |
+| **As-Rigid-As-Possible (ARAP)** | ARAP-inspired loss           | Derived from ARAP deformation energy; preserves local geometric rigidity                |
+| **High-Order Continuity (C²)**  | Curvature/Hessian-aware NeRF | Based on high-order surface modeling theory; enhances surface smoothness and continuity |
+
+
+
 
 <br><br>
 
@@ -71,6 +83,9 @@ Hybrid models:
 
 
 <br><br>
+
+
+
 
 
 | Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
