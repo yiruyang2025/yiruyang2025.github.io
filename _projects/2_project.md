@@ -10,6 +10,85 @@ related_publications: true
 
 <br><br>
 
+## 3D Reconstruction
+
+<br>
+
+```
+Mesh-VAE World                            Implicit Geometry World
+═══════════════════════════             ══════════════════════════════
+Mold Shape   →  Fill Cream  →           Pour Batter   → Let Shape Form →  
+Keep Shape   →  Adjust Icing            Implicitly Shape via Function
+(Topology)      (Latent Codes)          (SDF / NeRF Fields)
+     ↓                ↓                         ↓
+┌────────────┐  ┌────────────┐           ┌────────────┐  ┌────────────────┐
+│ Cake Mold  │→ │ Cream Code │    vs.    │  Batter    │→ │ Shape Function │
+│ (Mesh Topo)│  │ (Latent z) │           │ (No Mesh)  │  │ f(x) → Geometry│
+└────────────┘  └────────────┘           └────────────┘  └────────────────┘
+     ↓                ↓                         ↓               ↓
+Consistent Shape   Editable Details         Any Shape      Learned Surface
+Fixed Faces        Vertex Offsets           Continuous     Surface = f(x)=0
+
+
+Hybrid models:
+1. Use Mesh-VAE to encode coarse shape → condition NeRF/SDF to model fine detail
+2. Combine structural control (mesh) with detail realism (fields)
+
+🍨 NeRF = Gelato Machine with View-Conditioned Flavor Control
+🏗️ SDF = Invisible Sculptor Guided by Distance and Space Curvature
+```
+
+
+<br>
+
+
+| Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Core Idea             | Encodes and decodes fixed-topology meshes (e.g., triangle meshes)    | Learns a function $f(x) \rightarrow \mathbb{R}$ describing geometry per point (e.g., SDF or occupancy) |
+| Data Structure        | Explicit meshes (vertices + faces)                                   | Continuous scalar fields (implicit functions)                                                          |
+| Suitable For          | Bodies, faces, organs with consistent topology                       | Arbitrary topology, volumetric shapes (e.g., furniture, animals, organic forms)                        |
+| Representative Models | Mesh-VAE, CoMA, SpiralVAE, MeshDiffusion                             | DeepSDF, Occupancy Networks, NeRF, SIREN                                                               |
+| Advantages            | Controllable, interpretable, easy for interpolation and registration | No need for fixed mesh, can handle varying topology and finer geometry                                 |
+
+<br><br>
+
+| Framework Name             | Description                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------------- |
+| Latent Shape Prior NeRF    | Mesh-VAE encodes shape into latent space, which conditions NeRF for multi-shape rendering         |
+| Mesh2ImplicitNet           | Latent vector from Mesh-VAE is used as a condition input to an implicit decoder like DeepSDF      |
+| MedShape VAE → ImplicitNet | Mesh-VAE builds statistical shape space for medical organs; implicit model refines geometry       |
+| Surface-to-Volume Flow     | Mesh is used to generate flow fields, which are converted to implicit fields for shape completion |
+
+
+<br><br>
+
+## Tasks Matching
+
+<br>
+
+
+| Task Description                        | Recommended Method       | Reason                                                                |
+| --------------------------------------- | ------------------------ | --------------------------------------------------------------------- |
+| Modeling same-topology objects          | Mesh-VAE                 | Mesh connectivity is fixed and suitable for morphable structures      |
+| Generating arbitrary shapes or plants   | Implicit Geometry        | Better suited for freeform, non-uniform topology                      |
+| Image-to-3D with high variation         | Hybrid (Mesh + Implicit) | Mesh gives structure; NeRF/SDF adds realism and detail                |
+| Medical shape modeling with priors      | Mesh-VAE + SDF           | Prior modeling with explicit structure, refined via continuous fields |
+| Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+
 ## Background Knowledge
 
 <br>
