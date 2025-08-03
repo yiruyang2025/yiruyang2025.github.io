@@ -14,19 +14,26 @@ related_publications: true
 
 <br>
 
+## Textbooks Pending, have no idea
 
-`Regularization → Similar to Laplacian energy minimization`
+<br>
+
+`1. Regularization → Similar to Laplacian energy minimization`
+
+<br><br>
+
+`2. Maintaining rigidity/local consistency → Derived from ARAP/Linear deformation energy`
 
 <br><br>
 
-`Maintaining rigidity/local consistency → Derived from ARAP/Linear deformation energy`
+
+`3. Surface smoothness/curvature control → High-order continuity representations are also beginning to be incorporated into NeRF surface extraction`
 
 <br><br>
 
 
-`Surface smoothness/curvature control → High-order continuity representations are also beginning to be incorporated into NeRF surface extraction`
 
-<br><br>
+
 
 <br><br>
 
