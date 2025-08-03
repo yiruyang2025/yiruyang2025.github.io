@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 3
-description: Implicit 3D Representations, DINOv2
+description: Implicit 3D Representations, DINOv2, Multi-modal
 img: assets/img/4.jpg
 importance: 3
 category: work
