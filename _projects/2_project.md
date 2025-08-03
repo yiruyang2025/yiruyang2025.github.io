@@ -10,6 +10,26 @@ related_publications: true
 
 <br><br>
 
+## Geometric Consistency 
+
+<br>
+
+
+`Regularization → Similar to Laplacian energy minimization`
+
+<br><br>
+
+`Maintaining rigidity/local consistency → Derived from ARAP/Linear deformation energy`
+
+<br><br>
+
+
+`Surface smoothness/curvature control → High-order continuity representations are also beginning to be incorporated into NeRF surface extraction`
+
+<br><br>
+
+<br><br>
+
 ## 3D Reconstruction
 
 <br>
