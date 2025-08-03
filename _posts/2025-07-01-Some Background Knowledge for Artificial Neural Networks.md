@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 3DV & Multi-modality x Foundation Models - 25
+title: (3DV + Multi-modality) x Foundation Models - 25
 date: 2025-08-01
 description: ⛺️
-categories: AI/ML
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
