@@ -49,8 +49,8 @@ images:
 | ------------------------------ | ----------------- | ---------- | --------------------------------------------------------------------- |
 | `DINOv2`                     | 2D image          | 2D CV      | Yes — Can serve as a visual token encoder for NeRF or 3D Transformers |
 | **Grounding DINO**             | 2D image + text   | 2D CV      | No — Not natively designed for 3D bounding boxes                      |
-| `SAM2 (Segment Anything 2)`  | 2D image          | 2D CV      | Yes — Extendable to video segmentation and can integrate depth        |
-| `Segment Anything 3D (exp.)` | Point cloud + RGB | 3D Vision  | Yes — Native 3D segmentation model                                    |
+| `SAM2`(Segment Anything 2)  | 2D image          | 2D CV      | Yes — Extendable to video segmentation and can integrate depth        |
+| Segment Anything 3D | Point cloud + RGB | 3D Vision  | Yes — Native 3D segmentation model                                    |
 | `OpenScene / OpenMask3D`     | RGB + depth       | 3D + 2D CV | Yes — Multimodal cross-domain visual perception                       |
 
 
