@@ -14,11 +14,11 @@ related_publications: true
 
 <br><br>
 
-## Textbooks Pending, have no idea
+Textbooks Pending, have no idea
 
 <br><br><br><br>
 
-## Upperstream Topics for 3D Reconstruction
+## Some Upperstream Topics for 3D Reconstruction
 
 <br><br>
 
