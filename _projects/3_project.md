@@ -10,10 +10,9 @@ related_publications: true
 
 
 
-<br>
+<br><br>
 
-
-[DINOv2]
+[DINOv2] [OpenScene] [FAM-HRI]
 
 [2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
 
