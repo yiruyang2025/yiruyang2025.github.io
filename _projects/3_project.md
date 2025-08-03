@@ -31,25 +31,29 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 
 <br><br>
 
-```
+| Method                     | Core Idea                                                                 |
+| -------------------------- | ------------------------------------------------------------------------- |
+| **DeepSDF**                | Fits a signed distance function (SDF) using a multilayer perceptron (MLP) |
+| **Occupancy Networks**     | Implicitly predicts whether a point in 3D space is occupied               |
+| **VQ-VAE 3D / ShapeCode**  | Encodes 3D shapes into discrete latent tokens for reconstruction          |
+| **CLIP-Forge / GenRe**     | Generates implicit 3D shapes conditioned on image or language input       |
+| **RegNeRF / SemanticNeRF** | Constrains implicit scene modeling using semantic priors                  |
+
+
+
+<br><br>
+
 | Directions                       | Methods                                         |
 | --------------------------- | -------------------------------------------- |
 | NeRF + Semantic Guidance             | Semantic NeRF, RegNeRF, Co-SLAM NeRF         |
 | Feed-forward Reconstruction | One-Forward-NeRF, VolRecon, PlanarRecon      |
 | Sparse-view Completion      | ReconFusion (CVPR 2024), SPARS3R (CVPR 2025) |
 | Shape priors Projection          | ViT feature guidance, latent code fusion     |
-```
 
 
 
 
-
-
-
-
-
-
-<br><br>
+<br><br><br>
 
 ```
 **Self-Distillation + Diffusion**
