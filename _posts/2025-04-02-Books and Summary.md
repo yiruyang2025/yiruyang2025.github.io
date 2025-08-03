@@ -21,11 +21,11 @@ Pls discuss if any of these pique your interest<br><br><br>
 
 **1.1** - [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
-<br><br>
+<br>
 
 **1.2** - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
 
-<br><br>
+<br>
 
 **1.3** - [2020 - A Beginner’s Guide to System Design - Alex Xu](https://medium.com/@sentalkssane/a-beginners-guide-to-system-design-76d64689788b)
 
