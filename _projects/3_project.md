@@ -53,7 +53,14 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 
 
 
-<br><br><br>
+<br><br><br><br>
+
+
+
+## The Topic
+
+<br>
+
 
 ```
 **Self-Distillation + Diffusion**
@@ -78,14 +85,6 @@ Enhanced 3D features
     ←— fuses high‑fidelity geometry (diffusion) + strong discriminative cues (distillation)
 ```
 
-<br>
-
-
-
-
-<br>
-
-## The Topic
 
 <br>
 
