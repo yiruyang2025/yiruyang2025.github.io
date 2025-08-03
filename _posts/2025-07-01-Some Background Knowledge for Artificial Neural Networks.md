@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Some Background Knowledge for Artificial Neural Networks - 25
-date: 2025-07-01
-description: 🔹
+title: 3DV & Multi-modality x Foundation Models - 25
+date: 2025-08-01
+description: ⛺️
 categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
@@ -14,8 +14,54 @@ images:
 
 <br>
 
+## Topics
+
+<br>
+
+`Artificial Neural Networks`
+
+<br>
+
+[Colah's Blog](https://colah.github.io/)
 
 
+<br><br>
+
+`3D Vision & Multi-modality x Foundation Models`
+
+<br>
+
+## References
+
+[**2025 - FAM-HRI: Foundation-Model Assisted Multi-Modal Human-Robot Interaction Combining Gaze and Speech**](https://arxiv.org/pdf/2503.16492)
+
+
+<br><br>
+
+
+## 2D CV vs. 3D Computer Vision
+
+| Model                         | Input Data Type     | Domain       | Extendable to 3D?                                               |
+|------------------------------|---------------------|--------------|-----------------------------------------------------------------|
+| **DINOv2**                   | 2D image            | ✅ 2D CV      | ✅ Can serve as a visual token encoder for NeRF or 3D Transformers |
+| **Grounding DINO**           | 2D image + text     | ✅ 2D CV      | ❌ Not natively designed for 3D bounding boxes                  |
+| **SAM2 (Segment Anything 2)**| 2D image            | ✅ 2D CV      | ✅ Extendable to video segmentation and can integrate depth     |
+| **Segment Anything 3D (exp.)** | Point cloud + RGB | ✅ 3DV        | ✅ Native 3D segmentation model                                 |
+| **OpenScene / OpenMask3D**   | RGB + depth         | ✅ 3DV + CV   | ✅ Multimodal cross-domain visual perception                    |
+
+---
+
+## Task-Oriented Models
+
+| Application Task                                | Model Type         | Recommended Models                                               |
+|--------------------------------------------------|--------------------|------------------------------------------------------------------|
+| 👁️ Eye Gaze + Image Analysis (FAM-HRI)           | **2D CV**          | ✅ DINOv2 / SAM2 / Grounding DINO                                 |
+| 📦 Pick-and-Place Robot Manipulation             | **2D → 3D Hybrid** | CV-based 2D mask projected into 3D (e.g., SAM2 + RGB-D depth)    |
+| 🧱 3D Reconstruction / Point Cloud Segmentation  | **3DV**            | ✅ PointNeXt, Point-BERT, OpenScene                               |
+| 🧠 AR Glasses + Real-Time Semantic Understanding | **Primarily 2D CV**| ✅ SAM2 + DINOv2 + GPT (e.g., FAM-HRI stack)                      |
+| 🗺️ SLAM / Robot Navigation                       | **Strictly 3DV**   | ✅ ORB-SLAM3, MapTR, NeRF, MVSNet                                 |
+
+---
 
 
 <br><br><br><br>
@@ -26,9 +72,7 @@ images:
 <br><br>
 
 
-[Colah's Blog](https://colah.github.io/)
 
-<br><br>
 
 **1. Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
