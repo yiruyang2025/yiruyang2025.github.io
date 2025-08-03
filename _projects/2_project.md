@@ -18,7 +18,7 @@ Textbooks Pending, have no idea
 
 <br><br><br><br>
 
-## Some Upperstream Topics for 3D Reconstruction
+## Topics
 
 <br><br>
 
