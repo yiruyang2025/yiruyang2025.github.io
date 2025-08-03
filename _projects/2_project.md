@@ -15,8 +15,8 @@ related_publications: true
 <br>
 
 ```
-Mesh-VAE World                            Implicit Geometry World
-═══════════════════════════             ══════════════════════════════
+Mesh-VAE World                          Implicit Geometry World
+═══════════════════════════════         ══════════════════════════════════
 Mold Shape   →  Fill Cream  →           Pour Batter   → Let Shape Form →  
 Keep Shape   →  Adjust Icing            Implicitly Shape via Function
 (Topology)      (Latent Codes)          (SDF / NeRF Fields)
@@ -39,7 +39,7 @@ Hybrid models:
 ```
 
 
-<br>
+<br><br>
 
 
 | Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
