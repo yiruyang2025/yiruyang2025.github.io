@@ -16,7 +16,7 @@ related_publications: true
 
 Textbooks Pending
 
-[CVPR 2025 - CrossOver](https://github.com/GradientSpaces/CrossOver)
+
 
 <br><br><br><br>
 
@@ -37,7 +37,9 @@ Textbooks Pending
 
 <br><br>
 
+[2025 - CrossOver](https://github.com/GradientSpaces/CrossOver)
 
+<br><br>
 
 
 ## Geometric Constraint
