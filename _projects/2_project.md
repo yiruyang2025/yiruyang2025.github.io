@@ -16,9 +16,15 @@ related_publications: true
 
 Textbooks Pending
 
+[2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
+
+<br><br>
 
 
-<br><br><br><br>
+
+
+
+<br><br>
 
 ## Topics
 
