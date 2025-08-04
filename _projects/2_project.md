@@ -61,6 +61,21 @@ related_publications: true
 
 <br>
 
+
+| Dimension            | 3D Gaussian Splatting                      | Explicit Grids/Voxels (e.g., Instant-NGP)       | Tensor Factorization (TensoRF) | Implicit SDF (NeuS family)                              | Dynamic/4D Scenes (Tensor4D)           |
+| -------------------- | ------------------------------------------ | ----------------------------------------------- | ------------------------------ | ------------------------------------------------------- | -------------------------------------- |
+| **Speed**            | Near real-time                             | Real-time to ultra-real-time                    | Real-time to near real-time    | Moderate to slow                                        | Moderate                               |
+| **Storage**          | Moderate (tens of MB)                      | High (hundreds of MB)                           | Low (a few MB)                 | Low–moderate (a few MB)                                 | Low–moderate                           |
+| **Geometry Quality** | Continuous, high-fidelity                  | Discrete, voxelized feel                        | Good                           | Excellent (smooth meshes)                               | As static plus temporal coherence      |
+| **Color/Lighting**   | Includes per-splat color                   | Includes (via textures or per-voxel)            | Usually includes color         | No (needs separate texture/renderer)                    | Matches static, adds time dimension    |
+| **Ease of Use**      | Simple model, flexible multi-source fusion | Mature pipelines, relies on explicit structures | Requires tensor math           | Requires supervised SDF training / volumetric rendering | Requires temporal decomposition design |
+
+
+
+
+
+<br>
+
 ```
 Mesh-VAE World                          Implicit Geometry World
 ═══════════════════════════════         ══════════════════════════════════
