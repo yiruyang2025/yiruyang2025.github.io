@@ -15,7 +15,7 @@ related_publications: true
 <br><br>
 
 
-[Implicit 3D Representations] [DINOv2] [FAM-HRI]
+[Implicit 3D Representations]
 
 <br>
 
@@ -34,6 +34,11 @@ related_publications: true
 ## Topics
 
 <br><br>
+
+
+ [DINOv2] [FAM-HRI]
+
+ <br>
 
 `1. Regularization → Similar to Laplacian energy minimization`
 
