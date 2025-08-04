@@ -146,18 +146,6 @@ Hybrid models:
 | Medical shape modeling with priors      | Mesh-VAE + SDF           | Prior modeling with explicit structure, refined via continuous fields |
 | Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
 
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br>
 
 ## Background Knowledge
@@ -187,6 +175,55 @@ Hybrid models:
 
 
 <br><br><br><br><br>
+
+
+
+
+
+<br><br>
+
+[DINOv2] [OpenScene] [FAM-HRI]
+
+[2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
+
+[2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
+
+[2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
+
+
+<br><br>
+
+**Semantic Implicit (NeRF)**
+
+[1] Monocular Semantic Reconstruction Using NeRF-Lifted Noisy Priors, tightly couples single-
+view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
+in NeRF through "Lifted Priors" and reconstructs the complete scene
+
+<br><br>
+
+| Method                     | Core Idea                                                                 |
+| -------------------------- | ------------------------------------------------------------------------- |
+| **DeepSDF**                | Fits a signed distance function (SDF) using a multilayer perceptron (MLP) |
+| **Occupancy Networks**     | Implicitly predicts whether a point in 3D space is occupied               |
+| **VQ-VAE 3D / ShapeCode**  | Encodes 3D shapes into discrete latent tokens for reconstruction          |
+| **CLIP-Forge / GenRe**     | Generates implicit 3D shapes conditioned on image or language input       |
+| **RegNeRF / SemanticNeRF** | Constrains implicit scene modeling using semantic priors                  |
+
+
+
+<br><br>
+
+| Directions                       | Methods                                         |
+| --------------------------- | -------------------------------------------- |
+| NeRF + Semantic Guidance             | Semantic NeRF, RegNeRF, Co-SLAM NeRF         |
+| Feed-forward Reconstruction | One-Forward-NeRF, VolRecon, PlanarRecon      |
+| Sparse-view Completion      | ReconFusion (CVPR 2024), SPARS3R (CVPR 2025) |
+| Shape priors Projection          | ViT feature guidance, latent code fusion     |
+
+
+
+
+<br><br><br><br>
 
 
 ## Research
@@ -251,13 +288,6 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
    - Low Inference Latency
    - On-device
-
-
-<br><br><br><br>
-
-## 3D motion Generation
-
-Most existing motion research focuses on healthy adults, while studies and data on children with impaired gait are very limited.
 
 
 
