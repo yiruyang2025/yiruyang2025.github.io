@@ -16,7 +16,12 @@ related_publications: true
 
 [2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
-<br><br>
+<br>
+
+[2025 - Uncertainty for SVBRDF Acquisition using Frequency Analysis](https://svbrdf-uncertainty.github.io/)
+
+
+<br>
 
 
 
