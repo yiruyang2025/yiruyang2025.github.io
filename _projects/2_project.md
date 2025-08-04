@@ -80,9 +80,7 @@ related_publications: true
 
 
 
-
-
-<br>
+<br><br>
 
 ```
 Mesh-VAE World                          Implicit Geometry World
