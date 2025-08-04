@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (3DV + Multi-modality) x Foundation Models - 25
+title: 3D Vision Foundation Models - 25
 date: 2025-08-01
 description: ⛺️
 categories: Research
