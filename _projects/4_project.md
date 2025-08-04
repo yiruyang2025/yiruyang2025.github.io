@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Project 5
+title: 2026 - Project 4
 description: BioEngineering + Neurosurgery
 img: assets/img/4.jpg
 importance: 5
