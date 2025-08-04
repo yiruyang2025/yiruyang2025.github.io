@@ -12,7 +12,7 @@ related_publications: true
 
 
 
-[📍 Neurotechnology](https://neurotechnology.ethz.ch/)
+[Neurotechnology](https://neurotechnology.ethz.ch/)
 
 [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
 
