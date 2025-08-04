@@ -70,9 +70,9 @@ Textbooks Pending
 ```
 Mesh-VAE World                          Implicit Geometry World
 ═══════════════════════════════         ══════════════════════════════════
-Mold Shape   →  Fill Cream  →           Pour Batter   → Let Shape Form →  
-Keep Shape   →  Adjust Icing            Implicitly Shape via Function
-(Topology)      (Latent Codes)          (SDF / NeRF Fields)
+Mold Shape  →  Fill Cream  →           Pour Batter → Let Shape Form →  
+Keep Shape  →  Adjust Icing            Implicitly Shape via Function
+(Topology)     (Latent Codes)          (SDF / NeRF Fields)
      ↓                ↓                         ↓
 ┌────────────┐  ┌────────────┐           ┌────────────┐  ┌────────────────┐
 │ Cake Mold  │→ │ Cream Code │    vs.    │  Batter    │→ │ Shape Function │
