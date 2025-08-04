@@ -35,7 +35,7 @@ latest_posts:
 
 - 📍 [Project 1 - A Highly Efficient Constrained Alignment for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
 - 📍 [Project 2 - Master Thesis - Implicit 3D Representations](https://yiruyang2025.github.io/projects/2_project/) - pending, Surface Fitting, NeRF, (3D gaussian splatting), DINOv2, (diffusion loss)
-- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Egocentric, (eyetracking), fam-hri
+- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Egocentric, (eyetracking), FAM-HRI
 - 📍 [Project 4 - Real-Time Bioimpedance for Organ Preservation / Neuronavigation-guided targeting for ultrasound-mediated focal drug delivery to the Brain](https://yiruyang2025.github.io/projects/4_project/) - 3D U-Net / nnU-Net, YOLOv8-Nano
 
 
