@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
 - 📍 [Project 3 - Implicit 3D Representations](https://yiruyang2025.github.io/projects/3_project/) - DINOv2, FAM-HRI
 - 📍 [Project 4 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/4_project/) - Egocentric, (Eyetracking)
-- 📍 [Project 5 - Latent Flow-matching / Real-Time Bioimpedance for Organ Preservation / Neuronavigation-guided targeting for ultrasound-mediated focal drug delivery to the Brain](https://yiruyang2025.github.io/projects/5_project/) - Runway Gen-4
+- 📍 [Project 5 - Latent Flow-matching / Real-Time Bioimpedance for Organ Preservation / Neuronavigation-guided targeting for ultrasound-mediated focal drug delivery to the Brain](https://yiruyang2025.github.io/projects/5_project/) - NeRF, 3D Gaussian Splatting
 
 
 <br>
