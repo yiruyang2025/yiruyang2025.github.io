@@ -18,8 +18,11 @@ related_publications: true
 
 <br>
 
-[2025 - Uncertainty for SVBRDF Acquisition using Frequency Analysis](https://svbrdf-uncertainty.github.io/)
 
+[2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
+
+
+[C++ lib repo - toolkit](https://github.com/libigl)
 
 <br>
 
@@ -163,12 +166,6 @@ Hybrid models:
 
 <br>
 
-[2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
-
-
-[C++ lib repo - toolkit](https://github.com/libigl)
-
-<br>
 
 [Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
 
