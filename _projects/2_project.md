@@ -14,9 +14,12 @@ related_publications: true
 
 <br><br>
 
-[2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
+
+[Implicit 3D Representations] [DINOv2] [FAM-HRI]
 
 <br>
+
+[2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
 
 [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
