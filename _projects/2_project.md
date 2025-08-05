@@ -29,11 +29,11 @@ related_publications: true
 <br>
 
 
-📍 Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]**
+📍 Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]
 
 [repo](https://github.com/maxxxzdn/erwin)
 
-<br>
+<br><br>
 
 
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
