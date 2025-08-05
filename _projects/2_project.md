@@ -21,6 +21,18 @@ related_publications: true
 [M. Botsch & O. Sorkine, “On linear variational surface deformation methods”, TVCG 14(1):213–230, 2008](https://ieeexplore.ieee.org/abstract/document/4359478?casa_token=S9C_sHw74kUAAAAA:YjKWtiEuQylSlynlwzPBUrO-oZCl8SizIlRHoCgyPYtuQNM3p-ZTNntP7TZ9iOmQAiuOGjEa7g)
 
 
+<br>
+
+| StereoGlue                                  | 3D→3D Adaptation                                         |
+| ------------------------------------------- | -------------------------------------------------------- |
+| 2D keypoint + image descriptor (SIFT/LoFTR) | 3D point + 3D descriptor (FPFH/SHOT/3DMatch…)            |
+| single‐point minimal solvers for H, E, PnP  | single‐point minimal solver for **oriented point pairs** |
+| guided 2D re‐projection → inlier/outlier    | guided 3D transform re‐projection → inlier/outlier       |
+| score = number of inliers                   | score = number of 3D inliers under a strict distance threshold |                       
+
+
+
+
 
 
 <br><br>
