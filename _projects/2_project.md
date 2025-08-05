@@ -40,7 +40,7 @@ related_publications: true
 [2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
 
-[2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
+[📍 2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
 
 
 [C++ lib repo - toolkit](https://github.com/libigl)
