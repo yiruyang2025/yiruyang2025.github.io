@@ -30,7 +30,7 @@ related_publications: true
 
 [2025 - Google Research - Measuring heart rate with consumer ultra-wideband radar](https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/)
 
-<br><br><br>
+<br><br>
 
 
 ## Shape Modeling
