@@ -31,7 +31,7 @@ related_publications: true
 
 📍 Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]
 
-[repo](https://github.com/maxxxzdn/erwin) - [Max Welling](https://x.com/wellingmax?lang=en)
+`[repo](https://github.com/maxxxzdn/erwin) - [Max Welling](https://x.com/wellingmax?lang=en)`
 
 <br><br>
 
