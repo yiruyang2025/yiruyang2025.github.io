@@ -31,9 +31,6 @@ related_publications: true
 
 
 
-
-
-
 <br><br><br>
 
 [Implicit 3D Representations]
