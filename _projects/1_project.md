@@ -58,7 +58,6 @@ Training Loop
 
 
 
-
 <br>
 
 `WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
