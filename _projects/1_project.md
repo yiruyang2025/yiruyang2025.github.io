@@ -44,13 +44,13 @@ Training Loop
     ↓
 [ Backward pass: compute gradients ]
     ↓
-[ Gradient Clipping ]       ←— `clip_grad_norm_(model.params, max_norm)`
+[ **Gradient Clipping** ]       ←— `clip_grad_norm_(model.params, max_norm)`
     ↓
-[ AdamW Update ]            ←— `optimizer = AdamW(lr=…, weight_decay=…)`
+[ **AdamW Update** ]            ←— `optimizer = AdamW(lr=…, weight_decay=…)`
     ↓
 [ Zero Gradients ]          ←— `optimizer.zero_grad()`
     ↓
-[ Cosine LR Annealing ]     ←— `scheduler = CosineAnnealingLR(optimizer, T_max, eta_min)`
+[ **Cosine LR Annealing** ]     ←— `scheduler = CosineAnnealingLR(optimizer, T_max, eta_min)`
     ↓
 [ Next batch ]
 ```
