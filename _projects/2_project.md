@@ -12,6 +12,17 @@ related_publications: true
 
 ## Geometric Consistency 
 
+<br>
+
+[Y. Lipman, O. Sorkine, D. Levin, D. Cohen-Or, “Linear rotation-invariant coordinates for meshes”, ToG 24(3):479–487, 2005](https://dl.acm.org/doi/abs/10.1145/1073204.1073217?casa_token=FxLVarWWO0gAAAAA:s9Moc1rP5xJR041TDS4Sl1uRo44dSuEpItgMO3Ff1Sz99WG-6KW_oQG6ngOuHuEeHBtmN9_17HyO)
+
+
+
+[M. Botsch & O. Sorkine, “On linear variational surface deformation methods”, TVCG 14(1):213–230, 2008](https://ieeexplore.ieee.org/abstract/document/4359478?casa_token=S9C_sHw74kUAAAAA:YjKWtiEuQylSlynlwzPBUrO-oZCl8SizIlRHoCgyPYtuQNM3p-ZTNntP7TZ9iOmQAiuOGjEa7g)
+
+
+
+
 <br><br>
 
 [Implicit 3D Representations]
