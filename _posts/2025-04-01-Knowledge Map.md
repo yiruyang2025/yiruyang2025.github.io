@@ -19,7 +19,15 @@ Hi there, let's build and collect pretty things here
 
 # 1. 2025
 
-<br><br>
+<br>
+
+- [Max Welling](https://x.com/wellingmax?lang=en)
+- [Wojciech Matusik](https://x.com/wojmatusik/status/1947039384282235114)
+- [DailyPapers](https://x.com/HuggingPapers)
+
+
+
+<br><br><br>
 
 ## Relevant Coursework
 
