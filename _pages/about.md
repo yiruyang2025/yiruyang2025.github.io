@@ -34,8 +34,8 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - A Highly Efficient Constrained Alignment for ASR Knowledge Distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
-- 📍 [Project 2 - Master Thesis - Implicit 3D Representations](https://yiruyang2025.github.io/projects/2_project/) - pending, NeRF, (DINOv2, latent flow matching)
-- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Egocentric, (eyetracking), FAM-HRI
+- 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending
+- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Implicit 3D Representations, Egocentric, (eyetracking), FAM-HRI, NeRF, (DINOv2)
 - 📍 [Project 4 - Real-Time Bioimpedance for Organ Preservation / Neuronavigation-guided targeting for ultrasound-mediated focal drug delivery to the Brain](https://yiruyang2025.github.io/projects/4_project/)
 
 
