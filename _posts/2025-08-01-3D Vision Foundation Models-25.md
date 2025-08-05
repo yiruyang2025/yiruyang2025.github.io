@@ -89,7 +89,7 @@ images:
 
 <br><br>
 
-**2. Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]**
+**2.📍📍 Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]**
 
 [repo](https://github.com/maxxxzdn/erwin)
 
