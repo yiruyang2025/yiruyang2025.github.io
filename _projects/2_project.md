@@ -16,6 +16,25 @@ related_publications: true
 
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
 
+<br>
+
+
+| Dimension                   | TetSphere Splatting                                                            | NeRF (Implicit Volume Rendering)                                             | Implicit SDF (NeuS Family)                                       |
+| --------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Geometry Representation** | A set of deformable “tetra-spheres” (tetrahedral sphere primitives)            | Continuous volumetric density function $\sigma(\mathbf{x})$                  | Continuous signed distance field $D(\mathbf{x})$                 |
+| **Representation Type**     | Explicit Lagrangian volumetric mesh—direct access to each primitive’s vertices | Implicit: query density and color at any point via an MLP                    | Implicit: query distance to surface and normal via an MLP        |
+| **Geometry Extraction**     | Optimized “tetra-spheres” merged into a global mesh with no post-processing    | Requires volume rendering sampling → voxel grid or Marching Cubes extraction | Direct Marching Cubes extraction of the zero level-set surface   |
+| **Compute Efficiency**      | Fast energy computation and optimization via libpgo/CUDA extension             | Slow: heavy MLP inference for both training and rendering                    | Moderate: fewer optimizations than NeRF; slower than point-based |
+| **Memory & Storage**        | Depends on number of tetra-spheres, typically tens to hundreds of MB           | Network weights \~tens of MB; additional memory for rendering samples        | Similar to NeRF but without storing color parameters             |
+| **Detail Quality**          | Fine control via geometric energy terms (smoothness, rigidity, volume)         | Excellent lighting, semi-transparency, and complex material effects          | High geometric fidelity and smooth mesh                          |
+| **Editability**             | Results in an explicit mesh, easy to edit and process afterward                | Implicit field requires retraining or explicit conversion for editing        | Requires post-processing to extract and edit the mesh            |
+
+
+
+
+
+
+<br><br><br>
 
 [Implicit 3D Representations]
 
