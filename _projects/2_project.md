@@ -30,9 +30,11 @@ related_publications: true
 | guided 2D re‐projection → inlier/outlier    | guided 3D transform re‐projection → inlier/outlier       |
 | score = number of inliers                   | score = number of 3D inliers under a strict distance threshold |                       
 
+<br>
 
-
-
+```
+StereoGlue is an end-to-end feature matching and robust model estimation framework. Its core design goal is to significantly reduce the combinatorial complexity of matching and estimation using single-point minimal solvers
+```
 
 
 <br><br>
