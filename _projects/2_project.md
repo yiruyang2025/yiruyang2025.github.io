@@ -53,6 +53,30 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 <br><br>
 
+**Some Background Knowledge**
+
+1. [Jesse Douglas (1931). “Solution of the Problem of Plateau”](https://www.jstor.org/stable/1968115?seq=1)
+
+  - Annals of Mathematics 33(3): 263–321.
+  - DOI：10.2307/1968115
+
+<br>
+
+
+2. [Tibor Radó (1930). “The Problem of the Plateau”](https://link.springer.com/article/10.1007/BF02392418)
+
+  - Acta Mathematica 54(1): 155–157.
+  - DOI：10.1007/BF02392418
+
+<br>
+
+3. [Richard Courant (1950). “Dirichlet’s Principle, Conformal Mapping and Minimal Surfaces”](https://link.springer.com/book/10.1007/978-1-4612-9917-2)
+
+  - Wiley, Chapter 6 is devoted to a discussion of variational principles for minimal surfaces
+
+
+<br><br>
+
 [Implicit 3D Representations]
 
 <br>
