@@ -40,11 +40,11 @@ AffineGlue: Joint Matching and Robust Estimation is an end-to-end feature matchi
 **Some Recent Progress**
 
 ```
-**In the era of handcrafted features**
+**In the era of Handcrafted Features**
 
 PFH/FPFH (Rusu & Cousins 2009) and SHOT (Tombari et al. 2010) already used LRF + local geometric histograms for 3D-to-3D registration, and were successfully applied in industrial libraries such as PCL and Open3D.
 
-**In the era of deep learning**
+**In the era of Deep Learning**
 
 3DMatch (Zeng et al. 2017), PPFNet/PPF-FoldNet (Deng et al. 2018–19), and FCGF (Choy et al. 2019) all employ "implicit LRF + differential geometric feature" learning, achieving registration success rates of over 90% and robustness to over 80% in extreme occlusion and noise scenarios.
 
