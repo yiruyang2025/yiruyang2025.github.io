@@ -21,19 +21,12 @@ related_publications: true
 [2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
 
-[📍 2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
+[2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
 
 
 [C++ lib repo - toolkit](https://github.com/libigl)
 
 <br>
-
-
-📍 Erwin: A Tree-based Hierarchical Transformer for Large-scale Physical Systems [ICML'25]
-
-[`repo`](https://github.com/maxxxzdn/erwin) - [`Max Welling`](https://x.com/wellingmax?lang=en)
-
-<br><br>
 
 
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
