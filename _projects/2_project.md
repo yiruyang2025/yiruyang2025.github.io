@@ -14,6 +14,8 @@ related_publications: true
 
 <br><br>
 
+[2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
+
 
 [Implicit 3D Representations]
 
