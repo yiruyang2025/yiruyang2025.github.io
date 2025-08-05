@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Geometric Constraint for Semantic 3D Reconstruction
+description: Geometric Constraint for Semantic 3D Reconstruction, Neural Network's Interpretability
 img: assets/img/4.jpg
 importance: 2
 category: work
