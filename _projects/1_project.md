@@ -35,6 +35,32 @@ From each of life moment, to brave him when he takes thee hence.
 ```
 <br>
 
+```
+Training Loop
+    ↓
+[ Forward pass ]
+    ↓
+[ Compute loss ]
+    ↓
+[ Backward pass: compute gradients ]
+    ↓
+[ Gradient Clipping ]       ←— `clip_grad_norm_(model.params, max_norm)`
+    ↓
+[ AdamW Update ]            ←— `optimizer = AdamW(lr=…, weight_decay=…)`
+    ↓
+[ Zero Gradients ]          ←— `optimizer.zero_grad()`
+    ↓
+[ Cosine LR Annealing ]     ←— `scheduler = CosineAnnealingLR(optimizer, T_max, eta_min)`
+    ↓
+[ Next batch ]
+```
+
+
+
+
+
+<br>
+
 `WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
 
 Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment)
