@@ -10,6 +10,43 @@ related_publications: true
 
 <br><br>
 
+## 📍 World Models
+
+<br>
+
+```
+World models typically encounter two key challenges when constructing and maintaining a 3D representation of the environment:
+
+Local drift accumulation
+Even small per-frame registration errors can accumulate over time, causing the overall map to "distort" or "tear," undermining the reliability of long-term planning and dynamic prediction.
+
+Poor matching consistency
+Traditional RANSAC methods focus solely on the globally optimal rigid transformation, but do not consider spatial smoothness. This can easily lead to seemingly accurate but inconsistent local matches, resulting in map instability.
+
+How does your "3D→3D StereoGlue" proposal address these issues?
+
+Rotation-invariant local coordinate matching (based on Lipman et al., 2005)
+Compute the alignment error in the local reference frame defined by the principal curvature of each point, rather than directly comparing in Euclidean space. This effectively filters out "outliers" whose errors appear small in global space but are inconsistent with the local geometry, significantly reducing drift.
+
+Variational Smoothness Penalty (Based on Botsch & Sorkine, 2008)
+While evaluating the number of inliers, a smoothing penalty is applied to the difference in rigid transformations between adjacent source points. This ensures spatial consistency and coherence across the entire point cloud registration, avoiding unphysical distortions such as "stretching" and "folding."
+
+Single-Point Minimum Solver Integration (StereoGlue Framework)
+Rigid transformation hypotheses are generated from a single matching point and efficiently verified using guided matching, significantly reducing the combinatorial complexity of RANSAC. This enables faster and more stable online updates of the 3D map, freeing up more computing power for subsequent dynamic learning and planning of the world model.
+
+Core Value to DeepMind's World Model
+Significantly reduces drift, maintaining high-precision registration even when processing tens of thousands of frames.
+
+Improves long-term planning capabilities. The stable 3D map makes the model more reliable in predicting future states and rewards.
+
+Computational efficiency is optimized, and the single-point solver and guided matching significantly accelerate the registration step, freeing up more resources for policy learning or world model training.
+```
+
+
+
+
+<br><br>
+
 ## Geometric Consistency 
 
 <br>
