@@ -16,6 +16,8 @@ related_publications: true
 
 [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
+[3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
+
 <br>
 
 ```
