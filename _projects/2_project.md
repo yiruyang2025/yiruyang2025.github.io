@@ -38,7 +38,9 @@ related_publications: true
 <br>
 
 ```
-AffineGlue: Joint Matching and Robust Estimation is an end-to-end feature matching and robust model estimation framework. Its core design goal is to significantly reduce the combinatorial complexity of matching and estimation using single-point minimal solvers
+‣ AffineGlue - Joint Matching and Robust Estimation is an end-to-end feature matching and robust model estimation framework. Its core design goal is to significantly reduce the combinatorial complexity of matching and estimation using single-point minimal solvers
+
+‣ StereoGlue
 ```
 <br>
 
