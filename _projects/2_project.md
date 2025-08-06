@@ -10,6 +10,10 @@ related_publications: true
 
 <br><br>
 
+Some geometric math calculation, actively looking for a lab
+
+<br>
+
 ## 📍 World Models
 
 <br>
