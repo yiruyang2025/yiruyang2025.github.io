@@ -42,7 +42,6 @@ latest_posts:
 <br>
 
 **Interests**
-  - [3D Reconstruction for World Models](https://x.com/bilawalsidhu/status/1952895900390404231) - Especially under Dark / Continuous Sence, [3D/4D World Simulation](https://s2025.conference-schedule.org/presentation/?id=ind_112&sess=sess481&ncid=so-link-418794-vt48&linkId=100000376748018)
   - Interpretability, Knowledge Distillation, on-Device
   - 3D Reconstruction / Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
   - Geometric Consistency, Bio / Neruo Engineering
