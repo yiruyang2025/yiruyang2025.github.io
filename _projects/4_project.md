@@ -11,6 +11,8 @@ related_publications: true
 <br><br>
 
 
+[USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
+
 [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
 
 
