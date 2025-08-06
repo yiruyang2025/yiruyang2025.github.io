@@ -47,7 +47,6 @@ PFH/FPFH (Rusu & Cousins 2009) and SHOT (Tombari et al. 2010) already used LRF +
 **In the era of Deep Learning**
 
 3DMatch (Zeng et al. 2017), PPFNet/PPF-FoldNet (Deng et al. 2018–19), and FCGF (Choy et al. 2019) all employ "implicit LRF + differential geometric feature" learning, achieving registration success rates of over 90% and robustness to over 80% in extreme occlusion and noise scenarios.
-
 The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point cloud registration with a 99% outlier score, and combined with the most advanced deep features in academia, it can achieve millimeter-level accuracy and industrial-grade stability.
 ```
 
@@ -55,22 +54,21 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 **Some Background Knowledge**
 
-1. [Jesse Douglas (1931). “Solution of the Problem of Plateau”](https://www.jstor.org/stable/1968115?seq=1)
+[1. Jesse Douglas (1931). “Solution of the Problem of Plateau”](https://www.jstor.org/stable/1968115?seq=1)
 
   - Annals of Mathematics 33(3): 263–321.
   - DOI：10.2307/1968115
 
 <br>
 
-
-2. [Tibor Radó (1930). “The Problem of the Plateau”](https://link.springer.com/article/10.1007/BF02392418)
+[2. Tibor Radó (1930). “The Problem of the Plateau”](https://link.springer.com/article/10.1007/BF02392418)
 
   - Acta Mathematica 54(1): 155–157.
   - DOI：10.1007/BF02392418
 
 <br>
 
-3. [Richard Courant (1950). “Dirichlet’s Principle, Conformal Mapping and Minimal Surfaces”](https://link.springer.com/book/10.1007/978-1-4612-9917-2)
+[3. Richard Courant (1950). “Dirichlet’s Principle, Conformal Mapping and Minimal Surfaces”](https://link.springer.com/book/10.1007/978-1-4612-9917-2)
 
   - Wiley, Chapter 6 is devoted to a discussion of variational principles for minimal surfaces
 
