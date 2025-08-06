@@ -45,7 +45,7 @@ Vision Algorithms for Mobile Robotics (L+E)
 
 Geometry for Computational Design and Fabrication
 
-(Shape Modeling)
+Shape Modeling
 
 Graph Theory
 
