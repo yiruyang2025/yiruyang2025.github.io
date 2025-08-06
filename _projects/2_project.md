@@ -14,6 +14,10 @@ related_publications: true
 
 <br>
 
+[Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
+
+<br>
+
 ```
 World models typically encounter two key challenges when constructing and maintaining a 3D representation of the environment:
 
