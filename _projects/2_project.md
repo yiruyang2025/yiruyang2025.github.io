@@ -10,6 +10,16 @@ related_publications: true
 
 <br><br>
 
+
+[2021 - Scaling vision with sparse mixture of experts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHnRsrsAAAAJ&citation_for_view=ZHnRsrsAAAAJ:qUcmZB5y_30C)
+
+[2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
+
+
+
+
+<br><br>
+
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
   - "Vision → AI Scene Structure" → "Constrained Optimized Layout" → "Gesture-Driven Lazy Follow" on Glasses
