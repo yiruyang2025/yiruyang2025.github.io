@@ -8,18 +8,36 @@ category: work
 related_publications: true
 ---
 
+<br>
+
+## Real-Time Bioimpedance for Organ / Liver Preservation
+
+<br>
+  - Data visualization, modeling, and system validation
+  - [USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
+  - [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
+
+
+<br><br>
+
+## Some Background Knowledge
+
+<br>
+
+[**Feature Engineering for Time Series**](https://www.kaggle.com/code/patrickurbanke/feature-engineering-for-time-series)
+
+[StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer)
+
+[A decoder-only foundation model for time-series forecasting](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/)
+
+[Forecasting with AutoML](https://cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview#workflow-forecast)
+
+[]
+
 <br><br>
 
 
-[USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
-
-[Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
-
-
-<br><br>
-
-
-[Neural Network's Interpretability] - Colah's Blog
+**Neural Network's Interpretability** - Colah's Blog
 
 [2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
 
@@ -28,12 +46,7 @@ related_publications: true
 <br><br>
 
 
-## Real-Time Bioimpedance for Organ Preservation
 
-<br>
-
-
-  - Data visualization, modeling, and system validation
 
 <br><br><br><br>
 
