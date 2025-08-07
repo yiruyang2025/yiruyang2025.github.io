@@ -50,12 +50,6 @@ Data visualization, modeling, and system validation
 
 <br><br>
 
-
-
-
-<br><br><br><br>
-
-
 [`Malachy`](https://images.app.goo.gl/YK92n9Mjcn8Mx3bG6)'s Castle
 
 
