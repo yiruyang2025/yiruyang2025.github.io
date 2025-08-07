@@ -14,6 +14,8 @@ related_publications: true
 [OpenGaze]
 
 
+**The Visual Turing Test Redux**
+
 <br><br>
 
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
