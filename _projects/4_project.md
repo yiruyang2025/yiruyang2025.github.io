@@ -56,10 +56,6 @@ Data visualization, modeling, and system validation
 [📍 Geospatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 
-<br><br><br><br>
-
-
-
 
 <br><br>
 
