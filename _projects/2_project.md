@@ -10,6 +10,11 @@ related_publications: true
 
 <br><br>
 
+[Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
+
+
+<br><br>
+
 
 ## World Models
 
