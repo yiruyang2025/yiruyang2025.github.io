@@ -32,29 +32,12 @@ Data visualization, modeling, and system validation
 
 [**Feature Engineering for Time Series**](https://www.kaggle.com/code/patrickurbanke/feature-engineering-for-time-series)
 
-[StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer)
-
-[A decoder-only foundation model for time-series forecasting](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/)
-
-[Forecasting with AutoML](https://cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview#workflow-forecast)
-
-
 <br><br>
 
 
 **Neural Network's Interpretability** - Colah's Blog
 
 [2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
-
-
-
-<br><br>
-
-[`Malachy`](https://images.app.goo.gl/YK92n9Mjcn8Mx3bG6)'s Castle
-
-
-[📍 Geospatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-
 
 
 <br><br>
