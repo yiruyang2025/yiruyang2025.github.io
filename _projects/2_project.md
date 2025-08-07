@@ -12,6 +12,7 @@ related_publications: true
 
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
+  - "Vision → AI Scene Structure" → "Constrained Optimized Layout" → "Gesture-Driven Lazy Follow" on Glasses
 
 <br><br>
 
