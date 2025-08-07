@@ -28,10 +28,6 @@ Data visualization, modeling, and system validation
 
 ## Some Background Knowledge
 
-<br>
-
-[Feature Engineering for Time Series](https://www.kaggle.com/code/patrickurbanke/feature-engineering-for-time-series)
-
 <br><br>
 
 
