@@ -13,13 +13,14 @@ related_publications: true
 ## Real-Time Bioimpedance for Organ / Liver Preservation
 
 <br>
-  - Data visualization, modeling, and system validation
+
+Data visualization, modeling, and system validation
 
   
-  - [USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
+[USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
   
-  - [Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
+[Hardware aware neural architecture search](https://github.com/ekut-es/hannah)
 
 
 <br><br>
