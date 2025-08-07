@@ -30,12 +30,43 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
 
-<br>
 
 [Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
 
 
 <br>
+
+## Topics
+
+<br>
+
+## 1. On-device Realtime Machine Perception (MP) Signals
+
+<br>
+
+Visual Inertial Odometry (VIO)
+
+  - 6 Degrees of freedom (6DOF) within a spatial frame of reference using Visual Inertial Odometry (VIO)
+  - This allows for seamless navigation and mapping of the environment
+
+<br><br>
+
+## 2. Eye Tracking
+
+<br>
+
+  - Including: gaze per eye, vergence point, blink detection, pupil center estimation, pupil diameter, corneal center, etc.
+  - A deeper understanding of the wearer’s visual attention and intentions
+
+<br><br>
+
+## 3. Hand Tracking
+
+<br>
+
+  - In 3D space
+
+<br><br><br>
 
 ## References
 
