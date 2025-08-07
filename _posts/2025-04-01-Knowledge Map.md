@@ -12,7 +12,7 @@ images:
   venobox: true
 ---
 
-Hi there, let's build and collect pretty things here
+Hi there, let's collect pretty things here
 
 <br>
 
@@ -22,7 +22,6 @@ Hi there, let's build and collect pretty things here
 <br>
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
-- [Wojciech Matusik](https://x.com/wojmatusik/status/1947039384282235114)
 - [DailyPapers](https://x.com/HuggingPapers)
 
 
