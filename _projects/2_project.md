@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Geometric Constraint for 3D Reconstruction
+description: Reality Proxy / Geometric Constraint for 3D Reconstruction
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -16,7 +16,7 @@ related_publications: true
 <br><br>
 
 
-## World Models
+## 📍 World Models / [Reality Proxy](https://www.arxiv.org/pdf/2507.17248)
 
 <br>
 
