@@ -24,6 +24,7 @@ related_publications: true
 
 <br><br>
 
+
 ## Some Background Knowledge
 
 <br>
@@ -36,7 +37,6 @@ related_publications: true
 
 [Forecasting with AutoML](https://cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview#workflow-forecast)
 
-[]
 
 <br><br>
 
