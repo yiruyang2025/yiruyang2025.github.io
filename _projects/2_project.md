@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: Reality Proxy / Geometric Constraint for 3D Reconstruction
+description: 3D Reconstruction for Virus Drug / Treatment Design, Geometric Constraint
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -25,15 +25,15 @@ related_publications: true
 <br><br>
 
 
-## 3D Reconstruction for Virus Drug / Treatment Design
+`## 3D Reconstruction for Virus Drug / Treatment Design`
 
 <br>
 
-Feature extraction from the reconstructed structure using 3D CNN/Transformer
+  - Feature extraction from the reconstructed structure using 3D CNN/Transformer
 
-Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
+  - Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
 
-Shape complementarity analysis of viral surface antigen regions
+  - Shape complementarity analysis of viral surface antigen regions
 
 
 <br><br>
