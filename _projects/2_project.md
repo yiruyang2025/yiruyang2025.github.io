@@ -26,7 +26,7 @@ related_publications: true
 
 ## 📍 `3D Reconstruction for Virus Treatment (Drug) Design`
 
-<br>
+<br><br>
 
 **1. Feature extraction from the reconstructed structure using 3D CNN/Transformer**
 
