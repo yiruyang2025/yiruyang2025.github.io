@@ -43,14 +43,14 @@ related_publications: true
 
 
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 ## References
 
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ## World Models / [Reality Proxy](https://www.arxiv.org/pdf/2507.17248)
