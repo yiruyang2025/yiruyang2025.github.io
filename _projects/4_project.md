@@ -14,7 +14,7 @@ related_publications: true
 
 <br>
 
-Data visualization, modeling, and system validation
+Biosignal Processing + Monitoring, Data visualization, modeling, and system validation
 
   
 [USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
@@ -49,6 +49,17 @@ Data visualization, modeling, and system validation
 <br>
 
 [2025 - LSM-2: Learning from Incomplete Wearable Sensor Data](https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/)
+
+
+<br><br>
+
+
+
+## Neural Network's Interpretability - Colah's Blog
+
+[2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
+
+
 
 
 
