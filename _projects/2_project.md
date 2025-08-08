@@ -25,7 +25,7 @@ related_publications: true
 <br><br>
 
 
-`## 3D Reconstruction for Virus Drug / Treatment Design`
+## `3D Reconstruction for Virus Drug / Treatment Design`
 
 <br>
 
