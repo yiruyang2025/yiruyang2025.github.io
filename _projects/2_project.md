@@ -27,6 +27,8 @@ related_publications: true
 
 ## 3D Reconstruction for Virus Drug / Treatment Design
 
+<br>
+
 Feature extraction from the reconstructed structure using 3D CNN/Transformer
 
 Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
