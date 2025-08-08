@@ -26,14 +26,20 @@ Data visualization, modeling, and system validation
 <br><br>
 
 
-## Some Background Knowledge
+## Some Other Topics / Dataset
 
-<br><br>
+<br>
+
+[2025 - MC-MED, multimodal clinical monitoring in the emergency department](https://www.nature.com/articles/s41597-025-05419-5)
 
 
-**Neural Network's Interpretability** - Colah's Blog
+[2020-2022 - MECMED](https://github.com/dkimlab/MCMED)
 
-[2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
+
+
+<br>
+
+
 
 
 <br><br>
