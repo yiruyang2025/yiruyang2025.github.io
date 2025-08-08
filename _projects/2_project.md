@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: 3D Reconstruction for Virus Drug / Treatment Design, Geometric Constraint
+description: 3D Reconstruction for Virus Drug / Treatment Design, Surface Fitting
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -9,7 +9,6 @@ related_publications: true
 ---
 
 <br><br>
-
 
 [2021 - Scaling vision with sparse mixture of experts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHnRsrsAAAAJ&citation_for_view=ZHnRsrsAAAAJ:qUcmZB5y_30C)
 
@@ -25,15 +24,23 @@ related_publications: true
 <br><br>
 
 
-## `3D Reconstruction for Virus Drug / Treatment Design`
+## 📍 `3D Reconstruction for Virus Treatment (Drug) Design`
 
 <br>
 
-  - Feature extraction from the reconstructed structure using 3D CNN/Transformer
+  - ## Feature extraction from the reconstructed structure using 3D CNN/Transformer
 
-  - Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
+<br><br>
 
-  - Shape complementarity analysis of viral surface antigen regions
+  - ## Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
+
+
+<br><br>
+
+  - ## Shape complementarity analysis of viral surface antigen regions
+
+
+
 
 
 <br><br><br><br><br>
