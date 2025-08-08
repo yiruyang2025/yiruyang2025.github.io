@@ -18,11 +18,21 @@ related_publications: true
 
 [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 
-<br><br>
-
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
   - "Vision → AI Scene Structure" → "Constrained Optimized Layout" → "Gesture-Driven Lazy Follow" on Glasses
+
+<br><br>
+
+
+## 3D Reconstruction for Virus Drug / Treatment Design
+
+Feature extraction from the reconstructed structure using 3D CNN/Transformer
+
+Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
+
+Shape complementarity analysis of viral surface antigen regions
+
 
 <br><br>
 
