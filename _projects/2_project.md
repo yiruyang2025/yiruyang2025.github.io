@@ -28,16 +28,16 @@ related_publications: true
 
 <br>
 
-  - ## Feature extraction from the reconstructed structure using 3D CNN/Transformer
+## 1. Feature extraction from the reconstructed structure using 3D CNN/Transformer
 
 <br><br>
 
-  - ## Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
+## 2. Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data
 
 
 <br><br>
 
-  - ## Shape complementarity analysis of viral surface antigen regions
+## 3. Shape complementarity analysis of viral surface antigen regions
 
 
 
