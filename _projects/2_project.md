@@ -24,24 +24,6 @@ related_publications: true
 <br><br>
 
 
-## 📍 3D Reconstruction for Virus Treatment (Drug) Design
-
-<br><br>
-
-**1. Feature extraction from the reconstructed structure using 3D CNN/Transformer**
-
-<br><br>
-
-**2. Model calibration using protein structure prediction (AlphaFold, RoseTTAFold) combined with experimental data**
-
-
-<br><br>
-
-**3. Shape complementarity analysis of viral surface antigen regions**
-
-
-
-
 
 <br><br><br><br><br><br><br><br><br><br>
 
