@@ -35,7 +35,7 @@ latest_posts:
 
 - 📍 [Project 1 - A geometric hidden-space alignment for ASR knowledge distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
 - 📍 [Project 2 - Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - pending, 3D Vision for Virus Treatment (Drug) Design, looking for **supervisors**
-- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Implicit 3D Representations, egocentric, FAM-HRI, NeRF, (DINOv2, diffusion loss)
+- 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Implicit 3d representations, egocentric, FAM-HRI, NeRF, (DINOv2, diffusion loss)
 - 📍 [Project 4 - Real-Time Bioimpedance for Organ / Liver Preservation](https://yiruyang2025.github.io/projects/4_project/) - Signal Processing and Modeling
 
 
@@ -44,6 +44,6 @@ latest_posts:
 **Interests**
   - Interpretability, Knowledge Distillation, on-Device
   - 3D Reconstruction / Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
-  - Geometric Consistency, Bio / Neruo Engineering, Future Power System
+  - Geometric Consistency, Bio / Neruo Engineering, 3/4D Structural Design / Future Power System
 
 <div style="height: 4rem;"></div>
