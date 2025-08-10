@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis
-description: 3D Reconstruction for Virus Drug / Treatment Design, Surface Fitting
+description: World Modeling, Surface Fitting
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -16,6 +16,11 @@ related_publications: true
 
 
 [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
+
+[2025 - minFM: Minimal Flow Matching](https://github.com/Kai-46/minFM)
+
+[NanoGPT (124M) in 3 minutes](https://github.com/KellerJordan/modded-nanogpt)
+
 
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
