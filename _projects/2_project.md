@@ -29,7 +29,7 @@ related_publications: true
 <br><br>
 
 
-World Modeling / 3D Human Reconstruction, Surface Fitting
+World Modeling / 3D Human Reconstruction, Surface Fitting, / Motion
 
 
 <br><br><br><br><br><br><br><br><br><br>
