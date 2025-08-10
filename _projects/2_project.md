@@ -29,6 +29,8 @@ related_publications: true
 <br><br>
 
 
+World Modeling / 3D Human Reconstruction, Surface Fitting
+
 
 <br><br><br><br><br><br><br><br><br><br>
 
