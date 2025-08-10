@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Master Thesis
+title: 2025 - Master Thesis 2
 description: World Modeling, Surface Fitting
 img: assets/img/4.jpg
 importance: 2
