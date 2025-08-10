@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Project 4
+title: 2026 - Master Thesis 1
 description: Signal Modeling for Organ / Liver Preservation, Neural Network's Interpretability
 img: assets/img/4.jpg
 importance: 5
