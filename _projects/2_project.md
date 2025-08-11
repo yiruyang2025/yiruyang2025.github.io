@@ -32,6 +32,8 @@ related_publications: true
 World Modeling / 3D Human Reconstruction, Surface Fitting, / Motion
 
 
+[2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
+
 <br><br><br><br><br><br><br><br><br><br>
 
 
