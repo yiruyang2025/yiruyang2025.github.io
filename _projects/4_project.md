@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 1
-description: Signal Modeling for Organ / Liver Preservation, Neural Network's Interpretability
+description: Signal Modeling for Organ / Liver Preservation
 img: assets/img/4.jpg
 importance: 5
 category: work
