@@ -24,6 +24,8 @@ related_publications: true
 
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
+[2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
+
 "Vision → AI Scene Structure" → "Constrained Optimized Layout" → "Gesture-Driven Lazy Follow" on Glasses
 
 <br><br>
@@ -32,7 +34,7 @@ related_publications: true
 World Modeling / 3D Human Reconstruction, Surface Fitting, / Motion
 
 
-[2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
+
 
 <br><br><br><br><br><br><br><br><br><br>
 
