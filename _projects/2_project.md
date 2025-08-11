@@ -26,7 +26,6 @@ related_publications: true
 
 [2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
 
-"Vision → AI Scene Structure" → "Constrained Optimized Layout" → "Gesture-Driven Lazy Follow" on Glasses
 
 <br><br>
 
