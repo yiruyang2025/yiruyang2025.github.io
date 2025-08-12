@@ -34,10 +34,10 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - A geometric hidden-space alignment for ASR knowledge distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
-- 📍 [Project 2 - Master Thesis 3](https://yiruyang2025.github.io/projects/2_project/) - pending, (3d->4d semantic awareness, 4d vision)
+- 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3d->4d semantic awareness, 4d vision)
 - 📍 [Project 3 - Dataset for aria glass hardware](https://yiruyang2025.github.io/projects/3_project/) - egocentric
-- 📍 [Project 4 - Master Thesis 1](https://yiruyang2025.github.io/projects/4_project/) - real-time bioimpedance for organ preservation, Bio signal processing and modeling
-- 📍 [Project 5 - Master Thesis 2 - Clinical](https://yiruyang2025.github.io/projects/5_project/) - multimodal (**sparse**) data modeling
+- 📍 [Project 4 - Thesis - Biosignal](https://yiruyang2025.github.io/projects/4_project/) - real-time bioimpedance for organ preservation, Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Project 5 - Master Thesis 1 - Clinical](https://yiruyang2025.github.io/projects/5_project/) - multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/)
 
 
 <br>
