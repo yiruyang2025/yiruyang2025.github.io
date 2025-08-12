@@ -15,7 +15,7 @@ related_publications: true
 [UK Biobank](https://www.ukbiobank.ac.uk/)
 
 
-Co-supervised by Interdisciplinary Research Teams
+
 
 <br>
 
