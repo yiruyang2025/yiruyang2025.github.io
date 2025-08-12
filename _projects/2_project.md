@@ -105,7 +105,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 <br><br>
 
 
-World Modeling / 3D Human Reconstruction, Surface Fitting, / Motion
+World Modeling / 3D Human Reconstruction, Surface Fitting
 
 
 
