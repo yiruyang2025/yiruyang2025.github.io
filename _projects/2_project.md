@@ -17,9 +17,6 @@ related_publications: true
 [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
 
-
-
-
 <br>
 
 `3D -> 4D Segmentation / Understanding`
@@ -54,7 +51,34 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 [2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 
 
-<br><br><br><br>
+<br>
+
+
+
+<br>
+
+<p align="center">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
+</p>
+
+<br>
+
+
+
+
+<br><br><br>
 
 
 ## Some Other topics
