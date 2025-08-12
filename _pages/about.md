@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3D->4D Semantic Awareness, 3D Vision)
 - 📍 [Project 3 - Dataset for aria glass hardware](https://yiruyang2025.github.io/projects/3_project/) - Egocentric
 - 📍 [Project 4 - Master Thesis 1](https://yiruyang2025.github.io/projects/4_project/) -  Real-Time Bioimpedance for Organ Preservation, Signal Processing and Modeling
-- 📍 [Project 5 - Clinical](https://yiruyang2025.github.io/projects/5_project/) - Multimodal Sparse Data Modeling
+- 📍 [Project 5 - Clinical](https://yiruyang2025.github.io/projects/5_project/) - Multimodal (**Sparse**) Data Modeling
 
 
 <br>
