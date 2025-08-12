@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Master Thesis 3
+title: 2025 - Master Thesis 2
 description: Surface Fitting, (4D Panoptic Reconstruction)
 img: assets/img/4.jpg
 importance: 2
