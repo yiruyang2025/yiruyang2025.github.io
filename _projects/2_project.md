@@ -18,7 +18,7 @@ related_publications: true
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
-
+<br>
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
 
@@ -34,7 +34,10 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 [2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 
 
+<br><br><br><br>
 
+
+## Some Other topics
 
 <br><br>
 
