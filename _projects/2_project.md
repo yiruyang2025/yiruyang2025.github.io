@@ -14,6 +14,14 @@ related_publications: true
 
 <br>
 
+[2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
+
+
+
+
+
+<br>
+
 `3D -> 4D Segmentation / Understanding`
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
