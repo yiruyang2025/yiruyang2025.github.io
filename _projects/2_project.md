@@ -10,6 +10,16 @@ related_publications: true
 
 <br><br>
 
+## Some topics
+
+<br>
+
+`3D -> 4D Segmentation / Understanding`
+
+Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
+
+
+
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
 
 [📍 2025 - VGGT](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html)
