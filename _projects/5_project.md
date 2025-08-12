@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Project 5
-description: Clinical
+description: Clinical, Multimodal
 img: assets/img/4.jpg
 importance: 5
 category: work
