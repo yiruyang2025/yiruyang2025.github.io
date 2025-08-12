@@ -1,12 +1,30 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: World Modeling, Surface Fitting
+description: Surface Fitting, (3D Panoptic Reconstruction)
 img: assets/img/4.jpg
 importance: 2
 category: work
 related_publications: true
 ---
+
+<br><br>
+
+[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
+
+[📍 2025 - VGGT](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html)
+
+[2024 - MASt3R](https://link.springer.com/chapter/10.1007/978-3-031-73220-1_5)
+
+[2024 - DUSt3R: Geometric 3D Vision Made Easy](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html)
+
+
+<br><br>
+
+[2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
+
+
+
 
 <br><br>
 
