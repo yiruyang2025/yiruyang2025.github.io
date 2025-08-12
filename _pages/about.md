@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Interpretability, Knowledge Distillation, on-Device
+  - [Interpretability](https://colah.github.io/), Knowledge Distillation, on-Device
   - 3D Reconstruction / Vision, [GeoSpatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
   - Geometric Consistency, Bio / Neruo Engineering, 3/4D Structural Design, Vacation
 
