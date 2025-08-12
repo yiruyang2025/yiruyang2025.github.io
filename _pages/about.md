@@ -27,14 +27,14 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **Speech Processing / (3D Vision) / Self-Distillation**
+- 📍 Skill Set - **Speech Processing / (3D Vision) / Self-Distillation / Multimodal**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - A geometric hidden-space alignment for ASR knowledge distillation](https://yiruyang2025.github.io/projects/1_project/) - whisper, low latency Inference on-device
-- 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3D->4D Semantic Awareness)
+- 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3D->4D Semantic Awareness, 3D Vision)
 - 📍 [Project 3 - Dataset for Aria Glass Hardware](https://yiruyang2025.github.io/projects/3_project/) - Egocentric
 - 📍 [Project 4 - Master Thesis 1 - Real-Time Bioimpedance for Organ / Liver Preservation](https://yiruyang2025.github.io/projects/4_project/) - Signal Processing and Modeling
 - 📍 [Project 5 - Clinical](https://yiruyang2025.github.io/projects/5_project/) - Multimodal Sparse Data Modeling
