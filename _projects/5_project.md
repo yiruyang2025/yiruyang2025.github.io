@@ -8,14 +8,14 @@ category: work
 related_publications: true
 ---
 
-<br>
+<br><br>
 
 
 
 [UK Biobank](https://www.ukbiobank.ac.uk/)
 
 
-Co-supervised by interdisciplinary research teams
+Co-supervised by Interdisciplinary Research Teams
 
 <br>
 
