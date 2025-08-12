@@ -748,6 +748,7 @@ $$
 <br><br>
 
 **Hyperparameter Optimization**
+
 <br>
 
 With 15hrs dataset experiment, we used 50 rounds to run a "warm-up" for no problem. If you want to perform large-scale tuning in a production environment, it is recommended to `increase n_trials to 50-100`
