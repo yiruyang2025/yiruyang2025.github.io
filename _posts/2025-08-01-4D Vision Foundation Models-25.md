@@ -122,7 +122,7 @@ Representation Robustness  ←─── TRADE‑OFF ───→  Training Effic
 
 <br><br>
 
-**4. Global Consistency under Local Constraints**
+**4. `Global Consistency` under Local Constraints**
 
 [2025 - On Weak Approximation of Reductive Groups over Higher Dimensional Function Fields](https://www.arxiv.org/abs/2508.09601)
 
