@@ -49,12 +49,9 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br>
 
-
+**Some Other References**
 
 [2024 - SceneFun3D](https://openaccess.thecvf.com/content/CVPR2024/html/Delitzas_SceneFun3D_Fine-Grained_Functionality_and_Affordance_Understanding_in_3D_Scenes_CVPR_2024_paper.html)
-
-
-
 
 [2025 - COLMAP 1](https://github.com/colmap/colmap)
 
@@ -108,7 +105,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 ## Some Other topics
 
-<br><br>
+<br>
 
 [2021 - Scaling vision with sparse mixture of experts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHnRsrsAAAAJ&citation_for_view=ZHnRsrsAAAAJ:qUcmZB5y_30C)
 
