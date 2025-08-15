@@ -124,11 +124,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 World Modeling / 3D Human Reconstruction, Surface Fitting
 
 
-
-
-<br><br><br><br><br><br><br><br><br><br>
-
-
+<br><br>
 
 
 
@@ -259,7 +255,7 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 ## Topics
 
 
-<br><br>
+<br>
 
 [Implicit 3D Representations]
 
@@ -273,7 +269,6 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 [C++ lib repo - toolkit](https://github.com/libigl)
 
-<br>
 
 [2025 - Google Research - Measuring heart rate with consumer ultra-wideband radar](https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/)
 
@@ -306,7 +301,7 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 ## Topics
 
-<br><br>
+<br>
 
 
  [DINOv2] [FAM-HRI]
@@ -392,8 +387,6 @@ Hybrid models:
 
 
 
-
-
 | Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
 | --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Core Idea             | Encodes and decodes fixed-topology meshes (e.g., triangle meshes)    | Learns a function $f(x) \rightarrow \mathbb{R}$ describing geometry per point (e.g., SDF or occupancy) |
@@ -440,15 +433,7 @@ Hybrid models:
 
 [Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
 
-<br><br>
-
 [2023 - AGILE3D](https://arxiv.org/abs/2306.00977)
-
-<br><br><br><br>
-
-
-
-<br><br>
 
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
@@ -486,14 +471,12 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 
 
 
-
 <br><br><br><br>
 
 
 ## Research
 
-<br><br><br>
-
+<br>
 
 **Stage 1 – Cross-modal alignment**
 
@@ -512,7 +495,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
   - Supports zero-shot labeling, classification, and querying
 
 
-<br>
+<br><br>
 
 **Stage 2 – Shape the Semantic Space**
 
@@ -525,7 +508,7 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
   - Semantic grouping after filtering and voting (more general than standard segmentation)
   - A semantically shape-aware structure space that can be used as a priori for Stage 3
 
-<br>
+<br><br>
 
 **Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
 
@@ -557,110 +540,7 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 <br><br><br><br>
 
-## Robotics
 
-
-
-<br><br><br><br>
-
-
-
-
-## References
-
-<br>
-
-[CAT-3D]
-
-[2018 - Learning Priors for Semantic 3D Reconstruction](https://openaccess.thecvf.com/content_ECCV_2018/html/Ian_Cherabier_Learning_Priors_for_ECCV_2018_paper.html)
-
-[2017 - Semantically Informed Multi‑view Surface Refinement](https://openaccess.thecvf.com/content_iccv_2017/html/Blaha_Semantically_Informed_Multiview_ICCV_2017_paper.html)
-
-[2020 - Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions](https://openaccess.thecvf.com/content_CVPR_2020/html/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.html)
-
-[📍 2025 - CrossOver: 3D Scene Cross-Modal Alignment](https://openaccess.thecvf.com/content/CVPR2025/html/Sarkar_CrossOver_3D_Scene_Cross-Modal_Alignment_CVPR_2025_paper.html)
-
-[📍 2002 - From Images to 3D Models](https://cacm.acm.org/research/from-images-to-3d-models/)
-
-[2022 - Advancing the foundations of mixed reality](https://www.microsoft.com/en-us/research/blog/eccv-2022-highlights-advancing-the-foundations-of-mixed-reality/?OCID=msr_blog_ECCVHighlights_Lab)
-
-
-
-
-
-<br><br>
-
-**Trustworthy**
-
-[2025 - IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization and Perturbation Optimization](https://arxiv.org/abs/2507.06856)
-
-<br><br>
-
-
-**CV**
-
-
-
-[📍 2025 - VisualSpeaker](https://arxiv.org/pdf/2507.06060)
-
-[2023 - 3DiFACE: Diffusion-based Speech-driven 3D Facial Animation and Editing](https://arxiv.org/abs/2312.00870)
-
-[2022 - Tech helps (hopefully) - AR transcription and translation](https://x.com/Google/status/1524464030668177409)
-
-[2025 - Eye Tracking](https://acl2025-eyetracking-and-nlp.github.io/)
-
-
-<br><br>
-
-**3D Vision**
-
-
-[📍 2025 - AnyCam: Learning to Recover Camera Poses and Intrinsics from Casual Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Wimbauer_AnyCam_Learning_to_Recover_Camera_Poses_and_Intrinsics_from_Casual_CVPR_2025_paper.html)
-
-[2025 - Oral - MaskControl: Spatio-Temporal Control for Masked Motion Synthesis](https://www.ekkasit.com/ControlMM-page/)
-
-
-[2025 - EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos](https://rchalyang.github.io/EgoVLA/)
-
-
-<br>
-
-📍 Large multimodal models [CLIP], [DALL·E], [ALIGN]
-
-📍 Implicit 3D representations [NeRF], [DeepSDF]
-
-
-<br>
-
-[1] Cherabier, I., Schönberger, J.L., Oswald, M.R., Pollefeys, M., Geiger, A.: Learning Priors for Semantic 3D Reconstruction. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2018)
-
-[2] Wang, Y., Pan, L., Pollefeys, M., Larsson, V.: Structure‑from‑Motion with a Non‑Parametric Camera Model. In: Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR) (2025)
-
-[3] Wald, J., Dhamo, H., Navab, N., Tombari, F.: Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions. In: Proceedings of International Conference on 3D Vision (3DV) (2020)
-
-[4] Tombari, F., Di Stefano, L.: Object Recognition in 3D Scenes with Occlusions and Clutter by 📍 Hough Voting. In: Proceedings of International Conference on Computer Vision (ICCV) (2010)
-
-[5] Peng, S., Genova, K., Jiang, C. M., Tagliasacchi, A., Pollefeys, M., Funkhouser, T.: OpenScene: 3D Scene Understanding with Open Vocabularies. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2023)
-
-[6] Song, S., Yu, F., Zeng, A., Chang, A.X., Savva, M., Funkhouser, T.: Semantic Scene Completion from a Single Depth Image. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017)
-
-
-
-
-<br><br><br>
-
-
-
- - [ZapBench - 2025](https://zapbench-release.storage.googleapis.com/landing.html)
-
- - [State Space Models](https://yiruyang2025.github.io/blog/2025/State-Spaces-Models-25/)
-
- - [On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/#mamba-putting-it-all-together)
-
-- [2025 - SnapMoGen](https://arxiv.org/abs/2507.09122)
-
-
-<br><br><br>
 
 ## Topics
 
@@ -685,49 +565,9 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 - [Sparse Autoencoders - 2024 - Scaling and evaluating sparse autoencoder](https://arxiv.org/abs/2406.04093)
 
 
-<br>
 
+<br><br><br><br>
 
-<br><br>
-
-## Modules
-
-<br>
-
-**[Compressive Transformer]**
-
-[Mamba], [RWKV]
-
-[Differentiable Neural Computer]
-
-[Sparse Access Memory]
-
-[AlphaDev]
-
-[Scaling 4D Representations](https://arxiv.org/pdf/2412.15212)
-
-[Ego4D](https://ego4d-data.org/)
-
-
-<br>
-
-Causal ViViT
-
-VQ-VAE
-
-MaskGIT
-
-C-ViViT 
-
-T5X Encoder
-
-Transformer in Latent Space
-
-<br><br>
-
-
-
-<br><br>
 
 
 ## References
@@ -753,12 +593,11 @@ Transformer in Latent Space
 - [Alpha-CLIP - CVPR 2024 - A CLIP Model Focusing on `Wherever` You Want](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Alpha-CLIP_A_CLIP_Model_Focusing_on_Wherever_You_Want_CVPR_2024_paper.html)
 
 
-<br>
-
-<br>
+<br><br>
 
 
-**Flow Matching Loss**
+## Flow Matching Loss
+
 <br>
 
 **Purpose**  
@@ -798,7 +637,10 @@ $$
 \mathcal{L}_{\mathrm{flow}} = \bigl\lVert z_{t+1} - \mathrm{warp}(z_t, f_{t\to t+1}) \bigr\rVert_{1}
 $$
 
-<br><br>
+
+<br><br><br>
+
+
 
 ## References
 
@@ -806,7 +648,6 @@ $$
 
 **Frontiers in AI Research (2025)**
 
-<br>
 
 1. Efficient Multimodal Alignment & Generation  
 - **Key Results**:  
@@ -879,8 +720,6 @@ $$
 - **Interaction Consistency**: Integrate diadic modeling to handle speaking and listening coherently  
 - **Memory Extension**: Add a latent memory module to preserve character traits across sessions
 
-
-<br><br>
 
 <br><br><br>
 
