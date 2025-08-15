@@ -83,19 +83,19 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="85%">
 </p>
 
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="85%">
 </p>
 
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="85%">
 </p>
 
 <br>
