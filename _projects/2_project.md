@@ -44,7 +44,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 [📍 2025 - VGGT](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html)
 
-[2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
+[📍 2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
 
 <br><br>
