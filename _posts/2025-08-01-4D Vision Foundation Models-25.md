@@ -38,11 +38,7 @@ images:
 [2025 - FAM-HRI: Foundation-Model Assisted Multi-Modal Human-Robot Interaction Combining Gaze and Speech](https://arxiv.org/pdf/2503.16492)
 
 
-
-
-<br><br><br>
-
-
+<br>
 
 
 | Model                          | Input Data Type   | Domain     | Extendable to 3D?                                                     |
