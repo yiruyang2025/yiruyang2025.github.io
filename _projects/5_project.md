@@ -38,4 +38,4 @@ Implicit Geometry - NeRF/SDF
 
 
 <br>
-![Uploading image.png…]()
+
