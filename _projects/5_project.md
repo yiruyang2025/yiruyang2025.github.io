@@ -17,8 +17,25 @@ related_publications: true
 [SCAI](https://scai.ethz.ch/)
 
 
+<br><br><br><br><br><br><br><br>
+
+
+## Some Topics in `Non-Invasive Neuro Surgery`
+
 <br>
 
+MRI
+
+DTI
+
+fMRI
+
+tractography
+
+Mesh-VAE
+
+Implicit Geometry - NeRF/SDF
 
 
 <br>
+![Uploading image.png…]()
