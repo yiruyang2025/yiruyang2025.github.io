@@ -124,8 +124,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 [2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
 
 
-<br><br>
-
+<br>
 
 World Modeling / 3D Human Reconstruction, Surface Fitting
 
