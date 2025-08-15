@@ -25,15 +25,19 @@ images:
 [Colah's Blog](https://colah.github.io/)
 
 
-<br><br>
+<br><br><br><br>
+
+
 
 `3D Vision & Multi-modality x Foundation Models`
 
-<br>
+<br><br><br><br>
+
+
 
 ## References
 
-<br><br>
+<br>
 
 [2025 - FAM-HRI: Foundation-Model Assisted Multi-Modal Human-Robot Interaction Combining Gaze and Speech](https://arxiv.org/pdf/2503.16492)
 
