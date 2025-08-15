@@ -62,7 +62,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br>
 
-[2025 - DINOv3 checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
+[📍 2025 - DINOv3 checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
 [2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 
@@ -73,19 +73,19 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br>
 
-<p align="center">
+<p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 <br>
 
-<p align="center">
+<p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 <br>
 
-<p align="center">
+<p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
