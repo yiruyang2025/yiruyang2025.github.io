@@ -26,7 +26,7 @@ Hi there, let's collect pretty things here
 
 
 
-<br><br><br>
+<br><br>
 
 ## Relevant Coursework
 
@@ -40,17 +40,17 @@ Seminar in Visual Computing
 
 Systems on Chips (Cuda, HPC)
 
-Vision Algorithms for Mobile Robotics (L+E)
-
 Geometry for Computational Design and Fabrication
 
 Shape Modeling
+
+Vision Algorithms for Mobile Robotics (L+E)
 
 Graph Theory
 
 Real Analysis
 
-(Large-Scale AI Engineering)
+(*Large-Scale AI Engineering)
 
 
 <br><br>
@@ -65,7 +65,7 @@ Real Analysis
 
 <br>
 
-- [May 2025](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+- [AI Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
 <br>
 
