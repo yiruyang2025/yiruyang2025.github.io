@@ -111,7 +111,7 @@ Real Analysis
 
 - [x] Reading
   - [ ] Chatting
-  - [ ] Fruit Gelato without sugar
+  - [x] Water
 - [x] Take a Walk
 
 
