@@ -55,15 +55,6 @@ Biosignal Processing + Monitoring, Data visualization, modeling, and system vali
 
 
 
-## Neural Network's Interpretability - Colah's Blog
-
-<br>
-
-[2015 - DeepDream](https://colah.github.io/notes/interp-v-neuro/)
-
-
-
-
 
 
 <br><br><br><br>
