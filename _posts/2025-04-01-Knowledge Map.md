@@ -2,7 +2,7 @@
 layout: post
 title: Knowledge Map
 date: 2025-04-01
-description: ‪🦩
+description: ❄️
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
