@@ -109,9 +109,9 @@ Real Analysis
 
 # Check List
 
-- [ ] Reading
+- [x] Reading
   - [ ] Chatting
-  - [x] Fruit Gelato without sugar
+  - [ ] Fruit Gelato without sugar
 - [x] Take a Walk
 
 
