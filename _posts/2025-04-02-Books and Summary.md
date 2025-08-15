@@ -2,7 +2,7 @@
 layout: post
 title: Books and Summary
 date: 2025-04-02
-description: ‪🦩
+description: ‪🔹
 categories: Life
 thumbnail: assets/img/9.jpg
 images:
