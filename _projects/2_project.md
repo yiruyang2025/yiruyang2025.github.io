@@ -25,7 +25,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br>
 
-**1. 4D**
+## 1. 4D
 
 <br>
 
@@ -34,7 +34,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br>
 
-**2. 3D**
+## 2. 3D
 
 <br>
 
@@ -66,7 +66,7 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br>
 
-**3. 2D**
+## 3. 2D
 
 <br>
 
