@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ML Model Structures - 25
+title: AI Model Structures - 25
 date: 2025-05-01
 description: 🔹
 categories: AI/ML
@@ -165,7 +165,124 @@ In practice, "Deep" means:
 <br><br>
 
 
-# 3. Some Norms and Their Nature<br><br>
+# Deep Learning
+
+<br>
+
+`1. Premise of Deep Learning`
+
+<br>
+
+The **premise of deep learning** refers to the underlying assumptions and principles that explain *why* deep neural networks work and *when* they are effective:
+
+- **Manifold / Smoothness Assumption**: High-dimensional data (images, speech, text) often lie on a lower-dimensional manifold, and semantic changes are locally smooth → can be approximated by continuous functions
+  
+- **Distributed & Hierarchical Representations**: Complex concepts can be formed by hierarchical composition of features (edges → textures → objects)
+  
+- **Inductive Bias**: Architectures like CNNs (translation equivariance) and Transformers (content-based selection) embed useful priors
+  
+- **Over-parameterization & SGD Implicit Regularization**: Even with more parameters than samples, SGD tends to find “flat” minima that generalize well
+  
+- **i.i.d. and Distribution Stability**: Training and test data should follow similar distributions, or be adapted via transfer learning/fine-tuning
+  
+- **Scalability (Scaling Laws)**: Increasing data, compute, and model size tends to yield predictable performance gains
+
+**Use cases**: guiding architecture design, choosing regularization/data augmentation, understanding transfer learning, anticipating risks from domain shifts or small datasets
+
+
+<br><br>
+
+
+`2. Word Embeddings`
+
+
+<br>
+
+**Word embeddings** map discrete words into dense numerical vectors (usually 100–1024 dimensions) where geometric relationships capture semantic/grammatical similarity
+
+- **Motivation**: One-hot vectors are sparse and lack similarity information; embeddings allow “similar words” to be close in vector space
+
+- **Classic methods**:
+  - **Word2Vec (CBOW / Skip-gram)**, **GloVe** – static embeddings from word co-occurrence
+  - **FastText** – includes subword n-grams to handle out-of-vocabulary words
+  - **Contextual embeddings (BERT, LLMs)** – same word can have different vectors depending on context
+- **Similarity measure**: cosine similarity
+  
+  $$
+  \cos = \frac{u \cdot v}{\|u\| \, \|v\|}
+  $$
+
+- **Applications**: text classification, semantic search, clustering, recommendation, retrieval-augmented generation (RAG), cross-modal alignment (e.g., CLIP)
+
+<br><br>
+
+`3. Dot Products`
+
+<br>
+
+The **dot product** (inner product) between two vectors \(a\) and \(b\):
+
+$$
+a \cdot b = \sum_i a_i b_i = \|a\| \, \|b\| \cos\theta
+$$
+
+- **Geometric meaning**: projection of one vector onto another, scaled by the first vector’s length
+- **Relation to cosine similarity**: if vectors are normalized, dot product equals cosine similarity
+- **Deep learning usage**:
+  - **Attention scoring**:
+ 
+    $$
+    \text{score}_{ij} = \frac{q_i \cdot k_j}{\sqrt{d_k}}
+    $$
+    
+  - **Similarity in retrieval / contrastive learning** (e.g., InfoNCE, CLIP)
+  - **Final classification layer**: logits as dot products between features and class weights
+- **Tip**: often L2-normalize or apply scaling/temperature to control numerical stability
+
+
+<br><br>
+
+`4. Softmax`
+
+<br>
+
+The **softmax** function converts raw scores (logits) into probabilities:
+
+$$
+\text{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
+$$
+
+- **Shift invariance**: adding the same constant to all logits doesn’t change output
+- **Numerical stability**: use
+  
+$$
+  z' = z - \max(z)
+$$
+
+- **Temperature scaling**: \(\tau < 1\) → sharper distribution; \(\tau > 1\) → smoother
+- **Gradient-friendly**: with cross-entropy, gradients simplify to `softmax(z) - y`
+- **Applications**:  
+  - multi-class classification output
+  - attention weight normalization
+  - contrastive learning normalization
+  - language model token sampling
+
+<br><br>
+
+`Summary Connection`
+
+<br>
+
+- **Word embeddings**: map words to vectors 
+- **Dot product**: measure similarity between embeddings 
+- **Softmax**: turn similarity scores into probabilities
+- **Premise of deep learning**: explains why such representation + similarity + normalization pipelines work for large-scale AI tasks
+
+
+<br><br><br><br>
+
+
+# 4. Some Norms and Their Nature<br><br>
 
 **CTC - Connectionist Temporal Classification** - is a loss function used for sequence tasks where input and output lengths don’t match — like speech-to-text
 
@@ -199,3 +316,5 @@ CTC collapse:              →         "hello"
 
 
 <br><br><br><br>
+
+<img width="468" height="634" alt="image" src="https://github.com/user-attachments/assets/c92129bf-c8ea-42cd-9a87-8c2fd9aa7f03" />
