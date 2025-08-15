@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln-v3.en` + LoRA-guided Dynamic + Geometric Distillation
+**Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln` + LoRA-guided Dynamic + Geometric Distillation
 
 parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
@@ -62,7 +62,7 @@ Training Loop
 
 `WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
 
-Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment)
+Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment in the 3D Space)
 
 <br>
 
@@ -193,7 +193,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 **`Our Student`**  
 
-- **Säuseln-v3.en** - 📍 ≈ xx M parameters (FP16) - on-device
+- **Säuseln** - 📍 ≈ xx M parameters (FP16) - on-device
 - **Hidden size**: 768  
 - **Encoder**  
   - `Same 128-channel log-Mel input` 
@@ -300,8 +300,6 @@ Activation Function Characteristics Comparison:
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project1_3.jpg" alt="Project 1 Visualization" width="40%">
 </p>
-
-<br>
 
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project1_4.jpg" alt="Project 1 Visualization" width="50%">
@@ -1030,85 +1028,7 @@ Motivation for Discrete Latent Audio Representations
 └─────────────────────────────────────────┘
 ```
 
-<br>
-
-
-```
-class WhisperLargeV2AudioEncoder(nn.Module):
-   """
-   Whisper Large V2 Audio Encoder Implementation
-   Converts mel spectrogram to transformer-ready features
-   """
-   def __init__(self):
-       super().__init__()
-       
-       # First convolution: extract features from mel bins
-       self.conv1 = nn.Conv1d(
-           in_channels=80,      # 80 mel frequency bins
-           out_channels=1280,   # Large model hidden dimension
-           kernel_size=3,
-           stride=1,
-           padding=1
-       )
-       
-       # Second convolution: downsample time dimension
-       self.conv2 = nn.Conv1d(
-           in_channels=1280,
-           out_channels=1280,
-           kernel_size=3,
-           stride=2,           # Halves the time axis
-           padding=1
-       )
-       
-       # Positional embeddings for transformer
-       self.register_buffer(
-           "positional_embedding", 
-           torch.randn(1500, 1280)  # Max sequence length 1500
-       )
-   
-   def forward(self, x):
-       """
-       Forward pass through audio encoder
-       
-       Args:
-           x: Tensor of shape [batch_size, 80, time_steps]
-              Log mel spectrogram input
-       
-       Returns:
-           Tensor of shape [batch_size, time_steps//2, 1280]
-           Encoded audio features ready for transformer
-       """
-       # Apply convolutions with GELU activation
-       x = F.gelu(self.conv1(x))   # [batch, 1280, time_steps]
-       x = F.gelu(self.conv2(x))   # [batch, 1280, time_steps//2]
-       
-       # Transpose for transformer: [batch, seq_len, hidden_dim]
-       x = x.transpose(1, 2)       # [batch, time_steps//2, 1280]
-       
-       # Add positional encoding
-       seq_len = x.size(1)
-       x = x + self.positional_embedding[:seq_len]
-       
-       return x
-
-# Dimension verification
-model = WhisperLargeV2AudioEncoder()
-test_input = torch.randn(2, 80, 3000)  # 2 samples, 80 mel bins, 3000 time frames
-output = model(test_input)
-
-print(f"Input shape: {test_input.shape}")   # [2, 80, 3000]
-print(f"Output shape: {output.shape}")      # [2, 1500, 1280]
-
-Some Notes
-1. Conv1d preserves time dimension: 3000 -> 3000
-2. Conv1d with stride=2 halves time: 3000 -> 1500  
-3. Transpose rearranges for transformer: [B,C,T] -> [B,T,C]
-4. Positional encoding adds learned position information
-```
-
-
-
-<br>
+<br><br>
 
 
 `Temporal Smoothness`
