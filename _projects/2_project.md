@@ -25,7 +25,16 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br>
 
-**1. 3D**
+**1. 4D**
+
+<br>
+
+
+
+
+<br><br>
+
+**2. 3D**
 
 <br>
 
@@ -47,9 +56,11 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br>
 
-**2. 2D**
+**3. 2D**
 
 <br>
+
+[2025 - DINOv3 checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
 [2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
 
@@ -116,11 +127,7 @@ World Modeling / 3D Human Reconstruction, Surface Fitting
 <br><br><br><br><br><br><br><br><br><br>
 
 
-## References
 
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ## World Models / [Reality Proxy](https://www.arxiv.org/pdf/2507.17248)
@@ -438,25 +445,8 @@ Hybrid models:
 <br><br><br><br>
 
 
-## Benchmark
-
-<br><br><br><br>
-
-
-## Dataset
-
-
-<br><br><br><br><br>
-
-
-
-
 
 <br><br>
-
-[DINOv2] [OpenScene] [FAM-HRI]
-
-[2025 - VGGT: Visual Geometry Grounded Transformer](https://arxiv.org/html/2503.11651v1?utm_source=chatgpt.com)
 
 [2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
 
