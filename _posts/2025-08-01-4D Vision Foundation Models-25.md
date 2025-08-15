@@ -75,8 +75,6 @@ images:
 <br><br>
 
 
-
-
 **1. Collatz Conjecture / 3n + 1 problem / hailstone problem**
 
 <br>
@@ -94,9 +92,8 @@ images:
 [repo](https://github.com/maxxxzdn/erwin)
 
 
-
-
 <br><br>
+
 
 **3. Self-Distillation Loss + Diffusion Loss**
 
@@ -125,15 +122,17 @@ Representation Robustness  ←─── TRADE‑OFF ───→  Training Effic
 
 <br><br>
 
-**3**
-
-<br><br>
-
 **4**
+
+[2025 - On Weak Approximation of Reductive Groups over Higher Dimensional Function Fields](https://www.arxiv.org/abs/2508.09601)
 
 <br><br>
 
 **5**
+
+<br><br>
+
+**6**
 
 
 
