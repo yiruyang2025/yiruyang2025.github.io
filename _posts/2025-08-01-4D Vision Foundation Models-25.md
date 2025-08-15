@@ -81,7 +81,7 @@ images:
 
 <br>
 
-[1950 - Lothar Collatz “Über die Differenzengleichung xₙ₊₁ = aₙ xₙ + bₙ”, Mathematische Nachrichten, Bd. 3 (1950).](https://www.digizeitschriften.de/search?filter%5BZeitschriften%5D%5B1%5D=245319514%7Clog1&filter%5BObjekttyp%5D%5B1%5D=volume)
+[1950 - Lothar Collatz “Über die Differenzengleichung xₙ₊₁ = aₙ xₙ + bₙ”, Mathematische Nachrichten, Bd. 3 (1950).](https://www.digizeitschriften.de/search?filter%5BZeitschriften%5D%5B1%5D=245319514%7Clog1&filter%5BObjekttyp%5D%5B1%5D=volume)
 
 [2003 - The 3x+1 problem: An annotated bibliography (1963--1999) (sorted by author)](https://arxiv.org/abs/math/0309224)
 
@@ -520,3 +520,5 @@ Solution: Architectural paradigm shift
 
 <br><br><br>
 
+
+<img width="468" height="645" alt="image" src="https://github.com/user-attachments/assets/0b781de2-7e00-4695-9b64-ef0b4b6ea62e" />
