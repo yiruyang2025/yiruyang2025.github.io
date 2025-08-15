@@ -24,34 +24,27 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* === Force text/link colors site-wide (kept from your previous setup) === */
-
-/* Apply to both light and dark mode */
+/* === Global text/link colors === */
 :root,
 html[data-theme='light'],
 html[data-theme='dark'] {
   --global-text-color: #222;            /* Body text: dark gray close to black */
-  --global-link-color: #1a73e8;         /* Default link color: Google blue */
-  --global-link-hover-color: #1558b0;   /* Link hover: deeper blue */
-
-  /* Soft, natural blue just for the blog page meta & heading */
-  --soft-link-color: #4a90e2;           /* Pale natural blue */
-
-  /* Selected publications: abbr badge background (light blue) */
-  --abbr-badge-bg: #4a90e2;             /* Adjust to your preferred light blue */
-  --abbr-badge-bg-hover: #3a7bd5;       /* Slightly deeper on hover/focus */
+  --global-link-color: #1a73e8;         /* Pale blue for links */
+  --global-link-hover-color: #1558b0;   /* Darker blue on hover */
+  --soft-link-color: #4a90e2;           /* Softer natural blue for blog meta */
+  --abbr-badge-bg: #4a90e2;             /* Light blue for <abbr> badge */
+  --abbr-badge-bg-hover: #3a7bd5;       /* Deeper blue on hover */
 }
 
-/* Body text color */
 body {
   color: var(--global-text-color) !important;
 }
 
-/* Link colors (visited and unvisited) */
+/* Link colors */
 a,
 a:visited {
   color: var(--global-link-color) !important;
-  text-decoration: underline; /* Remove if you don't want underlines */
+  text-decoration: underline;
 }
 
 a:hover,
@@ -60,7 +53,7 @@ a:active {
   color: var(--global-link-hover-color) !important;
 }
 
-/* Ensure code and preformatted text use body text color */
+/* Keep code text inheriting body color */
 pre,
 code,
 kbd,
@@ -68,14 +61,7 @@ samp {
   color: inherit !important;
 }
 
-/* ===== BLOG INDEX PAGE–SPECIFIC COLORS =====
-   Scope with `.posts-list` to avoid affecting other pages.
-   - Softer blue for meta items like "2025", "Research"
-   - Softer blue for the big "Blogs 2025" heading
-   - Black for each post title link in the list
-*/
-
-/* 1) Meta items (year, tags/categories) under each post preview */
+/* ===== Blog index specific styles ===== */
 .posts-list .post-meta a,
 .posts-list .post-meta .category a,
 .posts-list .post-meta .tag a,
@@ -83,58 +69,49 @@ samp {
 .posts-list .post-tags a,
 .posts-list .post-categories a {
   color: var(--soft-link-color) !important;
-  border-color: var(--soft-link-color) !important; /* if badges use borders */
-  text-decoration: none !important; /* keep them clean in meta row */
+  border-color: var(--soft-link-color) !important;
+  text-decoration: none !important;
 }
 
-/* 2) Big page heading "Blogs 2025" in a softer natural blue
-      Use :has to target an h1/page-title that is followed by the posts list */
 h1:has(+ .posts-list),
 .page-title:has(+ .posts-list),
 .page-heading:has(+ .posts-list) {
   color: var(--soft-link-color) !important;
 }
 
-/* 3) Post titles in the blog list should be black (not link blue) */
 .posts-list .post-title a,
 .posts-list h2.post-title a,
 .posts-list h2 a,
 .posts-list .entry-title a {
-  color: #222 !important;            /* black-ish */
-  text-decoration: none !important;  /* remove underline for titles */
+  color: #222 !important;
+  text-decoration: none !important;
 }
 
 .posts-list .post-title a:hover,
 .posts-list h2.post-title a:hover,
 .posts-list h2 a:hover,
 .posts-list .entry-title a:hover {
-  color: #000 !important;            /* slightly darker on hover */
+  color: #000 !important;
 }
 
-/* ===== SELECTED PUBLICATIONS – ABBR BADGE (light blue bg + white text) =====
-   Works for both <abbr> and <span class="abbr"> rendered by al-folio/Jekyll Scholar.
-   Scoped to publications/bibliography containers to avoid touching other pages.
-*/
-
+/* ===== Selected publications abbr badge ===== */
 .publications abbr,
 .publications span.abbr,
 .bibliography abbr,
 .bibliography span.abbr {
-  background-color: var(--abbr-badge-bg) !important; /* light blue background */
-  color: #fff !important;                              /* white text */
+  background-color: var(--abbr-badge-bg) !important;
+  color: #fff !important;
   display: inline-block;
-  padding: 0.12rem 0.45rem;                            /* compact badge padding */
+  padding: 0.12rem 0.45rem;
   line-height: 1;
-  border-radius: 0.375rem;                             /* soft rounded corners */
+  border-radius: 0.375rem;
   font-weight: 600;
   text-decoration: none !important;
-  border: 0;                                           /* remove any outlines */
+  border: 0;
   vertical-align: middle;
-  /* prevent themes from forcing uppercase or other transforms */
   text-transform: none;
 }
 
-/* Hover/focus state for the abbr badge */
 .publications abbr:hover,
 .publications span.abbr:hover,
 .bibliography abbr:hover,
@@ -146,4 +123,3 @@ h1:has(+ .posts-list),
   background-color: var(--abbr-badge-bg-hover) !important;
   color: #fff !important;
 }
-
