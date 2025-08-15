@@ -32,8 +32,8 @@ html[data-theme='dark'] {
   --global-link-color: #1a73e8;         /* Google blue for links */
   --global-link-hover-color: #1558b0;   /* Darker Google blue on hover */
   --soft-link-color: #4a90e2;           /* Softer natural blue for blog meta */
-  --abbr-badge-bg: #91c3fa;             /* Light milk blue for <abbr> badge */
-  --abbr-badge-bg-hover: #7FB7F7;       /* Slightly deeper milk blue on hover */
+  --abbr-badge-bg: #1a73e8;             /* Google blue for <abbr> badge */
+  --abbr-badge-bg-hover: #1558b0;       /* Darker Google blue for badge hover */
 }
 
 body {
