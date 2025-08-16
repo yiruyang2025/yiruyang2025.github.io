@@ -139,6 +139,13 @@ PanSt3R (ICCV 2025)
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html)
 
 
+<br>
+
+[2025 - Master Thesis - Planar Affine Rectification from Change of Scale and Orientation](https://www.research-collection.ethz.ch/entities/publication/4b4015e9-2382-4450-beed-12787e08c6ca)
+
+
+[2010 - Planar Affine Rectification from Change of Scale](https://link.springer.com/chapter/10.1007/978-3-642-19282-1_28)
+
 <br><br>
 
 ## 3. 2D
