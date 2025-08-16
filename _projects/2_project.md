@@ -48,6 +48,12 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 Single-view - [2025 - ICCV Highlight - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
 
+<br>
+
+**Pipeline - Sep 2025 - 2026**
+
+📍 [2025 - Shape of Motion] -> Zero-shot via Vocabulary scoring (+ Multi-View)
+
 <br><br>
 
 ## 2. 3D
