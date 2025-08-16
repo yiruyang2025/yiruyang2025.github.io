@@ -54,9 +54,6 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
-
-<br>
-
 <br>
 
  [2025 - Shape of Motion] -> `zero-shot` via Vocabulary scoring (+ Multi-View)
