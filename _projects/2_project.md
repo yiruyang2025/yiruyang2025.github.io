@@ -19,6 +19,20 @@ related_publications: true
 
 <br>
 
+**Pipeline**
+
+```
+Sparse Data (raw images/videos)  
+   ↓  
+SfM pipeline (COLMAP / GLOMAP → poses + sparse 3D)  
+   ↓  
+3D/4D Foundation Model (dense, semantic, multimodal reconstruction)
+```
+
+
+
+<br><br>
+
 `3D -> 4D Segmentation / Understanding`
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
@@ -52,15 +66,22 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br>
 
+`Geometry-Centric 3D Models`
+
+
+
+
+<br><br>
+
 **Some Other References**
 
 <br>
 
 [2024 - SceneFun3D](https://openaccess.thecvf.com/content/CVPR2024/html/Delitzas_SceneFun3D_Fine-Grained_Functionality_and_Affordance_Understanding_in_3D_Scenes_CVPR_2024_paper.html)
 
-[2025 - COLMAP 1](https://github.com/colmap/colmap)
+[2025 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
 
-[2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/)
+[2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
 
 [2024 - MASt3R](https://link.springer.com/chapter/10.1007/978-3-031-73220-1_5)
 
@@ -100,12 +121,15 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
   <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="85%">
 </p>
 
-<br>
-
-
-
-
 <br><br><br>
+
+
+
+
+
+
+
+<br><br><br><br><br><br>
 
 
 ## Some Other topics
