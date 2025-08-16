@@ -38,13 +38,13 @@ Mixed Reality (C++)
 
 Seminar in Visual Computing
 
-Systems on Chips (Cuda, HPC)
-
 Geometry for Computational Design and Fabrication
 
 Shape Modeling
 
 Vision Algorithms for Mobile Robotics (L+E)
+
+Systems on Chips (Cuda, HPC)
 
 Graph Theory
 
@@ -65,7 +65,7 @@ Real Analysis
 
 <br>
 
-- [AI Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+- [AI Model Structures - 25](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
 <br>
 
@@ -104,7 +104,7 @@ Real Analysis
 <br>
 
 
-<br><br>
+<br><br><br><br>
 
 
 # Check List
@@ -115,5 +115,5 @@ Real Analysis
 - [x] Take a Walk
 
 
-<br><br><br><br>
+<br><br>
 
