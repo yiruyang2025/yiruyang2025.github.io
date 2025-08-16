@@ -40,6 +40,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 ## Mesh Generation for AR/VR
 
+<br>
+
 [📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
 
 
