@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-<br><br>
+<br>
 
 ## Topics
 
@@ -154,8 +154,6 @@ PanSt3R (ICCV 2025)
 
 
 
-<br>
-
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="85%">
 </p>
@@ -171,13 +169,6 @@ PanSt3R (ICCV 2025)
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="85%">
 </p>
-
-<br><br><br>
-
-
-
-
-
 
 
 <br><br><br><br><br><br>
@@ -206,7 +197,7 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-World Modeling / 3D Human Reconstruction, Surface Fitting
+  - **World Modeling / 3D Human Reconstruction, Surface Fitting**
 
 
 <br><br>
@@ -337,7 +328,6 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 [Implicit 3D Representations]
 
-<br>
 
 [2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
 
@@ -381,8 +371,7 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 <br>
 
-
- [DINOv2] [FAM-HRI]
+[FAM-HRI]
 
  <br>
 
@@ -422,7 +411,6 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 ## 3D Reconstruction
 
 <br>
-
 
 | Dimension            | 3D Gaussian Splatting                      | Explicit Grids/Voxels (e.g., Instant-NGP)       | Tensor Factorization (TensoRF) | Implicit SDF (NeuS family)                              | Dynamic/4D Scenes (Tensor4D)           |
 | -------------------- | ------------------------------------------ | ----------------------------------------------- | ------------------------------ | ------------------------------------------------------- | -------------------------------------- |
