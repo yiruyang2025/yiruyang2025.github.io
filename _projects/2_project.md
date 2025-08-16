@@ -31,11 +31,12 @@ SfM pipeline (COLMAP / GLOMAP → poses + sparse 3D)
 
 <br>
 
-## 3D -> 4D Segmentation / Understanding
+`3D -> 4D Segmentation / Understanding`
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
-<br>
+
+<br><br><br>
 
 ## 1. 4D
 
