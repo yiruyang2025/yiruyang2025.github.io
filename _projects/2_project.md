@@ -29,11 +29,9 @@ SfM pipeline (COLMAP / GLOMAP → poses + sparse 3D)
 3D/4D Foundation Model (dense, semantic, multimodal reconstruction)
 ```
 
+<br>
 
-
-<br><br>
-
-`3D -> 4D Segmentation / Understanding`
+## 3D -> 4D Segmentation / Understanding
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
