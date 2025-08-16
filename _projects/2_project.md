@@ -36,7 +36,7 @@ SfM pipeline (COLMAP / GLOMAP → poses + sparse 3D)
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
-<br><br><br>
+<br><br>
 
 ## 1. 4D
 
@@ -44,6 +44,8 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 [📍 2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
 
+
+Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
 
 <br><br>
