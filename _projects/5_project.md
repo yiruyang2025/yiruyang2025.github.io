@@ -28,7 +28,7 @@ MRI
 
 DTI
 
-fMRI
+fMRI / functional Ultrasound, fUS
 
 tractography
 
