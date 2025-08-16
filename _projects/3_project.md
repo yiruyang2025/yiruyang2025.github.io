@@ -38,7 +38,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br>
 
-## Mesh Generation for AR/VR
+## Mesh Generations
 
 <br>
 
@@ -61,6 +61,12 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 <br>
+
+
+[2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
+
+
+<br><br><br><br>
 
 ## Topics
 
