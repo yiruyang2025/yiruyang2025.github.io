@@ -606,41 +606,6 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 <br><br>
 
 
-## Flow Matching Loss
-
-<br>
-
-**Purpose**  
-Enforce temporal smoothness by aligning latent representations of adjacent frames
-
-**Definition**
-
-$$
-\mathcal{L}_{\mathrm{flow}} = \bigl\lVert z_{t+1} - \mathrm{warp}(z_t, f_{t\to t+1}) \bigr\rVert_{1}
-$$
-
-- $z_t, z_{t+1}$: latent features of frame $t$ and frame $t+1$
-- $\mathrm{warp}(z_t, f_{t \to t+1})$: features $z_t$ warped by the predicted flow field $f_{t \to t+1}$ 
-- $f_{t \to t+1}$: optical flow field predicted by a lightweight network
-
-<br>
-
-- **Domain**  
-  - Flow Matching applies to video frames (temporal consistency)
-
-- **Alignment Target**  
-  - Flow Matching aligns adjacent frames’ latent features 
-
-- **Warping Operation**  
-  - Flow Matching includes a warp based on optical flow
-
-- **Goal**  
-  - Flow Matching improves frame-to-frame coherence in generated video
-
-
-
-<br>
-
 **Total Loss**
 
 $$
