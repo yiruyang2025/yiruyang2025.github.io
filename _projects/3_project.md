@@ -13,10 +13,9 @@ related_publications: true
 
 [OpenGaze]
 
-
 **The Visual Turing Test Redux**
 
-<br><br>
+<br>
 
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
@@ -36,7 +35,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
 
 
-<br>
+<br><br><br><br>
+
 
 ## Mesh Generations
 
@@ -48,7 +48,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
   - Controllable, ready-to-use mesh generation
   - Use a `Coarse Mesh` to estimate the global resolution initially, then gradually refine it to the local resolution
 
-
 <br>
 
 [1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
@@ -59,14 +58,12 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
   - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
 
-
 <br>
-
 
 [2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
 
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 ## Topics
 
