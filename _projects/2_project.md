@@ -277,14 +277,7 @@ Computational efficiency is optimized, and the single-point solver and guided ma
 | **3D→3D Adaptation**<br/>(e.g. Q-REG) | 3D→3D (point cloud–point cloud) | • Oriented 3D point pairs from descriptors (FPFH/SHOT/3DMatch/GeoTransformer)<br>• Solver: **Q-REG** fits a local quadratic at one point → gives relative rotation & translation from that single match                                             | Guided by rigid-transform: for each source 3D point, apply the hypothesized rigid transform and choose, among its **k** descriptor candidates, the one with the smallest Euclidean reprojection error. | Number of 3D point-pair inliers under a strict Euclidean distance threshold.              |
          
 
-<br>
-
-```
-‣ AffineGlue - Joint Matching and Robust Estimation is an end-to-end feature matching and robust model estimation framework. Its core design goal is to significantly reduce the combinatorial complexity of matching and estimation using single-point minimal solvers
-
-‣ StereoGlue
-```
-<br>
+<br><br>
 
 **Some Recent Progress**
 
