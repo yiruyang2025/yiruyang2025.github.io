@@ -74,6 +74,7 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 [2025 - GEN3C](https://github.com/nv-tlabs/GEN3C)
 
+<br>
 
 [2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
