@@ -22,6 +22,8 @@ related_publications: true
 
 ## Pipeline
 
+<br>
+
 ```
 Sparse Data (Images / Videos)
    ↓
