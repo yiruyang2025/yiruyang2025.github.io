@@ -45,14 +45,14 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 [📍 2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
 
 
-Single-view - [2025 - ICCV Highlight - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
+Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
 
 <br>
 
 **Pipeline - Sep 2025 - 2026**
 
-📍 [2025 - Shape of Motion] -> Zero-shot via Vocabulary scoring (+ Multi-View)
+📍 [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
 
 <br><br>
 
