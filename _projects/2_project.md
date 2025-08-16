@@ -116,6 +116,8 @@ PanSt3R (ICCV 2025)
 
 [2024 - SceneFun3D](https://openaccess.thecvf.com/content/CVPR2024/html/Delitzas_SceneFun3D_Fine-Grained_Functionality_and_Affordance_Understanding_in_3D_Scenes_CVPR_2024_paper.html)
 
+[2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
+
 [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
 
 [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
