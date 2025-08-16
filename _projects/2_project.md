@@ -20,7 +20,7 @@ related_publications: true
 
 <br>
 
-**Pipeline**
+## Pipeline
 
 ```
 Sparse Data (Images / Videos)
@@ -50,7 +50,6 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 <br>
 
 [📍 2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
-
 
 Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
