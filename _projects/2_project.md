@@ -110,10 +110,6 @@ PanSt3R (ICCV 2025)
   - Video → 3D Panoptic + Time → 🌀 4D Reconstruction
 
 
-<br>
-
-
-
 <br><br><br>
 
 **Some Other References**
