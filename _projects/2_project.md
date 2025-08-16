@@ -22,11 +22,17 @@ related_publications: true
 **Pipeline**
 
 ```
-Sparse Data (raw images/videos)  
-   ↓  
-SfM pipeline (COLMAP / GLOMAP → poses + sparse 3D)  
-   ↓  
-3D/4D Foundation Model (dense, semantic, multimodal reconstruction)
+Sparse Data (Images / Videos)
+   ↓
+SfM (COLMAP / GLOMAP)  ——>  [Projective Consistency]
+   ↓
+3D Reconstruction (DUSt3R / MASt3R)  ——>  [Euclidean Consistency]
+   ↓
+4D Dynamic Modeling (Shape of Motion / MoDGS / GFlow)  ——>  [Riemannian Consistency]
+   ↓
+Zero-shot Semantic Alignment (OpenScene / PanSt3R)  ——>  [Feature-space Consistency]
+   ↓
+Final Output: 3D → 4D Zero-shot, Semantic-aware, Globally-consistent Reconstruction
 ```
 
 <br>
