@@ -16,7 +16,7 @@ related_publications: true
 
 [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
-[2018 - GQN](https://github.com/iShohei220/torch-gqn)
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
 <br>
 
