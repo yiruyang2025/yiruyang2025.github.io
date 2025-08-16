@@ -63,7 +63,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
 
 
-<br>
+<br><br>
 
 
 [2025 - FantasyPortrait](https://fantasy-amap.github.io/fantasy-portrait/)
