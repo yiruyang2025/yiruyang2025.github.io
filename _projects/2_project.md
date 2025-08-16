@@ -50,7 +50,7 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 <br>
 
-**Pipeline - Sep 2025 - 2026**
+**Pipeline**
 
 📍 [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
 
