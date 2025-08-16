@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Aria Glass Gen-2/1, Egocentric
+description: Aria Glass Gen-2/1, *Mesh Generations
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -34,6 +34,28 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 [Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
+
+
+<br>
+
+## Mesh Generation for AR/VR
+
+[📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
+
+
+  - Controllable, ready-to-use mesh generation
+  - Use a `Coarse Mesh` to estimate the global resolution initially, then gradually refine it to the local resolution
+
+
+<br>
+
+[1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
+
+  - Training data: Use edge collapse to compress the high-precision mesh into different levels
+
+  - Generation process: Use a generative model to learn the inverse operation—vertex splitting
+
+  - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
 
 
 <br>
