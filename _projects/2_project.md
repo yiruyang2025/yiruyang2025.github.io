@@ -38,20 +38,6 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 <br><br><br>
 
-`Metric 3D Estimation`
-
-| Method                       | Domain                     | Feature & Minimal Solver                                                                                                              | Guided Matching                                                                | Score                                                                            |
-| ---------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
-| **Metric3D v2 (TPAMI 2024)** | Image → Depth/Normals      | **Features**: Monocular image → geometric embeddings<br>**Solver**: Supervised + self-supervised metric depth & normal loss           | Enforce cross-dataset alignment, scale-aware consistency                       | Accuracy on KITTI / NYU Depth v2; zero-shot generalization across unseen cameras |
-| **UniDepth (CVPR 2024)**     | Universal Depth Estimation | **Features**: Multi-dataset pretraining + scale normalization<br>**Solver**: Cross-camera calibration, depth regression               | Guided by dataset-specific camera intrinsics normalization                     | Robust depth across datasets/cameras; strong generalization                      |
-| **UniK3D (CVPR 2025)**       | Universal 3D Estimation    | **Features**: Extends UniDepth → jointly learns depth + camera pose + scene structure<br>**Solver**: Differentiable bundle adjustment | Multi-view alignment: enforce consistency of 3D points and poses across images | Unified benchmark leader on ETH3D / ScanNet; first universal monocular 3D FM     |
-
-
-
-
-
-<br><br><br>
-
 ## 1. 4D
 
 <br>
