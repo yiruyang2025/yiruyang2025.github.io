@@ -10,7 +10,7 @@ related_publications: true
 
 <br><br>
 
-## Some topics
+## Topics
 
 <br>
 
