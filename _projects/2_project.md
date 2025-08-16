@@ -32,7 +32,7 @@ SfM (COLMAP / GLOMAP)  ——>  [Projective Consistency]
    ↓
 Zero-shot Semantic Alignment (OpenScene / PanSt3R)  ——>  [Feature-space Consistency]
    ↓
-Final Output: 3D → 4D Zero-shot, Semantic-aware, Globally-consistent Reconstruction
+Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Reconstruction
 ```
 
 <br>
