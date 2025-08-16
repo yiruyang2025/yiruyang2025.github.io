@@ -67,13 +67,19 @@ Achieve globally-consistent segmentation directly in 3D space --> extending it t
 
 `1. Geometry-Centric 3D Models`
 
+<br>
+
 DUSt3R (CVPR 2024)
 
   - 2D Images → 🔗 Feature Matching → 🏗️ 3D Structure
 
+<br>
+
 MASt3R (ECCV 2024)
 
   - Images → 📌 3D-Aware Matching → 📏 Precise Geometry
+
+<br>
 
 VGGT (CVPR 2025)
 
@@ -85,14 +91,19 @@ VGGT (CVPR 2025)
 
 `2. Semantic + Geometry Joint Models`
 
+<br>
+
 SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI)
 
   - Video / 3D Stream → ⚡ SAM 2 Engine → 🎬 Consistent 2D/3D/4D Segmentation
 
+<br>
 
 PanSt3R (ICCV 2025)
 
   - Multi-View Images → 🔄 Fuse Masks → 🧩 3D Segmented Scene
+
+<br>
 
 4D Panoptic Extensions (CVPR 2024, Ego-Exo4D)
 
