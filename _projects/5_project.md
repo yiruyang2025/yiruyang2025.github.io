@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 1
-description: Multimodal Clinical DL Modeling, Sparse 3D Data
+description: Multimodal Clinical DL Modeling, Sparse Data
 img: assets/img/4.jpg
 importance: 5
 category: work
