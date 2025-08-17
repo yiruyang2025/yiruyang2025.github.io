@@ -191,19 +191,19 @@ PanSt3R (ICCV 2025)
 
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="85%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="85%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="85%">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 
