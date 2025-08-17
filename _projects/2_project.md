@@ -35,7 +35,7 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 <br>
 
-## Implicit 3D representation <- Add into the pipeline
+## Implicit 4D representation
 
 **Stage 1**
 
