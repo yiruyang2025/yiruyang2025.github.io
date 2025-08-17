@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Biosignal
-description: Signal Modeling for Organ Preservation
+description: Signal Modeling for Organ Preservation, Neural Surgery
 img: assets/img/4.jpg
 importance: 5
 category: work
