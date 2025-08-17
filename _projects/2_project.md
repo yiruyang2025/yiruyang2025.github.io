@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Scalable 4D 'Stereoglue'
+description: Scalable 4D 'Stereoglue', Semantic Awareness
 img: assets/img/4.jpg
 importance: 2
 category: work
