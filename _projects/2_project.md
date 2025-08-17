@@ -35,25 +35,36 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 <br>
 
-## Implicit 4D representation
+## Implicit 4D representations
 
 **Stage 1**
 
-Implicit 3D representation of NeRF/SDF
+  - Implicit 3D representation of NeRF/SDF
+  - 4D - D-NeRF, HyperNeRF (NeRF + time), MoDGS, and GFlow
 
 <br>
 
 **Stage 2**
 
-Extending to 4D - D-NeRF, HyperNeRF (NeRF + time), MoDGS, and GFlow
+  - After 3D reconstruction, replace static implicit 3D with dynamic implicit 4D
+
+<br>
 
 **Stage 3**
 
-After 3D reconstruction, replace static implicit 3D with dynamic implicit 4D
+  - Incorporate Riemannian consistency to understand how to model dynamic scenes as continuous flow fields rather than frames
 
-**Stage 4**
+<br>
 
-Advanced: Incorporate Riemannian consistency to understand how to model dynamic scenes as continuous flow fields rather than frames
+| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
+| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
+| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
+| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
+| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
+| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
+
+
+
 
 <br><br>
 
