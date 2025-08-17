@@ -690,6 +690,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 
 [DINOv3]
+
 [SAM 2]
 
 
