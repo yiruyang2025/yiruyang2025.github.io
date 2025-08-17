@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Scalable 4D 'Stereoglue', Gobal Semantic Priors
+description: Scalable 4D 'Stereoglue', with Gobal Semantic Priors
 img: assets/img/4.jpg
 importance: 2
 category: work
