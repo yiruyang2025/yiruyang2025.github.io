@@ -45,7 +45,8 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
-<br><br>
+<br><br><br>
+
 
 ## 1. 4D
 
@@ -59,7 +60,9 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
  [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
 
-<br><br>
+
+<br><br><br>
+
 
 ## 2. 3D
 
