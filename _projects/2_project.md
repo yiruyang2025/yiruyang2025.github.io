@@ -93,6 +93,8 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 [2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
+<br>
+
 [StreamVGT], [CUT3R]
 
 <br>
