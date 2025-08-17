@@ -35,7 +35,7 @@ latest_posts:
 
 - 📍 [Project 1 - Thesis](https://yiruyang2025.github.io/projects/1_project/) - A geometric hidden-space alignment for ASR knowledge distillation - whisper, low latency Inference on-device
 - 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3d->4d priors, **zero-shot**, semantic awareness)
-- 📍 [Project 3 - Thesis](https://yiruyang2025.github.io/projects/3_project/) - aria glass hardware, 4d Human profile
+- 📍 [Project 3 - Thesis](https://yiruyang2025.github.io/projects/3_project/) - aria glass Hardware, (Robotics, Shape of Motion / CUT3R)
 - 📍 [Project 4 - Thesis](https://yiruyang2025.github.io/projects/4_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - Clinical multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/)
 
