@@ -42,7 +42,7 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 ```
 
 
-<br><br><br>
+<br><br>
 
 
 `3D -> 4D Segmentation / Understanding`
@@ -64,18 +64,6 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 <br>
 
  [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
-
-
-
-<br>
-
-
-| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
-| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
-| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
-| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
-| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
-| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
 
 
 
@@ -586,6 +574,18 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 - [2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
   - 2025 - New York is a Zoo
   - 2025 - The Retrieval
+
+
+<br>
+
+
+| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
+| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
+| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
+| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
+| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
+| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
+
 
 
 <br><br><br>
