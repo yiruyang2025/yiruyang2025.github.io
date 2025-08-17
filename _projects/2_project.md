@@ -24,6 +24,11 @@ related_publications: true
 
 <br>
 
+
+`Scalable Semantic-aware 4D StereoGlue - A Foundation Matching Engine for Consistent 3D/4D Reconstruction`
+
+<br>
+
 ```
 Sparse Data (Images / Videos)
    ↓
@@ -54,7 +59,7 @@ Final Output:
 
 `3D -> 4D Segmentation / Understanding`
 
-Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
+  - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
 <br><br><br>
