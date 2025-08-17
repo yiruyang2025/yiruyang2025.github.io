@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Surface Fitting, (**4D Panoptic Reconstruction**)
+description: Scalable 4D 'Stereoglue'
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -27,18 +27,25 @@ related_publications: true
 ```
 Sparse Data (Images / Videos)
    ↓
-Feature Matching (📍 StereoGlue + Semantic Priors) ——> [Guided Projective Consistency]
+Feature Matching (📍 Scalable 4D StereoGlue + Semantic Priors)
+   ——> [Guided Projective + Local-to-Global Spatio-temporal Consistency]
    ↓
-SfM (COLMAP / GLOMAP) ——> [Projective Consistency]
+SfM (COLMAP / GLOMAP)
+   ——> [Multi-view Projective Consistency]
    ↓
-3D Reconstruction (DUSt3R / MASt3R) ——> [Euclidean Consistency]
+3D Reconstruction (DUSt3R / MASt3R)
+   ——> [Euclidean Consistency]
    ↓
 4D Dynamic Modeling (Shape of Motion / MoDGS / GFlow
-   + Implicit 4D Representations) ——> [Riemannian Spatio-temporal Consistency]
+   + Implicit 4D Representations)
+   ——> [Riemannian Spatio-temporal Consistency]
    ↓
-Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D) ——> [Feature-space Consistency]
+Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D)
+   ——> [Feature-space Consistency]
    ↓
-Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Reconstruction
+Final Output:
+   3D → 4D **Zero-shot**, Semantic-aware,
+   Scalable, Globally-consistent Reconstruction
 ```
 
 
