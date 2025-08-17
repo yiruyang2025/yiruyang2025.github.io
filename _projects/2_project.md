@@ -29,37 +29,21 @@ Sparse Data (Images / Videos)
    ↓
 Feature Matching (📍 StereoGlue + Semantic Priors) ——> [Guided Projective Consistency]
    ↓
-SfM (COLMAP / GLOMAP + Semantic Priors) ——> [Projective + Semantic Consistency]
+SfM (COLMAP / GLOMAP) ——> [Projective Consistency]
    ↓
-3D Reconstruction (DUSt3R / MASt3R + Semantic Shape Priors) ——> [Euclidean + Semantic Consistency]
+3D Reconstruction (DUSt3R / MASt3R) ——> [Euclidean Consistency]
    ↓
 4D Dynamic Modeling (Shape of Motion / MoDGS / GFlow
-   + Implicit 4D Representations + Semantic Object Priors) ——> [Riemannian Spatio-temporal + Object-level Consistency]
+   + Implicit 4D Representations) ——> [Riemannian Spatio-temporal Consistency]
    ↓
-Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R + Segment3D / AGILE3D) ——> [Feature-space Consistency]
+Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D) ——> [Feature-space Consistency]
    ↓
 Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Reconstruction
 ```
 
-<br>
 
+<br><br><br>
 
-| Model                          | Task Focus                            | Relation to Geometric Consistency                               |
-| ------------------------------ | ------------------------------------- | --------------------------------------------------------------- |
-| **DUSt3R**                     | 2D → 3D dense reconstruction          | **Projective consistency**                                      |
-| **MASt3R**                     | 3D-aware matching                     | **Euclidean consistency**                                       |
-| **VGGT**                       | Sequential geometry reasoning         | **Temporal consistency**                                        |
-| **SAM / SAM 2**                | Semantic segmentation                 | **Semantic alignment via geometric projection**                 |
-| **PanSt3R**                    | 3D semantic reconstruction            | **Fusion of semantic + geometric consistency**                  |
-| **4D Panoptic**                | Video-level semantic + geometry       | **Spatio-temporal consistency**                                 |
-| **StereoGlue + 3D Adaptation** | Feature matching                      | **Local geometric constraints + global smoothness consistency** |
-| **AGILE3D**                    | Interactive multi-object segmentation | **Human-guided global mask consistency across objects**         |
-
-
-
-
-
-<br><br>
 
 `3D -> 4D Segmentation / Understanding`
 
