@@ -27,11 +27,11 @@ related_publications: true
 ```
 Sparse Data (Images / Videos)
    ↓
-Feature Matching (📍 Scalable 4D StereoGlue + Semantic Priors)
+Feature Matching (📍Scalable 4D StereoGlue + Semantic Priors)
    ——> [Guided Projective + Local-to-Global Spatio-temporal Consistency]
    ↓
-SfM (COLMAP / GLOMAP)
-   ——> [Multi-view Projective Consistency]
+SfM (COLMAP / GLOMAP) OR 📍VGGT (Visual Geometry Grounded Transformer)
+   ——> [Multi-view Projective Consistency  →  End-to-End Geometric Reasoning]
    ↓
 3D Reconstruction (DUSt3R / MASt3R)
    ——> [Euclidean Consistency]
@@ -40,7 +40,7 @@ SfM (COLMAP / GLOMAP)
    + Implicit 4D Representations)
    ——> [Riemannian Spatio-temporal Consistency]
    ↓
-Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D)
+Zero-shot Semantic Alignment (📍OpenScene / PanSt3R / Segment3D)
    ——> [Feature-space Consistency]
    ↓
 Final Output:
