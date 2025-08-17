@@ -33,7 +33,7 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Project 1 - Thesis](https://yiruyang2025.github.io/projects/1_project/) - A geometric hidden-space 3d alignment for ASR knowledge distillation - whisper, low latency Inference on-device
+- 📍 [Project 1 - Thesis](https://yiruyang2025.github.io/projects/1_project/) - A geometric hidden-space alignment for ASR knowledge distillation - whisper, low latency Inference on-device
 - 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3d->4d priors, **zero-shot**, semantic awareness)
 - 📍 [Project 3 - Thesis](https://yiruyang2025.github.io/projects/3_project/) - aria glass hardware, 4d Human profile
 - 📍 [Project 4 - Thesis](https://yiruyang2025.github.io/projects/4_project/) - 2d Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
