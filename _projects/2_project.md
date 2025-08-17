@@ -8,11 +8,8 @@ category: work
 related_publications: true
 ---
 
-<br>
 
 ## Topics
-
-<br>
 
 [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
@@ -21,8 +18,6 @@ related_publications: true
 <br>
 
 ## Pipeline
-
-<br>
 
 ```
 Sparse Data (Images / Videos)
