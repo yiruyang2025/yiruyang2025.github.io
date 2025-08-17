@@ -43,17 +43,6 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 <br><br>
 
-## Implicit 4D representations
-
-<br>
-
-
-| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
-| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
-| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
-| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
-| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
-| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
 
 
 
@@ -79,6 +68,19 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 <br>
 
  [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
+
+
+
+<br>
+
+
+| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
+| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
+| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
+| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
+| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
+| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
+
 
 
 <br><br><br>
