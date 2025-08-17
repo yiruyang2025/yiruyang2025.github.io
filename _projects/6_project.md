@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 2025 - Thesis - Robots Navigation
+title: 2026 - Thesis - Robots Navigation
 description: Human Profile
 img: assets/img/4.jpg
-importance: 1
+importance: 6
 category: work
 related_publications: true
 ---
