@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Scalable 4D 'Stereoglue', with Gocal Semantic Priors
+description: Scalable 4D 'Stereoglue', with Gobal Semantic Priors
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -32,10 +32,10 @@ related_publications: true
 ```
 Sparse Data (Images / Videos)
    ↓
-Feature Matching (📍Scalable 4D StereoGlue + Semantic Priors)
+Feature Matching (📍 Scalable 4D StereoGlue + Semantic Priors)
    ——> [Guided Projective + Local-to-Global Spatio-temporal Consistency]
    ↓
-SfM (COLMAP / GLOMAP) OR 📍VGGT (Visual Geometry Grounded Transformer)
+SfM (COLMAP / GLOMAP) OR 📍 VGGT (Visual Geometry Grounded Transformer)
    ——> [Multi-view Projective Consistency  →  End-to-End Geometric Reasoning]
    ↓
 3D Reconstruction (DUSt3R / MASt3R)
@@ -45,7 +45,7 @@ SfM (COLMAP / GLOMAP) OR 📍VGGT (Visual Geometry Grounded Transformer)
    + Implicit 4D Representations)
    ——> [Riemannian Spatio-temporal Consistency]
    ↓
-Zero-shot Semantic Alignment (📍OpenScene / PanSt3R / Segment3D)
+Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D)
    ——> [Feature-space Consistency]
    ↓
 Final Output:
