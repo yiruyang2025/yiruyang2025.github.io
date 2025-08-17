@@ -8,8 +8,11 @@ category: work
 related_publications: true
 ---
 
+<br>
 
 ## Topics
+
+<br>
 
 [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
@@ -18,6 +21,8 @@ related_publications: true
 <br>
 
 ## Pipeline
+
+<br>
 
 ```
 Sparse Data (Images / Videos)
@@ -35,28 +40,10 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 <br>
 
-## Implicit 4D representations
+## Implicit 4D representation learning x Stereoglue
 
 <br>
 
-**Stage 1**
-
-  - Implicit 3D representation of NeRF/SDF
-  - 4D - D-NeRF, HyperNeRF (NeRF + time), MoDGS, and GFlow
-
-<br>
-
-**Stage 2**
-
-  - After 3D reconstruction, replace static implicit 3D with dynamic implicit 4D
-
-<br>
-
-**Stage 3**
-
-  - Incorporate Riemannian consistency to understand how to model dynamic scenes as continuous flow fields rather than frames
-
-<br>
 
 | Property           | Flow Matching                                  | Implicit 4D Representations                                     |
 | ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
@@ -721,19 +708,30 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 2D
 
 [DINOv3]
+
 [SAM 2]
+
+
+
+
 
 <br>
 
 3D
 
+[📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Projective Consistency
 
+[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
+[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+
+[COLMAP], [GLOMAP]
 
 <br>
 
 4D
 
+[2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
 
 
