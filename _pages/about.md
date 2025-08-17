@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - pending, (3d->4d priors, **Zero-shot**, semantic awareness)
 - 📍 [Project 3 - Dataset](https://yiruyang2025.github.io/projects/3_project/) - aria glass Hardware, mesh generations
 - 📍 [Project 4 - Thesis](https://yiruyang2025.github.io/projects/4_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - Clinical multimodal (**Sparse**) data modeling, [SCAI](https://scai.ethz.ch/)
+- 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - Clinical multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/)
 
 
 <br>
