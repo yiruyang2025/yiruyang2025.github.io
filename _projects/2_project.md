@@ -690,9 +690,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 
 [DINOv3]
-
 [SAM 2]
-
 
 
 <br>
@@ -701,6 +699,9 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 
 [📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Projective Consistency
+
+
+[📍 2025 - VGGT](https://vgg-t.github.io/)
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
