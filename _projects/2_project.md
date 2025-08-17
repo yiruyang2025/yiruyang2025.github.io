@@ -30,27 +30,22 @@ related_publications: true
 <br>
 
 ```
-Sparse Data (Images / Videos)
+Sparse Images / Videos
    ↓
-Feature Matching (📍 Scalable 4D StereoGlue + Semantic Priors)
-   ——> [Guided Projective + Local-to-Global Spatio-temporal Consistency]
+📍 Scalable 4D StereoGlue
+   - Spatial matching
+   - Temporal consistency
+   - Inject Global Semantic Priors (DINOv3 / 📍 OpenScene / SAM)
    ↓
-SfM (COLMAP / GLOMAP) OR 📍 VGGT (Visual Geometry Grounded Transformer)
-   ——> [Multi-view Projective Consistency  →  End-to-End Geometric Reasoning]
+SfM / 📍 VGGT (pose & structure)
    ↓
 3D Reconstruction (DUSt3R / MASt3R)
-   ——> [Euclidean Consistency]
    ↓
-4D Dynamic Modeling (Shape of Motion / MoDGS / GFlow
-   + Implicit 4D Representations)
-   ——> [Riemannian Spatio-temporal Consistency]
+4D Dynamic Modeling (Shape of Motion / MoDGS)
    ↓
-Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R / Segment3D)
-   ——> [Feature-space Consistency]
+Zero-shot Semantic Alignment
    ↓
-Final Output:
-   3D → 4D **Zero-shot**, Semantic-aware,
-   Scalable, Globally-consistent Reconstruction
+Final: Consistent, semantic-aware 3D→4D reconstruction
 ```
 
 
