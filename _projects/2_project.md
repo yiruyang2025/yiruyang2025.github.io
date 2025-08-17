@@ -388,22 +388,9 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
 
-<br>
 
 
-| Dimension                   | TetSphere Splatting                                                            | NeRF (Implicit Volume Rendering)                                             | Implicit SDF (NeuS Family)                                       |
-| --------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Geometry Representation** | A set of deformable “tetra-spheres” (tetrahedral sphere primitives)            | Continuous volumetric density function $\sigma(\mathbf{x})$                  | Continuous signed distance field $D(\mathbf{x})$                 |
-| **Representation Type**     | Explicit Lagrangian volumetric mesh—direct access to each primitive’s vertices | Implicit: query density and color at any point via an MLP                    | Implicit: query distance to surface and normal via an MLP        |
-| **Geometry Extraction**     | Optimized “tetra-spheres” merged into a global mesh with no post-processing    | Requires volume rendering sampling → voxel grid or Marching Cubes extraction | Direct Marching Cubes extraction of the zero level-set surface   |
-| **Compute Efficiency**      | Fast energy computation and optimization via libpgo/CUDA extension             | Slow: heavy MLP inference for both training and rendering                    | Moderate: fewer optimizations than NeRF; slower than point-based |
-| **Memory & Storage**        | Depends on number of tetra-spheres, typically tens to hundreds of MB           | Network weights \~tens of MB; additional memory for rendering samples        | Similar to NeRF but without storing color parameters             |
-| **Detail Quality**          | Fine control via geometric energy terms (smoothness, rigidity, volume)         | Excellent lighting, semi-transparency, and complex material effects          | High geometric fidelity and smooth mesh                          |
-| **Editability**             | Results in an explicit mesh, easy to edit and process afterward                | Implicit field requires retraining or explicit conversion for editing        | Requires post-processing to extract and edit the mesh            |
-
-
-
-<br><br><br>
+<br><br><br><br>
 
 
 ## Topics
@@ -429,23 +416,8 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 
 [2025 - CrossOver](https://github.com/GradientSpaces/CrossOver)
 
-<br><br>
+<br><br><br><br>
 
-
-## Geometric Constraints
-
-<br>
-
-| Geometric Constraint Type       | Corresponding Model Method   | Origin and Purpose                                                                      |
-| ------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------- |
-| **Laplacian Smoothness**        | Curvature loss in NeRF/SDF   | Inspired by Sorkine’s mesh processing techniques; encourages local surface smoothness   |
-| **As-Rigid-As-Possible (ARAP)** | ARAP-inspired loss           | Derived from ARAP deformation energy; preserves local geometric rigidity                |
-| **High-Order Continuity (C²)**  | Curvature/Hessian-aware NeRF | Based on high-order surface modeling theory; enhances surface smoothness and continuity |
-
-
-
-
-<br><br>
 
 ## 3D Reconstruction
 
@@ -611,6 +583,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 ## Topics
 
+<br>
 
 - [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
 
@@ -710,7 +683,8 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 <br>
 
-2D
+**2D**
+
 
 [DINOv3]
 
@@ -718,17 +692,19 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 
 
-
-
 <br>
 
-3D
+**3D**
+
 
 [📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Projective Consistency
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
 [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+
+
+[2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
 [COLMAP], [GLOMAP]
 
