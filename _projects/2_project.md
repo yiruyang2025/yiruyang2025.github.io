@@ -32,20 +32,20 @@ Scalable Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Co
 ```
 Sparse Images / Videos
    ↓
-Scalable 4D StereoGlue📍
+Scalable 4D StereoGlue 📍
    - Spatial matching
    - Temporal consistency
    - Inject Global Semantic Priors (DINOv3 / OpenScene / SAM)
    ↓
-SfM / 📍VGGT (pose & structure)
+SfM / 📍 VGGT (pose & structure)
    ↓
 3D Reconstruction (DUSt3R / MASt3R)
    ↓
 4D Dynamic Modeling (Shape of Motion / MoDGS)
    ↓
 Zero-shot Semantic Alignment
-   - 📍OpenScene (open-vocab 3D semantics)
-   - 📍PanSt3R (4D panoptic consistency)
+   - 📍 OpenScene (open-vocab 3D semantics)
+   - PanSt3R (4D panoptic consistency)
    ↓
 Final Output - Consistent, semantic-aware 3D→4D reconstruction
 ```
