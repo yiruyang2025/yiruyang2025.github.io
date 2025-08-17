@@ -45,7 +45,7 @@ SfM / 📍 VGGT (pose & structure)
    ↓
 Zero-shot Semantic Alignment
    ↓
-Final: Consistent, semantic-aware 3D→4D reconstruction
+Consistent, semantic-aware 3D→4D reconstruction
 ```
 
 
