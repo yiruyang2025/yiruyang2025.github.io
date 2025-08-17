@@ -25,7 +25,7 @@ related_publications: true
 <br>
 
 
-`Scalable Semantic-aware 4D StereoGlue - A Foundation Matching Engine for Consistent 3D/4D Reconstruction`
+`Scalable Semantic-aware 4D StereoGlue - A Foundation **Matching Engine** for Consistent 4D Reconstruction`
 
 <br>
 
