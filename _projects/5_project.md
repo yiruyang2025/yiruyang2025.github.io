@@ -43,6 +43,8 @@ Implicit Geometry - NeRF/SDF
 
 ## References
 
+<br>
+
 [2025 -  Improving Learning of New Diseases through Knowledge-Enhanced Initialization for Federated Adapter Tuning](https://arxiv.org/abs/2508.10299) - Federated Learning (FL) 
 
 
