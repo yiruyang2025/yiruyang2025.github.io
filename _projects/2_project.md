@@ -18,6 +18,9 @@ related_publications: true
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
+
+[2025 - SIGGRAPH Best Paper - TokenVerse](https://token-verse.github.io/)
+
 <br>
 
 ## Pipeline
