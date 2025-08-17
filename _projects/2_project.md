@@ -706,7 +706,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
-[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+[2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
 
 [2023 - LightGlue](https://arxiv.org/pdf/2306.13643)
