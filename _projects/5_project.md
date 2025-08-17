@@ -37,5 +37,16 @@ Mesh-VAE
 Implicit Geometry - NeRF/SDF
 
 
-<br><br><br><br>
+<br><br>
+
+
+
+## References
+
+[2025 -  Improving Learning of New Diseases through Knowledge-Enhanced Initialization for Federated Adapter Tuning](https://arxiv.org/abs/2508.10299) - Federated Learning (FL) 
+
+
+
+
+<br><br>
 
