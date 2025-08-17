@@ -37,6 +37,8 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 ## Implicit 4D representations
 
+<br>
+
 **Stage 1**
 
   - Implicit 3D representation of NeRF/SDF
@@ -438,7 +440,7 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 <br><br>
 
 
-## Geometric Constraint
+## Geometric Constraints
 
 <br>
 
@@ -508,15 +510,6 @@ Hybrid models:
 
 <br><br>
 
-| Framework Name             | Description                                                                                       |
-| -------------------------- | ------------------------------------------------------------------------------------------------- |
-| Latent Shape Prior NeRF    | Mesh-VAE encodes shape into latent space, which conditions NeRF for multi-shape rendering         |
-| Mesh2ImplicitNet           | Latent vector from Mesh-VAE is used as a condition input to an implicit decoder like DeepSDF      |
-| MedShape VAE → ImplicitNet | Mesh-VAE builds statistical shape space for medical organs; implicit model refines geometry       |
-| Surface-to-Volume Flow     | Mesh is used to generate flow fields, which are converted to implicit fields for shape completion |
-
-
-<br><br>
 
 ## Tasks Matching
 
@@ -559,27 +552,6 @@ Hybrid models:
 view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
 in NeRF through "Lifted Priors" and reconstructs the complete scene
 
-<br><br>
-
-| Method                     | Core Idea                                                                 |
-| -------------------------- | ------------------------------------------------------------------------- |
-| **DeepSDF**                | Fits a signed distance function (SDF) using a multilayer perceptron (MLP) |
-| **Occupancy Networks**     | Implicitly predicts whether a point in 3D space is occupied               |
-| **VQ-VAE 3D / ShapeCode**  | Encodes 3D shapes into discrete latent tokens for reconstruction          |
-| **CLIP-Forge / GenRe**     | Generates implicit 3D shapes conditioned on image or language input       |
-| **RegNeRF / SemanticNeRF** | Constrains implicit scene modeling using semantic priors                  |
-
-
-
-<br><br>
-
-| Directions                       | Methods                                         |
-| --------------------------- | -------------------------------------------- |
-| NeRF + Semantic Guidance             | Semantic NeRF, RegNeRF, Co-SLAM NeRF         |
-| Feed-forward Reconstruction | One-Forward-NeRF, VolRecon, PlanarRecon      |
-| Sparse-view Completion      | ReconFusion (CVPR 2024), SPARS3R (CVPR 2025) |
-| Shape priors Projection          | ViT feature guidance, latent code fusion     |
-
 
 
 <br><br><br><br>
@@ -587,13 +559,10 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 
 ## Research
 
-<br>
 
 **Stage 1 – Cross-modal alignment**
 
-`OpenScene, CLIP space, DINOv2 space, text-3D embedding`
-
-<br>
+  - `OpenScene, CLIP space, DINOv2 space, text-3D embedding`
 
 **Goal**
 
@@ -610,9 +579,8 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 
 **Stage 2 – Shape the Semantic Space**
 
-Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
+  - Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
-<br>
 
 **Goal**
 
@@ -623,24 +591,20 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 **Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
 
-`D-NeRF`
+  - `D-NeRF`
 
-<br>
 
 **Goal**
 
   - [2021 - CVPR D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://openaccess.thecvf.com/content/CVPR2021/html/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.html?ref=labelbox.ghost.io)
   - [2023 - DeepLS: Local Search for Network Optimization Based on Lightweight Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10155296?casa_token=b8l78Uv-H1AAAAAA:U4ZrGd_uM2HkYEzeatrRLNIU9RPKDnyzng3i874NdXPrGdVPLDsBJgBFLWb-26OwSrxwryK7NA)
 
-<br><br><br>
+<br><br>
 
 **Stage 4 – Self-Distillation for Efficiency & Real-time Inference**
 
+  - `DINOv2`
 
-`DINOv2`
-
-
-<br>
 
 **Goal**
 
@@ -655,70 +619,19 @@ Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
 
 ## Topics
 
-<br>
-
-- Veo3 - Deepmind
-- Gen-4 - Runway
-- Movie Gen - Meta
-- Flow Loss
-
-<br>
-
 
 - [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
-
-- [2025 - Generative modelling in latent space](https://sander.ai/2025/04/15/latents.html)<br>
 
 - [2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
   - 2025 - New York is a Zoo
   - 2025 - The Retrieval
-<br>
-- [Sparse Autoencoders - 2024 - Scaling and evaluating sparse autoencoder](https://arxiv.org/abs/2406.04093)
-
-
-
-<br><br><br><br>
-
-
-
-## References
-
-
-<br>
-
-- EVA-CLIP (2023), OpenCLIP (2023), CLIP-ViP (2023)
-- [Multimodal Nerons in NNs](https://distill.pub/2021/multimodal-neurons/)
-- LiT - 2022
-- ALIGN - 2021
-
-
-<br>
-
- 
-- [PaliGemma 2 - 2024](https://arxiv.org/abs/2412.03555)
-
-- [CLIP - ICML 2021 - Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
-
-- [Multi-Layer Sparse Autoencoders - ICLR 2025](https://github.com/tim-lawson/mlsae)
-
-- [Alpha-CLIP - CVPR 2024 - A CLIP Model Focusing on `Wherever` You Want](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Alpha-CLIP_A_CLIP_Model_Focusing_on_Wherever_You_Want_CVPR_2024_paper.html)
-
-
-<br><br>
-
-
-**Total Loss**
-
-$$
-\mathcal{L}_{\mathrm{flow}} = \bigl\lVert z_{t+1} - \mathrm{warp}(z_t, f_{t\to t+1}) \bigr\rVert_{1}
-$$
 
 
 <br><br><br>
 
 
 
-## References
+## References 1
 
 <br>
 
@@ -795,6 +708,34 @@ $$
 - **Architecture**: Adopt DiT’s diffusion-Transformer for cross-scene realface rendering  
 - **Interaction Consistency**: Integrate diadic modeling to handle speaking and listening coherently  
 - **Memory Extension**: Add a latent memory module to preserve character traits across sessions
+
+
+
+<br><br>
+
+
+## References 2
+
+<br>
+
+2D
+
+[DINOv3]
+[SAM 2]
+
+<br>
+
+3D
+
+
+
+
+<br>
+
+4D
+
+
+
 
 
 <br><br><br>
