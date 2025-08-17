@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - Robots Navigation
-description: 4D Human Profile
+title: 2026 - Thesis - 
+description: CUT3R
 img: assets/img/4.jpg
 importance: 6
 category: work
