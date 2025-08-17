@@ -709,6 +709,8 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
 
+[2023 - LightGlue](https://arxiv.org/pdf/2306.13643)
+
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
 [COLMAP], [GLOMAP]
