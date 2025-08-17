@@ -35,6 +35,28 @@ Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Recon
 
 <br>
 
+## Implicit 3D representation <- Add into the pipeline
+
+**Stage 1**
+
+Implicit 3D representation of NeRF/SDF
+
+<br>
+
+**Stage 2**
+
+Extending to 4D - D-NeRF, HyperNeRF (NeRF + time), MoDGS, and GFlow
+
+**Stage 3**
+
+After 3D reconstruction, replace static implicit 3D with dynamic implicit 4D
+
+**Stage 4**
+
+Advanced: Incorporate Riemannian consistency to understand how to model dynamic scenes as continuous flow fields rather than frames
+
+<br><br>
+
 `3D -> 4D Segmentation / Understanding`
 
 Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
