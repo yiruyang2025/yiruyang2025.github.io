@@ -27,7 +27,7 @@ related_publications: true
 ```
 Sparse Data (Images / Videos)
    ↓
-Feature Matching (StereoGlue) ——> [Robust Projective Consistency]
+Feature Matching (📍 StereoGlue) ——> [Guided Projective Consistency]
    ↓
 SfM (COLMAP / GLOMAP) ——> [Projective Consistency]
    ↓
@@ -36,7 +36,7 @@ SfM (COLMAP / GLOMAP) ——> [Projective Consistency]
 4D Dynamic Modeling (Shape of Motion / MoDGS / GFlow)
    + Implicit 4D Representations ——> [Riemannian Spatio-temporal Consistency]
    ↓
-Zero-shot Semantic Alignment (OpenScene / PanSt3R) ——> [Feature-space Consistency]
+Zero-shot Semantic Alignment (📍 OpenScene / PanSt3R) ——> [Feature-space Consistency]
    ↓
 Final Output: 3D → 4D **Zero-shot**, Semantic-aware, Globally-consistent Reconstruction
 ```
