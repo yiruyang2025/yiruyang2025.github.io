@@ -32,21 +32,23 @@ related_publications: true
 ```
 Sparse Images / Videos
    ↓
-📍 Scalable 4D StereoGlue
+Scalable 4D StereoGlue📍
    - Spatial matching
    - Temporal consistency
-   - Inject Global Semantic Priors (DINOv3 / 📍 OpenScene / SAM)
+   - Inject Global Semantic Priors (DINOv3 / OpenScene / SAM)
    ↓
-SfM / 📍 VGGT (pose & structure)
+SfM / 📍VGGT (pose & structure)
    ↓
 3D Reconstruction (DUSt3R / MASt3R)
    ↓
 4D Dynamic Modeling (Shape of Motion / MoDGS)
    ↓
 Zero-shot Semantic Alignment
+   - 📍OpenScene (open-vocab 3D semantics)
+   - 📍PanSt3R (4D panoptic consistency)
    ↓
-Consistent, semantic-aware 3D→4D reconstruction
-```
+Final Output - Consistent, semantic-aware 3D→4D reconstruction
+``
 
 
 <br><br>
