@@ -148,13 +148,6 @@ PanSt3R (ICCV 2025)
 
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
-<br>
-
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
-
-
-
 
 
 <br><br><br><br><br>
@@ -267,18 +260,6 @@ Hybrid models:
 🏗️ SDF = Invisible Sculptor Guided by Distance and Space Curvature
 ```
 
-
-<br><br>
-
-
-
-| Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
-| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Core Idea             | Encodes and decodes fixed-topology meshes (e.g., triangle meshes)    | Learns a function $f(x) \rightarrow \mathbb{R}$ describing geometry per point (e.g., SDF or occupancy) |
-| Data Structure        | Explicit meshes (vertices + faces)                                   | Continuous scalar fields (implicit functions)                                                          |
-| Suitable For          | Bodies, faces, organs with consistent topology                       | Arbitrary topology, volumetric shapes (e.g., furniture, animals, organic forms)                        |
-| Representative Models | Mesh-VAE, CoMA, SpiralVAE, MeshDiffusion                             | DeepSDF, Occupancy Networks, NeRF, SIREN                                                               |
-| Advantages            | Controllable, interpretable, easy for interpolation and registration | No need for fixed mesh, can handle varying topology and finer geometry                                 |
 
 <br><br>
 
