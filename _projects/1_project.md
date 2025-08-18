@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln` + LoRA-guided Dynamic + Geometric Distillation
+**Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln` + LoRA-guided Dynamic + 3D Geometric Distillation
 
 parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
@@ -63,7 +63,7 @@ Training Loop
 
 `WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
 
-Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment in the 3D Space)
+Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment in the 3D Space, with Riemann Space Constraints)
 
 <br>
 
