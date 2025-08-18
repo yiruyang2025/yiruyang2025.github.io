@@ -58,11 +58,14 @@ SfM / Pose Graph Optimization
    - DUSt3R / MASt3R → dense 3D points / implicit field
    ↓
 4D Dynamic Modeling
-   - Shape of Motion / MoDGS → temporal scene flow
-   - Track objects/geometry across time
+   - 📍 Shape of Motion (ICCV 2025 Highlight) → motion bases + long-range 3D tracks
+     - Explicit 4D motion representation for consistent object/scene tracking
+   - MoDGS / GFlow → dynamic Gaussian representation for photorealistic rendering
+     - Dense temporal splatting, novel view synthesis
+   - Together: temporal scene flow + geometry-motion alignment
    ↓
 Semantic Injection (next-gen)
-   - 📍 GEN3C / Segment3D / OpenScene → geometry-aware semantic embedding
+   - 📍 OpenScene / GEN3C / Segment3D → geometry-aware semantic embedding
    - SAM2 (ICCV 2024, Meta) → open-vocab 2D/Video segmentation, temporal mask propagation
    - 📍 DINOv3 → global visual priors (patch-level)
    ↓
