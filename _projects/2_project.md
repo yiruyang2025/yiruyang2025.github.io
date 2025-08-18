@@ -235,8 +235,9 @@ PanSt3R (ICCV 2025)
 <br>
 
 
-## Traditional SfM - Structure-from-Motion -> End-to-End Transformer Neural Pipeline
+## Traditional SfM (Structure-from-Motion) -> End-to-End Transformer Neural Pipeline
 
+<br>
 
 | Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
 | ------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
