@@ -14,33 +14,30 @@ related_publications: true
 
 <br>
 
-[2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
-
-[2025 - SIGGRAPH Best Paper - TokenVerse](https://token-verse.github.io/)
+[2025 - TokenVerse](https://token-verse.github.io/)
 
 
 
 <br><br>
 
-## Potential Key Contributions
+## Key Contributions
 
 
 <br>
 
-An end-to-end pipeline
-
-<br>
-
-## Benchmarks and SOTAs - 📍 pending 1/3
 
 
 <br>
 
-[2025 - PanSt3R](https://arxiv.org/abs/2506.21348)
+## Benchmarks and SOTAs
 
+
+<br>
+
+A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
