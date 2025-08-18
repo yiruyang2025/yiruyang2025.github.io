@@ -62,6 +62,14 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 [📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
+
+[2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
+
+[2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
+
+[2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
+
+
 <br>
 
 `1. Geometry-Centric 3D Models`
@@ -75,6 +83,7 @@ MASt3R (ECCV 2024)
 VGGT (CVPR 2025)
   - Image Sequences → Geometry-Grounded Attention → 3D Pose & Structure
 
+<br>
 
 `2. Semantic + Geometry Joint Models`
 
@@ -107,14 +116,6 @@ PanSt3R (ICCV 2025)
 
 <br><br><br>
 
-
-**Some Other References**
-
-[2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
-
-[2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
-
-[2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
 
 
 <br><br>
