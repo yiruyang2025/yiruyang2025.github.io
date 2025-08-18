@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Feed forward network for 4d Semantic and Instance Segmentation
+description: Feed forward network for 4D Semantic and Instance Segmentation
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -21,38 +21,7 @@ related_publications: true
 [2025 - MonST3R](https://monst3r-project.github.io/)
 
 
-<br>
-
-
-## Why Feed Forward Network (FFN)
-
-<br>
-
-1. Real-time efficiency (low-latency parallel inference)
-
-2. Temporal consistency (avoids tracking error propagation)
-
-3. Simple architecture (end-to-end learning, less reliance on manual geometry optimization)
-
-4. Stronger generalization (combined with large models/pre-trained backbone for scalability)
-
-5. Aligned with cutting-edge trends (MonST3R, SegNet4D, and Uni4D all emphasize the feed-forward paradigm)
-
-
-<br>
-
-## Alternatives - Transformer-based Temporal Models
-
-<br>
-
-1. 4D-Former (2023) → LiDAR + vision fusion for panoptic 4D segmentation
-
-2. Point Primitive Transformer (2022) → hierarchical transformer capturing 4D spatial-temporal context
-
-3. Mask4Former: Mask Transformer for 4D Panoptic Segmentation (arXiv 2023)
-
-
-<br><br>
+<br><br><br><br>
 
 
 ## Key Contributions
@@ -70,17 +39,14 @@ A FFN for 4d Segmentation - Semantic and Instance
 ## Benchmarks and SOTAs
 
 
+<br><br><br>
+
+
 
 ## 1. 4D
 
 <br>
 
-
-[2025 - Uni4D](https://github.com/Davidyao99/uni4d)
-
-[📍 2024 - SegNet4D](https://github.com/nubot-nudt/SegNet4D)
-
-[2019 - 4D Spatio-Temporal ConvNets](https://github.com/chrischoy/SpatioTemporalSegmentation?tab=readme-ov-file)
 
 <br><br><br>
 
@@ -89,7 +55,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-[📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 <br>
 
@@ -147,6 +113,13 @@ PanSt3R (ICCV 2025)
 <br>
 
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
+
+<br>
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
+
+<br>
 
 
 
@@ -263,6 +236,43 @@ Hybrid models:
 
 <br><br>
 
+
+
+| Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Core Idea             | Encodes and decodes fixed-topology meshes (e.g., triangle meshes)    | Learns a function $f(x) \rightarrow \mathbb{R}$ describing geometry per point (e.g., SDF or occupancy) |
+| Data Structure        | Explicit meshes (vertices + faces)                                   | Continuous scalar fields (implicit functions)                                                          |
+| Suitable For          | Bodies, faces, organs with consistent topology                       | Arbitrary topology, volumetric shapes (e.g., furniture, animals, organic forms)                        |
+| Representative Models | Mesh-VAE, CoMA, SpiralVAE, MeshDiffusion                             | DeepSDF, Occupancy Networks, NeRF, SIREN                                                               |
+| Advantages            | Controllable, interpretable, easy for interpolation and registration | No need for fixed mesh, can handle varying topology and finer geometry                                 |
+
+<br><br>
+
+
+## Tasks Matching
+
+
+| Task Description                        | Recommended Method       | Reason                                                                |
+| --------------------------------------- | ------------------------ | --------------------------------------------------------------------- |
+| Modeling same-topology objects          | Mesh-VAE                 | Mesh connectivity is fixed and suitable for morphable structures      |
+| Generating arbitrary shapes or plants   | Implicit Geometry        | Better suited for freeform, non-uniform topology                      |
+| Image-to-3D with high variation         | Hybrid (Mesh + Implicit) | Mesh gives structure; NeRF/SDF adds realism and detail                |
+| Medical shape modeling with priors      | Mesh-VAE + SDF           | Prior modeling with explicit structure, refined via continuous fields |
+| Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
+
+<br><br>
+
+## Background Knowledge
+
+<br>
+
+**Semantic Implicit (NeRF)**
+
+[1] Monocular Semantic Reconstruction Using NeRF-Lifted Noisy Priors, tightly couples single-
+view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
+in NeRF through "Lifted Priors" and reconstructs the complete scene
+
+<br>
 
 ## Visual Computing
 
