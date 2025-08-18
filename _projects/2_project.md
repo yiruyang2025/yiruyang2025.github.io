@@ -31,12 +31,18 @@ related_publications: true
 
   - `Feature Matching Backbone`
     - StereoGlue is extended to a 4D backbone
+   
+  
   - `Semantic-aware`
     - SAM2 + OpenScene + DINOv3 → open-vocab semantic injection
 
 <br>
 
-  - **A Semantic-aware 4D Matching Backbone**
+  - **A Semantic-aware 4D Segmentation Backbone**
+
+<br>
+
+## Benchmarks
 
 <br><br>
 
