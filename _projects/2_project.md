@@ -1,8 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: 4D Segmentation, Stereoglue, DINOv3, OpenScene, A 3d-4d feature matching / Semantic-aware Segmentation Labels
-img: assets/img/4.jpg
+description: 4D Segmentation, Stereoglue, DINOv3, OpenScene, A end-to-end pipeline
 importance: 2
 category: work
 related_publications: true
