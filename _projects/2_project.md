@@ -30,9 +30,16 @@ related_publications: true
 
 <br>
 
-**A Semantic-aware 4D Segmentation Backbone**
+| Aspect   | StereoGlue (Original, ECCV 2024)                                  | Semantic-aware 4D StereoGlue (Your Work)                                         |
+| -------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Type     | Robust geometric feature matcher                                   | 4D-aware segmentation backbone (geometry + semantics + temporal consistency)     |
+| Input    | Image pair (two views)                                             | Multi-view video sequence                                                        |
+| Output   | Clean 2D–2D correspondences + estimated geometry (E/F/pose)        | Globally consistent **4D panoptic labels** (geometry + class + instance IDs)     |
+| Process  | Feature detection → Descriptor extraction → Matching → Minimal solvers | Multi-view matching → SfM / VGGT geometry → 3D dense recon → Semantic injection → 4D panoptic fusion |
+| Application | SfM, relative pose estimation, geometric verification           | 4D dataset generation (semantic annotations), 4D reconstruction, segmentation, tracking |
+| Pros     | Accurate, mathematically grounded, robust to outliers              | Unified geometry + semantics + time, produces full 4D annotations automatically  |
+| Cons     | Limited to pairwise geometry, no semantics, no temporal modeling   | More complex pipeline, relies on large pretrained vision/segmentation models     |
 
-- 3D->3D Feature Matching `StereoGlue` -> Form a `4D-aware representation`, and ultimately support automatic generation of 4D semantic annotations
 
 <br>
 
