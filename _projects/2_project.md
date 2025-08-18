@@ -776,7 +776,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 **3D**
 
 
-[📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Projective Consistency
+[📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Feature Matching
 
 
 [📍 2025 - VGGT](https://vgg-t.github.io/)
