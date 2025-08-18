@@ -110,7 +110,23 @@ Final Output
 ```
 
 
-<br><br>
+<br>
+
+
+## Final output (Draft)
+
+<br>
+
+| **Aspect**       | **StereoGlue (Original)**                                                   | **Semantic-aware 4D StereoGlue (This Work)**                                                                                    |
+| ---------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Core Output**  | `matches_stereoglue.npz` (clean 2D–2D correspondences) + estimated E/F/pose | Matching + geometry + semantics + temporal consistency → a complete `scene_root/` dataset directory                             |
+| **Model Nature** | Lightweight deep-learning matcher (not a foundation model)                  | Multi-module pipeline (matcher + SfM/VGGT + DINOv3/OpenScene/SAM2 + 3DGS)                                                       |
+| **Usage**        | SfM, relative pose estimation, geometric verification                       | Automated **4D panoptic dataset generation**, 4D reconstruction, segmentation, tracking, visualization                          |
+| **Essence**      | **Robust matching tool**                                                    | **4D-aware semantic annotation pipeline** (integrating geometry + semantics + temporal consistency into a dataset-ready format) |
+
+
+
+<br>
 
 ```
 scene_root/
