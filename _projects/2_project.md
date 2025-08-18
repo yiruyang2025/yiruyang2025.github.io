@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Scalable 4d 'Stereoglue', with Gobal Semantic Priors, for Segmentation
+description: 4D Segmentation, Stereoglue, DINOv3, OpenScene
 img: assets/img/4.jpg
 importance: 2
 category: work
