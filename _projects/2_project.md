@@ -49,8 +49,10 @@ Feature Detection + Descriptor Extraction
    - Produces robust 2D–2D & 2D–3D correspondences
    ↓
 SfM / Pose Graph Optimization
-   - COLMAP / 📍 VGGT → camera poses + sparse 3D
-   - StereoGlue’s inliers reduce drift + noise
+   - COLMAP (classical baseline)
+   - 📍 VGGT (CVPR 2025) → geometry-grounded transformer backbone
+     - Jointly estimates camera poses, sparse 3D, and tracks
+     - Stronger alternative to SfM + COLMAP
    ↓
 3D Dense Reconstruction
    - DUSt3R / MASt3R → dense 3D points / implicit field
@@ -59,19 +61,19 @@ SfM / Pose Graph Optimization
    - Shape of Motion / MoDGS → temporal scene flow
    - Track objects/geometry across time
    ↓
-Semantic Injection
-   - 📍 DINOv3 (global semantic priors)
-   - SAM2 (instance masks, propagated temporally)
-   - 📍 OpenScene → 3D semantic grounding
+Semantic Injection (next-gen)
+   - 📍 GEN3C / Segment3D / OpenScene → geometry-aware semantic embedding
+   - SAM2 (ICCV 2024, Meta) → open-vocab 2D/Video segmentation, temporal mask propagation
+   - (Optional) DINOv3 → global visual priors (patch-level)
    ↓
 Temporal Semantic Consistency
-   - PanSt3R → 4D panoptic consistency
-   - Ensures same object ID across frames
+   - 📍 PanSt3R (ICCV 2025) → multi-view panoptic consistency
+   - Ensures object IDs are consistent across frames (4D panoptic tracking)
    ↓
 Final Output
    **4D Segmentation** (geometry + temporal semantics)
    - 📍 Per-object / per-instance labels
-   - Consistent across both space & time
+   - Globally consistent across both space & time
 ```
 
 
