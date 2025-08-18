@@ -120,32 +120,32 @@ scene_root/
 │   └── timestamps.txt                     # Mapping from frame index t to timestamps
 ├── calib/
 │   ├── intrinsics.json                    # Initial camera intrinsics (K, distortion, resolution) – may be incomplete/damaged
-│   ├── extrinsics_{method}.json           # Camera extrinsics/poses (aligned to global world coordinates, COLMAP/VGGT)
-│   └── 📍 gensfm_selfcalib.json           # GenSfM self-calibrated non-parametric intrinsics/extrinsics 
-                                           # 📍 handles unknown/damaged cameras, fisheye, catadioptric, or severe distortion
+│   ├── extrinsics_{method}.json           # Camera extrinsics/poses (aligned to global world coordinates, COLMAP/📍VGGT)
+│   └── gensfm_selfcalib.json              # 📍GenSfM self-calibrated non-parametric intrinsics/extrinsics 
+                                           # 📍handles unknown/damaged cameras, fisheye, catadioptric, or severe distortion
 ├── features/
 │   ├── keypoints_{method}.h5              # Keypoints (SuperPoint / ALIKED / DeDoDe)
 │   ├── desc_{method}.h5                   # Local descriptors
-│   └── matches_stereoglue.npz             # 2D-2D / 2D-3D matches (with confidence & geometric inlier mask)
+│   └── matches_stereoglue.npz📍            # 2D-2D / 2D-3D matches (with confidence & geometric inlier mask)
 ├── sfm/
-│   ├── sparse_points.ply                  # Sparse point cloud (GenSfM / COLMAP / VGGT)
+│   ├── sparse_points.ply                  # Sparse point cloud (COLMAP / 📍VGGT)
 │   └── pose_graph.json                    # Pose graph / edge constraints
 ├── geometry/
 │   ├── dense_points_dust3r.ply            # Dense 3D points (with per-point confidence)
 │   ├── tracks3d.csv                       # Long-term 3D tracks: id, t, x, y, z, confidence
 │   └── motion_bases_som.npz               # Shape-of-Motion SE(3) bases + per-point coefficients
 ├── semantics/
-│   ├── dinov3_patches.h5                  # DINOv3 patch-level features
-│   ├── openscene_feats.npz                # 3D semantic embeddings (aligned with text/image)
+│   ├── dinov3_patches.h5                  # 📍DINOv3 patch-level features
+│   ├── openscene_feats.npz                # 📍3D semantic embeddings (aligned with text/image)
 │   ├── sam2_masks/{t}/mask_{i}.png        # SAM2 per-frame instance masks (indexed color)
-│   └── class_vocab.json                   # Open-vocabulary class list (with aliases & text embeddings)
+│   └── class_vocab.json                   # 📍Open-vocabulary class list (with aliases & text embeddings)
 ├── panoptic/
 │   ├── per_view/
 │   │   ├── semantic_{t}_{cam}.png         # Per-frame semantic segmentation (palette indexed)
 │   │   ├── instance_{t}_{cam}.png         # Per-frame instance ID map (32-bit)
 │   │   └── panoptic_coco_{t}_{cam}.json   # Optional: COCO-style panoptic annotations
 │   ├── per_point_labels.ply               # Per-point attributes: class_id, instance_id
-│   └── id_tracklets.json                  # 4D object trajectories: {obj_id: [{t, SE3, visibility, mask_ref...}]}
+│   └── id_tracklets.json                  # 📍4D object trajectories: {obj_id: [{t, SE3, visibility, mask_ref...}]}
 ├── 3dgs/
 │   ├── gaussians.splat                    # MoDGS / GFlow / 3DGS representation (color / opacity / radius)
 │   ├── uplift_labels.ludvig.npz           # LUDVIG-upsampled 3D one-hot / probabilistic labels
