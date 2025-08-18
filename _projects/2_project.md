@@ -17,7 +17,6 @@ related_publications: true
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
-[2025 - TokenVerse](https://token-verse.github.io/)
 
 [2025 - MonST3R](https://monst3r-project.github.io/)
 
