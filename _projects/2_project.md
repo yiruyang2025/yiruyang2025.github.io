@@ -19,7 +19,7 @@ related_publications: true
 
 [2025 - TokenVerse](https://token-verse.github.io/)
 
-
+[2025 - MonST3R](https://monst3r-project.github.io/)
 
 <br><br>
 
@@ -39,21 +39,19 @@ related_publications: true
 
 A FFN for 4d Segmentation - Semantic and Instance
 
+<br><br><br>
+
+
+
+
+
+
+
+## Drafts 
+
 <br>
 
-
-
-## Pipeline
-
-<br>
-
-Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent 4D Segmentation Labels`
-
-  - 4D Segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
-  - **Geometry → Semantics → Temporal**
-  - 4D Panoptic Labels (geometry + semantics + instance IDs)，multi-view consistent
-  - 📍 PanSt3R (ICCV 2025) - baseline 1
-    - Multi-View Images → 🔄 Fuse Masks → 🧩 3D Segmented Scene
+**Pipeline**
 
 <br>
 
