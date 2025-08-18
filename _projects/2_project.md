@@ -93,15 +93,16 @@ scene_root/
 │   ├── images/{t:06d}_{cam}.png           # Raw multi-view frames
 │   └── timestamps.txt                     # Mapping from frame index t to timestamps
 ├── calib/
-│   ├── intrinsics.json                    # Camera intrinsics (K, distortion, resolution)
+│   ├── intrinsics.json                    # Initial camera intrinsics (K, distortion, resolution) – may be incomplete/damaged
 │   ├── extrinsics_{method}.json           # Camera extrinsics/poses (aligned to global world coordinates, COLMAP/VGGT)
-│   └── 📍 golmap_refined.json                # GOLMAP-optimized calibration (📍 handles rolling shutter and lens distortion)
+│   └── 📍 gensfm_selfcalib.json           # GenSfM self-calibrated non-parametric intrinsics/extrinsics 
+                                           # 📍 handles unknown/damaged cameras, fisheye, catadioptric, or severe distortion
 ├── features/
 │   ├── keypoints_{method}.h5              # Keypoints (SuperPoint / ALIKED / DeDoDe)
 │   ├── desc_{method}.h5                   # Local descriptors
 │   └── matches_stereoglue.npz             # 2D-2D / 2D-3D matches (with confidence & geometric inlier mask)
 ├── sfm/
-│   ├── sparse_points.ply                  # Sparse point cloud (COLMAP/VGGT)
+│   ├── sparse_points.ply                  # Sparse point cloud (GenSfM / COLMAP / VGGT)
 │   └── pose_graph.json                    # Pose graph / edge constraints
 ├── geometry/
 │   ├── dense_points_dust3r.ply            # Dense 3D points (with per-point confidence)
@@ -130,9 +131,7 @@ scene_root/
     └── timings_metrics.json               # PQ, RQ, SQ, runtime, ablation switches
 ```
 
-<br><br>
-
-
+<br>
 
 **Camera** – Multi-view and Self-calibration of distortion - GenSfM (Wang, Pan, Pollefeys & Larsson, 2025) provides a self-calibration solution for arbitrarily distorted cameras, which means that your reconstruction method can still work reliably with unknown/severely distorted lenses
 
