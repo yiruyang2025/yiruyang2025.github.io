@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Scalable 4d 'Stereoglue', with Gobal Semantic Priors
+description: Scalable 4d 'Stereoglue', with Gobal Semantic Priors, for Segmentation
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -28,8 +28,7 @@ related_publications: true
 <br>
 
 
-Scalable Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent` 4D Reconstruction
-
+Scalable Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent` 4D **Segmentation**
 <br>
 
 ```
