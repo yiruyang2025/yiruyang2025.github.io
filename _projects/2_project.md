@@ -39,10 +39,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 ## Benchmarks and SOTAs
 
 
-<br><br><br>
-
-
-
 ## 1. 4D
 
 <br>
@@ -261,18 +257,6 @@ Hybrid models:
 | Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
 
 <br><br>
-
-## Background Knowledge
-
-<br>
-
-**Semantic Implicit (NeRF)**
-
-[1] Monocular Semantic Reconstruction Using NeRF-Lifted Noisy Priors, tightly couples single-
-view semantic segmentation with multi-view geometry, constrains 2D→3D semantic consistency
-in NeRF through "Lifted Priors" and reconstructs the complete scene
-
-<br>
 
 ## Visual Computing
 
