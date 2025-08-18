@@ -119,14 +119,10 @@ PanSt3R (ICCV 2025)
 
 
 
-<br><br><br><br><br>
-
-
 ## Some Other topics
 
 <br>
 
-[2021 - Scaling vision with sparse mixture of experts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZHnRsrsAAAAJ&citation_for_view=ZHnRsrsAAAAJ:qUcmZB5y_30C)
 
 [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
 
@@ -172,8 +168,6 @@ PanSt3R (ICCV 2025)
 
 [C++ lib repo - toolkit](https://github.com/libigl)
 
-
-[2025 - Google Research - Measuring heart rate with consumer ultra-wideband radar](https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/)
 
 <br><br>
 
@@ -230,31 +224,6 @@ Hybrid models:
 ```
 
 
-<br><br>
-
-
-
-| Feature               | Mesh-VAE (Explicit Representation)                                   | Implicit Geometry (e.g., NeRF, SDF)                                                                    |
-| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Core Idea             | Encodes and decodes fixed-topology meshes (e.g., triangle meshes)    | Learns a function $f(x) \rightarrow \mathbb{R}$ describing geometry per point (e.g., SDF or occupancy) |
-| Data Structure        | Explicit meshes (vertices + faces)                                   | Continuous scalar fields (implicit functions)                                                          |
-| Suitable For          | Bodies, faces, organs with consistent topology                       | Arbitrary topology, volumetric shapes (e.g., furniture, animals, organic forms)                        |
-| Representative Models | Mesh-VAE, CoMA, SpiralVAE, MeshDiffusion                             | DeepSDF, Occupancy Networks, NeRF, SIREN                                                               |
-| Advantages            | Controllable, interpretable, easy for interpolation and registration | No need for fixed mesh, can handle varying topology and finer geometry                                 |
-
-<br><br>
-
-
-## Tasks Matching
-
-
-| Task Description                        | Recommended Method       | Reason                                                                |
-| --------------------------------------- | ------------------------ | --------------------------------------------------------------------- |
-| Modeling same-topology objects          | Mesh-VAE                 | Mesh connectivity is fixed and suitable for morphable structures      |
-| Generating arbitrary shapes or plants   | Implicit Geometry        | Better suited for freeform, non-uniform topology                      |
-| Image-to-3D with high variation         | Hybrid (Mesh + Implicit) | Mesh gives structure; NeRF/SDF adds realism and detail                |
-| Medical shape modeling with priors      | Mesh-VAE + SDF           | Prior modeling with explicit structure, refined via continuous fields |
-| Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
 
 <br><br>
 
