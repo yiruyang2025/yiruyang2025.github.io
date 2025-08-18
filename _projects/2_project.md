@@ -21,6 +21,15 @@ related_publications: true
 
 [2025 - SIGGRAPH Best Paper - TokenVerse](https://token-verse.github.io/)
 
+
+
+<br><br>
+
+## Potential Key Contributions
+
+  - Matching Backbone - StereoGlue is extended to a 4D backbone that combines geometry, semantics, and time
+  - Semantic-aware - SAM2 + OpenScene + DINOv3 → open-vocab semantic injection
+
 <br><br>
 
 ## Pipeline
