@@ -32,24 +32,41 @@ Scalable Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Co
 <br>
 
 ```
-Sparse Images / Videos
+Sparse Multi-View Images / Video Streams
    ↓
-Scalable 4D StereoGlue 📍
-   - Spatial matching
-   - Temporal consistency
-   - Inject Global Semantic Priors (DINOv3 / OpenScene / SAM)
+Feature Detection + Descriptor Extraction
+   - SuperPoint / DeDoDe / ALIKED
+   - AffNet → affine correspondences (AC)
    ↓
-SfM / 📍 VGGT (pose & structure)
+📍StereoGlue (Joint Matching + Robust Estimation)
+   - One-to-many → guided one-to-one matching
+   - Minimal solvers (1AC+uG / 1AC+mD) for relative pose
+   - Produces robust 2D–2D & 2D–3D correspondences
    ↓
-3D Reconstruction (DUSt3R / MASt3R)
+SfM / Pose Graph Optimization
+   - COLMAP / 📍VGGT → camera poses + sparse 3D
+   - StereoGlue’s inliers reduce drift + noise
    ↓
-4D Dynamic Modeling (Shape of Motion / MoDGS)
+3D Dense Reconstruction
+   - DUSt3R / MASt3R → dense 3D points / implicit field
    ↓
-Zero-shot Semantic Alignment
-   - 📍 OpenScene (open-vocab 3D semantics)
-   - PanSt3R (4D panoptic consistency)
+4D Dynamic Modeling
+   - Shape of Motion / MoDGS → temporal scene flow
+   - Track objects/geometry across time
    ↓
-Final Output - Consistent, semantic-aware 3D→4D reconstruction
+Semantic Injection
+   - 📍DINOv3 (global semantic priors)
+   - SAM2 (instance masks, propagated temporally)
+   - 📍OpenScene → 3D semantic grounding
+   ↓
+Temporal Semantic Consistency
+   - PanSt3R → 4D panoptic consistency
+   - Ensures same object ID across frames
+   ↓
+Final Output
+   **4D Segmentation** (geometry + temporal semantics)
+   - 📍Per-object / per-instance labels
+   - Consistent across both space & time
 ```
 
 
