@@ -65,10 +65,9 @@ Final Output - Consistent, semantic-aware 3D→4D reconstruction
 <br><br>
 
 
-## 1/2 Traditional SfM - Structure-from-Motion
+`Traditional SfM - Structure-from-Motion -> End-to-End Transformer Neural Pipeline`
 
-
-## 2/2 End-to-End Transformer Neural Pipeline
+<br>
 
 
 | Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
