@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Feed forward network for 4D Semantic and Instance Segmentation
+description: Feed forward network for 4d Semantic and Instance Segmentation
 img: assets/img/4.jpg
 importance: 2
 category: work
