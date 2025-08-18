@@ -112,14 +112,14 @@ Final Output
 
 <br>
 
-📍 PanSt3R (ICCV 2025) - baseline 1
+PanSt3R (ICCV 2025) - baseline 1
     - Multi-View Images → Fuse Masks → 3D Segmented Scene
 
 
 <br>
 
 
-## Final Output - 📍 pending 3/3
+## Final Repo - 📍 pending 3/3
 
 <br>
 
