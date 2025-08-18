@@ -112,16 +112,9 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
-
-<br>
-
 
 
 ## Some Other topics
-
-<br>
 
 
 [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
