@@ -64,12 +64,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
-
 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
-
-
-<br>
-
 
 [2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
@@ -295,22 +290,6 @@ Hybrid models:
 ## Background Knowledge
 
 <br>
-
-
-[Algorithmic Simplicity](https://www.youtube.com/@algorithmicsimplicity)
-
-[3D Reconstruction from Images](https://www.youtube.com/watch?v=tqBD6rxiul4)
-
-[Andreas Geiger - Deep Models for 3D Reconstruction - 2020](https://www.youtube.com/watch?v=Rfb1J3fJMYA)
-
-[2023 - AGILE3D](https://arxiv.org/abs/2306.00977)
-
-[2023 - AudioPaLM - Google Research](https://arxiv.org/abs/2306.12925)
-
-[2023 - AudioCraft](https://github.com/facebookresearch/audiocraft)
-
-
-<br><br>
 
 **Semantic Implicit (NeRF)**
 
