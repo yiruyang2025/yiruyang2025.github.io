@@ -44,12 +44,8 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-| Category                               | Representative Works / Applications                                                                                                                                                                                                                                             |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic/instance), **Flood-Filling Networks** (NeurIPS’17, neuron segmentation), **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D)                                                                                     |
-| **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025, open-vocab semantic features), **VGGT** (CVPR’25, geometry + segmentation backbone), **PanSt3R** (CVPR’25, ETH, 4D panoptic segmentation), **MonST3R** (CVPR’25, Meta+ETH, motion-aware segmentation), **Shape of Motion** (CVPR’25, Meta Reality Labs) |
-| **Frameworks (DeepMind/Google)**       | **TensorFlow 3D (TF3D)** (Google/DeepMind, 3D segmentation library), **TensorFlow 4D (TF4D)** (experimental, spatio-temporal segmentation for 4D dynamic scenes)                                                                                                                |
-| **Industry Applications**              | **Meta Reality Labs** (AR/VR semantic & instance segmentation, Project Aria), **DeepMind** (scene segmentation research, TF3D/4D), **NVIDIA Isaac** (4D obstacle segmentation for robotics), **Apple ARKit** (semantic scene segmentation)                                      |
+
+
 
 
 
@@ -103,15 +99,12 @@ PanSt3R (ICCV 2025)
 ## Why FFN
 
 <br>
-
-| Task                                  | FFN (Feed Forward)                                                                                     | Transformer                                                               |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17, FFN-style MLP), Flood-Filling Networks (NeurIPS’17, Google Connectomics) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)     |
-| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI (4D biomedical imaging)                                | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta+ETH)                       |
-| **3D Reconstruction**                 | Neural Volumes (SIGGRAPH’19, Facebook Reality Labs, FFN decoder), NeRF-style MLPs (ECCV’20, Google)    | DUSt3R (CVPR’24), MASt3R (CVPR’24, Meta), VGGT (CVPR’25, Oxford/Meta)     |
-| **4D Reconstruction**                 | Neural Scene Flow Fields (CVPR’20, FFN-based MLPs), D-NeRF (ECCV’20, dynamic NeRF), NVIDIA Instant-NGP | Shape of Motion (CVPR’25, Meta), PanSt3R 4D panoptic (CVPR’25, ETH)       |
-| **Industry (3D)**                     | Google Connectomics (large-scale 3D neuron maps), NVIDIA Clara (medical 3D recon)                      | Meta Horizon (AR/VR), Tesla/Waymo/NVIDIA Drive (LiDAR segmentation)       |
-| **Industry (4D)**                     | NVIDIA Isaac Sim (real-time 4D dynamic reconstruction / robotics), ARKit Scene Reconstruction (Apple)  | Waymo 4D Panoptic, Meta Reality Labs (Aria dataset, AR/VR dynamic scenes) |
+| Category                               | Representative Works / Applications                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic & instance segmentation) <br> **Flood-Filling Networks** (NeurIPS’17, large-scale neuron segmentation) <br> **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D segmentation)                                                                                                         |
+| **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025 – open-vocabulary semantic features) <br> **VGGT** (CVPR’25 – geometry + segmentation backbone) <br> **PanSt3R** (CVPR’25, ETH – 4D panoptic segmentation) <br> **MonST3R** (CVPR’25, Meta+ETH – motion-aware segmentation) <br> **Shape of Motion** (CVPR’25, Meta Reality Labs – dynamic 4D reconstruction & segmentation) |
+| **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
+| **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
 
 
 <br><br><br>
