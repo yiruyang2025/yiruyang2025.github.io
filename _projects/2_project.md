@@ -32,6 +32,9 @@ Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent 
 
   - 4D Segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
   - **Geometry → Semantics → Temporal**
+  - 4D Panoptic Labels (geometry + semantics + instance IDs)，multi-view consistent
+  - 📍 PanSt3R (ICCV 2025) - baseline 1
+    - Multi-View Images → 🔄 Fuse Masks → 🧩 3D Segmented Scene
 
 <br>
 
@@ -74,7 +77,6 @@ Temporal Semantic Consistency
    - Ensures object IDs are consistent across frames (4D panoptic tracking)
    ↓
 Final Output
-
    **4D Segmentation** (geometry + temporal semantics)
    - 📍 Per-object semantics (labels from Semantic Injection)
    - Temporal consistency (PanSt3R ID tracking)
