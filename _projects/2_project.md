@@ -85,13 +85,12 @@ PanSt3R (ICCV 2025)
 
 ## Why FFN
 
-| Task                                  | FFN (Feed Forward)                                                         | Transformer                                                             |
-| ------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17), Flood-Filling Networks (NeurIPS’17, Google) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)   |
-| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI segmentation               | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta)                         |
-| **Industry (3D)**                     | Google Connectomics, NVIDIA medical imaging                                | Meta Horizon, Tesla/Waymo/NVIDIA Drive                                  |
-| **Industry (4D)**                     | NVIDIA Isaac (real-time 4D obstacle segmentation)                          | Waymo 4D Panoptic, Meta Reality Labs (Aria, AR/VR dynamic segmentation) |
-
+| Task                                  | FFN (Feed Forward)                                                                | Transformer                                                             |
+| ------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17, FFN-style MLP), Flood-Filling Networks (NeurIPS’17) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)   |
+| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI segmentation (biomedical imaging) | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta+ETH)                     |
+| **Industry (3D)**                     | Google Connectomics (3D neuron segmentation), NVIDIA medical imaging              | Meta Horizon (AR/VR), Tesla/Waymo/NVIDIA Drive (LiDAR segmentation)     |
+| **Industry (4D)**                     | NVIDIA Isaac (real-time 4D perception / obstacle segmentation)                    | Waymo 4D Panoptic, Meta Reality Labs (Aria: AR/VR dynamic segmentation) |
 
 
 
