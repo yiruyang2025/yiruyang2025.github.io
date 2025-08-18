@@ -21,7 +21,7 @@ related_publications: true
 
 [2025 - SIGGRAPH Best Paper - TokenVerse](https://token-verse.github.io/)
 
-<br>
+<br><br>
 
 ## Pipeline
 
