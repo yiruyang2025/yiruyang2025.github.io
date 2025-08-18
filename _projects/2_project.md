@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: A 4D Segmentation pipeline
+description: Feed forward network for 4D Semantic and Instance Segmentation
 img: assets/img/4.jpg
 importance: 2
 category: work
