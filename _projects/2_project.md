@@ -41,15 +41,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-
-<br><br><br><br><br><br>
-
-
-
-
-<br><br><br>
-
-
 ## 1. 4D
 
 <br>
@@ -62,30 +53,29 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
+
+FFN for 3d Segmentation - Semantic and Instance
+
+
+
+<br><br><br>
+
+
+
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
-
-[2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
-
-[2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
 
 <br><br>
 
 `1. Geometry-Centric 3D Models`
 
-<br>
-
 DUSt3R (CVPR 2024)
 
   - 2D Images → 🔗 Feature Matching → 🏗️ 3D Structure
 
-<br>
-
 MASt3R (ECCV 2024)
 
   - Images → 📌 3D-Aware Matching → 📏 Precise Geometry
-
-<br>
 
 VGGT (CVPR 2025)
 
@@ -97,19 +87,14 @@ VGGT (CVPR 2025)
 
 `2. Semantic + Geometry Joint Models`
 
-<br>
 
 SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI)
 
   - Video / 3D Stream → ⚡ SAM 2 Engine → 🎬 Consistent 2D/3D/4D Segmentation
 
-<br>
-
 PanSt3R (ICCV 2025)
 
   - Multi-View Images → 🔄 Fuse Masks → 🧩 3D Segmented Scene
-
-<br>
 
 4D Panoptic Extensions (CVPR 2024, Ego-Exo4D)
 
@@ -117,6 +102,7 @@ PanSt3R (ICCV 2025)
 
 
 <br><br><br>
+
 
 **Some Other References**
 
@@ -130,6 +116,7 @@ PanSt3R (ICCV 2025)
 
 
 <br><br>
+
 
 ## 3. 2D
 
@@ -166,8 +153,6 @@ PanSt3R (ICCV 2025)
 
 
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
-
-[2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
 
 
 <br><br>
@@ -413,7 +398,6 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 
 **2D**
 
-
 [📍 DINOv3]
 
 [SAM 2]
@@ -422,7 +406,6 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 <br>
 
 **3D**
-
 
 
 [📍 2025 - VGGT](https://vgg-t.github.io/)
