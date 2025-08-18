@@ -52,7 +52,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+[📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 <br>
 
@@ -84,6 +84,8 @@ PanSt3R (ICCV 2025)
 <br><br>
 
 ## Why FFN
+
+<br>
 
 | Task                                  | FFN (Feed Forward)                                                                | Transformer                                                             |
 | ------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
