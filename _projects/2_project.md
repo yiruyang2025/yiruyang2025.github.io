@@ -55,15 +55,9 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-
-FFN for 3d Segmentation - Semantic and Instance
-
-<br>
-
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
-
-<br><br>
+<br>
 
 `1. Geometry-Centric 3D Models`
 
@@ -103,8 +97,6 @@ PanSt3R (ICCV 2025)
 
 
 **Some Other References**
-
-<br>
 
 [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
