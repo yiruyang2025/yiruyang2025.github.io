@@ -26,6 +26,8 @@ related_publications: true
 
 ## Why Feed Forward Network (FFN)
 
+<br>
+
 1. Real-time efficiency (low-latency parallel inference)
 
 2. Temporal consistency (avoids tracking error propagation)
@@ -38,6 +40,13 @@ related_publications: true
 
 
 <br>
+
+## Alternatives - Transformer-based Temporal Models
+
+
+1. 4D-Former (CoRL 2023) → LiDAR + vision fusion for panoptic 4D segmentation
+
+2. Point Primitive Transformer (ECCV 2022) → hierarchical transformer capturing 4D spatial-temporal context
 
 
 
