@@ -38,13 +38,13 @@ Feature Detection + Descriptor Extraction
    - SuperPoint / DeDoDe / ALIKED
    - AffNet → affine correspondences (AC)
    ↓
-📍StereoGlue (Joint Matching + Robust Estimation)
+📍 StereoGlue (Joint Matching + Robust Estimation)
    - One-to-many → guided one-to-one matching
    - Minimal solvers (1AC+uG / 1AC+mD) for relative pose
    - Produces robust 2D–2D & 2D–3D correspondences
    ↓
 SfM / Pose Graph Optimization
-   - COLMAP / 📍VGGT → camera poses + sparse 3D
+   - COLMAP / 📍 VGGT → camera poses + sparse 3D
    - StereoGlue’s inliers reduce drift + noise
    ↓
 3D Dense Reconstruction
@@ -55,9 +55,9 @@ SfM / Pose Graph Optimization
    - Track objects/geometry across time
    ↓
 Semantic Injection
-   - 📍DINOv3 (global semantic priors)
+   - 📍 DINOv3 (global semantic priors)
    - SAM2 (instance masks, propagated temporally)
-   - 📍OpenScene → 3D semantic grounding
+   - 📍 OpenScene → 3D semantic grounding
    ↓
 Temporal Semantic Consistency
    - PanSt3R → 4D panoptic consistency
@@ -65,7 +65,7 @@ Temporal Semantic Consistency
    ↓
 Final Output
    **4D Segmentation** (geometry + temporal semantics)
-   - 📍Per-object / per-instance labels
+   - 📍 Per-object / per-instance labels
    - Consistent across both space & time
 ```
 
