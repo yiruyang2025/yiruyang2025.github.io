@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: 4D Segmentation pipeline
+description: A 4D Segmentation pipeline
+img: assets/img/4.jpg
 importance: 2
 category: work
 related_publications: true
