@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: Feed forward network for 4D Semantic and Instance Segmentation
+description: A Feed forward network for 4d Semantic and Instance Segmentation
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -18,7 +18,7 @@ related_publications: true
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
 
-[2025 - MonST3R](https://monst3r-project.github.io/)
+[📍 2025 - MonST3R](https://monst3r-project.github.io/)
 
 
 <br><br><br>
@@ -38,6 +38,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 ## Benchmarks and SOTAs
 
+<br>
 
 ## 1. 4D
 
@@ -110,12 +111,14 @@ PanSt3R (ICCV 2025)
 
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
-<br>
+
+<br><br><br><br><br>
 
 
 
 ## Some Other topics
 
+<br>
 
 [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
 
@@ -222,7 +225,6 @@ Hybrid models:
 
 ## Visual Computing
 
-<br>
 
 | Tuesday (Topic)                                                                                                  | Thursday (Topic)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -294,8 +296,6 @@ Hybrid models:
   - causal traceability in generation/decision chains  
   - end-to-end system-level trust guarantees
 
-<br>
-
 📍 **1. DiT (Diffusion Transformer)**
 - **Overview**: Combines Transformer context modeling with diffusion denoising  
 - **Examples**  
@@ -332,6 +332,16 @@ Hybrid models:
 
 <br>
 
+
+**4D**
+
+
+[📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+
+
+[2025 - Shape of Motion](https://shape-of-motion.github.io/)
+
+
 **2D**
 
 [DINOv3]
@@ -356,9 +366,6 @@ Hybrid models:
 
 <br>
 
-**4D**
-
-[2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
 
 
