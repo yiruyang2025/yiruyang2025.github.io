@@ -759,7 +759,7 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 **2D**
 
 
-[DINOv3]
+[📍 DINOv3]
 
 [SAM 2]
 
