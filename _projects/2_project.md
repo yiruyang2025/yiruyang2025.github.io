@@ -43,7 +43,7 @@ related_publications: true
 
 <br>
 
-## Benchmarks
+## Benchmarks and SOTAs
 
 
 <br><br>
