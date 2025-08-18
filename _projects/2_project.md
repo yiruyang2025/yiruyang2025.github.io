@@ -58,11 +58,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 FFN for 3d Segmentation - Semantic and Instance
 
-
-
-<br><br><br>
-
-
+<br>
 
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
