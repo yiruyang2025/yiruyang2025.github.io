@@ -21,7 +21,29 @@ related_publications: true
 [2025 - MonST3R](https://monst3r-project.github.io/)
 
 
-<br><br><br><br>
+<br>
+
+
+## Why Feed Forward Network (FFN)
+
+1. Real-time efficiency (low-latency parallel inference)
+
+2. Temporal consistency (avoids tracking error propagation)
+
+3. Simple architecture (end-to-end learning, less reliance on manual geometry optimization)
+
+4. Stronger generalization (combined with large models/pre-trained backbone for scalability)
+
+5. Aligned with cutting-edge trends (MonST3R, SegNet4D, and Uni4D all emphasize the feed-forward paradigm)
+
+
+<br>
+
+
+
+
+
+<br><br>
 
 
 ## Key Contributions
@@ -47,7 +69,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 [2025 - Uni4D](https://github.com/Davidyao99/uni4d)
 
-[2024 - SegNet4D](https://github.com/nubot-nudt/SegNet4D)
+[📍 2024 - SegNet4D](https://github.com/nubot-nudt/SegNet4D)
 
 [2019 - 4D Spatio-Temporal ConvNets](https://github.com/chrischoy/SpatioTemporalSegmentation?tab=readme-ov-file)
 
