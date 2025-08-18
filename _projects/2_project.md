@@ -59,35 +59,40 @@ A FFN for 4d Segmentation - Semantic and Instance
 `1. Geometry-Centric 3D Models`
 
 DUSt3R (CVPR 2024)
-
   - 2D Images → Feature Matching → 3D Structure
 
 MASt3R (ECCV 2024)
-
   - Images → 3D-Aware Matching → Precise Geometry
 
 VGGT (CVPR 2025)
-
   - Image Sequences → Geometry-Grounded Attention → 3D Pose & Structure
 
-
-
-<br>
 
 `2. Semantic + Geometry Joint Models`
 
 
-SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI)
-
+SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI
   - Video / 3D Stream → SAM 2 Engine → Consistent 2D/3D/4D Segmentation
 
 PanSt3R (ICCV 2025)
-
   - Multi-View Images → Fuse Masks → 3D Segmented Scene
 
 4D Panoptic Extensions (CVPR 2024, Ego-Exo4D)
-
   - Video → 3D Panoptic + Time → 4D Reconstruction
+
+
+<br><br>
+
+## Why FFN
+
+| Task                                  | FFN (Feed Forward)                                                         | Transformer                                                             |
+| ------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17), Flood-Filling Networks (NeurIPS’17, Google) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)   |
+| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI segmentation               | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta)                         |
+| **Industry (3D)**                     | Google Connectomics, NVIDIA medical imaging                                | Meta Horizon, Tesla/Waymo/NVIDIA Drive                                  |
+| **Industry (4D)**                     | NVIDIA Isaac (real-time 4D obstacle segmentation)                          | Waymo 4D Panoptic, Meta Reality Labs (Aria, AR/VR dynamic segmentation) |
+
+
 
 
 <br><br><br>
