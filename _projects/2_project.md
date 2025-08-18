@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: 4D Segmentation, Stereoglue, DINOv3, OpenScene, A end-to-end pipeline
+description: 4D Segmentation, Stereoglue, DINOv3, OpenScene, PanSt3R, An end-to-end pipeline
 importance: 2
 category: work
 related_publications: true
@@ -29,23 +29,19 @@ related_publications: true
 
 <br>
 
-| Aspect   | StereoGlue (Original, ECCV 2024)                                  | Semantic-aware 4D StereoGlue (This Project)                                         |
-| -------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Type     | Robust geometric feature matcher                                   | 4D-aware segmentation backbone (geometry + semantics + temporal consistency)     |
-| Input    | Image pair (two views)                                             | Multi-view video sequence                                                        |
-| Output   | Clean 2D–2D correspondences + estimated geometry (E/F/pose)        | Globally consistent **4D panoptic labels** (geometry + class + instance IDs)     |
-| Process  | Feature detection → Descriptor extraction → Matching → Minimal solvers | Multi-view matching → SfM / VGGT geometry → 3D dense recon → Semantic injection → 4D panoptic fusion |
-| Application | SfM, relative pose estimation, geometric verification           | 4D dataset generation (semantic annotations), 4D reconstruction, segmentation, tracking |
-| Pros     | Accurate, mathematically grounded, robust to outliers              | Unified geometry + semantics + time, produces full 4D annotations automatically  |
-| Cons     | Limited to pairwise geometry, no semantics, no temporal modeling   | More complex pipeline, relies on large pretrained vision/segmentation models     |
-
+An end-to-end pipeline
 
 <br>
 
 ## Benchmarks and SOTAs - 📍 pending 1/3
 
 
-<br><br>
+<br>
+
+[2025 - PanSt3R](https://arxiv.org/abs/2506.21348)
+
+
+<br>
 
 
 
