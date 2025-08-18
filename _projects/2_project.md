@@ -74,6 +74,7 @@ Temporal Semantic Consistency
    - Ensures object IDs are consistent across frames (4D panoptic tracking)
    ↓
 Final Output
+
    **4D Segmentation** (geometry + temporal semantics)
    - 📍 Per-object semantics (labels from Semantic Injection)
    - Temporal consistency (PanSt3R ID tracking)
