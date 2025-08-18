@@ -49,6 +49,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 [2024 - SegNet4D](https://github.com/nubot-nudt/SegNet4D)
 
+[2019 - 4D Spatio-Temporal ConvNets](https://github.com/chrischoy/SpatioTemporalSegmentation?tab=readme-ov-file)
 
 <br><br><br>
 
