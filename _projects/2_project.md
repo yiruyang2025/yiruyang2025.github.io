@@ -125,7 +125,7 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 <br>
 
-[2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
+[📍 2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
 
 <br><br>
