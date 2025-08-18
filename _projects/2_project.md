@@ -99,12 +99,16 @@ PanSt3R (ICCV 2025)
 ## Why FFN
 
 <br>
+
+
 | Category                               | Representative Works / Applications                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic & instance segmentation) <br> **Flood-Filling Networks** (NeurIPS’17, large-scale neuron segmentation) <br> **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D segmentation)                                                                                                         |
 | **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025 – open-vocabulary semantic features) <br> **VGGT** (CVPR’25 – geometry + segmentation backbone) <br> **PanSt3R** (CVPR’25, ETH – 4D panoptic segmentation) <br> **MonST3R** (CVPR’25, Meta+ETH – motion-aware segmentation) <br> **Shape of Motion** (CVPR’25, Meta Reality Labs – dynamic 4D reconstruction & segmentation) |
 | **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
 | **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
+
+
 
 
 <br><br><br>
