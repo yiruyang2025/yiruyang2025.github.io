@@ -283,11 +283,6 @@ Hybrid models:
 <br><br>
 
 
-
-## Background Knowledge
-
-<br>
-
 ## Visual Computing
 
 <br>
