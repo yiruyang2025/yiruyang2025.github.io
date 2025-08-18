@@ -39,13 +39,15 @@ A FFN for 4d Segmentation - Semantic and Instance
 ## Benchmarks and SOTAs
 
 
-<br><br><br>
-
-
 
 ## 1. 4D
 
 <br>
+
+
+[2025 - Uni4D](https://github.com/Davidyao99/uni4d)
+
+[2024 - SegNet4D](https://github.com/nubot-nudt/SegNet4D)
 
 
 <br><br><br>
@@ -55,7 +57,7 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+[📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 <br>
 
