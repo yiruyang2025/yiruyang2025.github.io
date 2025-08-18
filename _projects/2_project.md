@@ -27,29 +27,25 @@ related_publications: true
 
 ## Potential Key Contributions
 
-<br>
-
-  - `Feature Matching Backbone`
-    - StereoGlue is extended to a 4D backbone
-   
-  
-  - `Semantic-aware`
-    - SAM2 + OpenScene + DINOv3 → open-vocab semantic injection
 
 <br>
 
-  - **A Semantic-aware 4D Segmentation Backbone**
+**A Semantic-aware 4D Segmentation Backbone**
+
+- 3D->3D Feature Matching `StereoGlue` -> Form a `4D-aware representation`, and ultimately support automatic generation of 4D semantic annotations
 
 <br>
 
 ## Benchmarks
 
+
 <br><br>
+
+
 
 ## Pipeline
 
 <br>
-
 
 Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent 4D Segmentation Labels`
 
