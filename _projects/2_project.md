@@ -186,22 +186,6 @@ PanSt3R (ICCV 2025)
 <br><br><br><br>
 
 
-
-## 3D Reconstruction
-
-
-| Dimension            | 3D Gaussian Splatting                      | Explicit Grids/Voxels (e.g., Instant-NGP)       | Tensor Factorization (TensoRF) | Implicit SDF (NeuS family)                              | Dynamic/4D Scenes (Tensor4D)           |
-| -------------------- | ------------------------------------------ | ----------------------------------------------- | ------------------------------ | ------------------------------------------------------- | -------------------------------------- |
-| **Speed**            | Near real-time                             | Real-time to ultra-real-time                    | Real-time to near real-time    | Moderate to slow                                        | Moderate                               |
-| **Storage**          | Moderate (tens of MB)                      | High (hundreds of MB)                           | Low (a few MB)                 | Low–moderate (a few MB)                                 | Low–moderate                           |
-| **Geometry Quality** | Continuous, high-fidelity                  | Discrete, voxelized feel                        | Good                           | Excellent (smooth meshes)                               | As static plus temporal coherence      |
-| **Color/Lighting**   | Includes per-splat color                   | Includes (via textures or per-voxel)            | Usually includes color         | No (needs separate texture/renderer)                    | Matches static, adds time dimension    |
-| **Ease of Use**      | Simple model, flexible multi-source fusion | Mature pipelines, relies on explicit structures | Requires tensor math           | Requires supervised SDF training / volumetric rendering | Requires temporal decomposition design |
-
-
-
-<br><br>
-
 ```
 Mesh-VAE World                          Implicit Geometry World
 ═══════════════════════════════         ══════════════════════════════════
@@ -339,7 +323,7 @@ Hybrid models:
 
 <br>
 
-**4D**
+## 4D
 
 
 [📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
@@ -347,10 +331,12 @@ Hybrid models:
 
 [2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
+
+
 <br><br>
 
 
-**2D**
+## 2D
 
 [DINOv3]
 
@@ -359,7 +345,7 @@ Hybrid models:
 
 <br>
 
-**3D**
+## 3D
 
 
 [2025 - VGGT](https://vgg-t.github.io/)
