@@ -43,7 +43,7 @@ related_publications: true
 
 <br>
 
-## Benchmarks and SOTAs
+## Benchmarks and SOTAs - 📍 pending 1/3
 
 
 <br><br>
@@ -113,7 +113,7 @@ Final Output
 <br>
 
 
-## Final output (Draft)
+## Final output (Draft) - 📍 pending 2/3
 
 <br>
 
@@ -127,6 +127,9 @@ Final Output
 
 
 <br>
+
+
+## Repo - 📍 pending 3/3
 
 ```
 scene_root/
