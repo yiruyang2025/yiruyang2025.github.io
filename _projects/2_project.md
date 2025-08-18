@@ -64,7 +64,7 @@ SfM / Pose Graph Optimization
 Semantic Injection (next-gen)
    - 📍 GEN3C / Segment3D / OpenScene → geometry-aware semantic embedding
    - SAM2 (ICCV 2024, Meta) → open-vocab 2D/Video segmentation, temporal mask propagation
-   - (Optional) DINOv3 → global visual priors (patch-level)
+   - 📍 DINOv3 → global visual priors (patch-level)
    ↓
 Temporal Semantic Consistency
    - 📍 PanSt3R (ICCV 2025) → multi-view panoptic consistency
@@ -72,7 +72,8 @@ Temporal Semantic Consistency
    ↓
 Final Output
    **4D Segmentation** (geometry + temporal semantics)
-   - 📍 Per-object / per-instance labels
+   - 📍 Per-object semantics (labels from Semantic Injection)
+   - Temporal consistency (PanSt3R ID tracking)
    - Globally consistent across both space & time
 ```
 
