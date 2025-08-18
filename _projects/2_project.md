@@ -53,8 +53,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 **Pipeline**
 
-<br>
-
 ```
 Sparse Multi-View Images / Video Streams
    ↓
