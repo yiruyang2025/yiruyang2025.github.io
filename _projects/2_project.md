@@ -65,9 +65,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-[2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
-
-Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
 
 <br><br><br>
 
@@ -75,6 +72,9 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 ## 2. 3D
 
 <br>
+
+[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+
 
 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
 
