@@ -87,13 +87,14 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-| Task                                  | FFN (Feed Forward)                                                                | Transformer                                                             |
-| ------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17, FFN-style MLP), Flood-Filling Networks (NeurIPS’17) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)   |
-| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI segmentation (biomedical imaging) | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta+ETH)                     |
-| **Industry (3D)**                     | Google Connectomics (3D neuron segmentation), NVIDIA medical imaging              | Meta Horizon (AR/VR), Tesla/Waymo/NVIDIA Drive (LiDAR segmentation)     |
-| **Industry (4D)**                     | NVIDIA Isaac (real-time 4D perception / obstacle segmentation)                    | Waymo 4D Panoptic, Meta Reality Labs (Aria: AR/VR dynamic segmentation) |
-
+| Task                                  | FFN (Feed Forward)                                                                                     | Transformer                                                               |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| **3D Semantic/Instance Segmentation** | PointNet/PointNet++ (CVPR’17, FFN-style MLP), Flood-Filling Networks (NeurIPS’17, Google Connectomics) | Point Transformer (NeurIPS’21), 3DETR (ICCV’21), Point-BERT (CVPR’22)     |
+| **4D Semantic/Instance Segmentation** | Spatio-temporal FFN (MICCAI’19), Dynamic CT/MRI (4D biomedical imaging)                                | PanSt3R (CVPR’25, ETH), MonST3R (CVPR’25, Meta+ETH)                       |
+| **3D Reconstruction**                 | Neural Volumes (SIGGRAPH’19, Facebook Reality Labs, FFN decoder), NeRF-style MLPs (ECCV’20, Google)    | DUSt3R (CVPR’24), MASt3R (CVPR’24, Meta), VGGT (CVPR’25, Oxford/Meta)     |
+| **4D Reconstruction**                 | Neural Scene Flow Fields (CVPR’20, FFN-based MLPs), D-NeRF (ECCV’20, dynamic NeRF), NVIDIA Instant-NGP | Shape of Motion (CVPR’25, Meta), PanSt3R 4D panoptic (CVPR’25, ETH)       |
+| **Industry (3D)**                     | Google Connectomics (large-scale 3D neuron maps), NVIDIA Clara (medical 3D recon)                      | Meta Horizon (AR/VR), Tesla/Waymo/NVIDIA Drive (LiDAR segmentation)       |
+| **Industry (4D)**                     | NVIDIA Isaac Sim (real-time 4D dynamic reconstruction / robotics), ARKit Scene Reconstruction (Apple)  | Waymo 4D Panoptic, Meta Reality Labs (Aria dataset, AR/VR dynamic scenes) |
 
 
 <br><br><br>
