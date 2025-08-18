@@ -27,6 +27,8 @@ related_publications: true
 
 ## Potential Key Contributions
 
+<br>
+
   - `Feature Matching Backbone`
     - StereoGlue is extended to a 4D backbone
   - `Semantic-aware`
