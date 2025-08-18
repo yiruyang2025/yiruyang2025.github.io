@@ -28,13 +28,15 @@ related_publications: true
 <br>
 
 
-Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent` 4D **Segmentation**
+Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent 4D Segmentation Labels`
 
 <br>
 
-4D segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
+  - 4D segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
 
-<br>
+
+<br><br>
+
 
 ```
 Sparse Multi-View Images / Video Streams
