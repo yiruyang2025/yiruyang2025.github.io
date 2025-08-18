@@ -30,7 +30,7 @@ related_publications: true
 
 <br>
 
-| Aspect   | StereoGlue (Original, ECCV 2024)                                  | Semantic-aware 4D StereoGlue (Your Work)                                         |
+| Aspect   | StereoGlue (Original, ECCV 2024)                                  | Semantic-aware 4D StereoGlue (This Project)                                         |
 | -------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Type     | Robust geometric feature matcher                                   | 4D-aware segmentation backbone (geometry + semantics + temporal consistency)     |
 | Input    | Image pair (two views)                                             | Multi-view video sequence                                                        |
