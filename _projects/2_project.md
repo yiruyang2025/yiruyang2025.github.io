@@ -143,7 +143,7 @@ scene_root/
   - 1 month – Organize findings in the final report
 
 
-<br><br>
+<br>
 
 
 `3D -> 4D Segmentation / Understanding`
