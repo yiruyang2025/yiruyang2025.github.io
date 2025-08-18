@@ -27,21 +27,16 @@ related_publications: true
 
 <br>
 
+A FFN for 4d Segmentation - Semantic and Instance
 
 
-<br>
+<br><br>
+
 
 ## Benchmarks and SOTAs
 
 
 <br>
-
-A FFN for 4d Segmentation - Semantic and Instance
-
-
-
-
-
 
 
 <br><br><br><br><br><br>
@@ -55,7 +50,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 `3D -> 4D Segmentation / Understanding`
 
   - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
-
 
 
 <br><br><br>
@@ -138,25 +132,12 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-[2024 - SceneFun3D](https://openaccess.thecvf.com/content/CVPR2024/html/Delitzas_SceneFun3D_Fine-Grained_Functionality_and_Affordance_Understanding_in_3D_Scenes_CVPR_2024_paper.html)
-
 [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
 [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
 
 [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
 
-[2024 - MASt3R](https://link.springer.com/chapter/10.1007/978-3-031-73220-1_5)
-
-[2024 - DUSt3R: Geometric 3D Vision Made Easy](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html)
-
-
-<br>
-
-[2025 - Master Thesis - Planar Affine Rectification from Change of Scale and Orientation](https://www.research-collection.ethz.ch/entities/publication/4b4015e9-2382-4450-beed-12787e08c6ca)
-
-
-[2010 - Planar Affine Rectification from Change of Scale](https://link.springer.com/chapter/10.1007/978-3-642-19282-1_28)
 
 <br><br>
 
@@ -164,10 +145,7 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-[📍 2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
-
-[2023 - Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)
-
+[2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
 <br>
 
