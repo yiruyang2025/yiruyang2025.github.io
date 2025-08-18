@@ -45,9 +45,9 @@ related_publications: true
 
 <br>
 
-1. 4D-Former (CoRL 2023) → LiDAR + vision fusion for panoptic 4D segmentation
+1. 4D-Former (2023) → LiDAR + vision fusion for panoptic 4D segmentation
 
-2. Point Primitive Transformer (ECCV 2022) → hierarchical transformer capturing 4D spatial-temporal context
+2. Point Primitive Transformer (2022) → hierarchical transformer capturing 4D spatial-temporal context
 
 3. Mask4Former: Mask Transformer for 4D Panoptic Segmentation (arXiv 2023)
 
