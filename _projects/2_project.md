@@ -43,6 +43,7 @@ related_publications: true
 
 ## Alternatives - Transformer-based Temporal Models
 
+<br>
 
 1. 4D-Former (CoRL 2023) → LiDAR + vision fusion for panoptic 4D segmentation
 
