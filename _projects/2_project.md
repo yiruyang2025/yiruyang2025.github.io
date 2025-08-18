@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 2
-description: 4D Segmentation, Stereoglue, DINOv3, OpenScene, PanSt3R, An end-to-end pipeline
+description: 4D Segmentation pipeline
 importance: 2
 category: work
 related_publications: true
