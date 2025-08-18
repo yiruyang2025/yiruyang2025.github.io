@@ -30,9 +30,7 @@ related_publications: true
 
 Semantic-aware 4D StereoGlue - A Foundation `Matching Backbone` for `Consistent 4D Segmentation Labels`
 
-<br>
-
-  - 4D segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
+  - 4D Segmentation = Geometry (3D reconstruction) + Semantics (open-vocab labels) + Temporal consistency (ID tracking)
 
 
 <br><br>
@@ -86,21 +84,6 @@ Final Output
 
 
 <br><br>
-
-
-`Traditional SfM - Structure-from-Motion -> End-to-End Transformer Neural Pipeline`
-
-<br>
-
-
-| Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
-| ------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Type    | Optimization-based pipeline                                                             | Neural feed-forward pipeline                                                           |
-| Input   | Multiple images (features + matches)                                                    | 1–100 images (raw pixels)                                                              |
-| Output  | Camera poses, sparse point cloud                                                        | Camera intrinsics/extrinsics, depth maps, dense point maps, 3D tracks                  |
-| Process | Feature extraction → Matching → Geometry estimation → Triangulation → Bundle Adjustment | DINO features → Camera tokens → Frame-wise & global attention → Camera head & DPT head |
-| Pros    | Accurate, theory-grounded                                                               | Fast (<1s), multi-task, robust                                                         |
-| Cons    | Multi-stage, slow, brittle                                                              | Needs large pretraining, less interpretable                                            |
 
 
 
@@ -253,7 +236,25 @@ PanSt3R (ICCV 2025)
 </p>
 
 
-<br><br><br><br><br><br>
+<br>
+
+
+## Traditional SfM - Structure-from-Motion -> End-to-End Transformer Neural Pipeline
+
+
+| Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
+| ------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Type    | Optimization-based pipeline                                                             | Neural feed-forward pipeline                                                           |
+| Input   | Multiple images (features + matches)                                                    | 1–100 images (raw pixels)                                                              |
+| Output  | Camera poses, sparse point cloud                                                        | Camera intrinsics/extrinsics, depth maps, dense point maps, 3D tracks                  |
+| Process | Feature extraction → Matching → Geometry estimation → Triangulation → Bundle Adjustment | DINO features → Camera tokens → Frame-wise & global attention → Camera head & DPT head |
+| Pros    | Accurate, theory-grounded                                                               | Fast (<1s), multi-task, robust                                                         |
+| Cons    | Multi-stage, slow, brittle                                                              | Needs large pretraining, less interpretable                                            |
+
+
+
+
+<br><br><br><br><br>
 
 
 ## Some Other topics
