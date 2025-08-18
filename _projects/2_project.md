@@ -51,60 +51,10 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-**Pipeline**
-
-```
-Sparse Multi-View Images / Video Streams
-   ↓
-Feature Detection + Descriptor Extraction
-   - SuperPoint / DeDoDe / ALIKED
-   - AffNet → affine correspondences (AC)
-   ↓
-StereoGlue (Joint Matching + Robust Estimation)
-   - One-to-many → guided one-to-one matching
-   - Minimal solvers (1AC+uG / 1AC+mD) for relative pose
-   - Produces robust 2D–2D & 2D–3D correspondences
-   ↓
-SfM / Pose Graph Optimization
-   - COLMAP (classical baseline)
-   - VGGT (CVPR 2025) → geometry-grounded transformer backbone
-     - Jointly estimates camera poses, sparse 3D, and tracks
-     - Stronger alternative to SfM + COLMAP
-   ↓
-3D Dense Reconstruction
-   - DUSt3R / MASt3R → dense 3D points / implicit field
-   ↓
-4D Dynamic Modeling
-   - Shape of Motion (ICCV 2025 Highlight) → motion bases + long-range 3D tracks
-     - Explicit 4D motion representation for consistent object/scene tracking
-   - MoDGS / GFlow → dynamic Gaussian representation for photorealistic rendering
-     - Dense temporal splatting, novel view synthesis
-   - Together: temporal scene flow + geometry-motion alignment
-   ↓
-Semantic Injection (next-gen)
-   - OpenScene / GEN3C / Segment3D → geometry-aware semantic embedding
-   - SAM2 (ICCV 2024, Meta) → open-vocab 2D/Video segmentation, temporal mask propagation
-   - DINOv3 → global visual priors (patch-level)
-   ↓
-Temporal Semantic Consistency
-   - PanSt3R (ICCV 2025) → multi-view panoptic consistency
-   - Ensures object IDs are consistent across frames (4D panoptic tracking)
-   ↓
-Final Output
-   **4D Segmentation** (geometry + temporal semantics)
-   - Per-object semantics (labels from Semantic Injection)
-   - Temporal consistency (PanSt3R ID tracking)
-   - Globally consistent across both space & time
-```
-
-
-<br>
-
 
 `3D -> 4D Segmentation / Understanding`
 
   - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
-
 
 
 
@@ -115,15 +65,9 @@ Final Output
 
 <br>
 
-[📍 2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
+[2025 - 3DObjectReconstruction - Toolkit](https://github.com/NVIDIA/3DObjectReconstruction)
 
 Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](https://shape-of-motion.github.io/)
-
-<br>
-
- [2025 - Shape of Motion] -> `Zero-shot` via Vocabulary scoring (+ Multi-View)
-
-
 
 <br><br><br>
 
@@ -132,11 +76,9 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 <br>
 
-[📍 2024 - Stereoglue](https://github.com/danini/stereoglue)
+[2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
 
-[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html)
-
-[📍 2025 - VGGT](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html)
+[2025 - VGGT](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html)
 
 [2025 - GEN3C](https://github.com/nv-tlabs/GEN3C)
 
@@ -148,7 +90,7 @@ Single-view - [2025 - Shape of Motion: 4D Reconstruction from a Single Video](ht
 
 <br>
 
-[📍 2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
+[2025 - PanSt3R: Multi-view Consistent Panoptic Segmentation](https://arxiv.org/abs/2506.21348)
 
 
 <br><br>
@@ -237,37 +179,10 @@ PanSt3R (ICCV 2025)
 
 <br>
 
-
-
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
-</p>
-
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
-</p>
-
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
-</p>
-
 
 <br>
-
-
-## Traditional SfM (Structure-from-Motion) -> End-to-End Transformer Neural Pipeline
-
-<br>
-
-| Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
-| ------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Type    | Optimization-based pipeline                                                             | Neural feed-forward pipeline                                                           |
-| Input   | Multiple images (features + matches)                                                    | 1–100 images (raw pixels)                                                              |
-| Output  | Camera poses, sparse point cloud                                                        | Camera intrinsics/extrinsics, depth maps, dense point maps, 3D tracks                  |
-| Process | Feature extraction → Matching → Geometry estimation → Triangulation → Bundle Adjustment | DINO features → Camera tokens → Frame-wise & global attention → Camera head & DPT head |
-| Pros    | Accurate, theory-grounded                                                               | Fast (<1s), multi-task, robust                                                         |
-| Cons    | Multi-stage, slow, brittle                                                              | Needs large pretraining, less interpretable                                            |
-
 
 
 
@@ -295,11 +210,6 @@ PanSt3R (ICCV 2025)
 [2025 - GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control](https://github.com/nv-tlabs/GEN3C)
 
 
-<br>
-
-  - **World Modeling / 3D Human Reconstruction, Surface Fitting**
-
-
 <br><br>
 
 
@@ -313,112 +223,6 @@ PanSt3R (ICCV 2025)
 [3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
 
 <br>
-
-```
-World models typically encounter two key challenges when constructing and maintaining a 3D representation of the environment:
-
-Local drift accumulation
-Even small per-frame registration errors can accumulate over time, causing the overall map to "distort" or "tear," undermining the reliability of long-term planning and dynamic prediction.
-
-Poor matching consistency
-Traditional RANSAC methods focus solely on the globally optimal rigid transformation, but do not consider spatial smoothness. This can easily lead to seemingly accurate but inconsistent local matches, resulting in map instability.
-
-How does your "3D→3D StereoGlue" proposal address these issues?
-
-Rotation-invariant local coordinate matching (based on Lipman et al., 2005)
-Compute the alignment error in the local reference frame defined by the principal curvature of each point, rather than directly comparing in Euclidean space. This effectively filters out "outliers" whose errors appear small in global space but are inconsistent with the local geometry, significantly reducing drift.
-
-Variational Smoothness Penalty (Based on Botsch & Sorkine, 2008)
-While evaluating the number of inliers, a smoothing penalty is applied to the difference in rigid transformations between adjacent source points. This ensures spatial consistency and coherence across the entire point cloud registration, avoiding unphysical distortions such as "stretching" and "folding."
-
-Single-Point Minimum Solver Integration (StereoGlue Framework)
-Rigid transformation hypotheses are generated from a single matching point and efficiently verified using guided matching, significantly reducing the combinatorial complexity of RANSAC. This enables faster and more stable online updates of the 3D map, freeing up more computing power for subsequent dynamic learning and planning of the world model.
-
-Core Value to DeepMind's World Model
-Significantly reduces drift, maintaining high-precision registration even when processing tens of thousands of frames.
-
-Improves long-term planning capabilities. The stable 3D map makes the model more reliable in predicting future states and rewards.
-
-Computational efficiency is optimized, and the single-point solver and guided matching significantly accelerate the registration step, freeing up more resources for policy learning or world model training.
-```
-
-
-
-
-<br><br>
-
-## Geometric Consistency 
-
-<br>
-
-[Y. Lipman, O. Sorkine, D. Levin, D. Cohen-Or, “Linear rotation-invariant coordinates for meshes”, ToG 24(3):479–487, 2005](https://dl.acm.org/doi/abs/10.1145/1073204.1073217?casa_token=FxLVarWWO0gAAAAA:s9Moc1rP5xJR041TDS4Sl1uRo44dSuEpItgMO3Ff1Sz99WG-6KW_oQG6ngOuHuEeHBtmN9_17HyO)
-
-
-
-[M. Botsch & O. Sorkine, “On linear variational surface deformation methods”, TVCG 14(1):213–230, 2008](https://ieeexplore.ieee.org/abstract/document/4359478?casa_token=S9C_sHw74kUAAAAA:YjKWtiEuQylSlynlwzPBUrO-oZCl8SizIlRHoCgyPYtuQNM3p-ZTNntP7TZ9iOmQAiuOGjEa7g)
-
-
-<br>
-
-**A 3D -> 3D StereoGlue: Geometric Constraint based on Guided Matching**
-
-<br>
-
-| Method               | Domain                    | Feature & Minimal Solver                                                                                                                                                                             | Guided Matching                                                                                                                                                                                                                                                                                                                   | Score                                                                                                                                                                                   |
-| -------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **StereoGlue_V2** | Point cloud → Point cloud | **Features & Solvers**<br>• Oriented 3D–3D correspondences (e.g., from GeoTransformer) + **Rotation-Invariant Local-Frame Coordinates** (Lipman et al. 2005)<br>• **Q-REG** (quadratic patch → R, t) | **1.** Estimate initial model θ(R,t) from a single 3D–3D correspondence<br>**2.** For each source point p₁, apply θ to obtain its mapped position T(p₁)<br>**3.** For its k nearest candidate q₂, compare in local-frame coordinates and select the one minimizing alignment error<br>**4.** If ∥T(p₁) – q₂∥ < ε, count as inlier | **Model score** = number of inliers;<br>**+ Variational smoothing**: add a local smoothness penalty between adjacent transforms in the score to encourage coherent inlier distributions |
-
-
-
-
-<br>
-
-| **Method**                            | **Domain**                      | **Feature & Minimal Solver**                                                                                                                                                                                                                        | **Guided Matching**                                                                                                                                                                                    | **Score**                                                                                 |
-| ------------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| **AffineGlue**                        | 2D→2D (image–image)             | • Affine correspondences (ACs) via DoG+AffNet or SuperPoint+AffNet<br>• Solver: <br>  – **1 AC + gravity** (1AC+iG) for Essential/Homography<br>  – **1 AC + monodepth** (1AC+mD) for Essential<br>  – **1 AC + gravity** homography (new 1AC+iG-H) | For each source keypoint, re-project it using the hypothesis and choose the best among its **k** candidates (lowest epipolar or homography residual).                                                  | Count of 2D inliers whose residual ≤ threshold (optionally weighted by match confidence). |
-| **StereoGlue**                        | 2D→2D & 2D→3D                   | • Same 2D feature setup as above<br>• Solvers:<br>  – 1 AC+iG/1AC+mD for Essential/Homography<br>  – P1AC for PnP (2D→3D)<br>  – 1 PC+iG for Essential, 1 AC+iG-H for Homography                                                                    | Identical guided matching: for each source feature, re-project (into image or 3D map) and pick the best among its **k** candidates under the model.                                                    | Number of (2D or 2D→3D) inliers under a strict reprojection threshold.                    |
-| **3D→3D Adaptation**<br/>(e.g. Q-REG) | 3D→3D (point cloud–point cloud) | • Oriented 3D point pairs from descriptors (FPFH/SHOT/3DMatch/GeoTransformer)<br>• Solver: **Q-REG** fits a local quadratic at one point → gives relative rotation & translation from that single match                                             | Guided by rigid-transform: for each source 3D point, apply the hypothesized rigid transform and choose, among its **k** descriptor candidates, the one with the smallest Euclidean reprojection error. | Number of 3D point-pair inliers under a strict Euclidean distance threshold.              |
-         
-
-<br><br>
-
-**Some Recent Progress**
-
-```
-**In the era of Handcrafted Features**
-
-PFH/FPFH (Rusu & Cousins 2009) and SHOT (Tombari et al. 2010) already used LRF + local geometric histograms for 3D-to-3D registration, and were successfully applied in industrial libraries such as PCL and Open3D.
-
-**In the era of Deep Learning**
-
-3DMatch (Zeng et al. 2017), PPFNet/PPF-FoldNet (Deng et al. 2018–19), and FCGF (Choy et al. 2019) all employ "implicit LRF + differential geometric feature" learning, achieving registration success rates of over 90% and robustness to over 80% in extreme occlusion and noise scenarios.
-The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point cloud registration with a 99% outlier score, and combined with the most advanced deep features in academia, it can achieve millimeter-level accuracy and industrial-grade stability.
-```
-
-<br><br>
-
-**Some Background Knowledge**
-
-[1. Jesse Douglas (1931). “Solution of the Problem of Plateau”](https://www.jstor.org/stable/1968115?seq=1)
-
-  - Annals of Mathematics 33(3): 263–321.
-  - DOI：10.2307/1968115
-
-<br>
-
-[2. Tibor Radó (1930). “The Problem of the Plateau”](https://link.springer.com/article/10.1007/BF02392418)
-
-  - Acta Mathematica 54(1): 155–157.
-  - DOI：10.1007/BF02392418
-
-<br>
-
-[3. Richard Courant (1950). “Dirichlet’s Principle, Conformal Mapping and Minimal Surfaces”](https://link.springer.com/book/10.1007/978-1-4612-9917-2)
-
-  - Wiley, Chapter 6 is devoted to a discussion of variational principles for minimal surfaces
-
-
-<br><br>
 
 
 ## Topics
@@ -454,35 +258,9 @@ The latest TEASER++ (Yang et al. 2021) can achieve globally optimal coarse point
 <br><br><br><br>
 
 
-## Topics
-
-<br>
-
-[FAM-HRI]
-
- <br>
-
-`1. Regularization → Similar to Laplacian energy minimization`
-
-<br><br>
-
-`2. Maintaining rigidity/local consistency → Derived from ARAP/Linear deformation energy`
-
-<br><br>
-
-
-`3. Surface smoothness/curvature control → High-order continuity representations are also beginning to be incorporated into NeRF surface extraction`
-
-<br><br>
-
-[2025 - CrossOver](https://github.com/GradientSpaces/CrossOver)
-
-<br><br><br><br>
-
 
 ## 3D Reconstruction
 
-<br>
 
 | Dimension            | 3D Gaussian Splatting                      | Explicit Grids/Voxels (e.g., Instant-NGP)       | Tensor Factorization (TensoRF) | Implicit SDF (NeuS family)                              | Dynamic/4D Scenes (Tensor4D)           |
 | -------------------- | ------------------------------------------ | ----------------------------------------------- | ------------------------------ | ------------------------------------------------------- | -------------------------------------- |
@@ -537,8 +315,6 @@ Hybrid models:
 
 
 ## Tasks Matching
-
-<br>
 
 
 | Task Description                        | Recommended Method       | Reason                                                                |
@@ -601,96 +377,7 @@ in NeRF through "Lifted Priors" and reconstructs the complete scene
 | **Future of SfM** <br> From optimization-based to transformer-based methods.                                     | **SfM vs VGGT** <br> COLMAP vs VGGT, comparison of pros and cons.                              |
 
 
-
-
 <br><br><br><br>
-
-
-## Research
-
-
-**Stage 1 – Cross-modal alignment**
-
-  - `OpenScene, CLIP space, DINOv2 space, text-3D embedding`
-
-**Goal**
-
-The reconstructed 3D features are no longer purely geometric but instead contain semantic information and can be aligned with modalities such as text and images. This allows the model to:
-
-  - Easier to understand the meaning of the reconstruction results
-
-  - Cross-modal retrieval (text → point cloud, image → mesh)
-
-  - Supports zero-shot labeling, classification, and querying
-
-
-<br><br>
-
-**Stage 2 – Shape the Semantic Space**
-
-  - Geometric Consistency Filtering + `3D Hough Voting` + Contrastive Learning
-
-
-**Goal**
-
-  - Semantic grouping after filtering and voting (more general than standard segmentation)
-  - A semantically shape-aware structure space that can be used as a priori for Stage 3
-
-<br><br>
-
-**Stage 3 – Expand from Local → Global Shape Priors & Static → Dynamic**
-
-  - `D-NeRF`
-
-
-**Goal**
-
-  - [2021 - CVPR D-NeRF: Neural Radiance Fields for Dynamic Scenes](https://openaccess.thecvf.com/content/CVPR2021/html/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.html?ref=labelbox.ghost.io)
-  - [2023 - DeepLS: Local Search for Network Optimization Based on Lightweight Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10155296?casa_token=b8l78Uv-H1AAAAAA:U4ZrGd_uM2HkYEzeatrRLNIU9RPKDnyzng3i874NdXPrGdVPLDsBJgBFLWb-26OwSrxwryK7NA)
-
-<br><br>
-
-**Stage 4 – Self-Distillation for Efficiency & Real-time Inference**
-
-  - `DINOv2`
-
-
-**Goal**
-
-   - Low Inference Latency
-   - On-device
-
-
-
-<br><br><br><br>
-
-
-
-## Topics
-
-<br>
-
-- [2023 - Flow Matching in Latent Space](https://arxiv.org/abs/2307.08698)<br>
-
-- [2025 - Runway Gen-4 solves AI video’s biggest problem: character consistency across scenes](https://venturebeat.com/ai/runways-gen-4-ai-solves-the-character-consistency-challenge-making-ai-filmmaking-actually-useful/?utm_source=chatgpt.com)<br>
-  - 2025 - New York is a Zoo
-  - 2025 - The Retrieval
-
-
-<br>
-
-
-| Property           | Flow Matching                                  | Implicit 4D Representations                                     |
-| ------------------ | ---------------------------------------------- | --------------------------------------------------------------- |
-| **Modeled Object** | Evolution of data distribution $p(x)$          | Evolution of spatial points/voxels $(x,y,z)$ over time          |
-| **Goal**           | Learn sampling trajectories, from noise → data | Learn a field function, from input → spatio-temporal attributes |
-| **Focus**          | Consistency of probability flows               | Consistency of spatio-temporal geometry/semantics               |
-| **Applications**   | Generative models (images, videos, 3D)         | Dynamic reconstruction (MoDGS, D-NeRF, GFlow)                   |
-
-
-
-<br><br><br>
-
 
 
 ## References 1
@@ -793,17 +480,12 @@ The reconstructed 3D features are no longer purely geometric but instead contain
 **3D**
 
 
-[📍 2024 - Stereoglue](https://github.com/danini/stereoglue) - Feature Matching
-
 
 [📍 2025 - VGGT](https://vgg-t.github.io/)
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
 [2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
-
-
-[2023 - LightGlue](https://arxiv.org/pdf/2306.13643)
 
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
