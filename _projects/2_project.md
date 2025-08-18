@@ -83,9 +83,6 @@ Final Output
   - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
-<br><br>
-
-
 
 
 <br><br><br>
@@ -223,13 +220,9 @@ PanSt3R (ICCV 2025)
   <img src="https://yiruyang2025.github.io/assets/img/project2_1.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
-<br>
-
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_2.jpg" alt="Project 1 Visualization" width="75%">
 </p>
-
-<br>
 
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project2_3.jpg" alt="Project 1 Visualization" width="75%">
