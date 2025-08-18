@@ -38,12 +38,13 @@ related_publications: true
 
 A FFN for 4d Segmentation - Semantic and Instance
 
-<br><br><br>
 
 
 
 
 
+
+<br><br><br><br><br><br>
 
 
 ## Drafts 
@@ -54,7 +55,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 <br>
 
-
 ```
 Sparse Multi-View Images / Video Streams
    ↓
@@ -62,14 +62,14 @@ Feature Detection + Descriptor Extraction
    - SuperPoint / DeDoDe / ALIKED
    - AffNet → affine correspondences (AC)
    ↓
-📍 StereoGlue (Joint Matching + Robust Estimation)
+StereoGlue (Joint Matching + Robust Estimation)
    - One-to-many → guided one-to-one matching
    - Minimal solvers (1AC+uG / 1AC+mD) for relative pose
    - Produces robust 2D–2D & 2D–3D correspondences
    ↓
 SfM / Pose Graph Optimization
    - COLMAP (classical baseline)
-   - 📍 VGGT (CVPR 2025) → geometry-grounded transformer backbone
+   - VGGT (CVPR 2025) → geometry-grounded transformer backbone
      - Jointly estimates camera poses, sparse 3D, and tracks
      - Stronger alternative to SfM + COLMAP
    ↓
@@ -77,102 +77,27 @@ SfM / Pose Graph Optimization
    - DUSt3R / MASt3R → dense 3D points / implicit field
    ↓
 4D Dynamic Modeling
-   - 📍 Shape of Motion (ICCV 2025 Highlight) → motion bases + long-range 3D tracks
+   - Shape of Motion (ICCV 2025 Highlight) → motion bases + long-range 3D tracks
      - Explicit 4D motion representation for consistent object/scene tracking
    - MoDGS / GFlow → dynamic Gaussian representation for photorealistic rendering
      - Dense temporal splatting, novel view synthesis
    - Together: temporal scene flow + geometry-motion alignment
    ↓
 Semantic Injection (next-gen)
-   - 📍 OpenScene / GEN3C / Segment3D → geometry-aware semantic embedding
+   - OpenScene / GEN3C / Segment3D → geometry-aware semantic embedding
    - SAM2 (ICCV 2024, Meta) → open-vocab 2D/Video segmentation, temporal mask propagation
-   - 📍 DINOv3 → global visual priors (patch-level)
+   - DINOv3 → global visual priors (patch-level)
    ↓
 Temporal Semantic Consistency
-   - 📍 PanSt3R (ICCV 2025) → multi-view panoptic consistency
+   - PanSt3R (ICCV 2025) → multi-view panoptic consistency
    - Ensures object IDs are consistent across frames (4D panoptic tracking)
    ↓
 Final Output
    **4D Segmentation** (geometry + temporal semantics)
-   - 📍 Per-object semantics (labels from Semantic Injection)
+   - Per-object semantics (labels from Semantic Injection)
    - Temporal consistency (PanSt3R ID tracking)
    - Globally consistent across both space & time
 ```
-
-
-<br>
-
-
-## Final output (Draft) - 📍 pending 2/3
-
-<br>
-
-PanSt3R (ICCV 2025) - baseline 1
-    - Multi-View Images → Fuse Masks → 3D Segmented Scene
-
-
-<br>
-
-
-## Final Repo - 📍 pending 3/3
-
-<br>
-
-```
-scene_root/
-├── manifest.json                          # Top-level index (version / coordinate system / timeline / class vocabulary / paths)
-├── raw/
-│   ├── images/{t:06d}_{cam}.png           # Raw multi-view frames
-│   └── timestamps.txt                     # Mapping from frame index t to timestamps
-├── calib/
-│   ├── intrinsics.json                    # Initial camera intrinsics (K, distortion, resolution) – may be incomplete/damaged
-│   ├── extrinsics_{method}.json           # Camera extrinsics/poses (aligned to global world coordinates, COLMAP/📍VGGT)
-│   └── gensfm_selfcalib.json              # 📍GenSfM self-calibrated non-parametric intrinsics/extrinsics 
-                                           # 📍handles unknown/damaged cameras, fisheye, catadioptric, or severe distortion
-├── features/
-│   ├── keypoints_{method}.h5              # Keypoints (SuperPoint / ALIKED / DeDoDe)
-│   ├── desc_{method}.h5                   # Local descriptors
-│   └── matches_stereoglue.npz📍            # 2D-2D / 2D-3D matches (with confidence & geometric inlier mask)
-├── sfm/
-│   ├── sparse_points.ply                  # Sparse point cloud (COLMAP / 📍VGGT)
-│   └── pose_graph.json                    # Pose graph / edge constraints
-├── geometry/
-│   ├── dense_points_dust3r.ply            # Dense 3D points (with per-point confidence)
-│   ├── tracks3d.csv                       # Long-term 3D tracks: id, t, x, y, z, confidence
-│   └── motion_bases_som.npz               # Shape-of-Motion SE(3) bases + per-point coefficients
-├── semantics/
-│   ├── dinov3_patches.h5                  # 📍DINOv3 patch-level features
-│   ├── openscene_feats.npz                # 📍3D semantic embeddings (aligned with text/image)
-│   ├── sam2_masks/{t}/mask_{i}.png        # SAM2 per-frame instance masks (indexed color)
-│   └── class_vocab.json                   # 📍Open-vocabulary class list (with aliases & text embeddings)
-├── panoptic/
-│   ├── per_view/
-│   │   ├── semantic_{t}_{cam}.png         # Per-frame semantic segmentation (palette indexed)
-│   │   ├── instance_{t}_{cam}.png         # Per-frame instance ID map (32-bit)
-│   │   └── panoptic_coco_{t}_{cam}.json   # Optional: COCO-style panoptic annotations
-│   ├── per_point_labels.ply               # Per-point attributes: class_id, instance_id
-│   └── id_tracklets.json                  # 📍4D object trajectories: {obj_id: [{t, SE3, visibility, mask_ref...}]}
-├── 3dgs/
-│   ├── gaussians.splat                    # MoDGS / GFlow / 3DGS representation (color / opacity / radius)
-│   ├── uplift_labels.ludvig.npz           # LUDVIG-upsampled 3D one-hot / probabilistic labels
-│   └── reg_cfg.json                       # Semantic regularization config (λ, training steps, loss weights)
-├── renders/
-│   ├── novel_rgb/{view_idx}.png           # Novel-view RGB renderings
-│   └── novel_panoptic/{view_idx}.png      # Novel-view panoptic renderings
-└── logs/
-    └── timings_metrics.json               # PQ, RQ, SQ, runtime, ablation switches
-```
-
-<br>
-
-**Camera** – Multi-view and Self-calibration of distortion - GenSfM (Wang, Pan, Pollefeys & Larsson, 2025) provides a self-calibration solution for arbitrarily distorted cameras, which means that your reconstruction method can still work reliably with unknown/severely distorted lenses
-
-<br>
-
-
-  - 1 month - A review of SOTA in the domain, dataset, and benchmark
-  - 10 months – Implement proposed methodology, conduct experiments and analyze results, weekly meeting and adjustment
-  - 1 month – Organize findings in the final report
 
 
 <br>
