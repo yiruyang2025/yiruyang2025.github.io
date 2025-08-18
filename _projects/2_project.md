@@ -283,18 +283,6 @@ Hybrid models:
 <br><br>
 
 
-## Tasks Matching
-
-
-| Task Description                        | Recommended Method       | Reason                                                                |
-| --------------------------------------- | ------------------------ | --------------------------------------------------------------------- |
-| Modeling same-topology objects          | Mesh-VAE                 | Mesh connectivity is fixed and suitable for morphable structures      |
-| Generating arbitrary shapes or plants   | Implicit Geometry        | Better suited for freeform, non-uniform topology                      |
-| Image-to-3D with high variation         | Hybrid (Mesh + Implicit) | Mesh gives structure; NeRF/SDF adds realism and detail                |
-| Medical shape modeling with priors      | Mesh-VAE + SDF           | Prior modeling with explicit structure, refined via continuous fields |
-| Rigging, animation, physical simulation | Mesh-VAE                 | Per-vertex manipulation is straightforward                            |
-
-<br><br>
 
 ## Background Knowledge
 
