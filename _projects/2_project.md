@@ -42,14 +42,6 @@ A FFN for 4d Segmentation - Semantic and Instance
 <br><br><br><br><br><br>
 
 
-## Drafts 
-
-<br>
-
-
-`3D -> 4D Segmentation / Understanding`
-
-  - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
 <br><br><br>
