@@ -62,6 +62,28 @@ Final Output - Consistent, semantic-aware 3D→4D reconstruction
   - Achieve globally-consistent segmentation directly in 3D space --> extending it to Dynamic 4D scenes
 
 
+<br><br>
+
+
+## 1/2 Traditional SfM - Structure-from-Motion
+
+
+## 2/2 End-to-End Transformer Neural Pipeline
+
+
+| Aspect  | COLMAP (Traditional SfM)                                                                | VGGT (End-to-End Transformer)                                                          |
+| ------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Type    | Optimization-based pipeline                                                             | Neural feed-forward pipeline                                                           |
+| Input   | Multiple images (features + matches)                                                    | 1–100 images (raw pixels)                                                              |
+| Output  | Camera poses, sparse point cloud                                                        | Camera intrinsics/extrinsics, depth maps, dense point maps, 3D tracks                  |
+| Process | Feature extraction → Matching → Geometry estimation → Triangulation → Bundle Adjustment | DINO features → Camera tokens → Frame-wise & global attention → Camera head & DPT head |
+| Pros    | Accurate, theory-grounded                                                               | Fast (<1s), multi-task, robust                                                         |
+| Cons    | Multi-stage, slow, brittle                                                              | Needs large pretraining, less interpretable                                            |
+
+
+
+
+
 <br><br><br>
 
 
