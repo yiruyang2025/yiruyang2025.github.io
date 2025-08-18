@@ -49,8 +49,7 @@ related_publications: true
 
 2. Point Primitive Transformer (ECCV 2022) → hierarchical transformer capturing 4D spatial-temporal context
 
-
-
+3. Mask4Former: Mask Transformer for 4D Panoptic Segmentation (arXiv 2023)
 
 
 <br><br>
