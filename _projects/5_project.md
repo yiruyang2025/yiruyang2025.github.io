@@ -44,7 +44,8 @@ Implicit Geometry - NeRF/SDF
 
 <br>
 
-1. A common approach is to feed the result of a simple inversion, for example the backprojection, to a multiscale convolutional neural network (CNN) which computes the final reconstruction. GLIMPSE, a local coordinate-based neural network for computed tomography which reconstructs a pixel value by processing only the measurements associated with the neighborhood of the pixel
+1. A common approach is to feed the result of a simple inversion, for example the backprojection, to a multiscale convolutional neural network (CNN) which computes the final reconstruction. **GLIMPSE**, a local coordinate-based neural network for computed tomography which reconstructs a pixel value by processing only the measurements associated with the neighborhood of the pixel
+
 
 
 
@@ -89,7 +90,6 @@ Implicit Geometry - NeRF/SDF
 [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
-[2024 - SeisLM: a Foundation Model for Seismic Waveforms](https://arxiv.org/pdf/2410.15765?)
 
 
 
