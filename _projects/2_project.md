@@ -73,6 +73,18 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 [2025 - GAIA: Generative Animatable Interactive Avatars with Expression-conditioned Gaussians](https://research.nvidia.com/labs/amri/projects/gaia/)
 
+<br>
+
+| Dimension          | Your Thesis (4D Segmentation)                                                                        | GAIA (Animatable Avatars with FFN-based Representation)                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Focus**          | Scene-level (environment understanding, as in Meta Reality Labs’ Project Aria, DeepMind’s TF4D)      | Human-level (avatar representation within the scene, similar to Meta’s Codec Avatars and Google’s Starline project)                         |
+| **Core Task**      | Semantic + instance segmentation across 4D sequences                                                 | Generative modeling + animatable segmentation of faces and expressions                                                                      |
+| **Representation** | Feed-forward networks (FFN), Transformer-based priors (DINOv3, VGGT, PanSt3R), panoptic labels       | Feed-forward networks (FFN) applied to 3D Gaussian splats, expression-conditioned volumetric representation                                 |
+| **Training Data**  | Multi-view video streams + 4D segmentation annotations (e.g., Aria, Ego-Exo4D)                       | In-the-wild image collections + implicit identity/expression supervision (photographs, video frames)                                        |
+| **Output**         | Semantic masks / instance labels / globally consistent 4D segmented scene                            | Photorealistic 3D avatar reconstructions with disentangled identity & expression, ready for animation and interaction                       |
+| **Application**    | AR/VR scene understanding, robotic navigation, digital twins (Meta Reality Labs, DeepMind TF3D/TF4D) | AR/VR avatars integrated into segmented scenes, interactive AI agents, telepresence (Meta Codec Avatars, Google Starline, NVIDIA Omniverse) |
+
+
 
 <br><br>
 
