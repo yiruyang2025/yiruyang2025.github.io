@@ -391,9 +391,9 @@ Hybrid models:
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
-[2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
-[2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
