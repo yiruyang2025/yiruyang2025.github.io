@@ -32,13 +32,17 @@ Hi there, let's collect pretty things here
 
 <br>
 
+Can ask me anything if the link been given in the below
+
+<br>
+
 Deep Learning (Python)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 
 Mixed Reality (C++)
 
-[Shape Modeling](https://github.com/yiruyang2025/gp2025-Assignments)
+Shape Modeling
 
 Seminar in Visual Computing
 
