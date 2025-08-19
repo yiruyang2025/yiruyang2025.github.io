@@ -70,8 +70,13 @@ A FFN for 4d Segmentation - Semantic and Instance
 
 ## Avatars
 
+
 [2025 - GAIA: Generative Animatable Interactive Avatars with Expression-conditioned Gaussians](https://research.nvidia.com/labs/amri/projects/gaia/)
 
+
+<br><br>
+
+## Models
 
 <br>
 
