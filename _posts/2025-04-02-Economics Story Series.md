@@ -20,7 +20,7 @@ Welcome to story time<br><br>
 
 <br>
 
-## Global Proverty Research
+# 1. Global Proverty Research
 
 <br>
 
@@ -33,9 +33,9 @@ Welcome to story time<br><br>
 
 
 
-<br><br>
+<br><br><br><br>
 
-# 1. Causal Inference in Policy Design x Economics<br><br>
+# 2. Causal Inference in Policy Design x Economics<br><br>
 
 Causal identification in policy evaluation is a central challenge in economic research. Machine learning methods offer promising tools for denoising causal estimates, particularly in small-sample settings.
 The key here is to Reduce the Estimator Variance first.
