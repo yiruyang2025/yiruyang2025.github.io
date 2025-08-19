@@ -3,7 +3,7 @@ layout: post
 title: How to Build a F1 Car by Yourself - 25
 date: 2025-08-02
 description: ❄️
-categories: Research
+categories: Life
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
