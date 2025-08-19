@@ -32,7 +32,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-- Feel free to ask anything if the link been given below
+- Feel free to ask anything if the link is given below
 
 <br>
 
