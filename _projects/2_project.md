@@ -32,7 +32,7 @@ related_publications: true
 
 <br>
 
-A FFN for 4d Segmentation - Semantic -> Instance
+A FFN for 4d Segmentation - Semantic -> Instance, for real-time Inference
 
 
 <br><br><br>
