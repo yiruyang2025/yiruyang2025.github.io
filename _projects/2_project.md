@@ -134,7 +134,7 @@ PanSt3R (ICCV 2025)
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 
 
