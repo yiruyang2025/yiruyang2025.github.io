@@ -37,7 +37,29 @@ Mesh-VAE
 Implicit Geometry - NeRF/SDF
 
 
-<br><br>
+<br>
+
+
+## 2d Reconstruction
+
+<br>
+
+1. A common approach is to feed the result of a simple inversion, for example the backprojection, to a multiscale convolutional neural network (CNN) which computes the final reconstruction
+
+2. GLIMPSE, a local coordinate-based neural network for computed tomography which reconstructs a pixel value by processing only the measurements associated with the neighborhood of the pixel
+
+
+
+
+
+## 3d Reconstruction
+
+<br>
+
+
+
+
+<br><br><br>
 
 
 
