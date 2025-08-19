@@ -45,8 +45,12 @@ Implicit Geometry - NeRF/SDF
 
 <br>
 
-[2025 -  Improving Learning of New Diseases through Knowledge-Enhanced Initialization for Federated Adapter Tuning](https://arxiv.org/abs/2508.10299) - Federated Learning (FL) 
+## cardiac 4d imaging
 
+
+[2023 - Dynamic myocardial CT perfusion imaging—state of the art](https://link.springer.com/article/10.1007/s00330-023-09550-y)
+
+[2020 - 4DFlowNet: Super-Resolution 4D Flow MRI Using Deep Learning and Computational Fluid Dynamics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.00138/full)
 
 
 
