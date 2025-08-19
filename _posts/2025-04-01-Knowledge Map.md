@@ -32,7 +32,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-Can ask me anything if the link been given in the below
+- Can ask me anything if the link been given in the below
 
 <br>
 
