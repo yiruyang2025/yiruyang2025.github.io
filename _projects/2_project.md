@@ -392,7 +392,7 @@ Output: Robust Trajectory + Map
 [2024 - No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models](https://arxiv.org/abs/2407.02687)
 
 
-[BERT], [Wav2Vec2] - masked reconstruction, contrastive loss
+[BERT], [Wav2Vec2] - SSL, masked reconstruction, contrastive loss
 
 
 <br>
