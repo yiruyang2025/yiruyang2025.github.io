@@ -42,7 +42,7 @@ Seminar in Visual Computing
 
 Geometry for Computational Design and Fabrication
 
-Shape Modeling
+[Shape Modeling](https://github.com/yiruyang2025/gp2025-Assignments)
 
 Vision Algorithms for Mobile Robotics (L+E)
 
