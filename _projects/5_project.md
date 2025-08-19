@@ -81,9 +81,25 @@ Implicit Geometry - NeRF/SDF
 
 <br><br><br>
 
+**2. 3d Shape Modeling**
 
-**2. Computational Fluid Dynamics + PDE for Modeling**
+<br>
 
+
+[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
+
+
+[2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
+
+
+
+
+<br><br><br>
+
+
+**3. Computational Fluid Dynamics + PDE for Modeling**
+
+<br>
 
 [2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
 
@@ -91,16 +107,6 @@ Implicit Geometry - NeRF/SDF
 [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
-
-**3. 3d Shape Modeling**
-
-
-
-
-[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
-
-
-[2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
 
 
 
