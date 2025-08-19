@@ -53,6 +53,21 @@ Implicit Geometry - NeRF/SDF
 [2020 - 4DFlowNet: Super-Resolution 4D Flow MRI Using Deep Learning and Computational Fluid Dynamics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.00138/full)
 
 
+<br><br><br>
+
+
+**2. Computational Fluid Dynamics + PDE for Modeling**
+
+
+[2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
+
+
+[2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
+
+
+[2024 - SeisLM: a Foundation Model for Seismic Waveforms](https://arxiv.org/pdf/2410.15765?)
+
+
 
 <br><br><br><br><br><br>
 
