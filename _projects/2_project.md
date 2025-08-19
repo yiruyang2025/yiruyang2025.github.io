@@ -21,7 +21,7 @@ related_publications: true
 [2025 - MonST3R](https://monst3r-project.github.io/)
 
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - **Learnt** background knowledge
 
 
 <br><br><br>
@@ -229,7 +229,7 @@ Hybrid models:
 
 <br><br>
 
-## CFD
+## CFD - ML for `Computational Fluid Dynamics`
 
 <br>
 
