@@ -399,6 +399,7 @@ Output: Robust Trajectory + Map
 
 ## 4D
 
+<br>
 
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
@@ -412,6 +413,8 @@ Output: Robust Trajectory + Map
 
 ## 2D
 
+<br>
+
 [DINOv3]
 
 [SAM 2]
@@ -420,6 +423,8 @@ Output: Robust Trajectory + Map
 <br>
 
 ## 3D
+
+<br>
 
 
 [2025 - VGGT](https://vgg-t.github.io/)
