@@ -41,7 +41,7 @@ Deep Learning (Python)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
-Mixed Reality (C++) (25)
+Mixed Reality (C++, 25)
 
 Shape Modeling (26)
 
