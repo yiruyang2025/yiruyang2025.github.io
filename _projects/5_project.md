@@ -92,6 +92,16 @@ Implicit Geometry - NeRF/SDF
 
 
 
+**3. 3d Shape Modeling**
+
+
+
+
+[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
+
+
+[2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
+
 
 
 <br><br><br><br><br><br>
