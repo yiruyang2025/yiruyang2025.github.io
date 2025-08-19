@@ -37,7 +37,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-Deep Learning (Python)
+Deep Learning (Python, 25)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
