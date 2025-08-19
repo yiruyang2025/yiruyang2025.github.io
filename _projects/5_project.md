@@ -20,7 +20,7 @@ related_publications: true
 <br><br><br><br><br><br><br><br>
 
 
-## Some Topics for `cardiac 4d imaging`
+## Some Topics for `Cardiac 4D Imaging`
 
 <br>
 
