@@ -24,7 +24,7 @@ Hi there, let's collect pretty things here
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
-
+- [Race Cars](https://yiruyang2025.github.io/blog/2025/How-to-Build-a-F1-Car-by-Yourself-25/)
 
 
 <br><br>
