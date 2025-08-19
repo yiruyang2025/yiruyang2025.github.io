@@ -16,7 +16,22 @@ images:
 Welcome to story time<br><br>
 
 
-# Topics<br><br>
+# Topics
+
+<br>
+
+
+
+[2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
+
+
+
+
+
+
+
+
+<br><br>
 
 # 1. Causal Inference in Policy Design x Economics<br><br>
 
