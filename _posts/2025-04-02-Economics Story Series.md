@@ -20,7 +20,9 @@ Welcome to story time<br><br>
 
 <br>
 
+## Global Proverty Research
 
+<br>
 
 [2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
 
