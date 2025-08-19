@@ -34,6 +34,8 @@ Hi there, let's collect pretty things here
 
 Deep Learning (Python)
 
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
+
 Mixed Reality (C++)
 
 Seminar in Visual Computing
