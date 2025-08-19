@@ -198,7 +198,7 @@ PanSt3R (ICCV 2025)
 
 
 
-<br><br><br><br>
+<br><br>
 
 
 ```
@@ -231,7 +231,7 @@ Hybrid models:
 
 ## CFD
 
-
+<br>
 
 | Method                       | Suitable Scenarios                                | Advantages                                                       | Limitations                                         |
 | ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------- |
@@ -241,12 +241,47 @@ Hybrid models:
 | **Hybrid (FFN + Attention)** | Industrial / real-time scenarios                  | Balanced speed and accuracy                                      | More complex to design                              |
 
 
+<br><br>
+
+## Visual SLAM Pipeline
+
+<br>
+
+```
+Input Images (RGB / RGB-D / Stereo)
+        ↓
+Front-End Tracking
+   - Feature Extraction (ORB, SuperPoint)
+   - Feature Matching (KLT, StereoGlue)
+   - Motion Estimation (PnP, Essential Matrix)
+        ↓
+Back-End Optimization
+   - Bundle Adjustment (BA)
+   - Sliding Window Optimization
+        ↓
+Loop Closure
+   - Place Recognition
+   - Pose Graph Optimization
+        ↓
+Mapping
+   - Sparse Map (Point Cloud)
+   - Dense Map (Depth / Voxel / Mesh)
+   - Semantic Map (Object / Scene Labels)
+        ↓
+Output: Robust Trajectory + Map
+```
+
+
+
+
+
 
 
 <br><br>
 
 ## Visual Computing
 
+<br>
 
 | Tuesday (Topic)                                                                                                  | Thursday (Topic)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
