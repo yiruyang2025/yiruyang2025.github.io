@@ -354,7 +354,7 @@ Hybrid models:
 ## 4D
 
 
-[📍 2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 
 [2025 - Shape of Motion](https://shape-of-motion.github.io/)
