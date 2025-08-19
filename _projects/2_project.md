@@ -351,6 +351,16 @@ Hybrid models:
 
 <br>
 
+## SSL Pretraining
+
+<br>
+
+[BERT], [Wav2Vec2] - masked reconstruction, contrastive loss
+
+
+
+<br>
+
 ## 4D
 
 
