@@ -14,7 +14,7 @@ related_publications: true
 
 <br>
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge, can ask anything in the link
 
 
 <br>
