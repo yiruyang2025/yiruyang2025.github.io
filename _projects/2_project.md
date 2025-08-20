@@ -18,24 +18,21 @@ related_publications: true
 
 <br>
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge, feel free to ask anything in the link
-
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
 
 <br><br><br>
 
 
-**Some Related Art Works**
+**Related Works**
 
 <br>
 
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the world like a baby
-
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
 
 [📍 2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
-
-[2025 - MonST3R](https://monst3r-project.github.io/)
+[2025 - MonST3R](https://monst3r-project.github.io/) - Motion-aware 4D segmentation
 
 
 <br><br><br>
