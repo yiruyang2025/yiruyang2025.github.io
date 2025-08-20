@@ -36,7 +36,7 @@ related_publications: true
 
 <br>
 
-[2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
+[2025 - Forecasting in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects, Rigid motion, Lie Group
 
 
 <br><br><br>
