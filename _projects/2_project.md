@@ -23,7 +23,7 @@ related_publications: true
 <br><br><br>
 
 
-**Related Works**
+**Some Related Art Works**
 
 <br>
 
