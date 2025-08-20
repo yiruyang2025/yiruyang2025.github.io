@@ -454,7 +454,7 @@ Outputs (Direct Prediction)
 <br>
 
 
-[2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
+[📍 2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
 
 [2024 - No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models](https://arxiv.org/abs/2407.02687)
 
