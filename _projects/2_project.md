@@ -241,21 +241,6 @@ Hybrid models:
 ```
 
 
-
-<br><br>
-
-## CFD - ML for `Computational Fluid Dynamics`
-
-<br>
-
-| Method                       | Suitable Scenarios                                | Advantages                                                       | Limitations                                         |
-| ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------- |
-| **FFN / CNN**                | Simple fluid fields, small-scale 2D tasks         | Fast, lightweight (few parameters)                               | Error accumulation, poor cross-scale generalization |
-| **U-Net / ConvLSTM**         | Medium-scale fluid simulations                    | Good at capturing local structures                               | Weak at modeling long-range dependencies            |
-| **Transformer**              | Atmospheric modeling, turbulence, cross-scale CFD | Captures global interactions, strong spatio-temporal consistency | Heavy models, high training cost                    |
-| **Hybrid (FFN + Attention)** | Industrial / real-time scenarios                  | Balanced speed and accuracy                                      | More complex to design                              |
-
-
 <br><br>
 
 ## Visual SLAM Pipeline
