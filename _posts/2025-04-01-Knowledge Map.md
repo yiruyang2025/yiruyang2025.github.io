@@ -34,6 +34,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
+`Feel free to ask anything if the link is given below`
 
 <br>
 
