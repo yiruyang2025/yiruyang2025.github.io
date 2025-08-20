@@ -31,7 +31,7 @@ related_publications: true
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the world like an infant
 
-[2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
+[2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer, Use the transformer backbone to replace the traditional descriptor and directly perform 3D tasks
 
 
 <br>
