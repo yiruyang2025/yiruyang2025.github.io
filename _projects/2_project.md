@@ -23,7 +23,7 @@ related_publications: true
 <br><br><br>
 
 
-**Some Related Art Works**
+**Some Related Art Works 1**
 
 <br>
 
@@ -34,6 +34,10 @@ related_publications: true
 
 <br>
 
+
+**Some Related Art Works 2**
+
+<br>
 
 
 [2025 - Forecasting in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects, Rigid motion, Lie Group
