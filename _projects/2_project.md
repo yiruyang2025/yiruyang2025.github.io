@@ -210,7 +210,6 @@ PanSt3R (ICCV 2025)
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
 
 
-
 <br><br>
 
 
@@ -273,6 +272,43 @@ Output: Robust Trajectory + Map
 <br><br>
 
 ## Visual Computing
+
+
+<br>
+
+
+`3d Segmentation`
+
+<br>
+
+```
+2D → 3D Projection World                     Multi-View Segmentation World
+═══════════════════════════════              ══════════════════════════════════
+Pixel Point  →  Camera Intrinsics →          Multi-View Image →  Camera Extrinsics →
+Corrected by Distortion → Project to 2D      Align Views Consistently → Back-Project to 3D
+    ↓                   ↓                          ↓                       ↓
+┌────────────┐   ┌────────────┐              ┌────────────┐   ┌────────────────┐
+│ Pixel Coord│ → │ Metric Ray │      vs.     │ Seg. Mask  │ → │ 3D Point Cloud │
+│ (u,v)      │   │ (K Matrix) │              │ (2D Image) │   │  or Voxels     │
+└────────────┘   └────────────┘              └────────────┘   └────────────────┘
+    ↓                   ↓                          ↓                 ↓
+Distortion-Free    Accurate Geometry           Consistent 3D     Semantic Labels
+Projection         Pixel → Metric Space        Reconstruction   in 3D Space
+
+
+Summary:
+1. Intrinsics: Ensure pixels map to correct metric coordinates
+2. Extrinsics: Align multi-view cameras consistently
+3. Distortion Params: Correct lens errors
+4. Projection: World point → Image point
+5. Back-Projection: Pixel + depth → World point
+6. Goal: Lift 2D segmentation masks into 3D semantic segmentation
+
+📸 Camera = Projector (2D Screen View)
+🗺️ Extrinsics = GPS for Camera Pose
+🎭 Segmentation = Paint Mask that Becomes 3D Object
+```
+
 
 
 <br>
