@@ -299,25 +299,12 @@ Output: Robust Trajectory + Map
 
 <br>
 
-| Symbol                                                                                                                                                                                                                   | English Explanation                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \$\lambda \begin{bmatrix}x \ y \ 1 \end{bmatrix} = \begin{bmatrix} f\_x & 0 & p\_x \ 0 & f\_y & p\_y \ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} R & t \ 0 & 1 \end{bmatrix} \begin{bmatrix} X \ Y \ Z \ 1 \end{bmatrix}\$ | This formula maps a **3D point (X,Y,Z)** to a **2D pixel (x,y)**: <br>👉 Intrinsic parameters (fx, fy = focal length, px, py = principal point) + Extrinsic parameters (R, t = camera pose). |
-| \$\lambda x = P X\$                                                                                                                                                                                                      | Compact matrix form: the projection matrix \$P\$ combines intrinsics and extrinsics.                                                                                                         |
+| Symbol (plain text)    | English Explanation                                                                                  |                                                                                                                                                                                                                                   |
+| ---------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| λ \[x, y, 1]^T = K \[R | t] \[X, Y, Z, 1]^T                                                                                   | This equation maps a **3D world point (X,Y,Z)** to a **2D pixel (x,y)**. <br>👉 K = intrinsic parameters (fx, fy = focal length, px, py = principal point). <br>👉 R, t = extrinsic parameters (camera rotation and translation). |
+| λx = P X               | Compact matrix form: the projection matrix **P** combines both intrinsics (K) and extrinsics (R, t). |                                                                                                                                                                                                                                   |
 
 <br>
-
-## Geometric Transformations in 2D and 3D
-
-<br>
-
-| Illustration                   | English Explanation                                                                                   |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| 🏰 Building panorama           | Shows an application of **2D/3D geometric transformations**: e.g., panorama stitching, rectification. |
-| 🤖 PTZ camera                  | Indicates cameras can **pan, tilt, zoom, translate**, modeled by transformation matrices.             |
-| 📐 Projection geometry diagram | Shows **multi-view camera geometry**: point correspondences, triangulation, 3D reconstruction.        |
-
-
-
 
 
 
