@@ -271,6 +271,50 @@ Mapping
 Output: Robust Trajectory + Map
 ```
 
+<br>
+
+## Camera Models and Geometry
+
+<br>
+
+```
+   3D World Point (X,Y,Z) 🌍
+              │
+              │ Light ray
+              ▼
+       [ Camera Center C 🎯 ]
+              │
+              │ Projects through pinhole
+              ▼
+   ┌─────────────────────────┐
+   │      Image Plane 🖼️     │
+   │                         │
+   │   → 2D Pixel (x,y) 📍   │
+   └─────────────────────────┘
+```
+
+<br>
+
+## Camera Projection Equations
+
+<br>
+
+| Symbol                                                                                                                                                                                                                   | English Explanation                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \$\lambda \begin{bmatrix}x \ y \ 1 \end{bmatrix} = \begin{bmatrix} f\_x & 0 & p\_x \ 0 & f\_y & p\_y \ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} R & t \ 0 & 1 \end{bmatrix} \begin{bmatrix} X \ Y \ Z \ 1 \end{bmatrix}\$ | This formula maps a **3D point (X,Y,Z)** to a **2D pixel (x,y)**: <br>👉 Intrinsic parameters (fx, fy = focal length, px, py = principal point) + Extrinsic parameters (R, t = camera pose). |
+| \$\lambda x = P X\$                                                                                                                                                                                                      | Compact matrix form: the projection matrix \$P\$ combines intrinsics and extrinsics.                                                                                                         |
+
+<br>
+
+## Geometric Transformations in 2D and 3D
+
+<br>
+
+| Illustration                   | English Explanation                                                                                   |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| 🏰 Building panorama           | Shows an application of **2D/3D geometric transformations**: e.g., panorama stitching, rectification. |
+| 🤖 PTZ camera                  | Indicates cameras can **pan, tilt, zoom, translate**, modeled by transformation matrices.             |
+| 📐 Projection geometry diagram | Shows **multi-view camera geometry**: point correspondences, triangulation, 3D reconstruction.        |
 
 
 
