@@ -31,6 +31,10 @@ related_publications: true
 [2025 - MonST3R](https://monst3r-project.github.io)
 
 
+<br><br>
+
+
+
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer, Use the transformer backbone to replace the traditional descriptor and directly perform 3D tasks
 
 
