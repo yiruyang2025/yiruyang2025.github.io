@@ -32,7 +32,7 @@ related_publications: true
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer, Use the transformer backbone to replace the traditional descriptor and directly perform 3D tasks
 
 
-<br><br>
+<br><br><br>
 
 
 **Some Related Art Works 2**
