@@ -27,12 +27,14 @@ related_publications: true
 
 <br>
 
+[2025 - MonST3R](https://monst3r-project.github.io/) - Motion-aware 4D segmentation
+
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
 
-[📍 2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
+[2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
-[2025 - MonST3R](https://monst3r-project.github.io/) - Motion-aware 4D segmentation
+
 
 
 <br><br><br>
