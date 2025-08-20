@@ -73,6 +73,30 @@ Hierarchical,
 
 
 
+📍 `4d Scene Modeling - Hierarchies`
+
+<br>
+
+```
+        Projective
+  (collinearity, cross-ratio)
+                 ↓
+          Affine
+   (parallelism, ratios of areas)
+                 ↓
+          Similarity
+   (ratios of distances, angles)
+                 ↓
+   Tekin et al. (2018): CNN + PnP
+   ---> Upgrade metric → Euclidean
+                 ↓
+          Euclidean (SE(3))
+   (absolute distances, 6D pose)
+                 ↓
+          4D Spatio-temporal
+   (geometry + temporal coherence)
+```
+
 
 
 
@@ -249,6 +273,45 @@ Hybrid models:
 
 <br><br>
 
+## 📍 Structure-from-Motion (SfM) Pipeline
+
+<br>
+
+
+```
+Input: Multiple images (Image Sequence)
+   ↓
+1️⃣ Feature Extraction  
+   - Detect keypoints and compute descriptors  
+   - Methods: SIFT, ORB, SuperPoint, D2-Net  
+   ↓
+2️⃣ Feature Matching  
+   - Find correspondences across images  
+   - Techniques: Nearest Neighbor, RANSAC, StereoGlue  
+   ↓
+3️⃣ Camera Motion Estimation  
+   - Estimate relative poses using Essential / Fundamental Matrix  
+   - Recover camera extrinsics (Rotation R, Translation t)  
+   ↓
+4️⃣ Triangulation  
+   - Back-project matched points  
+   - Compute 3D scene points (sparse point cloud)  
+   ↓
+5️⃣ Bundle Adjustment (BA)  
+   - Global non-linear optimization  
+   - Refine camera poses and 3D points  
+   - Minimize reprojection error  
+   ↓
+6️⃣ Output  
+   - Optimized 3D point cloud (sparse or dense)  
+   - Camera trajectory (motion path)  
+```
+
+
+
+
+<br>
+
 ## Visual SLAM Pipeline
 
 <br>
@@ -282,33 +345,6 @@ Output: Robust Trajectory + Map
 
 ## Visual Computing
 
-
-<br>
-
-
-📍 `4d Scene Modeling - Hierarchies`
-
-<br>
-
-```
-        Projective
-  (collinearity, cross-ratio)
-                 ↓
-          Affine
-   (parallelism, ratios of areas)
-                 ↓
-          Similarity
-   (ratios of distances, angles)
-                 ↓
-   Tekin et al. (2018): CNN + PnP
-   ---> Upgrade metric → Euclidean
-                 ↓
-          Euclidean (SE(3))
-   (absolute distances, 6D pose)
-                 ↓
-          4D Spatio-temporal
-   (geometry + temporal coherence)
-```
 
 <br>
 
