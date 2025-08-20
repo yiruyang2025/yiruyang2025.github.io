@@ -304,6 +304,8 @@ Hybrid approaches:
 
 📸 Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
 🧠 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
+
+💡 SfM is archaeology with chisels; VGGT is 3D printing with transformers
 ```
 
 
