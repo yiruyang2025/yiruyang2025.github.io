@@ -343,7 +343,7 @@ Outputs (Direct Prediction)
                 │  - Robust to noise & forces  │
                 └─────────────┬────────────────┘
                               │
-         Pose / Rotation Trajectories (SO(3)) │
+            Pose / Rotation Trajectories (SO(3)) 
                               │
       ┌───────────────────────▼──────────────────────────┐
       │           Global 4D Scene Modeling               │
@@ -377,7 +377,7 @@ Outputs (Direct Prediction)
 
 
 
-<br>
+<br><br>
 
 | Step / Component   | Classical SfM (Geometry-driven)                                                   | VGGT (Learning-driven, CVPR 2025)                                      | Core Formula                                     |
 |--------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------|
