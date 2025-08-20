@@ -302,7 +302,7 @@ Hybrid models:
 
 <br>
 
-📍 ·🍰 3D Representation Worlds`
+📍 `🍰 3D Representation Worlds`
 
 <br>
 
