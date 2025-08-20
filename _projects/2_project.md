@@ -333,20 +333,16 @@ Outputs (Direct Prediction)
 
 
 
-
-
 <br>
 
-| Step / Component      | Classical SfM (Structure-from-Motion)                                                                  | VGGT (Visual Geometry Grounded Transformer, CVPR 2025)                                              | Core Formula                                                                       |                       |
-| --------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------- |
-| Calibration       | Requires **explicit calibration**: intrinsics (fx, fy, px, py, distortion) + extrinsics (R, t).        | Learns **intrinsics + extrinsics directly** from images using camera tokens.                        | Intrinsics: **K = \[\[fx, 0, px], \[0, fy, py], \[0,0,1]]**<br>Extrinsics: \*\*\[R | t]\*\*                |
-| Correspondences   | Find **2D–2D matches** across multiple images (SIFT, SuperGlue, etc.) to link the same 3D point.       | Encodes correspondences implicitly via **tokenized features** and self-attention.                   | Epipolar constraint: **xᵢᵀ F xⱼ = 0**                                              |                       |
-| Projection Matrix | Use projection to map 3D points → 2D pixels.                                                           | No explicit projection; network jointly predicts **depth maps, point maps, and poses**.             | \*\*λ \[x, y, 1]ᵀ = K \[R                                                          | t] \[X, Y, Z, 1]ᵀ\*\* |
-| Optimization      | Solve via **non-linear least squares** (Bundle Adjustment, Rotation Averaging, Distortion correction). | Optimization is **implicit in the feed-forward network**; globally consistent without iterative BA. | **min {R,t,X} Σ ‖x − π(K,R,t,X)‖²**                                                |                       |
-|  Speed & Efficiency  | Incremental/global SfM takes **hours–days** on large datasets.                                         | VGGT runs in **< 1 second per scene**.                                                              | —                                                                                  |                       |
-|  Output             | Camera poses + sparse/dense 3D point cloud; often requires post-processing.                            | Directly outputs **intrinsics, extrinsics, depth maps, point maps, and 3D tracks**.                 | —                                                                                  |                       |
-
-
+| Step / Component       | Classical SfM (Structure-from-Motion)                                                              | VGGT (Visual Geometry Grounded Transformer, CVPR 2025)                                          | Core Formula                                                                         |                       |
+| ---------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------- |
+| **Calibration**        | Requires explicit calibration: intrinsics (fx, fy, px, py, distortion) + extrinsics (R, t).        | Learns intrinsics + extrinsics directly from images using camera tokens.                        | Intrinsics: **K = \[\[fx, 0, px], \[0, fy, py], \[0,0,1]]** <br> Extrinsics: \*\*\[R | t]\*\*                |
+| **Correspondences**    | Find 2D–2D matches across multiple images (SIFT, SuperGlue, etc.) to link the same 3D point.       | Encodes correspondences implicitly via tokenized features and self-attention.                   | Epipolar constraint: **xᵢᵀ F xⱼ = 0**                                                |                       |
+| **Projection Matrix**  | Use projection to map 3D points → 2D pixels.                                                       | No explicit projection; network jointly predicts depth maps, point maps, and poses.             | \*\*λ \[x, y, 1]ᵀ = K \[R                                                            | t] \[X, Y, Z, 1]ᵀ\*\* |
+| **Optimization**       | Solve via non-linear least squares (Bundle Adjustment, Rotation Averaging, Distortion correction). | Optimization is implicit in the feed-forward network; globally consistent without iterative BA. | **min {R,t,X} Σ ‖x − π(K,R,t,X)‖²** (Bundle Adjustment)                              |                       |
+| **Speed & Efficiency** | Incremental/global SfM takes hours–days on large datasets.                                         | VGGT runs in **< 1 second per scene**.                                                          | —                                                                                    |                       |
+| **Output**             | Camera poses + sparse/dense 3D point cloud; often requires post-processing.                        | Directly outputs intrinsics, extrinsics, depth maps, point maps, and 3D tracks.                 | —                                                                                    |                       |
 
 
 
