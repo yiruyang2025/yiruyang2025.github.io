@@ -54,6 +54,8 @@ Seminar in Visual Computing
 
 Geometry for Computational Design and Fabrication
 
+Machine Learning for CFD / Computational Fluid Dynamics
+
 Vision Algorithms for Mobile Robotics (L+E)
 
 Systems on Chips (Cuda, HPC)
