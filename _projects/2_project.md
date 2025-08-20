@@ -14,10 +14,15 @@ related_publications: true
 
 <br>
 
+**Related Coursework**
+
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge, can ask anything in the link
 
 
 <br>
+
+
+**Related Masterpieces**
 
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
