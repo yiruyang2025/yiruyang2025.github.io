@@ -14,6 +14,11 @@ related_publications: true
 
 <br>
 
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
+
+
+<br>
+
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
@@ -24,7 +29,7 @@ related_publications: true
 [📍 2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
+
 
 
 <br><br><br>
