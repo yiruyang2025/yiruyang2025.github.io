@@ -70,43 +70,6 @@ Hierarchical,
 <br>
 
 
-## 📍 Pipeline
-
-<br>
-
-
-```
-                ┌──────────────────────────────┐
-                │  📍 Local Object Dynamics    │
-                │ (SO(3) Forecasting, ICCV’25) │
-                │  - Neural CDE + SG filter    │
-                │  - Robust to noise & forces  │
-                └─────────────┬────────────────┘
-                              │
-            Pose / Rotation Trajectories (SO(3)) 
-                              │
-      ┌───────────────────────▼──────────────────────────┐
-      │           Global 4D Scene Modeling               │
-      │────────────────────────────────────────────────  │
-      │ MonST3R (CVPR’25)  → Geometry in motion          │
-      │ Shape of Motion (CVPR’25) → Shape + motion priors│
-      │ 4DNeX (CVPR’25)   → End-to-end 4D generation     │
-      └─────────────┬───────────────────────┬────────────┘
-                    │                       │
-     ┌──────────────▼─────────────┐   ┌─────▼──────────────┐
-     │ Geometric Backbone         │   │ Semantic Backbone  │
-     │ VGGT (CVPR’25)             │   │ OpenScene (2023)   │
-     │ - Camera intrinsics/extr.  │   │ - Open-vocab 3D    │
-     │ - Depth, 3D tracks         │   │ - Semantic labels  │
-     └────────────────────────────┘   └────────────────────┘
-```
-
-
-
-
-
-<br>
-
 
 📍 `4d Scene Modeling - Hierarchies`
 
@@ -132,6 +95,37 @@ Hierarchical,
    (geometry + temporal coherence)
 ```
 
+<br>
+
+
+## Pipeline
+
+<br>
+```
+                ┌──────────────────────────────┐
+                │   Local Object Dynamics      │
+                │ (SO(3) Forecasting, ICCV’25) │
+                │  - Neural CDE + SG filter    │
+                │  - Robust to noise & forces  │
+                └─────────────┬────────────────┘
+                              │
+            Pose / Rotation Trajectories (SO(3)) 
+                              │
+      ┌───────────────────────▼──────────────────────────┐
+      │           Global 4D Scene Modeling               │
+      │────────────────────────────────────────────────  │
+      │ MonST3R (CVPR’25)  → Geometry in motion          │
+      │ Shape of Motion (CVPR’25) → Shape + motion priors│
+      │ 4DNeX (CVPR’25)   → End-to-end 4D generation     │
+      └─────────────┬───────────────────────┬────────────┘
+                    │                       │
+     ┌──────────────▼─────────────┐   ┌─────▼──────────────┐
+     │ Geometric Backbone         │   │ Semantic Backbone  │
+     │ VGGT (CVPR’25)             │   │ OpenScene (2023)   │
+     │ - Camera intrinsics/extr.  │   │ - Open-vocab 3D    │
+     │ - Depth, 3D tracks         │   │ - Semantic labels  │
+     └────────────────────────────┘   └────────────────────┘
+```
 
 
 
