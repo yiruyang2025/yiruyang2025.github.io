@@ -279,6 +279,32 @@ Output: Robust Trajectory + Map
 <br>
 
 
+📍 `4d Scene Modeling - Hierarchies`
+
+<br>
+
+```
+        Projective
+  (collinearity, cross-ratio)
+                 ↓
+          Affine
+   (parallelism, ratios of areas)
+                 ↓
+          Similarity
+   (ratios of distances, angles)
+                 ↓
+   Tekin et al. (2018): CNN + PnP
+   ---> Upgrade metric → Euclidean
+                 ↓
+          Euclidean (SE(3))
+   (absolute distances, 6D pose)
+                 ↓
+          4D Spatio-temporal
+   (geometry + temporal coherence)
+```
+
+<br>
+
 `3d Segmentation`
 
 <br>
@@ -340,32 +366,6 @@ Hybrid approaches:
 
 📸 Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
 🧠 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
-```
-
-<br>
-
-📍 `4d Scene Modeling - Hierarchies`
-
-<br>
-
-```
-        Projective
-  (collinearity, cross-ratio)
-                 ↓
-          Affine
-   (parallelism, ratios of areas)
-                 ↓
-          Similarity
-   (ratios of distances, angles)
-                 ↓
-   Tekin et al. (2018): CNN + PnP
-   ---> Upgrade metric → Euclidean
-                 ↓
-          Euclidean (SE(3))
-   (absolute distances, 6D pose)
-                 ↓
-          4D Spatio-temporal
-   (geometry + temporal coherence)
 ```
 
 
