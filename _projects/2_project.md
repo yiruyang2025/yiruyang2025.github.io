@@ -283,6 +283,35 @@ Output: Robust Trajectory + Map
 
 <br>
 
+```
+Classical SfM / MVS World                         VGGT World
+═══════════════════════════════════         ════════════════════════════════════
+Find Keypoints → Match Pairs →              Drop Images → Transformer Thinks →
+Estimate Pose → Triangulate →               One Forward Pass → Geometry Pops Out
+Optimize BA → Wait Forever                  (Pose, Depth, Points, Tracks in ms)
+     ↓                   ↓                          ↓
+┌─────────────┐   ┌──────────────┐           ┌───────────────┐   ┌────────────────┐
+│ Feature     │ → │ Epipolar     │    vs.    │ Transformer   │ → │ Unified Outputs│
+│ Matching    │   │ Geometry     │           │ Global Context│   │ (Pose+Depth+3D)│
+└─────────────┘   └──────────────┘           └───────────────┘   └────────────────┘
+     ↓                   ↓                          ↓                    ↓
+Fragile Matches     Heavy Optimization         Robust Priors        Instant Geometry
+(SIFT/SuperPoint)   (Bundle Adjustment)        Learned Attention    Feed-forward Only
+
+Hybrid approaches:
+1. Use classical SfM to bootstrap intrinsics → fine-tune with VGGT outputs
+2. Combine hand-crafted geometry checks (epipolar) with learned global priors
+
+📸 Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
+🧠 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
+```
+
+
+
+
+
+<br>
+
 `Classical SfM (Geometry-driven)`
 
 <br>
