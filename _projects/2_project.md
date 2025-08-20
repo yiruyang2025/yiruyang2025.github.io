@@ -344,7 +344,7 @@ Hybrid approaches:
 
 <br>
 
-`4d Scene Modeling`
+📍 `4d Scene Modeling - Hierarchies`
 
 <br>
 
