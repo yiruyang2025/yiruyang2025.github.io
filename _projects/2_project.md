@@ -27,7 +27,7 @@ related_publications: true
 
 <br>
 
-[2025 - MonST3R](https://monst3r-project.github.io/) - Motion-aware 4D segmentation
+[2025 - MonST3R](https://monst3r-project.github.io/) - Geometry-aware FFN for 4d Reconstruction
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the world like an infant
 
