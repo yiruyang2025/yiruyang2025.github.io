@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 1
-description: Multimodal Clinical DL Modeling, Medical Modeling
+description: Multimodal Clinical DL Modeling, 4d Medical Modeling
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -103,7 +103,6 @@ Implicit Geometry - NeRF/SDF
 <br>
 
 [2022 - Enhancing computational fluid dynamics with machine learning](https://www.nature.com/articles/s43588-022-00264-7)
-
 
 
 [2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
