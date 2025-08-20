@@ -38,9 +38,6 @@ related_publications: true
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
 
-[2025 - Forecasting in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Lie Group
-
-
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
 
@@ -623,7 +620,7 @@ Outputs (Direct Prediction)
 <br>
 
 
-[📍 2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
+[2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
 
 [2024 - No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models](https://arxiv.org/abs/2407.02687)
 
@@ -666,9 +663,9 @@ Outputs (Direct Prediction)
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
-[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+[2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
-[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+[2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
