@@ -27,6 +27,8 @@ Hi there, let's collect pretty things here
 
 <br>
 
+- [Race Cars](https://yiruyang2025.github.io/blog/2025/How-to-build-a-Your-own-F1-Car-27/)
+
 
 <br><br>
 
