@@ -67,10 +67,10 @@ Hierarchical,
 
 ## 1. 4D
 
-<br><br><br>
+<br>
 
 
-## Pipeline
+## 📍 Pipeline
 
 <br>
 
