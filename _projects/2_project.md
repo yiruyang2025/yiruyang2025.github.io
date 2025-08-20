@@ -471,7 +471,7 @@ Outputs (Direct Prediction)
 [2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
 
-[2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+[2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4D scene understanding
 
 <br><br>
 
