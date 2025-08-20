@@ -335,6 +335,50 @@ Outputs (Direct Prediction)
 
 <br>
 
+```
+                ┌──────────────────────────────┐
+                │   Local Object Dynamics      │
+                │ (SO(3) Forecasting, ICCV’25) │
+                │  - Neural CDE + SG filter    │
+                │  - Robust to noise & forces  │
+                └─────────────┬────────────────┘
+                              │
+         Pose / Rotation Trajectories (SO(3)) │
+                              │
+      ┌───────────────────────▼──────────────────────────┐
+      │           Global 4D Scene Modeling               │
+      │────────────────────────────────────────────────  │
+      │ MonST3R (CVPR’25)  → Geometry in motion          │
+      │ Shape of Motion (CVPR’25) → Shape + motion priors│
+      │ 4DNeX (CVPR’25)   → End-to-end 4D generation     │
+      └─────────────┬───────────────────────┬────────────┘
+                    │                       │
+     ┌──────────────▼─────────────┐   ┌─────▼──────────────┐
+     │ Geometric Backbone         │   │ Semantic Backbone  │
+     │ VGGT (CVPR’25)             │   │ OpenScene (2023)   │
+     │ - Camera intrinsics/extr.  │   │ - Open-vocab 3D    │
+     │ - Depth, 3D tracks         │   │ - Semantic labels  │
+     └────────────────────────────┘   └────────────────────┘
+```
+
+
+<br>
+
+
+| Level                     | Method                            | Core Idea                                                                                                   | Input                                    | Output                                        | Use Case                                                |
+| ------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------- | ------------------------------------------------------- |
+| **Local Object Dynamics** | **SO(3) Forecasting (ICCV 2025)** | Neural CDE + Savitzky–Golay filtering for robust rotation forecasting under noise & non-conservative forces | Noisy pose estimates (tracking, sensors) | Future rotation trajectories (SO(3) manifold) | Robust object tracking, AR/VR pose estimation, robotics |
+| **Global Scene Geometry** | **MonST3R (CVPR 2025)**           | Joint geometry estimation in motion scenes                                                                  | Multi-frame RGB                          | 3D geometry with motion consistency           | Dynamic scene reconstruction                            |
+|                           | **Shape of Motion (CVPR 2025)**   | Learn shapes guided by motion priors                                                                        | Video sequences                          | 4D shapes with motion cues                    | Shape + motion joint modeling                           |
+|                           | **4DNeX (CVPR 2025)**             | Transformer-based 4D scene understanding                                                                    | RGB + depth / multi-view                 | Semantic + geometric 4D representation        | AR/VR, semantic-aware 4D perception                     |
+| **Geometric Backbone**    | **VGGT (CVPR 2025)**              | Feed-forward vision transformer for intrinsics, extrinsics, depth, point tracks                             | Multi-view images                        | Camera poses + 3D structure                   | SfM replacement                                         |
+| **Semantic Backbone**     | **OpenScene (2023)**              | Open-vocab semantics in 3D                                                                                  | RGB + depth                              | 3D semantic labels                            | Open-world scene segmentation                           |
+
+
+
+
+<br>
+
 | Step / Component   | Classical SfM (Geometry-driven)                                                   | VGGT (Learning-driven, CVPR 2025)                                      | Core Formula                                     |
 |--------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------|
 | Calibration        | Explicit intrinsics (fx, fy, px, py, distortion) + extrinsics (R, t).             | Learns intrinsics + extrinsics directly from images (camera tokens).    | K = [[fx,0,px],[0,fy,py],[0,0,1]]; [R | t]       |
