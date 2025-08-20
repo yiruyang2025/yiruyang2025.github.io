@@ -133,8 +133,6 @@ PanSt3R (ICCV 2025)
 | **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
 
 
-
-
 <br><br><br>
 
 
@@ -304,8 +302,6 @@ Hybrid approaches:
 
 📸 Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
 🧠 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
-
-💡 SfM is archaeology with chisels; VGGT is 3D printing with transformers
 ```
 
 <br>
@@ -331,11 +327,9 @@ Hybrid approaches:
 ```
 
 
-
-
 <br>
 
-**Classical SfM (Geometry-driven)**
+`Classical SfM (Geometry-driven)`
 
 <br>
 
@@ -362,7 +356,7 @@ Output
 
 <br>
 
-**VGGT (Learning-driven)**
+`VGGT (Learning-driven)`
 
 <br>
 
@@ -382,7 +376,6 @@ Outputs (Direct Prediction)
    • Point Maps
    • 3D Tracks
 ```
-
 
 
 <br>
