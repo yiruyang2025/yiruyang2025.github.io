@@ -505,19 +505,13 @@ Outputs (Direct Prediction)
 
 
 
-<br><br>
+<br>
 
-| Step / Component   | Classical SfM (Geometry-driven)                                                   | VGGT (Learning-driven, CVPR 2025)                                      | Core Formula                                     |
-|--------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------|
-| Calibration        | Explicit intrinsics (fx, fy, px, py, distortion) + extrinsics (R, t).             | Learns intrinsics + extrinsics directly from images (camera tokens).    | K = [[fx,0,px],[0,fy,py],[0,0,1]]; [R | t]       |
-| Correspondences    | 2D–2D feature matching (SIFT, SuperGlue, etc.).                                  | Implicit via tokenized features + self-attention.                       | xᵢᵀ F xⱼ = 0                                     |
-| Projection Matrix  | Projects 3D → 2D using camera model.                                              | No explicit projection; jointly predicts depth, points, and poses.      | λ [x,y,1]ᵀ = K [R | t] [X,Y,Z,1]ᵀ                |
-| Optimization       | Non-linear least squares (Bundle Adjustment, rotation averaging, distortion).     | Implicit optimization inside feed-forward transformer.                  | min {R,t,X} Σ ‖x − π(K,R,t,X)‖²                  |
-| Speed & Efficiency | Incremental/global SfM → hours–days.                                              | < 1 second per scene.                                                   | —                                                |
-| Output             | Camera poses + sparse/dense 3D point cloud (post-processing often needed).        | Direct prediction of intrinsics, extrinsics, depth, points, 3D tracks.  | —                                                |
+## Visual Computing - Coursework
 
 
 <br>
+
 
 | Tuesday (Topic)                                                                                                  | Thursday (Topic)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
