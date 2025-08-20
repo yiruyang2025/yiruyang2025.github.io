@@ -279,13 +279,23 @@ Output: Robust Trajectory + Map
 
 <br>
 
-| Concept                   | Core Mathematical Formulation                                                                                        | Explanation                                                                                 |                                                                                 |   |   |                                                                            |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | - | - | -------------------------------------------------------------------------- |
-| Projection Equation       | λ \[x, y, 1]^T = K \[R                                                                                               | t] \[X, Y, Z, 1]^T                                                                          | Maps 3D world point (X,Y,Z) → 2D pixel (x,y). K = intrinsics, R,t = extrinsics. |   |   |                                                                            |
-| Projection Matrix         | λx = P X                                                                                                             | P = K \[R                                                                                   | t] combines both intrinsics and extrinsics.                                     |   |   |                                                                            |
-| Global Rotation Averaging | minimize {Ri} Σ (i,j)∈E                                                                                              |                                                                                             | Rij − Rj Ri^T                                                                   |   |   | Non-linear least squares on SO(3), estimating consistent global rotations. |
-| Global SfM vs Incremental | Global SfM = single global least-squares optimization; Incremental SfM = sequential triangulation + BA (drift risk). | Global avoids drift by solving rotations, translations, and structure jointly.              |                                                                                 |   |   |                                                                            |
-| Radial Distortion Model   | x′ = x(1 + k1 r² + k2 r⁴ + k3 r⁶), y′ = y(1 + k1 r² + k2 r⁴ + k3 r⁶)                                                 | Distortion parameters {k1,k2,k3} are optimized jointly with poses & 3D points (non-linear). |                                                                                 |   |   |                                                                            |
+**Classical SfM vs. VGGT**
+
+<br>
+
+
+| Step / Component      | Classical SfM (Structure-from-Motion)                                                                                      | VGGT (Visual Geometry Grounded Transformer, CVPR 2025)                                                                          | Core Formula                                                                      |                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | --------------------- |
+| 1️⃣ Calibration       | Explicit **camera calibration** required: intrinsics (fx, fy, px, py, distortion) + extrinsics (R, t).                     | Learns **camera intrinsics + extrinsics directly** from images using camera tokens, no separate calibration step.               | Intrinsics:  **K = \[\[fx, 0, px], \[0, fy, py], \[0,0,1]]** <br> Extrinsics:  \*\*\[R | t]\*\*                |
+| 2️⃣ Correspondences   | Find **2D–2D correspondences** across multiple images (feature matching: SIFT, SuperGlue, etc.) to link the same 3D point. | Implicitly encodes correspondences via **tokenized features** and global self-attention.                                        | Epipolar constraint:  **xᵢᵀ F xⱼ = 0**                                                 |                       |
+| 3️⃣ Projection Matrix | Use projection equation to map 3D → 2D pixels.                                                                             | No explicit projection; transformer **jointly predicts depth maps, point maps, and poses** in a feed-forward pass.              | \*\*λ \[x, y, 1]ᵀ = K \[R                                                              | t] \[X, Y, Z, 1]ᵀ\*\* |
+| 4️⃣ Optimization      | Solve via **non-linear least squares** (Bundle Adjustment, Rotation Averaging, Distortion modeling).                       | Optimization is **implicit inside the network**; results are globally consistent without iterative BA.                          | **min {R,t,X} Σ‖x − π(K,R,t,X)‖²**  (Bundle Adjustment)                                |                       |
+| ⚡ Speed & Efficiency  | Incremental/global SfM needs iterative refinement (hours–days for large-scale datasets).                                   | VGGT runs **<1 second per scene**, orders of magnitude faster.                                                                  | —                                                                                      |                       |
+| 🎯 Output             | Camera poses + sparse/dense 3D structure; often requires post-processing (densification, distortion correction, etc.).     | Direct output: **intrinsics + extrinsics, depth maps, point maps, 3D tracks**; often surpasses traditional SfM-based pipelines. | —                                                                                      |                       |
+
+
+
+
 
 
 
