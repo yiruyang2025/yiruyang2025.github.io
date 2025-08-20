@@ -344,6 +344,10 @@ Hybrid approaches:
 
 <br>
 
+`4d Scene Modeling`
+
+<br>
+
 ```
         Projective
   (collinearity, cross-ratio)
