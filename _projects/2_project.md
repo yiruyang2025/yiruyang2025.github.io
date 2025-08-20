@@ -68,6 +68,21 @@ Hierarchical,
 
 <br>
 
+## Why FFN
+
+<br>
+
+
+| Category                               | Representative Works / Applications                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic & instance segmentation) <br> **Flood-Filling Networks** (NeurIPS’17, large-scale neuron segmentation) <br> **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D segmentation)                                                                                                         |
+| **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025 – open-vocabulary semantic features) <br> **VGGT** (CVPR’25 – geometry + segmentation backbone) <br> **PanSt3R** (CVPR’25, ETH – 4D panoptic segmentation) <br> **MonST3R** (CVPR’25, Meta+ETH – motion-aware segmentation) <br> **Shape of Motion** (CVPR’25, Meta Reality Labs – dynamic 4D reconstruction & segmentation) |
+| **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
+| **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
+
+
+<br><br>
+
 
 
 📍 `4d Scene Modeling - Hierarchies`
@@ -180,19 +195,102 @@ PanSt3R (ICCV 2025)
   - Video → 3D Panoptic + Time → 4D Reconstruction
 
 
-<br><br>
-
-## Why FFN
-
 <br>
 
 
-| Category                               | Representative Works / Applications                                                                                                                                                                                                                                                                                                                 |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic & instance segmentation) <br> **Flood-Filling Networks** (NeurIPS’17, large-scale neuron segmentation) <br> **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D segmentation)                                                                                                         |
-| **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025 – open-vocabulary semantic features) <br> **VGGT** (CVPR’25 – geometry + segmentation backbone) <br> **PanSt3R** (CVPR’25, ETH – 4D panoptic segmentation) <br> **MonST3R** (CVPR’25, Meta+ETH – motion-aware segmentation) <br> **Shape of Motion** (CVPR’25, Meta Reality Labs – dynamic 4D reconstruction & segmentation) |
-| **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
-| **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
+## 3D Reconstruction Methods
+
+<br>
+
+```
+📐 Classical Geometry         →   🏗️ CAD / 🗺️ Mapping / 🤖 Robotics
+   Delaunay / Voronoi
+
+🪨 Smooth Surfaces            →   🏛️ 3D Scanning / 🩻 Medical Imaging
+   Poisson / α-shapes
+
+🕹️ Volumetric                 →   🎮 Real-time AR / 🚙 Autonomous Navigation
+   TSDF / KinectFusion
+
+🌊 Implicit Functions          →   🥽 AR/VR / 🎬 VFX / 🚘 Self-driving
+   DeepSDF / NeRF
+
+⚡ Neural Rendering            →   🎨 Real-time XR / 🔥 Digital Humans / 🏭 Digital Twins
+   3D Gaussian Splatting
+
+🤖 Foundation Models           →   📹 4D Scene Modeling / 🪐 Metaverse / 🚀 Robotics & AI Agents
+   Transformers (VGGT / MonST3R / Shape of Motion)
+```
+
+
+
+
+<br>
+
+```
+Delaunay/Voronoi → Classical geometry
+
+Poisson/α-shapes → Smooth geometric reconstruction
+
+Volumetric/TSDF → Dense volumes
+
+Implicit (SDF/NeRF) → Continuous function surfaces
+
+Modern neural methods (GS, Transformers) → End-to-end, dynamic scenes
+
+-
+
+Points → Delaunay Triangulation (Triangles)
+      ○         ○───────○
+       \       / \     /
+        ○─────○───○───○
+       / \     \ /     \
+      ○   ○─────○──────○
+
+
+Points → Voronoi Diagram (Cells)
+      ○     │     ○
+     ┌┼─────┼─────┼┐
+     │ Cell │ Cell │
+  ○──┼──────┼──────┼──○
+     │ Cell │ Cell │
+     └┼─────┼─────┼┘
+      ○     │     ○
+
+
+Points → Poisson / α-shapes (Smooth Surface)
+        ●──────────●
+      ╱              ╲
+    ●                  ●
+    ╲                  ╱
+      ●──────────────●
+
+
+Points → Volumetric / TSDF (Voxel Grid)
+   ▓▓▓▓▓
+   ▓███▓    Each cube = voxel
+   ▓▓▓▓▓
+
+
+Points → Implicit Fields (SDF / NeRF)
+   f(x,y,z) = 0  → Surface
+   Continuous function learned by NN
+   "Shape emerges from equations"
+
+
+Points → Modern Neural Models (GS / Transformer)
+   ● Gaussian Splatting → soft blobs in 3D
+   ● VGGT / MonST3R / PanSt3R → End-to-end feed-forward 3D/4D
+   ● NeRF → Radiance fields, view-dependent rendering
+```
+
+
+
+
+
+
+
+<br>
 
 
 <br><br><br>
