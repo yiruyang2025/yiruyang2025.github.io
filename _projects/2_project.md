@@ -299,10 +299,16 @@ Output: Robust Trajectory + Map
 
 <br>
 
-| Symbol (plain text)    | English Explanation                                                                                  |                                                                                                                                                                                                                                   |
-| ---------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| λ \[x, y, 1]^T = K \[R | t] \[X, Y, Z, 1]^T                                                                                   | This equation maps a **3D world point (X,Y,Z)** to a **2D pixel (x,y)**. <br>👉 K = intrinsic parameters (fx, fy = focal length, px, py = principal point). <br>👉 R, t = extrinsic parameters (camera rotation and translation). |
-| λx = P X               | Compact matrix form: the projection matrix **P** combines both intrinsics (K) and extrinsics (R, t). |                                                                                                                                                                                                                                   |
+
+| Symbol (plain text)    | English Explanation                               |                                                                                                                                                                                                                                                                                                       |
+| ---------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| λ \[x, y, 1]^T = K \[R | t] \[X, Y, Z, 1]^T                                | This equation maps a **3D world point (X,Y,Z)** to a **2D pixel (x,y)**. <br>👉 **K (intrinsics)**: fx, fy = focal length (scaling factors), px, py = principal point (image center). <br>👉 **R, t (extrinsics)**: camera rotation (R) and translation (t) that define the camera pose in the world. |
+| λx = P X               | Compact form: the projection matrix \*\*P = K \[R | t]\*\* combines both **intrinsic** and **extrinsic** parameters.                                                                                                                                                                                                                                      |
+
+
+
+
+
 
 <br>
 
