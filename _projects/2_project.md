@@ -28,7 +28,7 @@ related_publications: true
 
 <br>
 
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, "Like a baby", acquire a world model of a scene through self-observation and use it to imagine new perspectives in their minds
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the unseen world like a baby
 
 
 
