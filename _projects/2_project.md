@@ -321,13 +321,34 @@ Hybrid approaches:
 💡 SfM is archaeology with chisels; VGGT is 3D printing with transformers
 ```
 
+<br>
+
+```
+        Projective
+  (collinearity, cross-ratio)
+                 ↓
+          Affine
+   (parallelism, ratios of areas)
+                 ↓
+          Similarity
+   (ratios of distances, angles)
+                 ↓
+   Tekin et al. (2018): CNN + PnP
+   ---> Upgrade metric → Euclidean
+                 ↓
+          Euclidean (SE(3))
+   (absolute distances, 6D pose)
+                 ↓
+          4D Spatio-temporal
+   (geometry + temporal coherence)
+```
 
 
 
 
 <br>
 
-`Classical SfM (Geometry-driven)`
+**Classical SfM (Geometry-driven)**
 
 <br>
 
@@ -354,7 +375,7 @@ Output
 
 <br>
 
-`VGGT (Learning-driven)`
+**VGGT (Learning-driven)**
 
 <br>
 
