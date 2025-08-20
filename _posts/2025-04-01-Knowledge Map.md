@@ -27,8 +27,6 @@ Hi there, let's collect pretty things here
 
 <br>
 
-- [Race Cars](https://yiruyang2025.github.io/blog/2025/How-to-Build-a-F1-Car-by-Yourself-25/)
-
 
 <br><br>
 
@@ -36,13 +34,12 @@ Hi there, let's collect pretty things here
 
 <br>
 
-`Feel free to ask anything if the link is given below`
 
 <br>
 
 Deep Learning (Python, 25)
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
+3D Vision (25/26)
 
 Mixed Reality (C++, 25)
 
