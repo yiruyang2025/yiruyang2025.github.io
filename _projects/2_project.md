@@ -25,7 +25,6 @@ related_publications: true
 
 **References**
 
-<br>
 
 [2025 - MonST3R](https://monst3r-project.github.io)
 
