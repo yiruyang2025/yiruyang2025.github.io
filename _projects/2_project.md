@@ -337,7 +337,7 @@ Outputs (Direct Prediction)
 
 ```
                 ┌──────────────────────────────┐
-                │   Local Object Dynamics      │
+                │  📍 Local Object Dynamics    │
                 │ (SO(3) Forecasting, ICCV’25) │
                 │  - Neural CDE + SG filter    │
                 │  - Robust to noise & forces  │
