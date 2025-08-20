@@ -27,7 +27,7 @@ related_publications: true
 
 <br>
 
-
+[2025 - MonST3R](https://monst3r-project.github.io)
 
 
 <br><br>
@@ -37,7 +37,6 @@ related_publications: true
 
 <br>
 
-[2025 - MonST3R](https://monst3r-project.github.io/) - Geometry-aware FFN for 4d Reconstruction
 
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer, Use the transformer backbone to replace the traditional descriptor and directly perform 3D tasks
 
