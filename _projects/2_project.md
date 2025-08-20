@@ -21,23 +21,21 @@ related_publications: true
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge, can ask anything in the link
 
 
+<br><br><br>
+
+
+**Related Art Works**
+
 <br>
 
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
-**Related Masterpieces**
-
-<br>
-
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
-
-
-[2025 - MonST3R](https://monst3r-project.github.io/)
 
 
 [📍 2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
 
-
+[2025 - MonST3R](https://monst3r-project.github.io/)
 
 
 <br><br><br>
