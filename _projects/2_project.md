@@ -272,24 +272,12 @@ Output: Robust Trajectory + Map
 ```
 
 
-<br>
-
-## Camera Projection Equations
-
-<br>
-
-
-| Symbol (plain text)    | English Explanation                               |                                                                                                                                                                                                                                                                                                       |
-| ---------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| λ \[x, y, 1]^T = K \[R | t] \[X, Y, Z, 1]^T                                | This equation maps a **3D world point (X,Y,Z)** to a **2D pixel (x,y)**. <br>👉 **K (intrinsics)**: fx, fy = focal length (scaling factors), px, py = principal point (image center). <br>👉 **R, t (extrinsics)**: camera rotation (R) and translation (t) that define the camera pose in the world. |
-| λx = P X               | Compact form: the projection matrix \*\*P = K \[R | t]\*\* combines both **intrinsic** and **extrinsic** parameters.                                                                                                                                                                                                                                      |
-
 <br><br>
 
 ## Visual Computing
 
-<br>
 
+<br>
 
 | Concept                   | Core Mathematical Formulation                                                                                        | Explanation                                                                                 |                                                                                 |   |   |                                                                            |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | - | - | -------------------------------------------------------------------------- |
@@ -298,7 +286,6 @@ Output: Robust Trajectory + Map
 | Global Rotation Averaging | minimize {Ri} Σ (i,j)∈E                                                                                              |                                                                                             | Rij − Rj Ri^T                                                                   |   |   | Non-linear least squares on SO(3), estimating consistent global rotations. |
 | Global SfM vs Incremental | Global SfM = single global least-squares optimization; Incremental SfM = sequential triangulation + BA (drift risk). | Global avoids drift by solving rotations, translations, and structure jointly.              |                                                                                 |   |   |                                                                            |
 | Radial Distortion Model   | x′ = x(1 + k1 r² + k2 r⁴ + k3 r⁶), y′ = y(1 + k1 r² + k2 r⁴ + k3 r⁶)                                                 | Distortion parameters {k1,k2,k3} are optimized jointly with poses & 3D points (non-linear). |                                                                                 |   |   |                                                                            |
-
 
 
 
