@@ -21,6 +21,9 @@ related_publications: true
 [2025 - MonST3R](https://monst3r-project.github.io/)
 
 
+[📍 2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
+
+
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) - Learnt background knowledge
 
 
