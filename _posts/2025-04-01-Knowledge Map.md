@@ -48,8 +48,6 @@ Mixed Reality (C++, 25)
 
 Shape Modeling (26)
 
-Lie Group / Riemannian Geometry (26)
-
 Seminar in Visual Computing
 
 Geometry for Computational Design and Fabrication
