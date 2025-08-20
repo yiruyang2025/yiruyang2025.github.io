@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Aria Glass Gen-2/1
+description: Aria Glass Gen-1
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -19,20 +19,11 @@ related_publications: true
 
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
-[ToolKit](https://github.com/facebookresearch/projectaria_tools) - On-device
-
-[2025 - Aria Gen 2](https://www.projectaria.com/glasses/)
-
-[Tech report](https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/)
-
 <br>
 
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
-
-
-[Prototypes - only for Gen 1](https://www.projectaria.com/research-kit/)
 
 
 <br><br><br><br>
