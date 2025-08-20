@@ -40,6 +40,8 @@ related_publications: true
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
+[2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
+
 
 <br><br><br>
 
@@ -101,7 +103,7 @@ Hierarchical,
 
 ```
                 ┌──────────────────────────────┐
-                │   Local Object Dynamics      │
+                │  📍 Local Object Dynamics    │
                 │ (SO(3) Forecasting, ICCV’25) │
                 │  - Neural CDE + SG filter    │
                 │  - Robust to noise & forces  │
@@ -663,9 +665,9 @@ Outputs (Direct Prediction)
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
-[2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
-[2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
