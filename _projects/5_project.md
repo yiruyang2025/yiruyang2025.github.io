@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis 1
-description: Multimodal Clinical DL Modeling, 4D Medical Modeling
+description: Multimodal Clinical DL Modeling, Medical Modeling
 img: assets/img/4.jpg
 importance: 5
 category: work
