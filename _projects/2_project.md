@@ -24,11 +24,11 @@ related_publications: true
 <br><br><br>
 
 
-**Related Art Works**
+**Some Related Art Works**
 
 <br>
 
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the unseen world like a baby
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation, explore the world like a baby
 
 
 
@@ -48,6 +48,8 @@ related_publications: true
 
 A FFN for 4d Segmentation - Semantic -> Instance, for real-time Inference
 
+
+Hierarchical, 
 
 <br><br><br>
 
