@@ -38,7 +38,7 @@ related_publications: true
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
 
-[2025 - Forecasting in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/)
+[2025 - Forecasting in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Lie Group
 
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
