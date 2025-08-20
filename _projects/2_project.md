@@ -271,27 +271,6 @@ Mapping
 Output: Robust Trajectory + Map
 ```
 
-<br>
-
-## Camera Models and Geometry
-
-<br>
-
-```
-   3D World Point (X,Y,Z) 🌍
-              │
-              │ Light ray
-              ▼
-       [ Camera Center C 🎯 ]
-              │
-              │ Projects through pinhole
-              ▼
-   ┌─────────────────────────┐
-   │      Image Plane 🖼️     │
-   │                         │
-   │   → 2D Pixel (x,y) 📍   │
-   └─────────────────────────┘
-```
 
 <br>
 
