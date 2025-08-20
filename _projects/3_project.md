@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Aria Glass Gen-1
+description: Aria Glass Gen-1/2
 img: assets/img/4.jpg
 importance: 4
 category: work
