@@ -58,6 +58,8 @@ Vision Algorithms for Mobile Robotics (L+E)
 
 Systems on Chips (Cuda, HPC)
 
+(Lie Group and Riemannian Geometry)
+
 Graph Theory
 
 Real Analysis
