@@ -300,6 +300,22 @@ Hybrid models:
 ```
 
 
+<br>
+
+📍 ·🍰 3D Representation Worlds`
+
+<br>
+
+| **Representation**        | **Analogy**            | **How it works**                                            | **Strengths**                                 | **Limitations**                           |
+| ------------------------- | ---------------------- | ----------------------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
+| **Point Cloud**           | ✨ “Sprinkle Sugar”     | Just scatter points in space                                | Light & simple, straight from sensors         | No structure, no surface continuity       |
+| **Mesh**                  | 🎂 “Cake Mold”         | Fixed mold (vertices + faces) holds the shape               | Precise surface, easy to render               | Topology fixed, hard to deform            |
+| **Volumetric**            | 🧊 “Ice Cube Tray”     | Fill a voxel grid with occupancy/distance values            | Full space captured, physics-friendly         | Memory explodes with resolution           |
+| **Convex 3D**             | 🥟 “Dumpling Wrappers” | Wrap shape in convex shells (convex hulls or decomposition) | Fast optimization, strong geometry guarantees | Concave details hard to capture           |
+| **Implicit (SDF / NeRF)** | 🍨 “Gelato Machine”    | Function defines the surface/appearance continuously        | Infinite resolution, learns fine detail       | Needs heavy sampling, less direct control |
+
+
+
 <br><br>
 
 ## 📍 Structure-from-Motion (SfM) Pipeline
