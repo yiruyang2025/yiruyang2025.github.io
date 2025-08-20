@@ -101,6 +101,7 @@ Hierarchical,
 ## Pipeline
 
 <br>
+
 ```
                 ┌──────────────────────────────┐
                 │   Local Object Dynamics      │
