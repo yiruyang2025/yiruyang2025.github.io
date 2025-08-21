@@ -26,7 +26,20 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
 
 
-<br><br><br><br>
+<br><br>
+
+
+
+## Shape Modeling
+
+<br>
+
+[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/)
+
+
+
+
+<br><br><br><br><br><br>
 
 
 ## Mesh Generations
@@ -55,13 +68,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 <br><br>
-
-
-[2025 - FantasyPortrait](https://fantasy-amap.github.io/fantasy-portrait/)
-
-  - Implicit facial expression Representations
-  - DiT
-  - `Masked Cross-Attention`
 
 
 
