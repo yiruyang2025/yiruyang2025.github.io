@@ -849,6 +849,10 @@ Outputs (Direct Prediction)
 
 [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
 
+[3DV projects 2024](https://cvg.ethz.ch/lectures/3D-vision/assets/3DV_Projects_2024.pdf)
+
+[3DV projects 2025]
+
 
 <br><br><br>
 
