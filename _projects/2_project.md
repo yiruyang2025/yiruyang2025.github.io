@@ -17,12 +17,10 @@ related_publications: true
 **Related Coursework**
 
 - Learnt background knowledge, feel free to ask anything in the link
-  
-<br>
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
+- [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
 
-[2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/)
+- [2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/)
 
 <br><br><br>
 
