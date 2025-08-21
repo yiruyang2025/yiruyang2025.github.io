@@ -24,6 +24,13 @@ Let's take a look at the history of The Model Structures we're using today.
 
 <br>
 
+[2016 - DCGAN](https://arxiv.org/pdf/1511.06434)
+
+
+
+
+<br>
+
 ```
 Unsupervised World                              Zero-Shot World
 ═══════════════════════════════════             ════════════════════════════════════
