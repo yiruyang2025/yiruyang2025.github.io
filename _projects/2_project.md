@@ -225,22 +225,22 @@ PanSt3R (ICCV 2025)
 <br>
 
 ```
-Classical Geometry         →   🏗️ CAD / 🗺️ Mapping / 🤖 Robotics
+Classical Geometry         →   CAD / Mapping / Robotics
 Delaunay / Voronoi
 
-Smooth Surfaces            →   🏛️ 3D Scanning / 🩻 Medical Imaging
+Smooth Surfaces            →   3D Scanning / Medical Imaging
 Poisson / α-shapes
 
-Volumetric                 →   🎮 Real-time AR / 🚙 Autonomous Navigation
+Volumetric                 →   Real-time AR / Autonomous Navigation
 TSDF / KinectFusion
 
-Implicit Functions         →   🥽 AR/VR / 🎬 VFX / 🚘 Self-driving
+Implicit Functions         →   AR/VR / VFX / Self-driving
 DeepSDF / NeRF
 
-Neural Rendering           →   🎨 Real-time XR / 🔥 Digital Humans / 🏭 Digital Twins
+Neural Rendering           →   Real-time XR / Digital Humans / Digital Twins
 3D Gaussian Splatting
 
-Foundation Models          →   📹 4D Scene Modeling / 🪐 Metaverse / 🚀 Robotics & AI Agents
+Foundation Models          →   📹 4D Scene Modeling / Metaverse / Robotics & AI Agents
 Transformers (VGGT / MonST3R / Shape of Motion)
 ```
 
