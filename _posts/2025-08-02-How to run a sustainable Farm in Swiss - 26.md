@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to run a sustainable Farm in Swiss - 26
+title: How to run a sustainable Farm in Swiss - 27
 date: 2025-08-02
 description: 🦩
 categories: Life
