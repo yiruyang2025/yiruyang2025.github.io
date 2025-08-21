@@ -40,7 +40,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-[Deep Learning](https://transformer-circuits.pub/2021/framework/index.html) (Python, 25)
+[Deep Learning](https://www.youtube.com/watch?v=NrO20Jb-hy0) (Python, 25)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
