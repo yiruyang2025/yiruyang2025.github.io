@@ -581,7 +581,7 @@ Summary:
 <br>
 
 ```
-Classical SfM / MVS World                         VGGT World
+ Classical SfM / MVS World                   VGGT World
 ═══════════════════════════════════         ════════════════════════════════════
 Find Keypoints → Match Pairs →              Drop Images → Transformer Thinks →
 Estimate Pose → Triangulate →               One Forward Pass → Geometry Pops Out
@@ -653,20 +653,6 @@ Outputs (Direct Prediction)
    • Point Maps
    • 3D Tracks
 ```
-
-
-<br>
-
-
-| Level                     | Method                            | Core Idea                                                                                                   | Input                                    | Output                                        | Use Case                                                |
-| ------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------- | ------------------------------------------------------- |
-| **Local Object Dynamics** | **SO(3) Forecasting (ICCV 2025)** | Neural CDE + Savitzky–Golay filtering for robust rotation forecasting under noise & non-conservative forces | Noisy pose estimates (tracking, sensors) | Future rotation trajectories (SO(3) manifold) | Robust object tracking, AR/VR pose estimation, robotics |
-| **Global Scene Geometry** | **MonST3R (CVPR 2025)**           | Joint geometry estimation in motion scenes                                                                  | Multi-frame RGB                          | 3D geometry with motion consistency           | Dynamic scene reconstruction                            |
-|                           | **Shape of Motion (CVPR 2025)**   | Learn shapes guided by motion priors                                                                        | Video sequences                          | 4D shapes with motion cues                    | Shape + motion joint modeling                           |
-|                           | **4DNeX (CVPR 2025)**             | Transformer-based 4D scene understanding                                                                    | RGB + depth / multi-view                 | Semantic + geometric 4D representation        | AR/VR, semantic-aware 4D perception                     |
-| **Geometric Backbone**    | **VGGT (CVPR 2025)**              | Feed-forward vision transformer for intrinsics, extrinsics, depth, point tracks                             | Multi-view images                        | Camera poses + 3D structure                   | SfM replacement                                         |
-| **Semantic Backbone**     | **OpenScene (2023)**              | Open-vocab semantics in 3D                                                                                  | RGB + depth                              | 3D semantic labels                            | Open-world scene segmentation                           |
-
 
 
 
@@ -810,7 +796,8 @@ Outputs (Direct Prediction)
 
 <br>
 
-[CAT4D](https://cat-4d.github.io/)
+
+[CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
 
 
 <br><br>
