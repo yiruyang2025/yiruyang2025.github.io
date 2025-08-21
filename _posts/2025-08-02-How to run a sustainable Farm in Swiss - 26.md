@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to run a sustainable Farm in Swiss - 26
-date: 2025-08-01
-description: ❄️
+date: 2025-08-02
+description: 🦩
 categories: Life
 thumbnail: assets/img/9.jpg
 images:
