@@ -20,7 +20,7 @@ related_publications: true
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
 
-- [2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/) - Transformer decoder, with cross-attention
+- [2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/) - Transformer decoder, SAM2 Style, CLIP
 
 <br><br><br>
 
