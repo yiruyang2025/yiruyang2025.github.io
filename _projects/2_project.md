@@ -40,7 +40,6 @@ related_publications: true
 
 [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - Unsupervised Learning, Neural scene representation
 
-[📍 2025 - Forecasting Continuous Non-Conservative Dynamical Systems in SO(3)](https://bastianlb.github.io/forecasting-rotational-dynamics/) - Modeling the rotation of moving objects
 
 
 <br><br><br>
@@ -80,20 +79,6 @@ Hierarchical,
 | **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
 | **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
 
-
-<br><br>
-
-
-
-| Company / Team                            | Application 🚀                    | Tech Direction ⚙️                                                                                   | Core Task 🎯                                        |
-| ----------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| **Meta Reality Labs** 🥽                  | AR/VR (Project Aria, Quest 3/Pro) | End-to-end **4D scene segmentation**, FFN/Transformer backbone + **OpenScene / SAM** for open-vocab | **4D semantic → instance segmentation**             |
-| **Google DeepMind** 🧠                    | TF3D / TF4D frameworks            | Provides **library-level support** (TensorFlow-3D/4D), unifying academic ↔ industrial pipelines     | **Segmentation backbone (semantic + instance)**     |
-| **NVIDIA Isaac / Omniverse** 🤖           | Robotics + simulation             | Real-time **instance segmentation**, optimized **FFN + sparse voxel/grid** for memory efficiency    | **Instance segmentation for robot navigation**      |
-| **Apple ARKit / Vision Pro** 🍏           | Mobile AR / XR                    | Lightweight **FFN + Transformer hybrids**, enabling **low-latency on-device inference**             | **3D/4D semantic + instance segmentation**          |
-| **Tesla / Waymo (Autonomous Driving)** 🚗 | Multimodal 4D perception          | Fuses **FFN + Transformer + implicit rep. (SDF/NeRF)** for 4D point cloud & video understanding     | **4D instance segmentation + scene reconstruction** |
-
-
 <br><br>
 
 
@@ -132,7 +117,7 @@ Hierarchical,
 
 ```
                 ┌──────────────────────────────┐
-                │  📍 Local Object Dynamics    │
+                │   Local Object Dynamics      │
                 │ (SO(3) Forecasting, ICCV’25) │
                 │  - Neural CDE + SG filter    │
                 │  - Robust to noise & forces  │
@@ -179,53 +164,6 @@ Hierarchical,
 
 <br><br>
 
-## Why NeRF
-
-<br>
-
-
-```
- Problem Before NeRF:
- ┌─────────────────────────────────────────┐
- │  Multi-view images exist...             │
- │  but 3D reconstruction was              │
- │  either:                                │
- │   - Mesh-based (needs surface priors)   │
- │   - Voxels (too memory-heavy)           │
- │   - Point clouds (sparse, not realistic)│
- └─────────────────────────────────────────┘
-                ↓
-         ❌ Hard to get
-     photorealistic, view-consistent
-     novel views from just images
-
-
- NeRF Solution (2020):
- ┌───────────────────────────────────┐
- │  Represent a scene as a           │
- │  continuous 5D function:          │
- │   F(x,y,z,θ,φ) → (color, density) │
- │                                   │
- │  - Implicit, no mesh needed       │
- │  - Differentiable rendering       │
- │  - Learn from only images         │
- └───────────────────────────────────┘
-                ↓
-        ✅ Enables Neural Rendering
-        → Photorealistic novel views
-        → Geometry emerges implicitly
-
-
- Core Innovation:
-  Instead of explicit geometry → 
-  use a neural network (MLP) to learn
-  the radiance field directly.
-```
-
-
-
-
-<br>
 
 
 ## NeRF Variants
@@ -233,7 +171,7 @@ Hierarchical,
 <br>
 
 
-| Variant                     | Key Contribution                        | 📍 Problem Addressed                          |
+| Variant                     | Key Contribution                        | Problem Addressed                          |
 | --------------------------- | --------------------------------------- | ------------------------------------------ |
 | **NeRF++ (2020)**           | Extends NeRF to unbounded scenes        | Outdoor, large-scale scene rendering       |
 | **Mip-NeRF (2021)**         | Conical ray sampling (anti-aliasing)    | Reduces aliasing for multi-scale inputs    |
@@ -287,23 +225,23 @@ PanSt3R (ICCV 2025)
 <br>
 
 ```
-📐 Classical Geometry         →   🏗️ CAD / 🗺️ Mapping / 🤖 Robotics
-   Delaunay / Voronoi
+Classical Geometry         →   🏗️ CAD / 🗺️ Mapping / 🤖 Robotics
+Delaunay / Voronoi
 
-🪨 Smooth Surfaces            →   🏛️ 3D Scanning / 🩻 Medical Imaging
-   Poisson / α-shapes
+Smooth Surfaces            →   🏛️ 3D Scanning / 🩻 Medical Imaging
+Poisson / α-shapes
 
-🕹️ Volumetric                 →   🎮 Real-time AR / 🚙 Autonomous Navigation
-   TSDF / KinectFusion
+Volumetric                 →   🎮 Real-time AR / 🚙 Autonomous Navigation
+TSDF / KinectFusion
 
-🌊 Implicit Functions          →   🥽 AR/VR / 🎬 VFX / 🚘 Self-driving
-   DeepSDF / NeRF
+Implicit Functions         →   🥽 AR/VR / 🎬 VFX / 🚘 Self-driving
+DeepSDF / NeRF
 
-⚡ Neural Rendering            →   🎨 Real-time XR / 🔥 Digital Humans / 🏭 Digital Twins
-   3D Gaussian Splatting
+Neural Rendering           →   🎨 Real-time XR / 🔥 Digital Humans / 🏭 Digital Twins
+3D Gaussian Splatting
 
-🤖 Foundation Models           →   📹 4D Scene Modeling / 🪐 Metaverse / 🚀 Robotics & AI Agents
-   Transformers (VGGT / MonST3R / Shape of Motion)
+Foundation Models          →   📹 4D Scene Modeling / 🪐 Metaverse / 🚀 Robotics & AI Agents
+Transformers (VGGT / MonST3R / Shape of Motion)
 ```
 
 
