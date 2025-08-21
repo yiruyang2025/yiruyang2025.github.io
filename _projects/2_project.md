@@ -85,62 +85,13 @@ Hierarchical,
 
 
 
-## How to build a new FFN - for a SOTA / `Neat` 4d `Instance Segmentation`
-
-<br>
-
-```
-                ┌───────────────────────────────┐
-                │   🧩 Representation Choice    │
-                │  - Point Cloud (PointNet++)   │
-                │  - Mesh / Volumetric (e.g.,   │
-                │    TSDF)                      │
-                │  - Implicit (SDF / NeRF)      │
-                └───────────────┬───────────────┘
-                                │
-                                ▼
-                ┌───────────────────────────────┐
-                │        ⚡ FFN Backbone         │
-                │  - Feed-Forward Layers (MLP)  │
-                │  - Optional hierarchical      │
-                │    design (PointNet++ style)  │
-                │  - Parallel GPU inference     │
-                └───────────────┬───────────────┘
-                                │
-                                ▼
-                ┌───────────────────────────────┐
-                │          🎥 4D Extension      │
-                │  - Spatio-temporal encoding   │
-                │  - Motion-aware modules       │
-                │    (MonST3R, Shape of Motion) │
-                │  - Efficient memory handling  │
-                │    (sparse / compression)     │
-                └───────────────┬───────────────┘
-                                │
-                                ▼
-                ┌───────────────────────────────┐
-                │   🏷️ Semantic → Instance      │
-                │  - Semantic features          │
-                │    (DINOv3, OpenScene)        │
-                │  - Instance grouping (motion, │
-                │    geometry priors)           │
-                │  - Panoptic consistency       │
-                └───────────────┬───────────────┘
-                                │
-                                ▼
-                ┌───────────────────────────────┐
-                │   🌍 Industry Benchmarks      │
-                │  - Meta Reality Labs → AR/VR  │
-                │  - NVIDIA Isaac → Robotics    │
-                │  - Apple ARKit → Mobile AR    │
-                │  - DeepMind TF3D/TF4D → Libs  │
-                └───────────────────────────────┘
-
-📍 Core Innovation → A **hierarchical FFN backbone** for **efficient real-time 4D 
-semantic → instance segmentation**, inspired by **SOTA research (MonST3R, VGGT, PanSt3R)** 
-and aligned with **industrial AR/VR & robotics applications**
-```
-
+| Company / Team                            | Application 🚀                    | Tech Direction ⚙️                                                                                   | Core Task 🎯                                        |
+| ----------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **Meta Reality Labs** 🥽                  | AR/VR (Project Aria, Quest 3/Pro) | End-to-end **4D scene segmentation**, FFN/Transformer backbone + **OpenScene / SAM** for open-vocab | **4D semantic → instance segmentation**             |
+| **Google DeepMind** 🧠                    | TF3D / TF4D frameworks            | Provides **library-level support** (TensorFlow-3D/4D), unifying academic ↔ industrial pipelines     | **Segmentation backbone (semantic + instance)**     |
+| **NVIDIA Isaac / Omniverse** 🤖           | Robotics + simulation             | Real-time **instance segmentation**, optimized **FFN + sparse voxel/grid** for memory efficiency    | **Instance segmentation for robot navigation**      |
+| **Apple ARKit / Vision Pro** 🍏           | Mobile AR / XR                    | Lightweight **FFN + Transformer hybrids**, enabling **low-latency on-device inference**             | **3D/4D semantic + instance segmentation**          |
+| **Tesla / Waymo (Autonomous Driving)** 🚗 | Multimodal 4D perception          | Fuses **FFN + Transformer + implicit rep. (SDF/NeRF)** for 4D point cloud & video understanding     | **4D instance segmentation + scene reconstruction** |
 
 
 <br><br>
