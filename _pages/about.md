@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **(real-time 4D Instance Segmentation) / Multimodal / Biosignal / Self-Distillation / Speech Processing**
+- 📍 Skill Set - **(real-time 4d Instance Segmentation) / Multimodal / Biosignal / Self-Distillation / Speech Processing**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), `4D vision` for surgeries / diagnosis
+  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), `4D vision` for Surgeries / Diagnosis
   - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
   - [ML Computational Fluid Dynamics](https://youtu.be/Z1lEnxnM_sc)
 
