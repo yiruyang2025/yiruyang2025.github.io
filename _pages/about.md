@@ -43,8 +43,8 @@ latest_posts:
 <br>
 
 **Interests**
-  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
   - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
   - [ML Computational Fluid Dynamics](https://youtu.be/Z1lEnxnM_sc)
 
 <div style="height: 4rem;"></div>
