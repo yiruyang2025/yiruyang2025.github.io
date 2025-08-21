@@ -33,6 +33,7 @@ related_publications: true
 <br>
 
 [📍 2025 - MonST3R](https://monst3r-project.github.io)
+  - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
 
 <br><br><br><br>
@@ -47,7 +48,7 @@ related_publications: true
 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set, Without labeling, CLIP
 
 
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation, without labeling
+[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
 
 
 
