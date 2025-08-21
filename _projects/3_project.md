@@ -59,7 +59,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [2025 - FantasyPortrait](https://fantasy-amap.github.io/fantasy-portrait/)
 
-  - 📍 `Implicit` facial expression Representations
+  - Implicit facial expression Representations
   - DiT
   - `Masked Cross-Attention`
 
