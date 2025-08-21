@@ -35,6 +35,8 @@ related_publications: true
   - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
 
+[2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/) - geometry-first → learning-first
+
 <br><br><br><br>
 
 
