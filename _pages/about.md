@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), on-Device
+  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), Interactive `4D vision` for Hospitals
   - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling)
   - [ML Computational Fluid Dynamics](https://youtu.be/Z1lEnxnM_sc), [How to run a sustainable Farm in Swiss](https://yiruyang2025.github.io/blog/2025/How-to-run-a-sustainable-Farm-in-Swiss-26/)
 
