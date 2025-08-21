@@ -25,10 +25,6 @@ Hi there, let's collect pretty things here
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 
-<br>
-
-- [Products](https://yiruyang2025.github.io/blog/2025/How-to-build-a-Your-own-F1-Car-27/)
-
 
 <br><br>
 
@@ -36,13 +32,9 @@ Hi there, let's collect pretty things here
 
 <br>
 
-`Feel free to ask anything if the link is given below`
+Deep Learning(Python, 25)
 
-<br>
-
-[Deep Learning](https://youtu.be/piJkuavhV50?si=ljSIHZWXvOJfkUfE) (Python, 25)
-
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
+3D Vision (25/26)
 
 Mixed Reality (C++, 25)
 
