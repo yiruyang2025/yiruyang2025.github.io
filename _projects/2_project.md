@@ -179,6 +179,28 @@ Hierarchical,
 
 <br><br>
 
+
+## NeRF Variants
+
+<br>
+
+
+| Variant                     | Key Contribution                        | 📍 Problem Addressed                          |
+| --------------------------- | --------------------------------------- | ------------------------------------------ |
+| **NeRF++ (2020)**           | Extends NeRF to unbounded scenes        | Outdoor, large-scale scene rendering       |
+| **Mip-NeRF (2021)**         | Conical ray sampling (anti-aliasing)    | Reduces aliasing for multi-scale inputs    |
+| **NeRF-W (2020)**           | Photometric robustness                  | Handles varying lighting & transient objs  |
+| **PixelNeRF (2021)**        | Few-shot generalization                 | Works with unseen scenes from few images   |
+| **Instant-NGP (2022)**      | Hash-grid encoding                      | Fast training & real-time rendering        |
+| **Dynamic NeRFs (2021)**    | Models scene dynamics                   | Non-rigid, time-varying scenes (Nerfies)   |
+| **VolSDF / NeuS (2021)**    | Surface-aware radiance fields           | Sharp surfaces & better geometry extraction|
+
+
+
+
+
+<br><br>
+
 ## Models
 
 <br>
