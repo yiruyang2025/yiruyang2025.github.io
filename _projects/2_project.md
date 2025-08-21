@@ -67,16 +67,6 @@ Hierarchical,
 
 ## 1. 4D
 
-<br>
-
-| Method                          | Core Task                       | Revolutionary Idea + Solved Problem                                                                             |
-| ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **SAM / SAM2** (Meta 2023–2024) | Image / Video Segmentation      | Promptable segmentation; class-agnostic masks; temporal consistency; solved dataset-locked segmentation         |
-| **CLIP** (OpenAI 2021)          | Vision–Language Alignment       | Contrastive learning; shared embedding space; open-vocabulary recognition; solved classifier retraining problem |
-| **DINOv3** (Meta 2024)          | Universal Visual Backbone (SSL) | Large-scale self-supervised training (7B params, 1.7B images); dense features; solved annotation dependence     |
-
-
-
 
 
 
@@ -342,6 +332,21 @@ Points → Modern Neural Models (GS / Transformer)
 <br>
 
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
+
+<br>
+
+
+<br>
+
+| Method                          | Core Task                       | Revolutionary Idea + Solved Problem                                                                             |
+| ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **SAM / SAM2** (Meta 2023–2024) | Image / Video Segmentation      | Promptable segmentation; class-agnostic masks; temporal consistency; solved dataset-locked segmentation         |
+| **CLIP** (OpenAI 2021)          | Vision–Language Alignment       | Contrastive learning; shared embedding space; open-vocabulary recognition; solved classifier retraining problem |
+| **DINOv3** (Meta 2024)          | Universal Visual Backbone (SSL) | Large-scale self-supervised training (7B params, 1.7B images); dense features; solved annotation dependence     |
+
+
+
+
 
 
 <br><br><br><br>
