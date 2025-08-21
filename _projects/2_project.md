@@ -797,7 +797,7 @@ Outputs (Direct Prediction)
 <br>
 
 
-[CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
+[1. CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
 
 
 <br><br>
@@ -833,10 +833,10 @@ Outputs (Direct Prediction)
 <br>
 
 
-[Align3R: Aligned Monocular Depth Estimation for Dynamic Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html)
+[1. Align3R: Aligned Monocular Depth Estimation for Dynamic Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html)
 
 
-[Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
+[2. Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
 
 
 
