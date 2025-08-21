@@ -179,6 +179,54 @@ Hierarchical,
 
 <br><br>
 
+## Why NeRF
+
+<br>
+
+
+```
+ Problem Before NeRF:
+ ┌─────────────────────────────────────────┐
+ │  Multi-view images exist...             │
+ │  but 3D reconstruction was              │
+ │  either:                                │
+ │   - Mesh-based (needs surface priors)   │
+ │   - Voxels (too memory-heavy)           │
+ │   - Point clouds (sparse, not realistic)│
+ └─────────────────────────────────────────┘
+                ↓
+         ❌ Hard to get
+     photorealistic, view-consistent
+     novel views from just images
+
+
+ NeRF Solution (2020):
+ ┌───────────────────────────────────┐
+ │  Represent a scene as a           │
+ │  continuous 5D function:          │
+ │   F(x,y,z,θ,φ) → (color, density) │
+ │                                   │
+ │  - Implicit, no mesh needed       │
+ │  - Differentiable rendering       │
+ │  - Learn from only images         │
+ └───────────────────────────────────┘
+                ↓
+        ✅ Enables Neural Rendering
+        → Photorealistic novel views
+        → Geometry emerges implicitly
+
+
+ Core Innovation:
+  Instead of explicit geometry → 
+  use a neural network (MLP) to learn
+  the radiance field directly.
+```
+
+
+
+
+<br>
+
 
 ## NeRF Variants
 
