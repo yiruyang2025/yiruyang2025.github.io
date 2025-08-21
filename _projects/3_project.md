@@ -11,15 +11,7 @@ related_publications: true
 <br><br>
 
 
-[OpenGaze]
-
-**The Visual Turing Test Redux**
-
-<br>
-
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
-
-<br>
 
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
