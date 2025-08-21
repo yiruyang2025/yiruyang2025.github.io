@@ -32,7 +32,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-Deep Learning(Python, 25)
+Deep Learning (Python, 25)
 
 3D Vision (25/26)
 
