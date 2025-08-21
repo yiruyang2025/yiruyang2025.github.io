@@ -40,7 +40,7 @@ Hi there, let's collect pretty things here
 
 <br>
 
-[Deep Learning](https://www.youtube.com/watch?v=NrO20Jb-hy0) (Python, 25)
+[Deep Learning](https://youtube.com/shorts/7_ldLd5xD9A?si=tFEn2Yfg77NNdfu9) (Python, 25)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
