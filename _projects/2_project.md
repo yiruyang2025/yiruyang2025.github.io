@@ -29,10 +29,9 @@ related_publications: true
 
 **References**
 
-
 <br>
 
-[📍 2025 - MonST3R](https://monst3r-project.github.io)
+[📍 2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Dynamic scene
   - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
 
