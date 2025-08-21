@@ -780,7 +780,7 @@ Outputs (Direct Prediction)
 <br><br><br><br>
 
 
-## References 2
+## References 2 / Reading List
 
 <br>
 
@@ -810,8 +810,7 @@ Outputs (Direct Prediction)
 
 <br>
 
-[CAT4D](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_CAT4D_Create_Anything_in_4D_with_Multi-View_Video_Diffusion_Models_CVPR_2025_paper.html)
-
+[CAT4D](https://cat-4d.github.io/)
 
 
 <br><br>
