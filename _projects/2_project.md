@@ -109,7 +109,7 @@ Hierarchical,
                                 │
                                 ▼
                 ┌───────────────────────────────┐
-                │          🎥 4D Extension       │
+                │          🎥 4D Extension      │
                 │  - Spatio-temporal encoding   │
                 │  - Motion-aware modules       │
                 │    (MonST3R, Shape of Motion) │
@@ -129,7 +129,7 @@ Hierarchical,
                                 │
                                 ▼
                 ┌───────────────────────────────┐
-                │   🌍 Industry Benchmarks       │
+                │   🌍 Industry Benchmarks      │
                 │  - Meta Reality Labs → AR/VR  │
                 │  - NVIDIA Isaac → Robotics    │
                 │  - Apple ARKit → Mobile AR    │
