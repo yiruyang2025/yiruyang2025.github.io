@@ -10,15 +10,6 @@ related_publications: true
 
 <br>
 
-
-`always looking for co-authors / co-supervisors`
-
-<br>
-
-[Balgrist University Hospital](https://www.youtube.com/@JonasHeinCVG)
-
-<br>
-
 ## Topics
 
 <br>
