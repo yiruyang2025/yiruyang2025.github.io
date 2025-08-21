@@ -32,13 +32,14 @@ related_publications: true
 
 <br>
 
-[2025 - MonST3R](https://monst3r-project.github.io)
+[📍 2025 - MonST3R](https://monst3r-project.github.io)
 
 
 <br><br>
 
 
-**Some Related Art works**
+**📍 Some Related Art works**
+
 
 
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
@@ -50,7 +51,7 @@ related_publications: true
 
 
 
-<br><br><br>
+<br><br><br><br>
 
 
 ## Key Contributions
