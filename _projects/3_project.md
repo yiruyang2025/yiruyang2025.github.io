@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Shape Modeling / Robotics, aria glass gen-1/2
+description: Shape Modeling / Robots Navigation
 img: assets/img/4.jpg
 importance: 4
 category: work
