@@ -800,6 +800,13 @@ Outputs (Direct Prediction)
 
 [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4D scene understanding
 
+
+<br>
+
+[CAT4D](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_CAT4D_Create_Anything_in_4D_with_Multi-View_Video_Diffusion_Models_CVPR_2025_paper.html)
+
+
+
 <br><br>
 
 
@@ -828,6 +835,16 @@ Outputs (Direct Prediction)
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
 [COLMAP], [GLOMAP]
+
+
+<br>
+
+
+[Align3R: Aligned Monocular Depth Estimation for Dynamic Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html)
+
+
+[Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
+
 
 
 <br><br>
