@@ -85,6 +85,69 @@ Hierarchical,
 
 
 
+## How to build a new FFN - for a SOTA / `Neat` 4d `Instance Segmentation`
+
+<br>
+
+```
+                ┌───────────────────────────────┐
+                │   🧩 Representation Choice    │
+                │  - Point Cloud (PointNet++)   │
+                │  - Mesh / Volumetric (e.g.,   │
+                │    TSDF)                      │
+                │  - Implicit (SDF / NeRF)      │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │        ⚡ FFN Backbone         │
+                │  - Feed-Forward Layers (MLP)  │
+                │  - Optional hierarchical      │
+                │    design (PointNet++ style)  │
+                │  - Parallel GPU inference     │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │          🎥 4D Extension       │
+                │  - Spatio-temporal encoding   │
+                │  - Motion-aware modules       │
+                │    (MonST3R, Shape of Motion) │
+                │  - Efficient memory handling  │
+                │    (sparse / compression)     │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │   🏷️ Semantic → Instance      │
+                │  - Semantic features          │
+                │    (DINOv3, OpenScene)        │
+                │  - Instance grouping (motion, │
+                │    geometry priors)           │
+                │  - Panoptic consistency       │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │   🌍 Industry Benchmarks       │
+                │  - Meta Reality Labs → AR/VR  │
+                │  - NVIDIA Isaac → Robotics    │
+                │  - Apple ARKit → Mobile AR    │
+                │  - DeepMind TF3D/TF4D → Libs  │
+                └───────────────────────────────┘
+
+📍 Core Innovation → A **hierarchical FFN backbone** for **efficient real-time 4D 
+semantic → instance segmentation**, inspired by **SOTA research (MonST3R, VGGT, PanSt3R)** 
+and aligned with **industrial AR/VR & robotics applications**
+```
+
+
+
+<br><br>
+
+
+
+
 📍 `4d Scene Modeling - Hierarchies`
 
 <br>
