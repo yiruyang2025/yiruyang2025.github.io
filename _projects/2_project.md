@@ -40,7 +40,7 @@ related_publications: true
 
 **📍 Some Related Art works**
 
-
+<br>
 
 [2025 - VGGT](https://vgg-t.github.io/) - `Convert the` geometric `problem into` a sequence modeling problem of Transformer
 
