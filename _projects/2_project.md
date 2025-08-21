@@ -20,7 +20,7 @@ related_publications: true
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
 
-- [2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/) - Transformer decoder, SAM2 Style, CLIP
+- [2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/) - Transformer decoder, SAM2 style, CLIP
 
 
 
@@ -31,7 +31,7 @@ related_publications: true
 
 <br>
 
-[📍 2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Dynamic scene
+[📍 2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, dynamic scene, 4d Reconstruction
   - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
 
