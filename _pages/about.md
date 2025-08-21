@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project 2 - Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - A Feed forward network for 4d Instance Segmentation, real-time Inference, (test on Medical 4d dataset)
 - 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - aria glass
 - 📍 [Project 4 - Thesis 2](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/)
+- 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 
 
 <br>
