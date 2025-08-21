@@ -14,7 +14,41 @@ images:
 
 Welcome, <br>
 
-Let's take a look at the history of The Model Structures we're using today.<br><br>
+Let's take a look at the history of The Model Structures we're using today.
+
+<br><br>
+
+
+
+## Generalization Ability
+
+<br>
+
+```
+Unsupervised World                              Zero-Shot World
+═══════════════════════════════════             ════════════════════════════════════
+No Labels → Discover Patterns →                 Pretrained Knowledge → New Task →
+Cluster / Reduce Dim → Build Representations    Direct Prediction → Works Instantly
+     ↓                     ↓                           ↓                     ↓
+┌───────────────┐   ┌─────────────────┐           ┌─────────────────┐   ┌───────────────────────┐
+│ Data Patterns │ → │ Learned Embeds  │    vs.    │ Language / Text │ → │ Recognize Unseen Task │
+│ (Raw Inputs)  │   │ (Structure Only)│           │ Semantic Priors │   │ (Zero Examples)       │
+└───────────────┘   └─────────────────┘           └─────────────────┘   └───────────────────────┘
+     ↓                     ↓                           ↓                     ↓
+Unclear for Tasks      Needs Extra Step            Direct Generalization   Immediate Usability
+(PCA/K-means/SimCLR)   (Downstream Fine-tune)      (CLIP, GPT)             (Zero-shot QA/CLS)
+
+Hybrid approaches:
+1. Learn unsupervised embeddings → map to semantic space for zero-shot transfer
+2. Combine raw pattern discovery with pretrained knowledge for stronger generalization
+
+🌆 Unsupervised = Tourist wandering a city with no map (discover zones by yourself)  
+📖 Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
+```
+
+
+
+<br><br>
 
 # 1. Why「Deep Structure」<br><br>
 
