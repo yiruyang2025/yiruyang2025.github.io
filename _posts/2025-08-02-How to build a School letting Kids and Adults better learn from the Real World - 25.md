@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to build a School letting Kids and Adults better learn from the Real World - 25
+title: How to build a 'School' for Kids and Adults better Learn from + For the Real World - 25
 date: 2025-08-02
 description: ⛺️
 categories: Research
@@ -27,4 +27,4 @@ images:
 
 
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
