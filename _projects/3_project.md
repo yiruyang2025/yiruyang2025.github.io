@@ -133,7 +133,7 @@ Visual Inertial Odometry (VIO)
 
 <br>
 
-[Polyscope - toolkit for demos](https://polyscope.run/py/)
+[Polyscope - Toolkit for demos](https://polyscope.run/py/)
 
 <br>
 
