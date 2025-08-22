@@ -56,9 +56,11 @@ Systems on Chips (Cuda, HPC)
 
 (Lie Group and Riemannian Geometry)
 
-Graph Theory
+(Information Geometry)
 
-Real Analysis
+(Graph Theory)
+
+(Real Analysis)
 
 (*Large-Scale AI Engineering)
 
