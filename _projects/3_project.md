@@ -17,8 +17,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
 
-[2020 - LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
-
 <br><br>
 
 
@@ -150,7 +148,6 @@ Visual Inertial Odometry (VIO)
 
 
 <br>
-
 
 
 
