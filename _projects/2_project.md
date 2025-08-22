@@ -184,7 +184,6 @@ Hierarchical,
 
 Navigation-level Scene Semantics
 
-<br>
 
 ```
 Sparse RGB / Depth / LiDAR (stream)
