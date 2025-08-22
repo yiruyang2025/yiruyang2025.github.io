@@ -17,6 +17,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
 
+[2020 - LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
 
 <br><br>
 
@@ -128,19 +129,24 @@ Visual Inertial Odometry (VIO)
 
 <br><br><br>
 
-## References 1
+## References / Reading List
 
 <br>
 
-[Polyscope](https://polyscope.run/py/)
+[Polyscope - toolkit for demos](https://polyscope.run/py/)
 
 [📍 2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
 
+[2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
+
+
+[2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
 
 
 
+<br>
 
-[2020 - LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_46)
+
 
 
 <br><br>
