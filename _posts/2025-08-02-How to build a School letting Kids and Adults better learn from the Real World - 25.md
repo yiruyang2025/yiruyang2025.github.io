@@ -28,7 +28,8 @@ images:
 <br>
 
 ```
-When building sth. new, perhaps the first rule is to be brutally honest to themselves, build some truly (*to some extent) helpful things
+When building sth. new, perhaps the first rule is to be brutally honest to themselves,
+build some truly (*to some extent) helpful things
 ```
 
 <br><br><br><br><br><br><br><br>
