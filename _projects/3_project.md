@@ -50,6 +50,23 @@ Regularization Terms
 ```
 
 
+<br><br>
+
+
+`Cardiac Modeling`
+
+| Term                                     | Key Idea                                                               |
+| ---------------------------------------- | ---------------------------------------------------------------------- |
+| **PDE (Partial Differential Equation)**  | Describes continuous changes in space & time                           |
+| **Deformation Fields**                   | Shape deformation flow over time                                       |
+| **Level Sets**                           | Implicit surface representation, handles topology changes              |
+| **Neural Implicit Representation**       | Neural nets for continuous geometry (NeRF, SDF, NeRF-4D)               |
+| **ML for CDF (Cumulative Distribution)** | Learn probability distributions & uncertainties via data-driven models |
+
+
+
+
+
 <br><br><br><br>
 
 
