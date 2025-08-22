@@ -29,7 +29,9 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/)
 
 
-<br>
+<br><br><br><br><br><br>
+
+
 
 ## Bio / Medical - 4d, Modeling / Instant Segmentation
 
