@@ -17,6 +17,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
 
+[2020 - LEMMA](https://arxiv.org/pdf/2007.15781)
+
 <br><br>
 
 
