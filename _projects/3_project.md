@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: 4d Geometric Shape modeling, Cardiac Modeling
+description: 4d Geometric Shape modeling, medical modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
