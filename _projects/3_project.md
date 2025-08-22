@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Aria gen 1/2, 4d Scene Understanding
+description: 4d Medical Modeling, aria glass
 img: assets/img/4.jpg
 importance: 4
 category: work
