@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **(4d Instance Segmentation) / Multimodal / Biosignal / Self-Distillation / Speech Processing**
+- 📍 Skill Set - **(4d Instance Segmentation) / Medical 3/4d Image Modeling / Multimodal / Biosignal / Self-Distillation / Speech Processing**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
