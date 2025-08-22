@@ -35,7 +35,7 @@ latest_posts:
 
 - 📍 [Project 1 - Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
 - 📍 [Project 2 - Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - A feed forward network for 4d Instance Segmentation
-- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - 4d cardiac modeling
+- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - 4d Cardiac Modeling
 - 📍 [Project 4 - Thesis 2](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 
@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - 4d Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
-  - [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), 4d Organs Shape modeling
+  - [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), 4d Organ Shape modeling
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
