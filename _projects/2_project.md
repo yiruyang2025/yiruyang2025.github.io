@@ -183,6 +183,10 @@ Hierarchical,
 
 <br>
 
+  - Output → Spatiotemporally consistent, topologically correct 4D instance segmentation
+
+<br>
+
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
 
 <br>
