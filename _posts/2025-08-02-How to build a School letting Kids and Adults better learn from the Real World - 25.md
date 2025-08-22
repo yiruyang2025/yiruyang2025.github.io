@@ -22,9 +22,6 @@ images:
 [Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) 
 
 
-[real-world challenges](https://www.digitalinnovathon.uzh.ch/en/Credits.html)
-
-
 <br>
 
 
