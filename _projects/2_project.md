@@ -190,6 +190,9 @@ Hierarchical,
 
 [2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
 
+
+[2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
+
 <br>
 
 ```
