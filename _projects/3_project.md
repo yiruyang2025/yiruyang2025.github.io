@@ -96,6 +96,43 @@ Regularization Terms
 
 <br><br><br>
 
+
+
+## 4. Some Topics for Medical Imaging
+
+<br>
+
+MRI
+
+DTI
+
+fMRI / functional Ultrasound, fUS
+
+tractography
+
+Mesh-VAE
+
+Implicit Geometry - NeRF/SDF
+
+
+<br>
+
+| Technique           | Role in 4D Shape Modeling 🫀                                   | Output Type 🧩             |
+| ------------------- | -------------------------------------------------------------- | -------------------------- |
+| **MRI** 🧲          | High-resolution anatomy & cardiac cycle dynamics               | Volumes                    |
+| **DTI** 🌐          | Maps myocardial fiber orientation                              | Fiber fields               |
+| **fMRI / fUS** ⚡    | Functional imaging of blood flow & hemodynamics                | Functional volumes         |
+| **Tractography** 🧬 | Reconstructs cardiac fiber pathways from DTI                   | Fiber tracts               |
+| **Mesh-VAE** 🕸️    | Learns latent representations of dynamic heart meshes          | Mesh embeddings            |
+| **NeRF / SDF** 🌌   | Implicit geometry for smooth continuous 4D reconstructions     | Implicit surfaces          |
+| **ML for CFD** 💨   | AI-driven simulation of blood flow & pressure in beating heart | Flow fields / hemodynamics |
+
+
+
+<br><br><br><br><br>
+
+
+
 ## Topics
 
 <br>
@@ -128,25 +165,6 @@ Visual Inertial Odometry (VIO)
 
 <br><br><br>
 
-
-## 4. Some Topics for Medical Imaging
-
-<br>
-
-MRI
-
-DTI
-
-fMRI / functional Ultrasound, fUS
-
-tractography
-
-Mesh-VAE
-
-Implicit Geometry - NeRF/SDF
-
-
-<br><br><br><br><br>
 
 
 
