@@ -89,7 +89,7 @@ Regularization Terms
 
 
 
-## `4d Cardiac Modeling / Organ Segmentation`
+## `4d Cardiac Modeling / Surgery Segmentation`
 
 <br>
 
