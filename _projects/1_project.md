@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - ASR Knowledge Distillation
-description: whisper, Low Latency Inference on-device, Hidden-space 3d Alignment
+description: whisper, low latency Inference on-device, Hidden-space 3d Alignment
 img: assets/img/4.jpg
 importance: 1
 category: work
