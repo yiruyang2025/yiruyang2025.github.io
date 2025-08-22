@@ -19,7 +19,7 @@ images:
 <br><br>
 
 
-[Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) - building the bridges, met at ETH AI center (*a cool community)
+[Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) 
 
 
 [real-world challenges](https://www.digitalinnovathon.uzh.ch/en/Credits.html)
@@ -27,11 +27,5 @@ images:
 
 <br>
 
-```
-When building sth. new, perhaps the first rule is to be brutally honest to themselves,
-build some truly (*to some extent) helpful things
-
-Also, in many cases, the creativity may come from a free enough social environment
-```
 
 <br><br><br><br><br><br><br><br>
