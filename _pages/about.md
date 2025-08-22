@@ -43,8 +43,8 @@ latest_posts:
 <br>
 
 **Interests**
-  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
-  - [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), 4D Organ Shape Modeling for diagnosis and surgery
+  - 4d Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
+  - [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), 4d Medical Shape Modeling for diagnosis and surgery
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
