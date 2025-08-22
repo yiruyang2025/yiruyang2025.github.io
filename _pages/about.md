@@ -34,8 +34,8 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Project 1 - Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
-- 📍 [Project 2 - Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - A feed forward network for 4d Instance Segmentation, (OpenScene, FrontierNet)
-- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - 4d Cardiac shape modeling, (TetWeave, DMesh), aria glass
+- 📍 [Project 2 - Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - A feed forward network for 4d Instance Segmentation
+- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - aria glass, shape modeling
 - 📍 [Project 4 - Thesis 2](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 
