@@ -87,9 +87,7 @@ Regularization Terms
 
 
 
-
-
-## `4d Cardiac Modeling / Surgery Segmentation`
+## 4d Cardiac Modeling / Instance Segmentation
 
 <br>
 
