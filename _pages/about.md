@@ -43,8 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)(World Models)
-  - [Shape modeling](https://yiruyang2025.github.io/projects/3_project/)
+  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling), Shape modeling
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
