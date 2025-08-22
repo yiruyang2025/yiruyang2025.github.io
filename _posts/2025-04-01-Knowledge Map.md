@@ -58,6 +58,8 @@ Systems on Chips (Cuda, HPC)
 
 (Information Geometry)
 
+(Discrete Differential Geometry)
+
 (Graph Theory)
 
 (Real Analysis)
