@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Shape Modeling / Robots Navigation, 4d Medical Modeling
+description: 4d Shape Modeling, Robots Navigation
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -27,6 +27,15 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 <br>
 
 [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - 3D reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation
+
+<br>
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
+</p>
+
+<br>
+
 
 
 <br><br><br><br><br><br>
