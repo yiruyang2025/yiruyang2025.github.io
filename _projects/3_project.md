@@ -29,7 +29,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - [2025 - TetWeave](https://igl.ethz.ch/projects/tetweave/)
 
-- [Math Foundations for Computer Graphics and Vision - SS 20](https://cgl.ethz.ch/teaching/mathfound20/notes.php)
+- [Math Foundations for Computer Graphics and Vision - SS 22](https://cgl.ethz.ch/teaching/mathfound22/notes.php)
 
 <br>
 
