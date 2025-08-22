@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: 4d Shape Modeling, Robots Navigation
+description: 4d Shape Modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -91,41 +91,6 @@ Regularization Terms
 <br>
 
 [2024 - Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://openaccess.thecvf.com/content/CVPR2024/papers/Piao_Improving_Out-of-Distribution_Generalization_in_Graphs_via_Hierarchical_Semantic_Environments_CVPR_2024_paper.pdf)
-
-
-
-<br><br><br><br><br><br>
-
-
-
-
-
-<br><br>
-
-
-## CUT3R
-
-<br>
-
-
-Navigation-level Scene Semantics
-
-<br>
-
-```
-Sparse RGB / Depth / LiDAR (stream)
-   ↓
-Surface Fitting Module (Point cloud → implicit SDF)
-   ↓
-Continuous LOD generation
-   ↓
-4D Human Profile (geometry + temporal motion)
-   ↓
-Navigation / Control Integration
-   - dynamic path planning
-   - human-aware motion prediction
-```
-
 
 
 
