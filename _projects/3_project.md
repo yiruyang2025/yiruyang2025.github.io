@@ -23,6 +23,17 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 <br><br>
 
 
+**Related Coursework / Paper**
+
+- Learnt background knowledge, feel free to ask anything in the link
+
+- [2025 - TetWeave](https://igl.ethz.ch/projects/tetweave/)
+
+- [Math Foundations for Computer Graphics and Vision - SS 20](https://cgl.ethz.ch/teaching/mathfound20/notes.php)
+
+<br>
+
+
 ## Geometric Shape Modeling
 
 <br>
