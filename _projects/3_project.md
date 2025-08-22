@@ -51,7 +51,7 @@ Regularization Terms
 ```
 
 
-<br><br><br><br>
+<br><br><br>
 
 
 
