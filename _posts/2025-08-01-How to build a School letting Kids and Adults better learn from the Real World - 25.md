@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to build a 'School' for Kids and Adults better Learn from + For the Real World - 25
-date: 2025-08-02
-description: ⛺️
+title: How to build a School for Kids and Adults better Learn from + For the Real World - 25
+date: 2025-08-01
+description: 🔹
 categories: Research
 thumbnail: assets/img/9.jpg
 images:
