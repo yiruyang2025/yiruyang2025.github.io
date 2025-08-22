@@ -45,7 +45,7 @@ latest_posts:
 **Interests**
   - 4D **Instance Segmentation**, Spatial Intelligence
   - **Geometric** [Shape modeling](https://yiruyang2025.github.io/projects/3_project/)
-  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
+  - [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=IXMSOSEj14Q), [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
 
