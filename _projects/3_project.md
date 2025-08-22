@@ -135,6 +135,7 @@ Visual Inertial Odometry (VIO)
 
 [Polyscope - toolkit for demos](https://polyscope.run/py/)
 
+<br>
 
 [SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
 
