@@ -129,7 +129,7 @@ Visual Inertial Odometry (VIO)
 
 <br><br><br>
 
-## References / Reading List
+## References 1 / Reading List
 
 <br>
 
