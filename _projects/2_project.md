@@ -184,6 +184,7 @@ Hierarchical,
 <br>
 
   - Output → Spatiotemporally consistent, topologically correct 4D instance segmentation
+  - The directional SDF formulation and fairness regularization of `TetWeave` can provide topology-safe and smoothly consistent support for the 4D segmentation
 
 <br>
 
