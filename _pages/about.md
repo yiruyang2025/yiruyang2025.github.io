@@ -45,8 +45,8 @@ latest_posts:
 **Interests**
   - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
   - [ML Computational Fluid Dynamics](https://youtu.be/Z1lEnxnM_sc), [Robots / Clinic - 4D scene understanding](https://boysun045.github.io/FrontierNet-Project/)
-  - [Innovative Things](https://yiruyang2025.github.io/blog/2025/How-to-build-a-School-letting-Kids-and-Adults-better-learn-from-the-Real-World-25/)
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
+  - [Innovative Things](https://yiruyang2025.github.io/blog/2025/How-to-build-a-School-letting-Kids-and-Adults-better-learn-from-the-Real-World-25/)
 
 
 <div style="height: 4rem;"></div>
