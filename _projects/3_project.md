@@ -135,6 +135,10 @@ Visual Inertial Odometry (VIO)
 
 [Polyscope - toolkit for demos](https://polyscope.run/py/)
 
+
+[SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
+
+
 [📍 2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
 
 [2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
