@@ -831,13 +831,13 @@ Outputs (Direct Prediction)
 [2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
 
-[2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4D scene understanding
+[2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
 
 
 <br>
 
 
-[2024 - CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
+[2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
 
 
 <br><br>
