@@ -32,8 +32,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
   <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
-<br><br>
-
+<br>
 
 ```
 Marching Tetrahedra on Delaunay Triangulation
@@ -48,6 +47,7 @@ Adaptive Tetrahedral Grid
 Regularization Terms
 (fairness + ODT loss; improve mesh quality, avoid slivers)
 ```
+
 
 <br><br><br><br>
 
