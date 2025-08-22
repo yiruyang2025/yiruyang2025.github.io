@@ -32,17 +32,13 @@ Hi there, let's collect pretty things here
 
 <br>
 
-- Feel free to ask anything if the link is given below
-
-<br>
-
 Deep Learning (Python, 25)
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
 Mixed Reality (C++, 25)
 
-[Shape Modeling](https://igl.ethz.ch/projects/tetweave/) (26)
+Shape Modeling (26)
 
 Seminar in Visual Computing
 
