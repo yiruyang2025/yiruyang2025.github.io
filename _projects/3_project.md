@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: 4d Geometric Shape modeling, medical modeling
+description: 4d Geometric Shape (Medical) Modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -48,24 +48,6 @@ Adaptive Tetrahedral Grid
 Regularization Terms
 (fairness + ODT loss; improve mesh quality, avoid slivers)
 ```
-
-
-<br><br>
-
-
-`Cardiac Modeling`
-
-| Term                                     | Key Idea                                                               |
-| ---------------------------------------- | ---------------------------------------------------------------------- |
-| **PDE (Partial Differential Equation)**  | Describes continuous changes in space & time                           |
-| **Deformation Fields**                   | Shape deformation flow over time                                       |
-| **Level Sets**                           | Implicit surface representation, handles topology changes              |
-| **Neural Implicit Representation**       | Neural nets for continuous geometry (NeRF, SDF, NeRF-4D)               |
-| **ML for CDF (Cumulative Distribution)** | Learn probability distributions & uncertainties via data-driven models |
-
-
-
-
 
 <br><br><br><br>
 
