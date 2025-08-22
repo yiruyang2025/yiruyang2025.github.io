@@ -19,6 +19,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [2020 - LEMMA](https://arxiv.org/pdf/2007.15781)
 
+
 <br><br>
 
 
