@@ -837,7 +837,7 @@ Outputs (Direct Prediction)
 <br>
 
 
-[1. CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
+[2024 - CAT4D](https://cat-4d.github.io/) - 4D Reconstruction from video
 
 
 <br><br>
