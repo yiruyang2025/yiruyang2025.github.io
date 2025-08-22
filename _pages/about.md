@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling), Shape modeling
+  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation), Shape modeling
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
