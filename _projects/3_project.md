@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: Shape Modeling / Robots Navigation
+description: Shape Modeling / Robots Navigation, 4d Medical Modeling
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -28,6 +28,14 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/)
 
+
+<br>
+
+## Bio / Medical - 4d, Modeling / Instant Segmentation
+
+<br>
+
+[2024 - Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://openaccess.thecvf.com/content/CVPR2024/papers/Piao_Improving_Out-of-Distribution_Generalization_in_Graphs_via_Hierarchical_Semantic_Environments_CVPR_2024_paper.pdf)
 
 
 
