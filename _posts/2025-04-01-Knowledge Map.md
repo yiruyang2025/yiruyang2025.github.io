@@ -50,16 +50,15 @@ Vision Algorithms for Mobile Robotics (L+E)
 
 [Systems on Chips](https://video.ethz.ch/lectures/d-itet/2025/spring/227-0150-00L.html) (Cuda, HPC, 25)
 
-
 ([Integrated Devices, Electronics, and Systems](https://ideas.ethz.ch/news-and-events/ideas-news/2025/08/new-course-lineup-for-next-fall-semester.html))
+
+Graph Theory
 
 (Lie Group and Riemannian Geometry)
 
 (Information Geometry)
 
 (Discrete Differential Geometry)
-
-(Graph Theory)
 
 (Real Analysis)
 
