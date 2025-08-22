@@ -16,7 +16,7 @@ images:
 
 ## Topics
 
-<br>
+<br><br>
 
 
 [Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) - building the bridges
