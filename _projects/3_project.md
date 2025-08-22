@@ -20,7 +20,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 <br><br>
 
 
-## Shape Modeling
+## Geometric Shape Modeling
 
 <br>
 
