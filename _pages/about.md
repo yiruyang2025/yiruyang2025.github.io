@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  - 4D Instance Segmentation, Spatial Intelligence
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
