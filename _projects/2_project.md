@@ -179,6 +179,43 @@ Hierarchical,
 <br><br>
 
 
+## Shape Modeling
+
+<br>
+
+[2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
+
+<br>
+
+```
+On-the-fly Delaunay Triangulation
+(unstructured tetrahedral grid; dynamic connectivity)
+Mathematics: Delaunay(T) → max-min angle, avoids skinny simplices
+                 ↓
+Directional Signed Distance (d-SDF)
+(finer control along edges; spherical harmonics expansion)
+Formula: d(p, θ, φ) = Σ_{l=0}^L Σ_{m=-l}^l c_{lm}(p) Y_{lm}(θ, φ)
+                 ↓
+Marching Tetrahedra Extraction
+(guaranteed watertight, 2-manifold, intersection-free)
+Isosurface: {x ∈ ℝ³ | f(x) = 0}, f from d-SDF over tetrahedral edges
+                 ↓
+Gradient-based Mesh Optimization
+(optimize positions p and coefficients c_{lm})
+Update rule: p ← p - η ∇ₚ L ,   c_{lm} ← c_{lm} - η ∇_{c_{lm}} L
+                 ↓
+Fairness Regularization + Resampling
+(ODT energy + fairness loss; adaptive refinement)
+Fairness loss: L_fair = Σ_T (aspect_ratio(T) - 1)²
+                 ↓
+High-quality Adaptive Mesh
+(memory ~ O(N), scalable to complex 3D shapes)
+```
+
+
+<br><br>
+
+
 
 ## NeRF Variants
 
@@ -413,15 +450,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br><br>
 
-
-## Shape Modeling
-
-<br>
-
-[2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
-
-
-<br><br>
 
 
 ```
