@@ -44,8 +44,6 @@ latest_posts:
 
 **Interests**
   - 4D Instance Segmentation, [Spatial Intelligence](https://x.com/bilawalsidhu/status/1949123293316800565?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  - [Dynamic shape modeling](https://arxiv.org/pdf/2505.04590)
-  - [ML Computational Fluid Dynamics](https://youtu.be/Z1lEnxnM_sc), [Robots / Clinic - 4D scene understanding](https://boysun045.github.io/FrontierNet-Project/)
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk)
 
 
