@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: 4d Geometric Shape (Medical) Modeling
+description: Aria gen 1/2
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -127,7 +127,7 @@ Visual Inertial Odometry (VIO)
 <br><br><br>
 
 
-## 4. Some Topics for Cardiac 4D Imaging
+## 4. Some Topics for Medical Imaging
 
 <br>
 
@@ -144,9 +144,7 @@ Mesh-VAE
 Implicit Geometry - NeRF/SDF
 
 
-
-
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 
 
@@ -154,18 +152,8 @@ Implicit Geometry - NeRF/SDF
 
 <br>
 
-**1. Cardiac 4d Imaging**
 
-<br>
-
-[2023 - Dynamic myocardial CT perfusion imaging—state of the art](https://link.springer.com/article/10.1007/s00330-023-09550-y)
-
-[2020 - 4DFlowNet: Super-Resolution 4D Flow MRI Using Deep Learning and Computational Fluid Dynamics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.00138/full)
-
-
-<br><br>
-
-**2. 3d Shape Modeling**
+**1. 3d Shape Modeling**
 
 <br>
 
@@ -179,7 +167,7 @@ Implicit Geometry - NeRF/SDF
 <br><br>
 
 
-**3. Computational Fluid Dynamics + PDE for Modeling**
+**2. Computational Fluid Dynamics + PDE for Modeling**
 
 <br>
 
