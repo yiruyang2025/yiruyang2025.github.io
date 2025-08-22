@@ -127,7 +127,7 @@ Visual Inertial Odometry (VIO)
 <br><br><br>
 
 
-## Some Topics for `Cardiac 4D Imaging`
+## 4. Some Topics for Cardiac 4D Imaging
 
 <br>
 
@@ -163,7 +163,7 @@ Implicit Geometry - NeRF/SDF
 [2020 - 4DFlowNet: Super-Resolution 4D Flow MRI Using Deep Learning and Computational Fluid Dynamics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.00138/full)
 
 
-<br><br><br>
+<br><br>
 
 **2. 3d Shape Modeling**
 
@@ -176,9 +176,7 @@ Implicit Geometry - NeRF/SDF
 [2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
 
 
-
-
-<br><br><br>
+<br><br>
 
 
 **3. Computational Fluid Dynamics + PDE for Modeling**
@@ -194,7 +192,7 @@ Implicit Geometry - NeRF/SDF
 [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 
 
