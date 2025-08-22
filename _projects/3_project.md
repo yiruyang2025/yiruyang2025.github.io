@@ -21,37 +21,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 <br><br>
 
 
-
-
-## Mesh Generations
-
-<br>
-
-[📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
-
-
-  - Controllable, ready-to-use mesh generation
-  - Use a `Coarse Mesh` to estimate the global resolution initially, then gradually refine it to the local resolution
-
-<br>
-
-[1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
-
-  - Training data: Use edge collapse to compress the high-precision mesh into different levels
-
-  - Generation process: Use a generative model to learn the inverse operation—vertex splitting
-
-  - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
-
-<br>
-
-[2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
-
-
-<br><br>
-
-
-
 ## Shape Modeling
 
 <br>
@@ -80,6 +49,37 @@ Adaptive Tetrahedral Grid
 Regularization Terms
 (fairness + ODT loss; improve mesh quality, avoid slivers)
 ```
+
+
+<br><br>
+
+
+
+## Mesh Generations
+
+<br>
+
+[📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
+
+
+  - Controllable, ready-to-use mesh generation
+  - Use a `Coarse Mesh` to estimate the global resolution initially, then gradually refine it to the local resolution
+
+<br>
+
+[1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
+
+  - Training data: Use edge collapse to compress the high-precision mesh into different levels
+
+  - Generation process: Use a generative model to learn the inverse operation—vertex splitting
+
+  - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
+
+<br>
+
+[2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
+
+
 
 
 <br><br><br><br><br><br>
