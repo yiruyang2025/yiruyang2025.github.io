@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Biosignal
-description: Signal Modeling for Organ Preservation
+description: Signal Modeling for organ preservation
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## Real-Time Bioimpedance for Organ / Liver Preservation
+## Real-Time Bioimpedance for Oprgan / Liver Preservation
 
 <br>
 
