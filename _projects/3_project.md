@@ -86,19 +86,18 @@ Regularization Terms
 
 
 
-## Bio / Medical - 4d, Modeling / Instant Segmentation
+
+
+
+## `4d Cardiac Modeling / Organ Segmentation`
 
 <br>
+
+
 
 [2024 - Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://openaccess.thecvf.com/content/CVPR2024/papers/Piao_Improving_Out-of-Distribution_Generalization_in_Graphs_via_Hierarchical_Semantic_Environments_CVPR_2024_paper.pdf)
 
 
-
-<br><br><br>
-
-
-
-## 4. Some Topics for Medical Imaging
 
 <br>
 
