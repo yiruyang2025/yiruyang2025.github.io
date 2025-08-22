@@ -19,7 +19,7 @@ images:
 <br><br>
 
 
-[Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) - building the bridges
+[Katie](https://www.linkedin.com/company/wyona-katie/?originalSubdomain=ch) - building the bridges, met at ETH AI center
 
 
 [real-world challenges](https://www.digitalinnovathon.uzh.ch/en/Credits.html)
