@@ -30,6 +30,8 @@ images:
 ```
 When building sth. new, perhaps the first rule is to be brutally honest to themselves,
 build some truly (*to some extent) helpful things
+
+Also, in many cases, the creativity may come from a free enough social environment
 ```
 
 <br><br><br><br><br><br><br><br>
