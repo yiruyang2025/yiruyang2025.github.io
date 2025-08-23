@@ -14,7 +14,7 @@ related_publications: true
 
 parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
-10% of the SOTA training set -> -2% WER on the same Test sets from the SOTA
+10% of the SOTA training set -> 2% WER on the same Test sets from the SOTA
 
 <br>
 
