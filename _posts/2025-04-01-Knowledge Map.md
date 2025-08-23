@@ -12,8 +12,7 @@ images:
   venobox: true
 ---
 
-<br><br>
-
+<br>
 
 Hi there, let's collect pretty things here
 
