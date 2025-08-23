@@ -43,8 +43,6 @@ related_publications: true
 
 [📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/) - geometry-first → `learning-first`
 
-([2025 - SuperDec - 3D Scene Decomposition with Superquadric Primitives](https://super-dec.github.io/))
-
 
 <br><br>
 
