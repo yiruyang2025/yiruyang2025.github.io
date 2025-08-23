@@ -854,17 +854,6 @@ Outputs (Direct Prediction)
 <br><br>
 
 
-## 2D
-
-<br>
-
-[DINOv3]
-
-[SAM 2]
-
-
-<br>
-
 ## 3D
 
 <br>
@@ -882,7 +871,7 @@ Outputs (Direct Prediction)
 <br>
 
 
-## 3D Understanding (/Reconstruction)
+## 3D Understanding ( / Reconstruction)
 
 <br>
 
@@ -905,6 +894,18 @@ Outputs (Direct Prediction)
 
 [2. Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
 
+
+
+<br><br>
+
+
+## 2D
+
+<br>
+
+[DINOv3]
+
+[SAM 2]
 
 
 <br><br>
