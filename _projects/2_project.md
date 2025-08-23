@@ -31,6 +31,10 @@ related_publications: true
 
 <br>
 
+  - Tier 1
+
+<br>
+
 [📍 2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, dynamic scene, 4d Reconstruction, `Transform the problem into` a fine-tuning task
   - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
@@ -39,9 +43,18 @@ related_publications: true
 
 <br><br>
 
+  - Tier 2
+
+<br>
+
 [📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/) - geometry-first → learning-first
 
 [2025 - SuperDec - 3D Scene Decomposition with Superquadric Primitives](https://super-dec.github.io/)
+
+
+<br>
+
+  - Tier 3
 
 
 <br>
