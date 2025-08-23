@@ -20,7 +20,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [2020 - LEMMA](https://arxiv.org/pdf/2007.15781)
 
 
-<br><br><br><br>
+<br><br><br>
 
 
 **Related Coursework / Paper**
@@ -31,7 +31,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - [Math Foundations for Computer Graphics and Vision - SS 22](https://cgl.ethz.ch/teaching/mathfound22/notes.php)
 
-<br>
+
+<br><br><br><br>
 
 
 ## Geometric Shape Modeling
