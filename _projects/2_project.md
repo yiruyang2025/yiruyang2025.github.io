@@ -34,6 +34,7 @@ related_publications: true
 [📍 2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, estimating geometry from videos of dynamic scenes, `Transform the problem into` a fine-tuning task
   - [codebase](https://colab.research.google.com/drive/1N-0B23-5S3jX7i1Ucyty0x2T60zY3s16?usp=sharing)
 
+
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
 
 
