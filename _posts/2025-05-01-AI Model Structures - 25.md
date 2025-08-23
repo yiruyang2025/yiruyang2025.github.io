@@ -26,7 +26,7 @@ Let's take a look at the history of The Model Structures we're using today.
 
 [2016 - DCGAN](https://arxiv.org/pdf/1511.06434)
 
-
+[2025 - Why Deep Learning Works Unreasonably Well](https://www.youtube.com/watch?v=qx7hirqgfuU)
 
 
 <br>
