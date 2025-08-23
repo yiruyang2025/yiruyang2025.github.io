@@ -44,12 +44,6 @@ related_publications: true
 [📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/) - geometry-first → `learning-first`
 
 
-<br><br>
-
-
-[2024 - Zero-Shot 4D Lidar Panoptic Segmentation](https://research.nvidia.com/labs/dvl/projects/sal4d/) - Transformer decoder, SAM2 style, CLIP
-
-
 
 <br><br><br><br>
 
