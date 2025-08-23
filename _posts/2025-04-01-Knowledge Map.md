@@ -17,6 +17,8 @@ Hi there, let's collect pretty things here
 
 <br>
 
+Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/) pique your interest
+
 
 # 1. 2025
 
