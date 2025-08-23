@@ -870,6 +870,17 @@ Outputs (Direct Prediction)
 <br>
 
 
+## Surgery 3D Scene
+
+[2025 - MICCAI 2025 - SurgTPGS: Semantic 3D Surgical Scene Understanding with Text Promptable Gaussian Splatting](https://lastbasket.github.io/MICCAI-2025-SurgTPGS/)
+
+
+
+
+<br>
+
+
+
 [2025 - VGGT](https://vgg-t.github.io/)
 
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
