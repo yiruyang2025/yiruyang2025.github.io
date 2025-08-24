@@ -183,6 +183,22 @@ Hierarchical,
 
 <br>
 
+## Evolution for 3D Vision
+
+<br>
+
+| Level              | Traditional Methods | Frontier Alternatives                                                                             | Applications                                   |
+| ------------------ | ------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **2D**             | Euclidean / Affine  | Homography + Optical Flow                                                                         | Image stitching, registration                  |
+| **3D Rigid**       | SE(3) rigid motion  | Lie group / Lie algebra optimization (Bundle Adjustment)                                          | SfM, SLAM                                      |
+| **Non-Rigid**      | —                   | Deformation Fields, Dynamic NeRF                                                                  | Human motion, dynamic scene modeling           |
+| **General Scene**  | —                   | NeRF, Gaussian Splatting, **VGGT (Geometry → Transformer)**, TetWeave                             | Full 3D reconstruction                         |
+| **Learning Layer** | —                   | Equivariant GNNs (SE(3)-equivariant nets), **DINOv3 (universal self-supervised visual backbone)** | Representation learning, cross-modal alignment |
+
+
+
+<br>
+
 ## CUT3R
 
 <br>
