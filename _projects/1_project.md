@@ -1050,6 +1050,33 @@ Motivation for Discrete Latent Audio Representations
 
 <br><br>
 
+| Method              | Memory Usage                    | Training Speed                    |
+| ------------------- | ------------------------------- | --------------------------------- |
+| **Normal Training** | High (store all activations)    | Fast (no recomputation needed)    |
+| **Checkpointing**   | Low (store partial activations) | Slow (extra recomputation needed) |
+
+
+<br>
+
+
+**Gradient Checkpointing**
+
+<br>
+
+```
+Forward Pass:
+Input → [Layer1: store] → [Layer2: recompute later] → [Layer3: recompute later] → Output
+
+Backward Pass:
+Recompute Layer2 & Layer3 forward
+Use recomputed activations → compute gradient
+Use Layer1 activation → compute gradient
+```
+
+
+
+
+<br><br><br>
 
 ## References
 
