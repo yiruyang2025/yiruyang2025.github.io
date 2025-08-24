@@ -1059,9 +1059,7 @@ Motivation for Discrete Latent Audio Representations
 <br>
 
 
-**Gradient Checkpointing**
-
-<br>
+## Gradient Checkpointing
 
 ```
 Forward Pass:
