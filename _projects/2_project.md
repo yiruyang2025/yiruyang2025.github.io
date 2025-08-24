@@ -204,6 +204,21 @@ Hierarchical,
    - Euclidean / Affine / Homography
    - Used in panoramas, satellite mosaics, medical imaging
    - Fast, lightweight, real-time
+
+   Euclidean (3 DOF)
+   ▢ → ▢
+   Rigid rotation + shift
+        |
+        v
+   Affine (6 DOF)
+   ▢ → ⬠
+   Parallel preserved (shear, scaling)
+        |
+        v
+   Projective (8 DOF)
+   ▢ → ⬳
+   Perspective distortion (vanishing point)
+-------------------------------------------------
         |
         v
 [2010s] Multi-View Geometry
