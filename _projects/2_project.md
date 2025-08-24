@@ -199,6 +199,37 @@ Hierarchical,
 
 <br>
 
+```
+[2000s] Classical 2D Stitching
+   - Euclidean / Affine / Homography
+   - Used in panoramas, satellite mosaics, medical imaging
+   - Fast, lightweight, real-time
+        |
+        v
+[2010s] Multi-View Geometry
+   - SfM (Structure from Motion), SLAM
+   - SE(3) rigid motion + Bundle Adjustment
+   - Full 3D scene reconstruction (static environments)
+        |
+        v
+[2020s] Neural Implicit Representations
+   - NeRF (Neural Radiance Fields)
+   - Gaussian Splatting, Dynamic NeRF
+   - Rich photorealistic 3D, supports dynamics
+        |
+        v
+[2025 → ] Transformer & Foundation Models
+   - VGGT (Geometry → Transformer sequence modeling)
+   - DINOv3 (7B SSL backbone, dense visual features)
+   - Replaces manual geometry → universal representations
+   - Powers Pixel 10 AI (Gemini Nano + Tensor G5)
+```
+
+
+
+
+<br>
+
 ## CUT3R
 
 <br>
