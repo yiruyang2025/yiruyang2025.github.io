@@ -31,6 +31,9 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - ([Math Foundations for Computer Graphics and Vision - SS 22](https://cgl.ethz.ch/teaching/mathfound22/notes.php))
 
+- ([Shape Modeling - SS 25](https://igl.ethz.ch/teaching/shape-modeling/sm2025/))
+
+
 
 <br><br><br><br>
 
