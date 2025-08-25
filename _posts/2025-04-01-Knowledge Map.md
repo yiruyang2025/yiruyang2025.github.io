@@ -41,7 +41,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 Mixed Reality (C++, 25)
 
-Shape Modeling (26)
+[Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (26)
 
 Seminar in Visual Computing
 
