@@ -37,6 +37,9 @@ related_publications: true
 
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
 
+[2024 - Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL) - Semantic Understanding
+
+
 
 <br><br>
 
