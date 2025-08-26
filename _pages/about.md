@@ -35,7 +35,7 @@ latest_posts:
 
 - 📍 [Project 1 - Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
 - 📍 [Project 2 - Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - 4d Bio Modeling / Instance Segmentation
-- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d organ modeling`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)（*Digital Twins), [cvg](https://cvg.ethz.ch/)
+- 📍 [Project 3 - Thesis 3](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d organ modeling`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)（*`Digital Twins`), [cvg](https://cvg.ethz.ch/)
 - 📍 [Project 4 - Thesis 2](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Project 5 - Master Thesis 1](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 
