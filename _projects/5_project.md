@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Master Thesis 1
+title: 2025 - Thesis - Multimodal
 description: Multimodal Clinical DL Modeling
 img: assets/img/4.jpg
 importance: 5
