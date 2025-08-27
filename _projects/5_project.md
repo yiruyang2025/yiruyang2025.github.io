@@ -17,7 +17,17 @@ related_publications: true
 [SCAI](https://scai.ethz.ch/)
 
 
-<br><br><br><br>
+<br>
+
+
+**Toolkit**
+
+<br>
+
+[2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
+
+
+<br><br><br>
 
 
 
