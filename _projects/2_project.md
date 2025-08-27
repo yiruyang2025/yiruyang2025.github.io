@@ -20,8 +20,9 @@ related_publications: true
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
 
+<br>
 
-**Audenced Master Thesis Projec at cvg**
+**Attended Master Thesis Project Defense at cvg**
 
   - (2025 - Reconstructing Complete Garments with Foundation Models)
 
