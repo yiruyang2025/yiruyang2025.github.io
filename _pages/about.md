@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI / real-time 4d segmentation / organ modeling, 🇨🇭
+subtitle: <a href='#'>Affiliations</a>. MSc in AI / 4d Segmentation, 🇨🇭
 
 profile:
   align: right
