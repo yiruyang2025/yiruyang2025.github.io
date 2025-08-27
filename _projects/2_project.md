@@ -18,7 +18,8 @@ related_publications: true
 
 - Learnt background knowledge, feel free to ask anything in the link
 
-- [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) 
+- [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
+- [Data Provider - colab demo](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.6.0/core/examples/dataprovider_quickstart_tutorial.ipynb#scrollTo=10e0572c)
 
 <br>
 
