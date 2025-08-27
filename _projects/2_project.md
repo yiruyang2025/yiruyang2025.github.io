@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Master Thesis
+title: 2026 - Master Thesis and Project
 description: A Feed forward network for 4d Instance Segmentation
 img: assets/img/4.jpg
 importance: 2
