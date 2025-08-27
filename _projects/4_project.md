@@ -3,7 +3,7 @@ layout: page
 title: 2025 - Thesis - Biosignal
 description: Signal Modeling for Organ / Liver Preservation
 img: assets/img/4.jpg
-importance: 5
+importance: 4
 category: work
 related_publications: true
 ---
