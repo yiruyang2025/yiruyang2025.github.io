@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4d Instance Segmentation
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d organ modeling`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)（*`digital twins`), [cvg](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ - Organ Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - Bio signal processing and modeling, [USZ - Organ Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
