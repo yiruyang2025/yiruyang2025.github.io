@@ -44,11 +44,14 @@ Biosignal Processing + Monitoring, Data visualization, modeling, and system vali
 
 <br><br>
 
-## Bio Singal
+## References
 
 <br>
 
 [2025 - LSM-2: Learning from Incomplete Wearable Sensor Data](https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/)
+
+
+[2025 - Reducing driveline infection risk in durable mechanical circulatory support devices with ultra-flexible wires for energy transfer](https://www.jhltonline.org/article/S1053-2498(25)02118-7/fulltext)
 
 
 <br><br>
