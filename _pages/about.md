@@ -33,11 +33,11 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Project - Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
-- 📍 [Project - Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4d Instance Segmentation
-- 📍 [Project - Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d organ modeling`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)（*`Digital Twins`), [cvg](https://cvg.ethz.ch/), ([ideas](https://ideas.ethz.ch/customized-biosensor-interfaces-service.html))
-- 📍 [Project - Thesis 3](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Project - Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4d Instance Segmentation
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d organ modeling`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)（*`digital twins`), [cvg](https://cvg.ethz.ch/)
+- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/5_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
