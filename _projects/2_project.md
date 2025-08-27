@@ -24,7 +24,7 @@ related_publications: true
 
 **Attended Master Thesis Project Defense at cvg**
 
-  - (2025 - Reconstructing Complete Garments with Foundation Models)
+  - (Sep 2025 - Reconstructing Complete Garments with Foundation Models)
 
 
 <br><br><br>
