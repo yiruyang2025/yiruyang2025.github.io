@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 2025 - Dataset
+title: 2025 - Thesis - 4D Organ Modeling
 description: Aria glass Gen-1
 img: assets/img/4.jpg
-importance: 4
+importance: 3
 category: work
 related_publications: true
 ---
