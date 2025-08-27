@@ -32,7 +32,7 @@ related_publications: true
 <br><br><br>
 
 
-**References**
+## References
 
 <br>
 
@@ -56,7 +56,7 @@ related_publications: true
 <br><br><br><br>
 
 
-**📍 Some Related Art works**
+## 📍 Some Related Art works
 
 <br>
 
