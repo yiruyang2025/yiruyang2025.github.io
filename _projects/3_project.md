@@ -13,6 +13,8 @@ related_publications: true
 
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
+- [Aria Data Provider - repo](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.6.0/core/examples/dataprovider_quickstart_tutorial.ipynb#scrollTo=10e0572c)
+
 Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [📍 HOT3D - 2025](https://facebookresearch.github.io/hot3d/)
