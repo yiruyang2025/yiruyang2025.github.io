@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Dataset
-description: 4d Medical Modeling, Aria glass
+description: Aria glass Gen-1
 img: assets/img/4.jpg
 importance: 4
 category: work
