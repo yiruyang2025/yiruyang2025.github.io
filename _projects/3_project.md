@@ -180,12 +180,25 @@ Implicit Geometry - NeRF/SDF
 [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
+
+
 <br><br><br><br>
 
 
+## References 1 - 4d Scene Understanding
+
+<br>
 
 
-## References 1 / Reading List
+
+
+
+
+
+<br><br><br><br>
+
+
+## References 2 / Reading List - Shape Modeling
 
 <br>
 
