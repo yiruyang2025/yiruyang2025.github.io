@@ -146,39 +146,6 @@ Implicit Geometry - NeRF/SDF
 
 
 
-## Topics
-
-<br>
-
-## 1. On-device Realtime Machine Perception (MP) Signals
-
-<br>
-
-Visual Inertial Odometry (VIO)
-
-  - 6 Degrees of freedom (6DOF) within a spatial frame of reference using Visual Inertial Odometry (VIO)
-  - This allows for seamless navigation and mapping of the environment
-
-<br><br>
-
-## 2. Eye Tracking
-
-<br>
-
-  - Including: gaze per eye, vergence point, blink detection, pupil center estimation, pupil diameter, corneal center, etc.
-  - A deeper understanding of the wearer’s visual attention and intentions
-
-<br><br>
-
-## 3. Hand Tracking
-
-<br>
-
-  - In 3D space
-
-<br><br><br>
-
-
 
 
 ## References
@@ -191,7 +158,7 @@ Visual Inertial Odometry (VIO)
 <br>
 
 
-[📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
+[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
 
 
 [2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
@@ -229,7 +196,7 @@ Visual Inertial Odometry (VIO)
 [SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
 
 
-[📍 2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
+[2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
 
 [2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
 
@@ -238,8 +205,4 @@ Visual Inertial Odometry (VIO)
 
 
 
-<br>
-
-
-
-<br><br>
+<br><br><br>
