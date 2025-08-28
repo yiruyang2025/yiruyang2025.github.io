@@ -32,7 +32,31 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 [2025 - Contrastive Representations for Temporal Reasoning](https://arxiv.org/pdf/2508.13113)
 
 
+<br>
 
+```
+         Classical AI (Traditional)                   CRTR (New Approach)
+
+ ┌───────────────┐                          ┌────────────────────────┐
+ │   Perception  │                          │   Perception + Time    │
+ │ (State Rep.)  │                          │ (Contrastive Learning) │
+ └───────┬───────┘                          └──────────┬─────────────┘
+         │                                           │
+         ▼                                           ▼
+ ┌───────────────┐                          ┌────────────────────────┐
+ │   Planning    │   (Search: BFS, A*)      │   Learned Representation│
+ │ (Temporal     │ -----------------------> │   already encodes       │
+ │ Reasoning)    │                          │   temporal reasoning    │
+ └───────────────┘                          └────────────────────────┘
+         │                                           │
+         ▼                                           ▼
+     ┌─────────┐                               ┌───────────────┐
+     │ Actions │                               │ Direct Actions│
+     └─────────┘                               └───────────────┘
+
+   - Requires explicit search                  - Can reason without search
+   - Slower / costly                           - Efficient / scalable
+```
 
 <br><br><br>
 
