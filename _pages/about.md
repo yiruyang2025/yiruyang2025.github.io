@@ -32,6 +32,7 @@ latest_posts:
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
+- The (shared) Ultimate goal is to make our planet a better space to live in
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4d Instance Segmentation
