@@ -41,7 +41,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 Mixed Reality (C++, 25)
 
-[Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (26)
+[Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start) - Giacomo Indiveri, Shih-Chii Liu, Melika Payvand
 
 Seminar in Visual Computing
 
@@ -54,6 +54,8 @@ Vision Algorithms for Mobile Robotics (L+E)
 [Systems on Chips](https://video.ethz.ch/lectures/d-itet/2025/spring/227-0150-00L.html) (Cuda, HPC, 25)
 
 ([Integrated Devices, Electronics, and Systems](https://ideas.ethz.ch/news-and-events/ideas-news/2025/08/new-course-lineup-for-next-fall-semester.html))
+
+([Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (26))
 
 [Graph Theory](https://video.ethz.ch/lectures/d-math/2020/spring/401-3052-10L.html)
 
