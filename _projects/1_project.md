@@ -41,15 +41,15 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
  │   Perception  │                          │   Perception + Time    │
  │ (State Rep.)  │                          │ (Contrastive Learning) │
  └───────┬───────┘                          └──────────┬─────────────┘
-         │                                           │
-         ▼                                           ▼
- ┌───────────────┐                          ┌────────────────────────┐
+         │                                             │
+         ▼                                             ▼
+ ┌───────────────┐                          ┌─────────────────────────┐
  │   Planning    │   (Search: BFS, A*)      │   Learned Representation│
  │ (Temporal     │ -----------------------> │   already encodes       │
  │ Reasoning)    │                          │   temporal reasoning    │
- └───────────────┘                          └────────────────────────┘
-         │                                           │
-         ▼                                           ▼
+ └───────────────┘                          └─────────────────────────┘
+         │                                             │
+         ▼                                             ▼
      ┌─────────┐                               ┌───────────────┐
      │ Actions │                               │ Direct Actions│
      └─────────┘                               └───────────────┘
