@@ -22,7 +22,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 [2020 - LEMMA](https://arxiv.org/pdf/2007.15781)
 
 
-<br><br><br>
+<br><br>
 
 
 **Related Coursework / Paper**
@@ -31,13 +31,25 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - [2025 - TetWeave](https://igl.ethz.ch/projects/tetweave/)
 
+- ([Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start)) - Giacomo Indiveri, Shih-Chii Liu, Melika Payvand
+
 - ([Math Foundations for Computer Graphics and Vision - SS 22](https://cgl.ethz.ch/teaching/mathfound22/notes.php))
 
 
+<br><br>
 
 
-<br><br><br><br>
 
+## 📍 Neuromorphic Engineering
+
+<br>
+
+- [Institute of Neuroinformatics](https://www.ini.uzh.ch/en/studies/courses.html) - UZH + ETHz
+
+
+
+
+<br><br>
 
 ## Geometric Shape Modeling
 
