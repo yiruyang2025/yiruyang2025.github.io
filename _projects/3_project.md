@@ -97,11 +97,7 @@ Regularization Terms
 [2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
 
 
-
-
-<br><br><br><br><br><br>
-
-
+<br><br>
 
 
 ## 4d Cardiac Modeling
