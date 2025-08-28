@@ -32,6 +32,7 @@ latest_posts:
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
+
 - The (shared) Ultimate goal is to make our planet a better space to live in
 
 <br>
