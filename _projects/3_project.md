@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - 4d Scene Understanding
+title: 2025 - Thesis - 4d Scene Understanding / Denoising 
 description: Aria glass Gen-1
 img: assets/img/4.jpg
 importance: 3
