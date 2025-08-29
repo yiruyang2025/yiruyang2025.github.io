@@ -53,7 +53,7 @@ related_publications: true
 <br><br>
 
 
-[📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/) - geometry-first → `learning-first`
+[📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/)
 
 
 
