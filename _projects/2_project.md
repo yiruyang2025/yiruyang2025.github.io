@@ -20,6 +20,7 @@ related_publications: true
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
+- ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
 <br>
