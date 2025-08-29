@@ -26,7 +26,7 @@ related_publications: true
 **Attended Master Thesis Project Defense at cvg**
 
   - (01 Sep 2025 - Reconstructing Complete Garments with Foundation Models)
-    - 📍 Pattern Prediction on Fabric Recognition
+    - Pattern Prediction on Fabric Recognition
 
 
 <br><br><br>
