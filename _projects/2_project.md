@@ -30,6 +30,8 @@ related_publications: true
   - (01 Sep 2025 - Reconstructing Complete Garments with Foundation Models)
     - Pattern Prediction on Fabric Recognition
 
+  - (01 Sep 2025 - Open-sourcing CubeDiff and exploring attention inflation in Diffusion Transformers)
+
 
 <br><br><br>
 
