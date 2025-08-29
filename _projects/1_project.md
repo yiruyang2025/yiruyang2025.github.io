@@ -29,6 +29,8 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 ## References for Contrastive Learning
 
+<br>
+
 [2025 - Contrastive Representations for Temporal Reasoning](https://arxiv.org/pdf/2508.13113)
 
 
