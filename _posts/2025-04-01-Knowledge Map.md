@@ -41,7 +41,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 Mixed Reality (C++, 25)
 
-([Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start)) - Giacomo Indiveri, Shih-Chii Liu, Melika Payvand
+([Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start))
 
 Seminar in Visual Computing
 
