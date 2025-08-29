@@ -23,7 +23,7 @@ related_publications: true
 - ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
-<br>
+<br><br>
 
 **Attended Master Thesis Project Defense at cvg**
 
