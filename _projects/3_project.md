@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - 4d Surgical Simulation / Transplantation
+title: 2025 - Thesis
 description: Aria glass Gen-1, Dataset
 img: assets/img/4.jpg
 importance: 3
