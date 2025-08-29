@@ -35,7 +35,6 @@ latest_posts:
 
 - The (shared) Ultimate goal is to make our planet a better space to live in
 
-<br>
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space 3d alignment for ASR knowledge distillation, whisper
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4d Instance Segmentation
