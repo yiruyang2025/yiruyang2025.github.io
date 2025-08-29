@@ -27,10 +27,10 @@ related_publications: true
 
 **Attended Master Thesis Project Defense at cvg**
 
-  - (01 Sep 2025 - Reconstructing Complete Garments with Foundation Models)
+  - 01 Sep 2025 - Reconstructing Complete Garments with Foundation Models
     - Pattern Prediction on Fabric Recognition
 
-  - (01 Sep 2025 - Open-sourcing CubeDiff and exploring attention inflation in Diffusion Transformers)
+  - 01 Sep 2025 - Open-sourcing CubeDiff and exploring attention inflation in Diffusion Transformers
 
 
 <br><br><br>
