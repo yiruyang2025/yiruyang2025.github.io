@@ -22,6 +22,8 @@ related_publications: true
 - ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
 - ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
+<br>
+
 - Topics - [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)
 
 <br><br>
