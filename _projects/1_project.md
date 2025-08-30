@@ -344,7 +344,7 @@ Activation Function Characteristics Comparison:
 
 <br>
 
-## 📍 Fourier Transform
+## 📍 [Fourier Transform](https://www.linkedin.com/posts/imarpit_ai-machinelearning-deeplearning-activity-7367542558693937152-28w2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 <br>
 
