@@ -19,7 +19,7 @@ related_publications: true
 - Learnt background knowledge, feel free to ask anything in the link
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
-- ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)) - 5ECTS, Unity
+- ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
 - ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 <br>
