@@ -344,6 +344,62 @@ Activation Function Characteristics Comparison:
 
 <br>
 
+## 📍 Fourier Transform
+
+<br>
+
+```
+Original domain: Most ML models process raw data directly — pixels for images, waveform samples for audio, or discrete tokens for text
+
+Fourier Transform: Acts like a prism, decomposing complex signals into frequency components
+
+Large circle / base frequency → overall structure
+
+Smaller circles / harmonics → fine details
+
+**In AI**
+
+CNNs: High-frequency = edges, Low-frequency = smooth areas. Convolutions become efficient multiplications in frequency space
+
+Transformers: Sinusoidal positional encodings are essentially Fourier bases that provide continuous, unique position information
+
+Speech & Image Processing: Fourier → spectrogram for speech recognition, edge/texture extraction in vision tasks
+```
+
+<br>
+
+```
+        ┌───────────────────────────────┐
+        │        Original Domain        │
+        │  - Pixels (Images)            │
+        │  - Samples (Audio, Signals)   │
+        │  - Tokens (Text)              │
+        └───────────────────────────────┘
+                       │
+                       ▼  Fourier Transform
+        ┌───────────────────────────────┐
+        │        Frequency Domain       │
+        │  - Low frequencies → smooth   │
+        │  - High frequencies → edges   │
+        │  - Harmonics → fine details   │
+        └───────────────────────────────┘
+                       │
+        ┌──────────────┼────────────────────┐
+        ▼              ▼                    ▼
+   ┌───────────┐  ┌────────────┐       ┌─────────────┐
+   │   CNNs    │  │ Transformers│      │ Speech/Image│
+   └───────────┘  └────────────┘       └─────────────┘
+   - Edges = HF   - Sinusoidal pos.    - STFT / spectrogram
+   - Smooth = LF    encoding           - Highlight textures
+   - Convolutions   (frequency basis)  - Recognize phonemes
+     simplified                        - Detect fine image details
+     in frequency
+     space
+```
+
+
+<br><br>
+
 **🧊 Distillation Ice Factory**
 
 ```
@@ -482,6 +538,7 @@ Student Encoder Output (s_h)
 ```
 
 <br>
+
 
 ```
 ↓↓  Student Model: LoRA Injection Points for Encoder & Decoder  ↓↓
