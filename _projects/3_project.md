@@ -40,13 +40,22 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 
+## 📍 Robots Navigation
+
+<br>
+
+- Deep Reinforcement Learning Self-Improvement
+
+
+<br><br>
+
+
+
 ## 📍 Neuromorphic Engineering
 
 <br>
 
 - [Institute of Neuroinformatics](https://www.ini.uzh.ch/en/studies/courses.html) - UZH + ETHz
-
-
 
 
 <br><br>
