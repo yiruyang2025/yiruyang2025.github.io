@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis and Project
-description: A Feed forward network for 4d Instance Segmentation
+description: 4d Perception
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -36,7 +36,16 @@ related_publications: true
   - 01 Sep 2025 - Open-sourcing CubeDiff and exploring attention inflation in Diffusion Transformers
 
 
-<br><br><br>
+<br>
+
+
+**References**
+
+[2021 - Decision transformer: Reinforcement learning via sequence modeling](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf)
+
+
+
+<br><br>
 
 
 ## References
