@@ -51,7 +51,7 @@ related_publications: true
 
 <br>
 
-**4D tokenization For VLA (based on 'π')?**
+**4D tokenization For VLA**
 
 <br>
 
