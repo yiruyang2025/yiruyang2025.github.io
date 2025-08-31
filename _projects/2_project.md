@@ -76,7 +76,7 @@ related_publications: true
                       │
                       ▼
           ┌───────────────────────────┐
-          │  VLA (π0 / π0.5 style)   │
+          │  VLA (π0 / π0.5 style)    │
           │ Vision-Language-Action FM │
           └───────────┬───────────────┘
                       │
