@@ -47,6 +47,63 @@ related_publications: true
 
 <br><br>
 
+## Representation Learning
+
+**4D tokenization For VLA (based on 'π')?**
+
+<br>
+
+```
+          ┌───────────────────────────┐
+          │   4D Perception Module    │
+          │   (FFN-based Segmentation)│
+          └───────────┬───────────────┘
+                      │
+   Input (video/point cloud) 
+   x,y,z,t → 4D Instance Masks
+                      │
+                      ▼
+          ┌───────────────────────────┐
+          │   Representation Layer    │
+          │   (Tokens / Scene Graph)  │
+          └───────────┬───────────────┘
+                      │
+      Object IDs, Trajectories, 
+      Relations (cup on table, 
+      human holding phone, etc.)
+                      │
+                      ▼
+          ┌───────────────────────────┐
+          │  VLA (π0 / π0.5 style)   │
+          │ Vision-Language-Action FM │
+          └───────────┬───────────────┘
+                      │
+     Language: "Clean up the table"
+     Visual: scene tokens
+     Action: robot skill library
+                      │
+                      ▼
+          ┌───────────────────────────┐
+          │   Robot Execution Layer   │
+          │  (Household / Navigation) │
+          └───────────────────────────┘
+               │                  │
+       ┌───────┘                  └────────┐
+       ▼                                   ▼
+┌───────────────┐                  ┌─────────────────┐
+│ Household     │                  │ Navigation      │
+│ Tasks         │                  │ Tasks           │
+│ - Clean table │                  │ - Dynamic SLAM  │
+│ - Pick objects│                  │ - Avoid humans  │
+│ - Sort laundry│                  │ - Reach target  │
+└───────────────┘                  └─────────────────┘
+```
+
+
+
+
+<br><br><br><br>
+
 
 ## References
 
