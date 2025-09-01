@@ -49,7 +49,7 @@ related_publications: true
 
 <br>
 
-**4D tokenization For VLA**
+**A 4D tokenization For VLA**
 
 ```
           ┌───────────────────────────┐
