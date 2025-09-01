@@ -34,7 +34,7 @@ related_publications: true
     - Pattern Prediction on Fabric Recognition
 
 
-<br>
+<br><br>
 
 
 **References**
@@ -43,7 +43,10 @@ related_publications: true
 
 [📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
-<br><br>
+
+
+
+<br><br><br><br>
 
 ## Representation Learning
 
