@@ -26,6 +26,39 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br>
 
+## 📍 Optimized Decoding (With KV Cache)
+
+```
+Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Cache)
+
+ ┌───────────────┐                                ┌────────────────────────┐
+ │   Decoder     │                                │   Decoder + KV Cache   │
+ │  (Self-Attn)  │                                │  (Self-Attn + Storage) │
+ └───────┬───────┘                                └──────────┬─────────────┘
+         │                                                     │
+         ▼                                                     ▼
+ ┌───────────────┐                                ┌─────────────────────────┐
+ │ Recompute all │   O(n²) per step               │  Reuse stored K/V       │
+ │ past tokens   │ -----------------------------> │  Only new Q calculated  │
+ │ at every step │                                │  O(n) per step          │
+ └───────────────┘                                └─────────────────────────┘
+         │                                                     │
+         ▼                                                     ▼
+     ┌─────────┐                                       ┌───────────────┐
+     │ Latency │                                       │  Low Latency  │
+     │  High   │                                       │  On-Device OK │
+     └─────────┘                                       └───────────────┘
+
+   - Redundant computation                           - No recomputation
+   - High memory bandwidth                           - Lower memory & power
+   - Slow inference                                  - Faster inference
+```
+
+
+
+
+<br>
+
 
 ## References for Contrastive Learning
 
