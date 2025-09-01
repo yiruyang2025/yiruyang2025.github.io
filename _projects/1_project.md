@@ -16,7 +16,7 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 10% of the SOTA training set -> 2% WER on the same Test sets from the SOTA
 
-<br>
+<br><br>
 
 [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
