@@ -48,7 +48,7 @@ related_publications: true
 
 <br><br><br><br>
 
-## Representation Learning
+## 📍 Representation Learning
 
 <br>
 
