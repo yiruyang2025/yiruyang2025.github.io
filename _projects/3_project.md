@@ -46,6 +46,22 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - Deep Reinforcement Learning Self-Improvement
 
+<br><br>
+
+**Labs**
+
+<br>
+
+[Computational Robotics Lab](https://crl.ethz.ch/)
+
+<br><br>
+
+**Dataset**
+
+<br>
+
+- [2025 - Multimodal Dataset for Agricultural Robotics](https://www.linkedin.com/posts/soncininicolas_ijrr-ijrr-activity-7368332150338727937-XOUo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+
 
 <br><br>
 
