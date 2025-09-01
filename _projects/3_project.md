@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis
-description: Aria glass Gen-1, Dataset, RL
+description: Aria glass Gen-1, Dataset, Deep RL
 img: assets/img/4.jpg
 importance: 3
 category: work
