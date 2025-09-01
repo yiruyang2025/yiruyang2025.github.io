@@ -48,6 +48,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br><br>
 
+
 **Labs**
 
 <br>
