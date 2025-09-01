@@ -100,7 +100,35 @@ related_publications: true
 └───────────────┘                  └─────────────────┘
 ```
 
+<br>
 
+```
+         ┌────────────────────────────┐
+         │       4D Input Data        │
+         │   (x, y, z, t sequences)   │
+         │  Video / Dynamic PointCloud│
+         └─────────────┬──────────────┘
+                       │
+                       ▼
+         ┌───────────────────────────┐
+         │   Vision Feature Extractor│
+         │  CNN / ViT / 3D CNN / GNN │
+         └─────────────┬─────────────┘
+                       │  feature embeddings
+                       ▼
+         ┌────────────────────────────┐
+         │ Representation Learning    │
+         │  + Scaling Laws            │
+         │  (learn semantic space)    │
+         └─────────────┬──────────────┘
+                       │
+                       ▼
+         ┌────────────────────────────┐
+         │   4D Instance Segmentation │
+         │  Instance masks + tracking │
+         │  (object IDs over time)    │
+         └────────────────────────────┘
+```
 
 
 <br><br><br><br>
