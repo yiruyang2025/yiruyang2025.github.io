@@ -41,7 +41,7 @@ related_publications: true
 
 [2021 - Decision transformer: Reinforcement learning via sequence modeling](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf)
 
-
+[📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
 <br><br>
 
