@@ -43,7 +43,7 @@ related_publications: true
 
 [📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
-
+[2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/) - Mehdi S. M. Sajjadi
 
 
 <br><br><br><br>
