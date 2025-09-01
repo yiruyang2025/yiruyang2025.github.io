@@ -18,6 +18,10 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br>
 
+[📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
+
+<br>
+
 ## 📍 Optimized Decoding (With KV Cache)
 
 ```
