@@ -52,7 +52,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br>
 
-[Computational Robotics Lab](https://crl.ethz.ch/)
+- [Computational Robotics Lab](https://crl.ethz.ch/)
 
 <br><br>
 
