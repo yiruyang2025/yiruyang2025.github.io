@@ -18,14 +18,6 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br>
 
-[ICLR 2021 - FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch)
-
-[ICML 2025 - Distillation Scaling Laws](https://arxiv.org/abs/2502.08606)
-
-[whisper-tiny](https://huggingface.co/openai/whisper-tiny)
-
-<br>
-
 ## 📍 Optimized Decoding (With KV Cache)
 
 ```
