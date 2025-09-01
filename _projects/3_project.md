@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis
-description: Aria glass Gen-1, Dataset, Robots Navigation
+description: Aria glass Gen-1, Dataset, Soft Robotics
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -40,7 +40,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 
-## 📍 Robots Navigation
+## 📍 Soft Robotics
 
 <br>
 
@@ -54,6 +54,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 <br>
 
 - [Computational Robotics Lab](https://crl.ethz.ch/)
+
+- [Soft Robotics](https://mitpress.mit.edu/9780262049740/soft-robotics/)
 
 - [Terensis - The next gen agriculture intelligence platform](https://www.terensis.io/)
 
