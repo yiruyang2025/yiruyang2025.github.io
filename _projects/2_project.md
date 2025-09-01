@@ -34,7 +34,7 @@ related_publications: true
     - Pattern Prediction on Fabric Recognition
 
 
-<br><br>
+<br><br><br>
 
 
 **References**
@@ -52,7 +52,7 @@ related_publications: true
 
 <br>
 
-**A 4D tokenization For VLA**
+**📍 A 4D tokenization For VLA**
 
 ```
           ┌───────────────────────────┐
