@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI / 4d ViT / Segmentation, 🇨🇭
+subtitle: <a href='#'>Affiliations</a>. MSc in AI / 4d ViT, Segmentation, 🇨🇭
 
 profile:
   align: right
