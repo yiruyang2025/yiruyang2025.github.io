@@ -93,7 +93,7 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
    - Slower / costly                           - Efficient / scalable
 ```
 
-<br><br><br>
+<br>
 
 ```
 Sonnet 64
