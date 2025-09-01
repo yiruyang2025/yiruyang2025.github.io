@@ -54,6 +54,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - [Computational Robotics Lab](https://crl.ethz.ch/)
 
+- [Terensis - The next gen agriculture intelligence platform](https://www.terensis.io/)
+
 <br><br>
 
 **Dataset**
