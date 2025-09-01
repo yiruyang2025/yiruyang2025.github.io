@@ -51,8 +51,6 @@ related_publications: true
 
 **4D tokenization For VLA**
 
-<br>
-
 ```
           ┌───────────────────────────┐
           │   4D Perception Module    │
