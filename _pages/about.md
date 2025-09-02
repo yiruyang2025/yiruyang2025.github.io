@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `4d Vision Feature Extractor / Tokenization for VLA`, looking for supervisors for Robotics in Production
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [`4d Perception`](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ - Organ Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
