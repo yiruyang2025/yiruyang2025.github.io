@@ -59,11 +59,11 @@ Zero-shot, Co-training, better Generalization
 
 <br><br>
 
-## Representation Learning
+## Representation Learning - <Object-level>, Action Tokenization (Control-level)
 
 <br>
 
-**A 4D tokenization For VLA**
+**A 4D tokenization For VLA in Production**
 
 ```
           ┌───────────────────────────┐
