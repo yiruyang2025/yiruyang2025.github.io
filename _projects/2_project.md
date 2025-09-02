@@ -16,7 +16,7 @@ related_publications: true
 
 **Related Coursework**
 
-- Learnt background knowledge, feel free to ask anything in the link
+- Learnt background knowledge, feel free to ask anything in the link, always open to challenges
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
@@ -48,6 +48,14 @@ related_publications: true
 
 <br><br>
 
+
+**Some Products**
+
+[2025 - LeFranX](https://www.linkedin.com/posts/zkweng_lerobot-robotics-robotlearning-activity-7368317883715604481-nD8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) - 📍 High-performance VR-based teleoperation
+
+
+
+<br><br>
 
 **Topics**
 
