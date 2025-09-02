@@ -55,6 +55,7 @@ related_publications: true
 
 [2025 - LeFranX](https://www.linkedin.com/posts/zkweng_lerobot-robotics-robotlearning-activity-7368317883715604481-nD8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) - 📍 High-performance VR-based teleoperation
 
+[Statsig](https://github.com/vijaye-statsig) - this account is so cute
 
 
 <br><br><br>
