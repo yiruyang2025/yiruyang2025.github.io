@@ -21,6 +21,7 @@ related_publications: true
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
 - ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
+- ([Advanced Topics in Embodied Intelligence](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=197038&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=en))
 
 <br>
 
