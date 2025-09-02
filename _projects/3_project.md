@@ -67,6 +67,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 **Dataset / Some Readings**
 
 
+- [2024 - Lost and Found - Tracking Changes from Egocentric Observations in 3D Dynamic Scene Graphs](https://behretj.github.io/LostAndFound/)
+
 
 - [Soft Robotics](https://mitpress.mit.edu/9780262049740/soft-robotics/)
 
