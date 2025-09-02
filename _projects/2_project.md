@@ -142,7 +142,22 @@ Zero-shot, Co-training, better Generalization
 ```
 
 
-<br><br><br><br>
+<br>
+
+| **Research Theme (Abbeel)**                       | **Key Works**                                                                                      | **Core Idea**                                                                            | **Relation to Physical Intelligence (π)**                                                                                                          |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Reinforcement Learning & Policy Optimization**  | TRPO, GAE, Soft Actor-Critic (SAC)                                                                 | Stable training in high-dimensional continuous control spaces                            | **FAST action tokenization** tackles the same challenge of efficient control in high-dimensional spaces, extending RL efficiency with tokenization |
+| **Representation Learning & Generative Modeling** | InfoGAN, DDPM, Decision Transformer                                                                | Interpretable representation learning; diffusion models; framing RL as sequence modeling | **π0 / π0.5 VLA** adopt the same idea: treating robot actions as sequences, aligning with the Decision Transformer paradigm                        |
+| **Robotics & Imitation Learning**                 | Apprenticeship Learning via IRL, End-to-end visuomotor policies, Domain Randomization for Sim2Real | Learning from human demonstrations; transferring policies from simulation to real robots | **π0.5 open-world generalization** extends this line of work by ensuring VLA policies can adapt to unseen real-world environments                  |
+| **General Policies & Scalability**                | Hindsight Experience Replay (HER), Multi-agent actor-critic, DeepMimic                             | Scaling up RL to more tasks and agents; learning versatile and robust skills             | **π series** (π0, π0.5) represent scaling towards generalist robot policies, trained across multiple robots and tasks                              |
+
+
+
+
+
+
+
+<br><br><br>
 
 
 ## References
