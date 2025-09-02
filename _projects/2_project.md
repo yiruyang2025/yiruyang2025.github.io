@@ -67,7 +67,7 @@ Zero-shot, Co-training, better Generalization
 
 <br><br>
 
-## Representation Learning - <object-level>, Action Tokenization (control-level)
+## Representation Learning for <object-level>, Action Tokenization for (control-level)
 
 <br>
 
