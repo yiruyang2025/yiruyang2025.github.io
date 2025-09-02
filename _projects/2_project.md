@@ -46,13 +46,24 @@ related_publications: true
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/) - Mehdi S. M. Sajjadi
 
 
-<br><br><br><br>
+<br><br>
+
+
+**Topics**
+
+Zero-shot, Co-training, better Generalization
+
+
+
+
+
+<br><br>
 
 ## 📍 Representation Learning
 
 <br>
 
-**📍 A 4D tokenization For VLA**
+**A 4D tokenization For VLA**
 
 ```
           ┌───────────────────────────┐
