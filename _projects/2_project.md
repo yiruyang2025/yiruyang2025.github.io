@@ -59,7 +59,7 @@ Zero-shot, Co-training, better Generalization
 
 <br><br>
 
-## 📍 Representation Learning
+## Representation Learning
 
 <br>
 
