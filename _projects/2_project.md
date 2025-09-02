@@ -47,7 +47,7 @@ related_publications: true
 
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/) - Mehdi S. M. Sajjadi
 
-[2008 - Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
+[📍 2008 - Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
 
 
 <br><br><br>
