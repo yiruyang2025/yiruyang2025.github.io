@@ -16,7 +16,7 @@ related_publications: true
 
 **Related Coursework**
 
-- Learnt background knowledge, feel free to ask anything in the link, always open to challenges
+- Learnt background knowledge, feel free to ask anything in the link, `always happy towards + open to challenges`
 
 - [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
