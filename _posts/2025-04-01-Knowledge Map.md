@@ -41,7 +41,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
-(*Large-Scale AI Engineering) - Vision Extractors for Space / Surgical Robots
+(*Large-Scale AI Engineering) - `Vision Extractors` for Space / Surgical Robots
 
 ([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
