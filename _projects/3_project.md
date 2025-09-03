@@ -243,20 +243,8 @@ Implicit Geometry - NeRF/SDF
 <br><br><br><br>
 
 
-## References 1 - 4d Scene Understanding
 
-<br>
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br>
-
-
-## References 2 / Reading List - Shape Modeling
+## References / Reading List - Shape Modeling
 
 <br>
 
