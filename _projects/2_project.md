@@ -67,7 +67,7 @@ related_publications: true
 
 **Topics**
 
-Zero-shot, Co-training, better Generalization
+Zero-shot, Co-training, better Generalization, a Feature Extractor
 
 
 
