@@ -20,6 +20,8 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
+[what a real loss curve for 70B looks like (with y-axis labels](https://x.com/haeggee/status/1962933627584413721)
+
 <br>
 
 ## 📍 Optimized Decoding (With KV Cache)
