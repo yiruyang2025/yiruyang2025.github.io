@@ -40,7 +40,7 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 
-## 📍 Computational Robotics
+## 📍 Computational Robotics - Medical / Space
 
 <br>
 
