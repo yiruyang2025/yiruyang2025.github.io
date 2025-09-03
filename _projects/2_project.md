@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis and Project
-description: 4d Perception, 4d ViT, Segmentation
+description: 4d Perception, 4d ViT, Feature Extractor
 img: assets/img/4.jpg
 importance: 2
 category: work
