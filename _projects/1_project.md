@@ -17,9 +17,9 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 10% of the [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) training set -> 2% WER on the same Test sets from the SOTA
 
   - Visual training curves with different amounts of training data
-  - `Key takeaways here -> always remember to ask the original authors, so helpful`
+  - `Key takeaways here -> always remember to ask the original authors, So helpful`
 
-<br><br>
+<br>
 
 [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
