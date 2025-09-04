@@ -43,7 +43,9 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 (*Large-Scale AI Engineering, 25) - `Vision Extractors` for Space / Surgical Robots
 
-([Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
+([Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/), 25)
+
+([Advanced Topics in Embodied Intelligence, 25](https://cvg.ethz.ch/lectures/Embodied-Intelligence/))
 
 Geometry for Computational Design and Fabrication
 
