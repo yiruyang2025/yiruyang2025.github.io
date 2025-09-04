@@ -45,7 +45,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 ([Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/), 25)
 
-([Advanced Topics in Embodied Intelligence, 25](https://cvg.ethz.ch/lectures/Embodied-Intelligence/))
+([Advanced Topics in Embodied Intelligence](https://cvg.ethz.ch/lectures/Embodied-Intelligence/), 25)
 
 Geometry for Computational Design and Fabrication
 
