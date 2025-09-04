@@ -775,8 +775,8 @@ The num_workers parameter in PyTorch DataLoader controls the number of CPU proce
 
 **Single-threaded (num_workers=0)**
 
-- CPU: Load→Preprocess→Transfer | GPU idle | Load→Preprocess→Transfer
-- GPU: Idle                     | Compute  | Idle
+- CPU: Load→Preprocess→Transfer, GPU idle, Load→Preprocess→Transfer
+- GPU: Idle, Compute, Idle
   
 **Multi-threaded (num_workers=4)**
 
