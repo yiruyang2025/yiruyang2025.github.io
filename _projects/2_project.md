@@ -49,7 +49,7 @@ related_publications: true
 
 [📍 2008 - Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
 
-
+[2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
 
 <br><br><br>
