@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Organ Playground - 25
-date: 2025-08-02
+date: 2025-09-02
 description: 🔹
 categories: AI/ML
 thumbnail: assets/img/9.jpg
