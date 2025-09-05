@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI / `4d CNN`, 🇨🇭, Space lover
+subtitle: <a href='#'>Affiliations</a>. MSc in AI / `4d CNN`, 🇨🇭
 
 profile:
   align: right
