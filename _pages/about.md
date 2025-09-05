@@ -27,14 +27,14 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **(`4d Vision Feature Extractor`, Sewing Patterns) / Diffusion, (Flow-matching) / Multimodal / Biosignal modeling / ASR**
+- 📍 Skill Set - **(`4d Vision Feature Extractor for non-rigid manipulation`, Sewing Patterns) / Diffusion, (Flow-matching) / Multimodal / Biosignal modeling / ASR**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space alignment, Transformer KV cache Optimization, whisper, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Instance Segmentation`, vision foundation model - `cloth folding (*Non-Rigid Manipulation)` / agricultural / space robotics
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Instance Segmentation`, vision foundation model - `cloth folding (Non-Rigid Manipulation)` / agricultural / space robotics
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍Organ Playground](https://yiruyang2025.github.io/blog/2025/Organ-Playground-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
