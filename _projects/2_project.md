@@ -35,6 +35,8 @@ related_publications: true
   - 01 Sep 2025 - 📍📍 Reconstructing Complete Garments with Foundation Models
     - Pattern Prediction on Fabric Recognition
     - 'Garments are both cultural artifacts and engineered products, but most generative models produce visuals that cannot be manufactured. This thesis introduces a foundation model for pattern-centric garment generation, where outputs are sewing patterns—panels, seams, and annotations—ready for CAD and simulation. A new tokenizer and multimodal dataset enable structured decoding from text or image inputs in a unified framework. In parallel, we investigate fabric recognition from large-scale product data, underscoring the challenge of linking garment shape to material behavior. Experiments show state-of-the-art pattern prediction, strong generalization, and predictable scaling. Together, these contributions move digital fashion toward simulation-ready, fabrication-oriented design.'
+    - [2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
+    - [2025 - Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates](https://arxiv.org/html/2504.08353v1)
 
 
 <br><br><br>
