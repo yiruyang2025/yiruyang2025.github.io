@@ -34,7 +34,7 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - hidden-space alignment, Transformer KV cache Optimization, whisper, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Instance Segmentation`, vision foundation model - **Cloth Folding (Non-Rigid Manipulation)** / agricultural / space robotics
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Instance Segmentation`, vision foundation model - **Cloth Folding and Non-Rigid Manipulation** / agricultural / space robotics
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍Organ Playground](https://yiruyang2025.github.io/blog/2025/Organ-Playground-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - 4d Instance Understanding, Representation Learning
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World Modeling and Simulation`)
+  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
   - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc)
 
 
