@@ -26,7 +26,7 @@ related_publications: true
 
 <br>
 
-- Topics - [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/Some-Notes-25/)
+- Topics - [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/Organ-Playground-25/)
 
 <br><br>
 
