@@ -18,7 +18,7 @@ Will be more than happy to meet for a coffee anytime if you visit Zürich
 
 <br>
 
-## Organ Playground
+## `Organ Playground`
 
 
 <br>
