@@ -37,7 +37,6 @@ Will be more than happy to meet for a coffee anytime if you visit Zürich
 
 - [Uniersity Hospital Zurich](https://www.usz.ch/)
 
-- B2B
 
 <br><br>
 
