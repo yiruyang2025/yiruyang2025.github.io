@@ -45,7 +45,8 @@ latest_posts:
 **Interests**
   - 4d Instance Understanding, Representation Learning
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
-  - [Interpretability](https://colah.github.io/), [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc)
+  - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc)
+  - `Logistics robots` - if partnered with big tech companies that have their own `Satellite Communication and Maps`
 
 
 
