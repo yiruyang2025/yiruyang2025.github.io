@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: whisper, low latency Inference, Transformer
+description: whisper, low latency Inference, Transformer / A New 'Torch.nn.init'
 img: assets/img/4.jpg
 importance: 1
 category: work
@@ -14,9 +14,7 @@ related_publications: true
 
 parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
-  - Pending try to do some New `torch.nn.init` way in 2026
-
-    - Expanding from "stability" to `Structural Alignment`
+<br>
 
 10% of the [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) training set -> 2% WER on the same Test sets from the SOTA
 
