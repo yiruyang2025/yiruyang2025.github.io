@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Organ Playground - 25
+title: OrganPlayground.ai - 25
 date: 2025-09-02
 description: 🔹
 categories: AI/ML
@@ -18,7 +18,7 @@ Will be more than happy to meet for a coffee anytime if you visit Zürich
 
 <br>
 
-## `Organ Playground`
+## `OrganPlayground.ai`
 
 
 <br>
@@ -30,7 +30,7 @@ Will be more than happy to meet for a coffee anytime if you visit Zürich
 
 
 
-## 1. A Software Platform - 2d -> 3d Organ Imaging + Manipulation `Before` Surgery
+## 1. A Lab with database + software platform - 2d -> 3d Organ Imaging + Manipulation `Before` Surgery
 
 <br>
 
