@@ -94,12 +94,11 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
 
 
 
-<br>
+<br><br>
 
 
 ## References for Contrastive Learning
 
-<br>
 
 [2025 - Contrastive Representations for Temporal Reasoning](https://arxiv.org/pdf/2508.13113)
 
