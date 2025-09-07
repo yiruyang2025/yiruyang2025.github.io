@@ -39,7 +39,7 @@ related_publications: true
     - [2025 - Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates](https://arxiv.org/html/2504.08353v1)
 
 
-<br>
+<br><br><br>
 
 
 `Build A 4D Vision Feature Extractor, test on Semantic Head`
