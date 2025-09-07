@@ -16,7 +16,7 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br>
 
-  - 📍 Expanding from "stability" to `Structural Alignment` for the 'torch.nn.init'
+  - 📍 Expanding from "stability" to `Structural Alignment` for the `torch.nn.init`
 
 | Initialization Scheme          | Description                                                                                                   | Convergence Speed (Epochs to Stable WER) | Final WER (%) | Notes                                                                                             |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------- |
