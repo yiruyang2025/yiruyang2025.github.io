@@ -33,7 +33,7 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, Transformer KV cache Optimization, whisper, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
+- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, Transformer KV cache Optimization, whisper distillation, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Instance Segmentation`, vision foundation model
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍OrganPlayground.ai](https://yiruyang2025.github.io/blog/2025/OrganPlayground.ai-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
