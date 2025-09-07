@@ -74,6 +74,23 @@ related_publications: true
              - Task sequencing (fold / hang / place)
 ```
 
+<br>
+
+## Semantic Heads
+
+<br>
+
+| **Semantic Head Type**            | **Core Function**                                                        | **Industrial Frontier Applications**                                                                      | **Representative Companies / Labs**                             |
+| --------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Part Segmentation Head**        | Pixel-wise or region-wise segmentation of object parts                   | **Garment industry**: sleeve/neck/hem segmentation for folding and robotic manipulation                   | Meta (FAIR, Garment Manipulation), Amazon Robotics              |
+| **Instance Segmentation Head**    | Distinguishes individual objects of the same class                       | **Agriculture**: detecting individual crops vs weeds for precision spraying                               | John Deere, Blue River Technology                               |
+| **Region Classification Head**    | Assigns semantic labels to regions or masks                              | **Healthcare / Surgery**: organ or tumor classification for robotic surgery guidance                      | Intuitive Surgical, Siemens Healthineers                        |
+| **Surface Parsing Head**          | Extracts continuous surface boundaries                                   | **Surgical robots**: organ surface modeling, surgical field tracking                                      | Philips, ETH Zurich + Intuitive collaborations                  |
+| **Affordance Head**               | Predicts functional regions (grasp points, fold lines, cut regions)      | **Robotics**: folding clothes, grasping tools, space robotics                                             | Boston Dynamics Spot, TRI (Toyota Research Institute), NASA JPL |
+| **3D/4D Spatio-Temporal Head**    | Learns semantic labels over time sequences (video/4D input)              | **Space**: satellite/space debris tracking, multi-frame segmentation for robotic arms                     | NASA, SpaceX, ESA AI programs                                   |
+| **Multi-Modal Fusion Head**       | Combines visual semantics with other modalities (depth, language, force) | **AR/VR & Human-Robot Interaction**: wearable AR (HoloLens, Aria) semantic mapping for manipulation tasks | Microsoft HoloLens, Meta Reality Labs, Apple Vision Pro         |
+| **Self-Supervised Semantic Head** | Uses pseudo-labels or consistency for training                           | **Scalable Robotics & Industry 4.0**: training robots without full annotations                            | Covariant.ai, Intrinsic (Alphabet)                              |
+
 
 
 <br><br>
