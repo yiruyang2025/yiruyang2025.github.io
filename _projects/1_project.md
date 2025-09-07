@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: whisper, low latency Inference, Transformer / A New 'Torch.nn.init'
+description: whisper, Transformer + A New 'Torch.nn.init'
 img: assets/img/4.jpg
 importance: 1
 category: work
