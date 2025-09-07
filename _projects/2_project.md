@@ -42,7 +42,7 @@ related_publications: true
 <br><br><br>
 
 
-`Build A 4D Vision Feature Extractor, test on Semantic Head`
+`Build A 4D Vision Feature Extractor, test on Semantic Head / Heads`
 
 <br>
 
