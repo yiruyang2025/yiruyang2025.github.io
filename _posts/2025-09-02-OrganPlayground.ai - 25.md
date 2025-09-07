@@ -261,12 +261,12 @@ normal things no need to be built repeatedly, extraoridinary things which may he
 
 📍 [IDEAS - Customized Biosensor Interfaces Service](https://ideas.ethz.ch/customized-biosensor-interfaces-service.html)
 
-<br>
-
 [PULP](https://iis-projects.ee.ethz.ch/index.php/PULP)
 
 
+<br>
 
+Sensor - [SICK Sensor Intelligence](https://www.linkedin.com/company/sicksensorintelligence/)
 
 <br><br>
 
