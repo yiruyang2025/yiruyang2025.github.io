@@ -61,6 +61,27 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
 <br>
 
 
+## MoE Routing vs. UET Fabric Setup
+
+<br>
+
+| Aspect                    | MoE (Mixture of Experts) Distributed Routing                                                                                        | UET Fabric Setup (Pre-training Networking)                                                                                                               |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Core Goal**             | Reduce compute & communication by activating only a subset of experts per token/batch.                                              | Establish a high-performance network fabric to enable large-scale distributed training.                                                                  |
+| **Primary Level**         | *Model architecture / algorithmic level* (deep learning model design).                                                              | *Infrastructure / system level* (network setup before training).                                                                                         |
+| **Key Operations**        | • Expert selection (via gating network) <br> • Dynamic routing of tokens to selected experts <br> • Sparse activation of parameters | • Fabric Endpoint (FEP) creation <br> • Vendor UET Provider publication <br> • Setting & interpreting environment variables <br> • Control channel setup |
+| **Impact on Training**    | Reduces FLOPs and memory usage; improves scalability of very large models (e.g., DeepSeek-V2, Switch Transformer).                  | Provides reliable, low-latency, high-bandwidth communication between GPUs/TPUs across nodes.                                                             |
+| **Communication Pattern** | Selective, sparse — only communicate with activated experts (not all GPUs).                                                         | Dense, global — ensures all ranks/processes are synchronized via NCCL/Libfabric over UET.                                                                |
+| **Efficiency Gain**       | From algorithmic sparsity: fewer parameters activated per forward/backward pass.                                                    | From optimized interconnect: reduced tail latency, congestion control, multi-path routing.                                                               |
+| **Scope**                 | Logical/algorithmic optimization inside the AI model.                                                                               | Physical/logical networking preparation outside the model.                                                                                               |
+| **Example Use Cases**     | Scaling trillion-parameter models without linear cost; adaptive expert routing.                                                     | Preparing large GPU clusters (e.g., 1k–10k GPUs) for stable distributed AI training.                                                                     |
+
+
+
+
+<br>
+
+
 ## References for Contrastive Learning
 
 <br>
