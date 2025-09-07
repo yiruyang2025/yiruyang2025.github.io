@@ -29,7 +29,7 @@ latest_posts:
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
 - 📍 Skill Set - **(`A 4d Vision Feature Extractor`, Sewing Patterns) / Multimodal / Biosignal modeling / ASR**
 
-- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), 🪐 Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
+- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist))🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
