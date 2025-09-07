@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Robotics
-description: Aria glass Gen-1, Dataset, Deep RL Self-improvement
+description: Aria glass Gen-1, Dataset, Deep RL Self-improvement / vision foundation model
 img: assets/img/4.jpg
 importance: 3
 category: work
