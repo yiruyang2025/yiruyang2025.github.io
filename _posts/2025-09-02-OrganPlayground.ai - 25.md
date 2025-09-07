@@ -30,7 +30,7 @@ Will be more than happy to meet for a coffee anytime if you visit Zürich
 
 
 
-## 1. A Lab with database + software platform - 2d -> 3d Organ Imaging + Manipulation `Before` Surgery
+## 1. A Lab with database + software platform - 2d -> 3d Organ Imaging + Manipulation `Before` Surgery - Rigid -> Non-Rigid
 
 <br>
 
