@@ -42,7 +42,7 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 <br><br>
 
-## Optimized Decoding
+## Optimized Decoding for KV Cache
 
 ```
 Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Cache)
