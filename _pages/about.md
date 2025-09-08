@@ -33,7 +33,7 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, Transformer KV cache Optimization, whisper distillation, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
+- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, whisper distillation, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Garment Dynamics Prediction` / instance segmentation head, vision foundation model
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍SafeCut.ai](https://yiruyang2025.github.io/blog/2025/SafeCut.ai-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
@@ -44,7 +44,7 @@ latest_posts:
 
 **Interests**
   - 4d Instance Understanding, Representation Learning
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (World Modeling and Simulation)
+  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World Modeling and Simulation`)
   - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc)
 
 
