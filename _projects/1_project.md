@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: whisper, Transformer + A New 'torch.nn.init'
+description: whisper, Transformer + A New 'torch.nn.init'_v0
 img: assets/img/4.jpg
 importance: 1
 category: work
