@@ -24,9 +24,6 @@ related_publications: true
 - ([2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
-<br>
-
-- Topics - [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/SafeCut.ai-25/)
 
 <br><br>
 
