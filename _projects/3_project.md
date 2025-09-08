@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Robotics
-description: Aria glass Gen-1, Dataset, Non-Rigid Vision Semantic Segmentation
+description: Aria glass Gen-1, Dataset, Multi-Agent
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -23,6 +23,10 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 
 <br><br>
+
+`Multi-Agent Training for Robotics`
+
+<br>
 
 
 **Related Coursework / Paper**
