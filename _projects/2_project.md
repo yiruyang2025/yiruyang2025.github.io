@@ -39,7 +39,25 @@ related_publications: true
     - [2025 - Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates](https://arxiv.org/html/2504.08353v1)
 
 
-<br><br><br>
+<br>
+
+## Feature Extractor vs Physics-Informed 4D Representation
+
+| Dimension         | Vision Feature Extractor (4D)                                                                         | Physics-Informed 4D Representation                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Essence**       | Extracts **spatio-temporal features** from video/image sequences (data-driven embedding)              | Introduces **physical constraints** in the 4D representation space (physics-driven regularization)                  |
+| **Input**         | Raw perceptual data (RGB, Depth, Point Cloud, Sewing Patterns, Motion Sequences)                      | Output of the Feature Extractor (latent 4D features)                                                                |
+| **Learning Goal** | Learn rich spatio-temporal dynamics representations                                                   | Ensure that the dynamics obey real physical laws (gravity, tension, friction, energy conservation)                  |
+| **Methodology**   | Relies on large-scale data + foundation backbones (MAE, DINOv2, VideoMAE, LLaVA-Video)                | Adds physical constraints in the loss/latent space (PINN-style, energy-based loss, differentiable cloth simulation) |
+| **Strengths**     | Strong generalization, adaptable to multiple tasks (segmentation, dynamics prediction, editing)       | Physically plausible outputs, avoids “fake motions” or unstable 4D dynamics                                         |
+| **Limitations**   | May generate physically inconsistent predictions (e.g., cloth floating unnaturally, body penetration) | Requires explicit modeling or approximating physical laws, higher computational cost                                |
+| **Relation**      | Perception Layer: extracts data-driven 4D embeddings                                                  | Consistency Layer: injects physical inductive biases into embeddings                                                |
+| **Applications**  | 4D instance segmentation, video-based garment generation, non-rigid tracking                          | Cloth folding simulation, garment draping, robotic manipulation with physics-consistent prediction                  |
+
+
+
+
+<br><br>
 
 
 `Build A 4D Vision Feature Extractor, test on Semantic Head / Heads`
