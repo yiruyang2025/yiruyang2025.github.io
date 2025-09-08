@@ -16,16 +16,6 @@ parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden S
 
 📍 Expanding from **Stability** to `Structural Alignment` for the `torch.nn.init`
 
-<br>
-
-| Initialization Scheme          | Description                                                                                                   | Convergence Speed (Epochs to Stable WER) | Final WER (%) | Notes                                                                                             |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------- |
-| **Xavier Uniform**             | Variance-preserving initialization, widely used in feed-forward/attention layers.                             | \~XX epochs                              | X.X%          | Stable training, but slower convergence under low-data regime.                                    |
-| **Kaiming Normal**             | Initialization designed for ReLU activations, scales with fan-in.                                             | \~XX epochs                              | X.X%          | Slightly faster convergence than Xavier, but still limited by mismatch with teacher hidden space. |
-| **Hidden-Aligned Init (ours)** | Parameters initialized to align student’s hidden projections with teacher’s manifold (hypersphere embedding). | \~XX epochs                              | **2.X%**      | Faster convergence, lower WER; reduces mismatch at early training stage.                          |
-
-
-
 
 <br>
 
