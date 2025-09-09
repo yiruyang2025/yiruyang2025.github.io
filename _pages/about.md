@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI / 4d Vision Feature Extraction, 🇨🇭
+subtitle: <a href='#'>Affiliations</a>. MSc in AI / 4d Vision - Machine Readable, 🇨🇭
 
 profile:
   align: right
@@ -27,14 +27,14 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, (C++), Jax, TensorFlow, PyTorch, Java / JavaScript
-- 📍 Skill Set - **(`4d Vision Feature Extractor`, Sewing Patterns on Human Organ) / Multimodal / Biosignal modeling / `End-to-End Encrypted DevOps Collaboration Stack`**
+- 📍 Skill Set - **(`4d Vision - Sewing Patterns on Human Organ`) / Multimodal / Biosignal modeling / `End-to-End Encrypted DevOps Collaboration Stack`**
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist))🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, Transformer, Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Garment Dynamics Prediction` / Instance Segmentation head, vision foundation model
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Sewing Patterns on Human Organs` / Instance Segmentation Head
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/), [CVG](https://cvg.ethz.ch/), 3d Reconstruction
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
