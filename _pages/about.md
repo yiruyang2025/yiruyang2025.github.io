@@ -33,9 +33,9 @@ latest_posts:
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains
 
-- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, whisper distillation, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Garment Dynamics Prediction` / instance segmentation head, vision foundation model
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/), [CVG](https://cvg.ethz.ch/)
+- 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Hidden Space - GAI: Geometry-Aligned Initialization, Transformer, Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `a Vision Feature Extractor for 4d Garment Dynamics Prediction` / Instance Segmentation head, vision foundation model
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/), [CVG](https://cvg.ethz.ch/), 3d Reconstruction
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical Multimodal (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Bio signal processing and modeling, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
