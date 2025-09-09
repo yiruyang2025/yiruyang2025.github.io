@@ -27,6 +27,20 @@ related_publications: true
 
 <br><br>
 
+## Reading List
+
+[📍 T-PAMI 2025 DiffMVS & CasDiffMVS](https://www.linkedin.com/posts/fangjinhua-wang-4ba2aa150_computervision-3dvision-3dreconstruction-ugcPost-7369084868091170816-ZdVh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+
+[📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
+
+[2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
+
+[2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
+
+
+
+<br><br>
+
 **Attended Master Thesis Project Defense at cvg**
 
   - 01 Sep 2025 - 📍 Reconstructing Complete Garments with Foundation Models
@@ -117,15 +131,7 @@ related_publications: true
 
 **References**
 
-[2021 - Decision transformer: Reinforcement learning via sequence modeling](https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf)
-
-[📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
-
-[2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/) - Mehdi S. M. Sajjadi
-
 [📍 2008 - Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
-
-[2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
 
 <br><br><br>
@@ -133,9 +139,7 @@ related_publications: true
 
 **Some Products**
 
-[2025 - LeFranX](https://www.linkedin.com/posts/zkweng_lerobot-robotics-robotlearning-activity-7368317883715604481-nD8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) - 📍 High-performance VR-based teleoperation
-
-[Statsig](https://github.com/vijaye-statsig) - this account is so cute
+[2025 - LeFranX](https://www.linkedin.com/posts/zkweng_lerobot-robotics-robotlearning-activity-7368317883715604481-nD8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) - High-performance VR-based teleoperation
 
 
 <br><br><br>
@@ -144,9 +148,6 @@ related_publications: true
 **Topics**
 
 Zero-shot, Co-training, better Generalization, a Feature Extractor
-
-
-
 
 
 <br><br><br>
