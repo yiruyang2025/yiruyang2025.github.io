@@ -42,7 +42,7 @@ latest_posts:
 
 <br>
 
-**Interests** - Let's do the most challenging things
+**Interests** - Given the chance, Let's do some most challenging things
   - 4d Instance Understanding, Representation Learning
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World Modeling and Simulation`)
   - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc)
