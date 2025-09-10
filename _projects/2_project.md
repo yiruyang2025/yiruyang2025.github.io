@@ -41,6 +41,10 @@ related_publications: true
 
 [📍 T-PAMI 2025 DiffMVS & CasDiffMVS](https://www.linkedin.com/posts/fangjinhua-wang-4ba2aa150_computervision-3dvision-3dreconstruction-ugcPost-7369084868091170816-ZdVh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
+
+  - [codebase](https://colab.research.google.com/drive/1krSH8BB3EcN5ISZuHwaGF4i4FGOzg63i?usp=sharing)
+
+
 [2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
