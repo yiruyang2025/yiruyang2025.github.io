@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `4d Vision Feature Extractor backbone` / instance segmentation head, **CLIP, DINOv3, Diffusion**, if u don't even have specific tasks, how come making a model better
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/), [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical **Multi-modal** (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Sewing Patterns on 4d Human Organs, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Instance Segmentation on 4d Human Organs, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
