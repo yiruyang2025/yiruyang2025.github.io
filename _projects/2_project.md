@@ -25,10 +25,10 @@ related_publications: true
 
 
 
-<br>
+<br><br>
 
 
-`Segment Everything - with Human Surgeon Expertsss in the loop`
+Let's `📍 Segment Eeeeeeverything - with Human Surgeon Expertsss in the loop`
 
 <br><br>
 
