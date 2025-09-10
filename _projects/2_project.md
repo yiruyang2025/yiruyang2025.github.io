@@ -24,6 +24,11 @@ related_publications: true
 - ([2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
+<br>
+
+
+`Let's Integrate everything`
+
 <br><br>
 
 ## Reading List
