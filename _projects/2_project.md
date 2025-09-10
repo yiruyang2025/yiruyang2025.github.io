@@ -31,6 +31,14 @@ related_publications: true
 
 <br>
 
+[2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
+  - [📍 codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
+
+
+[2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
+
+<br>
+
 [📍 T-PAMI 2025 DiffMVS & CasDiffMVS](https://www.linkedin.com/posts/fangjinhua-wang-4ba2aa150_computervision-3dvision-3dreconstruction-ugcPost-7369084868091170816-ZdVh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 [📍 2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
@@ -38,6 +46,16 @@ related_publications: true
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
 
 [2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
+
+<br><br><br>
+
+
+## References
+
+<br>
+
+
+[2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/)
 
 
 
@@ -247,33 +265,6 @@ Zero-shot, Co-training, better Generalization, a Feature Extractor
 | **Robotics & Imitation Learning**                 | Apprenticeship Learning via IRL, End-to-end visuomotor policies, Domain Randomization for Sim2Real | Learning from human demonstrations; transferring policies from simulation to real robots | **π0.5 open-world generalization** extends this line of work by ensuring VLA policies can adapt to unseen real-world environments                  |
 | **General Policies & Scalability**                | Hindsight Experience Replay (HER), Multi-agent actor-critic, DeepMimic                             | Scaling up RL to more tasks and agents; learning versatile and robust skills             | **π series** (π0, π0.5) represent scaling towards generalist robot policies, trained across multiple robots and tasks                              |
 
-
-
-
-
-
-
-<br><br><br>
-
-
-## References
-
-<br>
-
-[2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
-  - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
-
-
-[2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-
-[2024 - Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL) - Semantic Understanding
-
-
-
-<br><br>
-
-
-[📍 2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/)
 
 
 
