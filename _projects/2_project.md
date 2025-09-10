@@ -24,14 +24,6 @@ related_publications: true
 - ([2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
-
-<br><br>
-
-
-Let's `📍 Segment Eeeeeeverything - with Human Surgeon Expertsss in the loop`
-
-  - Supervisors from cvg, (cvl), xx
-
 <br><br>
 
 ## Reading List
