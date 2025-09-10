@@ -77,6 +77,8 @@ related_publications: true
 <br>
 
   - 10 Sep 2025 - An Interactive, Foundation-Model-Empowered Video Annotation Interface for Constructing a Challenging Video Object Segmentation Dataset, one of the supervisors - Siyuan Li - cvl
+  - SAM 2, DINOv2, GPT, real-time Annotation
+  - demo - nutsh
 
 
 <br>
