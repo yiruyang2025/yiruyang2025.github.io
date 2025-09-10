@@ -86,7 +86,7 @@ related_publications: true
     - demo - nutsh
 
 
-<br>
+<br><br><br>
 
 ## Feature Extractor vs Physics-Informed 4D Representation
 
