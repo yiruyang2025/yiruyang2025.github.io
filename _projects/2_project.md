@@ -45,6 +45,8 @@ related_publications: true
   - [codebase](https://colab.research.google.com/drive/1krSH8BB3EcN5ISZuHwaGF4i4FGOzg63i?usp=sharing)
 
 
+<br>
+
 [2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
