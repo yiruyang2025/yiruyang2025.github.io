@@ -25,6 +25,11 @@ related_publications: true
 
 
 
+<br>
+
+
+`Segment Everything - with Human Surgeon Expertsss in the loop`
+
 <br><br>
 
 ## Reading List
