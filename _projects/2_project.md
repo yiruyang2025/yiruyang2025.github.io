@@ -30,6 +30,8 @@ related_publications: true
 
 Let's `📍 Segment Eeeeeeverything - with Human Surgeon Expertsss in the loop`
 
+  - Supervisors from cvg, cvl, xx
+
 <br><br>
 
 ## Reading List
