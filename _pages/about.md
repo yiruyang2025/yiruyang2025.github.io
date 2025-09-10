@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI / Sewing Patterns on 4d Human Organs / Robots, 🇨🇭
+subtitle: <a href='#'>Affiliations</a>. MSc in AI / OrganVas.ai / Robots, 🇨🇭
 
 profile:
   align: right
