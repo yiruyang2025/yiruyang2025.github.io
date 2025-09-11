@@ -27,7 +27,7 @@ related_publications: true
 <br><br>
 
 
-`Let's Integrate everything`
+`Let's Integrate everything` + put the right things to the right places
 
 <br><br>
 
