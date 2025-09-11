@@ -39,6 +39,8 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
 
+[Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (25) - can't fully answer this one yet, only learnt once
+
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
 (*Large-Scale AI Engineering, 25) - `Vision Extractors` for Space / Surgical Robots
@@ -51,13 +53,11 @@ Geometry for Computational Design and Fabrication
 
 Machine Learning for CFD / Computational Fluid Dynamics
 
-Vision Algorithms for Mobile Robotics (L+E)
+(Vision Algorithms for Mobile Robotics (L+E))
 
 [Systems on Chips](https://video.ethz.ch/lectures/d-itet/2025/spring/227-0150-00L.html) (Cuda, HPC, 25)
 
 ([Integrated Devices, Electronics, and Systems](https://ideas.ethz.ch/news-and-events/ideas-news/2025/08/new-course-lineup-for-next-fall-semester.html))
-
-([Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (26))
 
 ([Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start))
 
