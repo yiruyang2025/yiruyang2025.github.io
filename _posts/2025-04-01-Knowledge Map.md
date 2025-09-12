@@ -14,9 +14,8 @@ images:
 
 <br>
 
-Hi there, let's collect pretty things here
+let's collect some pretty things here
 
-Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/) piques your interest
 
 
 <br>
