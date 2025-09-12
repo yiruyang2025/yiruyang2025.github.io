@@ -40,7 +40,7 @@ let's collect some pretty things here
 
 <br>
 
-**`Shape Modeling and Geometry Processing`** - (C++, libigl, Blender, 25) - [Assignments codebase](https://github.com/yiruyang2025/gp2025-Assignments), quite feel like being `forced` to do some `extra`(*no credits or enjoyment from having offline discussions) homework in Sep (which `should have been holiday`, also, no extra help at all, figured out everything all by myself) though actually found the assignments interesting. Not done yet, been integrated into another repo, [draft_plan](https://www.youtube.com/watch?v=0ia5POa5iww)
+**`Shape Modeling and Geometry Processing`** - (C++, libigl, Blender, 25) - [Assignments codebase](https://github.com/yiruyang2025/gp2025-Assignments), quite feel like being `forced` to do some `extra`(*no credits or enjoyment from having offline discussions) homework in Sep (which `should have been holiday`, also, `no` extra help at all, figured out everything all by myself) though actually found the assignments interesting. Not done yet, been integrated into another repo, [draft_plan](https://www.youtube.com/watch?v=0ia5POa5iww)
 
 <br>
 
