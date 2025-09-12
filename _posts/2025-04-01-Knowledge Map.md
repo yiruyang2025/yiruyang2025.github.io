@@ -39,7 +39,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
-[Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (C++, libigl, Blender, 25) - can't fully answer this one yet, only learnt once, [Assignments_codebase](https://github.com/yiruyang2025/gp2025-Assignments)
+[Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (C++, libigl, Blender, 25) - [Assignments_codebase](https://github.com/yiruyang2025/gp2025-Assignments)
 
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
