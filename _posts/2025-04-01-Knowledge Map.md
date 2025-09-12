@@ -38,7 +38,7 @@ let's collect some pretty things here
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
-**`Shape Modeling and Geometry Processing`** - (C++, libigl, Blender, 25)
+`Shape Modeling and Geometry Processing` (C++, libigl, Blender, 25)
 
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
