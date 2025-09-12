@@ -37,7 +37,7 @@ Looking forward to discussions if any of [Some Notes - 25](https://yiruyang2025.
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25/26)
+[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
 [Shape Modeling](https://igl.ethz.ch/teaching/shape-modeling/sm2025/) (C++, libigl, Blender, 25) - can't fully answer this one yet, only learnt once, [Assignments_codebase](https://github.com/yiruyang2025/gp2025-Assignments)
 
