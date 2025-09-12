@@ -38,7 +38,7 @@ let's collect some pretty things here
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
-**`Shape Modeling and Geometry Processing`** - (C++, libigl, Blender, 25) - [Assignments codebase](https://github.com/yiruyang2025/gp2025-Assignments), quite feel like being `forced` to do some `extra`(*no credits or enjoyment from having offline discussions) homework in Sep (which `should have been holiday`) though actually found the assignments interesting. Not done yet, been integrated into another repo
+**`Shape Modeling and Geometry Processing`** - (C++, libigl, Blender, 25) - [Assignments codebase](https://github.com/yiruyang2025/gp2025-Assignments), quite feel like being `forced` to do some `extra`(*no credits or enjoyment from having offline discussions) homework in Sep (which `should have been holiday`, also, no extra help at all, figured out everything all by myself) though actually found the assignments interesting. Not done yet, been integrated into another repo
 
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
