@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests** - Given the chance, Let's do some the most challenging things
-  - 4d Vision Feature Extractor, Representation Learning, PDE
+  - 4d Shape Editing on human organs, Representation Learning, PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World Modeling and Simulation`)
   - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for Computational Fluid Dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), `Federated Learning` for OrganVas.ai
 
