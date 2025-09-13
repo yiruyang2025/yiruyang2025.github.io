@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - `C++, libigl, Python`, C#, TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
-- 📍 Skill Set - **`3d mesh Shape editing and Geometry processing` / Multi-modal / Biosignal modeling** / end-to-end Encrypted devops collaboration stack
+- 📍 Skill Set - **`3d mesh Shape editing and Geometry processing` / Multi-modal / Biosignal modeling** / devops collaboration stack
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
