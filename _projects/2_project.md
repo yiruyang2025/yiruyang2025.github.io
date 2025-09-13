@@ -27,7 +27,7 @@ related_publications: true
 <br><br>
 
 
-Let's do some `challenging` things, plssss
+Let's do some `challenging` things
 
 
 
