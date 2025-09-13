@@ -27,14 +27,14 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - Python, C++, libigl, C#, TensorFlow, PyTorch, TPU / GPU Training, Jax, Java / JavaScript
-- 📍 Skill Set - **`3d mesh Shape editing and Geometry processing' / Multi-modal / Biosignal modeling** / end-to-end Encrypted devops collaboration stack
+- 📍 Skill Set - **`3d mesh Shape editing and Geometry processing` / Multi-modal / Biosignal modeling** / end-to-end Encrypted devops collaboration stack
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - **Transformer, Deep Learning**, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `4d Vision Feature Extractor` / instance segmentation head, **ViT, CLIP, DINOv3, Diffusion**, if u don't even have specific tasks, how come making a model better
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `3d Editing and Sewing pattern on human organs` / instance segmentation head, **ViT, CLIP, DINOv3, Diffusion**, if u don't even have specific tasks, how come making a model better
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical **Multi-modal** (**sparse**) data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** 4d instance segmentation, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
