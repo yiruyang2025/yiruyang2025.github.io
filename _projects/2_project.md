@@ -33,7 +33,12 @@ Let's do some `challenging` things, (otherwise how dull life is......)
 
 <br><br>
 
-## Reading List
+## Reading List / References
+
+<br>
+
+📍 Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
+
 
 <br>
 
