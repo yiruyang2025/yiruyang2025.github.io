@@ -25,6 +25,14 @@ Biosignal Processing + Monitoring, Data visualization, modeling, and system vali
 
 <br>
 
+## References
+
+[2025 - Predicting Rejection Risk in Heart Transplantation: An Integrated Clinical–Histopathologic Framework for Personalized Post-Transplant Care](https://www.linkedin.com/posts/anant-madabhushi-9a75a21_hearttransplant-ai-digitalpathology-activity-7372616055581585408-x86I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+
+
+
+<br>
+
 **Market Landscape Map – Digital Twin & Organs-on-Chips**
 
 ```
