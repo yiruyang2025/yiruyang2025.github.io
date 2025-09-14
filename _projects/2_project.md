@@ -64,7 +64,50 @@ Let's do some `challenging` things, (otherwise how dull life is......)
 
 [2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
-<br><br><br>
+<br>
+
+
+```
++-------------------+            +-----------------------------+
+| Doctor uploads    |  liver.obj |  FastAPI Backend (/project) |
+|   liver.obj (3D)  +----------->+  project_obj_to_2d()        |
++-------------------+            |  → liver-projection.svg     |
+                                 +-------------+---------------+
+                                               |
+                                               v
+                                 +-----------------------------+
+                                 | Frontend: MedicalSVGVisualization |
+                                 | Loads liver-projection.svg        |
+                                 | Surgeon annotates (points, lines) |
+                                 +-----------------------------+
+                                               |
+                                               v
+                                 +-----------------------------+
+                                 | FastAPI Backend (/deform)   |
+                                 | deform.py → Laplacian Mesh  |
+                                 | Input: handles.json         |
+                                 | Output: new mesh (vertices, |
+                                 | faces)                      |
+                                 +-----------------------------+
+                                               |
+                                               v
+                                 +-----------------------------+
+                                 | Frontend: LiverViewer       |
+                                 | Renders updated mesh        |
+                                 | (three.js WebGL viewer)     |
+                                 +-----------------------------+
+                                               |
+                                               v
+                                 +-----------------------------+
+                                 | Export Surgical Plan        |
+                                 | PDF (2D + 3D views), PNG,   |
+                                 | QR for sharing              |
+                                 +-----------------------------+
+```
+
+
+
+<br><br>
 
 
 ## References
