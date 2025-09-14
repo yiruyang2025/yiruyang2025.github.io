@@ -93,7 +93,49 @@ Let's do some `challenging` things, (otherwise how dull life is......)
     - demo - nutsh
 
 
-<br><br><br>
+<br><br>
+
+## Semester Project / Independent Study / Thesis
+
+<br>
+
+`Medical Organ Data Formats`
+
+| Format           | Typical Source (Hospital / Research)                             | Advantages                                                                                | Limitations                                                                    | Role in Your Pipeline (3D → 2D SVG → Annotation → Deformation → 3D)                          |
+| ---------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| **DICOM**        | Standard format for CT / MRI scans (hospital PACS systems)       | Contains complete volumetric data + metadata (patient, scan parameters); widely supported | Very large size; slice-based (requires reconstruction); no direct surface mesh | Start point in hospitals. Requires segmentation + surface reconstruction before projection.  |
+| **NIfTI / NRRD** | Research imaging formats (MRI/CT studies, segmentation masks)    | Compact single-file volume storage; standardized for research                             | Not directly a surface mesh; still requires segmentation + reconstruction      | Similar to DICOM: used as intermediate research data before extracting surface mesh.         |
+| **STL**          | 3D printing, surgical simulation models                          | Simple structure (triangular mesh only); lightweight; widely supported                    | No colors or textures; no rich metadata                                        | Very suitable for 3D → 2D projection; ideal for shape-only tasks (cutting, deforming).       |
+| **OBJ**          | Converted CT/MRI meshes; 3D modeling software (Blender, MeshLab) | Supports vertices, normals, textures, materials; flexible for visualization               | Larger file sizes; redundant texture data if unused                            | Excellent for your pipeline (interactive 2D SVG projection, deform, 3D rendering).           |
+| **PLY**          | 3D scanning, point clouds + surface meshes                       | Stores vertex attributes (color, normals, custom fields); good for scientific use         | Larger size; less universal web support                                        | Works like OBJ; useful if additional attributes (e.g., CT intensity) are mapped to vertices. |
+| **VTK**          | Scientific visualization, research datasets (e.g. IRCAD meshes)  | Rich topology support; integrates with visualization pipelines                            | Less common in web apps; conversion to OBJ/STL often needed                    | Intermediate format (research to web). Can be converted into OBJ/STL for your web app.       |
+
+<br>
+
+`End-to-End Real-World Data Flow at [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)`
+
+```
+Hospital CT / MRI
+      ↓
+DICOM (raw slices + metadata)
+      ↓ Segmentation + Reconstruction
+Surface Mesh (OBJ / STL / PLY / VTK)
+      ↓ Projection
+2D SVG (interactive) / 2D PNG (static)
+      ↓ Annotation
+Surgeon marks points / lines on SVG
+      ↓ Mapping
+Handles mapped back to 3D mesh
+      ↓ Deformation
+FastAPI /deform → ARAP deformation applied
+      ↓ Visualization
+Updated 3D mesh rendered in LiverViewer (three.js)
+      ↓ Export
+Surgical plan → PDF / PNG / QR for clinical workflow
+```
+
+
+<br><br>
 
 ## Feature Extractor vs Physics-Informed 4D Representation
 
