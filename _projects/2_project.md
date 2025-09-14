@@ -27,7 +27,7 @@ related_publications: true
 <br><br>
 
 
-Let's do some `challenging` things, (otherwise how dull life is......)
+Let's do some `challenging` things, + Integrate everything, (otherwise how dull life is......)
 
 
 
