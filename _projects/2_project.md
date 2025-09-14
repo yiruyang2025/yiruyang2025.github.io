@@ -158,32 +158,82 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 ## End-to-End Real-World Data Flow - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
 
 ```
-Hospital **CT / MRI**
-      ↓
+───────────────────────────── Standard Surgical Workflow ─────────────────────────────
+Hospital CT / MRI 🏥
+        ↓
 
 DICOM (raw slices + metadata)
-      ↓ Segmentation + Reconstruction
+        ↓ Segmentation + Reconstruction
 
-Surface Mesh (**OBJ** / STL / PLY / VTK)
-      ↓ Projection
+Surface Mesh (OBJ / STL / PLY / VTK)
+        ↓ Projection
 
-**2D SVG** (interactive) / 2D PNG (static)
-      ↓ Annotation
+2D SVG (interactive) / PNG (static)
+        ↓ Annotation
 
-Surgeon marks points / lines on **SVG**
-      ↓ Mapping
+Surgeon marks points / lines on SVG
+        ↓ Mapping
 
-Handles mapped back to **3D mesh**
-      ↓ Deformation
+Handles mapped back to 3D mesh
+        ↓ Deformation
 
 FastAPI /deform → ARAP deformation applied
-      ↓ Visualization
+        ↓ Visualization
 
-Updated 3D mesh **rendered in LiverViewer (three.js)**
-      ↓ Export
+Updated 3D mesh rendered in LiverViewer (three.js)
+        ↓ Export
 
-Surgical plan → **PDF / PNG / QR** for clinical workflow
+Surgical plan → PDF / PNG / QR for clinical workflow
+
+
+──────────────────────────── Extended Research / Printing Workflow ───────────────────
+Hospital CT / MRI ✅
+        ↓
+
+DICOM (raw slices + metadata)
+        ↓ Segmentation (3D Slicer / nnUNet)
+
+NIfTI mask (segmentation labels)
+        ↓ Mesh Extraction
+
+Surface Mesh Export:
+   • GLB → Web visualization (three.js, with color/texture)
+   • PLY → Research (point cloud + RGB/labels)
+   • STL → 3D printing (geometry only)
+        ↓ Projection
+
+2D SVG (interactive) / PNG (static)
+        ↓ Annotation
+
+Surgeon marks points / lines on SVG
+        ↓ Mapping
+
+Handles mapped back to 3D mesh
+        ↓ Deformation
+
+FastAPI /deform → Laplacian / ARAP deformation applied
+        ↓ Visualization
+
+Updated 3D mesh rendered in LiverViewer (three.js)
+        ↓ Export
+
+Surgical plan → PDF / PNG / QR + optional STL for printing
 ```
+
+
+<br>
+
+| Comparison 🔍              | Standard Workflow 🏥                          | Extended Research / Printing Workflow 🚀                        |
+| -------------------------- | --------------------------------------------- | --------------------------------------------------------------- |
+| **Input** 📥               | DICOM → Mesh (OBJ/STL)                        | DICOM → NIfTI mask → Mesh                                       |
+| **Intermediate Result** 🔄 | Mesh (OBJ/STL/PLY)                            | NIfTI segmentation (with labels 🏷️)                            |
+| **Output Formats** 📂      | OBJ / STL / PLY / VTK                         | GLB (Web 🌐), PLY (Research 📊), STL (3D Printing 🖨️)          |
+| **Frontend Display** 🖥️   | SVG + three.js (OBJ)                          | SVG + three.js (GLB ⚡ faster, with colors 🎨)                   |
+| **Export** 📑              | PDF / PNG / QR                                | PDF / PNG / QR + STL for printing 🖨️                           |
+| **Main Application** 🎯    | Clinical documentation & surgical planning 🩺 | Research, AI analysis 🤖, Web visualization 🌐, 3D printing 🖨️ |
+
+
+
 
 
 <br><br>
