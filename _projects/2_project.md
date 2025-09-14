@@ -115,23 +115,31 @@ Let's do some `challenging` things, (otherwise how dull life is......)
 `End-to-End Real-World Data Flow` - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
 
 ```
-Hospital CT / MRI
+Hospital **CT / MRI**
       ↓
+
 DICOM (raw slices + metadata)
       ↓ Segmentation + Reconstruction
-Surface Mesh (OBJ / STL / PLY / VTK)
+
+Surface Mesh (**OBJ** / STL / PLY / VTK)
       ↓ Projection
-2D SVG (interactive) / 2D PNG (static)
+
+**2D SVG** (interactive) / 2D PNG (static)
       ↓ Annotation
-Surgeon marks points / lines on SVG
+
+Surgeon marks points / lines on **SVG**
       ↓ Mapping
-Handles mapped back to 3D mesh
+
+Handles mapped back to **3D mesh**
       ↓ Deformation
+
 FastAPI /deform → ARAP deformation applied
       ↓ Visualization
-Updated 3D mesh rendered in LiverViewer (three.js)
+
+Updated 3D mesh **rendered in LiverViewer (three.js)**
       ↓ Export
-Surgical plan → PDF / PNG / QR for clinical workflow
+
+Surgical plan → **PDF / PNG / QR** for clinical workflow
 ```
 
 
