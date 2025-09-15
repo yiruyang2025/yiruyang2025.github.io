@@ -157,8 +157,11 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 
 ## End-to-End Real-World Data Flow - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
 
+<br>
+
+### Standard Surgical Workflow
+
 ```
-───────────────────────────── Standard Surgical Workflow ─────────────────────────────
 Hospital CT / MRI 🏥
         ↓
 
@@ -184,9 +187,13 @@ Updated 3D mesh rendered in LiverViewer (three.js)
         ↓ Export
 
 Surgical plan → PDF / PNG / QR for clinical workflow
+```
 
+<br>
 
-──────────────────────────── Extended Research / Printing Workflow ───────────────────
+### Extended Research / Printing Workflow
+
+```
 Hospital CT / MRI ✅
         ↓
 
