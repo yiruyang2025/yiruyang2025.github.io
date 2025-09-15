@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Physics-Informed 4d Representation
-description: Sewing Patterns on Human Organs
+description: Sewing Patterns on human organs
 img: assets/img/4.jpg
 importance: 5
 category: work
