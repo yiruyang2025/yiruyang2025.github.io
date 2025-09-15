@@ -34,7 +34,7 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, Alumni (*always can learn a lot from them) from all different domains, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - **Transformer, Deep Learning**, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `A 4D Feed-forward Vision Backbone`, **COLMAP, VGGT, ViT, CLIP, DINOv3, SAM2, Diffusion**
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `A 4D Feed-forward Vision Backbone`, **ViT, CLIP, DINOv3, SAM2, Diffusion**
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - clinical multimodal sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** 3d mesh Shape editing + sewing patterns, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
