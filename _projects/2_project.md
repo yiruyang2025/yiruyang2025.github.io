@@ -19,6 +19,7 @@ related_publications: true
 - Learnt background knowledge, feel free to ask anything in the link
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
+- [2025 - Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/)
 - ([2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
 - ([2025 - Advanced Topics in Embodied Intelligence](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=197038&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=en))
 - ([2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
