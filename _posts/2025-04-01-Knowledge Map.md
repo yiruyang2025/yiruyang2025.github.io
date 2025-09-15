@@ -40,6 +40,8 @@ let's collect some pretty things here
 
 `Shape Modeling and Geometry Processing` (C++, libigl, Blender, 25)
 
+[Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/) (25)
+
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
 (*Large-Scale AI Engineering, 25) - `Vision Extractors` for Space / Surgical Robots
