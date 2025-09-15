@@ -57,6 +57,9 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 
 <br>
 
+
+## CVPR Best Papers 2005–2025 (with Relevance to Geometry / 3D / Backbone / Video Features)
+
 | **Year** | **Best Paper Title**                                                                | **Authors**                                                                                    | **Main Theme**                        | **Relates to Geometry / 3D / Backbone / Video Features?** | **Notes**                                                                                       |
 | -------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | **2025** | *VGGT: Visual Geometry Grounded Transformer*                                        | Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny | Feed-forward transformer for geometry | **Yes**                                                   | Directly predicts pose, depth, point maps, tracks; key reference for 4D feed-forward backbones. |
