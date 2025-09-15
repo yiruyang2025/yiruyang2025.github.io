@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Master Thesis and Project
-description: 4d ViT, Vision Feature Extractor backbone
+title: 2025 - Master Thesis and Project
+description: A 4D Feed-forward Vision Backbone
 img: assets/img/4.jpg
 importance: 2
 category: work
