@@ -25,14 +25,12 @@ related_publications: true
 - ([2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/))
 
 
-<br><br>
+<br>
 
 
 Let's do some `challenging` things, + Integrate everything, (otherwise how dull life is......)
 
-
-
-<br><br>
+<br>
 
 ## Reading List / References
 
@@ -58,6 +56,37 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 
 
 <br>
+
+## CVPR Best Papers (2005-2025) — Relation to Geometry / 3D / Backbone / Video Features
+
+| **Year** | **Best Paper Title**                                                                          | **Authors**                                                                                                     | **Relates to Geometry / 3D / Backbone / Video Features?** | **Notes**                                                                                           |
+| -------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **2025** | *VGGT: Visual Geometry Grounded Transformer* ([CVPR 2025][1])                                 | Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny ([CVPR 2025][1]) | **Yes**                                                   | Directly geometry + backbone + 3D depth / tracks predictions.                                       |
+| **2019** | *A Theory of Fermat Paths for Non-Line-of-Sight Shape Reconstruction* ([计算机视觉基金会][2])         | S. Xin, S. Nousias, K. Kutulakos, A. Sankaranarayanan, S. G. Narasimhan, I. Gkioulekas ([计算机视觉基金会][2])          | **Yes**                                                   | Non-line-of-sight reconstruction is a geometry task.                                                |
+| **2018** | *Taskonomy: Disentangling Task Transfer Learning* ([计算机视觉基金会][2])                             | A. R. Zamir, A. Sax, W. Shen, L. J. Guibas, J. Malik, S. Savarese ([计算机视觉基金会][2])                               | Partially                                                 | More about transfer learning of tasks rather than direct 3D or video features.                      |
+| **2017** | *Densely Connected Convolutional Networks* (DenseNet) ([计算机视觉基金会][2])                         | G. Huang, Z. Liu, L. van der Maaten, K. Q. Weinberger ([计算机视觉基金会][2])                                           | No (or weak)                                              | It’s about architecture / backbone but primarily 2D image classification, not 3D or video geometry. |
+| **2016** | *Deep Residual Learning for Image Recognition* (ResNet) ([计算机视觉基金会][2])                       | K. He, X. Zhang, S. Ren, J. Sun ([计算机视觉基金会][2])                                                                 | Weak                                                      | Backbone architecture, but not geometry or video feature extraction in 3D sense.                    |
+| **2015** | *DynamicFusion: Reconstruction and Tracking of Non-rigid Scenes in Real-Time* ([计算机视觉基金会][2]) | R. A. Newcombe, D. Fox, S. M. Seitz ([计算机视觉基金会][2])                                                             | **Yes**                                                   | Non-rigid geometry reconstruction + tracking in real time. Very relevant.                           |
+| **2008** | *Global Stereo Reconstruction under Second Order Smoothness Priors* ([计算机视觉基金会][2])           | O. Woodford, I. Reid, P. Torr, A. Fitzgibbon ([计算机视觉基金会][2])                                                    | **Yes**                                                   | Stereo / geometry / depth reconstruction.                                                           |
+
+[1]: https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos?utm_source=chatgpt.com "CVPR 2025 Best Papers and Best Demos"
+[2]: https://www.thecvf.com/?page_id=413&utm_source=chatgpt.com "Computer Vision Awards"
+
+<br>
+
+| **Method** | **Proposed by (Who / When)**                                                                                                                   | **Why Proposed (Motivation)**                                                                                                                                                                                                                                                                                                                              |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **COLMAP** | Johannes Schönberger, Jan-Michael Frahm et al., around 2015-2017 in various works (e.g. “Structure-from-Motion Revisited”)                     | To build a robust, mature, modular pipeline for geometric reconstruction from images: camera pose estimation, sparse point cloud reconstruction, then dense MVS. Motivation: existing SfM/MVS pipelines had issues of scalability, manual tuning, instability; need for reliable reconstruction tools usable in real data.                                 |
+| **VGGT**   | Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny et al., published in CVPR 2025 ([CVPR 2025][1]) | To respond to the limitations of traditional geometry pipelines (e.g. bundle adjustment, iterative optimization, slow processing). Aim: can we have a **feed-forward neural network** that directly predicts key 3D scene properties (camera poses, depth maps, point maps, tracks) from multiple views, with speed, simplicity, and competitive accuracy. |
+
+[1]: https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos?utm_source=chatgpt.com "CVPR 2025 Best Papers and Best Demos"
+
+
+
+
+
+
+<br><br>
 
 [2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
