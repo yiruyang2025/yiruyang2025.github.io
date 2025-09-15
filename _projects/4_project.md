@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Multimodal
-description: Multimodal Clinical Sparse data DL Modeling
+description: Transformer, Deep Learning
 img: assets/img/4.jpg
 importance: 4
 category: work
