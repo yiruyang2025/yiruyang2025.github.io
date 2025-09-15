@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `A 4d Feed-forward Vision Backbone`, ViT, CLIP, DINOv3, SAM2, Diffusion, VGGT
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Clinical Multi-modal Sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** Sewing Patterns, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** Sewing Pattern, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
