@@ -87,19 +87,6 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 
 
 
-<br>
-
-| **Method** | **Proposed by (Who / When)**                                                                                                                   | **Why Proposed (Motivation)**                                                                                                                                                                                                                                                                                                                              |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **COLMAP** | Johannes Schönberger, Jan-Michael Frahm et al., around 2015-2017 in various works (e.g. “Structure-from-Motion Revisited”)                     | To build a robust, mature, modular pipeline for geometric reconstruction from images: camera pose estimation, sparse point cloud reconstruction, then dense MVS. Motivation: existing SfM/MVS pipelines had issues of scalability, manual tuning, instability; need for reliable reconstruction tools usable in real data.                                 |
-| **VGGT**   | Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny et al., published in CVPR 2025 ([CVPR 2025][1]) | To respond to the limitations of traditional geometry pipelines (e.g. bundle adjustment, iterative optimization, slow processing). Aim: can we have a **feed-forward neural network** that directly predicts key 3D scene properties (camera poses, depth maps, point maps, tracks) from multiple views, with speed, simplicity, and competitive accuracy. |
-
-[1]: https://cvpr.thecvf.com/Conferences/2025/BestPapersDemos?utm_source=chatgpt.com "CVPR 2025 Best Papers and Best Demos"
-
-
-
-
-
 
 <br><br>
 
