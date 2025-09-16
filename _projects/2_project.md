@@ -42,6 +42,8 @@ Let's do some `challenging` things, + Integrate everything, (otherwise how dull 
 
 <br>
 
+📍 CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 TOG)
+
 📍 Two-View Geometry Scoring 📍 Without Correspondences
 
 📍 Hydra: A real-time spatial perception system for 3D scene graph construction and optimization
