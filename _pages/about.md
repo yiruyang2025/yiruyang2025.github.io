@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - `C++, Python`, libigl, C#, TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
-- 📍 Skill Set - **3d Shape Editing / 4d Computer Vision / Multi-modal / Biosignal Modeling** / devops collaboration stack
+- 📍 Skill Set - **3d Shape Modeling / 4d Computer Vision / Multi-modal / Biosignal Modeling** / devops collaboration stack
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
@@ -37,13 +37,13 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `A 4d Feed-forward Vision Backbone`, ViT, CLIP, DINOv3, SAM2, Diffusion, VGGT
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Clinical Multi-modal Sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** Sewing Pattern, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - **Accurate** sewing patterns, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
 
 **Interests** - the most Challenging things
-  - Shape Editing on 4d Human Organs, Representation Learning, PDE
+  - Shape Editing on 4d Human Organs, Representation learning, PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World modeling and simulation`)
   - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for computational fluid dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), `Federated learning` for OrganVas.ai
 
