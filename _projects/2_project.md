@@ -56,6 +56,8 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 📍 Semantic-SAM: Segment and Recognize Anything at Any Granularity
 
+<br>
+
 [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
   - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
 
@@ -82,45 +84,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 [2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
 <br>
-
-
-```
-+-------------------+            +-----------------------------+
-| Doctor uploads    |  liver.obj |  FastAPI Backend (/project) |
-|   liver.obj (3D)  +----------->+  project_obj_to_2d()        |
-+-------------------+            |  → liver-projection.svg     |
-                                 +-------------+---------------+
-                                               |
-                                               v
-                                 +-----------------------------+
-                                 | Frontend: MedicalSVGVisualization |
-                                 | Loads liver-projection.svg        |
-                                 | Surgeon annotates (points, lines) |
-                                 +-----------------------------+
-                                               |
-                                               v
-                                 +-----------------------------+
-                                 | FastAPI Backend (/deform)   |
-                                 | deform.py → Laplacian Mesh  |
-                                 | Input: handles.json         |
-                                 | Output: new mesh (vertices, |
-                                 | faces)                      |
-                                 +-----------------------------+
-                                               |
-                                               v
-                                 +-----------------------------+
-                                 | Frontend: LiverViewer       |
-                                 | Renders updated mesh        |
-                                 | (three.js WebGL viewer)     |
-                                 +-----------------------------+
-                                               |
-                                               v
-                                 +-----------------------------+
-                                 | Export Surgical Plan        |
-                                 | PDF (2D + 3D views), PNG,   |
-                                 | QR for sharing              |
-                                 +-----------------------------+
-```
 
 
 
