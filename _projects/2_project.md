@@ -25,12 +25,6 @@ related_publications: true
 - ([2025 - Advanced Topics in Embodied Intelligence](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=197038&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=en))
 
 
-
-<br>
-
-
-Let's do some `challenging` things, + Integrate them, (otherwise how dull life is......)
-
 <br>
 
 ## Reading List / References
