@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - Hi World, welcome to my Study Camp. You can also find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- Programming - `Python`, (C++,) libigl, C#, TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
+- Programming - `Python`, Node.js, (C++), C#, TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
 - 📍 Skill Set - **3d Shape Modeling / 4d Reconstruction / Multi-modal / Biosignal Modeling** / devops collaboration stack
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - **Transformer, Deep Learning**, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, CLIP, DINOv3, SAM2, Diffusion, Colmap
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - Aira glass, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Clinical Multi-modal Sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
+- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Multi-modal sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Multi-view 4D Reconstruction, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
