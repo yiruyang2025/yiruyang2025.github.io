@@ -37,14 +37,18 @@ Let's do some `challenging` things, + Integrate them, (otherwise how dull life i
 
 <br>
 
-📍 Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
+Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
 
 
 <br>
 
-📍 CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 TOG)
+
 
 📍 Two-View Geometry Scoring 📍 Without Correspondences
+
+Zero-1-to-3: Zero-shot One Image to 3D Object
+
+CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 TOG)
 
 📍 Hydra: A real-time spatial perception system for 3D scene graph construction and optimization
 
