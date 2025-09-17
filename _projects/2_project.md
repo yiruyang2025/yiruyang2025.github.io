@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: A 4d Vision Backbone
+description: Multi-view 4D Reconstruction
 img: assets/img/4.jpg
 importance: 2
 category: work
