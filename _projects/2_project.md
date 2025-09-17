@@ -83,22 +83,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 [2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
-<br>
-
-
-
-<br><br>
-
-
-## References
-
-<br>
-
-
-[2025 - FrontierNet](https://boysun045.github.io/FrontierNet-Project/)
-
-
-
 <br><br>
 
 **Attended Master Thesis Project Defense at cvg**
@@ -114,6 +98,43 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
   - 10 Sep 2025 - An Interactive, Foundation-Model-Empowered Video Annotation Interface for Constructing a Challenging Video Object Segmentation Dataset
     - SAM 2, DINOv2, GPT-4o, 📍 `real-time Annotation`
     - demo - nutsh
+
+
+<br>
+
+
+```
+   +-------------------+
+   |   Canonical Mesh  |
+   |  (reference shape)|
+   +-------------------+
+             |
+             |  (apply warp function: motion / pose / deformation)
+             v
+   +-------------------+
+   | Deformation Warp  |
+   |  (maps canonical  |
+   |   → target space) |
+   +-------------------+
+             |
+             |  (query points in deformed space)
+             v
+   +--------------------+
+   |  Implicit Field    |
+   | (SDF / occupancy / |
+   | density / radiance)|
+   +--------------------+
+             |
+             v
+   +-------------------+
+   |  Final Geometry / |
+   |   Appearance      |
+   +-------------------+
+```
+
+
+
+
 
 
 <br><br>
