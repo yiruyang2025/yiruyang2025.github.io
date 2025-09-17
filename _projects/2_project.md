@@ -72,6 +72,9 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
   - [codebase](https://colab.research.google.com/drive/1krSH8BB3EcN5ISZuHwaGF4i4FGOzg63i?usp=sharing)
 
 
+
+[2023 - 3D Line Mapping Revisited](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_3D_Line_Mapping_Revisited_CVPR_2023_paper.pdf)
+
 <br>
 
 
