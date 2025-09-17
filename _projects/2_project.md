@@ -37,7 +37,6 @@ Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual
 <br>
 
 
-
 📍 Two-View Geometry Scoring 📍 Without Correspondences
 
 Zero-1-to-3: Zero-shot One Image to 3D Object
@@ -71,14 +70,12 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
   - [codebase](https://colab.research.google.com/drive/1krSH8BB3EcN5ISZuHwaGF4i4FGOzg63i?usp=sharing)
 
-
+<br>
 
 [2023 - 3D Line Mapping Revisited](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_3D_Line_Mapping_Revisited_CVPR_2023_paper.pdf)
 
+
 <br>
-
-
-<br><br>
 
 [2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
