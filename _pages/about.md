@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI, 🇨🇭
+subtitle: <a href='#'>Affiliations</a>. MSc in **AI**, 🇨🇭
 
 profile:
   align: right
@@ -34,7 +34,7 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, [📍OrganVas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Transformer, Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, CLIP, DINOv3, SAM2, Diffusion, Colmap
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, CLIP, DINOv3, SAM2, Diffusion, Colmap, Flow-matching, RL, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - aira glasses, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - multimodal sparse data modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Multi-view 4D Reconstruction`, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
@@ -43,7 +43,7 @@ latest_posts:
 <br>
 
 **Interests** - Funny things
-  - Shape Editing on 4d Human Organs, PDE
+  - Shape Modeling and Multi-view 4D Reconstruction, PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World simulation and modeling`)
   - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for computational fluid dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), `Federated learning` for OrganVas.ai
 
