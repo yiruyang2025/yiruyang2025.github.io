@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Multi-view 4D Reconstruction
-description: Sewing Patterns on human organs
+description:
 img: assets/img/4.jpg
 importance: 5
 category: work
