@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Robotics
-description: Aria glass Gen-1, Dataset, Multi-Agent
+title: 2025 - Thesis - Multi-view 4D Reconstruction
+description: Aria glass Gen-1, Dataset
 img: assets/img/4.jpg
 importance: 3
 category: work
