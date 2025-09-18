@@ -47,7 +47,7 @@ let's collect some pretty things here
 
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
-(*Large-Scale AI Engineering, 25) - `Vision Extractors` for Space / Surgical Robots
+(*Large-Scale AI Engineering, 25)
 
 ([Advanced Topics in Embodied Intelligence](https://cvg.ethz.ch/lectures/Embodied-Intelligence/), 25)
 
