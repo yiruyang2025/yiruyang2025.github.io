@@ -44,7 +44,7 @@ latest_posts:
 **Interests** - Funny things
   - Shape Modeling and Multi-view 4D Reconstruction, PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World simulation and modeling`)
-  - [Knowledge Distillation](https://www.youtube.com/watch?v=RAa55G-oEuk), [ML for computational fluid dynamics](https://www.youtube.com/watch?v=Z1lEnxnM_sc), `Federated learning` for OrganVas.ai
+  - ML for computational fluid dynamics, `Federated learning` for OrganVas.ai
 
 
 
