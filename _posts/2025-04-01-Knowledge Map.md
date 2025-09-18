@@ -39,6 +39,8 @@ let's collect some pretty things here
 
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
+[Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
+
 `Shape Modeling and Geometry Processing` (C++, libigl, Blender, 25)
 
 [Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/) (25)
@@ -46,8 +48,6 @@ let's collect some pretty things here
 ([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
 
 (*Large-Scale AI Engineering, 25) - `Vision Extractors` for Space / Surgical Robots
-
-([Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/), 25)
 
 ([Advanced Topics in Embodied Intelligence](https://cvg.ethz.ch/lectures/Embodied-Intelligence/), 25)
 
