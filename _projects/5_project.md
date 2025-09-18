@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Physics-Informed 4d Representation
+title: 2026 - Thesis - Multi-view 4D Reconstruction
 description: Sewing Patterns on human organs
 img: assets/img/4.jpg
 importance: 5
