@@ -43,7 +43,7 @@ latest_posts:
 
 **Interests** - funny things
   - Shape Modeling and Multi-view 4D Reconstruction, PDE
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`World simulation and modeling`)
+  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`), + Another Google Deepmind for it
   - ML for computational fluid dynamics, `Federated learning` for OrganVas.ai
 
 
