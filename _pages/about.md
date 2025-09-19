@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, SAM2, Diffusion, Colmap, Flow-matching, Clip, RL, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - aira glasses, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - multimodal clinic modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Medical and Biotech`, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Health Tech`, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
 
 <br>
