@@ -25,7 +25,7 @@ let's collect some pretty things here
 <br>
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
-- [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
+- [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch), one of the best prof since he signed to become my supervisor
 - [DailyPapers](https://x.com/HuggingPapers)
 
 
