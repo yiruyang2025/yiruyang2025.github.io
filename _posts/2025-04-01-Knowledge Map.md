@@ -20,7 +20,7 @@ let's collect some pretty things here
 
 <br>
 
-# 1. 2025
+# 1. 2025 - 2026
 
 <br>
 
@@ -45,7 +45,7 @@ let's collect some pretty things here
 
 [Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/) (25)
 
-([Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25))
+[Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
 (*Large-Scale AI Engineering, 25)
 
@@ -117,13 +117,6 @@ Systems on Chips (Cuda, HPC, 25)
 ❄️ **Generalization**
   - Few-shot Learning
   - Zero-shot Learning
-
-<br><br>
-
-
-# 2. 2026<br><br>
-
-<br>
 
 
 <br><br><br><br>
