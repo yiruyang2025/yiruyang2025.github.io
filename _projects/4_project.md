@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Multimodal
-description: Transformer, Deep Learning
+description: Visual Computing
 img: assets/img/4.jpg
 importance: 4
 category: work
