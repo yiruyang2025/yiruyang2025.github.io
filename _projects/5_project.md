@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## An (Affordable) Real-Time Bioimpedance for Organ / Liver Preservation
+## Organ / Liver Preservation
 
 <br>
 
