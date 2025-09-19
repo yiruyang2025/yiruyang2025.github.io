@@ -61,7 +61,7 @@ Machine Learning for CFD / Computational Fluid Dynamics
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-([Advanced Topics in Embodied Intelligence](https://cvg.ethz.ch/lectures/Embodied-Intelligence/), 25)
+Advanced Topics in Embodied Intelligence
 
 Systems on Chips (Cuda, HPC, 25)
 
