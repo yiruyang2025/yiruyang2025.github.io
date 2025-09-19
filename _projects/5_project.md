@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Multi-view 4D Reconstruction
-description: Scientific Exploration
+description: Health Tech
 img: assets/img/4.jpg
 importance: 5
 category: work
