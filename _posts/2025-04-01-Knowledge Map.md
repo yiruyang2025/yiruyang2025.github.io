@@ -47,6 +47,8 @@ let's collect some pretty things here
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
+[2021 - Machine Learning Lecture Notes - EU](https://staff.fnwi.uva.nl/r.vandenboomgaard/MachineLearning/index.html#)
+
 [CardioAI](https://www.linkedin.com/showcase/cardioai/) (25)
 
 [Drug efficacy and pathway assessment in Brain Cancer](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/CancerBiology.html)
