@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Multimodal
-description: Visual Computing
+description: Clinic
 img: assets/img/4.jpg
 importance: 4
 category: work
