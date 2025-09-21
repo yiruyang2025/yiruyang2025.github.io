@@ -36,15 +36,14 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, SAM2, Diffusion, Colmap, Flow-matching, Clip, RL
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - aira glasses, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - multimodal clinic modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Multi-Agent Robots Training`
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Multi-Agent Robots Training / Future Power System`
 
 
 <br>
 
 **Interests** - funny things
   - Shape Modeling and Multi-view 4D Reconstruction, PDE
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
-  - Future Power System
+  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`), [Turing tech into Real-world Practice](https://www.pwc.com/gx/en/issues/technology/pwc-and-ted.html)
 
 
 
