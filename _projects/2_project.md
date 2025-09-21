@@ -16,7 +16,7 @@ related_publications: true
 
 **Related Coursework**
 
-- Learnt background knowledge, feel free to ask anything in the link
+- Learnt background knowledge
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/)
