@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Multi-view 4D Reconstruction
-description: Aria glass Gen-1, Dataset
+title: 2025 - Thesis - Diffusion Policy for RL / FPO
+description: Aria glass Gen-1
 img: assets/img/4.jpg
 importance: 3
 category: work
