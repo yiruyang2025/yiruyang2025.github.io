@@ -43,7 +43,8 @@ latest_posts:
 
 **Interests** - funny things
   - Shape Modeling and Multi-view 4D Reconstruction, PDE
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`),  [Turing Tech into Real-world Practice](https://www.pwc.com/gx/en/issues/technology/pwc-and-ted.html)
+  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`),  [Turing tech
+ into Real-world Practice](https://www.pwc.com/gx/en/issues/technology/pwc-and-ted.html)
 
 
 
