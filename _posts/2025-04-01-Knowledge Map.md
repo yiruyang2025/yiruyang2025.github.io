@@ -41,7 +41,7 @@ let's collect some pretty things here
 
 [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
 
-`Shape Modeling and Geometry Processing` (C++, libigl, 25)
+Shape Modeling and Geometry Processing (C++, 25)
 
 [Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/) (25)
 
