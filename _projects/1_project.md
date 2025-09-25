@@ -14,7 +14,6 @@ related_publications: true
 
 parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
 
-Expanding from **Stability** to `Structural Alignment` for the `torch.nn.init`
 
 
 <br>
