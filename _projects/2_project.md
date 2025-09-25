@@ -12,7 +12,8 @@ related_publications: true
 
 ## Supervisors
 
-Prof. Ulrike Wissen
+
+Dr. Ulrike Wissen
 
 Dr. Jonas Egeler
 
@@ -24,16 +25,15 @@ Dr. Jonas Egeler
 
 <br>
 
-**Related Coursework**
+**Related Coursework** - Learnt background knowledge
 
-- Learnt background knowledge
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
+
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
-- [2025 - Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
-- ([2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/))
+- [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 - ([2025 - Advanced Topics in Embodied Intelligence](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=197038&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=en))
 
 
@@ -70,7 +70,7 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 <br>
 
 [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
-  - [📍 codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
+  - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
 
 
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
@@ -740,7 +740,7 @@ VGGT (CVPR 2025)
 `2. Semantic + Geometry Joint Models`
 
 
-SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI
+SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI)
   - Video / 3D Stream → SAM 2 Engine → Consistent 2D/3D/4D Segmentation
 
 PanSt3R (ICCV 2025)
