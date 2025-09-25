@@ -13,7 +13,10 @@ related_publications: true
 ## Supervisors
 
 Prof. Ulrike Wissen
+
 Dr. Jonas Egeler
+
+
 
 <br>
 
