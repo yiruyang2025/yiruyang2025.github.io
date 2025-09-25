@@ -11,6 +11,19 @@ related_publications: true
 <br><br>
 
 
+| Dimension                    | Evaluation Focus                                  | Example Tasks                           | Typical Metrics                                |
+| ---------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
+| **Accuracy**                 | Recognition, localization, segmentation precision | Object detection, pose estimation, SLAM | mAP, IoU, RMSE, ATE                            |
+| **Robustness**               | Environmental variation, occlusion, domain shift  | Outdoor navigation, Sim2Real transfer   | Performance drop curves, robustness benchmarks |
+| **Efficiency**               | Real-time inference, compute/energy               | Embedded robots, drones                 | FPS, latency, FLOPs, memory                    |
+| **High-level Understanding** | Scene comprehension, affordance, task relevance   | Manipulation, navigation                | Success rate, task completion time             |
+
+
+
+
+<br><br>
+
+
 Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
 
 - [Aria Data Provider](https://github.com/facebookresearch/projectaria_tools)
