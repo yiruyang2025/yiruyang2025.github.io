@@ -35,14 +35,14 @@ latest_posts:
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, SAM2, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - aira glasses, `Diffusion Policy for RL / FPO`, DQN, PPO, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - multimodal clinic modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Multimodal Clinic Modeling, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) -
 
 
 <br>
 
-**Interests** - funny things
-  - Shape Modeling and Multi-view 4D Reconstruction, PDE
+**Interests**
+  - Multi-view 4D Reconstruction, PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`),  [Turing tech
  into Real-world Practice](https://www.pwc.com/gx/en/issues/technology/pwc-and-ted.html)
 
