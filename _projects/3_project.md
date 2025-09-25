@@ -11,6 +11,9 @@ related_publications: true
 <br><br>
 
 
+## Multi-Agent Training for Robotics
+
+
 | Dimension                    | Evaluation Focus                                  | Example Tasks                           | Typical Metrics                                |
 | ---------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
 | **Accuracy**                 | Recognition, localization, segmentation precision | Object detection, pose estimation, SLAM | mAP, IoU, RMSE, ATE                            |
@@ -36,22 +39,8 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 <br><br>
 
-`Multi-Agent Training for Robotics`
-
-<br>
 
 
-**Related Coursework / Paper**
-
-- Learnt background knowledge, feel free to ask anything in the link
-
-- [2025 - TetWeave](https://igl.ethz.ch/projects/tetweave/)
-
-- ([2025 - Shape Modeling and Geometry Processing](https://igl.ethz.ch/teaching/shape-modeling/sm2025/))
-
-- ([Neuromorphic Engineering I](https://sites.google.com/view/ne-courses-ini/home?id=start)) - Giacomo Indiveri, Shih-Chii Liu, Melika Payvand
-
-- ([Math Foundations for Computer Graphics and Vision - SS 22](https://cgl.ethz.ch/teaching/mathfound22/notes.php))
 
 
 <br><br>
