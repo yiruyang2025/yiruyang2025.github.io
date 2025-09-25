@@ -10,6 +10,13 @@ related_publications: true
 
 <br>
 
+## Supervisors
+
+Prof. Ulrike Wissen
+Dr. Jonas Egeler
+
+<br>
+
 ## Topics
 
 <br>
