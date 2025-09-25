@@ -18,6 +18,8 @@ related_publications: true
 
 - Learnt background knowledge
 
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip
+
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
