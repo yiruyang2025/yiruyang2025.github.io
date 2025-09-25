@@ -12,10 +12,9 @@ related_publications: true
 
 ## Supervisors
 
+<br>
 
-Dr. Ulrike Wissen
-
-Dr. Jonas Egeler
+Dr. Ulrike Wissen, Dr. Jonas Egeler, (), (), ()
 
 
 
