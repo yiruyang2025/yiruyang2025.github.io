@@ -28,7 +28,6 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, (.....), (.....), (.....)
 
 **Related Coursework** - Learnt background knowledge
 
-
 - ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
 
 
@@ -240,21 +239,6 @@ Updated 3D mesh rendered in LiverViewer (three.js)
 
 Surgical plan → PDF / PNG / QR + optional STL for printing
 ```
-
-
-<br>
-
-| Comparison 🔍              | Standard Workflow 🏥                          | Extended Research / Printing Workflow 🚀                        |
-| -------------------------- | --------------------------------------------- | --------------------------------------------------------------- |
-| **Input** 📥               | DICOM → Mesh (OBJ/STL)                        | DICOM → NIfTI mask → Mesh                                       |
-| **Intermediate Result** 🔄 | Mesh (OBJ/STL/PLY)                            | NIfTI segmentation (with labels 🏷️)                            |
-| **Output Formats** 📂      | OBJ / STL / PLY / VTK                         | GLB (Web 🌐), PLY (Research 📊), STL (3D Printing 🖨️)          |
-| **Frontend Display** 🖥️   | SVG + three.js (OBJ)                          | SVG + three.js (GLB ⚡ faster, with colors 🎨)                   |
-| **Export** 📑              | PDF / PNG / QR                                | PDF / PNG / QR + STL for printing 🖨️                           |
-| **Main Application** 🎯    | Clinical documentation & surgical planning 🩺 | Research, AI analysis 🤖, Web visualization 🌐, 3D printing 🖨️ |
-
-
-
 
 
 <br><br>
