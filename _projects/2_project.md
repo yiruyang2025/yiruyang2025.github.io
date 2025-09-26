@@ -26,7 +26,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 // Do some reaoning here
 
-**Related Coursework** - Learnt background knowledge
+**Related Coursework**
 
 - ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
 
