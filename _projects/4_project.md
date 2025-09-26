@@ -21,6 +21,8 @@ related_publications: true
 
 [2024 - Scaling Wearable Foundation Models](https://arxiv.org/pdf/2410.13638)
 
+[2020 - Topological Autoencoders](https://proceedings.mlr.press/v119/moor20a.html?ref=https://githubhelp.com)
+
 <br><br>
 
 
