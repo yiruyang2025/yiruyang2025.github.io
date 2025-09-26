@@ -16,7 +16,7 @@ related_publications: true
 
 Dr. Ulrike Wissen, Dr. Jonas Egeler, (.....), (.....), (.....)
 
-[Write homework here wiz me](https://github.com/yiruyang2025/gp2025-Assignments/edit/main/%5Bhighlight%5D_Notes_25Sep2025.md), [TetGen(https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)]
+[Write homework here wiz me](https://github.com/yiruyang2025/gp2025-Assignments/edit/main/%5Bhighlight%5D_Notes_25Sep2025.md), [TetGen for Simulation](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
 
 <br>
 
