@@ -25,7 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 --- 
-- Welcome to my Study Camp. Find me here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
+- This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - `Python`, (C++), TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
