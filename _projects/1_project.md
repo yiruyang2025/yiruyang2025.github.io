@@ -16,15 +16,15 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 (The quantum feature mapping we use here is just a high-dimensional kernel technique, and does not require real quantum hardware)
 
-<br>
+<br><br>
 
   - Dynamic Demo_1 - Hidden Space Alignment
 
 
-  - Dynamic Demo_1 - Training Loss with different traning set amount
+  - Dynamic Demo_2 - Training Loss with different traning set amount
 
 
-<br>
+<br><br>
 
 10% of the [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) training set -> 2% WER on the same Test sets from the SOTA
 
