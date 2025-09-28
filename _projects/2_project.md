@@ -49,7 +49,7 @@ Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual
 <br>
 
 
-📍 Two-View Geometry Scoring 📍 Without Correspondences
+Two-View Geometry Scoring 📍 Without Correspondences
 
 Zero-1-to-3: Zero-shot One Image to 3D Object
 
@@ -946,7 +946,7 @@ Hybrid models:
 
 <br>
 
-📍 `🍰 3D Representation Worlds`
+## 🍰 3D Representation Worlds
 
 <br>
 
