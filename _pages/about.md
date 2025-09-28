@@ -28,7 +28,7 @@ latest_posts:
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - `Python`, Node.js, (C++), PyTorch, `TPU / GPU parallel Training`, Jax, TensorFlow, Java / JavaScript
 
-- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
+- One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)), Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
 - For lifelong study - Richard P. Feynman, [OrGo.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
