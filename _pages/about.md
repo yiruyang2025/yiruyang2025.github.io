@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4D Scene Instance Understanding`, Real World Simulation, Robots, [CVG](https://cvg.ethz.ch/)
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4D Scene Instance Understanding`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Organ Twins, Aria Gen-1/2, Bring your glasses into a Hospital, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Space Navigation, Quantum Computing
 
