@@ -42,13 +42,11 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 
 
-
-
-
-
 <br>
 
 ## Optimized Decoding
+
+<br>
 
 ```
 Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Cache)
@@ -76,73 +74,6 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
    - Slow inference                                  - Faster inference
 ```
 
-
-
-
-<br>
-
-
-## MoE Routing vs. UET Fabric Setup
-
-<br>
-
-| Aspect                    | MoE (Mixture of Experts) Distributed Routing                                                                                        | UET Fabric Setup (Pre-training Networking)                                                                                                               |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Core Goal**             | Reduce compute & communication by activating only a subset of experts per token/batch.                                              | Establish a high-performance network fabric to enable large-scale distributed training.                                                                  |
-| **Primary Level**         | *Model architecture / algorithmic level* (deep learning model design).                                                              | *Infrastructure / system level* (network setup before training).                                                                                         |
-| **Key Operations**        | • Expert selection (via gating network) <br> • Dynamic routing of tokens to selected experts <br> • Sparse activation of parameters | • Fabric Endpoint (FEP) creation <br> • Vendor UET Provider publication <br> • Setting & interpreting environment variables <br> • Control channel setup |
-| **Impact on Training**    | Reduces FLOPs and memory usage; improves scalability of very large models (e.g., DeepSeek-V2, Switch Transformer).                  | Provides reliable, low-latency, high-bandwidth communication between GPUs/TPUs across nodes.                                                             |
-| **Communication Pattern** | Selective, sparse — only communicate with activated experts (not all GPUs).                                                         | Dense, global — ensures all ranks/processes are synchronized via NCCL/Libfabric over UET.                                                                |
-| **Efficiency Gain**       | From algorithmic sparsity: fewer parameters activated per forward/backward pass.                                                    | From optimized interconnect: reduced tail latency, congestion control, multi-path routing.                                                               |
-| **Scope**                 | Logical/algorithmic optimization inside the AI model.                                                                               | Physical/logical networking preparation outside the model.                                                                                               |
-| **Example Use Cases**     | Scaling trillion-parameter models without linear cost; adaptive expert routing.                                                     | Preparing large GPU clusters (e.g., 1k–10k GPUs) for stable distributed AI training.                                                                     |
-
-
-
-
-<br><br>
-
-
-## References for Contrastive Learning
-
-
-[2025 - Contrastive Representations for Temporal Reasoning](https://arxiv.org/pdf/2508.13113)
-
-
-```
-         Classical AI (Traditional)                   CRTR (New Approach)
-
- ┌───────────────┐                          ┌────────────────────────┐
- │   Perception  │                          │   Perception + Time    │
- │ (State Rep.)  │                          │ (Contrastive Learning) │
- └───────┬───────┘                          └──────────┬─────────────┘
-         │                                             │
-         ▼                                             ▼
- ┌───────────────┐                          ┌─────────────────────────┐
- │   Planning    │   (Search: BFS, A*)      │   Learned Representation│
- │ (Temporal     │ -----------------------> │   already encodes       │
- │ Reasoning)    │                          │   temporal reasoning    │
- └───────────────┘                          └─────────────────────────┘
-         │                                             │
-         ▼                                             ▼
-     ┌─────────┐                               ┌───────────────┐
-     │ Actions │                               │ Direct Actions│
-     └─────────┘                               └───────────────┘
-
-   - Requires explicit search                  - Can reason without search
-   - Slower / costly                           - Efficient / scalable
-```
-
-<br>
-
-```
-Sonnet 64
-
-And nothing ’gainst Time’s scythe can make defence,
-From each of life moment, to brave him when he takes thee hence.
-
-**Shakespeare, William.** “Sonnet 64,” lines 11–12, in The Sonnets * (1609).*
-```
 <br>
 
 ```
@@ -167,62 +98,14 @@ Training Loop
 
 
 
-
 <br>
 
-`WER` -> `Inference Latency` + `Memory` -> xx-MB On-Device
-
-Test it on your own device for the inference + WER with model Cell 2.6 (Hypersphere alignment) / 2.7 (Dynamic geometric alignment in the 3D Space, with Riemann Space Constraints)
-
-<br>
-
--> `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
-
-<br>
 
 **Key Improvements**
 
 1. LoRA + Lightweight Decoders + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `lower inference Latency`
-
-
-<br>
-
-```
-the parameters that dominate memory footprint and inference latency
-- fused LoRA into the backbone and applied quantization:
-
-1. Embedding matrix
-Quantized token‑to‑hidden lookup table (+ scale/zero‑point metadata)
-
-2. Fused Transformer weights
-Self‑Attention: Q, K, V, and output projection matrices (each with fused LoRA ΔW), plus biases; all quantized
-Feed‑Forward: two linear layers (with fused LoRA updates), plus biases; all quantized
-
-3. LayerNorm parameters
-γ (scale) and β (shift) for each layer—typically kept in FP16/FP32 for stability
-
-4. Output projection head
-Final hidden‑to‑vocab weight matrix and bias, quantized (+ metadata)
-
-5. Quantization metadata
-Per‑tensor (or per‑channel) scale and zero‑point arrays that map integer ops back to real values
-```
-
-<br>
-
-```
-- Extract the spectral or time domain features, then train the U-Net, Conv-TasNet, Demucs and other networks to output multiple audio streams
-
-- Give it a "label" to tell it how many channels to split (vocals/drums/bass/other), and it will split the signal
-```
-
-<br>
-
-`📍 If you have some Time`
-
-- Accurately analyze `how` LoRA `weights affect knowledge transfer`
-- Use `feature visualization` to understand `what` the student have learned
-- Verify the role of different loss functions through ablation experiments
+2. `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
+3. Write a script to test the choice of your Surface
 
 <br>
 
@@ -230,14 +113,6 @@ Per‑tensor (or per‑channel) scale and zero‑point arrays that map integer o
 %load_ext tensorboard
 %tensorboard --logdir /content/drive/MyDrive/distil_run_cell2.x/tb
 ```
-
-<br>
-
-
-`The choice of your Surface`
-
-- Write a script to test
-
 
 <br>
 
@@ -363,13 +238,13 @@ Backpropagate to update LoRA adapter parameters
 <br>
 
 ```
-🍩 Transformer = Non-Sugar Donut Factory Assembly Line  
+Transformer = Non-Sugar Donut Factory Assembly Line  
 ═══════════════════════════════════════════════════════
 Raw Donuts → Community Check → Solo Decoration → Finished Donuts  
 (Input)       (Attention)       (FFN)            (Output)
     ↓             ↓                ↓               ↓
 ┌─────────┐  ┌──────────────┐  ┌──────────────┐    ┌─────────┐
-│ Plain   │→ │👥 Community  │→ │ 🎨 Solo       │ →  │Gourmet  │
+│ Plain   │→ │  Community   │→ │   Solo       │ →  │Gourmet  │
 │ Donuts  │  │  Analysis    │  │ Decoration   │    │Donuts   │
 └─────────┘  └──────────────┘  └──────────────┘    └─────────┘
    ↓                ↓                 ↓                 ↓
@@ -417,27 +292,8 @@ Activation Function Characteristics Comparison:
 
 <br>
 
-## 📍 [Fourier Transform](https://www.linkedin.com/posts/imarpit_ai-machinelearning-deeplearning-activity-7367542558693937152-28w2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+## [Fourier Transform](https://www.linkedin.com/posts/imarpit_ai-machinelearning-deeplearning-activity-7367542558693937152-28w2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
-<br>
-
-```
-Original domain: Most ML models process raw data directly — pixels for images, waveform samples for audio, or discrete tokens for text
-
-Fourier Transform: Acts like a prism, decomposing complex signals into frequency components
-
-Large circle / base frequency → overall structure
-
-Smaller circles / harmonics → fine details
-
-**In AI**
-
-CNNs: High-frequency = edges, Low-frequency = smooth areas. Convolutions become efficient multiplications in frequency space
-
-Transformers: Sinusoidal positional encodings are essentially Fourier bases that provide continuous, unique position information
-
-Speech & Image Processing: Fourier → spectrogram for speech recognition, edge/texture extraction in vision tasks
-```
 
 <br>
 
@@ -473,7 +329,7 @@ Speech & Image Processing: Fourier → spectrogram for speech recognition, edge/
 
 <br><br>
 
-**🧊 Distillation Ice Factory**
+**Distillation Ice Factory**
 
 ```
 Raw Material (Input) → Processing (Distill) → Packaging (Loss) → Finished Product (Student)
@@ -1000,43 +856,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
-```
-🍩 Vocabulary Mismatch = Multilingual "Plain" vs English "Decorated" Pipeline
-═══════════════════════════════════════════════════════════════════════════════
-
-Large Vocab → Filter English → Student English‑Only → Aligned Output
-(Original)    (Trim Embedding)  (Slice/Filter)        (Consistent vocab)
-    ↓                 ↓                      ↓                      ↓
-┌─────────────┐   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────┐
-│Multi‑Lingual│→  │🍰 Trim Large    │→  │🎯 Keep English   │→  │ Distil Vocab│
-│51866 tokens │   │Embedding ↓ to   │   │Tokens Only ↓    │   │51864 size   │
-│(v3)         │   │51864            │   │keep 51864       │   │             │
-└─────────────┘   └─────────────────┘   └─────────────────┘   └─────────────┘
-    ↓                 ↓                      ↓                      ↓
-  V₀ (51866)      V₁ (trimmed)         V₂ (student)         V_out (match)
-
-Pipeline Steps:
-1. **V₀**: Teacher `openai/whisper-large-v3` uses a 51 866‑token multilingual vocabulary  
-2. **V₁**: Resize the teacher’s embedding matrix down to **51 864** slots (remove non‑English tokens)  
-3. **V₂**: Student model (English‑only) loads that 51 864‑sized embedding  
-4. **V_out**: Ensures output token IDs align exactly between teacher‑derived embeddings and student’s vocab  
-
-Vocabulary Alignment Strategy:
-┌──────────────┐    ┌──────────────┐    ┌──────────────┐
-│   Teacher    │ →  │   Student    │ →  │   Output     │
-│ Whisper-v3   │    │ English‑Only │    │  Aligned     │
-│ 51866 tokens │    │  51864 toks  │    │  51864 toks  │
-└──────────────┘    └──────────────┘    └──────────────┘
-
-Key Technical Details:
-- **Teacher**: `openai/whisper-large-v3` (51 866‑token vocab)  
-- **Student**: English‑only distilled model (51 864‑token vocab)  
-- **Solution**: Align token spaces by trimming the teacher’s embedding to the student’s English subset  
-- **Result**: Consistent token IDs & embedding dimensions for seamless knowledge distillation
-```
-
-<br>
-
 **Connectionist Temporal Classification (CTC) in Knowledge Distillation**  - No need since Encoder-Decoder Seq2Seq Model here 
 
 - **Proposer & Year**: Alex Graves et al. (2006 ICML)  
@@ -1091,25 +910,6 @@ Key Technical Details:
   - If the teacher-student difference is too large, an auxiliary teacher with a more similar structure can be introduced to complete the alignment **in two steps**
 
 
-<br><br>
-
-
-`Some other topics`
-
-`4. Low-Latency Decoding` - `CTC + RNN-Transducer`
-
-- Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. “Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.” ICML 2006. - **CTC**
-
-- Graves, A. “Sequence Transduction with Recurrent Neural Networks.” ICASSP 2012. - **RNN-T**
-
-- For interactive translation, non-autoregressive decoders such as CTC or RNN-Transducer enable single-pass inference
-- Understanding the trade-offs between greedy decoding and beam search is essential for minimizing latency under resource constraints
-
-- [2022 - Cross-Architecture Knowledge Distillation](https://openaccess.thecvf.com/content/ACCV2022/html/Liu_Cross-Architecture_Knowledge_Distillation_ACCV_2022_paper.html)
-
-- [2025 - Cross-Architecture Knowledge Distillation for Speech Enhancement: From Cmgan to Unet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5222345)
-
-- [2024 - Factorized and progressive knowledge distillation for CTC-based ASR models](https://www.sciencedirect.com/science/article/pii/S0167639324000438?casa_token=uw4aHelNS6oAAAAA:cl02wSLichxkfoxRAs1WroOWDX1J4qVvXCS_IwhHsw--BBZXuYgzNUn4t99IBiRuhkrXv9P2Fw)
 
 <br>
 
@@ -1195,24 +995,6 @@ Motivation for Discrete Latent Audio Representations
 └─────────────────────────────────────────┘
 ```
 
-<br><br>
-
-
-`Temporal Smoothness`
-
-
-```
- Audio Signal Characteristics:
-├── High Continuity
-│   └── Speech changes relatively slowly
-├── Local Similarity  
-│   └── Adjacent 10-30ms audio content is similar
-└── Perceptual Redundancy
-    └── Human ear is insensitive to small temporal differences
-```
-
--> `Encoder's role` - preserve important scales, compress unimportant scales
-
 
 <br><br>
 
@@ -1227,6 +1009,8 @@ Motivation for Discrete Latent Audio Representations
 
 ## Gradient Checkpointing
 
+<br>
+
 ```
 Forward Pass:
 Input → [Layer1: store] → [Layer2: recompute later] → [Layer3: recompute later] → Output
@@ -1238,9 +1022,8 @@ Use Layer1 activation → compute gradient
 ```
 
 
-
-
 <br><br><br>
+
 
 ## References
 
