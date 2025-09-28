@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: Deep Learning
+description: Deep Learning, Quantum for Knowledge Distillation
 img: assets/img/4.jpg
 importance: 1
 category: work
