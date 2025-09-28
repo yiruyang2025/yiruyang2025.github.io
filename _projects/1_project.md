@@ -14,7 +14,7 @@ related_publications: true
 
 parallel training on `Student Cluster`, with **Contrastive Learning in the Hidden Space**
 
-(The quantum feature mapping we use here is just a high-dimensional kernel technique, and does not require real quantum hardware")
+(The quantum feature mapping we use here is just a high-dimensional kernel technique, and does not require real quantum hardware)
 
 <br>
 
@@ -45,8 +45,6 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 <br>
 
 ## Optimized Decoding
-
-<br>
 
 ```
 Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Cache)
@@ -203,26 +201,6 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 <br>
 
 
-```
-Raw Audio
-    ↓
-[ Encoder (frozen) ]
-    ↓
-[ Decoder + LoRA adapters ]    ←— LoRA injects low-rank ΔW here, directly modifying student logits
-    ↓
-Student logits zˢᵗᵘᵈᵉⁿᵗ      ←— LoRA’s effect appears in these logits
-    ↓
-÷ T   (temperature scaling)     ←— Temperature T then scales these logits
-    ↓
-softmax(z/T)                   ←— T smooths the distribution, controlling gradient strength
-    ↓
-KL(pᵗᵉᵃᶜʰᵉʳ ‖ pˢᵗᵘᵈᵉⁿᵗ)
-    ↓
-Backpropagate to update LoRA adapter parameters
-```
-<br>
-
-
 `check points` of Sample Student Models
 
 **distil-large-v3** (≈756 M parameters) is the **best-performing** distilled checkpoint, performing to within 1.5% WER of Whisper large-v3 on out-of-distribution short-form audio and within 1% WER on long-form decoding
@@ -295,8 +273,6 @@ Activation Function Characteristics Comparison:
 ## [Fourier Transform](https://www.linkedin.com/posts/imarpit_ai-machinelearning-deeplearning-activity-7367542558693937152-28w2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 
-<br>
-
 ```
         ┌───────────────────────────────┐
         │        Original Domain        │
@@ -329,7 +305,7 @@ Activation Function Characteristics Comparison:
 
 <br><br>
 
-**Distillation Ice Factory**
+## Distillation Ice Factory
 
 ```
 Raw Material (Input) → Processing (Distill) → Packaging (Loss) → Finished Product (Student)
@@ -367,7 +343,7 @@ X₀ (Teacher Output)    X₁ (Distillation)    X₂ (Loss Computation)     Stud
 
 <br>
 
-`TAID`
+## TAID
 
 **Initial training (step=0): λ=0.1**
 intermediate = 0.9 * student_probs + 0.1 * teacher_probs
@@ -854,7 +830,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 ## References
 
-<br>
 
 **Connectionist Temporal Classification (CTC) in Knowledge Distillation**  - No need since Encoder-Decoder Seq2Seq Model here 
 
