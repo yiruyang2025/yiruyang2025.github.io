@@ -14,7 +14,7 @@ related_publications: true
 
 parallel training on `Student Cluster`, with **Contrastive Learning in the Hidden Space**
 
-
+(The quantum feature mapping we use here is just a high-dimensional kernel technique, and does not require real quantum hardware")
 
 <br>
 
