@@ -18,10 +18,10 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 <br>
 
-<Dynamic Demo_1> - Hidden Space Alignment
+  - Dynamic Demo_1 - Hidden Space Alignment
 
 
-<Dynamic Demo_1> - Training Loss with different traning set amount
+  - Dynamic Demo_1 - Training Loss with different traning set amount
 
 
 <br>
