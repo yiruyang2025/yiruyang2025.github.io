@@ -10,6 +10,12 @@ related_publications: true
 
 <br>
 
+
+## Quantum Computing Acceleration
+
+
+<br>
+
 | **Dimension**                           | **Description**                                                                                                                                                      |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Project Title**                       | Hybrid AI + Quantum Computing for Brain Big Data                                                                                                                     |
