@@ -30,12 +30,12 @@ latest_posts:
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
-- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, [📍Organvas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
+- For lifelong study - Richard P. Feynman, You and your research by Richard Hamming, [Organvas.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, Clip, DiT, Colmap, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - `Diffusion Policy for RL`, DQN, PPO, `4D Scene Understanding`, Multi Agents in A Digital Zurich, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Organ Twins - A foundation modeling model, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/)
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - `Diffusion Policy for RL`, DQN, PPO, `4D Scene Instance Understanding`, Multi Agents in A Digital Zurich, [CVG](https://cvg.ethz.ch/)
+- [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Organ Twins - A foundation modeling model, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) -
 
 <br>
