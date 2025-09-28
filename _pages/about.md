@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- Programming - `Python`, (C++), TensorFlow, PyTorch, `TPU / GPU Training`, Jax, Java / JavaScript
+- Programming - `Python`, Node.js, (C++), PyTorch, `TPU / GPU parallel Training`, Jax, TensorFlow, Java / JavaScript
 
 - One of my [Faculty Alumni](https://en.wikipedia.org/wiki/Zhu_Min_(economist)) 🪐, Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/)
 
@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - `Diffusion Policy for RL`, DQN, PPO, `Multi-agent Training in A Digital Zurich`, [CVG](https://cvg.ethz.ch/)
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - `Diffusion Policy for RL`, DQN, PPO, Multi-agent Training in A Digital Zurich, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Organ Twins - A foundation modeling model, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) -
 
