@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Diffusion Policy for RL / FPO
-description: Multi-agent Training in A Digital Zurich, CVG
+description: A Digital Zurich, CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
