@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - A Digital Zurich
-description: Multi-agent Training, Quantum Computing
+description: Multi-agent Training, 4D Scene Understanding
 img: assets/img/4.jpg
 importance: 5
 category: work
