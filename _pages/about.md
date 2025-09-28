@@ -40,7 +40,7 @@ latest_posts:
 
 <br>
 
-**Interests** - do some demo for fun
+**Interests**
   - Multi-view 4D Reconstruction (A backbone), PDE
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
 
