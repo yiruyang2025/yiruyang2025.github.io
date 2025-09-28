@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4D Reconstruction`, ViT, DINOv3, Clip, DiT, Colmap, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) - `Diffusion Policy for RL`, DQN, PPO, `4D Scene Understanding`, Multi Agents in A Digital Zurich, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Organ Twins - A foundation modeling model, [SCAI](https://scai.ethz.ch/), [Balgrist University Hospital](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) -
+- [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) -
 
 <br>
 
