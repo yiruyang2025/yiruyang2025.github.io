@@ -12,7 +12,7 @@ related_publications: true
 
 
 
-## Quantum computing accelerates multimodal neural data analysis
+## Quantum Computing Accelerates Multimodal Neural Data Analysis
 
 
 <br>
