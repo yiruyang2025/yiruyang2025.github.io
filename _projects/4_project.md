@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Multimodal
-description: Clinic
+description: Clinic, Deep Learning
 img: assets/img/4.jpg
 importance: 4
 category: work
