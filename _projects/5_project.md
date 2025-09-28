@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - A Digital Zurich
+title: 2025 - Thesis - A Digital Zurich
 description: Multi-agent Training for Robotics
 img: assets/img/4.jpg
 importance: 5
