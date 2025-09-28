@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Diffusion Policy for RL
-description: A Digital Zurich, CVG
+description: A Digital Zurich, Robots, CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
