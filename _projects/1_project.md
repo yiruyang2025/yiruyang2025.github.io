@@ -12,7 +12,7 @@ related_publications: true
 
 **Whisper-large-v3-turbo** - Sep 2024 → `our_model_Säuseln` + LoRA-guided Distillation
 
-parallel training on `s3it Cluster`, with **Contrastive Learning in the Hidden Space**
+parallel training on `Student Cluster`, with **Contrastive Learning in the Hidden Space**
 
 
 
