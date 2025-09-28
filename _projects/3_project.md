@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Diffusion Policy for RL
+title: 2025 - Thesis - 4D Scene Understanding
 description: A Digital Zurich, Robots, CVG
 img: assets/img/4.jpg
 importance: 3
