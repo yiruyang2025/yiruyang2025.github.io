@@ -28,7 +28,25 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
 
-<br><br>
+<br>
+
+
+| Component / Module                                         | Deep Learning Mechanism                                                                                                                                       | Function & Experimental Design                                                                                                                                                       |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Whisper-large-v3-turbo (~0.809 B)**                      | Transformer encoder–decoder architecture                                                                                                                      | Teacher model for speech-to-text ASR; provides hidden-space distributions or logits for distillation                                                                                 |
+| **LoRA-Guided Distillation**                               | Adapter / low-rank matrix injection into Transformer layers                                                                                                   | Student model (**our_model_Säuseln**) uses LoRA to efficiently approximate the teacher’s representations with far fewer trainable parameters                                         |
+| **Contrastive Learning in Hidden Space**                   | Contrastive losses (InfoNCE, cosine similarity, KL, MSE)                                                                                                      | Aligns student and teacher hidden states for richer representation transfer beyond plain logits                                                                                      |
+| **Knowledge Distillation**                                 | Transfer between deep models (teacher → student)                                                                                                              | Combined loss: CTC / cross-entropy + KL divergence + hidden alignment / contrastive loss                                                                                             |
+| **Parallel Training on Student Cluster**                   | Data Parallel: split batches across multiple GPUs for simultaneous forward/backward passes<br>Model Parallel (optional): split large layers/heads across GPUs | Implemented via `torch.distributed`, Hugging Face Accelerate, or DeepSpeed; ensures scalable and efficient training of the student model                                             |
+| **Visual Training Curves with Different Data Proportions** | Typical deep-learning experiment design                                                                                                                       | Train with 10% → 25% → 50% of the ASR SOTA dataset; visualize Loss, WER, and Hidden-Similarity curves to show performance vs. data scale, in line with deep-learning paper standards |
+
+
+
+
+
+
+
+<br>
 
 ## Optimized Decoding
 
