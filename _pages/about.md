@@ -41,7 +41,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Multi-view 4d Reconstruction and Segmentation (A backbone), Quantum Computing
+  - Multi-view 4d Reconstruction and Segmentation (backbones), Quantum Computing
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
 
 
