@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Multi-view 4D Reconstruction, Glasses, CVG
+description: Multi-view 4d Reconstruction, Glasses, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
