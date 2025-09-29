@@ -33,15 +33,15 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, [OrGo](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/),[.ai](https://www.orgo.ai/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `4d Scene Instance Segmentation, Clinic`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `Multi-view 4d Reconstruction`, [CVG](https://cvg.ethz.ch/)
+- 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4d Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Scene Instance Segmentation`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Aria Gen-1/2, Bring your glasses into a Hospital, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Space Navigation, Quantum Computing
 
 <br>
 
 **Interests**
-  - Multi-view 4d segmentation (A backbone), Quantum Computing
+  - Multi-view 4d Reconstruction and Segmentation (A backbone), Quantum Computing
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
 
 
