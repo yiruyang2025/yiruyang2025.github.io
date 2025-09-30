@@ -36,12 +36,12 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4d Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Scene Instance Segmentation`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Aria Gen-1/2, Bring your glasses into a Hospital, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/)
-- [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Space Navigation, Quantum Computing
+- [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Space Navigation
 
 <br>
 
 **Interests**
-  - Multi-view 4d Reconstruction and Segmentation (backbones), Quantum Computing
+  - Backbones, Quantum Computing
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
 
 
