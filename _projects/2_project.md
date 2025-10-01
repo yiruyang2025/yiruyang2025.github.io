@@ -114,6 +114,10 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 <br>
 
+  - 02 Oct 2025 - VSLAM-LAB: A Comprehensive Framework for Visual SLAM Baselines and Datasets, CNB G 110
+
+<br>
+
 
 ```
    +-------------------+
