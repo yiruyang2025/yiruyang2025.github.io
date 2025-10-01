@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - A Digital Zurich
-description: Quantum Computing Acceleration
+description: Computing Acceleration
 img: assets/img/4.jpg
 importance: 5
 category: work
