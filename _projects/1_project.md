@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: Deep Learning, Quantum Feature Map
+description: Deep Learning, Feature Map
 img: assets/img/4.jpg
 importance: 1
 category: work
