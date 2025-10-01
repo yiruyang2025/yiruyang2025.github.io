@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4d Reconstruction`, ViT, DINOv3, Clip, DiT, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Scene Instance Segmentation`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Aria Gen-1/2, Bring your glasses into a Hospital, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/)
-- [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Multi-Agent Non-Rigid Logistic Manipulation`, [Laser-induced acoustic desorption (LIAD) and trapping of nanoparticles](https://photonics.ethz.ch/), Space Navigation
+- [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - `Multi-Agent Non-Rigid Logistic Manipulation`, [📍 Laser-induced acoustic desorption (LIAD) and trapping of nanoparticles](https://photonics.ethz.ch/), Space Navigation
 
 <br>
 
