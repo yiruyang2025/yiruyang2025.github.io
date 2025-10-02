@@ -10,6 +10,23 @@ related_publications: true
 
 <br>
 
+## ICML vs ICLR Submission Type Quick Reference
+
+| Paper Type / Research Style       | Best Fit **ICML**                                                                                              | Best Fit **ICLR**                                                                                                        |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Theoretical Methods**           | New optimization algorithms, convergence proofs, generalization bounds, PAC-Bayes, statistical learning theory | Representation learning theory (generalization in representation learning), self-supervised learning theory              |
+| **Model Architecture Innovation** | Innovations in traditional ML frameworks (kernels, boosting, graphical models)                                 | Novel neural network architectures (Transformer variants, Diffusion models, Graph Neural Networks, Contrastive Learning) |
+| **Reinforcement Learning (RL)**   | Algorithmic improvements (PPO, policy gradient, exploration/exploitation) + theoretical analysis               | Representation learning for RL, world models, RL with foundation models                                                  |
+| **Generative Modeling**           | Probabilistic graphical models, EM algorithms, Bayesian methods                                                | GANs, VAEs, Diffusion models, Large-scale generative models                                                              |
+| **Application Domains**           | Broad coverage (healthcare, finance, systems, security, social science applications)                           | DL-centric applications (computer vision, NLP, multi-modal, speech, vision-language models)                              |
+| **Experimental Style**            | Strong emphasis on algorithmic comparisons, theory + experiments balance                                       | Heavy emphasis on large-scale experiments, SOTA performance, benchmark validation                                        |
+
+
+
+
+
+
+<br>
 
 
 ## Quantum Computing Accelerates Multimodal Neural Data Analysis
