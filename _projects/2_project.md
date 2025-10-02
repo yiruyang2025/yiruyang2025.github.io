@@ -114,6 +114,7 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 <br>
 
   - 02 Oct 2025 - VSLAM-LAB: A Comprehensive Framework for Visual SLAM Baselines and Datasets, pixi
+    - 2024 - Gaussian Splatting SLAM, demo
 
 <br>
 
