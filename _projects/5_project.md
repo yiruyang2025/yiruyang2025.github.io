@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - A Digital Zurich
+title: 2026 - Thesis - A Digital Zurich
 description: Computing Acceleration
 img: assets/img/4.jpg
 importance: 5
