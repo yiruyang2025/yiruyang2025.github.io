@@ -159,7 +159,24 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 <br>
 
-`Medical Organ Data Formats`
+## Comparison of 3D Surface Representations
+
+
+| Representation                               | Description                                                    | Pros                                                                                                   | Cons                                                                                | Typical Use Cases                               |
+| -------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------- |
+| **Point Cloud**                              | Set of 3D points sampled from the surface                      | - Simple & lightweight <br> - Directly from depth sensors (LiDAR, RGB-D)                               | - No connectivity info <br> - Hard to render or simulate                            | Raw 3D scans, SLAM, SfM outputs                 |
+| **Polygonal Mesh (Triangle Mesh)**           | Vertices + edges + faces forming explicit surfaces             | - Efficient rendering (graphics hardware support) <br> - Compact representation <br> - Easy to edit    | - Requires clean topology <br> - Difficult to handle noise & incomplete data        | Games, CAD, AR/VR, graphics rendering           |
+| **Voxel Grid (Volumetric Occupancy / TSDF)** | Regular 3D grid storing occupancy or signed distance values    | - Uniform, simple data structure <br> - Easy for Boolean ops & fusion (e.g., KinectFusion)             | - High memory cost (scales as (O(N^3))) <br> - Resolution limited                   | 3D reconstruction, medical imaging (CT, MRI)    |
+| **Implicit Surface (SDF / Level Set)**       | Surface = zero level set of a scalar field (f(x,y,z)=0)        | - Continuous representation <br> - Naturally smooth <br> - Supports topology changes                   | - Needs extraction (e.g., Marching Cubes) <br> - Harder to visualize directly       | Surface reconstruction, physics simulation      |
+| **Adaptive Grid (Octree, Non-Regular)**      | Hierarchical voxel grid (fine near surfaces, coarse elsewhere) | - Memory efficient <br> - Preserves sharp features (Dual Contouring)                                   | - Complex data structure <br> - Harder implementation                               | Large-scale 3D scenes, real-time reconstruction |
+| **Neural Implicit (NeRF, NeuS, VolSDF)**     | Neural network learns volumetric density/color or SDF          | - Compact continuous function <br> - High-quality novel view synthesis <br> - Differentiable rendering | - Slow training/inference <br> - Requires lots of data <br> - Hard to edit geometry | Neural rendering, 3D reconstruction from images |
+
+
+
+<br>
+
+## Medical Organ Data Formats
+
 
 | Format           | Typical Source (Hospital / Research)                             | Advantages                                                                                | Limitations                                                                    | Role in Your Pipeline (3D → 2D SVG → Annotation → Deformation → 3D)                          |
 | ---------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
