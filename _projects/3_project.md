@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - 4D Scene Understanding
-description: A Digital Zurich, CVG
+description: A Digital Geneva, CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
