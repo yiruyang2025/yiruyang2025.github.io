@@ -40,7 +40,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 ## Some Charming Things
 
-[Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
+- [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
 
 
 
