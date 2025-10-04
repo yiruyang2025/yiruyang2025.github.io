@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Multi-view 4d Reconstruction, CVG
+description: 4d Reconstruction, FFN, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
