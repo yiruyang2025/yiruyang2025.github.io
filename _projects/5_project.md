@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - A Digital Zurich
-description: Computing Acceleration
+description: Computing Acceleration, Multi-Agent
 img: assets/img/4.jpg
 importance: 5
 category: work
