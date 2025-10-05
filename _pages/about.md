@@ -42,7 +42,7 @@ latest_posts:
 
 **Interests**
   - Backbones (for citation), Mesh Gen (for own interest), Quantum Computing (for curiosity)
-  - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
+  - [Deepmind](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) (`Scientific Exploration`)
 
 
 
