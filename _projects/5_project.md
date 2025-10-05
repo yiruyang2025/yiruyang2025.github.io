@@ -28,11 +28,11 @@ related_publications: true
                │
                ▼
 ┌────────────────────────────────────────────────────────────┐
-│       Quantum Processing Layer (QPU / Quantum Emulator)     │
-│  • Quantum feature mapping of field states                  │
-│  • Variational Quantum Eigensolver (VQE) for energy minima  │
-│  • Quantum Phase Estimation (QPE) for mass spectrum         │
-│  • Quantum kernel feedback → parameter updates              │
+│       Quantum Processing Layer (QPU / Quantum Emulator)    │
+│  • Quantum feature mapping of field states                 │
+│  • Variational Quantum Eigensolver (VQE) for energy minima │
+│  • Quantum Phase Estimation (QPE) for mass spectrum        │
+│  • Quantum kernel feedback → parameter updates             │
 └──────────────┬─────────────────────────────────────────────┘
                │
                ▼
