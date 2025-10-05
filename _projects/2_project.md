@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: 4d Reconstruction, FFN, CVG
+description: Non-Rigid Reconstruction, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
