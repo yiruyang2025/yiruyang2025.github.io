@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis](https://yiruyang2025.github.io/projects/2_project/) - `Single Image to Forward Facing 3d`, ViT, DINOv3, Clip, DiT, St4RTrack, BANMo, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/4_project/) - Multimodal, MedGamma, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Scientific Computing Acceleration, Multi-Agent Training
+- 📍 [Thesis 4](https://yiruyang2025.github.io/projects/5_project/) - Scientific Computing Acceleration, A Multi-Agent System
 
 <br>
 
