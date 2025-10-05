@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - A Digital Zurich
+title: 2026 - Thesis - Quantum Computing
 description: Computing Acceleration, Multi-Agent
 img: assets/img/4.jpg
 importance: 5
