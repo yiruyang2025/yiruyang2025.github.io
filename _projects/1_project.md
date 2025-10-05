@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Hidden Space Alignment
-description: Deep Learning, Feature Map
+title: 2025 - Thesis - Deep Learning
+description: CUDA
 img: assets/img/4.jpg
 importance: 1
 category: work
