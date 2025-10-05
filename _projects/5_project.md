@@ -16,6 +16,38 @@ related_publications: true
 
 <br>
 
+```
+┌────────────────────────────────────────────────────────────┐
+│                  Classical HPC Simulation (GPU/CUDA)       │
+│  • Solving Relativistic Field Equations (Higgs, QED, QCD)  │
+│  • Lattice discretization and tensor updates               │
+│  • CUDA kernels for parallel PDE integration               │
+│  ↓                                                         │
+│  Real-time field data streams                              │
+└──────────────┬─────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────────────────────┐
+│       Quantum Processing Layer (QPU / Quantum Emulator)     │
+│  • Quantum feature mapping of field states                  │
+│  • Variational Quantum Eigensolver (VQE) for energy minima  │
+│  • Quantum Phase Estimation (QPE) for mass spectrum         │
+│  • Quantum kernel feedback → parameter updates              │
+└──────────────┬─────────────────────────────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────────────────────────────┐
+│               AI Control & Optimization Loop               │
+│  • Physics-Informed Neural Networks (PINN)                 │
+│  • Reinforcement Learning for mesh adaptation              │
+│  • Gradient alignment between GPU and QPU states           │
+│  • Monitoring convergence and physical invariants          │
+└────────────────────────────────────────────────────────────┘
+```
+
+
+<br>
+
 | **Dimension**                             | **Description**                                                                                                                                                                                                                         |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Project Title**                         | Hybrid Quantum–Classical Simulation for Higgs Field Dynamics and Relativistic Plasma Interactions                                                                                                                                       |
