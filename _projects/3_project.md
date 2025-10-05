@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - A Digital Geneva
-description: CVG
+description: CVG, having fun speaking German here
 img: assets/img/4.jpg
 importance: 3
 category: work
