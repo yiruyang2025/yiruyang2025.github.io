@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Computational Geometry
-description: A Digital Geneva, Animal Avatars from Videos, CVG
+title: 2025 - Thesis - A Digital Geneva
+description: CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
