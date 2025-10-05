@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - 4d Scene Understanding
+title: 2025 - Thesis - Computational Geometry
 description: A Digital Geneva, Animal Avatars from Videos, CVG
 img: assets/img/4.jpg
 importance: 3
