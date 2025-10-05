@@ -8,15 +8,37 @@ category: work
 related_publications: true
 ---
 
-<br><br>
+<br>
+
+```
+ SUMO (.xml, .csv, .parquet)
+        ↓
+ [Preprocessing Python]
+   → vehicle positions, timestamps, edge attributes
+        ↓
+ [VGGT / QuantVGGT]
+   → 3D dense reconstruction of road scene
+        ↓
+ [St4RTrack]
+   → temporal alignment, world-space tracking (4D point cloud)
+        ↓
+ [Unreal Engine 5 (UE5)]
+   → render & VR visualization (digital twin Geneva)
+        ↓
+ [OSC interface]
+   → auralization of traffic noise
+```
+
+<br>
+
 
 
 
 | Paper / Clue                                                                                             | Conference / Publication / Notes | Relation to “Single Image → Forward Facing 3D” / Differences                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| *One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization*                   | NeurIPS 2023                     | Processes a single image to reconstruct a **full 3D mesh (360° object)** in a feed-forward way. Not restricted to forward-facing views.                                                                |
-| *Wonderland: Navigating 3D Scenes from a Single Image*                                                   | CVPR 2025                        | Constructs 3D scenes (beyond single objects) from a single image, using techniques like 3D Gaussian Splatting. Not limited to forward-only fields.                                                     |
-| *Acc3D: Accelerating Single Image to 3D Diffusion Models via Edge Consistency Guided Score Distillation* | **CVPR 2025**                    | Focuses on accelerating single-image → 3D model generation using diffusion, with edge consistency and distillation. Works for multi-view / full 3D reconstruction, not strictly “forward-facing only.” |
+| One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization                  | NeurIPS 2023                     | Processes a single image to reconstruct a **full 3D mesh (360° object)** in a feed-forward way. Not restricted to forward-facing views.                                                                |
+| Wonderland: Navigating 3D Scenes from a Single Image                                                   | CVPR 2025                        | Constructs 3D scenes (beyond single objects) from a single image, using techniques like 3D Gaussian Splatting. Not limited to forward-only fields.                                                     |
+| Acc3D: Accelerating Single Image to 3D Diffusion Models via Edge Consistency Guided Score Distillation | **CVPR 2025**                    | Focuses on accelerating single-image → 3D model generation using diffusion, with edge consistency and distillation. Works for multi-view / full 3D reconstruction, not strictly “forward-facing only.” |
 
 
 
