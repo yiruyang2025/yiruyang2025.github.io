@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Multimodal
-description: Deep Learning, MedGamma, Into A Hospital, SCAI
+description: Deep Learning, MedGamma, Into A Hospital
 img: assets/img/4.jpg
 importance: 4
 category: work
