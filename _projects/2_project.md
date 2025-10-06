@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: A Differentiable FLAME Layer for Non-Rigid Reconstruction, CVG
+description: 2d -> 3d Reconstruction, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -24,18 +24,6 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 <br>
 
-FLAME itself is a differentiable function of linear + LBS, so it can be embedded in a neural network as a differentiable layer
-
-```
-Image → Encoder (CNN / Diffusion)
-       → Differentiable FLAME Layer
-       → Gaussian Splatting Renderer
-       → Loss (Photo + Elastic + Consistency / xxxxx)
-```
-
-<br>
-
-Geometry-Consistent Single-Image 3D Reconstruction via Rectified Flow and Gaussian Splatting
 
 Bernd Bickel
 
