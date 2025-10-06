@@ -65,6 +65,7 @@ These works collectively enable a unified vision of geometry-aware generative mo
 
 ## Some Charming / Cute Things
 
+<br>
 
 - [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
 
