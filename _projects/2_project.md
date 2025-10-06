@@ -29,7 +29,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 <br>
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL, FrontierNet
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
