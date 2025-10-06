@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: 4d Non-Rigid Reconstruction, CVG
+description: A Differentiable FLAME Layer for Non-Rigid Reconstruction, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -24,8 +24,43 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 <br>
 
+FLAME itself is a differentiable function of linear + LBS, so it can be embedded in a neural network as a differentiable layer
 
-**Related Coursework**
+```
+Image → Encoder (CNN / Diffusion)
+       → Differentiable FLAME Layer
+       → Gaussian Splatting Renderer
+       → Loss (Photo + Elastic + Consistency / xxxxx)
+```
+
+<br>
+
+Geometry-Consistent Single-Image 3D Reconstruction via Rectified Flow and Gaussian Splatting
+
+Bernd Bickel
+
+[2023 - Design and fabrication of materials with desired deformation behavior](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bt-QKXYAAAAJ&pagesize=80&citation_for_view=Bt-QKXYAAAAJ:UeHWp8X0CEIC)
+
+
+
+[2023 - Dense 4D nanoscale reconstruction of living brain tissue](https://www.nature.com/articles/s41592-023-01936-6)
+
+
+
+<br>
+
+
+[2025 - FLAME-guided Gaussian Initialization - Cafca with FLAME parameters](https://syntec-research.github.io/Cafca/cafca_dataset.html)
+
+<br>
+
+
+These works collectively enable a unified vision of geometry-aware generative modeling — bridging physically-grounded computational design (Bickel et al.) with modern diffusion-based 3D synthesis (Rectified Flow + Gaussian Splatting). In essence, they transform image generation into spatial reasoning.
+
+
+<br>
+
+## Related Coursework
 
 - ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
 
@@ -38,9 +73,8 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 <br>
 
-## Some Charming Things
+## Some Charming / Cute Things
 
-<br>
 
 - [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
 
