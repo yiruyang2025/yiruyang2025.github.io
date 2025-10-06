@@ -22,29 +22,6 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 ## Topics
 
-<br>
-
-
-Bernd Bickel
-
-[2023 - Design and fabrication of materials with desired deformation behavior](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bt-QKXYAAAAJ&pagesize=80&citation_for_view=Bt-QKXYAAAAJ:UeHWp8X0CEIC)
-
-
-
-[2023 - Dense 4D nanoscale reconstruction of living brain tissue](https://www.nature.com/articles/s41592-023-01936-6)
-
-
-
-<br>
-
-
-[2025 - FLAME-guided Gaussian Initialization - Cafca with FLAME parameters](https://syntec-research.github.io/Cafca/cafca_dataset.html)
-
-<br>
-
-
-These works collectively enable a unified vision of geometry-aware generative modeling — bridging physically-grounded computational design (Bickel et al.) with modern diffusion-based 3D synthesis (Rectified Flow + Gaussian Splatting). In essence, they transform image generation into spatial reasoning.
-
 
 <br>
 
