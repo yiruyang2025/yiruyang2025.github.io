@@ -50,7 +50,7 @@ These works collectively enable a unified vision of geometry-aware generative mo
 
 ## Related Coursework
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL, FrontierNet
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
