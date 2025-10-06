@@ -33,8 +33,8 @@ latest_posts:
 - For lifelong study - Richard P. Feynman, [OrGo.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
 
 - 📍 [Thesis 1](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
-- 📍 [Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - `Organ Reconstruction and Deformation`, St4RTrack, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
-- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, BANMo, [CVG](https://cvg.ethz.ch/)
+- 📍 [Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - `Organ Reconstruction and Deformation`, [CVG](https://cvg.ethz.ch/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
+- 📍 [Thesis 3](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, BANMo, St4RTrack, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - MedGamma, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 5](https://yiruyang2025.github.io/projects/5_project/) - Scientific computing acceleration
 
