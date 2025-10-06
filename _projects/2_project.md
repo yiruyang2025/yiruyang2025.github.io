@@ -50,6 +50,8 @@ These works collectively enable a unified vision of geometry-aware generative mo
 
 ## Related Coursework
 
+<br>
+
 - ViT, DINOv3, SAM2, Diffusion, Flow-matching, Clip, RL, FrontierNet
 
 
