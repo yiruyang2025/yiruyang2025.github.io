@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Multi-view 4d Reconstruction, CVG
+description: A Differentiable FLAME Layer, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
