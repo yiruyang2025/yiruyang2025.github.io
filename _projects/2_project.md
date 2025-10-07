@@ -151,6 +151,12 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 <br>
 
+  - StreamSplat: A Framework for Self-Supervised, Online Novel View Synthesis
+    -  Friday Oct 10th, 15:00-15:30 Zurich Time
+
+
+<br>
+
 
 ```
    +-------------------+
