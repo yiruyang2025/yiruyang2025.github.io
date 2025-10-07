@@ -120,9 +120,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 
 
-
-
-
 <br>
 
 **Attended Master Thesis Project Defense at cvg**
