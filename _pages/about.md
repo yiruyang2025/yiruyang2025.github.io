@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 2](https://yiruyang2025.github.io/projects/2_project/) - `Organ Reconstruction and Deformation`, [...](https://igl.ethz.ch/publications/), [TetGen](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
 - 📍 [Thesis 3](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, BANMo, St4RTrack, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 4](https://yiruyang2025.github.io/projects/4_project/) - MedGamma, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- [Thesis 5](https://yiruyang2025.github.io/projects/5_project/) - Scientific computing acceleration
+- [Thesis 5](https://yiruyang2025.github.io/projects/5_project/) - Scientific computing acceleration / Robots Perception with Memory Modules
 
 <br>
 
