@@ -203,6 +203,16 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 | **2002** | **Bounded-Distortion Piecewise Mesh Parameterization**                                                               | ⚙️ Mesh Optimization | Minimizes distortion under bounded mapping constraints.                                     | **Conformal Geometry + Convex Optimization**           |
 
 
+<br>
+
+| Cluster                              | Core Question                                                              | Mathematical Foundation                            |
+| ------------------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------- |
+| **Mesh Generation**                  | How to *construct* a valid geometric discretization (surface/volume)?      | Computational Geometry, Discretization Theory      |
+| **Mesh Optimization**                | How to *refine* geometry under energy, curvature, or fairness constraints? | Variational Optimization, Differential Geometry    |
+| **Hybrid / Differentiable Meshes**   | How to *jointly generate & optimize* with gradients and neural fields?     | Differentiable Geometry, Variational Calculus      |
+| **Topology & Parameterization**      | How to control connectivity, distortion, or developability?                | Riemannian / Conformal Geometry, Topology          |
+| **Spectral & Operator Analysis**     | How to analyze shape via Laplacian operators?                              | Spectral Theory, Linear Algebra                    |
+| **Neural / Implicit Representation** | How to represent geometry as continuous fields (Neural SDFs)?              | Functional Approximation, Implicit Function Theory |
 
 
 
