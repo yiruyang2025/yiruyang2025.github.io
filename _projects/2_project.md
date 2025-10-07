@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Organ Reconstruction and Deformation, CVG
+description: Organ Reconstruction and Deformation
 img: assets/img/4.jpg
 importance: 2
 category: work
