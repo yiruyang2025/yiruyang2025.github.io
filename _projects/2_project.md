@@ -145,6 +145,13 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 <br>
 
 
+  - 09 Oct 2025 - Controllable Visual Generation using 3D prior
+    - HIL D 55.2, ETH Hönggerberg, 14:00
+
+
+<br>
+
+
 ```
    +-------------------+
    |   Canonical Mesh  |
