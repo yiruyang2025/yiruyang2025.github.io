@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - A Digital Geneva
-description: CVG
+title: 2025 - Thesis - 4d Animal Avatars from Videos
+description: Mesh Gen
 img: assets/img/4.jpg
 importance: 3
 category: work
