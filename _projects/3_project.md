@@ -11,6 +11,15 @@ related_publications: true
 <br>
 
 
+
+## Some Charming / Cute Things
+
+<br>
+
+- [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
+
+
+
 | Paper / Clue                                                                                             | Conference / Publication / Notes | Relation to “Single Image → Forward Facing 3D” / Differences                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization                  | NeurIPS 2023                     | Processes a single image to reconstruct a **full 3D mesh (360° object)** in a feed-forward way. Not restricted to forward-facing views.                                                                |
