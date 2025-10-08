@@ -29,7 +29,8 @@ latest_posts:
 - Programming - `Python`, Node.js, (C++), PyTorch, `TPU / GPU parallel Training`, Jax, TensorFlow
 
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [OrGo.ai](https://yiruyang2025.github.io/blog/2025/OrganVas.ai-25/)
-<br>
+
+
 - [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4d Reconstruction`, UZH AI, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, [CVG](https://cvg.ethz.ch/)
