@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Organ Reconstruction and Deformation
+description: Perception in A Digital City
 img: assets/img/4.jpg
 importance: 2
 category: work
