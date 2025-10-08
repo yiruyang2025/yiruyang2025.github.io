@@ -40,7 +40,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Backbones, Perception, Mesh Gen, Quantum Computing
+  - Backbones, `Perception`, Mesh Gen, Quantum Computing
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 
