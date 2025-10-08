@@ -16,8 +16,6 @@ related_publications: true
 
 Dr. Ulrike Wissen, Dr. Jonas Egeler, 
 
-[TetGen for Simulation](https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1)
-
 <br>
 
 ## Topics
@@ -99,13 +97,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-
-<br>
-
-[T-PAMI 2025 DiffMVS & CasDiffMVS](https://www.linkedin.com/posts/fangjinhua-wang-4ba2aa150_computervision-3dvision-3dreconstruction-ugcPost-7369084868091170816-ZdVh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-
-
-  - [codebase](https://colab.research.google.com/drive/1krSH8BB3EcN5ISZuHwaGF4i4FGOzg63i?usp=sharing)
 
 <br>
 
@@ -369,43 +360,8 @@ Surgical plan → PDF / PNG / QR + optional STL for printing
 
 
 
-
 <br><br>
 
-
-## Build A 4D Vision Feature Extractor, test on Semantic Head / Heads
-
-<br>
-
-```
-             Input Data (4D sequence)
-                 (clothes, etc.)
-                        │
-                        ▼
-           **Vision Feature Extractor**
-                 (Non-Rigid ViT)
-                        │
-         High-level spatiotemporal features
-                        │
-                        ▼
-             ┌──────────────────────────┐
-             │    **Semantic Head**     │
-             │ - Semantic Keypoints     │
-             │ - Segmentation Maps      │
-             │ - Space-Time Transformer │
-             │ - (Optional) VLM Module  │
-             └──────────────────────────┘
-                        │
-     Sparse keypoints + region maps + temporal cues + optional language embeddings
-                        │
-                        ▼
-             Downstream Controller / Robot
-             - Folding sequences
-             - Grasp planning
-             - Task sequencing (fold / hang / place)
-```
-
-<br>
 
 ## Semantic Heads
 
