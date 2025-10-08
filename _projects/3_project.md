@@ -10,29 +10,6 @@ related_publications: true
 
 <br>
 
-```
- SUMO (.xml, .csv, .parquet)
-        ↓
- [Preprocessing Python]
-   → vehicle positions, timestamps, edge attributes
-        ↓
- [VGGT / QuantVGGT]
-   → 3D dense reconstruction of road scene
-        ↓
- [St4RTrack]
-   → temporal alignment, world-space tracking (4D point cloud)
-        ↓
- [Unreal Engine 5 (UE5)]
-   → render & VR visualization (digital twin Geneva)
-        ↓
- [OSC interface]
-   → auralization of traffic noise
-```
-
-<br>
-
-
-
 
 | Paper / Clue                                                                                             | Conference / Publication / Notes | Relation to “Single Image → Forward Facing 3D” / Differences                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
