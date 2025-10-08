@@ -40,12 +40,26 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler,
 
 <br>
 
-## Some Charming / Cute Things
-
 <br>
 
-- [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
-
+```
+ SUMO (.xml, .csv, .parquet)
+        ↓
+ [Preprocessing Python]
+   → vehicle positions, timestamps, edge attributes
+        ↓
+ [VGGT / QuantVGGT]
+   → 3D dense reconstruction of road scene
+        ↓
+ [St4RTrack]
+   → temporal alignment, world-space tracking (4D point cloud)
+        ↓
+ [Unreal Engine 5 (UE5)]
+   → render & VR visualization (digital twin Geneva)
+        ↓
+ [OSC interface]
+   → auralization of traffic noise
+```
 
 
 <br>
