@@ -36,12 +36,12 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Multi-view 4d Reconstruction`, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/3_project/) -  `4d Animal Avatars from Videos`, [CVG](https://cvg.ethz.ch/)
 - [Thesis](https://yiruyang2025.github.io/projects/4_project/) - MedGamma, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- [Thesis](https://yiruyang2025.github.io/projects/5_project/) - Scientific computing acceleration (PSI, CERN) / Robots Perception with Memory Modules
+- [Thesis](https://yiruyang2025.github.io/projects/5_project/) - Robots Perception with Memory Modules / Scientific computing acceleration (PSI, CERN)
 
 <br>
 
 **Interests**
-  - Backbones, Mesh Gen, Quantum Computing
+  - Backbones, Perception, Mesh Gen, Quantum Computing
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 
