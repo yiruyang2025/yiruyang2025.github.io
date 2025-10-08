@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Hidden Space Alignment
-description: Deep Learning
+description: Stabilizing the Knowledge Distillation (Training)
 img: assets/img/4.jpg
 importance: 1
 category: work
