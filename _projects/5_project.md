@@ -59,18 +59,18 @@ related_publications: true
 ## AI for Scientific Computing Accleration
 
 ```
-                          ┌──────────────────────────┐
-                          │     Mathematical Physics │
-                          │ (Rigorous structure, symmetry) │
-                          └────────────┬─────────────┘
+                          ┌───────────────────────────────┐
+                          │     Mathematical Physics      │
+                          │ (Rigorous structure, symmetry)│
+                          └────────────┬──────────────────┘
                                        │
           ┌────────────────────────────┼────────────────────────────┐
           │                            │                            │
    ┌──────▼──────┐              ┌──────▼──────┐              ┌──────▼──────┐
-   │ Classical   │              │ Quantum      │              │ Relativity  │
-   │ Mechanics   │              │ Mechanics    │              │ (Special /  │
-   │ (Lagrange,  │              │ (Hilbert,    │              │ General)    │
-   │ Hamiltonian)│              │ Operators)   │              │ (Spacetime) │
+   │ Classical   │              │ Quantum     │              │ Relativity  │
+   │ Mechanics   │              │ Mechanics   │              │ (Special /  │
+   │ (Lagrange,  │              │ (Hilbert,   │              │ General)    │
+   │ Hamiltonian)│              │ Operators)  │              │ (Spacetime) │
    └──────┬──────┘              └──────┬──────┘              └──────┬──────┘
           │                            │                            │
           │                            │                            │
