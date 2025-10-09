@@ -74,7 +74,7 @@ related_publications: true
    └──────┬──────┘              └──────┬──────┘              └──────┬──────┘
           │                            │                            │
           │                            │                            │
-          └──────────────┬─────────────┴──────────────┬──────────────┘
+          └──────────────┬─────────────┴──────────────┬─────────────┘
                          │                            │
               ┌──────────▼──────────┐         ┌────────▼───────────┐
               │ Quantum Field Theory│         │ Statistical Physics│
@@ -86,8 +86,8 @@ related_publications: true
          │ Condensed Matter Theory      │   │ Particle / Nuclear    │
          │ (Many-body, Topological)     │   │ Physics (SM, QCD, QED)│
          └───────────────┬──────────────┘   └──────────┬────────────┘
-                         │                            │
-                         ▼                            ▼
+                         │                             │
+                         ▼                             ▼
                  ┌────────────────────────┐  ┌─────────────────────────────┐
                  │   Quantum Gravity      │  │    Cosmology / Astrophysics │
                  │ (LQG, String, M-Theory)│  │ (Inflation, Dark Matter)    │
