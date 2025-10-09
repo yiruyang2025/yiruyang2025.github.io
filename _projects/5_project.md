@@ -15,6 +15,108 @@ related_publications: true
 <br>
 
 
+## The Theoretical Map
+
+```
+                ┌───────────────────────────────────┐
+                │     Unified Field Theory (UFT)    │
+                │  → Theory of Everything (TOE)     │
+                │  (String / M-Theory / LQG / GUT)  │
+                └────────────────┬──────────────────┘
+                                 │
+                 ┌───────────────▼──────────────────┐
+                 │ Relativistic Quantum Field Theory│
+                 │ (QED, QCD, Electroweak, SM)      │
+                 └───────────────┬──────────────────┘
+                                 │
+                 ┌───────────────▼────────────────┐
+                 │ Relativistic Field Theory      │
+                 │ (Maxwell, Dirac, Klein-Gordon) │
+                 └───────────────┬────────────────┘
+                                 │
+                 ┌───────────────▼────────────────┐
+                 │ Classical Field Theory         │
+                 │ (Electromagnetism, GR)         │
+                 └───────────────┬────────────────┘
+                                 │
+                 ┌───────────────▼────────────────┐
+                 │ Classical Mechanics            │
+                 │ (Newton, Lagrange, Hamilton)   │
+                 └───────────────┬────────────────┘
+                                 │
+                 ┌───────────────▼─────────────────┐
+                 │ Mathematical Physics Foundation │
+                 │ (Geometry, Algebra, Topology)   │
+                 └─────────────────────────────────┘
+```
+
+
+
+
+<br>
+
+
+## AI for Scientific Computing Accleration
+
+```
+                          ┌──────────────────────────┐
+                          │     Mathematical Physics │
+                          │ (Rigorous structure, symmetry) │
+                          └────────────┬─────────────┘
+                                       │
+          ┌────────────────────────────┼────────────────────────────┐
+          │                            │                            │
+   ┌──────▼──────┐              ┌──────▼──────┐              ┌──────▼──────┐
+   │ Classical   │              │ Quantum      │              │ Relativity  │
+   │ Mechanics   │              │ Mechanics    │              │ (Special /  │
+   │ (Lagrange,  │              │ (Hilbert,    │              │ General)    │
+   │ Hamiltonian)│              │ Operators)   │              │ (Spacetime) │
+   └──────┬──────┘              └──────┬──────┘              └──────┬──────┘
+          │                            │                            │
+          │                            │                            │
+          └──────────────┬─────────────┴──────────────┬──────────────┘
+                         │                            │
+              ┌──────────▼──────────┐         ┌────────▼───────────┐
+              │ Quantum Field Theory│         │ Statistical Physics│
+              │ (Gauge, Renormal.)  │         │ (Thermo, Ensembles)│
+              └──────────┬──────────┘         └────────┬───────────┘
+                         │                             │
+                         │                             │
+         ┌───────────────▼──────────────┐   ┌──────────▼────────────┐
+         │ Condensed Matter Theory      │   │ Particle / Nuclear    │
+         │ (Many-body, Topological)     │   │ Physics (SM, QCD, QED)│
+         └───────────────┬──────────────┘   └──────────┬────────────┘
+                         │                            │
+                         ▼                            ▼
+                 ┌────────────────────────┐  ┌─────────────────────────────┐
+                 │   Quantum Gravity      │  │    Cosmology / Astrophysics │
+                 │ (LQG, String, M-Theory)│  │ (Inflation, Dark Matter)    │
+                 └────────────┬───────────┘  └────────────┬────────────────┘
+                              │                           │
+                              ▼                           ▼
+                       ┌─────────────────────────────┐
+                       │  Unified Theories / TOE     │
+                       │ (AdS/CFT, Supersymmetry,    │
+                       │  Dualities, Holography)     │
+                       └────────────┬────────────────┘
+                                    │
+                                    ▼
+            ┌────────────────────────────────────────────────┐
+            │ Computational & AI-Driven Physics Layer        │
+            │  • Quantum Computing & Quantum Simulation      │
+            │  • AI for Scientific Computing Acceleration    │
+            │  • ML-based PDE Solvers (PINN, Diffusion)      │
+            │  • Symbolic AI for Theory Discovery            │
+            │  • HPC + Quantum Hybrid Simulation             │
+            └────────────────────────────────────────────────┘
+```
+
+
+
+
+<br>
+
+
 ## Quantum Computing Acceleration
 
 
