@@ -120,8 +120,6 @@ related_publications: true
 ## Quantum Computing Acceleration
 
 
-<br>
-
 ```
 ┌────────────────────────────────────────────────────────────┐
 │                  Classical HPC Simulation (GPU/CUDA)       │
