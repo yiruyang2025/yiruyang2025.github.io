@@ -24,7 +24,7 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 <br><br>
 
-10% of the [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) training set -> 2% WER on the same Test sets from the SOTA
+[ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
   - Visual training curves with different amounts of training dataset
 
