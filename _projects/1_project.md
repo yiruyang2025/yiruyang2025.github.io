@@ -10,9 +10,7 @@ related_publications: true
 
 <br>
 
-**Whisper-large-v3-turbo, ~0.809 B** - Sep 2024 → `our_model_Säuseln` + LoRA-guided Distillation
-
-parallel training on `Student Cluster`, with **Contrastive Learning in the Hidden Space**
+parallel training on Student Cluster, Stabilizing the Training
 
 
 <br><br>
@@ -28,13 +26,14 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
   - Visual training curves with different amounts of training dataset
 
+  - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
+
+  - [📍 What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
+
+
 <br>
 
-[📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
-
-[What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
-
-<br>
+## Background Knowledge
 
 | **Year** | **Model**                         | **Number of Layers** | **Parameter Count** | **FLOPs (per inference)** | **Activations (per forward pass)** | **Typical Memory Footprint**          |
 | -------- | --------------------------------- | -------------------- | ------------------- | ------------------------- | ---------------------------------- | ------------------------------------- |
