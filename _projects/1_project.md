@@ -72,8 +72,8 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
  │   Decoder     │                                │   Decoder + KV Cache   │
  │  (Self-Attn)  │                                │  (Self-Attn + Storage) │
  └───────┬───────┘                                └──────────┬─────────────┘
-         │                                                     │
-         ▼                                                     ▼
+         │                                                   │
+         ▼                                                   ▼
  ┌───────────────┐                                ┌─────────────────────────┐
  │ Recompute all │   O(n²) per step               │  Reuse stored K/V       │
  │ past tokens   │ -----------------------------> │  Only new Q calculated  │
@@ -1003,7 +1003,6 @@ Motivation for Discrete Latent Audio Representations
 
 ## Gradient Checkpointing
 
-<br>
 
 ```
 Forward Pass:
