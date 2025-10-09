@@ -36,30 +36,15 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 <br>
 
-| **Year** | **Model**                     | **Number of Layers** | **Parameter Count** |
-| -------- | ----------------------------- | -------------------- | ------------------- |
-| **1998** | LeNet                         | 5                    | ~0.1M               |
-| **2012** | AlexNet                       | 8                    | 60M                 |
-| **2015** | VGG16                         | 16                   | 138M                |
-| **2016** | ResNet-152                    | 152                  | 60M                 |
-| **2018** | BERT-Large                    | 24                   | 340M                |
-| **2020** | GPT-3                         | 96                   | 175B                |
-| **2024** | GPT-4 / Gemini 1.5 / Claude 3 | ~120 – 200           | > 1 T (trillion)    |
-
-
-
-
-<br>
-
-
-| Component / Module                                         | Deep Learning Mechanism                                                                                                                                       | Function & Experimental Design                                                                                                                                                       |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Whisper-large-v3-turbo (~0.809 B)**                      | Transformer encoder–decoder architecture                                                                                                                      | Teacher model for speech-to-text ASR; provides hidden-space distributions or logits for distillation                                                                                 |
-| **LoRA-Guided Distillation**                               | Adapter / low-rank matrix injection into Transformer layers                                                                                                   | Student model (**our_model_Säuseln**) uses LoRA to efficiently approximate the teacher’s representations with far fewer trainable parameters                                         |
-| **Contrastive Learning in Hidden Space**                   | Contrastive losses (InfoNCE, cosine similarity, KL, MSE)                                                                                                      | Aligns student and teacher hidden states for richer representation transfer beyond plain logits                                                                                      |
-| **Knowledge Distillation**                                 | Transfer between deep models (teacher → student)                                                                                                              | Combined loss: CTC / cross-entropy + KL divergence + hidden alignment / contrastive loss                                                                                             |
-| **Parallel Training on Student Cluster**                   | Data Parallel: split batches across multiple GPUs for simultaneous forward/backward passes<br>Model Parallel (optional): split large layers/heads across GPUs | Implemented via `torch.distributed`, Hugging Face Accelerate, or DeepSpeed; ensures scalable and efficient training of the student model                                             |
-| **Visual Training Curves with Different Data Proportions** | Typical deep-learning experiment design                                                                                                                       | Train with 10% → 25% → 50% of the ASR SOTA dataset; visualize Loss, WER, and Hidden-Similarity curves to show performance vs. data scale, in line with deep-learning paper standards |
+| **Year** | **Model**                         | **Number of Layers** | **Parameter Count** | **FLOPs (per inference)** | **Activations (per forward pass)** | **Typical Memory Footprint**          |
+| -------- | --------------------------------- | -------------------- | ------------------- | ------------------------- | ---------------------------------- | ------------------------------------- |
+| **1998** | **LeNet**                         | 5                    | ~0.1 M              | ~0.001 GFLOPs             | < 1 MB                             | < 10 MB                               |
+| **2012** | **AlexNet**                       | 8                    | 60 M                | ~1.5 GFLOPs               | ~100 MB                            | ~1 GB                                 |
+| **2015** | **VGG-16**                        | 16                   | 138 M               | ~15 GFLOPs                | ~200 MB                            | ~2–4 GB                               |
+| **2016** | **ResNet-152**                    | 152                  | 60 M                | ~11 GFLOPs                | ~250 MB                            | ~4–6 GB                               |
+| **2018** | **BERT-Large**                    | 24                   | 340 M               | ~180 GFLOPs               | ~1 GB                              | ~10–12 GB                             |
+| **2020** | **GPT-3**                         | 96                   | 175 B               | ~3.1 × 10¹² FLOPs         | ~20 GB                             | ~350 GB (weights) / > 1 TB (training) |
+| **2024** | **GPT-4 / Gemini 1.5 / Claude 3** | ~120 – 200           | > 1 T (trillion)    | ~10¹³ – 10¹⁴ FLOPs        | > 50 GB (activations)              | Multiple TB (large-scale training)    |
 
 
 
