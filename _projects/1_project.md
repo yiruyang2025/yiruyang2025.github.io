@@ -17,10 +17,9 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 
 <br><br>
 
-  - Dynamic Demo_1 - Hidden Space Alignment
+ - Hidden Space Alignment
 
-
-  - Dynamic Demo_2 - Training Loss with different traning set amount
+ - Training Loss with different traning set amount
 
 
 <br><br>
@@ -46,6 +45,20 @@ parallel training on `Student Cluster`, with **Contrastive Learning in the Hidde
 | **Knowledge Distillation**                                 | Transfer between deep models (teacher → student)                                                                                                              | Combined loss: CTC / cross-entropy + KL divergence + hidden alignment / contrastive loss                                                                                             |
 | **Parallel Training on Student Cluster**                   | Data Parallel: split batches across multiple GPUs for simultaneous forward/backward passes<br>Model Parallel (optional): split large layers/heads across GPUs | Implemented via `torch.distributed`, Hugging Face Accelerate, or DeepSpeed; ensures scalable and efficient training of the student model                                             |
 | **Visual Training Curves with Different Data Proportions** | Typical deep-learning experiment design                                                                                                                       | Train with 10% → 25% → 50% of the ASR SOTA dataset; visualize Loss, WER, and Hidden-Similarity curves to show performance vs. data scale, in line with deep-learning paper standards |
+
+
+
+<br>
+
+| **Stage**                   | **Method**                                  | **Purpose / Effect**                                        |
+| --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
+| **Initialization Stage**    | Xavier / He initialization                  | Avoid falling into poor regions at the start                |
+| **Early Exploration Stage** | Large learning rate + Momentum              | Maintain global exploration ability                         |
+| **Mid Convergence Stage**   | Adam / RMSProp + Cosine Annealing           | Ensure smooth descent and curvature adaptation              |
+| **Late Fine-tuning Stage**  | SAM / Entropy-SGD / Weight Decay            | Locate flat minima and enhance generalization               |
+| **During Training**         | Mini-batch noise + Dropout                  | Prevent getting stuck at saddle points                      |
+| **Architectural Level**     | Residual connections / Normalization layers | Improve gradient flow and smooth the optimization landscape |
+
 
 
 
