@@ -14,7 +14,7 @@ images:
 
 <br>
 
-let's collect pretty things here
+Pretty / Brilliant things here
 
 
 
