@@ -70,7 +70,7 @@ On Student Cluster
 <br>
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project1_5.jpg" alt="Project 1 Visualization" width="40%">
+  <img src="https://yiruyang2025.github.io/assets/img/project1_5.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 
