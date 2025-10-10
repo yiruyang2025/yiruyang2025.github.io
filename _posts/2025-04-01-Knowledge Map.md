@@ -59,7 +59,7 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 Systems on Chips (Cuda, HPC, 25)
 
-[Graph Theory](https://video.ethz.ch/lectures/d-math/2020/spring/401-3052-10L.html)
+Graph Theory
 
 (Lie Group and Riemannian Geometry)
 
