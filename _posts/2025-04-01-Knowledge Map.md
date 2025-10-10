@@ -14,7 +14,7 @@ images:
 
 <br>
 
-Pretty / Brilliant things here
+Pretty things here
 
 
 
