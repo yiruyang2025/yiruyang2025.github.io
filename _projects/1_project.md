@@ -1013,6 +1013,162 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
+## Background Knowledge 2
+
+```
+[Training Neural Network]
+      │
+      ▼
+[Problem: Overfitting]
+      │  model performs well on train set
+      └─ poor generalization on unseen data
+      ▼
+[Regularization Strategies]
+      │
+      ├─ L1 Regularization → add |w| penalty
+      │     encourages sparsity, feature selection
+      │
+      ├─ L2 Regularization (Weight Decay)
+      │     adds w² penalty, smooths weights
+      │     reduces variance, stabilizes gradients
+      │
+      ├─ Early Stopping
+      │     monitor validation loss → stop early
+      │
+      ├─ Data Augmentation
+      │     enlarge dataset (flip, crop, color jitter)
+      │     improves robustness & invariance
+      │
+      └─ Dropout
+            randomly deactivate neurons (mask m)
+            prevents co-adaptation
+            during inference: scale activations by p
+      ▼
+[Normalization Layers]
+      │
+      ├─ Batch Normalization (BN)
+      │     normalize activations per mini-batch
+      │     μ_B, σ_B computed over batch samples
+      │     then apply γ (scale) + β (shift)
+      │     allows larger learning rate & faster training
+      │
+      ├─ Layer Normalization (LN)
+      │     normalize across features, not batch
+      │     used in Transformers (batch-size independent)
+      │
+      └─ Effect:
+            stabilizes gradient flow
+            reduces internal covariate shift
+            improves convergence speed
+      ▼
+[Residual Connections]
+      │
+      └─ skip connection y = F(x) + x
+            eases gradient propagation
+            enables very deep CNNs (ResNet)
+      ▼
+[Combined Strategy]
+      │
+      ├─ Regularization (L1/L2)
+      ├─ Dropout
+      ├─ Batch Normalization
+      └─ Data Augmentation
+      ▼
+[Result]
+      │
+      └─ High generalization, stable training,
+         smoother optimization landscape,
+         reduced overfitting risk
+```
+
+```
+[Closed-Set Classification]
+      │
+      └─ assumes all test classes are known
+         model outputs one of O fixed labels
+      ▼
+[Open-Set Problem]
+      │
+      ├─ real-world contains unknown categories
+      ├─ standard SoftMax → overconfident wrong predictions
+      └─ need to reject unseen (unknown) samples
+      ▼
+[Goal: Open-Set Recognition]
+      │
+      ├─ recognize known classes correctly
+      └─ detect / reject unknown classes (OOD)
+      ▼
+[Two Main Paradigms]
+      │
+      ├─ Two-Stage OSR
+      │     Stage 1: detect unknowns (OOD)
+      │     Stage 2: classify known samples
+      │
+      └─ Integrated OSR
+            single model learns known + reject class
+            adds “unknown” logits or rejection threshold
+      ▼
+[Core Approaches]
+      │
+      ├─ OSDN (Open-Set Deep Network)
+      │     compute Mean Activation Vector (MAV)
+      │     distance D_o = ||ϕ - μ_o||
+      │     fit EVT (Extreme Value Theory) model to tails
+      │
+      ├─ GHOST (Gaussian Hypothesis OSR)
+      │     per-class Gaussian modeling in feature space
+      │     normalize logits by (μ_o, σ_o)
+      │     provides calibrated confidence
+      │
+      ├─ Garbage / Background Class
+      │     add class y₀ for “none of the above”
+      │     weighted loss: λ_τ = N / ((O+1)N_τ)
+      │
+      ├─ Entropic Open-Set Loss
+      │     for unknowns, enforce uniform SoftMax
+      │     target: t_o = 1/O for all o
+      │     equalizes logits → high entropy
+      │
+      └─ Confidence Thresholding
+            use ζ threshold on SoftMax
+            accept if max(ŷ_o) > ζ, else reject
+      ▼
+[Training]
+      │
+      ├─ Known samples: one-hot targets
+      ├─ Unknown samples: uniform targets
+      └─ Loss combines CE + Entropic term
+      ▼
+[Evaluation Metrics]
+      │
+      ├─ CCR (Correct Classification Rate)
+      │     true positives among known samples
+      │
+      ├─ FPR (False Positive Rate)
+      │     unknowns misclassified as knowns
+      │
+      └─ OSCR Curve (CCR vs FPR)
+            area under curve (AUOSCR) = performance
+      ▼
+[Modern Implementations]
+      │
+      ├─ ImageNet-based OSR protocols (P1–P3)
+      ├─ Feature-space Gaussian models (GHOST)
+      ├─ Entropic loss + background class hybrid
+      └─ Evaluation by AIML UZH / WACV 2023
+      ▼
+[Outcome]
+      │
+      └─ OSR enables reliable recognition under uncertainty:
+         “I know what I know — and I know what I don’t.”
+```
+
+
+
+
+
+<br>
+
 ```
 VQ-VAE
 
