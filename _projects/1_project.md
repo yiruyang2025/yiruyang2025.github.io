@@ -77,15 +77,64 @@ Underfitting:     Overfitting:        Good Embedding:
 | Concept                            | Definition                                                                                                                                                               | Origin / Reference                                                                              | Role in Neural Networks                                                                                                                                    |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Jacobian Matrix**                | A matrix composed of all first-order partial derivatives of a multivariate function, representing how each output dimension changes with respect to each input variable. | *Carl Gustav Jacob Jacobi* (19th century)                                                       | Encodes the local linear transformation of the network’s mapping; fundamental to gradient propagation and sensitivity analysis.                            |
-| **Automatic Differentiation (AD)** | A computational technique that systematically applies the chain rule to evaluate derivatives of functions expressed as computer programs, with machine precision.        | *Seppo Linnainmaa* (1970), *Backpropagation popularized by Rumelhart, Hinton & Williams (1986)* | Enables efficient and exact gradient computation for optimization and learning through forward and reverse mode differentiation (backpropagation).         |
-| **Vectorization**                  | The process of expressing scalar operations in terms of matrix and vector computations, allowing simultaneous execution over entire data batches or network layers.      | Developed and popularized by *Yann LeCun* and contemporaries during the 1980s–1990s             | Allows efficient parallelized computation of gradients and activations using linear algebra routines (e.g., BLAS, GPU acceleration).                       |
+| **Automatic Differentiation (AD)** | A computational technique that systematically applies the chain rule to evaluate derivatives of functions expressed as computer programs, with machine precision.        | Seppo Linnainmaa (1970), Backpropagation popularized by Rumelhart, Hinton & Williams (1986) | Enables efficient and exact gradient computation for optimization and learning through forward and reverse mode differentiation (backpropagation).         |
+| **Vectorization**                  | The process of expressing scalar operations in terms of matrix and vector computations, allowing simultaneous execution over entire data batches or network layers.      | Developed and popularized by Yann LeCun and contemporaries during the 1980s–1990s             | Allows efficient parallelized computation of gradients and activations using linear algebra routines (e.g., BLAS, GPU acceleration).                       |
 | **Matrix ∂z/∂W(2)**                | The Jacobian of the second-layer pre-activation vector **z** with respect to the layer’s weight matrix **W(2)**; typically of shape *(O × O(K+1))*.                      | Derived from vectorized backpropagation formalism                                               | Represents the structured relationship between output derivatives and weight parameters, enabling compact gradient computation via matrix multiplications. |
 | **Significance**                   | Expresses the full gradient structure in a compact algebraic form, unifying all partial derivatives.                                                                     | Enables large-scale parallelization and eliminates explicit for-loops in gradient computation.  | Forms the mathematical foundation of efficient deep learning implementations.                                                                              |
 
 
 <br>
 
-| **Stage**                   | **Method**                                  | **Purpose / Effect**                                        |
+```
+[Input  D×E  (image or signal)]
+      │
+      ▼
+[Convolution  U×V  (kernel/filter)]
+      │  learns local spatial patterns
+      │  parameters ≪ fully-connected layers
+      ▼
+[Zero-Padding / Stride Control]
+      │
+      ├─ Padding → keeps size (same)
+      └─ Stride  → downsamples (D−U)/S+1
+      ▼
+[Feature Map  K×M  (activation before nonlinearity)]
+      │
+      ▼
+[Activation  g(a)  → ReLU / Sigmoid / Tanh]
+      │
+      ▼
+[Pooling  R×R  window (Avg / Max / Global)]
+      │
+      ├─ replaces stride for down-sampling
+      ├─ reduces spatial size, increases receptive field
+      └─ enhances translation invariance
+      ▼
+[Stacked Conv + Pooling Layers]
+      │
+      ├─ small kernels (3×3) + pooling ⇒ large receptive field
+      ├─ more layers > larger kernels (prefer depth)
+      └─ weights grow linearly w/ layers
+      ▼
+[Flatten or Global Pooling]
+      │
+      ├─ flatten:  A ∈ ℝ^{Q×K×M} → a ∈ ℝ^{Q·K·M}
+      └─ global pooling:  spatial avg → a ∈ ℝ^{Q}
+      ▼
+[Fully-Connected Layer + Loss]
+      │
+      ├─ Regression → J_L2
+      ├─ Binary → J_BCE
+      └─ Categorical → Softmax + J_CCE
+      ▼
+[Output Prediction y  / Class Probabilities]
+```
+
+
+
+<br>
+
+| Stage                   | **Method**                                  | **Purpose / Effect**                                        |
 | --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
 | **Initialization Stage**    | Xavier / He initialization                  | Avoid falling into poor regions at the start                |
 | **Early Exploration Stage** | Large learning rate + Momentum              | Maintain global exploration ability                         |
