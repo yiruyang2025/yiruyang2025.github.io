@@ -10,8 +10,7 @@ related_publications: true
 
 <br>
 
-parallel training on Student Cluster, Stabilizing the Training
-
+On Student Cluster
 
 <br><br>
 
