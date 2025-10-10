@@ -163,6 +163,11 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 <br>
 
 
+  - Uncertainty-Aware 3D Mapping, Monday, October 13th, 2pm, CNB G 110 and Zoom
+
+
+<br>
+
 ```
    +-------------------+
    |   Canonical Mesh  |
