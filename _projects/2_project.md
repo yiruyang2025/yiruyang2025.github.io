@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: 3D Priors for Scene / Object, CVG
+description: 3D Priors, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -14,7 +14,7 @@ related_publications: true
 
 <br>
 
-Dr. Ulrike Wissen, Dr. Jonas Egeler, 
+Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
 
 <br>
 
