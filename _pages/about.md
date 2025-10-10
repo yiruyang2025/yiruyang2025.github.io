@@ -33,7 +33,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Multi-View 4d Reconstruction`, [UZH AI](https://huggingface.co/UZHedu/datasets), [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Animal Avatars from Videos, CVG
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Animal Avatars from Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - MedGamma, [SCAI](https://scai.ethz.ch/), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - `Scientific Computing Acceleration` / Theoretical Physics
 
