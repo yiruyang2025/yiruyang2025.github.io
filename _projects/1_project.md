@@ -67,6 +67,12 @@ On Student Cluster
 | **MLP**                | **Input Standardization** — rescales each input feature to zero mean and unit variance.                                     | **L2 Regularization (Ridge)** — discourages large parameter magnitudes for smoother mappings.                                | Normalization improves numerical stability; regularization enforces simpler models with better generalization.                        |
 
 
+<br>
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project1_5.jpg" alt="Project 1 Visualization" width="40%">
+</p>
+
 
 <br>
 
