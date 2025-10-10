@@ -69,15 +69,7 @@ Systems on Chips (Cuda, HPC, 25)
 
 (Real Analysis)
 
-
-
 <br><br>
-
-<p align="left">
-  <img src="/assets/img/knowledge_2025.jpg" alt="Knowledge Map" width="75%">
-</p>
-
-<br>
 
 ## 📍 Model Structures
 
