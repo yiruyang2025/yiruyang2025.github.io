@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
- - A100
+ - A100 / H100
 
  - Hidden Space Alignment
 
