@@ -69,6 +69,14 @@ On Student Cluster
 
 <br>
 
+
+| Item              | **L1 Regularization**                                 | **L2 Regularization**                                |
+| ----------------- | ----------------------------------------------------- | ---------------------------------------------------- |
+| **Shape**         | Diamond-shaped constraint                             | Circular constraint                                  |
+| **Optimum Point** | Usually lies on the coordinate axes (sparse solution) | Usually lies on the circle (continuous shrinkage)    |
+| **Result**        | Some weights are “cut” to exactly 0                   | All weights are smoothly reduced but remain non-zero |
+
+
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project1_5.jpg" alt="Project 1 Visualization" width="75%">
 </p>
