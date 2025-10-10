@@ -10,13 +10,12 @@ related_publications: true
 
 <br>
 
-On Student Cluster
 
-<br><br>
+ - A100
 
  - Hidden Space Alignment
 
- - Training Loss with different traning set amount
+ - Training Loss with different training set amounts
 
 
 <br><br>
@@ -33,6 +32,17 @@ On Student Cluster
 <br>
 
 ## Background Knowledge
+
+| Trend                                  | Description                                     | Representative Systems                |
+| -------------------------------------- | ----------------------------------------------- | ------------------------------------- |
+| **Cosine + Warmup → Standard Default** | Most stable across architectures.               | ViT, GPT-J, Whisper, Stable Diffusion |
+| **Adaptive + Restart Hybrids**         | Combine SGDR + ReduceLROnPlateau.               | DeepSpeed, Megatron-LM, PaLM 2        |
+| **Optimizer-Integrated Scheduling**    | Scheduler coupled with optimizer (AdamW, LAMB). | GPT-4, Gemini 1.5, Claude 3           |
+| **Noisy / Stochastic Schedules**       | Inject noise to encourage flat minima.          | Google Brain NAS, RL-based training   |
+| **Dynamic Data-Aware LR Control**      | LR adapted by validation loss or gradient norm. | Reinforcement fine-tuning (RLHF, PPO) |
+
+
+<br>
 
 | **Year** | **Model**                         | **Number of Layers** | **Parameter Count** | **FLOPs (per inference)** | **Activations (per forward pass)** | **Typical Memory Footprint**          |
 | -------- | --------------------------------- | -------------------- | ------------------- | ------------------------- | ---------------------------------- | ------------------------------------- |
