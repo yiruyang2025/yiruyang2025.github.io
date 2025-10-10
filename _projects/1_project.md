@@ -11,8 +11,6 @@ related_publications: true
 <br>
 
 
- - A100 / H100
-
  - Hidden Space Alignment
 
  - Training Loss with different training set amounts
@@ -32,6 +30,8 @@ related_publications: true
 <br>
 
 ## Background Knowledge
+
+<br>
 
 | Trend                                  | Description                                     | Representative Systems                |
 | -------------------------------------- | ----------------------------------------------- | ------------------------------------- |
@@ -53,6 +53,24 @@ related_publications: true
 | **2018** | **BERT-Large**                    | 24                   | 340 M               | ~180 GFLOPs               | ~1 GB                              | ~10–12 GB                             |
 | **2020** | **GPT-3**                         | 96                   | 175 B               | ~3.1 × 10¹² FLOPs         | ~20 GB                             | ~350 GB (weights) / > 1 TB (training) |
 | **2024** | **GPT-4 / Gemini 1.5 / Claude 3** | ~120 – 200           | > 1 T (trillion)    | ~10¹³ – 10¹⁴ FLOPs        | > 50 GB (activations)              | Multiple TB (large-scale training)    |
+
+
+
+<br>
+
+```
+Underfitting:     Overfitting:        Good Embedding:
+ • • • • •        ●●●  ○○○  ▲▲▲       ● ●   ○ ○   ▲ ▲
+ ○ ○ ○ ○ ○        (tight) (tight)      (clear but smooth)
+ ▲ ▲ ▲ ▲ ▲        val points outside   val & train overlap
+```
+
+| Principle                                                                            | Intuition |
+| ------------------------------------------------------------------------------------ | --------- |
+| **Regularization** = adding controlled noise or constraints to prevent memorization. |           |
+| **Overfitting** = perfect fit on training data, poor generalization.                 |           |
+| **Goal** = flatter minima + smoother decision boundaries.                            |           |
+
 
 
 
