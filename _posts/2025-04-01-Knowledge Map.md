@@ -14,7 +14,7 @@ images:
 
 <br>
 
-let's collect some pretty things here
+let's collect pretty things here
 
 
 
