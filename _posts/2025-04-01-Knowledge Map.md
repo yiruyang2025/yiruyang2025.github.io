@@ -53,19 +53,11 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Medical AI / Health Tech](https://www.linkedin.com/in/alankarthi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
-(*Large-Scale AI Engineering, 25)
-
-Geometry for Computational Design and Fabrication
-
-Machine Learning for CFD / Computational Fluid Dynamics
+(*Large-Scale AI Engineering, GH200, 25)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-Advanced Topics in Embodied Intelligence
-
 Systems on Chips (Cuda, HPC, 25)
-
-([Integrated Devices, Electronics, and Systems](https://ideas.ethz.ch/news-and-events/ideas-news/2025/08/new-course-lineup-for-next-fall-semester.html))
 
 [Graph Theory](https://video.ethz.ch/lectures/d-math/2020/spring/401-3052-10L.html)
 
