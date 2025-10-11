@@ -31,7 +31,7 @@ Stable4D ?, Oct 2025
 
 <br>
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, OpenScene, RL
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, OpenScene, Neural Exposure Fields (NExF, selective learning from reliable pixels), 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
