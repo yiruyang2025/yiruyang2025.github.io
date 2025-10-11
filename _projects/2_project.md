@@ -523,7 +523,7 @@ Zero-shot, Co-training, better Generalization, a Feature Extractor
 A FFN for 4d Construction, neat and simple pipeline
 
 
-<br><br><br>
+<br><br>
 
 
 
@@ -534,88 +534,7 @@ A FFN for 4d Construction, neat and simple pipeline
 ## 1. 4D
 
 
-
-
 <br>
-
-## Why FFN
-
-<br>
-
-
-| Category                               | Representative Works / Applications                                                                                                                                                                                                                                                                                                                 |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **FFN in 3D/4D Segmentation**          | **PointNet / PointNet++** (CVPR’17, FFN-style MLP, 3D semantic & instance segmentation) <br> **Flood-Filling Networks** (NeurIPS’17, large-scale neuron segmentation) <br> **Spatio-temporal FFNs** (MICCAI’19, biomedical 4D segmentation)                                                                                                         |
-| **Transformers in 3D/4D Segmentation** | **DINOv3** (Meta, 2025 – open-vocabulary semantic features) <br> **VGGT** (CVPR’25 – geometry + segmentation backbone) <br> **PanSt3R** (CVPR’25, ETH – 4D panoptic segmentation) <br> **MonST3R** (CVPR’25, Meta+ETH – motion-aware segmentation) <br> **Shape of Motion** (CVPR’25, Meta Reality Labs – dynamic 4D reconstruction & segmentation) |
-| **Frameworks (DeepMind / Google)**     | **TensorFlow 3D (TF3D)** – Google/DeepMind 3D segmentation library <br> **TensorFlow 4D (TF4D)** – experimental library for spatio-temporal 4D segmentation                                                                                                                                                                                         |
-| **Industry Applications**              | **Meta Reality Labs** – AR/VR semantic & instance segmentation (Project Aria) <br> **DeepMind** – scene segmentation research (TF3D/TF4D) <br> **NVIDIA Isaac** – 4D obstacle segmentation for robotics <br> **Apple ARKit** – semantic scene segmentation for AR                                                                                   |
-
-<br><br>
-
-
-
-
-## 4d Scene Modeling - Hierarchies
-
-<br>
-
-```
-        Projective
-  (collinearity, cross-ratio)
-                 ↓
-          Affine
-   (parallelism, ratios of areas)
-                 ↓
-          Similarity
-   (ratios of distances, angles)
-                 ↓
-   Tekin et al. (2018): CNN + PnP
-   ---> Upgrade metric → Euclidean
-                 ↓
-          Euclidean (SE(3))
-   (absolute distances, 6D pose)
-                 ↓
-          4D Spatio-temporal
-   (geometry + temporal coherence)
-```
-
-<br>
-
-
-## Pipeline
-
-<br>
-
-```
-                ┌──────────────────────────────┐
-                │   Local Object Dynamics      │
-                │ (SO(3) Forecasting, ICCV’25) │
-                │  - Neural CDE + SG filter    │
-                │  - Robust to noise & forces  │
-                └─────────────┬────────────────┘
-                              │
-            Pose / Rotation Trajectories (SO(3)) 
-                              │
-      ┌───────────────────────▼──────────────────────────┐
-      │           Global 4D Scene Modeling               │
-      │────────────────────────────────────────────────  │
-      │ MonST3R (CVPR’25)  → Geometry in motion          │
-      │ Shape of Motion (CVPR’25) → Shape + motion priors│
-      │ 4DNeX (CVPR’25)   → End-to-end 4D generation     │
-      └─────────────┬───────────────────────┬────────────┘
-                    │                       │
-     ┌──────────────▼─────────────┐   ┌─────▼──────────────┐
-     │ Geometric Backbone         │   │ Semantic Backbone  │
-     │ VGGT (CVPR’25)             │   │ OpenScene (2023)   │
-     │ - Camera intrinsics/extr.  │   │ - Open-vocab 3D    │
-     │ - Depth, 3D tracks         │   │ - Semantic labels  │
-     └────────────────────────────┘   └────────────────────┘
-```
-
-
-
-<br><br><br><br>
-
 
 ## 2. 3D
 
@@ -632,21 +551,6 @@ A FFN for 4d Construction, neat and simple pipeline
 
 <br>
 
-## 📍 Evolution for 3D Vision
-
-<br>
-
-| Level              | Traditional Methods | Frontier Alternatives                                                                             | Applications                                   |
-| ------------------ | ------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| **2D**             | Euclidean / Affine  | Homography + Optical Flow                                                                         | Image stitching, registration                  |
-| **3D Rigid**       | SE(3) rigid motion  | Lie group / Lie algebra optimization (Bundle Adjustment)                                          | SfM, SLAM                                      |
-| **Non-Rigid**      | —                   | Deformation Fields, Dynamic NeRF                                                                  | Human motion, dynamic scene modeling           |
-| **General Scene**  | —                   | NeRF, Gaussian Splatting, **VGGT (Geometry → Transformer)**, TetWeave                             | Full 3D reconstruction                         |
-| **Learning Layer** | —                   | Equivariant GNNs (SE(3)-equivariant nets), **DINOv3 (universal self-supervised visual backbone)** | Representation learning, cross-modal alignment |
-
-
-
-<br>
 
 ```
 [2000s] Classical 2D Stitching
@@ -690,78 +594,8 @@ A FFN for 4d Construction, neat and simple pipeline
 ```
 
 
-
-
 <br>
 
-## CUT3R
-
-<br>
-
-Navigation-level Scene Semantics
-
-
-```
-Sparse RGB / Depth / LiDAR (stream)
-   ↓
-Surface Fitting Module (Point cloud → implicit SDF)
-   ↓
-Continuous LOD generation
-   ↓
-4D Human Profile (geometry + temporal motion)
-   ↓
-Navigation / Control Integration
-   - dynamic path planning
-   - human-aware motion prediction
-```
-
-
-<br><br>
-
-
-## Shape Modeling
-
-<br>
-
-  - Output → Spatiotemporally consistent, topologically correct 4D instance segmentation
-  - The directional SDF formulation and fairness regularization of `TetWeave` can provide topology-safe and smoothly consistent support for the 4D segmentation
-
-<br>
-
-[📍 2025 - TetSphere Splatting: Representing High-Quality Geometry with Lagrangian Volumetric Meshes](https://github.com/gmh14/tssplat)
-
-
-[2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
-
-<br>
-
-```
-On-the-fly Delaunay Triangulation
-(unstructured tetrahedral grid; dynamic connectivity)
-Mathematics: Delaunay(T) → max-min angle, avoids skinny simplices
-                 ↓
-Directional Signed Distance (d-SDF)
-(finer control along edges; spherical harmonics expansion)
-Formula: d(p, θ, φ) = Σ_{l=0}^L Σ_{m=-l}^l c_{lm}(p) Y_{lm}(θ, φ)
-                 ↓
-Marching Tetrahedra Extraction
-(guaranteed watertight, 2-manifold, intersection-free)
-Isosurface: {x ∈ ℝ³ | f(x) = 0}, f from d-SDF over tetrahedral edges
-                 ↓
-Gradient-based Mesh Optimization
-(optimize positions p and coefficients c_{lm})
-Update rule: p ← p - η ∇ₚ L ,   c_{lm} ← c_{lm} - η ∇_{c_{lm}} L
-                 ↓
-Fairness Regularization + Resampling
-(ODT energy + fairness loss; adaptive refinement)
-Fairness loss: L_fair = Σ_T (aspect_ratio(T) - 1)²
-                 ↓
-High-quality Adaptive Mesh
-(memory ~ O(N), scalable to complex 3D shapes)
-```
-
-
-<br><br>
 
 
 ## Models
