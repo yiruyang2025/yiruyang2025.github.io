@@ -685,17 +685,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 
 
-
-
-
-
-<br>
-
-
-<br><br><br>
-
-
-
 <br><br>
 
 
@@ -1205,6 +1194,8 @@ Outputs (Direct Prediction)
 ## 2D
 
 <br>
+
+[ViT]
 
 [DINOv3]
 
