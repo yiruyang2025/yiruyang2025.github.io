@@ -12,6 +12,8 @@ related_publications: true
 
 [📍 Click Here](https://zenodo.org/)
 
+[📍 Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
+
 <br>
 
 
