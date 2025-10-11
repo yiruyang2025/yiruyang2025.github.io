@@ -56,7 +56,7 @@ related_publications: true
 <br>
 
 
-## AI for Scientific Computing Accleration
+## AI for Scientific Computing Acceleration
 
 ```
                           ┌───────────────────────────────┐
@@ -165,8 +165,8 @@ related_publications: true
 | **Key Advantages**                        | • Accelerates large-scale QFT simulation via GPU + quantum co-processing<br>• Enables dynamic exploration of Higgs potential surfaces<br>• Reduces numerical instability via quantum feature maps                                       |
 | **Experimental Relevance**                | Applicable to PSI and CERN FEL beamline simulations, Higgs potential parameter scanning, and plasma–beam interaction modeling in high-intensity accelerators.                                                                           |
 | **Short-Term Goals (1–3 years)**          | Integrate CUDA-based QFT solvers with hybrid Qiskit / PennyLane modules; reproduce 1D–2D Higgs field evolution and compare with analytic symmetry-breaking solutions.                                                                   |
-| **Mid-Term Goals (3–7 years)**            | Run hybrid GPU–QPU experiments on small-scale quantum processors; simulate multi-field coupling (Higgs + gauge fields) with partial quantum updates.                                                                                    |
-| **Long-Term Goals (7+ years)**            | Full 3D–4D quantum lattice field simulation using exascale GPU clusters + fault-tolerant quantum processors for precision Higgs and dark-matter field modeling.                                                                         |
+| **Mid-Term Goals (3–5 years)**            | Run hybrid GPU–QPU experiments on small-scale quantum processors; simulate multi-field coupling (Higgs + gauge fields) with partial quantum updates.                                                                                    |
+| **Long-Term Goals (5+ years)**            | Full 3D–4D quantum lattice field simulation using exascale GPU clusters + fault-tolerant quantum processors for precision Higgs and dark-matter field modeling.                                                                         |
 | **Collaborative Ecosystem**               | PSI (FEL beamline physics), CERN (QFT lattice benchmarking), ETH Zurich (Quantum Computing Hub), IBM Zurich (Qiskit runtime integration).                                                                                               |
 
 <br>
