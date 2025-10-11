@@ -22,7 +22,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
 
 <br>
 
-Stable4D ?, Oct 2025
+Stable4D ?, Nov 2025
 
 
 <br>
@@ -31,7 +31,7 @@ Stable4D ?, Oct 2025
 
 <br>
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, OpenScene, Neural Exposure Fields (NExF, selective learning from reliable pixels), 
+- ViT, DINOv3, SAM2, Diffusion, Flow-matching, OpenScene, Neural Exposure Fields (NExF, selective learning from reliable pixels), FrontierNet, 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
