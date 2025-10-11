@@ -31,7 +31,7 @@ Stable4D
 
 <br>
 
-- ViT, DINOv3, Semantic-SAM, Diffusion, Flow-matching, OpenScene, NExF, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
