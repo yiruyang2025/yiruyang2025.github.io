@@ -1111,27 +1111,11 @@ Outputs (Direct Prediction)
 <br><br><br><br>
 
 
-## References 2 / Reading List
 
-<br>
-
-
-[2024 - Robust Symmetry Detection via Riemannian Langevin Dynamics](https://symmetry-langevin.github.io/)
-
-
-[BERT], [Wav2Vec2] - SSL, masked reconstruction, contrastive loss
-
-
-<br>
 
 ## 4D
 
 <br>
-
-[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
-
-
-[2025 - Shape of Motion](https://shape-of-motion.github.io/)
 
 
 [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
@@ -1185,7 +1169,6 @@ Outputs (Direct Prediction)
 
 
 [2. Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
-
 
 
 <br><br>
