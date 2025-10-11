@@ -45,5 +45,4 @@ latest_posts:
 
 
 
-
 <div style="height: 4rem;"></div>
