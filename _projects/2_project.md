@@ -113,19 +113,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 [2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
-<br>
-
-
-| Aspect             | Supervised Learning          | Unsupervised Learning   | Reinforcement Learning                    |
-| ------------------ | ---------------------------- | ----------------------- | ----------------------------------------- |
-| Input              | Labeled data (x, y)          | Unlabeled data (x)      | Sequential interactions (s, a, r)         |
-| Objective          | Minimize loss (e.g. MSE, CE) | Learn latent structure  | Maximize expected cumulative reward       |
-| Feedback           | Ground truth label           | Self-consistency        | Sparse scalar reward                      |
-| Temporal aspect    | Static                       | Static                  | Dynamic (Markov chain)                    |
-| Typical algorithms | SGD, CNN, Transformer        | Autoencoder, Diffusion  | Q-learning, Policy Gradient, Actor-Critic |
-| Example            | Classification               | Representation learning | Game-playing, control, exploration        |
-
-
 
 <br>
 
