@@ -157,37 +157,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 <br>
 
-```
-   +-------------------+
-   |   Canonical Mesh  |
-   |  (reference shape)|
-   +-------------------+
-             |
-             |  (apply warp function: motion / pose / deformation)
-             v
-   +-------------------+
-   | Deformation Warp  |
-   |  (maps canonical  |
-   |   → target space) |
-   +-------------------+
-             |
-             |  (query points in deformed space)
-             v
-   +--------------------+
-   |  Implicit Field    |
-   | (SDF / occupancy / |
-   | density / radiance)|
-   +--------------------+
-             |
-             v
-   +-------------------+
-   |  Final Geometry / |
-   |   Appearance      |
-   +-------------------+
-```
-
-<br>
-
 ## Mesh Gen
 
 | Year     | Paper                                                                                                                | Type                 | Description                                                                                 | Core Mathematical Field                                |
@@ -230,9 +199,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 <br><br>
 
-## Semester Project / Independent Study / Thesis
-
-<br>
 
 ## Comparison of 3D Surface Representations
 
