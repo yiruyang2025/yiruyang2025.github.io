@@ -520,10 +520,8 @@ Zero-shot, Co-training, better Generalization, a Feature Extractor
 
 <br>
 
-A FFN for 4d Segmentation - Semantic -> Instance, for real-time Inference
+A FFN for 4d Construction, neat and simple pipeline
 
-
-Hierarchical, 
 
 <br><br><br>
 
