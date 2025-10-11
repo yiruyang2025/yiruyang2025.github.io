@@ -119,7 +119,7 @@ related_publications: true
 <br>
 
 
-## Quantum Computing Acceleration
+## Computing Acceleration
 
 
 ```
@@ -151,6 +151,10 @@ related_publications: true
 └────────────────────────────────────────────────────────────┘
 ```
 
+
+<br>
+
+## Dark Matter Detection
 
 <br>
 
