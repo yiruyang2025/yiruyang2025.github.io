@@ -16,7 +16,11 @@ related_publications: true
 
 [📍 Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
 
+<br>
 
+[2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
+
+[2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
 
 
 <br>
