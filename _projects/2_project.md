@@ -31,7 +31,7 @@ Stable4D ?, Nov 2025
 
 <br>
 
-- ViT, DINOv3, SAM2, Diffusion, Flow-matching, OpenScene, Neural Exposure Fields (NExF, selective learning from reliable pixels), FrontierNet, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, Flow-matching, OpenScene, Neural Exposure Fields (NExF, selective learning from reliable pixels), FrontierNet, 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
