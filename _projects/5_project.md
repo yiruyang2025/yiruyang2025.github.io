@@ -18,9 +18,9 @@ related_publications: true
 
 <br>
 
-[2025 - 12, uzh](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
+[2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
 
-[2025 - 22, ethz](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
+[2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
 
 
 <br>
