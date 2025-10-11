@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - Quantum Computing
-description: Acceleration
+title: 2026 - Thesis - AI Acceleration
+description: Scientific Computing
 img: assets/img/4.jpg
 importance: 5
 category: work
