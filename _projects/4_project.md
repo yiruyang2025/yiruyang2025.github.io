@@ -23,16 +23,9 @@ related_publications: true
 
 
 
-
-
-
 <br>
 
-
-## Quantum Computing Accelerates Multimodal Neural Data Analysis
-
-
-<br>
+## References
 
 
 
@@ -86,19 +79,9 @@ Biosignal Processing + Monitoring, Data visualization, modeling, and system vali
 
 <br>
 
-## References
-
 [2025 - Predicting Rejection Risk in Heart Transplantation: An Integrated Clinical–Histopathologic Framework for Personalized Post-Transplant Care](https://www.linkedin.com/posts/anant-madabhushi-9a75a21_hearttransplant-ai-digitalpathology-activity-7372616055581585408-x86I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 
-
-<br><br><br>
-
-
-
-## Some Other Topics / Dataset
-
-<br>
 
 [2025 - MC-MED, multimodal clinical monitoring in the emergency department](https://www.nature.com/articles/s41597-025-05419-5)
 
@@ -118,7 +101,7 @@ Biosignal Processing + Monitoring, Data visualization, modeling, and system vali
 [2025 - LSM-2: Learning from Incomplete Wearable Sensor Data](https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/)
 
 
-📍 [2025 - Reducing driveline infection risk in durable mechanical circulatory support devices with ultra-flexible wires for energy transfer](https://www.jhltonline.org/article/S1053-2498(25)02118-7/fulltext)
+[2025 - Reducing driveline infection risk in durable mechanical circulatory support devices with ultra-flexible wires for energy transfer](https://www.jhltonline.org/article/S1053-2498(25)02118-7/fulltext)
 
 
 [2025 - USZ + ETHz - Regenerative Heart Repair](https://www.linkedin.com/posts/omer-dzemali-prof-dr-med-dr-h-c-2702b9104_from-lab-to-beating-hearts-activity-7358452392071262208-bPba?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
