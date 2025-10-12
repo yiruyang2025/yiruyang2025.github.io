@@ -72,28 +72,9 @@ related_publications: true
 
 <br>
 
-
-<br>
-
-## Medical Organ Data Formats
-
-
-| Format           | Typical Source (Hospital / Research)                             | Advantages                                                                                | Limitations                                                                    | Role in Your Pipeline (3D → 2D SVG → Annotation → Deformation → 3D)                          |
-| ---------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| **DICOM**        | Standard format for CT / MRI scans (hospital PACS systems)       | Contains complete volumetric data + metadata (patient, scan parameters); widely supported | Very large size; slice-based (requires reconstruction); no direct surface mesh | Start point in hospitals. Requires segmentation + surface reconstruction before projection.  |
-| **NIfTI / NRRD** | Research imaging formats (MRI/CT studies, segmentation masks)    | Compact single-file volume storage; standardized for research                             | Not directly a surface mesh; still requires segmentation + reconstruction      | Similar to DICOM: used as intermediate research data before extracting surface mesh.         |
-| **STL**          | 3D printing, surgical simulation models                          | Simple structure (triangular mesh only); lightweight; widely supported                    | No colors or textures; no rich metadata                                        | Very suitable for 3D → 2D projection; ideal for shape-only tasks (cutting, deforming).       |
-| **OBJ**          | Converted CT/MRI meshes; 3D modeling software (Blender, MeshLab) | Supports vertices, normals, textures, materials; flexible for visualization               | Larger file sizes; redundant texture data if unused                            | Excellent for your pipeline (interactive 2D SVG projection, deform, 3D rendering).           |
-| **PLY**          | 3D scanning, point clouds + surface meshes                       | Stores vertex attributes (color, normals, custom fields); good for scientific use         | Larger size; less universal web support                                        | Works like OBJ; useful if additional attributes (e.g., CT intensity) are mapped to vertices. |
-| **VTK**          | Scientific visualization, research datasets (e.g. IRCAD meshes)  | Rich topology support; integrates with visualization pipelines                            | Less common in web apps; conversion to OBJ/STL often needed                    | Intermediate format (research to web). Can be converted into OBJ/STL for your web app.       |
-
-<br>
-
 ## End-to-End Real-World Data Flow - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
 
-<br>
 
-### Standard Surgical Workflow
 
 ```
 Hospital CT / MRI 🏥
