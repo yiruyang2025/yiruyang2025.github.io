@@ -14,15 +14,15 @@ related_publications: true
 
 <br>
 
-| Focus Area                 | **ICML**                                                      | **ICLR**                                                 |
-| -------------------------- | ------------------------------------------------------------- | -------------------------------------------------------- |
-| **Core Identity**          | Theory & Algorithms                                           | Representation & Deep Learning                           |
-| **Theoretical Work**       | Optimization, convergence, learning theory                    | Representation learning theory, self-supervised theory   |
-| **Architecture**           | Classical ML frameworks (kernels, boosting, graphical models) | New neural architectures (Transformers, Diffusion, GNNs) |
-| **Reinforcement Learning** | Algorithmic + theoretical improvements                        | Representation-based RL, world models                    |
-| **Generative Models**      | Probabilistic & Bayesian models                               | Neural generative models (GANs, VAEs, Diffusion)         |
-| **Applications**           | Broad applied ML (health, econ, systems)                      | Deep-learning apps (CV, NLP, multimodal)                 |
-| **Experiment Style**       | Balanced theory + experiments                                 | Large-scale benchmarks + SOTA focus                      |
+ | Focus Area                 | **ICML**                                           | **ICLR**                                             | **NeurIPS**                                                  |
+| -------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ |
+| **Core Identity**          | Theory & Algorithms                                | Representation & Deep Learning                       | Broad AI & Computational Science                             |
+| **Theoretical Work**       | Optimization, convergence, learning theory         | Representation learning theory                       | Mathematical + computational perspectives (theory + applied) |
+| **Architecture**           | Classical ML (kernels, boosting, graphical models) | Neural architectures (Transformers, Diffusion, GNNs) | Novel architectures with interdisciplinary impact            |
+| **Reinforcement Learning** | Algorithmic + theoretical RL                       | Representation-based RL, world models                | RL + neuroscience + multi-agent + cognitive links            |
+| **Generative Models**      | Probabilistic & Bayesian models                    | Neural generative models (GANs, VAEs, Diffusion)     | Foundation models, multimodal, scaling laws                  |
+| **Applications**           | Applied ML (health, econ, systems, social science) | Deep-learning apps (CV, NLP, multimodal)             | Cross-domain (AI + physics, bio, climate, neuroscience)      |
+| **Experiment Style**       | Balanced theory & experiments                      | Large-scale empirical results                        | Technically deep + interdisciplinary demos                   |
 
 <br>
 
