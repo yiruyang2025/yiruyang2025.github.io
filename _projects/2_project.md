@@ -59,13 +59,7 @@ CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 T
 
 📍 Hydra: A real-time spatial perception system for 3D scene graph construction and optimization
 
-Incremental Translation Averaging
-
-Revisiting Rotation Averaging: Uncertainties and Robust Losses
-
 Vggt: Visual geometry grounded transformer
-
-Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 📍 Semantic-SAM: Segment and Recognize Anything at Any Granularity
 
@@ -76,18 +70,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 
 
 [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-
-<br>
-
-[2023 - 3D Line Mapping Revisited](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_3D_Line_Mapping_Revisited_CVPR_2023_paper.pdf)
-
-
-<br>
-
-[2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
-
-[2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
-
 
 <br>
 
@@ -187,59 +169,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 | **Adaptive Grid (Octree, Non-Regular)**      | Hierarchical voxel grid (fine near surfaces, coarse elsewhere) | - Memory efficient <br> - Preserves sharp features (Dual Contouring)                                   | - Complex data structure <br> - Harder implementation                               | Large-scale 3D scenes, real-time reconstruction |
 | **Neural Implicit (NeRF, NeuS, VolSDF)**     | Neural network learns volumetric density/color or SDF          | - Compact continuous function <br> - High-quality novel view synthesis <br> - Differentiable rendering | - Slow training/inference <br> - Requires lots of data <br> - Hard to edit geometry | Neural rendering, 3D reconstruction from images |
 
-
-
-<br>
-
-## Medical Organ Data Formats
-
-
-| Format           | Typical Source (Hospital / Research)                             | Advantages                                                                                | Limitations                                                                    | Role in Your Pipeline (3D → 2D SVG → Annotation → Deformation → 3D)                          |
-| ---------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| **DICOM**        | Standard format for CT / MRI scans (hospital PACS systems)       | Contains complete volumetric data + metadata (patient, scan parameters); widely supported | Very large size; slice-based (requires reconstruction); no direct surface mesh | Start point in hospitals. Requires segmentation + surface reconstruction before projection.  |
-| **NIfTI / NRRD** | Research imaging formats (MRI/CT studies, segmentation masks)    | Compact single-file volume storage; standardized for research                             | Not directly a surface mesh; still requires segmentation + reconstruction      | Similar to DICOM: used as intermediate research data before extracting surface mesh.         |
-| **STL**          | 3D printing, surgical simulation models                          | Simple structure (triangular mesh only); lightweight; widely supported                    | No colors or textures; no rich metadata                                        | Very suitable for 3D → 2D projection; ideal for shape-only tasks (cutting, deforming).       |
-| **OBJ**          | Converted CT/MRI meshes; 3D modeling software (Blender, MeshLab) | Supports vertices, normals, textures, materials; flexible for visualization               | Larger file sizes; redundant texture data if unused                            | Excellent for your pipeline (interactive 2D SVG projection, deform, 3D rendering).           |
-| **PLY**          | 3D scanning, point clouds + surface meshes                       | Stores vertex attributes (color, normals, custom fields); good for scientific use         | Larger size; less universal web support                                        | Works like OBJ; useful if additional attributes (e.g., CT intensity) are mapped to vertices. |
-| **VTK**          | Scientific visualization, research datasets (e.g. IRCAD meshes)  | Rich topology support; integrates with visualization pipelines                            | Less common in web apps; conversion to OBJ/STL often needed                    | Intermediate format (research to web). Can be converted into OBJ/STL for your web app.       |
-
-<br>
-
-## End-to-End Real-World Data Flow - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
-
-<br>
-
-### Standard Surgical Workflow
-
-```
-Hospital CT / MRI 🏥
-        ↓
-
-DICOM (raw slices + metadata)
-        ↓ Segmentation + Reconstruction
-
-Surface Mesh (OBJ / STL / PLY / VTK)
-        ↓ Projection
-
-2D SVG (interactive) / PNG (static)
-        ↓ Annotation
-
-Surgeon marks points / lines on SVG
-        ↓ Mapping
-
-Handles mapped back to 3D mesh
-        ↓ Deformation
-
-FastAPI /deform → ARAP deformation applied
-        ↓ Visualization
-
-Updated 3D mesh rendered in LiverViewer (three.js)
-        ↓ Export
-
-Surgical plan → PDF / PNG / QR for clinical workflow
-```
-
-<br>
 
 
 <br><br>
