@@ -266,48 +266,7 @@ PanSt3R (ICCV 2025)
 <br>
 
 
-## 3D Reconstruction Methods
-
-<br>
-
 ```
-Classical Geometry         →   CAD / Mapping / Robotics
-Delaunay / Voronoi
-
-Smooth Surfaces            →   3D Scanning / Medical Imaging
-Poisson / α-shapes
-
-Volumetric                 →   Real-time AR / Autonomous Navigation
-TSDF / KinectFusion
-
-Implicit Functions         →   AR/VR / VFX / Self-driving
-DeepSDF / NeRF
-
-Neural Rendering           →   Real-time XR / Digital Humans / Digital Twins
-3D Gaussian Splatting
-
-Foundation Models          →   📹 4D Scene Modeling / Metaverse / Robotics & AI Agents
-Transformers (VGGT / MonST3R / Shape of Motion)
-```
-
-
-
-
-<br>
-
-```
-Delaunay/Voronoi → Classical geometry
-
-Poisson/α-shapes → Smooth geometric reconstruction
-
-Volumetric/TSDF → Dense volumes
-
-Implicit (SDF/NeRF) → Continuous function surfaces
-
-Modern neural methods (GS, Transformers) → End-to-end, dynamic scenes
-
--
-
 Points → Delaunay Triangulation (Triangles)
       ○         ○───────○
        \       / \     /
@@ -352,9 +311,7 @@ Points → Modern Neural Models (GS / Transformer)
    ● NeRF → Radiance fields, view-dependent rendering
 ```
 
-
-
-<br><br>
+<br
 
 
 ## 3. 2D
@@ -364,16 +321,6 @@ Points → Modern Neural Models (GS / Transformer)
 [2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
 
 <br>
-
-| Method                          | Core Task                       | Revolutionary Idea + Solved Problem                                                                             |
-| ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **SAM / SAM2** (Meta 2023–2024) | Image / Video Segmentation      | Promptable segmentation; class-agnostic masks; temporal consistency; solved dataset-locked segmentation         |
-| **CLIP** (OpenAI 2021)          | Vision–Language Alignment       | Contrastive learning; shared embedding space; open-vocabulary recognition; solved classifier retraining problem |
-| **DINOv3** (Meta 2024)          | Universal Visual Backbone (SSL) | Large-scale self-supervised training (7B params, 1.7B images); dense features; solved annotation dependence     |
-
-
-<br><br>
-
 
 
 ## Some Other topics
@@ -413,11 +360,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br>
 
-[Implicit 3D Representations]
-
-
-[2021 - D-NeRF](https://github.com/albertpumarola/D-NeRF)
-
 
 [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
 
@@ -425,56 +367,11 @@ Points → Modern Neural Models (GS / Transformer)
 [C++ lib repo - toolkit](https://github.com/libigl)
 
 
-<br><br>
-
-
-
-```
-Mesh-VAE World                          Implicit Geometry World
-═══════════════════════════════         ══════════════════════════════════
-Mold Shape  →  Fill Cream  →           Pour Batter → Let Shape Form →  
-Keep Shape  →  Adjust Icing            Implicitly Shape via Function
-(Topology)     (Latent Codes)          (SDF / NeRF Fields)
-     ↓                ↓                         ↓
-┌────────────┐  ┌────────────┐           ┌────────────┐  ┌────────────────┐
-│ Cake Mold  │→ │ Cream Code │    vs.    │  Batter    │→ │ Shape Function │
-│ (Mesh Topo)│  │ (Latent z) │           │ (No Mesh)  │  │ f(x) → Geometry│
-└────────────┘  └────────────┘           └────────────┘  └────────────────┘
-     ↓                ↓                         ↓               ↓
-Consistent Shape   Editable Details         Any Shape      Learned Surface
-Fixed Faces        Vertex Offsets           Continuous     Surface = f(x)=0
-
-
-Hybrid models:
-1. Use Mesh-VAE to encode coarse shape → condition NeRF/SDF to model fine detail
-2. Combine structural control (mesh) with detail realism (fields)
-
-NeRF = Gelato Machine with View-Conditioned Flavor Control
-SDF = Invisible Sculptor Guided by Distance and Space Curvature
-```
-
-
 <br>
 
-## 3D Representation Worlds
 
-<br>
-
-| **Representation**        | **Analogy**            | **How it works**                                            | **Strengths**                                 | **Limitations**                           |
-| ------------------------- | ---------------------- | ----------------------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **Point Cloud**           | “Sprinkle Sugar”     | Just scatter points in space                                | Light & simple, straight from sensors         | No structure, no surface continuity       |
-| **Mesh**                  | “Cake Mold”         | Fixed mold (vertices + faces) holds the shape               | Precise surface, easy to render               | Topology fixed, hard to deform            |
-| **Volumetric**            | “Ice Cube Tray”     | Fill a voxel grid with occupancy/distance values            | Full space captured, physics-friendly         | Memory explodes with resolution           |
-| **Convex 3D**             | “Dumpling Wrappers” | Wrap shape in convex shells (convex hulls or decomposition) | Fast optimization, strong geometry guarantees | Concave details hard to capture           |
-| **Implicit (SDF / NeRF)** | “Gelato Machine”    | Function defines the surface/appearance continuously        | Infinite resolution, learns fine detail       | Needs heavy sampling, less direct control |
-
-
-
-<br><br>
 
 ## Structure-from-Motion (SfM) Pipeline
-
-<br>
 
 
 ```
@@ -507,13 +404,9 @@ Input: Multiple images (Image Sequence)
 ```
 
 
-
-
 <br>
 
 ## Visual SLAM Pipeline
-
-<br>
 
 ```
 Input Images (RGB / RGB-D / Stereo)
@@ -540,16 +433,10 @@ Output: Robust Trajectory + Map
 ```
 
 
-<br><br>
+<br>
 
 ## Visual Computing
 
-
-<br>
-
-`3d Segmentation`
-
-<br>
 
 ```
 2D → 3D Projection World                     Multi-View Segmentation World
@@ -579,13 +466,10 @@ Extrinsics = GPS for Camera Pose
 Segmentation = Paint Mask that Becomes 3D Object
 ```
 
-
-
 <br>
 
 ## Classical SfM vs. VGGT
 
-<br>
 
 ```
  Classical SfM / MVS World                   VGGT World
@@ -613,36 +497,8 @@ VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
 
 <br>
 
-`Classical SfM (Geometry-driven)`
+VGGT (Learning-driven)
 
-<br>
-
-```
-Calibration
-   ↓
-K = [[fx, 0, px], [0, fy, py], [0,0,1]]
-[R | t]
-   ↓
-Feature Matching (2D–2D)
-   ↓
-Epipolar Constraint: xᵢᵀ F xⱼ = 0
-   ↓
-Projection
-   λ [x, y, 1]ᵀ = K [R | t] [X, Y, Z, 1]ᵀ
-   ↓
-Optimization (Bundle Adjustment)
-   min {R,t,X} Σ ‖x − π(K,R,t,X)‖²
-   ↓
-Output
-   • Camera poses
-   • Sparse/Dense 3D point cloud
-```
-
-<br>
-
-`VGGT (Learning-driven)`
-
-<br>
 
 ```
 Input Images
@@ -667,10 +523,6 @@ Outputs (Direct Prediction)
 
 ## Visual Computing - Coursework
 
-
-<br>
-
-
 | Tuesday (Topic)                                                                                                  | Thursday (Topic)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Introduction to SfM** <br> Overview of Structure-from-Motion, applications in photogrammetry, robotics, AR/VR. | **The Multi-View Problem** <br> From 2D images to 3D geometry, role of camera models.          |
@@ -689,15 +541,12 @@ Outputs (Direct Prediction)
 | **Future of SfM** <br> From optimization-based to transformer-based methods.                                     | **SfM vs VGGT** <br> COLMAP vs VGGT, comparison of pros and cons.                              |
 
 
-<br><br><br><br>
+<br><br>
 
 
 ## References 1
 
-<br>
-
 **Frontiers in AI Research (2025)**
-
 
 1. Efficient Multimodal Alignment & Generation  
 - **Key Results**:  
@@ -774,8 +623,6 @@ Outputs (Direct Prediction)
 
 ## 4D
 
-<br>
-
 
 [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
 
@@ -786,23 +633,6 @@ Outputs (Direct Prediction)
 
 
 ## 3D
-
-<br>
-
-
-## Surgery 3D Scene
-
-<br>
-
-[2025 - MICCAI 2025 - SurgTPGS: Semantic 3D Surgical Scene Understanding with Text Promptable Gaussian Splatting](https://lastbasket.github.io/MICCAI-2025-SurgTPGS/)
-
-
-<br>
-
-
-## 3D Understanding
-
-<br>
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
@@ -831,11 +661,7 @@ Outputs (Direct Prediction)
 
 <br>
 
-[ViT]
-
-[DINOv3]
-
-[SAM 2]
+[ViT], [DINOv3], [SAM 3]
 
 
 <br>
@@ -843,7 +669,6 @@ Outputs (Direct Prediction)
 
 ## Some Products
 
-<br>
 
 [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
 
