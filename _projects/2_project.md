@@ -329,13 +329,7 @@ Points → Modern Neural Models (GS / Transformer)
 
 [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
 
-
 [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
-
-[2025 - minFM: Minimal Flow Matching](https://github.com/Kai-46/minFM)
-
-[NanoGPT (124M) in 3 minutes](https://github.com/KellerJordan/modded-nanogpt)
-
 
 [Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
@@ -362,7 +356,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 
 [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
-
 
 [C++ lib repo - toolkit](https://github.com/libigl)
 
@@ -494,11 +487,9 @@ Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
 ```
 
-
 <br>
 
-VGGT (Learning-driven)
-
+## VGGT (Learning-driven)
 
 ```
 Input Images
