@@ -39,29 +39,6 @@ Stable4D
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 
-
-<br>
-
-```
- SUMO (.xml, .csv, .parquet)
-        ↓
- [Preprocessing Python]
-   → vehicle positions, timestamps, edge attributes
-        ↓
- [VGGT / QuantVGGT]
-   → 3D dense reconstruction of road scene
-        ↓
- [St4RTrack]
-   → temporal alignment, world-space tracking (4D point cloud)
-        ↓
- [Unreal Engine 5 (UE5)]
-   → render & VR visualization (digital twin Geneva)
-        ↓
- [OSC interface]
-   → auralization of traffic noise
-```
-
-
 <br>
 
 ## Reading List / References
@@ -74,9 +51,9 @@ Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual
 <br>
 
 
-Two-View Geometry Scoring 📍 Without Correspondences
+Two-View Geometry Scoring Without Correspondences
 
-Zero-1-to-3: Zero-shot One Image to 3D Object
+📍 Zero-1-to-3: Zero-shot One Image to 3D Object
 
 CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 TOG)
 
@@ -110,8 +87,6 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 [2025 - TAPNext: Tracking Any Point (TAP) as Next Token Prediction](https://tap-next.github.io/)
 
 [2022 - NeSF: Neural Semantic Fields for Generalizable Semantic Segmentation of 3D Scenes](https://research.google/pubs/nesf-neural-semantic-fields-for-generalizable-semantic-segmentation-of-3d-scenes/)
-
-[2025 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding](https://princeton-computational-imaging.github.io/LSD-3D/)
 
 
 <br>
@@ -152,7 +127,7 @@ Open X-Embodiment: Robotic Learning Datasets and RT-X
 <br>
 
 
-  - Uncertainty-Aware 3D Mapping, Monday, October 13th, 2pm, CNB G 110 and Zoom
+  - Uncertainty-Aware 3D Mapping, Monday, October 13th, 2pm, CNB G110 and Zoom
 
 
 <br>
@@ -266,42 +241,6 @@ Surgical plan → PDF / PNG / QR for clinical workflow
 
 <br>
 
-### Extended Research / Printing Workflow
-
-```
-Hospital CT / MRI ✅
-        ↓
-
-DICOM (raw slices + metadata)
-        ↓ Segmentation (3D Slicer / nnUNet)
-
-NIfTI mask (segmentation labels)
-        ↓ Mesh Extraction
-
-Surface Mesh Export:
-   • GLB → Web visualization (three.js, with color/texture)
-   • PLY → Research (point cloud + RGB/labels)
-   • STL → 3D printing (geometry only)
-        ↓ Projection
-
-2D SVG (interactive) / PNG (static)
-        ↓ Annotation
-
-Surgeon marks points / lines on SVG
-        ↓ Mapping
-
-Handles mapped back to 3D mesh
-        ↓ Deformation
-
-FastAPI /deform → Laplacian / ARAP deformation applied
-        ↓ Visualization
-
-Updated 3D mesh rendered in LiverViewer (three.js)
-        ↓ Export
-
-Surgical plan → PDF / PNG / QR + optional STL for printing
-```
-
 
 <br><br>
 
@@ -322,49 +261,6 @@ Surgical plan → PDF / PNG / QR + optional STL for printing
 
 <br><br>
 
-
-## Semantic Heads
-
-<br>
-
-| **Semantic Head Type**            | **Core Function**                                                        | **Industrial Frontier Applications**                                                                      | **Representative Companies / Labs**                             |
-| --------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| **Part Segmentation Head**        | Pixel-wise or region-wise segmentation of object parts                   | **Garment industry**: sleeve/neck/hem segmentation for folding and robotic manipulation                   | Meta (FAIR, Garment Manipulation), Amazon Robotics              |
-| **Instance Segmentation Head**    | Distinguishes individual objects of the same class                       | **Agriculture**: detecting individual crops vs weeds for precision spraying                               | John Deere, Blue River Technology                               |
-| **Region Classification Head**    | Assigns semantic labels to regions or masks                              | **Healthcare / Surgery**: organ or tumor classification for robotic surgery guidance                      | Intuitive Surgical, Siemens Healthineers                        |
-| **Surface Parsing Head**          | Extracts continuous surface boundaries                                   | **Surgical robots**: organ surface modeling, surgical field tracking                                      | Philips, ETH Zurich + Intuitive collaborations                  |
-| **Affordance Head**               | Predicts functional regions (grasp points, fold lines, cut regions)      | **Robotics**: folding clothes, grasping tools, space robotics                                             | Boston Dynamics Spot, TRI (Toyota Research Institute), NASA JPL |
-| **3D/4D Spatio-Temporal Head**    | Learns semantic labels over time sequences (video/4D input)              | **Space**: satellite/space debris tracking, multi-frame segmentation for robotic arms                     | NASA, SpaceX, ESA AI programs                                   |
-| **Multi-Modal Fusion Head**       | Combines visual semantics with other modalities (depth, language, force) | **AR/VR & Human-Robot Interaction**: wearable AR (HoloLens, Aria) semantic mapping for manipulation tasks | Microsoft HoloLens, Meta Reality Labs, Apple Vision Pro         |
-| **Self-Supervised Semantic Head** | Uses pseudo-labels or consistency for training                           | **Scalable Robotics & Industry 4.0**: training robots without full annotations                            | Covariant.ai, Intrinsic (Alphabet)                              |
-
-
-
-<br><br>
-
-
-**References**
-
-[📍 2008 - Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
-
-
-<br><br><br>
-
-
-**Some Products**
-
-[2025 - LeFranX](https://www.linkedin.com/posts/zkweng_lerobot-robotics-robotlearning-activity-7368317883715604481-nD8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) - High-performance VR-based teleoperation
-
-
-<br><br><br>
-
-
-**Topics**
-
-Zero-shot, Co-training, better Generalization, a Feature Extractor
-
-
-<br><br><br>
 
 
 ## Representation Learning for 'object-level', Action Tokenization for 'control-level'
@@ -696,9 +592,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br>
 
-
-<br>
-
 | Method                          | Core Task                       | Revolutionary Idea + Solved Problem                                                                             |
 | ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | **SAM / SAM2** (Meta 2023–2024) | Image / Video Segmentation      | Promptable segmentation; class-agnostic masks; temporal consistency; solved dataset-locked segmentation         |
@@ -706,11 +599,7 @@ Points → Modern Neural Models (GS / Transformer)
 | **DINOv3** (Meta 2024)          | Universal Visual Backbone (SSL) | Large-scale self-supervised training (7B params, 1.7B images); dense features; solved annotation dependence     |
 
 
-
-
-
-
-<br><br><br><br>
+<br><br>
 
 
 
@@ -787,30 +676,30 @@ Hybrid models:
 1. Use Mesh-VAE to encode coarse shape → condition NeRF/SDF to model fine detail
 2. Combine structural control (mesh) with detail realism (fields)
 
-🍨 NeRF = Gelato Machine with View-Conditioned Flavor Control
-🏗️ SDF = Invisible Sculptor Guided by Distance and Space Curvature
+NeRF = Gelato Machine with View-Conditioned Flavor Control
+SDF = Invisible Sculptor Guided by Distance and Space Curvature
 ```
 
 
 <br>
 
-## 🍰 3D Representation Worlds
+## 3D Representation Worlds
 
 <br>
 
 | **Representation**        | **Analogy**            | **How it works**                                            | **Strengths**                                 | **Limitations**                           |
 | ------------------------- | ---------------------- | ----------------------------------------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **Point Cloud**           | ✨ “Sprinkle Sugar”     | Just scatter points in space                                | Light & simple, straight from sensors         | No structure, no surface continuity       |
-| **Mesh**                  | 🎂 “Cake Mold”         | Fixed mold (vertices + faces) holds the shape               | Precise surface, easy to render               | Topology fixed, hard to deform            |
-| **Volumetric**            | 🧊 “Ice Cube Tray”     | Fill a voxel grid with occupancy/distance values            | Full space captured, physics-friendly         | Memory explodes with resolution           |
-| **Convex 3D**             | 🥟 “Dumpling Wrappers” | Wrap shape in convex shells (convex hulls or decomposition) | Fast optimization, strong geometry guarantees | Concave details hard to capture           |
-| **Implicit (SDF / NeRF)** | 🍨 “Gelato Machine”    | Function defines the surface/appearance continuously        | Infinite resolution, learns fine detail       | Needs heavy sampling, less direct control |
+| **Point Cloud**           | “Sprinkle Sugar”     | Just scatter points in space                                | Light & simple, straight from sensors         | No structure, no surface continuity       |
+| **Mesh**                  | “Cake Mold”         | Fixed mold (vertices + faces) holds the shape               | Precise surface, easy to render               | Topology fixed, hard to deform            |
+| **Volumetric**            | “Ice Cube Tray”     | Fill a voxel grid with occupancy/distance values            | Full space captured, physics-friendly         | Memory explodes with resolution           |
+| **Convex 3D**             | “Dumpling Wrappers” | Wrap shape in convex shells (convex hulls or decomposition) | Fast optimization, strong geometry guarantees | Concave details hard to capture           |
+| **Implicit (SDF / NeRF)** | “Gelato Machine”    | Function defines the surface/appearance continuously        | Infinite resolution, learns fine detail       | Needs heavy sampling, less direct control |
 
 
 
 <br><br>
 
-## 📍 Structure-from-Motion (SfM) Pipeline
+## Structure-from-Motion (SfM) Pipeline
 
 <br>
 
@@ -912,9 +801,9 @@ Summary:
 5. Back-Projection: Pixel + depth → World point
 6. Goal: Lift 2D segmentation masks into 3D semantic segmentation
 
-📸 Camera = Projector (2D Screen View)
-🗺️ Extrinsics = GPS for Camera Pose
-🎭 Segmentation = Paint Mask that Becomes 3D Object
+Camera = Projector (2D Screen View)
+Extrinsics = GPS for Camera Pose
+Segmentation = Paint Mask that Becomes 3D Object
 ```
 
 
@@ -944,8 +833,8 @@ Hybrid approaches:
 1. Use classical SfM to bootstrap intrinsics → fine-tune with VGGT outputs
 2. Combine hand-crafted geometry checks (epipolar) with learned global priors
 
-📸 Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
-🧠 VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
+Classical SfM = Puzzle Builder with Thousands of Pieces (slow, error-prone)
+VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
 ```
 
 
@@ -1107,10 +996,7 @@ Outputs (Direct Prediction)
 - **Memory Extension**: Add a latent memory module to preserve character traits across sessions
 
 
-
-<br><br><br><br>
-
-
+<br><br>
 
 
 ## 4D
@@ -1120,14 +1006,10 @@ Outputs (Direct Prediction)
 
 [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
 
-
-<br>
-
-
 [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
 
 
-<br><br>
+<br>
 
 
 ## 3D
@@ -1142,12 +1024,10 @@ Outputs (Direct Prediction)
 [2025 - MICCAI 2025 - SurgTPGS: Semantic 3D Surgical Scene Understanding with Text Promptable Gaussian Splatting](https://lastbasket.github.io/MICCAI-2025-SurgTPGS/)
 
 
-
-
 <br>
 
 
-## 3D Understanding ( / Reconstruction)
+## 3D Understanding
 
 <br>
 
@@ -1171,7 +1051,7 @@ Outputs (Direct Prediction)
 [2. Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
 
 
-<br><br>
+<br>
 
 
 ## 2D
@@ -1185,7 +1065,7 @@ Outputs (Direct Prediction)
 [SAM 2]
 
 
-<br><br>
+<br>
 
 
 ## Some Products
