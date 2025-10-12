@@ -38,30 +38,6 @@ A Stable4D
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
-<br>
-
-
-- Before 3000 BCE
-
-  - [The Banach-Tarski paradox](https://www.youtube.com/watch?v=9IKwPoNhP4E)
-    
-    - SO(3) contains free subgroups that can produce "infinitely complex symmetric structures"
-
-
-
-| Concept                            | Simple Description                                                                                                        |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Banach–Tarski Paradox**          | A 3D ball can be split into a few pieces and reassembled into two identical copies using only rotations and translations. |
-| **Gödel’s Incompleteness Theorem** | Any logical system powerful enough for arithmetic will contain true statements that cannot be proven within it.           |
-| **Hilbert’s Hotel**                | A hotel with infinitely many rooms can still accommodate new guests even when it’s already full.                          |
-| **Zeno’s Paradox**                 | Motion seems impossible if you divide space and time infinitely—Achilles never catches the tortoise.                      |
-| **Cantor’s Diagonal Argument**     | There are different sizes of infinity; real numbers are “more infinite” than natural numbers.                             |
-| **Monty Hall Problem**             | Switching doors in a 3-door game show doubles your chance of winning from 1/3 to 2/3.                                     |
-| **Birthday Paradox**               | In a group of just 23 people, there’s about a 50% chance that two share the same birthday.                                |
-| **Twin Prime Conjecture**          | There are infinitely many pairs of primes that differ by two (like 3 and 5, 11 and 13).                                   |
-| **Four Color Theorem**             | Any map can be colored with only four colors so that no adjacent regions share the same color.                            |
-| **P vs NP Problem**                | We don’t know if every problem whose solution can be verified quickly can also be solved quickly.                         |
-
 
 <br>
 
