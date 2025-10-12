@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: Priors, CVG
+description: 2d Priors, CVG
 img: assets/img/4.jpg
 importance: 2
 category: work
