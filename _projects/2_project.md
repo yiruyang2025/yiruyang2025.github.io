@@ -41,6 +41,7 @@ A Stable4D
 <br>
 
   - [The Banach-Tarski paradox](https://www.youtube.com/watch?v=9IKwPoNhP4E)
+    - SO(3) contains free subgroups that can produce "infinitely complex symmetric structures"
 
 
 <br>
