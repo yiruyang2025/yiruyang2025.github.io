@@ -14,16 +14,15 @@ related_publications: true
 
 <br>
 
-| Research Style           | Best Fit ICML                                                                                             | Best Fit ICLR                                                                                                      |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Theoretical Methods**           | New optimization algorithms, convergence proofs, generalization bounds, PAC-Bayes, statistical learning theory | Representation learning theory (generalization in representation learning), self-supervised learning theory              |
-| **Model Architecture Innovation** | Innovations in traditional ML frameworks (kernels, boosting, graphical models)                                 | Novel neural network architectures (Transformer variants, Diffusion models, Graph Neural Networks, Contrastive Learning) |
-| **Reinforcement Learning (RL)**   | Algorithmic improvements (PPO, policy gradient, exploration/exploitation) + theoretical analysis               | Representation learning for RL, world models, RL with foundation models                                                  |
-| **Generative Modeling**           | Probabilistic graphical models, EM algorithms, Bayesian methods                                                | GANs, VAEs, Diffusion models, Large-scale generative models                                                              |
-| **Application Domains**           | Broad coverage (healthcare, finance, systems, security, social science applications)                           | DL-centric applications (computer vision, NLP, multi-modal, speech, vision-language models)                              |
-| **Experimental Style**            | Strong emphasis on algorithmic comparisons, theory + experiments balance                                       | Heavy emphasis on large-scale experiments, SOTA performance, benchmark validation                                        |
-
-
+| Focus Area                 | **ICML**                                                      | **ICLR**                                                 |
+| -------------------------- | ------------------------------------------------------------- | -------------------------------------------------------- |
+| **Core Identity**          | Theory & Algorithms                                           | Representation & Deep Learning                           |
+| **Theoretical Work**       | Optimization, convergence, learning theory                    | Representation learning theory, self-supervised theory   |
+| **Architecture**           | Classical ML frameworks (kernels, boosting, graphical models) | New neural architectures (Transformers, Diffusion, GNNs) |
+| **Reinforcement Learning** | Algorithmic + theoretical improvements                        | Representation-based RL, world models                    |
+| **Generative Models**      | Probabilistic & Bayesian models                               | Neural generative models (GANs, VAEs, Diffusion)         |
+| **Applications**           | Broad applied ML (health, econ, systems)                      | Deep-learning apps (CV, NLP, multimodal)                 |
+| **Experiment Style**       | Balanced theory + experiments                                 | Large-scale benchmarks + SOTA focus                      |
 
 <br>
 
@@ -40,6 +39,8 @@ related_publications: true
 [2020 - Topological Autoencoders](https://proceedings.mlr.press/v119/moor20a.html?ref=https://githubhelp.com)
 
 
+[2025 - Development of a multimodal vision transformer model for predicting traumatic versus degenerative rotator cuff tears on magnetic resonance imaging: A single-centre retrospective study](https://esskajournals.onlinelibrary.wiley.com/doi/10.1002/ksa.70000)
+
 <br>
 
 
@@ -50,18 +51,6 @@ related_publications: true
 
 
 <br><br>
-
-
-
-## References 1
-
-<br>
-
-[2025 - Development of a multimodal vision transformer model for predicting traumatic versus degenerative rotator cuff tears on magnetic resonance imaging: A single-centre retrospective study](https://esskajournals.onlinelibrary.wiley.com/doi/10.1002/ksa.70000)
-
-
-
-<br>
 
 
 ## Organ / Liver Preservation
