@@ -311,15 +311,6 @@ Points → Modern Neural Models (GS / Transformer)
    ● NeRF → Radiance fields, view-dependent rendering
 ```
 
-<br
-
-
-## 3. 2D
-
-<br>
-
-[2025 - DINOv3 - checkpoints](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009)
-
 <br>
 
 
