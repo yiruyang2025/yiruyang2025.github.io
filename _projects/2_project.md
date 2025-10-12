@@ -22,7 +22,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
 
 <br>
 
-Stable4D
+A Stable4D
 
 
 <br>
@@ -87,8 +87,7 @@ Vggt: Visual geometry grounded transformer
     - 2024 - Gaussian Splatting SLAM, demo
 
   - 09 Oct 2025 - Controllable Visual Generation using 3D prior
-    - HIL D 55.2, ETH Hönggerberg, 14:00
-
+    - HIL D 55.2, ETH Hönggerberg, 14:00 (Prof. Konrad Schindler)
 
   - StreamSplat: A Framework for Self-Supervised, Online Novel View Synthesis
     -  Friday Oct 10th, 15:00-15:30 Zurich Time
