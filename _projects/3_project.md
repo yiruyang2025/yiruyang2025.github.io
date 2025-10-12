@@ -20,50 +20,11 @@ related_publications: true
 
 
 
-| Paper / Clue                                                                                             | Conference / Publication / Notes | Relation to “Single Image → Forward Facing 3D” / Differences                                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization                  | NeurIPS 2023                     | Processes a single image to reconstruct a **full 3D mesh (360° object)** in a feed-forward way. Not restricted to forward-facing views.                                                                |
-| Wonderland: Navigating 3D Scenes from a Single Image                                                   | CVPR 2025                        | Constructs 3D scenes (beyond single objects) from a single image, using techniques like 3D Gaussian Splatting. Not limited to forward-only fields.                                                     |
-| Acc3D: Accelerating Single Image to 3D Diffusion Models via Edge Consistency Guided Score Distillation | **CVPR 2025**                    | Focuses on accelerating single-image → 3D model generation using diffusion, with edge consistency and distillation. Works for multi-view / full 3D reconstruction, not strictly “forward-facing only.” |
-
-
-
-
-
-<br>
-
-## Multi-Agent Training for Robotics
-
-
-| Dimension                    | Evaluation Focus                                  | Example Tasks                           | Typical Metrics                                |
-| ---------------------------- | ------------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
-| **Accuracy**                 | Recognition, localization, segmentation precision | Object detection, pose estimation, SLAM | mAP, IoU, RMSE, ATE                            |
-| **Robustness**               | Environmental variation, occlusion, domain shift  | Outdoor navigation, Sim2Real transfer   | Performance drop curves, robustness benchmarks |
-| **Efficiency**               | Real-time inference, compute/energy               | Embedded robots, drones                 | FPS, latency, FLOPs, memory                    |
-| **High-level Understanding** | Scene comprehension, affordance, task relevance   | Manipulation, navigation                | Success rate, task completion time             |
-
-
-
-
-<br><br>
-
-
-[Quest 3](https://github.com/meta-quest/Meta-Spatial-SDK-Samples)
-
-
-Dataset Labeling for [2020 - Aria Glass Hardware](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)
-
-- [Aria Data Provider](https://github.com/facebookresearch/projectaria_tools)
-
-Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
-
-
-
 <br>
 
 
 
-## 📍 Computational Robotics - Medical / Space
+## Computational Robotics - Medical / Space
 
 [2025 - Visual Perception Engine](https://github.com/nasa-jpl/visual-perception-engine)
 
@@ -84,9 +45,10 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 - [Soft Robotics](https://mitpress.mit.edu/9780262049740/soft-robotics/)
 
+- [Aria Data Provider](https://github.com/facebookresearch/projectaria_tools)
+
 
 <br>
-
 
 
 ## Geometric Shape Modeling
@@ -95,7 +57,6 @@ Egocentric Vision, Intent Prediction, Anticipation, Multimodal Learning
 
 [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [📍 Fabricaible](https://www.fabricaible.com/)
 
-<br>
 
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
