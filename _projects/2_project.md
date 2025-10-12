@@ -39,6 +39,9 @@ A Stable4D
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 
+[The Banach-Tarski paradox](https://www.youtube.com/watch?v=9IKwPoNhP4E)
+
+
 <br>
 
 ## Reading List / References
