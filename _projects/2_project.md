@@ -38,8 +38,9 @@ A Stable4D
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
+<br>
 
-[The Banach-Tarski paradox](https://www.youtube.com/watch?v=9IKwPoNhP4E)
+  - [The Banach-Tarski paradox](https://www.youtube.com/watch?v=9IKwPoNhP4E)
 
 
 <br>
