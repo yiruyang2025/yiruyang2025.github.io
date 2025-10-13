@@ -14,8 +14,6 @@ related_publications: true
 
 ## Some Charming / Cute Things
 
-<br>
-
 - [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
 
 
