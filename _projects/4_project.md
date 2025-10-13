@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## ICML vs ICLR Submission Quick Check
+## NeurlPS 2026 Submission Quick Check
 
 <br>
 
