@@ -40,7 +40,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Backbones, Perception
+  - Backbones, Perception 
   - [Spatial Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 
