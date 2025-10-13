@@ -84,7 +84,6 @@ Vggt: Visual geometry grounded transformer
     - SAM 2, DINOv2, GPT-4o, 📍 `real-time Annotation`
     - demo - nutsh
 
-
   - 02 Oct 2025 - VSLAM-LAB: A Comprehensive Framework for Visual SLAM Baselines and Datasets, pixi
     - 2024 - Gaussian Splatting SLAM, demo
 
@@ -94,7 +93,7 @@ Vggt: Visual geometry grounded transformer
   - StreamSplat: A Framework for Self-Supervised, Online Novel View Synthesis
     -  Friday Oct 10th, 15:00-15:30 Zurich Time
 
-  - Uncertainty-Aware 3D Mapping, Monday, October 13th, 2pm, CNB G110 and Zoom
+  - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
 
 
 <br>
