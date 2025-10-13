@@ -51,8 +51,6 @@ related_publications: true
 
 ## Geometric Shape Modeling
 
-<br>
-
 [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [📍 Fabricaible](https://www.fabricaible.com/)
 
 
@@ -82,7 +80,6 @@ Regularization Terms
 
 ## Mesh Generations
 
-<br>
 
 [📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
 
