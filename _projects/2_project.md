@@ -48,6 +48,8 @@ A Stable4D
 Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
 
 
+MASt3R-SLAM: Real-Time Dense SLAM with 📍 3D Reconstruction Priors
+
 Two-View Geometry Scoring Without Correspondences
 
 📍 Zero-1-to-3: Zero-shot One Image to 3D Object
