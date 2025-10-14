@@ -1181,10 +1181,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 
 
-
-
-<br>
-
 <br>
 
 ## NeurlPS 2026 Submission Quick Check
@@ -1241,7 +1237,7 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 [2025 - MC-MED, multimodal clinical monitoring in the emergency department](https://www.nature.com/articles/s41597-025-05419-5)
 
 
-[📍 2025 - USZ + ETHz - Regenerative Heart Repair](https://www.linkedin.com/posts/omer-dzemali-prof-dr-med-dr-h-c-2702b9104_from-lab-to-beating-hearts-activity-7358452392071262208-bPba?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+[2025 - USZ + ETHz - Regenerative Heart Repair](https://www.linkedin.com/posts/omer-dzemali-prof-dr-med-dr-h-c-2702b9104_from-lab-to-beating-hearts-activity-7358452392071262208-bPba?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 
 [Department of Thoracic Surgery](https://www.usz.ch/team/sami-hosari/)
 
@@ -1254,7 +1250,7 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 
 ```
-Hospital CT / MRI 🏥
+Hospital CT / MRI
         ↓
 
 DICOM (raw slices + metadata)
@@ -1284,68 +1280,6 @@ Surgical plan → PDF / PNG / QR for clinical workflow
 
 <br>
 
-```
-VQ-VAE
-
-Motivation for Discrete Latent Audio Representations
-
-- **Information Bottleneck & Compression**  
-  Continuous waveforms contain abundant redundancies; modeling them directly (e.g., WaveNet) is computationally expensive.  
-  VQ-VAE quantizes latent vectors into a fixed-size codebook (e.g., 512 or 1024 entries), achieving lossy compression while preserving salient features.  
-  Subsequent priors (PixelCNN/Transformer) operate on shorter discrete sequences, yielding far greater efficiency.
-
-- **Advantages of Discrete Sequence Modeling**  
-  Autoregressive Transformers, PixelCNNs, and RNNs excel at modeling discrete tokens.  
-  Mapping audio to discrete tokens enables these models to capture long-range dependencies, linguistic structures, and prosody, without struggling in high-dimensional continuous spaces.
-
-- **Denoising & Semantic Extraction**  
-  Codebook entries tend to represent prototypical acoustic units (e.g., phonemes).  
-  Quantization suppresses minor noise and emphasizes semantic/prosodic features, yielding more robust representations for synthesis and recognition.
-
-- **Hierarchical & Multi-Rate Structure**  
-  VQ-VAE-2 employs multi-scale codebooks:  
-  - **Lower levels:** fine details (timbre, noise)  
-  - **Higher levels:** global structure (intonation, rhythm)  
-  This hierarchical discrete design is hard to achieve with continuous latent models.
-```
-
-<br>
-
-```
-1. NVIDIA Megatron-LM (GPT / BERT Pretraining)
-
-- **Compute**: All forward/backward kernels (e.g., matrix multiplies, attention, activations) execute in **FP16** on Tensor Cores.  
-- **Master Weights & Optimizer State**: A **FP32** “master copy” of model weights is maintained; FP16 gradients are accumulated into FP32 weights, then cast back to FP16 for the next iteration.  
-- **Numerical Stability**: Overflow-sensitive ops (e.g., Softmax) remain in **FP32** to avoid divergence, without meaningful speed penalty.  
-- **Implementation**: Uses NVIDIA Apex/AMP or NeMo’s automatic mixed-precision modules to orchestrate autocasting, dynamic loss scaling, and master-weight management :contentReference[oaicite:0]{index=0}.  
-
-2. Google PaLM / AlphaFold2 (Transformer & Scientific Models)
-
-- **Core Operators** (e.g., GEMM, LayerNorm, Dropout) run in **bfloat16** (BF16)—a 16-bit format with the same exponent range as FP32 but reduced mantissa.  
-- **Critical Sections** (e.g., logits normalization, loss computation) remain in **FP32** to prevent underflow/overflow.  
-- **Framework Support**: JAX/Flax users enable BF16 globally via flags like `jax.experimental.enable_x64=False` and per-op control via `jax.lax.cond` :contentReference[oaicite:1]{index=1}.  
-
-
-3. Stable Diffusion / GAN Inference
-
-- **Inference Precision**: Entire U-Net, scheduler, and CLIP text encoder run in **FP16**, halving memory and nearly doubling throughput compared to FP32, with negligible impact on image quality.  
-- **Selective FP32 Fallback**: For maximum stability or visual fidelity (e.g., in the VAE decoder), critical layers can be temporarily cast back to **FP32**.  
-
-4. Frontiers: FP8-LM (8-bit Mixed-Precision)
-
-- **FP8 Framework**: Base weights, gradients, and optimizer states use **8-bit FP8** (e.g., NVIDIA’s NF4 or Microsoft’s custom FP8); key stability ops (Softmax, LayerNorm) stay in FP16/BF16 or FP32.  
-- **Efficiency Gains**: In GPT-175B training, FP8 mixed-precision achieved a **75% speedup** and **39% memory reduction** over BF16 baselines—without changing hyperparameters :contentReference[oaicite:2]{index=2}.  
-- **Adoption**: Offers a drop-in replacement for existing FP16/BF16 pipelines, open-sourced via MS-AMP (aka.ms/MS.AMP).  
-
-*References*  
-- Micikevicius *et al.*, “Mixed Precision Training,” NVIDIA Developer Blog, 2018.  
-- Shoeybi *et al.*, “Megatron-LM: Training Multi-Billion Parameter Language Models,” *arXiv:1909.08053*, 2019.  
-- Narang *et al.*, “How To Fit a Bigger Model and Train It Faster,” Hugging Face Docs, 2022.  
-- Peng *et al.*, “FP8-LM: Training FP8 Large Language Models,” *arXiv:2310.18313*, 2023.
-```
-
-<br>
-
 **Temporal Alignment Leakage**
 
 ```
@@ -1367,7 +1301,7 @@ Motivation for Discrete Latent Audio Representations
 ```
 
 
-<br><br>
+<br>
 
 | Method              | Memory Usage                    | Training Speed                    |
 | ------------------- | ------------------------------- | --------------------------------- |
@@ -1392,7 +1326,7 @@ Use Layer1 activation → compute gradient
 ```
 
 
-<br><br><br>
+<br><br>
 
 
 ## References
