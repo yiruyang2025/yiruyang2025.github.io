@@ -13,12 +13,12 @@ related_publications: true
 
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
+   - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
 <br>
 
  - [2/2] Training Loss with different training set amounts
-    - [TAID](https://iclr.cc/virtual/2025/poster/29025)
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
@@ -26,7 +26,7 @@ related_publications: true
 
 <br>
 
-## RiemannianProjector, Geodesic Loss, 
+## RiemannianProjector, Geodesic Loss
 
 ```
 class RiemannianProjector(nn.Module):
@@ -76,6 +76,47 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 
 
 ## Background Knowledge
+
+```
+Machine Learning Fundamentals
+      │
+      ├── Data → Representation → Optimization → Generalization
+      │       ├─ Focus: Data quality, bias mitigation, and representation learning
+      │       ├─ Link to Gemini: multimodal data fusion (text, audio, vision, code)
+      │       └─ Goal: Learn unified latent spaces that enable reasoning across modalities
+      │
+      ├── Deep Learning (CNN / RNN / Transformer)
+      │       ├─ Forward & backward propagation as differentiable computation graphs
+      │       ├─ Initialization, normalization, regularization → stability & convergence
+      │       ├─ Loss design + learning rate scheduling → control of optimization dynamics
+      │       └─ Transformer family as universal sequence learners (foundation for Gemini)
+      │
+      ├── Optimization & Geometry
+      │       ├─ Gradient-based optimization viewed as navigating the loss landscape
+      │       ├─ Flat vs. sharp minima → generalization and robustness trade-offs
+      │       ├─ Riemannian geometry in embedding space → alignment on curved manifolds
+      │       └─ Connection: Gemini’s embedding consistency and representation curvature
+      │
+      ├── Model Compression & Distillation
+      │       ├─ Knowledge transfer from large to small models (teacher → student)
+      │       ├─ Soft vs. hard labels → probabilistic vs. symbolic supervision
+      │       ├─ LoRA / Adapter-based fine-tuning → parameter-efficient adaptation
+      │       ├─ Trade-offs: accuracy ↔ latency ↔ memory footprint ↔ energy efficiency
+      │       └─ Relevance: LearnLM and Gemini use adapter-tuned submodels for learning tasks
+      │
+      └── ML Engineering & Responsible AI
+              ├─ Data pipelines, reproducibility, evaluation, and continuous integration
+              ├─ Monitoring, checkpointing, scalable deployment on distributed accelerators
+              ├─ Safety alignment and interpretability — understanding model decisions
+              ├─ Evaluation beyond accuracy: robustness, fairness, value alignment
+              └─ Ethical ML engineering: accountability and transparency in large systems
+```
+
+
+
+
+
+<br>
 
 | Topic                                           | Content                                                                                                                                                             | Focus                                                                                                                         |
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
