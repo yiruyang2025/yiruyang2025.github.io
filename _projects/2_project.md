@@ -10,10 +10,6 @@ related_publications: true
 
 <br>
 
-## 📍 Main Goal - 3 + 5 + 15 + 30 ECTS
-
-<br>
-
 ## Supervisors
 
 
