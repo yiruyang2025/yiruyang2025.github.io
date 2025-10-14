@@ -74,6 +74,26 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 
 <br>
 
+## TAID
+
+**Initial training (step=0): λ=0.1**
+intermediate = 0.9 * student_probs + 0.1 * teacher_probs
+
+→ Mainly learn the student's own distribution
+
+**Mid-training (step=400): λ≈0.5**
+intermediate = 0.5 * student_probs + 0.5 * teacher_probs
+
+→ Balanced learning
+
+**Late training (step=800): λ=0.9**
+intermediate = 0.1 * student_probs + 0.9 * teacher_probs
+
+→ Mainly learn the teacher's distribution
+
+
+<br>
+
 
 ## Background Knowledge
 
@@ -615,26 +635,6 @@ Activation Function Characteristics Comparison:
      in frequency
      space
 ```
-
-
-<br>
-
-## TAID
-
-**Initial training (step=0): λ=0.1**
-intermediate = 0.9 * student_probs + 0.1 * teacher_probs
-
-→ Mainly learn the student's own distribution
-
-**Mid-training (step=400): λ≈0.5**
-intermediate = 0.5 * student_probs + 0.5 * teacher_probs
-
-→ Balanced learning
-
-**Late training (step=800): λ=0.9**
-intermediate = 0.1 * student_probs + 0.9 * teacher_probs
-
-→ Mainly learn the teacher's distribution
 
 
 <br>
