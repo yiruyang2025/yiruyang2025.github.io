@@ -35,7 +35,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Fast and Scalable 4d Reconstruction`, UZH AI, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Animal Avatars from Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Multimodal, [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - `Scientific Research Acceleration`
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Scientific Research Acceleration
 
 <br>
 
