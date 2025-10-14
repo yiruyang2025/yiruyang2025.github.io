@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
- - Stabilizing the Training
+ - Stabilizing the Training, Hidden Space Alignment via Feature Map
 
  - Training Loss with different training set amounts
 
@@ -101,6 +101,9 @@ Underfitting:     Overfitting:        Good Embedding:
 
 <br>
 
+
+## CNN
+
 ```
 [Input  D×E  (image or signal)]
       │
@@ -145,6 +148,30 @@ Underfitting:     Overfitting:        Good Embedding:
       ▼
 [Output Prediction y  / Class Probabilities]
 ```
+
+## Forward Pass
+
+```
+Input (32×32×3)
+      ↓
+Conv (3×3 kernel, 16 filters)
+      ↓
+ReLU activation
+      ↓
+Max Pooling (2×2)
+      ↓
+Conv (3×3 kernel, 32 filters)
+      ↓
+ReLU
+      ↓
+Global Avg Pooling
+      ↓
+Flatten → Dense (Fully-connected)
+      ↓
+Softmax → [Cat, Dog, Car, …]
+```
+
+
 
 
 
