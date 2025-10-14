@@ -10,9 +10,6 @@ related_publications: true
 
 <br>
 
-## 📍 Main Goal - Learning by Training
-
-<br>
 
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
