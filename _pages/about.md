@@ -31,10 +31,9 @@ latest_posts:
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [Orgo.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, Multimodal, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Fast and Scalable 4d Reconstruction`, UZH AI, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Animal Avatars from Videos, [CVG](https://cvg.ethz.ch/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Multimodal, [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Scientific Research Acceleration
 
 <br>
