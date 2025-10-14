@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## 📍 Main Goal - Supervisor is professional and smarter than me
+## 📍 Main Goal - Supervisor is professional and talent in her domain than me
 
 <br>
 
