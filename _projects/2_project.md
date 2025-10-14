@@ -48,22 +48,8 @@ A FFN for 4d Construction, neat and simple pipeline
 
 Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
 
+[2025 - St4RTrack](https://st4rtrack.github.io/)
 
-MASt3R-SLAM: Real-Time Dense SLAM with 📍 3D Reconstruction Priors
-
-Two-View Geometry Scoring Without Correspondences
-
-📍 Zero-1-to-3: Zero-shot One Image to 3D Object
-
-CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image (SIGGRAPH 25 TOG)
-
-📍 Hydra: A real-time spatial perception system for 3D scene graph construction and optimization
-
-Vggt: Visual geometry grounded transformer
-
-📍 Semantic-SAM: Segment and Recognize Anything at Any Granularity
-
-<br>
 
 [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
   - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
@@ -113,7 +99,7 @@ Vggt: Visual geometry grounded transformer
 
 
 
-<br><br><br><br>
+<br><br>
 
 
 
@@ -123,12 +109,12 @@ Vggt: Visual geometry grounded transformer
 
 ## 1. 4D
 
+[2025 - St4RTrack](https://st4rtrack.github.io/)
 
 <br>
 
 ## 2. 3D
 
-<br>
 
 [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
@@ -203,7 +189,6 @@ MASt3R (ECCV 2024)
 VGGT (CVPR 2025)
   - Image Sequences → Geometry-Grounded Attention → 3D Pose & Structure
 
-<br>
 
 `2. Semantic + Geometry Joint Models`
 
@@ -271,22 +256,16 @@ Points → Modern Neural Models (GS / Transformer)
 
 ## Some Other topics
 
-<br>
-
 [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
 
 [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 
-[Aug 2025 - Proxies Could Be The Key To Interacting With Physical Objects In Mixed Reality](https://www.uploadvr.com/research-proxies-mixed-reality/)
 
-
-<br><br>
-
+<br>
 
 
 ## World Models / Reality Proxy
 
-<br>
 
 [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
@@ -296,9 +275,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 
 ## Topics
-
-
-<br>
 
 
 [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
@@ -485,13 +461,7 @@ Outputs (Direct Prediction)
 
 **Frontiers in AI Research (2025)**
 
-1. Efficient Multimodal Alignment & Generation  
-- **Key Results**:  
-  - CLIPDraw++ (NeurIPS ’24): unified vision–language alignment  
-  - Video-LLaMA (ICLR ’25): zero-shot text-to-video generation  
-- **Challenges**: real-time deployment, fine-grained controllability, safety/robustness
-
-📍 2. Long-Term Temporal & Structural Consistency  
+📍 1. Long-Term Temporal & Structural Consistency  
 - **Key Results**:  
   - FlowFormer (CVPR ’25): flow-matching for video coherence
   - VideoMamba (25)
@@ -501,7 +471,7 @@ Outputs (Direct Prediction)
   - layered geometric+semantic caching  
   - dynamic scene understanding
 
-📍 3. Self-Supervised Learning from Extreme Sparsity  
+📍 2. Self-Supervised Learning from Extreme Sparsity  
 - **Key Results**:  
   - `SparseMAE (ICCV ’23): masked autoencoding with <0.1 % tokens`
   - Contrastive-Sparse (ICLR ’24): adaptive masking focus on high-entropy regions  
@@ -509,25 +479,7 @@ Outputs (Direct Prediction)
   - near-fully-supervised performance with ‰-level labels  
   - unified multi-task pretraining (classification, detection, generation)
 
-4. Differentiable Physics & Hybrid Simulation  
-- **Key Results**:  
-  - DiffPhys (NeurIPS ’24): end-to-end differentiable physics engine  
-  - FluidNeRF (CVPR ’25): fluid simulation within NeRF framework  
-- **Directions**:  
-  - trainable raytracing and material modules  
-  - learned+classical simulator hybrids  
-  - transferable “physical basis” representations
-
-5. Verifiable Robustness & Explainable Security  
-- **Key Results**:  
-  - Certified Diffusion Robustness (ICLR ’25)  
-  - Provable Transformer Defenses (NeurIPS ’24)  
-- **Imperatives**:  
-  - certified adversarial bounds  
-  - causal traceability in generation/decision chains  
-  - end-to-end system-level trust guarantees
-
-📍 **1. DiT (Diffusion Transformer)**
+📍 **3. DiT (Diffusion Transformer)**
 - **Overview**: Combines Transformer context modeling with diffusion denoising  
 - **Examples**  
   1. **KeyFace** – speech-driven face animation via stepwise denoising  
@@ -535,24 +487,13 @@ Outputs (Direct Prediction)
   3. **Pippo** – multi-view rendering with geometric and texture coherence  
 - **Benefit**: Maintains character appearance/style across shots and supports conditional, coherent animation
 
-📍 **2. Diadic Models**
-- **Concept**: Model both speaking and listening behaviors for interactive avatars  
-- **Examples**  
-  - **INFP** / **DualTalk**: dual-branch networks for speaker lip sync and listener micro‐expressions  
-- **Insight**: Ensures consistent identity/style in extended dialogues by modeling two-way interaction
-
-**3. Priors**
+**4. Priors**
 - **Synthetic Priors (GASP, SynShot)**  
   - Generate “pseudo-real” head avatars (poses, expressions, lighting) to enrich training data  
   - Improves generalization to extreme poses and rare expressions  
 - **Diffusion-based Priors (CAP4D, GAF)**  
   - Use pretrained diffusion models to produce high-quality 3D avatars or dynamic sequences  
   - Accelerates multi-view/multi-expression data generation and boosts video consistency
-
-**4. Implications**
-- **Architecture**: Adopt DiT’s diffusion-Transformer for cross-scene realface rendering  
-- **Interaction Consistency**: Integrate diadic modeling to handle speaking and listening coherently  
-- **Memory Extension**: Add a latent memory module to preserve character traits across sessions
 
 
 <br><br>
@@ -596,8 +537,6 @@ Outputs (Direct Prediction)
 
 ## 2D
 
-<br>
-
 [ViT], [DINOv3], [SAM 3]
 
 
@@ -606,12 +545,13 @@ Outputs (Direct Prediction)
 
 ## Some Products
 
+<br>
 
-[2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
+  - [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
 
-[3DV projects 2024](https://cvg.ethz.ch/lectures/3D-vision/assets/3DV_Projects_2024.pdf)
+  - [3DV projects 2024](https://cvg.ethz.ch/lectures/3D-vision/assets/3DV_Projects_2024.pdf)
 
-[3DV projects 2025]
+  - [3DV projects 2025]
 
 
 <br><br><br>
