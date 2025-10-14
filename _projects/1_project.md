@@ -141,6 +141,22 @@ For each episode:
   6. Backpropagate through ε_θ network
 ```
 
+<br>
+
+
+```
+Random Noise in Action Space
+      ↓
+Diffusion or Flow Process
+      ↓
+Denoising Steps / Continuous Flow
+      ↓
+Policy Network predicts εθ(x_t,t)
+      ↓
+Clean Action Sequence (Optimal Trajectory)
+      ↓
+Execute in Environment (Robotics / Control)
+```
 
 
 <br>
