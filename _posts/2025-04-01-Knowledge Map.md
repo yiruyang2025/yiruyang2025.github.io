@@ -47,7 +47,7 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
-[CardioAI](https://www.linkedin.com/showcase/cardioai/) (25)
+[CardioAI](https://www.linkedin.com/showcase/cardioai/)
 
 [Drug efficacy and pathway assessment in Brain Cancer](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/CancerBiology.html)
 
