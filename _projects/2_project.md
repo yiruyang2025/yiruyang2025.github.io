@@ -18,11 +18,12 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
 
 <br>
 
-## Topics
+## Key Contributions
+
 
 <br>
 
-A 2d -> 4d Reconstruction
+A FFN for 4d Construction, neat and simple pipeline
 
 
 <br>
@@ -113,17 +114,6 @@ Vggt: Visual geometry grounded transformer
 
 
 <br><br><br><br>
-
-
-## Key Contributions
-
-
-<br>
-
-A FFN for 4d Construction, neat and simple pipeline
-
-
-<br><br>
 
 
 
