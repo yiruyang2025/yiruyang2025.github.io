@@ -16,7 +16,7 @@ related_publications: true
  - Training Loss with different training set amounts
 
 
-<br><br>
+<br>
 
 [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
@@ -29,7 +29,34 @@ related_publications: true
 
 <br>
 
+
 ## Background Knowledge
+
+| Topic                                           | Content                                                                                                                                                             | Focus                                                                                                                         |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bias–Variance Trade-off**                     | Understand the decomposition of prediction error into bias², variance, and irreducible noise; analyze how model capacity and regularization (L1/L2, dropout, early stopping) govern generalization. | Derive and visualize bias–variance curves; compare polynomial regression vs. linear regression on synthetic data to quantify overfitting.                     |
+| **Loss Functions**                              | Master the mathematical formulation and gradients of MSE, Cross-Entropy, Hinge, KL-divergence, and CTC losses; relate them to likelihood maximization and task-specific objectives.                 | Construct mappings between task types (classification, ranking, sequence modeling) and optimal loss design; contrast probabilistic vs. margin-based criteria. |
+| **Optimization Fundamentals**                   | Deeply understand SGD and its momentum variants (RMSProp, Adam, AdamW); analyze convergence, stability, and implicit regularization; study learning-rate schedules and curvature effects.           | Derive update equations for each optimizer; simulate optimization trajectories on convex and non-convex surfaces to interpret convergence behavior.           |
+| **Regularization Strategies**                   | Examine explicit (L1/L2, weight decay) and implicit (dropout, data augmentation, early stopping) regularizers; interpret their influence on gradient dynamics and parameter sparsity.               | Compare gradient magnitudes under different penalties; evaluate the effect of augmentation on effective data entropy.                                         |
+| **Evaluation Metrics**                          | Formalize metrics such as Precision, Recall, F1, ROC-AUC, BLEU, and WER; understand trade-offs under class imbalance and probabilistic calibration.                                                 | Compute full confusion matrices; explore threshold tuning and visualize ROC/PR curves to interpret metric behavior.                                           |
+| **Neural Network Fundamentals**                 | Analyze forward and backward propagation through multilayer perceptrons; compute gradients via chain rule; interpret vanishing/exploding gradient phenomena.                                        | Manually derive partial derivatives for a one-hidden-layer MLP; validate gradients numerically using finite differences.                                      |
+| **Convolutional Neural Networks (CNNs)**        | Explore convolution as parameter sharing and local connectivity; examine receptive fields, stride, padding, pooling, and feature hierarchy formation.                                               | Implement a miniature convolution example by hand; compute output dimensions and receptive-field growth analytically.                                         |
+| **Recurrent / Gated Networks (RNN, LSTM, GRU)** | Model temporal dependencies and long-term gradient propagation; dissect gating mechanisms and compare architectures’ ability to mitigate vanishing gradients.                                       | Trace gradient flow across time steps; contrast SRN → LSTM → Transformer evolution in sequential modeling.                                                    |
+| **Transformer and Attention Mechanisms**        | Master Q-K-V formulation, scaled dot-product attention, multi-head operations, positional encodings, normalization layers, and their computational complexity.                                      | Derive softmax(QKᵀ / √d) attentional weighting; visualize attention maps to interpret self-attention versus convolution locality.                             |
+| **Graph Neural Networks (GNNs)**                | Understand message-passing frameworks (GCN, GAT, GraphSAGE) and hierarchical pooling; analyze how convolution generalizes to irregular domains.                                                     | Illustrate neighborhood aggregation with small graph examples; derive one-hop and multi-hop update equations.                                                 |
+| **Data Pipeline Engineering**                   | Design robust data-handling pipelines: cleaning, stratified splitting, shuffling, augmentation, and normalization while avoiding data leakage.                                                      | Build a pipeline diagram showing data flow and random-state control; test reproducibility under resampling.                                                   |
+| **Model Lifecycle Management**                  | Cover end-to-end ML workflow—training, validation, deployment, and monitoring—with emphasis on reproducibility and CI/CD integration.                                                               | Reconstruct your own project pipeline (e.g., DQLoRA) and annotate control points for data, code, and configuration versioning.                                |
+| **Debugging Machine Learning Systems**          | Identify root causes of non-convergence (poor initialization, LR instability, label noise, normalization errors); apply gradient clipping and adaptive schedulers.                                  | Perform systematic ablations varying LR and batch size; log gradient norms to detect exploding gradients.                                                     |
+| **Experiment Tracking and Reproducibility**     | Employ experiment-management frameworks for logging, checkpointing, and hyperparameter optimization; ensure deterministic training via controlled seeds.                                            | Configure a reproducible run with Weights & Biases or MLflow; record hyperparameter sweeps and validation curves.                                             |
+| **Model Deployment and Efficiency**             | Implement post-training compression—quantization, pruning, distillation, LoRA adapters—for low-resource inference; design efficient serving pipelines.                                              | Benchmark inference latency and memory footprint on constrained hardware; reproduce deployment from your hearing-aid ASR system.                              |
+
+
+
+
+
+
+
+
 
 <br>
 
