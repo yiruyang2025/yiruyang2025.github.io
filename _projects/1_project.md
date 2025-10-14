@@ -11,9 +11,18 @@ related_publications: true
 <br>
 
 
+
  - Stabilizing the Training, Hidden Space Alignment via Feature Map
+   
+   - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
+   - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
+
 
  - Training Loss with different training set amounts
+    - [TAID](https://iclr.cc/virtual/2025/poster/29025)
+    - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
+    - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
+
 
 
 <br>
@@ -39,14 +48,30 @@ Teacher (Whisper-large-v2, frozen)
 Student (distil-small + LoRA adapters)
         │
         ├── CE loss (labels supervision)
+        │       ↑
+        │       └── Hard labels = ground truth text
+        │           (e.g. “Hello world” from dataset)
+        │
         ├── KL loss (soft logits distillation)
+        │       ↑
+        │       └── Soft labels = teacher’s predicted probabilities
+        │           (e.g. P(“hello”)=0.62, P(“hey”)=0.31, P(“halo”)=0.07)
+        │
         └── Geo loss (Riemannian alignment)
+                ↑
+                └── Aligns latent embeddings on a curved manifold
+                    (ensures student follows teacher’s geometry)
         ↓
    Optimizer (AdamW + Cosine LR)
         ↓
   LoRA Adapter Checkpoint (Google Drive)
         ↓
 Evaluation (WER / RTF / Memory)
+
+
+s_hid = student_proj(s_out.encoder_last_hidden_state)
+t_hid = normalize(t_out.encoder_last_hidden_state)
+geo = geodesic_distance_on_sphere(s_hid, t_hid)
 ```
 
 
@@ -64,15 +89,6 @@ Evaluation (WER / RTF / Memory)
 
 
 
-<br>
-
-[ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
-
-  - Visual training curves with different amounts of training dataset
-
-  - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
-
-  - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
 
 
 <br>
