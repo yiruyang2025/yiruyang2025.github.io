@@ -77,6 +77,74 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 
 ## Background Knowledge
 
+
+## RL On Diffusion
+
+
+I. Base Diffusion Backbone (Generative Prior)
+```
+Input (x₀ = real data sample: image, trajectory, audio, 3D scene)
+      ↓
+Forward Diffusion Process (adds Gaussian noise)
+      ↓
+x₁ ← √α₁·x₀ + √(1−α₁)·ε₁
+x₂ ← √α₂·x₁ + √(1−α₂)·ε₂
+⋮
+x_T ≈ pure Gaussian noise N(0, I)
+      ↓
+Reverse Denoising Process (parameterized by neural network ε_θ)
+      ↓
+x_{t−1} = (x_t − √(1−α_t)·ε_θ(x_t, t, cond)) / √α_t + η·σ_t
+      ↓
+UNet / Transformer backbone → learns to reconstruct x₀
+```
+
+<br>
+
+II. Policy Representation via Diffusion
+
+```
+Environment State s_t
+      ↓
+Noise z_t ~ N(0, I)
+      ↓
+Diffusion Policy Network ε_θ(s_t, z_t, t)
+      ↓
+Sample Action a_t = Denoise(z_t | s_t)
+      ↓
+Execute Action in Environment → Receive Reward r_t
+      ↓
+Collect Trajectory τ = {s_t, a_t, r_t}
+```
+
+<br>
+
+III. RL Objective on Diffusion Parameters
+
+
+
+
+
+<br>
+
+IV. Reward-Guided Diffusion Training (Diffusion Policy Optimization)
+
+```
+For each episode:
+  1. Sample noise x_T ~ N(0, I)
+  2. Run reverse diffusion (ε_θ) conditioned on state s_t
+  3. Generate predicted action trajectory x₀
+  4. Execute in environment → collect reward R
+  5. Compute loss:
+         L_total = L_diffusion + λ·L_RL
+         L_RL = − E[R(τ)]
+  6. Backpropagate through ε_θ network
+```
+
+
+
+<br>
+
 ```
 Machine Learning Fundamentals
       │
@@ -351,36 +419,9 @@ Training Loop
 [ Next batch ]
 ```
 
-
-
 <br>
 
-
-**Key Improvements**
-
-1. LoRA + Lightweight Decoders + non-linear Projection to Guide the Student in the Hidden State -> similar WER with `lower inference Latency`
-2. `INT8` - Inference - Post-Training [`Quantization`](https://www.youtube.com/watch?v=t509sv5MT0w) -> can try Quantization-Aware Training by yourself
-3. Write a script to test the choice of your Surface
-
-<br>
-
-```
-%load_ext tensorboard
-%tensorboard --logdir /content/drive/MyDrive/distil_run_cell2.x/tb
-```
-
-<br>
-
-
-By modifying `cfg.taid_power` at runtime, the shape of TAID's interpolation curve can be "dynamically" changed without affecting the original function and structure -> Turned out results not good for our model structure
-
-"We found that **4 layers** was the minimum required to get reasonable WER performance for distil-small.en, where it performs to within 3% WER of Whisper large-v2 while being **5.6x faster**"
-
-"While distil-medium.en and distil-large-v2 use **2 layers of decoders** layers each, distil-small.en uses 4. Using more decoder layers improves the WER performance of the model, at the expense of **slower inference speed**"
-
-<br>
-
-`Single card peak ~ 13–15 GB VRAM -> Start your Experiment with FP16 + AMP`
+## Single card peak ~ 13–15 GB VRAM -> Start your Experiment with FP16 + AMP
 
 Whisper large-v3 has the same architecture as the previous large and large-v2 models, except for the following minor differences:
 
@@ -617,21 +658,6 @@ intermediate = 0.1 * student_probs + 0.9 * teacher_probs
 → Mainly learn the teacher's distribution
 
 
-
-<br>
-
-Add a projection layer to ensure dimension alignment, and the projected student hidden state is aligned with the teacher hidden state by **MSE for Hidden-State / Encoder Alignment Loss**
-
-Even `without a decoder`, the `student encoder` can internalize the teacher’s linguistic knowledge by `Mimicking its Output Distributions` and `Hidden‐State Representations` --> 📍 `KL Loss + CE / CTC Loss` 
-
-<br>
-
-**Add Projection Layer - For The Distillation**
-
-- Student (whisper-small): 768 dimensions
-- Teacher (whisper-large-v2): 1280 dimensions
-- **`Projection Layer`** - Linear(768 → 1280) to align student and teacher hidden dimensions
-
 <br>
 
 ```
@@ -855,17 +881,6 @@ decoder.layers.*.fc1, fc2
 
 <br>
 
-**`Features - LoRA`**
-
-- **End-to-end alignment**: No extra alignment mechanism; the model learns acoustic-to-text alignment during training
-- **Scalable functionality**: Supports ASR, speech translation, and multi-language recognition
-- **High decoding overhead**: Requires decoder and beam search at each step, resulting in higher latency
-- Balance: r = 8 is generally the most stable between effect and cost
-- Pursuing the limit: r = 16 / 32 has the best expressiveness, but requires more video memory and gradients
-
-
-<br>
-
 **`Temperature`**
 
 - **Initial pilot temperature**: `T =  `  
@@ -1000,9 +1015,8 @@ $$
 
 <br><br>
 
-**Hyperparameter Optimization**
+## Hyperparameter Optimization
 
-<br>
 
 With 15hrs dataset experiment, we used 50 rounds to run a "warm-up" for no problem. If you want to perform large-scale tuning in a production environment, it is recommended to `increase n_trials to 50-100`
 
@@ -1059,7 +1073,7 @@ self.scaler.step(optimizer)
 self.scaler.update()
 ```
 
-<br><br>
+<br>
 
 
 ## PCA vs. t-SNE vs. UMAP vs. DTW
@@ -1081,68 +1095,8 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 μ_ij = w_ij + w_ji − w_ij * w_ji
 ```
 
-<br><br><br>
+<br><br>
 
-
-## References
-
-
-**Connectionist Temporal Classification (CTC) in Knowledge Distillation**  - No need since Encoder-Decoder Seq2Seq Model here 
-
-- **Proposer & Year**: Alex Graves et al. (2006 ICML)  
-- **Motivation**:  
-  Frame–label alignment unavailable in speech/handwriting tasks 
-- **Mechanism**:  
-  1. Automatic alignment of variable‐length audio to text  
-  2. Marginalization over all valid alignment paths  
-  3. Blank token to handle repeats and separations  
-- **Role in Distillation**:  
-  Provides hard supervision—ensures correct sequence output without frame-level labels
-
-<br>
-
-**Kullback–Leibler (KL) Distillation Loss**  
-
-- **Proposer & Year**: Hinton et al. (2015 NIPS)  
-- **Motivation**:  
-  Transfer “dark knowledge” (inter-class similarity and uncertainty) from teacher to student.  
-- **Mechanism**:  
-  1. Compute teacher and student softmax distributions at each time step  
-  2. Apply temperature \(T\) to smooth distributions  
-  3. Minimize KL divergence between them  
-- **Role in Distillation**:  
-  Provides soft supervision—guides student to match teacher’s probability patterns and improve generalization.
-
-<br>
-
-**Rectification Loss (Representation-Level Supervision)**  
-
-- **Proposer & Year**: Romero et al. (2014 ICLR “FitNets”)  
-- **Motivation**:  
-  Teacher’s internal feature representations carry structural and reasoning cues beyond output labels.  
-- **Mechanism**:  
-  1. Extract corresponding hidden-layer activations from teacher and student  
-  2. Minimize feature‐map discrepancy via L2 or similar loss  
-- **Role in Distillation**:  
-  Provides intermediate supervision—aligns student’s internal representations with teacher’s, stabilizing training and preserving network–level knowledge.
-
-
-<br>
-
-**Basic + Advanced Parallel**
-  - First use linear projection + MSE as the basic alignment (to ensure training feasibility)
-  - At the same time, design a Group-wise Cross-Attention Projector (refer to ACCV2022) to capture more expressive mappings
-
-**Progressive Distillation Scheduling**
-  - In the early stage of training, only output distribution distillation + projection MSE is used;
-  - Then gradually "unfreeze" the intermediate layer alignment loss, or add a blank frame / non-blank frame factorization strategy (refer to CTC-ASR).
-
-**Multi-stage Intermediary**
-  - If the teacher-student difference is too large, an auxiliary teacher with a more similar structure can be introduced to complete the alignment **in two steps**
-
-
-
-<br>
 
 ## Background Knowledge 2
 
@@ -1300,7 +1254,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 ## NeurlPS 2026 Submission Quick Check
 
-<br>
 
  | Focus Area                 | **ICML**                                           | **ICLR**                                             | **NeurIPS**                                                  |
 | -------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ |
@@ -1326,23 +1279,15 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 [2020 - Topological Autoencoders](https://proceedings.mlr.press/v119/moor20a.html?ref=https://githubhelp.com)
 
-
 [2025 - Development of a multimodal vision transformer model for predicting traumatic versus degenerative rotator cuff tears on magnetic resonance imaging: A single-centre retrospective study](https://esskajournals.onlinelibrary.wiley.com/doi/10.1002/ksa.70000)
 
-<br>
-
-
-## Toolkit
-
-
-[2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
+Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
 
 
 <br><br>
 
 
 ## Organ / Liver Preservation
-
   
 [USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
 
@@ -1353,9 +1298,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 
 [2025 - USZ + ETHz - Regenerative Heart Repair](https://www.linkedin.com/posts/omer-dzemali-prof-dr-med-dr-h-c-2702b9104_from-lab-to-beating-hearts-activity-7358452392071262208-bPba?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
-
-[Department of Thoracic Surgery](https://www.usz.ch/team/sami-hosari/)
-
 
 
 <br>
@@ -1395,7 +1337,7 @@ Surgical plan → PDF / PNG / QR for clinical workflow
 
 <br>
 
-**Temporal Alignment Leakage**
+## Temporal Alignment Leakage
 
 ```
 ┌─────────────────────────────────────────┐
