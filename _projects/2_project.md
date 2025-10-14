@@ -16,16 +16,12 @@ related_publications: true
 
 ## Supervisors
 
-<br>
 
 - Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
 
 <br>
 
 ## Key Contributions
-
-
-<br>
 
 - A FFN for 4d Construction, neat and simple pipeline
 
@@ -34,7 +30,6 @@ related_publications: true
 
 ## Related Coursework
 
-<br>
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
 
@@ -48,7 +43,6 @@ related_publications: true
 
 ## Reading List / References
 
-<br>
 
 Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
 
@@ -92,7 +86,6 @@ Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual
 
 ## Some Related Art works
 
-<br>
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
@@ -503,7 +496,6 @@ Outputs (Direct Prediction)
 
 ## 4D
 
-
 [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
 
 [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
@@ -537,8 +529,6 @@ Outputs (Direct Prediction)
 
 
 ## Some Products
-
-<br>
 
   - [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
 
