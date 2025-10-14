@@ -10,7 +10,9 @@ related_publications: true
 
 <br>
 
+## 📍 Main Goal - Supervisor is well-trained and smart
 
+<br>
 
 ## Some Cute Things
 
