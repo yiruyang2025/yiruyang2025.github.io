@@ -434,8 +434,6 @@ Outputs (Direct Prediction)
    • 3D Tracks
 ```
 
-
-
 <br>
 
 ## Visual Computing - Coursework
@@ -465,7 +463,7 @@ Outputs (Direct Prediction)
 
 **Frontiers in AI Research (2025)**
 
-📍 1. Long-Term Temporal & Structural Consistency  
+1. Long-Term Temporal & Structural Consistency  
 - **Key Results**:  
   - FlowFormer (CVPR ’25): flow-matching for video coherence
   - VideoMamba (25)
@@ -500,7 +498,7 @@ Outputs (Direct Prediction)
   - Accelerates multi-view/multi-expression data generation and boosts video consistency
 
 
-<br><br>
+<br>
 
 
 ## 4D
@@ -525,15 +523,6 @@ Outputs (Direct Prediction)
 [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
 [COLMAP], [GLOMAP]
-
-
-<br>
-
-
-[1. Align3R: Aligned Monocular Depth Estimation for Dynamic Videos](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html)
-
-
-[2. Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](https://arxiv.org/abs/2412.09621)
 
 
 <br>
