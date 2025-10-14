@@ -22,7 +22,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
 
 <br>
 
-A Stable4D
+2d -> 4d Reconstruction
 
 
 <br>
