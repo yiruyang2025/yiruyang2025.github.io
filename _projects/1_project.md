@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
- - Hidden Space Alignment
+ - Stabilizing the Training
 
  - Training Loss with different training set amounts
 
