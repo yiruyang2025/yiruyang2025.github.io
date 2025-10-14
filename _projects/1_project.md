@@ -144,6 +144,8 @@ For each episode:
 <br>
 
 
+## Diffusion Policy, Decision Diffuser
+
 ```
 Random Noise in Action Space
       ↓
