@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## 📍 Main Goal - Supervisor is well-trained and smart
+## 📍 Main Goal - Supervisor is professional and smarter than me
 
 <br>
 
