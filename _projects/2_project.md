@@ -18,7 +18,7 @@ related_publications: true
 
 <br>
 
-Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxxx...
+Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
 
 <br>
 
