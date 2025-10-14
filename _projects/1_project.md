@@ -567,8 +567,7 @@ Activation Function Characteristics Comparison:
 
 <br>
 
-## [Fourier Transform](https://www.linkedin.com/posts/imarpit_ai-machinelearning-deeplearning-activity-7367542558693937152-28w2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-
+## Fourier Transform
 
 ```
         ┌───────────────────────────────┐
@@ -598,44 +597,6 @@ Activation Function Characteristics Comparison:
      in frequency
      space
 ```
-
-
-<br><br>
-
-## Distillation Ice Factory
-
-```
-Raw Material (Input) → Processing (Distill) → Packaging (Loss) → Finished Product (Student)
-    ↓                       ↓                       ↓                    ↓
-X₀ (Teacher Output)    X₁ (Distillation)    X₂ (Loss Computation)     Student
-```
-
-
-| Distillation Type   | Factory Analogy                                                                      | Time Complexity     | Space Complexity    |
-| ------------------- | ------------------------------------------------------------------------------------ | ------------------- | ------------------- |
-| **Logit-based**     | 🧊 **Taste Test Ice**<br>Chef tastes logits → balances flavor (KL) → packages      | $O(B \times C)$     | $O(B \times C)$     |
-|                     | - Input: $C$ class logits from the teacher<br>- Loss: KL divergence over classes     | (batch × #classes)  | (batch × #classes)  |
-| **Feature-based**   | 🧊 **Texture Match Ice**<br>Dough texture (hidden) → aligns texture (MSE) → packages | $O(B \times D)$     | $O(B \times D)$     |
-|                     | - Input: hidden-state vector of dimension $D$<br>- Loss: MSE over each feature dimension | (batch × feature dim) | (batch × feature dim) |
-| **Attention-based** | 🧊 **Sprinkle Alignment Ice**<br>Sprinkle pattern (attention map) → aligns → packages | $O(B \times n^2)$   | $O(B \times n^2)$   |
-|                     | - Input: attention matrix of size $n \times n$ (heads × seq²)<br>- Loss: MSE/KL on maps | (batch × seq length²) | (batch × seq length²) |
-| **Relation-based**  | 🧊 **Community Graph Ice**<br>Community relations (Gram matrix) → aligns → packages | $O(B \times n^2)$   | $O(B \times n^2)$   |
-|                     | - Input: similarity matrix among samples or tokens<br>- Loss: MSE/InfoNCE on Gram matrix | (batch × nodes²)    | (batch × nodes²)    |
-
-<br>
-```
-**B** = batch size
-**C** = number of classes
-**D** = hidden feature dimension
-**n** = sequence length or number of nodes
-```
-
-
-1. **Logit-based “Taste Test”**: Only aligns final class probabilities, linear cost in #classes → lightest overhead
-2. **Feature-based “Texture Match”**: Aligns internal feature vectors, linear cost in feature dimension → moderate overhead
-3. **Attention-based “Sprinkle Alignment”**: Aligns every sprinkle in the attention map, quadratic cost in sequence length → heavy overhead
-4. **Relation-based “Community Graph”**: Aligns all pairwise relations among samples/tokens, also quadratic cost → highest overhead
-
 
 
 <br>
