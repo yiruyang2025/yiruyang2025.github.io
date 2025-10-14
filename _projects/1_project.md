@@ -12,13 +12,13 @@ related_publications: true
 
 
 
- - [1/2]Stabilizing the Training, Hidden Space Alignment via Feature Map
+ - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
 <br>
 
- - [2/2]Training Loss with different training set amounts
+ - [2/2] Training Loss with different training set amounts
     - [TAID](https://iclr.cc/virtual/2025/poster/29025)
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
@@ -28,7 +28,6 @@ related_publications: true
 <br>
 
 ## RiemannianProjector, Geodesic Loss, 
-
 
 ```
 class RiemannianProjector(nn.Module):
