@@ -18,7 +18,7 @@ related_publications: true
 
 <br>
 
-Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
+- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
 
 <br>
 
@@ -27,7 +27,7 @@ Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
 
 <br>
 
-A FFN for 4d Construction, neat and simple pipeline
+- A FFN for 4d Construction, neat and simple pipeline
 
 
 <br>
