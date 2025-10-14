@@ -16,6 +16,44 @@ related_publications: true
  - Training Loss with different training set amounts
 
 
+<br>
+
+## RiemannianProjector, Geodesic Loss, 
+
+
+```
+class RiemannianProjector(nn.Module):
+    def __init__(self, in_dim=768, out_dim=1280):
+        ...
+    def forward(self, x):
+        x = self.map(x)
+        return F.normalize(x, dim=-1)
+
+cos_sim = (x*y).sum(-1)
+loss = acos(cos_sim)
+
+
+Teacher (Whisper-large-v2, frozen)
+        │
+        ▼
+Student (distil-small + LoRA adapters)
+        │
+        ├── CE loss (labels supervision)
+        ├── KL loss (soft logits distillation)
+        └── Geo loss (Riemannian alignment)
+        ↓
+   Optimizer (AdamW + Cosine LR)
+        ↓
+  LoRA Adapter Checkpoint (Google Drive)
+        ↓
+Evaluation (WER / RTF / Memory)
+```
+
+
+
+<br>
+
+
 | **Level**                     | **Content (Research Focus)**                                                                                                                                                               | **Corresponding Implementation in Your System**                                                                                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Research Problem (What)**   | The knowledge distillation process often suffers from **training instability** — including gradient oscillations and distribution mismatches between teacher and student.                  | In your Whisper distillation setup, the **teacher-large** and **student-small** models exhibit difficulty aligning their **hidden-state distributions**, leading to unstable convergence. |
