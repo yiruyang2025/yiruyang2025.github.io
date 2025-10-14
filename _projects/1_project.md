@@ -99,14 +99,9 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 | **Model Deployment and Efficiency**             | Implement post-training compression—quantization, pruning, distillation, LoRA adapters—for low-resource inference; design efficient serving pipelines.                                              | Benchmark inference latency and memory footprint on constrained hardware; reproduce deployment from your hearing-aid ASR system.                              |
 
 
-
-
-
-
-
-
-
 <br>
+
+## Learning Rates
 
 | Trend                                  | Description                                     | Representative Systems                |
 | -------------------------------------- | ----------------------------------------------- | ------------------------------------- |
@@ -118,6 +113,8 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 
 
 <br>
+
+## Scaling Law
 
 | **Year** | **Model**                         | **Number of Layers** | **Parameter Count** | **FLOPs (per inference)** | **Activations (per forward pass)** | **Typical Memory Footprint**          |
 | -------- | --------------------------------- | -------------------- | ------------------- | ------------------------- | ---------------------------------- | ------------------------------------- |
@@ -133,6 +130,8 @@ geo = geodesic_distance_on_sphere(s_hid, t_hid)
 
 <br>
 
+## Generalization and Regularization
+
 ```
 Underfitting:     Overfitting:        Good Embedding:
  • • • • •        ●●●  ○○○  ▲▲▲       ● ●   ○ ○   ▲ ▲
@@ -140,11 +139,11 @@ Underfitting:     Overfitting:        Good Embedding:
  ▲ ▲ ▲ ▲ ▲        val points outside   val & train overlap
 ```
 
-| Principle                                                                            | Intuition |
-| ------------------------------------------------------------------------------------ | --------- |
-| **Regularization** = adding controlled noise or constraints to prevent memorization. |           |
-| **Overfitting** = perfect fit on training data, poor generalization.                 |           |
-| **Goal** = flatter minima + smoother decision boundaries.                            |           |
+| **Principle**                                                                        | **Intuition**                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Regularization** = adding controlled noise or constraints to prevent memorization. | Introduces noise or limits (e.g., dropout, weight decay, data augmentation) so the model learns general patterns instead of memorizing the training set. <br> |
+| **Overfitting** = perfect fit on training data, poor generalization.                 | The model minimizes training loss too well, capturing noise instead of true structure — leads to poor performance on unseen data. <br>                                       |
+| **Goal** = flatter minima + smoother decision boundaries.                            | Seek regions in the loss landscape where small parameter changes do not greatly affect loss — resulting in more stable, generalizable models. <br>              |
 
 
 <br>
@@ -219,11 +218,11 @@ Flatten → Dense (Fully-connected)
 Softmax → [Cat, Dog, Car, …]
 ```
 
-
-
-
-
 <br>
+
+
+
+## Optimization for Training
 
 | Stage                   | **Method**                                  | **Purpose / Effect**                                        |
 | --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
@@ -237,15 +236,7 @@ Softmax → [Cat, Dog, Car, …]
 
 <br>
 
-| Model Example          | **Normalization**                                                                                                           | **Regularization**                                                                                                           | **Essence & How It Works**                                                                                                            |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **CNN (e.g., ResNet)** | **Batch Normalization** — normalizes activations within a mini-batch to stabilize gradients and speed up convergence.       | **Weight Decay + Dropout** — penalizes large weights and randomly drops neurons to reduce overfitting.                       | *Normalization* equalizes feature scales during training, while *Regularization* constrains model capacity to improve generalization. |
-| **Transformer / LLM**  | **Layer Normalization** — normalizes hidden states across features to maintain stable activations in deep attention layers. | **Attention Dropout + L2 Regularization** — randomly masks attention links and adds weight penalties to prevent overfitting. | Normalization stabilizes internal representations; regularization prevents memorization of training data.                             |
-| **MLP**                | **Input Standardization** — rescales each input feature to zero mean and unit variance.                                     | **L2 Regularization (Ridge)** — discourages large parameter magnitudes for smoother mappings.                                | Normalization improves numerical stability; regularization enforces simpler models with better generalization.                        |
-
-
-<br>
-
+## Normalization and Regularization in different Model Structures
 
 | Item              | **L1 Regularization**                                 | **L2 Regularization**                                |
 | ----------------- | ----------------------------------------------------- | ---------------------------------------------------- |
@@ -257,6 +248,17 @@ Softmax → [Cat, Dog, Car, …]
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project1_5.jpg" alt="Project 1 Visualization" width="75%">
 </p>
+
+
+
+| Model Example          | **Normalization**                                                                                                           | **Regularization**                                                                                                           | **Essence & How It Works**                                                                                                            |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **CNN (e.g., ResNet)** | **Batch Normalization** — normalizes activations within a mini-batch to stabilize gradients and speed up convergence.       | **Weight Decay + Dropout** — penalizes large weights and randomly drops neurons to reduce overfitting.                       | *Normalization* equalizes feature scales during training, while *Regularization* constrains model capacity to improve generalization. |
+| **Transformer / LLM**  | **Layer Normalization** — normalizes hidden states across features to maintain stable activations in deep attention layers. | **Attention Dropout + L2 Regularization** — randomly masks attention links and adds weight penalties to prevent overfitting. | Normalization stabilizes internal representations; regularization prevents memorization of training data.                             |
+| **MLP**                | **Input Standardization** — rescales each input feature to zero mean and unit variance.                                     | **L2 Regularization (Ridge)** — discourages large parameter magnitudes for smoother mappings.                                | Normalization improves numerical stability; regularization enforces simpler models with better generalization.                        |
+
+
+
 
 
 <br>
