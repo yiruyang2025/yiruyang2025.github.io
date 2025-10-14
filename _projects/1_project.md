@@ -11,6 +11,11 @@ related_publications: true
 <br>
 
 
+[📍 Click Here - How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
+
+
+<br>
+
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
