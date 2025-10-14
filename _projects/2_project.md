@@ -284,7 +284,7 @@ Points → Modern Neural Models (GS / Transformer)
 
 
 
-## World Models / [Reality Proxy](https://www.arxiv.org/pdf/2507.17248)
+## World Models / Reality Proxy
 
 <br>
 
