@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Deep Learning
-description: Stabilizing Knowledge Distillation (Training), AI Center
+description: nGPT, AI Center
 img: assets/img/4.jpg
 importance: 1
 category: work
