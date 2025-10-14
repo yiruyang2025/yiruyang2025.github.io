@@ -16,6 +16,16 @@ related_publications: true
  - Training Loss with different training set amounts
 
 
+| **Level**                     | **Content (Research Focus)**                                                                                                                                                               | **Corresponding Implementation in Your System**                                                                                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Research Problem (What)**   | The knowledge distillation process often suffers from **training instability** — including gradient oscillations and distribution mismatches between teacher and student.                  | In your Whisper distillation setup, the **teacher-large** and **student-small** models exhibit difficulty aligning their **hidden-state distributions**, leading to unstable convergence. |
+| **Research Motivation (Why)** | When the teacher and student differ significantly in **feature dimensionality** or **temporal resolution**, standard **logit-based distillation** cannot converge stably.                  | The discrepancy between **Whisper-large-v3 (1280-d, T≈1500)** and **distil-small (768-d, T≈499)** creates a **spatial and temporal misalignment** in hidden representations.              |
+| **Research Method (How)**     | Introduce **Hidden-Space Alignment**, stabilizing the distillation process via **Feature Map matching**, a **Projection Layer**, and **MSE regularization** across latent representations. | You implemented a **Projection (768→1280)** layer combined with **Hidden-State MSE loss** and **KL divergence** — forming a **three-term objective (CE + KL + MSE)** for stable training. |
+| **Core Idea**                 | Stable training = maintaining **geometric consistency** within the hidden space, ensuring smooth gradients and balanced representation flow.                                               | Feature-map–level alignment functions as a **CNN-inspired hierarchical feature mimicry**, allowing the student to emulate multi-layer structural representations of the teacher.          |
+
+
+
+
 <br>
 
 [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
