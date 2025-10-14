@@ -51,7 +51,7 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Drug efficacy and pathway assessment in Brain Cancer](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/CancerBiology.html)
 
-[Medical AI / Health Tech](https://www.linkedin.com/in/alankarthi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+Medical AI / Health Tech
 
 (*Large-Scale AI Engineering, GH200, 25)
 
