@@ -26,7 +26,7 @@ related_publications: true
 
 <br>
 
-## RiemannianProjector, Geodesic Loss
+## Riemannian Projector, Geodesic Loss
 
 ```
 class RiemannianProjector(nn.Module):
