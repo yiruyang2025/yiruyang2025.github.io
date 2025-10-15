@@ -18,13 +18,53 @@ Let's take a look at the history of The Model Structures we're using today.
 
 <br><br>
 
+## DL
+
+| **Component**      | **Description**                                                                                                                             |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Origin**         | Deep Learning was formalized in **1986** by **Rumelhart, Hinton, and Williams** with the invention of **Backpropagation**.                  |
+| **Key Idea**       | Learn hierarchical representations — from low-level edges to high-level concepts — through multiple neural layers.                          |
+| **Representation** | Automatically extracts features from raw data (images, audio, text) instead of manual feature engineering.                                  |
+| **Optimization**   | Trains large neural networks using **gradient descent** and **backpropagation** to minimize a defined loss.                                 |
+| **Architecture**   | Stacks multiple nonlinear transformations (e.g., CNNs, RNNs, Transformers) to form deep computational graphs.                               |
+| **Generalization** | Learns robust patterns that transfer to unseen data, aided by large datasets, GPUs, and regularization methods.                             |
+| **Impact / Use**   | Powers modern AI systems in **vision (CNNs)**, **language (Transformers)**, **speech (RNNs)**, and **generative models (Diffusion, GANs)**. |
+
+
+<br>
+
+```
+Deep Learning World                            Classical ML World
+═══════════════════════════════════             ════════════════════════════════════
+Raw Data → Multi-layer Network →                Handcrafted Features → Shallow Model →
+Learn Representations → Optimize by Gradient    Manual Design → Limited Adaptability
+     ↓                     ↓                           ↓                     ↓
+┌───────────────┐   ┌─────────────────┐           ┌─────────────────┐   ┌───────────────────────┐
+│ Raw Inputs    │ → │ Neural Layers   │    vs.    │ Engineered Feats│ → │ Classifier (SVM/Tree) │
+│ (Image/Text)  │   │ (CNN/RNN/Trans.)│           │ (HOG/SIFT/MFCC) │   │ (Fixed Decision Rules) │
+└───────────────┘   └─────────────────┘           └─────────────────┘   └───────────────────────┘
+     ↓                     ↓                           ↓                     ↓
+End-to-End Learning     Automatic Feature Hierarchy   Manual Tuning Needed   Poor Transferability
+(Backprop + Gradient)   (Low→Mid→High Abstractions)   (Domain-Specific)      (Retrain for New Task)
+
+Hybrid approaches:
+1. Use pretrained deep features + classical models for fast adaptation  
+2. Fine-tune deep backbones with task-specific heads for efficiency  
+
+Deep Learning = Student who learns concepts from examples (automatic understanding)  
+Classical ML  = Student who uses fixed formulas (must be told what features matter)
+```
+
+
+
+<br>
 
 
 ## Generalization Ability
 
 <br>
 
-[2016 - DCGAN](https://arxiv.org/pdf/1511.06434)
+[2014 - GAN - Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661)
 
 [2025 - Why Deep Learning Works Unreasonably Well](https://www.youtube.com/watch?v=qx7hirqgfuU)
 
@@ -49,8 +89,8 @@ Hybrid approaches:
 1. Learn unsupervised embeddings → map to semantic space for zero-shot transfer
 2. Combine raw pattern discovery with pretrained knowledge for stronger generalization
 
-🌆 Unsupervised = Tourist wandering a city with no map (discover zones by yourself)  
-📖 Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
+Unsupervised = Tourist wandering a city with no map (discover zones by yourself)  
+Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 ```
 
 
