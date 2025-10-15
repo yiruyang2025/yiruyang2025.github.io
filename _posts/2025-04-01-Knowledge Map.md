@@ -18,7 +18,7 @@ images:
     
   - [Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
-  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [📍 Feynman: How to think 1 of 2 FUN TO IMAGINE 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
+  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 FUN TO IMAGINE 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
 
 
 
