@@ -33,7 +33,7 @@ related_publications: true
 
 <br>
 
-[📍 Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline, colab]
+[📍 Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline, colab, ICLR, NeurlPS]
 
 
 <br>
