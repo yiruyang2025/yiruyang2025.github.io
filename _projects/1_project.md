@@ -471,12 +471,15 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 1. The spectrogram input uses 128 Mel frequency bins instead of 80
 2. A new language token for Cantonese
+3. Each token output by `Attention carries global context information`, while `FFN applies "fine-tuning" or "feature combination" to each token` to improve the feature quality at each position
+
 
 
 <br>
 
 
-**`Teacher`**  
+## Teacher
+
 - **Model**: [`whisper-large-v3-turbo`](https://huggingface.co/openai/whisper-large-v3-turbo) - 📍 ≈ 809 M parameters (FP16)
 - **Input**: `128-channel log-Mel` (mono, 16 kHz)
 - **Encoder**  
@@ -498,7 +501,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 <br>
 
-**`Benchmark Student`**  
+## Benchmark Student
 
 - **Backbone Model**: [distil-whisper/distil-small.en](https://huggingface.co/distil-whisper/distil-small.en) - 📍 ≈166 M parameters (FP16)  
 - **Hidden size**: 768  
@@ -516,7 +519,7 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 
 <br>
 
-**`Our Student`** 
+## Our Student
 
 - **Hidden size**: 768  
 - **Encoder**  
@@ -538,26 +541,11 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 - **INT8** - Inference - **Post-Training Quantization**
 - 4 layers was the minimum required to get reasonable WER performance for distil-small.en, where it performs to `within 3% WER of Whisper large-v2 while being 5.6x faster`
 - training samples `≈ 22 000 hrs`
-
-<br>
-
-
-`check points` of Sample Student Models
-
-**distil-large-v3** (≈756 M parameters) is the **best-performing** distilled checkpoint, performing to within 1.5% WER of Whisper large-v3 on out-of-distribution short-form audio and within 1% WER on long-form decoding
-
-**distil-medium.en** (≈394 M params) provides a balanced trade-off between performance and efficiency, and is recommended for most applications along with distil-large-v2
-
-**distil-small.en** (≈166 M params) is the most compact option and performs to within 3% WER of Whisper large-v2 while being 5.6x faster, making it ideal for `memory-constrained applications (e.g. on-device)`
-
-<br>
-
-**Each token output by `Attention carries global context information`, while `FFN applies "fine-tuning" or "feature combination" to each token` to improve the feature quality at each position**
-
+  
 <br>
 
 ```
-Transformer = Non-Sugar Donut Factory Assembly Line  
+Transformer Assembly Line  
 ═══════════════════════════════════════════════════════
 Raw Donuts → Community Check → Solo Decoration → Finished Donuts  
 (Input)       (Attention)       (FFN)            (Output)
@@ -580,7 +568,7 @@ FFN: Nonlinear transformation → Can transcend input space
 
 
 ```
-Activation Function Characteristics Comparison:
+Activation Function Characteristics Comparison
 ═════════════════════════════════════════════════
 ┌──────────┬────────────┬───────────────┬──────────────┬─────────────┐
 │Function  │ Smoothness │ Computational │ Gradient     │ Performance │
@@ -757,9 +745,6 @@ Student Encoder Output (s_h)
 (All adapters B·A learnable; original weights frozen)
 ```
 
-
-
-
 <br>
 
 **Why T≈499**
@@ -803,9 +788,6 @@ correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 ```
 
 
-<br>
-
-
 - Always remember to do **Automatic checkpoint saving**
 - !pip install -U bitsandbytes>=0.41.0
 - Put Your Teacher model on CPU
@@ -842,7 +824,7 @@ In the design of LoRA, choosing which modules and with what rank 𝑟 to insert 
 
 <br>
 
-`3 Choices of LoRA Injection`
+## Choices of LoRA Injection
 
 ```
 decoder.layers.*.encoder_attn.q_proj
@@ -866,7 +848,7 @@ decoder.layers.*.fc1, fc2
 
 <br>
 
-**`Temperature`**
+## Temperature
 
 - **Initial pilot temperature**: `T =  `  
 - **Search range**: `[ ]`  
@@ -877,7 +859,7 @@ decoder.layers.*.fc1, fc2
 <br>
 
 
-**`Hard vs. Soft Labels in Knowledge Distillation`**
+## Hard vs. Soft Labels in Knowledge Distillation
 
 - **Hard Labels**: one-hot vectors from ground truth  
   `y = [0, …, 1, …, 0]`  
@@ -892,13 +874,13 @@ decoder.layers.*.fc1, fc2
 
 <br>
 
-`Why num_workers Affects GPU Performance`
+## Why num_workers Affects GPU Performance
 
 The num_workers parameter in PyTorch DataLoader controls the number of CPU processes responsible for data loading and preprocessing. This directly impacts GPU utilization through data pipeline optimization
 
 <br>
 
-`Performance Comparison`
+## Performance Comparison
 
 **Single-threaded (num_workers=0)**
 
@@ -954,22 +936,21 @@ without explicit frame-level labels:
 - **Marginalizing Paths** Marginalizing over all possible alignment paths
 - **Gradient Signal** Gradient signals propagate to all relevant audio frames through attention mechanisms
 
-<br><br>
+<br>
 
 **KL Distillation Loss - Soft Supervision**
 
 KL Distillation Loss compares the teacher’s and student’s posterior distributions over labels at each time-step in latent space
+
 <br>
 
   - Soft Distribution Matching
   - Preference Transfer
   - Capturing Uncertainty
 
-<br>
 
 Since the softmax outputs retain probabilities for all tokens, the KL term transfers the teacher’s uncertainty patterns—e.g., when the teacher is unsure between two phonemes, the student learns to mirror that ambiguity
 
-<br><br>
 
 **Total Loss**
 
@@ -981,7 +962,6 @@ L_{\text{total}}
 $$
 
 
-<br>
 
 where
 
