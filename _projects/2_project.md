@@ -12,6 +12,7 @@ related_publications: true
 
 ## Supervisors
 
+<br>
 
 - Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, (Prof.1, Prof.2, Prof.3)...
 
@@ -19,15 +20,15 @@ related_publications: true
 
 ## Key Contributions
 
+<br>
+
 - A FFN for 4d Construction, neat and simple pipeline
-
-- [Isaac for A Digital 2d -> 4d Reconstructed Geneva with official real-world dataset](https://github.com/isaac-sim/IsaacLab)
-
 
 <br>
 
 ## Related Coursework
 
+<br>
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
 
@@ -41,6 +42,7 @@ related_publications: true
 
 ## Reading List / References
 
+<br>
 
   - Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
 
@@ -84,6 +86,7 @@ related_publications: true
 
 ## Some Related Art works
 
+<br>
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
