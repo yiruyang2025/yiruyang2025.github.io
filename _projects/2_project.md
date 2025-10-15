@@ -506,8 +506,6 @@ Outputs (Direct Prediction)
 
 [2025 - VGGT](https://vgg-t.github.io/)
 
-[📍 2025 - FrontierNet - Learning First](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TXsJ1rUAAAAJ&citation_for_view=TXsJ1rUAAAAJ:zYLM7Y9cAGgC)
-
 [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
 [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
