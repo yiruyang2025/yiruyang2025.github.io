@@ -348,9 +348,7 @@ $$
   - contrastive learning normalization
   - language model token sampling
 
-<br><br>
 
-`Summary Connection`
 
 <br>
 
@@ -359,26 +357,7 @@ $$
 - **Softmax**: turn similarity scores into probabilities
 - **Premise of deep learning**: explains why such representation + similarity + normalization pipelines work for large-scale AI tasks
 
-
-<br><br><br><br>
-
-
-# 4. Some Norms and Their Nature<br><br>
-
-**CTC - Connectionist Temporal Classification** - is a loss function used for sequence tasks where input and output lengths don’t match — like speech-to-text
-
-  - You don't need exact alignment between audio frames and text
-  - CTC learns to map long input sequences (e.g. 1000 audio frames) to short outputs (e.g. "hello")
-  - It introduces **a special blank token - ∅** to allow flexible alignment
-  - The model can output repeated characters + blanks, and CTC will collapse them into the final label<br>
-
---
-Input frames:    [x1, x2, x3, x4, x5, x6, x7, x8]
-Model output:     ∅   h   ∅   e   l   l   ∅   o
-CTC collapse:              →         "hello"
---
-
-<br><br>
+<br>
 
 **📍 Why LSTM / other RNN Layer after Self-Attention Layer**
    - Streamability
