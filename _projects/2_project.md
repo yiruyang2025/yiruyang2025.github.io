@@ -13,7 +13,7 @@ related_publications: true
 ## Supervisors
 
 
-- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, ...
+- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, (Prof.1, Prof.2, Prof.3)...
 
 <br>
 
