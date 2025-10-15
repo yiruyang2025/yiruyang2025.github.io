@@ -15,6 +15,8 @@ related_publications: true
 
 [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
 
+[Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+
 <br>
 
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
