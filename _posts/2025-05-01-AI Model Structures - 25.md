@@ -2,8 +2,8 @@
 layout: post
 title: AI Model Structures - 25
 date: 2025-05-01
-description: 🔹
-categories: AI/ML
+description: ⛺️
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
