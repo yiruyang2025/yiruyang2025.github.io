@@ -21,6 +21,8 @@ related_publications: true
 
 - A FFN for 4d Construction, neat and simple pipeline
 
+- Validation + Demo - [Isaac in A Digital 2d -> 4d Reconstructed Geneva with official real-world dataset](https://github.com/isaac-sim/IsaacLab)
+
 
 <br>
 
