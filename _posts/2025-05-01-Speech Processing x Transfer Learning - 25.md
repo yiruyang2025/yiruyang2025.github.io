@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speech Processing x Transfer Learning - 25
+title: Speech Processing - 25
 date: 2025-05-01
 description: ⛺️
 categories: Research
