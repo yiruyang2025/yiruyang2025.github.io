@@ -33,7 +33,7 @@ related_publications: true
 
 <br>
 
-[📍 Check This - Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline, colab, Jan 26 / Nov 25]
+[📍 Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline, colab]
 
 
 <br>
