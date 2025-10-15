@@ -120,6 +120,20 @@ Machine Learning Fundamentals
 ```
 <br>
 
+## Data Loader
+
+| Stage                     | Code Section                                          | Padding Applied  | Explanation                                             |
+| ------------------------- | ----------------------------------------------------- | ---------------- | ------------------------------------------------------- |
+| ① Dataset structure check | `os.walk()` file scan                                 |No             | Only scans file names, counts, and sizes.               |
+| ② Load audio–text pairs   | `pairs = load_audio_text_pairs(DATA_DIR)`             | No             | Generates file paths, no tensor involved.               |
+| ③ Build Dataset           | `dataset = LibriSpeechLocalDataset(pairs, processor)` | Not yet       | Each sample is returned separately, no unified length.  |
+| ④ Build DataLoader        | `train_loader = DataLoader(...)`                      | Yes (here)     | Padding is applied when combining samples into a batch. |
+| ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
+
+
+
+<br>
+
 ## Riemannian Projector, Geodesic Loss
 
 ```
