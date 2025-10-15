@@ -265,217 +265,22 @@ A Coding Demo Example for **Distilled-ASR** using xxx with - A Visual Interactiv
 
 <br><br>
 
-----
-# Sample Code
 
-xx
-
-<br><br>
-
------
-
-
-<br><br><br>
-
-**📍 2.2 Some Sample Models from the Industry for Fine-tuning**<br>
-
-- **Language - Tülu 3 - by Ai2 - 2024**
-  - [Tech Report](https://allenai.org/blog/tulu-3-technical)
-  - [OLMo 2](https://allenai.org/olmo) - Language models
-  - [Open Source](https://huggingface.co/collections/allenai/tulu-3-models-673b8e0dc3512e30e7dc54f5)
-
-<br><br>
-
-- **Speech -**
-
-
-
-<br><br><br>
-
-
-
-
-**2.3 Post-Training**<br>
-
-- **Pre-Train Style**
-  - 📍 Distillation
-     - Loss function
-$$
-\mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{CE}}(y_s, y_{\text{true}}) + \beta \cdot \mathcal{L}_{\text{KL}}(y_s^T, y_t^T)
-$$
-
-      Where:
-      - $y_{\text{true}}$ : Ground-truth hard label  
-      - $y_s$ : Student output logits  
-      - $y_s^{(T)}$ : Student soft prediction with temperature $T$  
-      - $y_t^{(T)}$ : Teacher soft prediction with temperature $T$  
-      - $\alpha, \beta$ : Weight coefficients, used to balance supervised learning and distillation objectives
-
-  - SSL
-  - demo 1<br>
-  
-  - Why Distillation
-    - To reduce Model Size + Inference Latency
-    - Issues may occur - Information Loss + Capacity Bottleneck (can be sloved)
-
-  <br><br><br>
-
-- **Supervised-Fine-Tuning Style**
-  - 📍 Adapter - lightweight
-  - Prompt-tuning 
-  - demo 2<br>
-
-  - Why Adapter
-    - To Fine-tune Efficiently by training Only A Small Set of Parameters
-    - Issues may occur - Task Mismatch with the Pre-training Model + Output Alignment (Enhancement tasks require frame-level supervision, but wav2vec2 is trained for sequence-to-sequence token prediction)
-
-<br><br><br>
-
-
-- **Reinforcement-Learning Style**
-  - RLHF<br>
-
-  <br><br><br>
-
-- Others - Generative Enhancement Style
-  - **DNN-GAN for Speech Denoising**
-    
- <br>
-
- - [**Quantization vs. Pruning vs. Distillation - Optimizing NNs for Inference**](https://youtu.be/UcwDgsMgTu4?si=1x7k4IVNI_rIiYSO)
-
-
-<br><br><br>
-
-
-
+**Products**
 
 <br>
 
-**2.4 Some Parameters and Optimatzers**<br>
-
-<br><br><br><br>
-
-# 3. Possible Improvements to the Foundation Models / During Fine-Tuning<br><br>
-
-**3.1 Catastrophic Forgetting**
-- 2024 [Scaling Laws for Forgetting When Fine-Tuning Large Language Models](https://arxiv.org/abs/2401.05605)
-- 2023 [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning](https://arxiv.org/abs/2308.08747)<br><br>
-
-**Possible Solutions 🪨**
-- 2024 [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
-- 2018 [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730)<br><br><br><br>
-
-
-
-**3.2 Task Targeted Post-training will Degrade the model's performance on other Tasks - e.g. Safety Alignment**
-
-- Supervised-Fine-Tuning Style Post-training - 2024 [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669)
-- 2023 [Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions](https://arxiv.org/abs/2309.07875)<br><br>
-
-
-**Possible Solutions 🪨**
-
-
-<br><br><br><br>
-
-
-
-# 4. Recent Technical Advances - pay attention to the 📍 ones<br><br>
-
-- **2025 – [Efficient Distillation of Classifier-Free Guidance using Adapters](https://arxiv.org/abs/2503.07274)**
-<br><br>
-
-- **2025 – [Neuralink – gets FDA nod for chip that will let speech impaired people speak, human trials soon](https://x.com/neuralink/status/1918005257252098197)**  <br><br>
-  This includes those affected by ALS, stroke, spinal cord injury, cerebral palsy, multiple sclerosis, and other neurological conditions.
-<br><br>
-
-- **2024 – [RAST: A Reference-Audio Synchronization Tool for Dubbed Content](https://www.isca-archive.org/interspeech_2024/meyer24b_interspeech.pdf)**  <br><br>
-
-- 📍 **2024 – [Fast Timing-Conditioned Latent Audio Diffusion](https://openreview.net/forum?id=jOlO8t1xdx)**  <br><br>
-
-- **2023 – [Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00618/118854)**  <br><br>
-  Proposes a novel approach to text-to-speech synthesis using minimal supervision while maintaining high fidelity, making TTS systems more accessible for low-resource settings.<br><br>
-
-- **2023 - [Language-Universal Adapter Learning with Knowledge Distillation for End-to-End Multilingual Speech Recognition](https://arxiv.org/abs/2303.01249)**<br><br>
-
-- **2023 – [Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814)**  <br><br>
-
-- **2023 – [Voicebox: Versatile Generative Speech AI (Meta)](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)**  <br><br>
-  A generative model capable of text-to-speech, style transfer, noise removal, and speech editing using just 2 seconds of input audio.<br><br>
-
-- **2023 – [VALL-E: Zero-Shot Text-to-Speech via Neural Codec Language Modeling](https://arxiv.org/abs/2301.02111)**  <br><br>
-  Achieves personalized speech synthesis from a 3-second voice sample, preserving emotion and acoustic context in zero-shot TTS tasks.<br><br>
-
-- **2023 – [Apple Personal Voice & Live Speech](https://www.apple.com/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/)**  <br><br>
-  Allows users to generate a personal synthetic voice using only 15 minutes of audio, aiding those at risk of speech loss due to ALS or other conditions.<br><br>
-
-- **2023 – [Meta Massively Multilingual Speech (MMS)](https://about.fb.com/news/2023/05/ai-massively-multilingual-speech-technology/)**  <br><br>
-  Open-source speech-to-text and text-to-speech models for 1,100+ languages, massively expanding multilingual accessibility in speech AI.<br><br>
-
-- 📍 **2022 – [Whisper: Multilingual ASR via Large-Scale Weak Supervision](https://openai.com/research/whisper)**  <br><br>
-  A general-purpose speech recognition system trained on 680,000 hours of audio, robust across accents, background noise, and multiple languages.<br><br>
-
-- **2022 - [OPRA-RS: A Hearing-Aid Fitting Method Based on Automatic Speech Recognition and Random Search](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.779048/full)** <br><br>
-
-- 📍 **2021 - [RNN Based Incremental Online Spoken Language Understanding](https://ieeexplore.ieee.org/abstract/document/9383614?casa_token=rDtl8lzqRf0AAAAA:wS41gFXYzwvNOaQu8QvljgIb3Qaz5iPAxoYUJCgW9wQKFf-xlIWIvYW4Ux2M5hRrQEMB75D_jDT6)**<br><br>
-
-- **2021 – [Apple On-Device Speech Recognition for Siri](https://www.apple.com/newsroom/2021/06/ios-15-brings-new-ways-to-stay-connected-and-powerful-features-that-help-users-focus-explore-and-do-more-with-on-device-intelligence/)**  <br><br>
-  Introduced local processing of Siri speech recognition, enhancing privacy and enabling offline voice commands.<br><br>
-
-- 📍 **2020 – [wav2vec 2.0: Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)** <br><br> 
-  Demonstrated state-of-the-art ASR using very limited labeled data via self-supervised learning on large-scale unlabeled audio.<br><br>
-
-- 📍 **2020 – [Conformer: Convolution-augmented Transformer for ASR](https://arxiv.org/abs/2005.08100)**  <br><br>
-  Combined CNNs and Transformers for effective modeling of both local and global features in speech, improving ASR accuracy.<br><br>
-
-- **2019 – [Project Euphonia (Google)](https://blog.google/outreach-initiatives/accessibility/speech-accessibility-project/)**  <br><br>
-  Uses AI to improve ASR for users with atypical speech, such as those with ALS or other disorders, enhancing speech accessibility.<br><br>
-
-- **2016 – [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)**  <br><br>
-  Introduced deep generative modeling of raw audio, setting a new bar for natural-sounding speech synthesis.<br><br>
-
-- **2015 – [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)** <br><br> 
-  Demonstrated that deep learning can perform ASR across languages and noisy conditions without hand-engineered features.<br><br>
-
-<br><br>
-
-
-# 5. Products for Disabled People / Hearing Aid Enhancement<br><br>
-
-**5.1 Key References**<br><br>
-
-- [2023 A scoping review of literature using speech recognition technologies by individuals with disabilities in multiple contexts](https://pubmed.ncbi.nlm.nih.gov/34670100/)
-
-- [2024 ASR - Using Voice Technologies to Support Disabled People](https://www.scienceopen.com/hosted-document?doi=10.57197%2FJDR-2023-0063)
-
-<br>
-
-
-**5.2 Aspects**<br><br>
-
-- Model Adaptability<br><br>
-
-
-- Computational Efficiency<br><br>
-
-
-- Customization / Personalization<br><br>
-
-
-
-**5.3 Products**<br><br>
 - **2024 Hearing Tracker** - [Hearing Aids with Artificial Intelligence (AI): Review of Features, Capabilities and Models that Use AI and Machine Learning](https://www.hearingtracker.com/resources/ai-in-hearing-aids-a-review-of-brands-and-models)<br><br>
 
 
 - **2023 DNN** - [Restoring speech intelligibility for hearing aid users with deep learning](https://www.nature.com/articles/s41598-023-29871-8)
 
 
-<br><br><br>
+<br>
 
 
 
-# 6. Some Startups<br><br>
+## Some Startups
 
 - **[AudioShake](https://www.audioshake.ai/)**<br>
   - Key Tech<br>
@@ -522,7 +327,7 @@ $$
 <br><br><br>
 
 
-# 7. Some Terms and their Nature<br><br>
+## Some Terms and their Nature
 
 - **Attention** - Vector of Importance Weights<br>
 
@@ -535,7 +340,7 @@ $$
 - **Dot-product Attention** - [2023 Attention Is All You Need](https://arxiv.org/abs/1706.03762)<br>
 
 
-### Additive Attention
+## Additive Attention
 
 Additive Attention computes the attention scores using a feed-forward neural network
 
@@ -551,7 +356,7 @@ $$
 \mathbf{c} = \sum_i \alpha_i \mathbf{v}_i
 $$
 
-### Dot-Product Attention
+## Dot-Product Attention
 
 Dot-Product Attention calculates the attention scores by taking the dot product of the query and key vectors
 
@@ -576,7 +381,7 @@ $$
 $$
 
 
-<br><br>
+<br>
 
 
 - **Attention Layer** - Parameterized by a simple feed-forward network<br>
@@ -623,14 +428,14 @@ $$
 
 <br><br>
 
-# 📍 Why Need Normalizations
+## 📍 Why Need Normalizations
 
 - **Stabilize and accelerate training** by controlling the distribution of activations  
 - Improve **generalization** across tasks  
 - Handle **scale variance** across features, samples, and batches  
 - Enable training with **higher learning rates** without divergence  
 
-<br><br>
+<br>
 
 ## Techniques
 
@@ -660,7 +465,7 @@ $$
 
 <br><br><br>
 
-# 📍 Why Need Regularization
+## 📍 Why Need Regularization
 
 - Prevent **overfitting** to training data  
 - Improve **robustness** and **generalization**  
@@ -713,19 +518,6 @@ $$
 - **Gradient Clipping**  
   - Prevents exploding gradients, especially in RNNs  
   
- <br><br><br><br>
-
-
-# References<br><br>
-
-- [ICASSP - IEEE Intl. Conf. on Acoustics, Speech and Signal Processing](https://2025.ieeeicassp.org/)<br>
-
-- [INTERSPEECH - Intl. Conf. on Spoken Language Processing](https://www.interspeech2025.org/home)<br>
-
-- [TASLP - IEEE/ACM Trans. on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing)<br>
-
-- [2024 WizardLM - WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions](https://openreview.net/forum?id=CfXh93NDgH)
-
 
 
 <br><br>
