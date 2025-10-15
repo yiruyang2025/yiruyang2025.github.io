@@ -13,8 +13,9 @@ related_publications: true
 
 [📍 Click Here - How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
 
-[Workflow with ur auto research paper gen tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
+[Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
 
+<br>
 
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
