@@ -16,7 +16,7 @@ Welcome, <br>
 
 Let's take a look at the history of The Model Structures we're using today.
 
-<br><br>
+<br>
 
 ## DL
 
