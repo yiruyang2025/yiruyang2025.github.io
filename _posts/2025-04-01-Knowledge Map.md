@@ -15,7 +15,8 @@ images:
 <br>
 
   - Pretty things here
-  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0)
+  - [📍 Daily News Briefing](https://www.ft.com/ft-news-briefing)
+  - [📍 Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0)
 
 
 
