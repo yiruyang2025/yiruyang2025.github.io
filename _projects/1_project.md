@@ -22,7 +22,7 @@ related_publications: true
  - [1/2] Stabilizing the Training, Hidden Space Alignment via Feature Map
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
-   - [📍 2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
+   - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
 <br>
 
@@ -36,6 +36,68 @@ related_publications: true
 [📍 Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline, colab]
 
 
+<br>
+
+
+| **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Optimizer**                       | Gradient-based weight updates with decoupled weight decay to improve stability on large models. | `AdamW` optimizer with `lr=2.6e-4` and default β=(0.9, 0.999); stable for transformer-like models. |
+| **Learning-Rate Schedule**          | Smooth cosine decay to avoid abrupt gradient shocks after warm-up.                              | `get_cosine_schedule_with_warmup(opt, 1000, 10000)` — warm-up = 1 k steps, total = 10 k steps.     |
+| **Warm-Up Phase**                   | Gradually increases learning rate and KL weight to prevent early divergence in distillation.    | Linear warm-up for both learning rate and λₖₗ (0 → 0.020584 during first 1000 steps).              |
+| **Mixed-Precision Training**        | Uses half precision (`torch.amp.autocast`) to reduce GPU memory and improve throughput.         | Forward/backward passes wrapped in `autocast`, scaled by `GradScaler()` for numerical stability.   |
+| **Gradient Clipping**               | Prevents exploding gradients in long sequences.                                                 | `torch.nn.utils.clip_grad_norm_(params, 1.0)` each iteration.                                      |
+| **Loss Function (Multi-Objective)** | Balances semantic accuracy, distribution matching, and geometric alignment.                     | Total loss: **L = LCE + λₖₗ · LKL + λGeo · LGeo**, with λGeo = 0.969909 constant.                  |
+| **CE Loss**                         | Supervised label alignment ensuring correct transcription semantics.                            | Cross-entropy between student predictions and true tokens.                                         |
+| **KL Divergence**                   | Soft-target distillation to transfer probability distributions from teacher logits.             | `F.kl_div(log_softmax(student/T), softmax(teacher/T)) · T²`, T = 2.0.                              |
+| **Riemannian Geodesic Loss**        | Aligns feature geometry on curved manifold instead of flat Euclidean MSE.                       | Geodesic distance = `acos(cos_sim)` between normalized hidden states.                              |
+| **Model Architecture (Student)**    | Lightweight CNN + Transformer hybrid for speech sequence modeling.                              | Two 1-D Conv layers → 6 Transformer encoder blocks → linear output head.                           |
+| **Teacher Model**                   | Provides target logits and hidden features for distillation.                                    | Frozen `Whisper-large-v2` (FP16) encoder-decoder model.                                            |
+| **Data Representation**             | Converts LibriSpeech `.flac` + `.txt` pairs into log-Mel spectrograms + token IDs.              | Processed with `WhisperProcessor` (80-dim features @ 16 kHz).                                      |
+| **Training Infrastructure**         | Google Colab with TensorBoard for real-time monitoring.                                         | Logs saved under `/content/drive/MyDrive/distil_run_cell2.7.2/tb`.                                 |
+| **Checkpointing**                   | Saves model and optimizer state for resuming or evaluation.                                     | Every 200 steps: `checkpoint.pt` stored to Drive.                                                  |
+| **Parameter Efficiency**            | Only student parameters are updated; teacher frozen; LoRA omitted.                              | Compact CNN-Transformer trained directly, no redundant teacher weights.                            |
+| **Evaluation Strategy**             | Periodic validation to monitor loss convergence and feature alignment.                          | Every 200 steps, averaged validation loss logged in TensorBoard.                                   |
+| **Final Output**                    | Distilled, geometry-aligned speech encoder ready for downstream ASR tasks.                      | Saved to `/content/drive/MyDrive/distil_run_cell2.7.2/adapter_final/student_model.pt`.             |
+
+
+
+
+<br>
+
+```
+Machine Learning Fundamentals
+      │
+      ├── Data → Representation → Optimization → Generalization
+      │       ├─ Focus: Data quality, bias mitigation, and representation learning
+      │       ├─ Link to Gemini: multimodal data fusion (text, audio, vision, code)
+      │       └─ Goal: Learn unified latent spaces that enable reasoning across modalities
+      │
+      ├── Deep Learning (CNN / RNN / Transformer)
+      │       ├─ Forward & backward propagation as differentiable computation graphs
+      │       ├─ Initialization, normalization, regularization → stability & convergence
+      │       ├─ Loss design + learning rate scheduling → control of optimization dynamics
+      │       └─ Transformer family as universal sequence learners (foundation for Gemini)
+      │
+      ├── Optimization & Geometry
+      │       ├─ Gradient-based optimization viewed as navigating the loss landscape
+      │       ├─ Flat vs. sharp minima → generalization and robustness trade-offs
+      │       ├─ Riemannian geometry in embedding space → alignment on curved manifolds
+      │       └─ Connection: Gemini’s embedding consistency and representation curvature
+      │
+      ├── Model Compression & Distillation
+      │       ├─ Knowledge transfer from large to small models (teacher → student)
+      │       ├─ Soft vs. hard labels → probabilistic vs. symbolic supervision
+      │       ├─ LoRA / Adapter-based fine-tuning → parameter-efficient adaptation
+      │       ├─ Trade-offs: accuracy ↔ latency ↔ memory footprint ↔ energy efficiency
+      │       └─ Relevance: LearnLM and Gemini use adapter-tuned submodels for learning tasks
+      │
+      └── ML Engineering & Responsible AI
+              ├─ Data pipelines, reproducibility, evaluation, and continuous integration
+              ├─ Monitoring, checkpointing, scalable deployment on distributed accelerators
+              ├─ Safety alignment and interpretability — understanding model decisions
+              ├─ Evaluation beyond accuracy: robustness, fairness, value alignment
+              └─ Ethical ML engineering: accountability and transparency in large systems
+```
 <br>
 
 ## Riemannian Projector, Geodesic Loss
@@ -191,47 +253,6 @@ Clean Action Sequence (Optimal Trajectory)
       ↓
 Execute in Environment (Robotics / Control)
 ```
-
-
-<br>
-
-```
-Machine Learning Fundamentals
-      │
-      ├── Data → Representation → Optimization → Generalization
-      │       ├─ Focus: Data quality, bias mitigation, and representation learning
-      │       ├─ Link to Gemini: multimodal data fusion (text, audio, vision, code)
-      │       └─ Goal: Learn unified latent spaces that enable reasoning across modalities
-      │
-      ├── Deep Learning (CNN / RNN / Transformer)
-      │       ├─ Forward & backward propagation as differentiable computation graphs
-      │       ├─ Initialization, normalization, regularization → stability & convergence
-      │       ├─ Loss design + learning rate scheduling → control of optimization dynamics
-      │       └─ Transformer family as universal sequence learners (foundation for Gemini)
-      │
-      ├── Optimization & Geometry
-      │       ├─ Gradient-based optimization viewed as navigating the loss landscape
-      │       ├─ Flat vs. sharp minima → generalization and robustness trade-offs
-      │       ├─ Riemannian geometry in embedding space → alignment on curved manifolds
-      │       └─ Connection: Gemini’s embedding consistency and representation curvature
-      │
-      ├── Model Compression & Distillation
-      │       ├─ Knowledge transfer from large to small models (teacher → student)
-      │       ├─ Soft vs. hard labels → probabilistic vs. symbolic supervision
-      │       ├─ LoRA / Adapter-based fine-tuning → parameter-efficient adaptation
-      │       ├─ Trade-offs: accuracy ↔ latency ↔ memory footprint ↔ energy efficiency
-      │       └─ Relevance: LearnLM and Gemini use adapter-tuned submodels for learning tasks
-      │
-      └── ML Engineering & Responsible AI
-              ├─ Data pipelines, reproducibility, evaluation, and continuous integration
-              ├─ Monitoring, checkpointing, scalable deployment on distributed accelerators
-              ├─ Safety alignment and interpretability — understanding model decisions
-              ├─ Evaluation beyond accuracy: robustness, fairness, value alignment
-              └─ Ethical ML engineering: accountability and transparency in large systems
-```
-
-
-
 
 
 <br>
