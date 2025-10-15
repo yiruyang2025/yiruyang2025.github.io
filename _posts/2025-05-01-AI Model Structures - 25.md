@@ -95,9 +95,9 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 
 
 
-<br><br>
+<br>
 
-## Why「Deep Structure
+## Why Deep Structure
 
 <br>
 
@@ -113,15 +113,14 @@ Compared with the original machine learning models:
 
 - Transformer
 - BERT
-- **Mamba**
+- Mamba
 - GPT
 - Tokenization
-- **ARIMA**
+- ARIMA
 - RNN
 - Diffusion Models
-- **Flow Matching**
-- TensorRT
-- **Quantization - LoRA + QLoRA**
+- Flow Matching
+- Quantization / Adapter Guided - LoRA + QLoRA
 
 
 <br>
@@ -184,7 +183,7 @@ In practice, "Deep" means:
 
 <br><br>
 
-- **📍 Mamba**
+- **Mamba**
   - Linear-Time Sequence Modeling<br>
   - State Space Model - SSM - with selective long-range memory<br>
   - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
@@ -238,7 +237,7 @@ In practice, "Deep" means:
 
 <br><br>
 
-- **📍 MEMORY - Transformers vs. RNN / LSTM**
+- **MEMORY - Transformers vs. RNN / LSTM**
   - [Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254)
     - **RetNet** - Retention Network -> Gated Retention
     - [2023 - RetNet: Retinal Disease Detection using Convolutional Neural Network](https://ieeexplore.ieee.org/abstract/document/10101661?casa_token=uZQehKNSJt0AAAAA:UWdRNBHC8WlsoNpwbNVIm9Wr147Q-292JEFwcP6bLglKLDlNtTVfIe7RuHyVD6ryjeuQTFUOaw)
@@ -377,6 +376,6 @@ $$
 - [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
 
 
-<br><br><br><br>
+<br><br>
 
 
