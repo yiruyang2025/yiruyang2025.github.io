@@ -61,6 +61,23 @@ related_publications: true
 | **Final Output**                    | Distilled, geometry-aligned speech encoder ready for downstream ASR tasks.                      | Saved to `/content/drive/MyDrive/distil_run_cell2.7.2/adapter_final/student_model.pt`.             |
 
 
+<br>
+
+```
+distil_run_cell2.7.2/
+│
+├── tb/                           ← TensorBoard log files
+│   ├── events.out.tfevents...    
+│
+├── adapter_final/                ← Final trained student model
+│   └── student_model.pt
+│
+├── checkpoint.pt                 ← Intermediate checkpoint (used if training was interrupted)
+├── training_history.json         ← Recorded training and validation loss curves
+├── best_params.json              ← Best hyperparameter record (e.g., kl_weight, geo_weight)
+└── training_config.json          ← Training configuration and setup details
+```
+
 
 
 <br>
