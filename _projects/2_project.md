@@ -14,17 +14,10 @@ related_publications: true
 
 <br>
 
-- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxx, xxx, xxx, (Prof.1, Prof.2, Prof.3)...
+- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxx....
 
 <br>
 
-## Key Contributions
-
-<br>
-
-- A FFN for 4d Construction, neat and simple pipeline
-
-<br>
 
 ## Related Coursework
 
@@ -122,6 +115,15 @@ related_publications: true
 [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
 
 [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
+
+<br>
+
+
+## Key Contributions
+
+<br>
+
+- A FFN for 4d Construction, neat and simple pipeline
 
 <br>
 
