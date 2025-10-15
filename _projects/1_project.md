@@ -33,7 +33,8 @@ related_publications: true
 
 <br>
 
-[📍 Codebase - 2025 - Deep Learning from ML Pipeline, colab]
+[📍 Codebase - 2025 - Deep Learning training Pipeline, colab]
+
 
 <br>
 
