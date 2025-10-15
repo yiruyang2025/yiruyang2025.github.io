@@ -97,7 +97,9 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 
 <br><br>
 
-# 1. Why「Deep Structure」<br><br>
+## Why「Deep Structure
+
+<br>
 
 Compared with the original machine learning models:
 
@@ -120,7 +122,7 @@ Compared with the original machine learning models:
 - **Flow Matching**
 - TensorRT
 - **Quantization - LoRA + QLoRA**
-📍 
+
 
 <br>
 
