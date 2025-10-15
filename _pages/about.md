@@ -32,7 +32,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Simple 4d Reconstruction`, UZH AI, [CVG](https://cvg.ethz.ch/), ( )
+- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Simple 4d Reconstruction`, UZH AI, [CVG](https://cvg.ethz.ch/), (xxx)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Animal Avatars from Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Scientific Research Acceleration
 
