@@ -111,13 +111,13 @@ Graph Theory
   - Zero-shot Learning
 
 
-<br><br><br><br>
+<br><br><br>
 
 
 # Check List
 
-- [x] Reading
-  - [ ] Chatting
+- [x] Reading and Oxygen
+  - [x] Chatting
   - [x] Water
 - [x] Take a Walk
 
