@@ -38,6 +38,7 @@ related_publications: true
 
 <br>
 
+# Knowledge Distillation - ASR
 
 | **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -63,6 +64,8 @@ related_publications: true
 
 
 <br>
+
+## Structure
 
 ```
 Machine Learning Fundamentals
