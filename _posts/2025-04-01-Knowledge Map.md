@@ -14,7 +14,8 @@ images:
 
 <br>
 
-Pretty things here
+  - Pretty things here
+  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0)
 
 
 
