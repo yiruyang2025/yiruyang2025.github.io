@@ -21,7 +21,7 @@ related_publications: true
 
 - A FFN for 4d Construction, neat and simple pipeline
 
-- Validation + Demo - [Isaac in A Digital 2d -> 4d Reconstructed Geneva with official real-world dataset](https://github.com/isaac-sim/IsaacLab)
+- [Isaac for A Digital 2d -> 4d Reconstructed Geneva with official real-world dataset](https://github.com/isaac-sim/IsaacLab)
 
 
 <br>
@@ -29,7 +29,7 @@ related_publications: true
 ## Related Coursework
 
 
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, FrontierNet - Learning First, NExF, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
