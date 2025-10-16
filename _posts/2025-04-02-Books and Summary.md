@@ -12,10 +12,9 @@ images:
   venobox: true
 ---
 
-Hi there,<br><br>
-Pls discuss if any of these pique your interest<br><br><br>
+<br>
 
-# 1. Apr - Dec 2025
+## 2025
 
 <br>
 
@@ -29,7 +28,7 @@ Pls discuss if any of these pique your interest<br><br><br>
 <br><br>
 
 
-# 2026
+## 2026
 
 <br>
 
@@ -41,7 +40,7 @@ Pls discuss if any of these pique your interest<br><br><br>
 <br><br>
 
 
-# 2027
+## 2027
 
 
 <br><br>
