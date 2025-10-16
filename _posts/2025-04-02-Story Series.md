@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Economics Story Series
+title: Story Series
 date: 2025-04-02
 description: 🔹
 categories: Life
