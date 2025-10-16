@@ -10,15 +10,15 @@ related_publications: true
 
 <br>
 
-[📍 Click Here](https://zenodo.org/)
+  - [📍 Click Here](https://zenodo.org/)
 
-[Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
+  - [Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
 
-[Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
+  - [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
 
-[2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
+  - [2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
 
-[2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
+  - [2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
 
 
 <br>
