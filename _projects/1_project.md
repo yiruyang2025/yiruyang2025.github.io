@@ -614,14 +614,12 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
       3. Decoder（Feed-Forward）`fc1`, `fc2`
   - For ASR Distillation, higher T at the begining and then cooler down - `**Cosine Annealing**`
 
-<br>
 
 - simple **80/10/10** split for val/test, Do not touch your Test Set, **SEED = 42**
 - **INT8** - Inference - **Post-Training Quantization**
 - 4 layers was the minimum required to get reasonable WER performance for distil-small.en, where it performs to `within 3% WER of Whisper large-v2 while being 5.6x faster`
 - training samples `≈ 22 000 hrs`
   
-<br>
 
 ```
 Transformer Assembly Line  
@@ -643,8 +641,6 @@ Attention: Convex combination → Stays within input space
 FFN: Nonlinear transformation → Can transcend input space
 ```
 
-<br>
-
 
 ```
 Activation Function Characteristics Comparison
@@ -664,7 +660,7 @@ Activation Function Characteristics Comparison
 
 <br>
 
-`Input Features` From Whisper
+Input Features From Whisper
 
 - [librosa.feature.melspectrogram](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html)
 
@@ -713,7 +709,7 @@ Activation Function Characteristics Comparison
 <br>
 
 ```
-Teacher (Whisper-large-v2)                     Student (distil-small.en + LoRA + Hidden Align)
+Teacher (Whisper-large-v2)                     Student
 ─────────────────────────────                  ──────────────────────────────────────────────────
 
 Audio Input                                     Audio Input  
@@ -751,8 +747,6 @@ Teacher Logits ────── Soft Targets ─────────▶ St
 No parameter updates                        (LoRA) + Projection parameters
 (Inference only)                             ONLY these are trained
 ```
-
-<br>
 
 ```
 Teacher Encoder Output (t_h)
@@ -824,8 +818,6 @@ Student Encoder Output (s_h)
 (All adapters B·A learnable; original weights frozen)
 ```
 
-<br>
-
 **Why T≈499**
 
 - Whisper feature extractor
@@ -848,10 +840,8 @@ Student Encoder Output (s_h)
 ≈500 frames  (actually 499 frames)
 ```
 
-<br>
 
-
-Audio Signal Characteristics - `Redundancy` -> why can be **compressed** to T~499 frames
+  - Audio Signal Characteristics - Redundancy -> why can be **compressed** to T~499 frames
 
 ```
 1. Audio frame rate is typically high
@@ -1021,8 +1011,6 @@ without explicit frame-level labels:
 
 KL Distillation Loss compares the teacher’s and student’s posterior distributions over labels at each time-step in latent space
 
-<br>
-
   - Soft Distribution Matching
   - Preference Transfer
   - Capturing Uncertainty
@@ -1139,8 +1127,7 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 μ_ij = w_ij + w_ji − w_ij * w_ji
 ```
 
-<br><br>
-
+<br>
 
 ## Background Knowledge 2
 
@@ -1292,63 +1279,25 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
          “I know what I know — and I know what I don’t.”
 ```
 
-
-
-<br>
-
-## NeurlPS 2026 Submission Quick Check
-
-
- | Focus Area                 | **ICML**                                           | **ICLR**                                             | **NeurIPS**                                                  |
-| -------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| **Core Identity**          | Theory & Algorithms                                | Representation & Deep Learning                       | Broad AI & Computational Science                             |
-| **Theoretical Work**       | Optimization, convergence, learning theory         | Representation learning theory                       | Mathematical + computational perspectives (theory + applied) |
-| **Architecture**           | Classical ML (kernels, boosting, graphical models) | Neural architectures (Transformers, Diffusion, GNNs) | Novel architectures with interdisciplinary impact            |
-| **Reinforcement Learning** | Algorithmic + theoretical RL                       | Representation-based RL, world models                | RL + neuroscience + multi-agent + cognitive links            |
-| **Generative Models**      | Probabilistic & Bayesian models                    | Neural generative models (GANs, VAEs, Diffusion)     | Foundation models, multimodal, scaling laws                  |
-| **Applications**           | Applied ML (health, econ, systems, social science) | Deep-learning apps (CV, NLP, multimodal)             | Cross-domain (AI + physics, bio, climate, neuroscience)      |
-| **Experiment Style**       | Balanced theory & experiments                      | Large-scale empirical results                        | Technically deep + interdisciplinary demos                   |
-
 <br>
 
 ## References
 
 
 
-[UK Biobank](https://www.ukbiobank.ac.uk/)
+  - [UK Biobank](https://www.ukbiobank.ac.uk/)
 
-[SCAI](https://scai.ethz.ch/)
+  - [SCAI](https://scai.ethz.ch/)
 
-[2025 - MC-MED](https://github.com/dkimlab/MCMED)
+  - [2025 - MC-MED](https://github.com/dkimlab/MCMED)
 
-[2020 - Topological Autoencoders](https://proceedings.mlr.press/v119/moor20a.html?ref=https://githubhelp.com)
-
-[2025 - Development of a multimodal vision transformer model for predicting traumatic versus degenerative rotator cuff tears on magnetic resonance imaging: A single-centre retrospective study](https://esskajournals.onlinelibrary.wiley.com/doi/10.1002/ksa.70000)
-
-Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
-
-
-<br><br>
-
-
-## Organ / Liver Preservation
-  
-[USZ - Department of Visceral Surgery and Transplantation](https://www.usz.ch/en/department/visceral-and-transplantation/)
-
-[2025 - Predicting Rejection Risk in Heart Transplantation: An Integrated Clinical–Histopathologic Framework for Personalized Post-Transplant Care](https://www.linkedin.com/posts/anant-madabhushi-9a75a21_hearttransplant-ai-digitalpathology-activity-7372616055581585408-x86I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-
-
-[2025 - MC-MED, multimodal clinical monitoring in the emergency department](https://www.nature.com/articles/s41597-025-05419-5)
-
-
-[2025 - USZ + ETHz - Regenerative Heart Repair](https://www.linkedin.com/posts/omer-dzemali-prof-dr-med-dr-h-c-2702b9104_from-lab-to-beating-hearts-activity-7358452392071262208-bPba?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+  - Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
 
 
 <br>
 
-## End-to-End Real-World Data Flow - [USZ](https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/)
 
-
+## End-to-End Real-World Data Flow
 
 ```
 Hospital CT / MRI
