@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Master Thesis and Project
-description: 4D Reconstruction, Connectomics, CVG
+description: 4D Reconstruction, Connectomics, CVG, 
 img: assets/img/4.jpg
 importance: 2
 category: work
