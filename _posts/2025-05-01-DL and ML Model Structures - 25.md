@@ -66,8 +66,6 @@ Classical ML  = Student who uses fixed formulas (must be told what features matt
 
 [2014 - GAN - Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661)
 
-[2025 - Why Deep Learning Works Unreasonably Well](https://www.youtube.com/watch?v=qx7hirqgfuU)
-
 
 <br>
 
