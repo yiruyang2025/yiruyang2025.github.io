@@ -24,21 +24,7 @@ related_publications: true
 <br>
 
 
-## 📍 4D Modeling and Reconstruction
 
-<br>
-
-- [2025 - ZapBench](https://github.com/google-research/zapbench)
-
-- [2025 - DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x)
-- [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
-  - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
-
-<br>
-
-- [2025 - some others - Discovering Symbolic Cognitive Models from Human and Animal Behavior](https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1)
-
-<br>
 
 ## Reading List / References
 
@@ -52,6 +38,7 @@ related_publications: true
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
 
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
+
 
 <br>
 
