@@ -12,9 +12,7 @@ images:
   venobox: true
 ---
 
-Welcome, <br>
-
-Let's take a look at the history of The Model Structures we're using today.
+  - Let's take a look at the history of The Model Structures we're using today.
 
 <br>
 
@@ -55,17 +53,10 @@ Deep Learning = Student who learns concepts from examples (automatic understandi
 Classical ML  = Student who uses fixed formulas (must be told what features matter)
 ```
 
-
-
 <br>
 
 
 ## Generalization Ability
-
-<br>
-
-[2014 - GAN - Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661)
-
 
 <br>
 
@@ -224,14 +215,14 @@ In practice, "Deep" means:
   - **In genetic algorithms - GA**
      - Every candidate (individual) is evaluated using a fitness function
      - Poor candidates are penalized or discarded<br>
-     - [2020 - Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)<br>
+     - 2020 - Denoising Diffusion Probabilistic Models
 
 <br>
 
 - **📍 SSL**
   - Learns from unlabeled data by solving pretext tasks<br>
   - Strong performance in low-resource and zero-shot setups<br>
-  - [2020 - wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html)<br>
+
 
 <br>
 
