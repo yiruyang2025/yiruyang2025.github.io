@@ -29,20 +29,8 @@ images:
 - on-device ASR
 📍
 
-<br><br>
+<br>
 
-
-- [1989 - Coalescing Random Walks and Voter Model Consensus Times on the Torus in Zd](https://www.jstor.org/stable/2244439?casa_token=JLkXGaPGnN4AAAAA%3AdilCP1I_ycPHRJZwy3gqVagBmb4T0JvSR9vCKwd9araQIF20i3Xrh1p2XTQDA4sAAOrcLER824IHRo1QREgBzI-wyf_cA5lzvlbI-S8-PQEu6t5g0Do&seq=1)<br>
-
-- [2015 - FitNets: Hints for Thin Deep Nets](https://arxiv.org/abs/1412.6550)<br>
-
-- [2019 - ASR - Patient Knowledge Distillation for LSTM-Based Acoustic Models](https://ieeexplore.ieee.org/abstract/document/8461995?casa_token=Gt1xXKEuogcAAAAA:vei62XD7sihmdRw5nyPvOhklfKQdNoKUL0VfqM-L_J4sHnmzIfWGMUIjs4UksARaoaYRpURoDg)<br>
-
-- [2016 - Sequence-Level Knowledge Distillation](https://aclanthology.org/D16-1139.pdf)<br>
-
-- [1985 - Interacting Particle Systems - Chp5](https://link.springer.com/book/10.1007/b138374)<br>
-
-<br><br><br>
 
 
 ## References
@@ -54,7 +42,7 @@ images:
 - [1989 - The Cascade-Correlation Learning Architecture](https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html)
 
 
-<br><br>
+<br>
 
 
 
