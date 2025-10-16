@@ -12,9 +12,9 @@ related_publications: true
 
 [📍 Click Here](https://zenodo.org/)
 
-[📍 Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
+[Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
 
-[📍 Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
+[Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
 
 <br>
 
