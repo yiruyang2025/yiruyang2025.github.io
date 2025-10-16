@@ -21,6 +21,7 @@ related_publications: true
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
+<br>
 
 - [2025 - DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x)
 
