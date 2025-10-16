@@ -482,7 +482,7 @@ Softmax → [Cat, Dog, Car, …]
 
 | Model Example          | **Normalization**                                                                                                           | **Regularization**                                                                                                           | **Essence & How It Works**                                                                                                            |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **CNN (e.g., ResNet)** | **Batch Normalization** — normalizes activations within a mini-batch to stabilize gradients and speed up convergence.       | **Weight Decay + Dropout** — penalizes large weights and randomly drops neurons to reduce overfitting.                       | *Normalization* equalizes feature scales during training, while *Regularization* constrains model capacity to improve generalization. |
+| **CNN (e.g., ResNet)** | **Batch Normalization** — normalizes activations within a mini-batch to stabilize gradients and speed up convergence.       | **Weight Decay + Dropout** — penalizes large weights and randomly drops neurons to reduce overfitting.                       | Normalization equalizes feature scales during training, while *Regularization* constrains model capacity to improve generalization. |
 | **Transformer / LLM**  | **Layer Normalization** — normalizes hidden states across features to maintain stable activations in deep attention layers. | **Attention Dropout + L2 Regularization** — randomly masks attention links and adds weight penalties to prevent overfitting. | Normalization stabilizes internal representations; regularization prevents memorization of training data.                             |
 | **MLP**                | **Input Standardization** — rescales each input feature to zero mean and unit variance.                                     | **L2 Regularization (Ridge)** — discourages large parameter magnitudes for smoother mappings.                                | Normalization improves numerical stability; regularization enforces simpler models with better generalization.                        |
 
@@ -865,25 +865,6 @@ correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 
 
 <br>
-
-| Paper           | Venue                                | Data Size                             |
-|-----------------|--------------------------------------|---------------------------------------|
-| DistilBERT      | NeurIPS 2019                         | 800 M words + 2.5 B words             |
-| TinyBERT        | EMNLP 2020                           | 800 M words + 2.5 B words             |
-| MobileBERT      | ICLR 2020                            | 800 M words + 2.5 B words             |
-| distil-small.en  |                                     | ≈ 22 000 hours of pseudo-labelled audio across 10 domains (>18 000 speakers)               |
-| Our Work        | No Target Venue                      | ≈ **22 000** hours                    |
-
-
-<br>
-
-<p align="left">
-  <img src="/assets/img/project1_2.jpg" alt="Knowledge Map" width="45%">
-</p>
-
-<br>
-
-In the design of LoRA, choosing which modules and with what rank 𝑟 to insert the adapter is essentially a trade-off between `Parameter Overhead` and `Adaptability`
 
 **Orignial LoRA Paper**
 
@@ -1282,7 +1263,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 <br>
 
 ## References
-
 
 
   - [UK Biobank](https://www.ukbiobank.ac.uk/)
