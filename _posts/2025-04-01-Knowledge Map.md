@@ -15,8 +15,6 @@ images:
 <br>
 
   - Pretty things here
-    
-  - [Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
 
@@ -33,6 +31,10 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - [DailyPapers](https://x.com/HuggingPapers)
+
+<br>
+
+- [Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
 <br><br>
