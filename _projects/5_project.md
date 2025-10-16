@@ -16,11 +16,20 @@ related_publications: true
 
 [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
 
-<br>
-
 [2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html)
 
 [2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
+
+
+<br>
+
+
+  - [2025 - ZapBench](https://github.com/google-research/zapbench)
+  - [2025 - DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x)
+  - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
+    - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
+  - [2025 - some others - Discovering Symbolic Cognitive Models from Human and Animal Behavior](https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1)
+
 
 
 <br>
