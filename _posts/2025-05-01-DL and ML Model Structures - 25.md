@@ -105,7 +105,7 @@ Compared with the original machine learning models:
 
 <br>
 
-## 📍 Content
+## Content
 
 - Transformer
 - BERT
