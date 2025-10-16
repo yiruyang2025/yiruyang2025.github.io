@@ -23,7 +23,7 @@ related_publications: true
 
 <br>
 
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, SuperDec, NExF, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
 
 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
