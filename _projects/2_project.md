@@ -22,6 +22,8 @@ related_publications: true
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 
+- 2025 - [DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x)
+
 <br>
 
 ## Reading List / References
