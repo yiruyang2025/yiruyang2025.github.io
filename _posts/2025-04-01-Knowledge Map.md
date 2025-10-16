@@ -79,7 +79,7 @@ Graph Theory
 
 <br><br>
 
-## 📍 Model Structures
+## Model Structures
 
 <br>
 
