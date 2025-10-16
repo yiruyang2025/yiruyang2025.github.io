@@ -19,13 +19,11 @@ Pls discuss if any of these pique your interest<br><br><br>
 
 <br>
 
-**1.1** - [2025 - Deepmind - The Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
+  - 2025 - Deepmind - The Era of Experience
 
+  - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
 
-**1.2** - [2016 - Information Geometry and Its Applications](https://link.springer.com/book/10.1007/978-4-431-55978-8)
-
-
-**1.3** - [2020 - A Beginner’s Guide to System Design - Alex Xu](https://medium.com/@sentalkssane/a-beginners-guide-to-system-design-76d64689788b)
+  - 2020 - A Beginner’s Guide to System Design - Alex Xu
 
 
 <br><br>
@@ -35,10 +33,9 @@ Pls discuss if any of these pique your interest<br><br><br>
 
 <br>
 
+  - 2016 - The Probabilistic Method, 4th Edition
 
-**1.4** - [2016 - The Probabilistic Method, 4th Edition](https://dokumen.pub/the-probabilistic-method-4th-edition-4ed-1119061954-978-1-119-06195-3.html)<br><br>
-
-**1.5** - [2016 - Information Theory, Inference, and Learning Algorithms](https://dl.acm.org/doi/10.5555/971143)
+  - [2016 - Information Theory, Inference, and Learning Algorithms](https://dl.acm.org/doi/10.5555/971143)
 
 
 <br><br>
@@ -46,9 +43,10 @@ Pls discuss if any of these pique your interest<br><br><br>
 
 # 2027
 
+
 <br><br>
 
-**1.6** 
+
 
 
 <br><br><br><br>
