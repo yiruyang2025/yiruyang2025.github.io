@@ -93,8 +93,6 @@ Unsupervised = Tourist wandering a city with no map (discover zones by yourself)
 Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 ```
 
-
-
 <br>
 
 ## Why Deep Structure
@@ -150,7 +148,9 @@ In practice, "Deep" means:
 <br><br>
 
 
-# 2. Key Tech<br><br>
+## Key Structures
+
+<br>
 
 - **MLP**
   - Multilayer Perceptron
@@ -158,13 +158,13 @@ In practice, "Deep" means:
   - Used in classification, regression, or small-scale tabular/audio tasks
   - 1989 - Universal Approximation Theorem / Still used as light head in multimodal systems<br>
 
-<br><br>
+<br>
 
 - **RNN -> LSTM**
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
-<br><br>
+<br>
 
 - **CNN**
   - Convolutional Neural Networks
@@ -173,7 +173,7 @@ In practice, "Deep" means:
   - Fully Connected Layer -> Receptive Field -> Parameter Sharing -> Convolutional Layer
   - 1998 - LeNet / 2012 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<br>
 
-<br><br>
+<br>
 
 - **Transformer**
   - When inputs are sequences<br>
@@ -181,21 +181,21 @@ In practice, "Deep" means:
   - [2015 ICLR - Neural Machine Translation by Jointly Learning to Align and Translate - **Additive Attention**](https://arxiv.org/abs/1409.0473)<br>
   - [2017 NeuralPS - Attention Is All You Need - **Self-Attention / Scaled Dot-Product Attention**](https://arxiv.org/abs/1706.03762)<br>
 
-<br><br>
+<br>
 
 - **Mamba**
   - Linear-Time Sequence Modeling<br>
   - State Space Model - SSM - with selective long-range memory<br>
   - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
 
-<br><br>
+<br>
 
 - **BERT**
   - Bidirectional Encoder Representations from Transformers<br>
   - using Masked language modeling<br>
   - [2019 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC)<br>
 
-<br><br>
+<br>
 
 
 - **Conformer**
@@ -204,7 +204,7 @@ In practice, "Deep" means:
   - Widely used in speech recognition tasks
   - [2020 - Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)<br>
 
-<br><br>
+<br>
 
 
  - **GAN**
@@ -213,7 +213,7 @@ In practice, "Deep" means:
    - Popular in TTS, audio enhancement, and image generation<br>
    - [2014 - Generative Adversarial Nets](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html)<br>
 
-<br><br>
+<br>
 
 - **Diffusion Based**
   -  Gradual denoising process to generate samples from noise<br>
@@ -228,14 +228,14 @@ In practice, "Deep" means:
      - Poor candidates are penalized or discarded<br>
      - [2020 - Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)<br>
 
-<br><br>
+<br>
 
 - **📍 SSL**
   - Learns from unlabeled data by solving pretext tasks<br>
   - Strong performance in low-resource and zero-shot setups<br>
   - [2020 - wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://proceedings.neurips.cc/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html)<br>
 
-<br><br>
+<br>
 
 - **MEMORY - Transformers vs. RNN / LSTM**
   - [Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254)
@@ -247,131 +247,7 @@ In practice, "Deep" means:
 <br><br>
 
 
-# Deep Learning
-
-<br>
-
-`1. Premise of Deep Learning`
-
-<br>
-
-The **premise of deep learning** refers to the underlying assumptions and principles that explain *why* deep neural networks work and *when* they are effective:
-
-- **Manifold / Smoothness Assumption**: High-dimensional data (images, speech, text) often lie on a lower-dimensional manifold, and semantic changes are locally smooth → can be approximated by continuous functions
-  
-- **Distributed & Hierarchical Representations**: Complex concepts can be formed by hierarchical composition of features (edges → textures → objects)
-  
-- **Inductive Bias**: Architectures like CNNs (translation equivariance) and Transformers (content-based selection) embed useful priors
-  
-- **Over-parameterization & SGD Implicit Regularization**: Even with more parameters than samples, SGD tends to find “flat” minima that generalize well
-  
-- **i.i.d. and Distribution Stability**: Training and test data should follow similar distributions, or be adapted via transfer learning/fine-tuning
-  
-- **Scalability (Scaling Laws)**: Increasing data, compute, and model size tends to yield predictable performance gains
-
-**Use cases**: guiding architecture design, choosing regularization/data augmentation, understanding transfer learning, anticipating risks from domain shifts or small datasets
-
-
-<br><br>
-
-
-`2. Word Embeddings`
-
-
-<br>
-
-**Word embeddings** map discrete words into dense numerical vectors (usually 100–1024 dimensions) where geometric relationships capture semantic/grammatical similarity
-
-- **Motivation**: One-hot vectors are sparse and lack similarity information; embeddings allow “similar words” to be close in vector space
-
-- **Classic methods**:
-  - **Word2Vec (CBOW / Skip-gram)**, **GloVe** – static embeddings from word co-occurrence
-  - **FastText** – includes subword n-grams to handle out-of-vocabulary words
-  - **Contextual embeddings (BERT, LLMs)** – same word can have different vectors depending on context
-- **Similarity measure**: cosine similarity
-  
-  $$
-  \cos = \frac{u \cdot v}{\|u\| \, \|v\|}
-  $$
-
-- **Applications**: text classification, semantic search, clustering, recommendation, retrieval-augmented generation (RAG), cross-modal alignment (e.g., CLIP)
-
-<br><br>
-
-`3. Dot Products`
-
-<br>
-
-The **dot product** (inner product) between two vectors \(a\) and \(b\):
-
-$$
-a \cdot b = \sum_i a_i b_i = \|a\| \, \|b\| \cos\theta
-$$
-
-- **Geometric meaning**: projection of one vector onto another, scaled by the first vector’s length
-- **Relation to cosine similarity**: if vectors are normalized, dot product equals cosine similarity
-- **Deep learning usage**:
-  - **Attention scoring**:
- 
-    $$
-    \text{score}_{ij} = \frac{q_i \cdot k_j}{\sqrt{d_k}}
-    $$
-    
-  - **Similarity in retrieval / contrastive learning** (e.g., InfoNCE, CLIP)
-  - **Final classification layer**: logits as dot products between features and class weights
-- **Tip**: often L2-normalize or apply scaling/temperature to control numerical stability
-
-
-<br><br>
-
-`4. Softmax`
-
-<br>
-
-The **softmax** function converts raw scores (logits) into probabilities:
-
-$$
-\text{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
-$$
-
-- **Shift invariance**: adding the same constant to all logits doesn’t change output
-- **Numerical stability**: use
-  
-$$
-  z' = z - \max(z)
-$$
-
-- **Temperature scaling**: \(\tau < 1\) → sharper distribution; \(\tau > 1\) → smoother
-- **Gradient-friendly**: with cross-entropy, gradients simplify to `softmax(z) - y`
-- **Applications**:  
-  - multi-class classification output
-  - attention weight normalization
-  - contrastive learning normalization
-  - language model token sampling
-
-
-
-<br>
-
-- **Word embeddings**: map words to vectors 
-- **Dot product**: measure similarity between embeddings 
-- **Softmax**: turn similarity scores into probabilities
-- **Premise of deep learning**: explains why such representation + similarity + normalization pipelines work for large-scale AI tasks
-
-<br>
-
-**📍 Why LSTM / other RNN Layer after Self-Attention Layer**
-   - Streamability
-   - Positional bias
-   - Smoothing
-   - Lightweight after quantization
-   - Distillation bridge
-   - TLDR - **Attention offers Global Context, the follow-up LSTM supplies Sequential Inertia, Latency Control, and Quantization**-friendly compression—ideal for hearing-aid ASR
-
-
-<br><br>
-
-# 4. Some References<br><br>
+## 4. Some References
 
 - [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
 
