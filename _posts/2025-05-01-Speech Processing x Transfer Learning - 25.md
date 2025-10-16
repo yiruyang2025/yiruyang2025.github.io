@@ -12,12 +12,6 @@ images:
   venobox: true
 ---
 
-Welcome,<br>
-
-A Coding Demo Example for **Distilled-ASR** using xxx with - A Visual Interactive Demo - **teach** you about the **Latent Space** I / we **used in the project**<br><br>
-
-
-- [Apr 2025 - Generative modelling in latent space](https://sander.ai/2025/04/15/latents.html)
 
 <br>
 
