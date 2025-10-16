@@ -37,10 +37,8 @@ related_publications: true
 
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
 
-
   - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
-
 
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
 
