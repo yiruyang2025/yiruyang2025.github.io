@@ -25,21 +25,6 @@ related_publications: true
 
 <br>
 
-| **Potential Theme**                                           | **Research Direction**                                | **Nobel Prize Likelihood** | **Reason / Significance**                                                                |
-| ------------------------------------------------------------- | ----------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------- |
-| **Dark Matter Detection**                                     | Cosmology + Particle Physics                          | 🌟🌟🌟🌟🌟                 | A confirmed direct detection would almost certainly earn the Nobel Prize.                |
-| **Dark Energy**                                               | Cosmic Acceleration Mechanisms                        | 🌟🌟🌟🌟                   | Closely related to the study of the universe’s expansion and its underlying physics.     |
-| **Precision Gravitational Waves & Multi-Messenger Astronomy** | LIGO, Virgo, LISA                                     | 🌟🌟🌟🌟                   | Extends discoveries from black-hole mergers to early-universe gravitational signals.     |
-| **Quantum Computing & Entanglement Networks**                 | Superconducting Qubits, Quantum Entanglement Transfer | 🌟🌟🌟🌟                   | Entering the practical era following the 2022 foundational Nobel in quantum information. |
-| **Neutrino Mass and CP Violation**                            | DUNE, Hyper-Kamiokande                                | 🌟🌟🌟🌟🌟                 | Confirmation of neutrinos as Majorana particles would almost guarantee a Nobel Prize.    |
-| **Topological Phases of Matter**                              | Topological Superconductors, Quantum Qubits           | 🌟🌟🌟🌟                   | Continues the Nobel-recognized line of research on Hall effects and quantum materials.   |
-| **Time Crystals / Non-Equilibrium Quantum Phases**            | Systems with Broken Time Symmetry                     | 🌟🌟🌟                     | Represents a fundamental breakthrough in dynamic and non-equilibrium quantum order.      |
-| **Quantum Gravity & the Black-Hole Information Paradox**      | AdS/CFT Correspondence, Holography                    | 🌟🌟                       | Would be revolutionary if experimentally verified, bridging quantum theory and gravity.  |
-
-
-
-<br>
-
 | **Era**                                                                     | **Representative Themes**                                                                   | **Key Characteristics**                                                                             |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | **1901–1930: From Classical Physics to Quantum Foundations**                | Radioactivity, Electron Discovery, X-Rays, Photoelectric Effect, Early Quantum Theory       | Marked the transition from classical experimental physics to the birth of quantum mechanics.        |
@@ -96,7 +81,7 @@ related_publications: true
 <br>
 
 
-## AI for Scientific Computing Acceleration
+## Scientific Computing Acceleration
 
 ```
                           ┌───────────────────────────────┐
@@ -154,7 +139,7 @@ related_publications: true
 
 <br>
 
-## 📍 Dark Matter Detection
+## Dark Matter Detection
 
 
 | **Dimension**                             | **Description**                                                                                                                                                                                                                                                                                                 |
