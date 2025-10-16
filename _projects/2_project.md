@@ -36,6 +36,10 @@ related_publications: true
 
 <br>
 
+- [2025 - some others - Discovering Symbolic Cognitive Models from Human and Animal Behavior](https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1)
+
+<br>
+
 ## Reading List / References
 
 <br>
