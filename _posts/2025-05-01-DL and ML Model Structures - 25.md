@@ -60,8 +60,6 @@ Classical ML  = Student who uses fixed formulas (must be told what features matt
 
 ## Generalization Ability
 
-<br>
-
 ```
 Unsupervised World                              Zero-Shot World
 ═══════════════════════════════════             ════════════════════════════════════
@@ -90,11 +88,11 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 
 <br>
 
-Compared with the original machine learning models:
+  - Compared with the original machine learning models:
 
- - **Linear Regression / SVM / Shallow Decision Trees**
+  - **Linear Regression / SVM / Shallow Decision Trees**
  
- Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
+  - Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
 
 <br>
 
@@ -112,7 +110,6 @@ Compared with the original machine learning models:
 - Quantization / Adapter Guided - LoRA + QLoRA
 
 
-<br>
 
 These deep models are capable of **Learning Hierarchical Features**, where each layer captures increasingly abstract representations of the data.
 
@@ -229,10 +226,8 @@ In practice, "Deep" means:
 <br>
 
 - **MEMORY - Transformers vs. RNN / LSTM**
-  - [Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254)
-    - **RetNet** - Retention Network -> Gated Retention
-    - [2023 - RetNet: Retinal Disease Detection using Convolutional Neural Network](https://ieeexplore.ieee.org/abstract/document/10101661?casa_token=uZQehKNSJt0AAAAA:UWdRNBHC8WlsoNpwbNVIm9Wr147Q-292JEFwcP6bLglKLDlNtTVfIe7RuHyVD6ryjeuQTFUOaw)
-    - **DeltaNet** - [2025 - Parallelizing Linear Transformers with the Delta Rule over Sequence Length](https://arxiv.org/abs/2406.06484)
+  - Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
+
 
 
 <br><br>
