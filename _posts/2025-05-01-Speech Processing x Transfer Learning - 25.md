@@ -15,36 +15,6 @@ images:
 
 <br>
 
-- **A dynamic Latent Trajectory Visualization**
-- with **LoRA / QLoRA Adapter**
- 
-<br>
-
-- CTC
-- Seq2Seq+Attention
-- RNN-Transducer
-- QLoRA-Based Adapters
-- KL-Distillation
-- FLEURS - DataSet
-- on-device ASR
-📍
-
-<br>
-
-
-
-## References
-
-<br>
-
-- [2025 - Nature Human Behaviour - A unified acoustic-to-speech-to-language embedding space captures the neural basis of NLP](https://www.nature.com/articles/s41562-025-02105-9)
-  
-- [1989 - The Cascade-Correlation Learning Architecture](https://proceedings.neurips.cc/paper_files/paper/1989/hash/69adc1e107f7f7d035d7baf04342e1ca-Abstract.html)
-
-
-<br>
-
-
 
 # 0. Some Background Knowledge<br><br>
 
