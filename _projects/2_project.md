@@ -24,9 +24,7 @@ related_publications: true
 <br>
 
 - [2025 - DeepSomatic](https://www.nature.com/articles/s41587-025-02839-x)
-
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
-
   - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 
 <br>
