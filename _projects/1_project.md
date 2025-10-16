@@ -134,6 +134,24 @@ Machine Learning Fundamentals
 
 <br>
 
+| Era                               | Optimizer                             | Year    | Core Innovation                                  | Key Equation / Concept                                                | Limitation Solved                      | Remarks                                    |
+| --------------------------------- | ------------------------------------- | ------- | ------------------------------------------------ | --------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
+| **Classical GD**              | **Gradient Descent (GD)**             | 1951    | Update weights along negative gradient direction | ( w_{t+1} = w_t - \eta \nabla L(w_t) )                                | None (too simple)                      | Foundation of all optimizers               |
+|                                   | **Stochastic Gradient Descent (SGD)** | 1983    | Random mini-batches improve efficiency           | Use subset of data per step                                           | Slow convergence, noisy                | Enables online / large-scale training      |
+| **Momentum Era**              | **SGD + Momentum**                    | 1989    | Adds velocity term to smooth updates             | ( v_t = \beta v_{t-1} + (1-\beta)\nabla L ); ( w_{t+1}=w_t-\eta v_t ) | Oscillations in ravines                | Speeds up convergence, inspired by physics |
+| **Adaptive Learning**         | **Adagrad**                           | 2011    | Per-parameter adaptive learning rate             | ( \eta_t = \frac{\eta}{\sqrt{G_t + \epsilon}} )                       | Manual lr tuning                       | Works well for sparse features (NLP)       |
+|                                   | **RMSProp**                           | 2012    | Moving average of squared gradients              | ( v_t = \rho v_{t-1} + (1-\rho)g_t^2 )                                | Adagrad’s decay problem                | Stable for non-stationary objectives       |
+| **Modern Standard**           | **Adam**                              | 2014    | Combines Momentum + RMSProp                      | ( m_t, v_t ) = first/second moment estimates                          | Gradient noise + curvature             | Default for deep networks                  |
+|                                   | **AdamW**                             | 2017    | Decoupled weight decay from loss                 | Weight decay outside gradient step                                    | L2 regularization bias in Adam         | Current default for Transformer training   |
+| **Geometry-Aware & Adaptive** | **LAMB / LARS**                       | 2019    | Layer-wise adaptive lr for large batches         | Normalize trust ratio per layer                                       | Scale mismatch in large-batch training | Used in BERT / GPT large models            |
+|                                   | **RAdam / AdaBelief**                 | 2019–20 | Rectified variance / belief correction           | Re-scaling Adam’s variance                                            | Instability in early training          | Better generalization on small datasets    |
+| **Second-Order & Beyond**     | **Shampoo / K-FAC**                   | 2020–23 | Approximate curvature matrix                     | Precondition gradient by layer Hessian                                | Ignoring curvature info                | Faster convergence, heavy memory           |
+|                                   | **Lion / Sophia**                     | 2023    | Sign-based + curvature-aware update              | Use sign(g) + momentum / Hessian tracking                             | Over-adaptation of Adam                | Efficient, strong generalization for LLMs  |
+
+
+
+<br>
+
 ## Riemannian Projector, Geodesic Loss
 
 ```
