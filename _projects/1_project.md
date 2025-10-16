@@ -169,7 +169,7 @@ loss = acos(cos_sim)
 Teacher (Whisper-large-v2, frozen)
         │
         ▼
-Student (CStructure-free Student from the teacher + LoRA adapters)
+Student (Structure-free Student from the teacher + LoRA adapters)
         │
         ├── CE loss (labels supervision)
         │       ↑
