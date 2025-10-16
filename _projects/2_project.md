@@ -10,15 +10,6 @@ related_publications: true
 
 <br>
 
-## Supervisors
-
-<br>
-
-- Dr. Ulrike Wissen, Dr. Jonas Egeler, xxxxxxx....
-
-<br>
-
-
 ## Related Coursework
 
 <br>
