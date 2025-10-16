@@ -81,7 +81,7 @@ Graph Theory
 
 <br>
 
-- [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+- [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/DL-and-ML-Model-Structures-25/)
 
 <br>
 
