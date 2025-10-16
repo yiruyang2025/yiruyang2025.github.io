@@ -51,8 +51,6 @@ images:
 
 Shape Modeling and Geometry Processing (C++, 25)
 
-[Advanced Vision Seminar](https://cvg.ethz.ch/lectures/Advanced-Vision-Seminar/) (25)
-
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
 [CardioAI](https://www.linkedin.com/showcase/cardioai/)
@@ -83,7 +81,7 @@ Graph Theory
 
 <br>
 
-- [AI Model Structures - 25](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+- [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
 <br>
 
@@ -120,11 +118,11 @@ Graph Theory
 
 # Check List
 
-- [x] Reading and Oxygen
+- [x] Reading, Oxygen, Fruits, and Protein
   - [x] Chatting
   - [x] Water
 - [x] Take a Walk
 
 
-<br><br>
+<br>
 
