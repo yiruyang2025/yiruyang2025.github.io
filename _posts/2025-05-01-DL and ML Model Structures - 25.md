@@ -14,7 +14,7 @@ images:
 
 <br>
 
-  - Let's take a look at the history of The Model Structures we're using today.
+  - Let's take a look at the history of the Model Structures we're using today.
 
 <br>
 
