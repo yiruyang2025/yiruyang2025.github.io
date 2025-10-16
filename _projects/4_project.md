@@ -10,9 +10,6 @@ related_publications: true
 
 <br>
 
-## 📍 Main Goal - 12ECTS
-
-<br>
 
 
 [A Digital Geneva / Zurich](https://carla.readthedocs.io/en/latest/adv_digital_twin/)
