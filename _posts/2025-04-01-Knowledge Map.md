@@ -20,7 +20,7 @@ images:
 
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
 
-  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 FUN TO IMAGINE 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
+  - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun TO Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
 
 
 
