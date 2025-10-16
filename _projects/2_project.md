@@ -70,22 +70,6 @@ related_publications: true
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
 
 
-<br>
-
-
-## Some Related Art works
-
-<br>
-
-[2025 - VGGT](https://vgg-t.github.io/)
-
-[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
-
-
-[2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
-
-
-
 <br><br>
 
 
@@ -117,12 +101,10 @@ related_publications: true
 
 ## Key Contributions
 
-<br>
-
 - A FFN for 4d Construction, neat and simple pipeline
 
-<br>
 
+<br>
 
 ```
 [2000s] Classical 2D Stitching
@@ -165,10 +147,16 @@ related_publications: true
    - Powers Pixel 10 AI (Gemini Nano + Tensor G5)
 ```
 
-
 <br>
 
 
+## Some Related Art works
+
+  - [2025 - VGGT](https://vgg-t.github.io/)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
+
+<br>
 
 ## Models
 
@@ -261,7 +249,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 
 ## World Models / Reality Proxy
-
 
 [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
