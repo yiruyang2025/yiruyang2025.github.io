@@ -25,21 +25,6 @@ related_publications: true
 
 <br>
 
-| **Era**                                                                     | **Representative Themes**                                                                   | **Key Characteristics**                                                                             |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **1901–1930: From Classical Physics to Quantum Foundations**                | Radioactivity, Electron Discovery, X-Rays, Photoelectric Effect, Early Quantum Theory       | Marked the transition from classical experimental physics to the birth of quantum mechanics.        |
-| **1930–1960: The Golden Age of Quantum Mechanics and Nuclear Physics**      | Nuclear Fission, Beta Decay, Neutron Discovery, Quantum Field Theory                        | A period of explosive growth in fundamental physics, driven by wartime and early Cold War research. |
-| **1960–1980: Formation of the Standard Model of Particle Physics**          | Weak Interactions, Quarks, Symmetry Breaking, Superconductivity                             | Theoretical breakthroughs and high-energy experiments converged to unify particle interactions.     |
-| **1980–2000: Parallel Advances in Condensed Matter and Cosmology**          | Integer Quantum Hall Effect, Superconductors, Laser Cooling, Cosmic Microwave Background    | Linked microscopic quantum systems with macroscopic cosmological phenomena.                         |
-| **2000–2020: The Era of Information, Cosmology, and Precision Measurement** | Neutrino Oscillations, Gravitational Waves, Black Holes, Quantum Information                | Defined by ultra-precise, interdisciplinary experiments bridging quantum and astrophysical scales.  |
-| **2020–2025: Quantum Universe and Complex Systems**                         | Complex Physical Systems (Climate), Quantum Entanglement Experiments, Optical Atomic Clocks | Represents the convergence of quantum measurement, cosmology, and information theory.               |
-
-
-
-
-
-<br>
-
 ## The Theoretical Map
 
 ```
@@ -74,68 +59,6 @@ related_publications: true
                  │ (Geometry, Algebra, Topology)   │
                  └─────────────────────────────────┘
 ```
-
-
-
-
-<br>
-
-
-## Scientific Computing Acceleration
-
-```
-                          ┌───────────────────────────────┐
-                          │     Mathematical Physics      │
-                          │ (Rigorous structure, symmetry)│
-                          └────────────┬──────────────────┘
-                                       │
-          ┌────────────────────────────┼────────────────────────────┐
-          │                            │                            │
-   ┌──────▼──────┐              ┌──────▼──────┐              ┌──────▼──────┐
-   │ Classical   │              │ Quantum     │              │ Relativity  │
-   │ Mechanics   │              │ Mechanics   │              │ (Special /  │
-   │ (Lagrange,  │              │ (Hilbert,   │              │ General)    │
-   │ Hamiltonian)│              │ Operators)  │              │ (Spacetime) │
-   └──────┬──────┘              └──────┬──────┘              └──────┬──────┘
-          │                            │                            │
-          │                            │                            │
-          └──────────────┬─────────────┴──────────────┬─────────────┘
-                         │                            │
-              ┌──────────▼──────────┐         ┌────────▼───────────┐
-              │ Quantum Field Theory│         │ Statistical Physics│
-              │ (Gauge, Renormal.)  │         │ (Thermo, Ensembles)│
-              └──────────┬──────────┘         └────────┬───────────┘
-                         │                             │
-                         │                             │
-         ┌───────────────▼──────────────┐   ┌──────────▼────────────┐
-         │ Condensed Matter Theory      │   │ Particle / Nuclear    │
-         │ (Many-body, Topological)     │   │ Physics (SM, QCD, QED)│
-         └───────────────┬──────────────┘   └──────────┬────────────┘
-                         │                             │
-                         ▼                             ▼
-                 ┌────────────────────────┐  ┌─────────────────────────────┐
-                 │   Quantum Gravity      │  │    Cosmology / Astrophysics │
-                 │ (LQG, String, M-Theory)│  │ (Inflation, Dark Matter)    │
-                 └────────────┬───────────┘  └────────────┬────────────────┘
-                              │                           │
-                              ▼                           ▼
-                       ┌─────────────────────────────┐
-                       │  Unified Theories / TOE     │
-                       │ (AdS/CFT, Supersymmetry,    │
-                       │  Dualities, Holography)     │
-                       └────────────┬────────────────┘
-                                    │
-                                    ▼
-            ┌────────────────────────────────────────────────┐
-            │ Computational & AI-Driven Physics Layer        │
-            │  • Quantum Computing & Quantum Simulation      │
-            │  • AI for Scientific Computing Acceleration    │
-            │  • ML-based PDE Solvers (PINN, Diffusion)      │
-            │  • Symbolic AI for Theory Discovery            │
-            │  • HPC + Quantum Hybrid Simulation             │
-            └────────────────────────────────────────────────┘
-```
-
 
 <br>
 
