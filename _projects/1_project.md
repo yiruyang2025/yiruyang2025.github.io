@@ -13,6 +13,9 @@ related_publications: true
 
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
+
+   <br>
+
   - [AlphaEvolve - Gradient-Based Algorithm](https://www.sciencedirect.com/topics/engineering/gradient-based-algorithm)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
