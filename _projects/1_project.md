@@ -25,7 +25,7 @@ def compute_distillation_loss()
 return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ```
 
- - [1/2] Stabilizing the Training, in Latent Space
+ - [1/2] Stabilizing the Training, in **Latent Space**
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
