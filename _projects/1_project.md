@@ -25,12 +25,10 @@ def compute_distillation_loss()
 return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ```
 
-
  - [1/2] Stabilizing the Training, in Latent Space
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
-
 
  - [2/2] Training Loss with different training set amounts
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
@@ -39,9 +37,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 [Codebase - 2025 - Training Pipeline]
 
-
 <br>
-
 
 ## Algorithms
 
@@ -56,6 +52,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Probability Space**      | A measurable space (Ω, F, P) defining random events                                    | Describes the geometry of events                                                                    | Probability theory, information geometry, Bayesian inference         |
 | **Information Manifold**   | A Riemannian manifold on probability distributions                                     | Uses Fisher information metric                                                                      | Statistical inference, information geometry, variational inference   |
 | **Kähler / Complex Space** | Complex structure + symmetric geometry + metric                                        | Conformal generalization of Hilbert space                                                           | Quantum geometry, string theory, complex optimization                |
+
 
 <br>
 
