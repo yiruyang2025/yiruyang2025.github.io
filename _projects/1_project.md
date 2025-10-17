@@ -130,7 +130,7 @@ Algorithms
 
 <br>
 
-# Knowledge Distillation - ASR
+# Post-Training Optimization - In Latent Space
 
 | **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
