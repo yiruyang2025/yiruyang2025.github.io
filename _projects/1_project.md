@@ -25,17 +25,17 @@ def compute_distillation_loss()
 return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ```
 
- - [1/2] Stabilizing the Training, in **Latent Space**
+ - [1/3] Stabilizing the Training, in **Latent Space**
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
- - [2/2] Training Loss with different training set amounts
+ - [2/3] Training Loss with different training set amounts
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 
-[Codebase - 2025 - Training Pipeline]
+  - **[3/3] Codebase - 2025 - Training Pipeline**
 
 
 <br>
