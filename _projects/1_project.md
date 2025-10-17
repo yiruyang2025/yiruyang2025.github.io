@@ -84,6 +84,25 @@ def build_anagram_dict(words):
 
 <br>
 
+| **Dimension**         | **Rust**                                               | **Go (Golang)**                                   | **C++**                                               | **Python**                                      |
+| --------------------- | --------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
+| **Type System**       | Static, compiled                                          | Static, compiled                                     | Static, compiled                                         | Dynamic, interpreted                               |
+| **Memory Management** | No GC; uses **ownership + borrow checker**                | Automatic GC                                         | Manual (new/delete) or smart pointers                    | Automatic GC                                       |
+| **Concurrency Model** | Lock-free, type-safe (“fearless concurrency”)             | **Goroutines + channels** (CSP model)                | Multithreading with manual locks                         | GIL limits true multithreading                     |
+| **Performance**       | Nearly equal to C++                                       | Close to C++, slightly slower (GC overhead)          | Fastest native performance                               | Slowest (interpreted)                              |
+| **Safety**            | Compile-time memory safety; prevents data races           | Memory-safe but not thread-safe                      | Very fast but error-prone (dangling pointers, overflows) | Safe but slow                                      |
+| **Learning Curve**    | Steep (requires ownership understanding)                  | Easy (simple syntax)                                 | Steep (complex syntax and templates)                     | Easiest (beginner-friendly)                        |
+| **Compile Speed**     | Slow                                                      | Fast                                                 | Slow (especially for large projects)                     | None (interpreted)                                 |
+| **Ecosystem**         | Young but growing fast (systems, embedded, backend)       | Mature (cloud, DevOps, microservices)                | Broadest (systems, games, embedded)                      | Broadest (AI, data science, web)                   |
+| **Applications**      | System programming, secure backend, embedded, WebAssembly | Cloud-native systems, microservices, networking      | OS, game engines, graphics                               | AI/ML, scripting, automation, data analysis        |
+| **Philosophy**        | **“Zero-cost abstraction”** — safety + performance        | **“Pragmatic simplicity”** — simplicity + efficiency | **“Total control”** — performance + flexibility          | **“Ease of use”** — simplicity + rapid prototyping |
+| **Key Projects**      | Firefox, Tokio, AWS Firecracker                           | Docker, Kubernetes, Terraform                        | Unreal Engine, Chrome, TensorRT                          | PyTorch, TensorFlow, YouTube                       |
+
+
+
+
+<br>
+
 ```
 Algorithms
 ├── I. Data Structures
