@@ -48,6 +48,9 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Map + Character Count Key | Significantly Optimizable |
 
 
+
+**Dictionary Anagram Lookup** 
+
 ```
 Time Complexity:
 Build: O(M × N)
@@ -71,20 +74,6 @@ def build_anagram_dict(words):
 
 <br>
 
-| Space                      | Core Definition                                                                        | Difference from Others                                                                              | Application Domains                                                  |
-| -------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Hilbert Space**          | A complete inner product space where lengths, angles, and projections are well-defined | Serves as the foundational “perfect” geometric space; all others are generalizations or relaxations | Quantum mechanics, signal processing, optimization, machine learning |
-| **Banach Space**           | A complete normed vector space, not necessarily with an inner product                  | Has length but no angles                                                                            | Non-Euclidean optimization, functional analysis                      |
-| **Riemannian Manifold**    | Each point has a local inner-product space (tangent space)                             | Locally Hilbert, globally curved                                                                    | General relativity, geometric deep learning                          |
-| **Symplectic Space**       | Equipped with an area-preserving bilinear form                                         | No distance, only conserved quantities                                                              | Classical mechanics, Hamiltonian systems                             |
-| **Topological Space**      | Defined only by neighborhood relationships, no metric required                         | No notion of length or angle                                                                        | Generalized geometry, continuity, homotopy theory                    |
-| **Metric Space**           | A set with a defined distance function d(x, y)                                         | Hilbert space is a special case                                                                     | Clustering, manifold learning, distance-metric learning              |
-| **Probability Space**      | A measurable space (Ω, F, P) defining random events                                    | Describes the geometry of events                                                                    | Probability theory, information geometry, Bayesian inference         |
-| **Information Manifold**   | A Riemannian manifold on probability distributions                                     | Uses Fisher information metric                                                                      | Statistical inference, information geometry, variational inference   |
-| **Kähler / Complex Space** | Complex structure + symmetric geometry + metric                                        | Conformal generalization of Hilbert space                                                           | Quantum geometry, string theory, complex optimization                |
-
-
-<br>
 
 ```
 Algorithms
@@ -109,6 +98,24 @@ Algorithms
     ├── Hard composite problems
     ├── Algorithm design questions
 ```
+
+<br>
+
+## Latent Space Structure
+
+| Space                      | Core Definition                                                                        | Difference from Others                                                                              | Application Domains                                                  |
+| -------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Hilbert Space**          | A complete inner product space where lengths, angles, and projections are well-defined | Serves as the foundational “perfect” geometric space; all others are generalizations or relaxations | Quantum mechanics, signal processing, optimization, machine learning |
+| **Banach Space**           | A complete normed vector space, not necessarily with an inner product                  | Has length but no angles                                                                            | Non-Euclidean optimization, functional analysis                      |
+| **Riemannian Manifold**    | Each point has a local inner-product space (tangent space)                             | Locally Hilbert, globally curved                                                                    | General relativity, geometric deep learning                          |
+| **Symplectic Space**       | Equipped with an area-preserving bilinear form                                         | No distance, only conserved quantities                                                              | Classical mechanics, Hamiltonian systems                             |
+| **Topological Space**      | Defined only by neighborhood relationships, no metric required                         | No notion of length or angle                                                                        | Generalized geometry, continuity, homotopy theory                    |
+| **Metric Space**           | A set with a defined distance function d(x, y)                                         | Hilbert space is a special case                                                                     | Clustering, manifold learning, distance-metric learning              |
+| **Probability Space**      | A measurable space (Ω, F, P) defining random events                                    | Describes the geometry of events                                                                    | Probability theory, information geometry, Bayesian inference         |
+| **Information Manifold**   | A Riemannian manifold on probability distributions                                     | Uses Fisher information metric                                                                      | Statistical inference, information geometry, variational inference   |
+| **Kähler / Complex Space** | Complex structure + symmetric geometry + metric                                        | Conformal generalization of Hilbert space                                                           | Quantum geometry, string theory, complex optimization                |
+
+
 
 <br>
 
