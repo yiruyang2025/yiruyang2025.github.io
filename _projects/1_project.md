@@ -15,7 +15,6 @@ related_publications: true
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
-<br>
 
 ```
 def compute_distillation_loss()
@@ -26,21 +25,18 @@ def compute_distillation_loss()
 return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ```
 
-<br>
 
  - [1/2] Stabilizing the Training, in Latent Space
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
-<br>
 
  - [2/2] Training Loss with different training set amounts
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 
-<br>
 
 [Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline]
 
