@@ -69,7 +69,7 @@ Algorithms
 │   ├── Binary Search Patterns
 │
 ├── III. Complex Algorithms  
-│   ├── Dynamic Programming (DP) -> https://github.com/schaab-teaching/DynamicProgramming2025
+│   ├── Dynamic Programming (DP)
 │   ├── Graph Theory (DFS/BFS/Dijkstra)
 │   ├── Recursion / Backtracking
 │   ├── Greedy Algorithms
