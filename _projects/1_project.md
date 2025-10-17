@@ -132,7 +132,7 @@ Algorithms
 
 <br>
 
-# Post-Training Optimization - In Latent Space
+## Post-Training Optimization - In Latent Space
 
 | **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -172,8 +172,6 @@ distil_run_cell2.7.2/
 └── training_config.json          ← Training configuration and setup details
 ```
 
-
-
 <br>
 
 ## Structure
@@ -212,6 +210,7 @@ Machine Learning Fundamentals
               ├─ Evaluation beyond accuracy: robustness, fairness, value alignment
               └─ Ethical ML engineering: accountability and transparency in large systems
 ```
+
 <br>
 
 ## Data Loader
@@ -223,7 +222,6 @@ Machine Learning Fundamentals
 | ③ Build Dataset           | `dataset = LibriSpeechLocalDataset(pairs, processor)` | Not yet       | Each sample is returned separately, no unified length.  |
 | ④ Build DataLoader        | `train_loader = DataLoader(...)`                      | Yes (here)     | Padding is applied when combining samples into a batch. |
 | ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
-
 
 
 <br>
