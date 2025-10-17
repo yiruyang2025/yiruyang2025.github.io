@@ -63,15 +63,15 @@ Algorithms
 ├── I. Data Structures
 │   ├── Stack, Queue, HashMap, LinkedList
 │
-├── II. Algorithmic Patterns   ← ✅
+├── II. Algorithmic Patterns 
 │   ├── Two Pointers
 │   ├── Sliding Window
 │   ├── Prefix Sum
 │   ├── Monotonic Stack / Queue
 │   ├── Binary Search Patterns
 │
-├── III. Complex Algorithms   ← ?
-│   ├── [Dynamic Programming (DP)](https://github.com/schaab-teaching/DynamicProgramming2025)
+├── III. Complex Algorithms  
+│   ├── Dynamic Programming (DP) -> https://github.com/schaab-teaching/DynamicProgramming2025
 │   ├── Graph Theory (DFS/BFS/Dijkstra)
 │   ├── Recursion / Backtracking
 │   ├── Greedy Algorithms
