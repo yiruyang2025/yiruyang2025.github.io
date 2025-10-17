@@ -78,7 +78,7 @@ def build_anagram_dict(words):
 
 | Analogy        | **Hash Map in Data Structures**                | **Dynamic Programming / Graph in Algorithms**                                 |
 | -------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- |
-| **Essence**    | Trade space for time — achieve *O(1)* lookup.  | Trade state-graph computation for optimal solution — typically *O(N × M)*.    |
+| **Essence**    | Trade space for time — achieve O(1) lookup.  | Trade state-graph computation for optimal solution — typically O(N × M).    |
 | **Advantage**  | Globally optimal method for key lookup.        | Globally optimal framework for decision and optimization.                     |
 | **Limitation** | Only applicable to key–value lookup problems.  | Only applicable to decomposable problems with optimal substructure.           |
 | **Conclusion** | The most efficient in the **lookup** domain. | The most general but not universal in the **optimization/decision** domain. |
