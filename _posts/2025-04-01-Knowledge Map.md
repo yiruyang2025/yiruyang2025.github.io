@@ -33,7 +33,7 @@ images:
 <br>
 
 - [Daily News Briefing](https://www.ft.com/ft-news-briefing)
-- [The power of face to face communication](https://www.iese.edu/standout/face-to-face-conversations-power/#:~:text=Gestures%2C%20tone%20of%20voice%20and,conflicts%20caused%20by%20poor%20communication.)
+
 
 
 <br><br>
