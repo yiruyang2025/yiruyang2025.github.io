@@ -47,9 +47,9 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Check Anagram**             | O(n)                |  O(n)             | Counter / Hash Map             | Cannot Be Improved        |
 | **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Map + Character Count Key | Significantly Optimizable |
 
+<br>
 
-
-**Dictionary Anagram - as Strings Lookup** 
+## Dictionary Anagram - as Strings Lookup
 
 ```
 Time Complexity:
