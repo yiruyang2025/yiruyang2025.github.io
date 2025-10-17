@@ -37,8 +37,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 
-
-[Codebase - 2025 - Deep Learning / Knowledge Distillation training Pipeline]
+[Codebase - 2025 - Training Pipeline]
 
 
 <br>
@@ -56,7 +55,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Kähler / Complex Space** | Complex structure + symmetric geometry + metric                                        | Conformal generalization of Hilbert space                                                           | Quantum geometry, string theory, complex optimization                |
 
 
-<br>
 
 ```
 Algorithms
