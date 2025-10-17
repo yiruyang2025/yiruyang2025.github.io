@@ -35,7 +35,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
     - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 
-  - **[3/3] Codebase - 2025 - Training Pipeline**
+  - [3/3] **Codebase - 2025 - Training Pipeline**
 
 
 <br>
