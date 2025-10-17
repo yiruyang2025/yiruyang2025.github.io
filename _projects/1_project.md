@@ -41,6 +41,38 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## Algorithms
 
+| Problem                       | Original Complexity | Optimal Complexity                                   | Optimal Method                 | Further Optimization      |
+| ----------------------------- | ------------------- | ---------------------------------------------------- | ------------------------------ | ------------------------- |
+
+| **Check Anagram**             | O(n)                |  O(n)                                               | Counter / Hash Map             | Cannot Be Improved        |
+| **Dictionary Anagram Lookup** | O(M N log N)        |  O(M N)                                             | Hash Map + Character Count Key | Significantly Optimizable |
+
+<br>
+
+## Optimal Method as Below with Hash Map
+
+```
+Time Complexity:
+Build: O(M × N)
+Query: O(N)
+
+def key_from_counts(word):
+    freq = [0]*26
+    for ch in word:
+        freq[ord(ch) - ord('a')] += 1
+    return tuple(freq)
+
+def build_anagram_dict(words):
+    anagram_map = defaultdict(list)
+    for w in words:
+        key = key_from_counts(w)
+        anagram_map[key].append(w)
+    return anagram_map
+```
+
+
+<br>
+
 | Space                      | Core Definition                                                                        | Difference from Others                                                                              | Application Domains                                                  |
 | -------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Hilbert Space**          | A complete inner product space where lengths, angles, and projections are well-defined | Serves as the foundational “perfect” geometric space; all others are generalizations or relaxations | Quantum mechanics, signal processing, optimization, machine learning |
