@@ -112,6 +112,44 @@ Algorithms
 
 <br>
 
+| Model                        | Core Objective                                  | Mathematical Formulation                                   | Intuitive Meaning        |
+|------------------------------|--------------------------------------------------|------------------------------------------------------------|---------------------------|
+| **Diffusion (DDPM)**         | Learn a noise predictor ( \( \epsilon_\theta(x_t, t) \approx \epsilon \) ) | \( L_{\text{diff}} = \| \epsilon - \epsilon_\theta(x_t, t) \|^2 \) | *Learn to denoise*        |
+| **RL on Diffusion (RLD)**    | Optimize expected reward during sampling         | \( L_{\text{RL}} = -\mathbb{E}[R(x_0)] \)                  | *Learn to generate better samples* |
+| **Joint Training (Diffusion + RL)** | Combine denoising and reward guidance              | \( L_{\text{total}} = L_{\text{diff}} - \lambda \cdot R(x_0) \) | *Balance quality and goal* |
+
+```
+import torch
+import torch.nn.functional as F
+
+def compute_diffusion_rl_loss(model, x0, t, reward_fn, lambda_rl=0.1, kl_weight=0.01, prior_model=None):
+    # 1. Add noise (forward diffusion)
+    noise = torch.randn_like(x0)
+    alpha_t = torch.cos(t * torch.pi / 2)
+    x_t = alpha_t * x0 + (1 - alpha_t) * noise
+
+    # 2. Predict noise with model
+    eps_pred = model(x_t, t)
+
+    # 3. Diffusion denoising loss (MSE)
+    diff_loss = F.mse_loss(eps_pred, noise)
+
+    # 4. Reconstruct x0 (“reverse” step)
+    x_recon = (x_t - (1 - alpha_t) * eps_pred) / (alpha_t + 1e-8)
+
+    # 5. Reward-guided RL loss (maximize reward)
+    reward = reward_fn(x_recon).mean()
+    rl_loss = -lambda_rl * reward
+
+    # 6. Total loss
+    total_loss = diff_loss + rl_loss + kl_loss
+    return total_loss, diff_loss.item(), rl_loss.item(), kl_loss.item(), reward.item()
+```
+
+
+
+<br>
+
 ## Latent Space Structure
 
 | Space                      | Core Definition                                                                        | Difference from Others                                                                              | Application Domains                                                  |
