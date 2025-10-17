@@ -31,14 +31,10 @@ related_publications: true
 <br>
 
   - Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
-
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
-
-  - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, Estimating geometry from videos of dynamic scenes
+  - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, geometry from videos
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
-
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-
 
 <br>
 
@@ -72,8 +68,6 @@ related_publications: true
 
 ## Benchmarks and SOTAs
 
-<br>
-
 ## 1. 4D
 
 [2025 - St4RTrack](https://st4rtrack.github.io/)
@@ -98,7 +92,6 @@ related_publications: true
 ## Key Contributions
 
 - A FFN for 4d Construction, neat and simple pipeline
-
 
 <br>
 
@@ -156,8 +149,6 @@ related_publications: true
 
 ## Models
 
-<br>
-
 `1. Geometry-Centric 3D Models`
 
 DUSt3R (CVPR 2024)
@@ -181,9 +172,6 @@ PanSt3R (ICCV 2025)
 
 4D Panoptic Extensions (CVPR 2024, Ego-Exo4D)
   - Video → 3D Panoptic + Time → 4D Reconstruction
-
-
-<br>
 
 
 ```
@@ -478,9 +466,9 @@ Outputs (Direct Prediction)
 
 ## 4D
 
-[2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
+  - [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
 
-[2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
+  - [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
 
 
 <br>
@@ -488,15 +476,15 @@ Outputs (Direct Prediction)
 
 ## 3D
 
-[2025 - VGGT](https://vgg-t.github.io/)
+  - [2025 - VGGT](https://vgg-t.github.io/)
 
-[📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
 
-[📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
+  - [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
 
-[2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
+  - [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
-[COLMAP], [GLOMAP]
+  - [COLMAP], [GLOMAP]
 
 
 <br>
@@ -504,7 +492,7 @@ Outputs (Direct Prediction)
 
 ## 2D
 
-[ViT], [DINOv3], [SAM 3]
+  - [ViT], [DINOv3], [SAM 3]
 
 
 <br>
