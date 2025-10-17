@@ -42,6 +42,9 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+
+## Algorithms
+
 | Space                      | Core Definition                                                                        | Difference from Others                                                                              | Application Domains                                                  |
 | -------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Hilbert Space**          | A complete inner product space where lengths, angles, and projections are well-defined | Serves as the foundational “perfect” geometric space; all others are generalizations or relaxations | Quantum mechanics, signal processing, optimization, machine learning |
@@ -54,7 +57,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Information Manifold**   | A Riemannian manifold on probability distributions                                     | Uses Fisher information metric                                                                      | Statistical inference, information geometry, variational inference   |
 | **Kähler / Complex Space** | Complex structure + symmetric geometry + metric                                        | Conformal generalization of Hilbert space                                                           | Quantum geometry, string theory, complex optimization                |
 
-
+<br>
 
 ```
 Algorithms
