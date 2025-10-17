@@ -67,21 +67,21 @@ related_publications: true
 
 ## 1. 4D
 
-[2025 - St4RTrack](https://st4rtrack.github.io/)
+  - [2025 - St4RTrack](https://st4rtrack.github.io/)
 
 <br>
 
 ## 2. 3D
 
 
-[2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+  - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 
-[2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
+  - [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
 
-[2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
+  - [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
 
-[2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
+  - [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
 
 <br>
 
@@ -221,9 +221,9 @@ Points → Modern Neural Models (GS / Transformer)
 
 ## Some Other topics
 
-[2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
+  - [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
 
-[2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
+  - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 
 
 <br>
@@ -231,9 +231,9 @@ Points → Modern Neural Models (GS / Transformer)
 
 ## World Models / Reality Proxy
 
-[Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
+  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
-[3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
+  - [3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
 
 <br>
 
@@ -241,9 +241,9 @@ Points → Modern Neural Models (GS / Transformer)
 ## Topics
 
 
-[2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
+  - [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
 
-[C++ lib repo - toolkit](https://github.com/libigl)
+  - [C++ lib repo - toolkit](https://github.com/libigl)
 
 
 <br>
@@ -315,7 +315,6 @@ Output: Robust Trajectory + Map
 <br>
 
 ## Visual Computing
-
 
 ```
 2D → 3D Projection World                     Multi-View Segmentation World
