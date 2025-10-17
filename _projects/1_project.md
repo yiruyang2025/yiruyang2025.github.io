@@ -39,13 +39,10 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-## Algorithms
-
-| Problem                       | Original Complexity | Optimal Complexity                                   | Optimal Method                 | Further Optimization      |
-| ----------------------------- | ------------------- | ---------------------------------------------------- | ------------------------------ | ------------------------- |
-
-| **Check Anagram**             | O(n)                |  O(n)                                               | Counter / Hash Map             | Cannot Be Improved        |
-| **Dictionary Anagram Lookup** | O(M N log N)        |  O(M N)                                             | Hash Map + Character Count Key | Significantly Optimizable |
+| Problem                       | Original Complexity | Optimal Complexity | Optimal Method                 | Further Optimization      |
+| ----------------------------- | ------------------- | ------------------ | ------------------------------ | ------------------------- |
+| **Check Anagram**             | O(n)                |  O(n)             | Counter / Hash Map             | Cannot Be Improved        |
+| **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Map + Character Count Key | Significantly Optimizable |
 
 <br>
 
@@ -55,6 +52,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 Time Complexity:
 Build: O(M × N)
 Query: O(N)
+Overall: O(M + N), amortized
 
 def key_from_counts(word):
     freq = [0]*26
