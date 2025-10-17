@@ -49,7 +49,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 
 
-**Dictionary Anagram Lookup** 
+**Dictionary Anagram - as Strings Lookup** 
 
 ```
 Time Complexity:
