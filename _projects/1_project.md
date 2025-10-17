@@ -37,16 +37,16 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 [Codebase - 2025 - Training Pipeline]
 
+
 <br>
+
+## Optimal Method as Below with Hash Map
 
 | Problem                       | Original Complexity | Optimal Complexity | Optimal Method                 | Further Optimization      |
 | ----------------------------- | ------------------- | ------------------ | ------------------------------ | ------------------------- |
 | **Check Anagram**             | O(n)                |  O(n)             | Counter / Hash Map             | Cannot Be Improved        |
 | **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Map + Character Count Key | Significantly Optimizable |
 
-<br>
-
-## Optimal Method as Below with Hash Map
 
 ```
 Time Complexity:
