@@ -58,6 +58,32 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+```
+Algorithms
+├── I. Data Structures
+│   ├── Stack, Queue, HashMap, LinkedList
+│
+├── II. Algorithmic Patterns   ← ✅
+│   ├── Two Pointers
+│   ├── Sliding Window
+│   ├── Prefix Sum
+│   ├── Monotonic Stack / Queue
+│   ├── Binary Search Patterns
+│
+├── III. Complex Algorithms   ← ?
+│   ├── [Dynamic Programming (DP)](https://github.com/schaab-teaching/DynamicProgramming2025)
+│   ├── Graph Theory (DFS/BFS/Dijkstra)
+│   ├── Recursion / Backtracking
+│   ├── Greedy Algorithms
+│   ├── Divide & Conquer
+│
+└── IV. Problem Integration
+    ├── Hard composite problems
+    ├── Algorithm design questions
+```
+
+<br>
+
 # Knowledge Distillation - ASR
 
 | **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
