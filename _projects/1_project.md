@@ -78,7 +78,7 @@ def build_anagram_dict(words):
 ```
 Algorithms
 ├── I. Data Structures
-│   ├── Stack, Queue, HashMap, LinkedList
+│   ├── Stack, Queue, **HashMap**, LinkedList
 │
 ├── II. Algorithmic Patterns 
 │   ├── Two Pointers
@@ -88,8 +88,8 @@ Algorithms
 │   ├── Binary Search Patterns
 │
 ├── III. Complex Algorithms  
-│   ├── Dynamic Programming (DP)
-│   ├── Graph Theory (DFS/BFS/Dijkstra)
+│   ├── **Dynamic Programming (DP)
+│   ├── Graph Theory (DFS/BFS/Dijkstra)**
 │   ├── Recursion / Backtracking
 │   ├── Greedy Algorithms
 │   ├── Divide & Conquer
