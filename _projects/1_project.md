@@ -71,7 +71,6 @@ def build_anagram_dict(words):
     return anagram_map
 ```
 
-
 <br>
 
 ## Hash Map and Graph for Optimization
@@ -82,7 +81,6 @@ def build_anagram_dict(words):
 | **Advantage**  | Globally optimal method for key lookup.        | Globally optimal framework for decision and optimization.                     |
 | **Limitation** | Only applicable to key–value lookup problems.  | Only applicable to decomposable problems with optimal substructure.           |
 | **Conclusion** | The most efficient in the **lookup** domain. | The most general but not universal in the **optimization/decision** domain. |
-
 
 <br>
 
@@ -114,17 +112,15 @@ Algorithms
 
 ## Diffusion, Stable Diffusion, Rectified Flow
 
-| **Dimension**                            | **Vanilla Diffusion Model (DDPM / DDIM)**                                                    | **Stable Diffusion (Latent Diffusion Model, LDM)**                                               | **Rectified Flow (Flow Matching)**                                                   |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| **Start Distribution**                   | Starts from pure Gaussian noise ( \mathcal{N}(0, I) )                                        | Starts from **latent-space noise** (compressed through an encoder)                               | Starts from any distribution point (usually ( \mathcal{N}(0, I) ), but customizable) |
-| **Generative Process**                   | Multi-step denoising: reverses the noise diffusion process<br>( x_{t-1} = f_\theta(x_t, t) ) | Multi-step denoising in latent space (computationally cheaper)<br>( z_{t-1} = f_\theta(z_t, t) ) | Continuous one-step flow: learns an ODE<br>( \frac{d x_t}{dt} = v_\theta(x_t, t) )   |
-| **Mathematical Formulation**             | Discrete Markov chain (reverse SDE)                                                          | Discrete SDE in latent space                                                                     | Continuous ODE / flow field                                                          |
-| **Computational Complexity**             | Multi-step sampling (20–1000 steps)                                                          | Multi-step but faster in latent space (20–50 steps)                                              | Single continuous integration step                                                   |
-| **Advantages**                           | High generation quality; theoretically grounded                                              | High resolution, lightweight, and controllable (supports text prompts)                           | Fast convergence, continuous generation, minimal mode collapse                       |
-| **Limitations**                          | Slow sampling; many denoising steps required                                                 | Strong dependence on encoder design and latent structure                                         | Sensitive training stability; harder conditional control                             |
-| **Representative Papers / Applications** | DDPM (Ho et al., 2020); DDIM (Song et al., 2021)                                             | LDM / Stable Diffusion (Rombach et al., CVPR 2022)                                               | Flow Matching / Rectified Flow (Liu et al., ICLR 2023)                               |
-
-
+| **Dimension**                            | **Vanilla Diffusion Model (DDPM / DDIM)**                                     | **Stable Diffusion (Latent Diffusion Model, LDM)**                                | **Rectified Flow (Flow Matching)**                                     |
+| ---------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Start Distribution**                   | Starts from pure Gaussian noise N(0, I)                                       | Starts from latent-space noise (compressed through an encoder)                    | Starts from any distribution point (usually N(0, I), but customizable) |
+| **Generative Process**                   | Multi-step denoising: reverses the noise diffusion process (xₜ₋₁ = fθ(xₜ, t)) | Multi-step denoising in latent space (computationally cheaper) (zₜ₋₁ = fθ(zₜ, t)) | Continuous one-step flow: learns an ODE (dxₜ/dt = vθ(xₜ, t))           |
+| **Mathematical Formulation**             | Discrete Markov chain (reverse SDE)                                           | Discrete SDE in latent space                                                      | Continuous ODE or flow field                                           |
+| **Computational Complexity**             | Multi-step sampling (20–1000 steps)                                           | Multi-step but faster in latent space (20–50 steps)                               | Single continuous integration step                                     |
+| **Advantages**                           | High generation quality; theoretically grounded                               | High resolution, lightweight, and controllable (supports text prompts)            | Fast convergence, continuous generation, minimal mode collapse         |
+| **Limitations**                          | Slow sampling; many denoising steps required                                  | Strong dependence on encoder design and latent structure                          | Sensitive training stability; harder conditional control               |
+| **Representative Papers / Applications** | DDPM (Ho et al., 2020); DDIM (Song et al., 2021)                              | LDM / Stable Diffusion (Rombach et al., CVPR 2022)                                | Flow Matching / Rectified Flow (Liu et al., ICLR 2023)                 |
 
 
 <br>
