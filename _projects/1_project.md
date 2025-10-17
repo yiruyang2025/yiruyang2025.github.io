@@ -19,7 +19,7 @@ related_publications: true
 
 ```
 def compute_distillation_loss()
-    cos_sim = (s * t).sum(dim=-1).clamp(-1 + eps, 1 - eps)
+    cos_sim = (s * t).sum(dim=-1).clamp(-1 + xx, 1 - xx)
     geo_loss = torch.acos(cos_sim).mean()
     ...
     total_loss = ()
