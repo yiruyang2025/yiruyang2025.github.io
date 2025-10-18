@@ -110,7 +110,7 @@ def build_anagram_dict(words):
 
   - Define the Most Fit / Initial / Best way to store Data Structure - Hash Map
   - Define the Best Algorithm - 1 from ur Graph (e.g., DP / Dijkstra -> Bellman-Ford -> Floyd–Warshall)
-  - Start from Class, def, _int_, -> Test, done
+  - Start from Class, def, int_, print -> Test, done
 
 ```
 Algorithms
