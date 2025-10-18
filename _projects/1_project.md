@@ -52,8 +52,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## Dictionary Anagram - as Strings Lookup
 
-  - The optimal algorithm for the anagram detection problem is the `Hash` counting method, which has a time complexity of O(n) and cannot be improved, k = [ch], v = appeared times of [ch]
-
 ```
 Time Complexity:
 Build: O(M × N)
@@ -76,7 +74,7 @@ def build_anagram_dict(words):
 
 <br>
 
-## 📍 Hash Map and Graph (*DP is just 1 way to realize ur Graph) for Optimization
+## Hash Map and Graph for Optimization
 
 | Analogy        | **Hash Map in Data Structures**                | **Dynamic Programming / Graph in Algorithms**                                 |
 | -------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -102,15 +100,7 @@ def build_anagram_dict(words):
 | **Key Projects**      | Firefox, Tokio, AWS Firecracker                           | Docker, Kubernetes, Terraform                        | Unreal Engine, Chrome, TensorRT                          | PyTorch, TensorFlow, YouTube                       |
 
 
-
-
 <br>
-
-## Algorithms
-
-  - Define the Most Fit / Initial / Best way to store Data Structure - `Hash` Map
-  - Define the Best Algorithm - 1 from ur `Graph` (e.g., DP / Dijkstra -> Bellman-Ford -> Floyd–Warshall)
-  - Start from Class, def, int_, print -> Test, done
 
 ```
 Algorithms
