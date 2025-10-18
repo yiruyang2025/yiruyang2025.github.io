@@ -13,10 +13,6 @@ related_publications: true
 
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
-
-   <br>
-
-  - [AlphaEvolve - Gradient-Based Algorithm](https://www.sciencedirect.com/topics/engineering/gradient-based-algorithm)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
 
 
@@ -614,9 +610,6 @@ Softmax → [Cat, Dog, Car, …]
 | **MLP**                | **Input Standardization** — rescales each input feature to zero mean and unit variance.                                     | **L2 Regularization (Ridge)** — discourages large parameter magnitudes for smoother mappings.                                | Normalization improves numerical stability; regularization enforces simpler models with better generalization.                        |
 
 
-
-
-
 <br>
 
 ## Optimized Decoding
@@ -679,74 +672,8 @@ Whisper large-v3 has the same architecture as the previous large and large-v2 mo
 2. A new language token for Cantonese
 3. Each token output by `Attention carries global context information`, while `FFN applies "fine-tuning" or "feature combination" to each token` to improve the feature quality at each position
 
-
-
 <br>
 
-
-## Teacher
-
-- **Model**: [`whisper-large-v3-turbo`](https://huggingface.co/openai/whisper-large-v3-turbo) - 📍 ≈ 809 M parameters (FP16)
-- **Input**: `128-channel log-Mel` (mono, 16 kHz)
-- **Encoder**  
-  - Hidden size: 1 280
-  - Layers: 32  
-  - Sequence length: ~ 1 500 frames  
-  - **All parameters frozen**  
-- **Decoder**  
-  - Auto-regressive transformer LM  
-  - Hidden size: 1 280  
-  - Layers: `4` 
-  - Output: `token logits over vocabulary`  
-  - **No parameters updated**
-  - (ASR) and speech translation. Trained on `1 million hours` of weakly labeled audio and `4 million hours` of pseudo-labeled audio collected using Whisper large-v2
-
-
-`Input Audio → Encoder → Decoder (Auto-Regressive) → Transcript Tokens`
-
-
-<br>
-
-## Benchmark Student
-
-- **Backbone Model**: [distil-whisper/distil-small.en](https://huggingface.co/distil-whisper/distil-small.en) - 📍 ≈166 M parameters (FP16)  
-- **Hidden size**: 768  
-- **Encoder**  
-  - `80-channel log-Mel input` 
-  - Layers: 12 (inherited from Whisper-small)  
-  - **All parameters frozen**  
-- **Decoder**  
-  - Layers: 4 (pre-distilled)
-  - Auto-regressive transformer LM  
-  - **LoRA injection** into every decoder layer:
-      1. Decoder (Self-Attn) `self_attn.q_proj`, `self_attn.k_proj`, `self_attn.v_proj`, `self_attn.out_proj`
-      2. Decoder（Encoder-Decoder Attn）`encoder_attn.q_proj`, `encoder_attn.k_proj`, `encoder_attn.v_proj`, `encoder_attn.out_proj`
-      3. Decoder（Feed-Forward）`fc1`, `fc2`
-
-<br>
-
-## Our Student
-
-- **Hidden size**: 768  
-- **Encoder**  
-  - `Same 128-channel log-Mel input` 
-  - Layers: 12 (inherited from Whisper-large-v3)  
-  - **All parameters frozen**  
-- **Decoder**  -> CE Loss - the decoder’s final softmax outputs + KL Loss - logits before the decoder’s final softmax
-  - Layers: `4`
-  - Auto-regressive transformer LM  
-  - **LoRA injection** into every decoder layer - **r = 64**
-      1. Decoder (Self-Attn) `self_attn.q_proj`, `self_attn.k_proj`, `self_attn.v_proj`, `self_attn.out_proj`
-      2. Decoder（Encoder-Decoder Attn）`encoder_attn.q_proj`, `encoder_attn.k_proj`, `encoder_attn.v_proj`, `encoder_attn.out_proj`
-      3. Decoder（Feed-Forward）`fc1`, `fc2`
-  - For ASR Distillation, higher T at the begining and then cooler down - `**Cosine Annealing**`
-
-
-- simple **80/10/10** split for val/test, Do not touch your Test Set, **SEED = 42**
-- **INT8** - Inference - **Post-Training Quantization**
-- 4 layers was the minimum required to get reasonable WER performance for distil-small.en, where it performs to `within 3% WER of Whisper large-v2 while being 5.6x faster`
-- training samples `≈ 22 000 hrs`
-  
 
 ```
 Transformer Assembly Line  
@@ -832,8 +759,6 @@ Input Features From Whisper
      space
 ```
 
-
-<br>
 
 ```
 Teacher (Whisper-large-v2)                     Student
@@ -1130,20 +1055,6 @@ study.optimize(objective, n_trials=100)
 print("Best hyperparameters:", study.best_params)
 ```
 
-
-```
-**Gradient Underflow**
-feats = b["input_features"].half().to(device) <- FP32 to 16
-
-self.scaler = **GradScaler()**
-...
-with autocast():
-    loss = model(input)  # loss = float16
-self.scaler.scale(loss).backward() 
-self.scaler.step(optimizer)  
-self.scaler.update()
-```
-
 <br>
 
 
@@ -1322,15 +1233,12 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 ## References
 
+<br>
 
   - [UK Biobank](https://www.ukbiobank.ac.uk/)
-
   - [SCAI](https://scai.ethz.ch/)
-
   - [2025 - MC-MED](https://github.com/dkimlab/MCMED)
-
   - Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
-
 
 <br>
 
@@ -1364,7 +1272,6 @@ Updated 3D mesh rendered in LiverViewer (three.js)
 
 Surgical plan → PDF / PNG / QR for clinical workflow
 ```
-
 
 <br>
 
@@ -1402,7 +1309,6 @@ Surgical plan → PDF / PNG / QR for clinical workflow
 
 ## Gradient Checkpointing
 
-
 ```
 Forward Pass:
 Input → [Layer1: store] → [Layer2: recompute later] → [Layer3: recompute later] → Output
@@ -1412,36 +1318,6 @@ Recompute Layer2 & Layer3 forward
 Use recomputed activations → compute gradient
 Use Layer1 activation → compute gradient
 ```
-
-
-<br>
-
-
-| Topic              | Key Concepts                                         | What to Emphasize                   |
-| ------------------ | ---------------------------------------------------- | ----------------------------------- |
-| **Data**           | Quality, bias, augmentation, splitting               | Data leakage prevention, balancing  |
-| **Representation** | Feature engineering, embeddings, multimodality       | Learned vs hand-crafted             |
-| **Model Families** | Linear, tree-based, CNN, RNN, Transformer, Diffusion | Intuition and trade-offs            |
-| **Optimization**   | Gradient Descent, Adam, learning rate schedules      | Convergence, stability              |
-| **Generalization** | Bias-variance tradeoff, overfitting, regularization  | Early stopping, dropout, batch norm |
-| **Evaluation**     | Cross-validation, metrics (WER, F1, R², etc.)        | Choose metric per task              |
-| **Deployment**     | Serving, monitoring, drift detection                 | MLOps integration, rollback plans   |
-
-
-<br>
-
-
-| Area                               | Key Questions                           | Depth to Prepare                     |
-| ---------------------------------- | --------------------------------------- | ------------------------------------ |
-| **CNNs**                           | Why convolution? receptive fields?      | Intermediate                         |
-| **RNNs / Transformers**            | Why self-attention beats recurrence?    | Strong                               |
-| **Loss Functions**                 | CE, MSE, KL, Triplet, CTC               | Understand gradient behavior         |
-| **Regularization**                 | L1/L2, dropout, data augmentation       | When & why                           |
-| **Initialization / Normalization** | Xavier, He, LayerNorm, BatchNorm        | Stabilizing training                 |
-| **Optimization Dynamics**          | Momentum, LR warm-up, cosine decay      | Behavior visualization               |
-| **Distillation / LoRA**            | Soft vs hard labels, adapter efficiency | Strong (if your projects involve it) |
-
-
 
 <br><br>
 
