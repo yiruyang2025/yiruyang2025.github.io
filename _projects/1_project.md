@@ -76,7 +76,7 @@ def build_anagram_dict(words):
 
 <br>
 
-## Hash Map and Graph for Optimization
+## Hash Map and Graph (*DP is just 1 way of realising ur Graph) for Optimization
 
 | Analogy        | **Hash Map in Data Structures**                | **Dynamic Programming / Graph in Algorithms**                                 |
 | -------------- | ---------------------------------------------- | ----------------------------------------------------------------------------- |
