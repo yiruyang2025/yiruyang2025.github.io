@@ -49,7 +49,10 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+
 ## Dictionary Anagram - as Strings Lookup
+
+  - The optimal algorithm for the anagram detection problem is the `hash counting` method, which has a time complexity of O(n) and cannot be improved, k = [ch], v = appeared times of [ch]
 
 ```
 Time Complexity:
