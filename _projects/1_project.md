@@ -55,7 +55,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 Time Complexity:
 Build: O(M × N)
 Query: O(N)
-Overall: O(M + N), amortized
+Overall: O(M × N + N), amortized
 
 def key_from_counts(word):
     freq = [0]*26
