@@ -1233,8 +1233,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 ## References
 
-<br>
-
   - [UK Biobank](https://www.ukbiobank.ac.uk/)
   - [SCAI](https://scai.ethz.ch/)
   - [2025 - MC-MED](https://github.com/dkimlab/MCMED)
