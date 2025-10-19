@@ -56,7 +56,7 @@ related_publications: true
 
 <br>
 
-````
+```
 ┌─────────────────────────────────┐
 │  Chemistry Simulation (DFT, QM) │ ← Microscopic Level
 │  → Computes atomic interactions │
