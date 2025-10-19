@@ -29,6 +29,7 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - [DailyPapers](https://x.com/HuggingPapers)
+- [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
 <br>
 
