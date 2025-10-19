@@ -467,6 +467,21 @@ Outputs (Direct Prediction)
   - [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
 
 
+
+```
+[ Multi-view Cameras + Rig Info ]
+            ↓
+         (Rig3R)
+     3D Scene Understanding
+            ↓
+   [ BEV / Map / Agent Context ]
+            ↓
+        (DiffusionDrive)
+     Multi-Modal Trajectory Generation
+            ↓
+     Control & Real-Time Driving
+```
+
 <br>
 
 
