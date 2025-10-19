@@ -122,7 +122,6 @@ def build_anagram_dict(words):
 
 <br>
 
-
 ## Algorithms
 
 ```
