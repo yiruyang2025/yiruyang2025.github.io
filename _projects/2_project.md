@@ -39,7 +39,8 @@ related_publications: true
 
 
 
-<br>
+<br><br><br>
+
 
 **Attended Master Thesis Project Defense at cvg**
 
