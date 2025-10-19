@@ -37,6 +37,7 @@ related_publications: true
 
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
+  - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
 
 
