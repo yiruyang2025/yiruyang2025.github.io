@@ -122,8 +122,10 @@ def build_anagram_dict(words):
 
 <br>
 
+
+## Algorithms
+
 ```
-Algorithms
 ├── I. Data Structures
 │   ├── Stack, Queue, <HashMap>, LinkedList
 │
@@ -256,7 +258,10 @@ Machine Learning Fundamentals
 | ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
 
 
+
 <br>
+
+## Protocol and Ports
 
 ```
 [You: MacBook]  ←→  [Encrypted Tunnel (AES)]  ←→  [Mac Studio Server]
@@ -265,8 +270,6 @@ Machine Learning Fundamentals
 ```
 
 <br>
-
-## Protocol and Ports
 
 | Protocol | Port | Purpose |
 |-----------|------|----------|
