@@ -33,6 +33,53 @@ related_publications: true
 
 <br>
 
+## [1/2]Physiology or Medicine
+
+
+| Core Principle                                              | Description                                                                                                                                                     | Mathematical Framework                                               |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **High-dimensional dynamic modeling of structural systems** | Whether in neuronal networks, molecular structures, or protein folding, all study the state evolution of complex network systems.                               | Graph Theory, Dynamical Systems, Tensor / PDE Simulation             |
+| **Energy optimization over probability distributions**      | All aim to find the lowest-energy, most stable, or most probable configurations.                                                                                | Energy-based Models, Free Energy Minimization, Statistical Mechanics |
+| **Modeling information flow in continuous space**           | Whether synaptic signaling, electron wave functions, or chemical bonding, all involve solving evolution equations of probability densities in continuous space. | Schrödinger Equation, Fokker–Planck Equation, Diffusion Equation     |
+| **Topological and graph embedding problems**                | Both connectomes and molecular bond structures can be abstracted as graphs of nodes, edges, and weights.                                                        | Graph Laplacian, Spectral Graph Theory, Graph Neural Networks (GNNs) |
+| **Approximation of many-body interactions**                 | Both electron cloud interactions and synaptic electrical signals represent nonlinear coupling in many-body systems.                                             | Mean-field Approximation, Monte Carlo Simulation, Neural PDE Solver  |
+
+
+<br>
+
+| Field                    | Core Problem                                                                                                      | Computability                                                                         | Tools / Methods                                                        |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Chemistry Simulation** | Predict the most stable molecular geometry and electron distribution from a known formula (minimum energy state). | Solvable but complex (requires approximation).                                        | DFT, QM/MM, Diffusion-based molecular generative models                |
+| **Connectomics**         | Reconstruct the brain’s complete neural topology and functional coupling.                                         | Extremely large-scale (≈10¹⁴ synapses).                                               | FFN, SENSE, SHAPE, GNN, Transformer                                    |
+| **Alzheimer’s Disease**  | Explain how structural degeneration leads to cognitive decline.                                                   | Highly complex and non-deterministic (biological variability and temporal evolution). | Graph Diffusion Models, Protein Misfolding Simulation, Causal Modeling |
+
+
+<br>
+
+
+┌─────────────────────────────────┐
+│  Chemistry Simulation (DFT, QM) │ ← Microscopic Level
+│  → Computes atomic interactions │
+└──────────────┬──────────────────┘
+               ↓
+┌────────────────────────────────┐
+│  Connectomics                  │ ← Mesoscopic Level
+│  → Maps neuron-to-neuron graph │
+└──────────────┬─────────────────┘
+               ↓
+┌───────────────────────────────┐
+│  Alzheimer’s Disease Modeling │ ← Macroscopic Level
+│  → Studies functional decline │
+└───────────────────────────────┘
+
+<br>
+
+## [2/2]Connectomics
+
+
+
+<br>
+
 ## The Theoretical Map
 
 ```
