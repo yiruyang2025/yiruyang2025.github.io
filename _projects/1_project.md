@@ -85,6 +85,9 @@ def build_anagram_dict(words):
 
 <br>
 
+
+## Languages
+
 | **Dimension**            | **Rust**                                                                | **Go (Golang)**                                                   | **C++**                                                  | **Python**                                         |
 | ------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
 | `Essentially OOP`      | ✗ (OOP-like, but primarily functional)                                  | ✗ (Has OOP features, but fundamentally procedural and concurrent) | ✓ (Classic, strongly object-oriented)                    | ✓ (Dynamic, fully object-oriented)                 |
