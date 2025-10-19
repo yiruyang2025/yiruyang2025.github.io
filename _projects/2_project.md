@@ -477,7 +477,7 @@ Outputs (Direct Prediction)
    [ BEV / Map / Agent Context ]
             ↓
         (DiffusionDrive)
-     Multi-Modal Trajectory Generation
+   Multi-Modal Trajectory Generation
             ↓
      Control & Real-Time Driving
 ```
