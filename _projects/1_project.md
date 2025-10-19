@@ -256,6 +256,39 @@ Machine Learning Fundamentals
 
 <br>
 
+```
+[You: MacBook]  ←→  [Encrypted Tunnel (AES)]  ←→  [Mac Studio Server]
+         ↕                             ↕
+   ssh user@ip_address         sshd (daemon listening on port 22)
+```
+
+## Avoiding Conflicts
+
+| Protocol | Port | Purpose |
+|-----------|------|----------|
+| HTTP | 80 | Web traffic |
+| HTTPS | 443 | Secure web traffic |
+| FTP | 21 | File transfer |
+| **SSH** | **22** | Secure remote shell |
+
+<br>
+
+| Function              | Command Example                                  | Description                                                   |
+| --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
+| 🧑‍💻 Remote Login    | `ssh user@192.xxx.x.xx`                          | Open a command-line session on a remote computer              |
+| 📂 File Transfer      | `scp file.txt user@host:/path/`                  | Securely copy a file to a remote machine                      |
+| 🔄 Port Forwarding    | `ssh -L 8080:localhost:80 user@host`             | Map a remote port to a local port through an encrypted tunnel |
+| 🔑 Passwordless Login | Public key authentication (`~/.ssh/id_rsa.pub`)  | Automatically authenticate using key pairs                    |
+| 🪄 Automation Control | Use SSH to execute commands or sync data in bulk | Common in DevOps or HPC environments                          |
+
+
+
+
+
+<br>
+
+## Data Loaders
+
 | Era                               | Optimizer                             | Year    | Core Innovation                                  | Key Equation / Concept                                                | Limitation Solved                      | Remarks                                    |
 | --------------------------------- | ------------------------------------- | ------- | ------------------------------------------------ | --------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
 | **Classical GD**              | **Gradient Descent (GD)**             | 1951    | Update weights along negative gradient direction | ( w_{t+1} = w_t - \eta \nabla L(w_t) )                                | None (too simple)                      | Foundation of all optimizers               |
