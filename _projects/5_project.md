@@ -56,7 +56,7 @@ related_publications: true
 
 <br>
 
-
+````
 ┌─────────────────────────────────┐
 │  Chemistry Simulation (DFT, QM) │ ← Microscopic Level
 │  → Computes atomic interactions │
@@ -71,12 +71,12 @@ related_publications: true
 │  Alzheimer’s Disease Modeling │ ← Macroscopic Level
 │  → Studies functional decline │
 └───────────────────────────────┘
+```
 
 <br>
 
+
 ## [2/2]Connectomics
-
-
 
 <br>
 
