@@ -35,6 +35,7 @@ related_publications: true
 
 ## [1/2]Physiology or Medicine
 
+<br>
 
 | Core Principle                                              | Description                                                                                                                                                     | Mathematical Framework                                               |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -43,7 +44,6 @@ related_publications: true
 | **Modeling information flow in continuous space**           | Whether synaptic signaling, electron wave functions, or chemical bonding, all involve solving evolution equations of probability densities in continuous space. | Schrödinger Equation, Fokker–Planck Equation, Diffusion Equation     |
 | **Topological and graph embedding problems**                | Both connectomes and molecular bond structures can be abstracted as graphs of nodes, edges, and weights.                                                        | Graph Laplacian, Spectral Graph Theory, Graph Neural Networks (GNNs) |
 | **Approximation of many-body interactions**                 | Both electron cloud interactions and synaptic electrical signals represent nonlinear coupling in many-body systems.                                             | Mean-field Approximation, Monte Carlo Simulation, Neural PDE Solver  |
-
 
 <br>
 
@@ -76,44 +76,7 @@ related_publications: true
 <br>
 
 
-## [2/2]Connectomics
-
-<br>
-
-## The Theoretical Map
-
-```
-                ┌───────────────────────────────────┐
-                │     Unified Field Theory (UFT)    │
-                │  → Theory of Everything (TOE)     │
-                │  (String / M-Theory / LQG / GUT)  │
-                └────────────────┬──────────────────┘
-                                 │
-                 ┌───────────────▼──────────────────┐
-                 │ Relativistic Quantum Field Theory│
-                 │ (QED, QCD, Electroweak, SM)      │
-                 └───────────────┬──────────────────┘
-                                 │
-                 ┌───────────────▼────────────────┐
-                 │ Relativistic Field Theory      │
-                 │ (Maxwell, Dirac, Klein-Gordon) │
-                 └───────────────┬────────────────┘
-                                 │
-                 ┌───────────────▼────────────────┐
-                 │ Classical Field Theory         │
-                 │ (Electromagnetism, GR)         │
-                 └───────────────┬────────────────┘
-                                 │
-                 ┌───────────────▼────────────────┐
-                 │ Classical Mechanics            │
-                 │ (Newton, Lagrange, Hamilton)   │
-                 └───────────────┬────────────────┘
-                                 │
-                 ┌───────────────▼─────────────────┐
-                 │ Mathematical Physics Foundation │
-                 │ (Geometry, Algebra, Topology)   │
-                 └─────────────────────────────────┘
-```
+## [2/2] Connectomics
 
 <br>
 
