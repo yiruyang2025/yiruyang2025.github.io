@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - AI Acceleration
+title: 2026 - Thesis - AI Simulation
 description: Scientific Research
 img: assets/img/4.jpg
 importance: 5
@@ -17,6 +17,7 @@ related_publications: true
   - [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
   - [2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html), [2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
 
+  - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
 
 <br>
 
