@@ -1230,6 +1230,16 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
+
+| **Stage** | **Process** | **Mathematical Meaning** | **Intuitive Explanation** |
+|------------|--------------|---------------------------|----------------------------|
+| **Forward Process** | Add Gaussian noise to clean trajectories *(x₀ → x_T)*. | q(x_t | x_{t−1}) = N(√(1−β_t)·x_{t−1}, β_t·I) | Gradually “scrambles” a human driving path — this step is fixed and not learned. |
+| **Reverse Process** | Learn to denoise noisy trajectories *(x_T → x₀)* conditioned on perception *c*. | p_θ(x_{t−1} | x_t, c) = N(μ_θ(x_t, t, c), Σ_θ) | The model learns to “restore order from noise,” reconstructing human-like trajectories that fit the scene. |
+| **Prior-Guided Learning** | Add an Anchored Gaussian prior for realistic initialization. | x_T ∼ N(μ_anchor, σ²·I) | The model doesn’t predict trajectories directly—it learns to move toward the probability distribution of human driving behaviors. |
+
+
+<br>
+
 ## References
 
   - [UK Biobank](https://www.ukbiobank.ac.uk/)
