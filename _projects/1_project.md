@@ -259,7 +259,9 @@ Machine Learning Fundamentals
    ssh user@ip_address         sshd (daemon listening on port 22)
 ```
 
-## Avoiding Conflicts
+<br>
+
+## Protocol and Ports
 
 | Protocol | Port | Purpose |
 |-----------|------|----------|
@@ -268,15 +270,14 @@ Machine Learning Fundamentals
 | FTP | 21 | File transfer |
 | **SSH** | **22** | Secure remote shell |
 
-<br>
 
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
-| 🧑‍💻 Remote Login    | `ssh user@192.xxx.x.xx`                          | Open a command-line session on a remote computer              |
-| 📂 File Transfer      | `scp file.txt user@host:/path/`                  | Securely copy a file to a remote machine                      |
-| 🔄 Port Forwarding    | `ssh -L 8080:localhost:80 user@host`             | Map a remote port to a local port through an encrypted tunnel |
-| 🔑 Passwordless Login | Public key authentication (`~/.ssh/id_rsa.pub`)  | Automatically authenticate using key pairs                    |
-| 🪄 Automation Control | Use SSH to execute commands or sync data in bulk | Common in DevOps or HPC environments                          |
+| `Remote Login`    | ssh user@192.xxx.x.xx                          | Open a command-line session on a remote computer              |
+| `File Transfer`      | scp file.txt user@host:/path/                  | Securely copy a file to a remote machine                      |
+| `Port Forwarding`    | ssh -L 8080:localhost:80 user@host             | Map a remote port to a local port through an encrypted tunnel |
+| Passwordless Login | Public key authentication (`~/.ssh/id_rsa.pub`)  | Automatically authenticate using key pairs                    |
+| Automation Control | Use SSH to execute commands or sync data in bulk | Common in DevOps or HPC environments                          |
 
 
 
