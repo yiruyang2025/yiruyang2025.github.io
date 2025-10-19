@@ -271,6 +271,8 @@ Machine Learning Fundamentals
 | **SSH** | **22** | Secure remote shell |
 
 
+<br>
+
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
 | `Remote Login`    | ssh user@192.xxx.x.xx                          | Open a command-line session on a remote computer              |
@@ -285,7 +287,7 @@ Machine Learning Fundamentals
 
 <br>
 
-## Data Loaders
+## Optimizers
 
 | Era                               | Optimizer                             | Year    | Core Innovation                                  | Key Equation / Concept                                                | Limitation Solved                      | Remarks                                    |
 | --------------------------------- | ------------------------------------- | ------- | ------------------------------------------------ | --------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------ |
