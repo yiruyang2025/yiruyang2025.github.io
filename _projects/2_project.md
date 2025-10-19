@@ -35,6 +35,12 @@ related_publications: true
 
 <br>
 
+  - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
+
+
+
+<br>
+
 **Attended Master Thesis Project Defense at cvg**
 
   - 01 Sep 2025 - 📍 Reconstructing Complete Garments with Foundation Models
