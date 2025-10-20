@@ -33,9 +33,9 @@ related_publications: true
 
 <br>
 
-## [1/2]Physiology or Medicine
+## [1/2] Physiology or Medicine
 
-<br>
+
 
 | Core Principle                                              | Description                                                                                                                                                     | Mathematical Framework                                               |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -46,6 +46,8 @@ related_publications: true
 | **Approximation of many-body interactions**                 | Both electron cloud interactions and synaptic electrical signals represent nonlinear coupling in many-body systems.                                             | Mean-field Approximation, Monte Carlo Simulation, Neural PDE Solver  |
 
 <br>
+
+## Chemistry Simulation
 
 | Field                    | Core Problem                                                                                                      | Computability                                                                         | Tools / Methods                                                        |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -76,9 +78,7 @@ related_publications: true
 <br>
 
 
-## [2/2] Connectomics
-
-<br>
+## [2/2] Connectomics - 4D Reconstruction
 
 ## Dark Matter Detection
 
