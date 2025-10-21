@@ -232,29 +232,11 @@ Points → Modern Neural Models (GS / Transformer)
 
   - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 
-
-<br>
-
-
-## World Models / Reality Proxy
-
   - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
   - [3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
 
 <br>
-
-
-## Topics
-
-
-  - [2025 - TetWeave](https://x.com/TheGraphicsFrog/status/1920360716097274059)
-
-  - [C++ lib repo - toolkit](https://github.com/libigl)
-
-
-<br>
-
 
 
 ## Structure-from-Motion (SfM) Pipeline
