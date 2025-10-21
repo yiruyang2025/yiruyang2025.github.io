@@ -27,7 +27,6 @@ related_publications: true
 
 <br>
 
-  - Toolkit - [2025 - PartPacker: Efficient Part-level 3D Object Generation via Dual Volume Packing](https://github.com/NVlabs/PartPacker)
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
   - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, geometry from videos
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
@@ -42,7 +41,7 @@ related_publications: true
 
 
 
-<br><br><br>
+<br><br>
 
 
 **Attended Master Thesis Project Defense at cvg**
@@ -229,9 +228,7 @@ Points → Modern Neural Models (GS / Transformer)
 <br>
 
 
-## Some Other topics
-
-  - [2024 - soft MOE](https://arxiv.org/pdf/2308.00951)
+## Motion
 
   - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 
