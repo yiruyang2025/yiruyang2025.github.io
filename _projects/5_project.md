@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-  - [📍 Click Here](https://zenodo.org/)
+  - [📍 Click Here](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
 
   <br>
