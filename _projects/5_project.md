@@ -15,7 +15,6 @@ related_publications: true
   - [📍 Click Here](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
 
-  <br>
   
   - [Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
   - [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
