@@ -39,7 +39,10 @@ related_publications: true
   - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
 
+<br>
 
+  - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
+  - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 
 <br><br>
 
