@@ -49,31 +49,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-
-## Dictionary Anagram - as Strings Lookup
-
-```
-Time Complexity:
-Build: O(M × N)
-Query: O(N)
-Overall: O(M × N + N), amortized
-
-def key_from_counts(word):
-    freq = [0]*26
-    for ch in word:
-        freq[ord(ch) - ord('a')] += 1
-    return tuple(freq)
-
-def build_anagram_dict(words):
-    anagram_map = defaultdict(list)
-    for w in words:
-        key = key_from_counts(w)
-        anagram_map[key].append(w)
-    return anagram_map
-```
-
-<br>
-
 ## Hash Map and Graph for Optimization
 
 | Analogy        | **Hash Map in Data Structures**                | **Dynamic Programming / Graph in Algorithms**                                 |
