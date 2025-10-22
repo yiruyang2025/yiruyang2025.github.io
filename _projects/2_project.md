@@ -49,22 +49,16 @@ related_publications: true
     - 'Garments are both cultural artifacts and engineered products, but most generative models produce visuals that cannot be manufactured. This thesis introduces a foundation model for pattern-centric garment generation, where outputs are sewing patterns—panels, seams, and annotations—ready for CAD and simulation. A new tokenizer and multimodal dataset enable structured decoding from text or image inputs in a unified framework. In parallel, we investigate fabric recognition from large-scale product data, underscoring the challenge of linking garment shape to material behavior. Experiments show state-of-the-art pattern prediction, strong generalization, and predictable scaling. Together, these contributions move digital fashion toward simulation-ready, fabrication-oriented design.'
     - [2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
     - [2025 - Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates](https://arxiv.org/html/2504.08353v1)
-
   - 10 Sep 2025 - An Interactive, Foundation-Model-Empowered Video Annotation Interface for Constructing a Challenging Video Object Segmentation Dataset
     - SAM 2, DINOv2, GPT-4o, 📍 `real-time Annotation`
     - demo - nutsh
-
   - 02 Oct 2025 - VSLAM-LAB: A Comprehensive Framework for Visual SLAM Baselines and Datasets, pixi
     - 2024 - Gaussian Splatting SLAM, demo
-
   - 09 Oct 2025 - Controllable Visual Generation using 3D prior
     - HIL D 55.2, ETH Hönggerberg, 14:00
-
   - StreamSplat: A Framework for Self-Supervised, Online Novel View Synthesis
     -  Friday Oct 10th, 15:00-15:30 Zurich Time
-
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
-
   - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
 
 
@@ -84,12 +78,8 @@ related_publications: true
 
 
   - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
-
-
   - [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
-
   - [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
-
   - [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
 
 <br>
@@ -154,30 +144,6 @@ related_publications: true
 <br>
 
 ## Models
-
-`1. Geometry-Centric 3D Models`
-
-DUSt3R (CVPR 2024)
-  - 2D Images → Feature Matching → 3D Structure
-
-MASt3R (ECCV 2024)
-  - Images → 3D-Aware Matching → Precise Geometry
-
-VGGT (CVPR 2025)
-  - Image Sequences → Geometry-Grounded Attention → 3D Pose & Structure
-
-
-`2. Semantic + Geometry Joint Models`
-
-
-SAM (ICCV 2023, Meta AI) / SAM 2 (2024, Meta AI)
-  - Video / 3D Stream → SAM 2 Engine → Consistent 2D/3D/4D Segmentation
-
-PanSt3R (ICCV 2025)
-  - Multi-View Images → Fuse Masks → 3D Segmented Scene
-
-4D Panoptic Extensions (CVPR 2024, Ego-Exo4D)
-  - Video → 3D Panoptic + Time → 4D Reconstruction
 
 
 ```
