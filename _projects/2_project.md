@@ -12,10 +12,7 @@ related_publications: true
 
 ## Related Coursework
 
-<br>
-
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
-
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
@@ -24,8 +21,6 @@ related_publications: true
 
 
 ## Reading List / References
-
-<br>
 
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
   - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, geometry from videos
@@ -44,7 +39,7 @@ related_publications: true
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 
-<br><br>
+<br>
 
 
 **Attended Master Thesis Project Defense at cvg**
@@ -70,8 +65,7 @@ related_publications: true
 
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
 
-  - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder
-    - 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
+  - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
 
 
 <br><br>
@@ -237,13 +231,10 @@ Points → Modern Neural Models (GS / Transformer)
 ## Motion
 
   - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
-
   - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
-
-  - [3d gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
+  - [3D gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
 
 <br>
-
 
 ## Structure-from-Motion (SfM) Pipeline
 
@@ -458,7 +449,6 @@ Outputs (Direct Prediction)
 ## 4D
 
   - [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
-
   - [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
 
 
@@ -483,15 +473,10 @@ Outputs (Direct Prediction)
 ## 3D
 
   - [2025 - VGGT](https://vgg-t.github.io/)
-
   - [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-
   - [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
-
   - [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
-
   - [COLMAP], [GLOMAP]
-
 
 <br>
 
@@ -507,9 +492,7 @@ Outputs (Direct Prediction)
 ## Some Products
 
   - [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
-
   - [3DV projects 2024](https://cvg.ethz.ch/lectures/3D-vision/assets/3DV_Projects_2024.pdf)
-
   - [3DV projects 2025]
 
 
