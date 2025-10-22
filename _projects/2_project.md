@@ -70,7 +70,7 @@ related_publications: true
 
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
 
-  - 📍 From Sensors to Solutions: Permanent Laser Scanning in Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder
+  - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder
     - 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
 
 
