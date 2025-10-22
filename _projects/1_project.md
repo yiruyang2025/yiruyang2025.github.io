@@ -40,12 +40,12 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-## Optimal Method as Below with Hash Map
+## Optimal Method as Below with Hash Value
 
 | Problem                       | Original Complexity | Optimal Complexity | Optimal Method                 | Further Optimization      |
 | ----------------------------- | ------------------- | ------------------ | ------------------------------ | ------------------------- |
 | **Check Anagram**             | O(n)                |  O(n)             | Counter / Hash Map             | Cannot Be Improved        |
-| **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Map + Character Count Key | Significantly Optimizable |
+| **Dictionary Anagram Lookup** | O(M × N log N)      | O(M × N)         | Hash Value + Character Count Key | Significantly Optimizable |
 
 <br>
 
