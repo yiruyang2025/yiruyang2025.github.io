@@ -27,7 +27,6 @@ related_publications: true
 - [2025 - Visual Perception Engine: Fast and Flexible Multi-Head Inference for Robotic Vision Tasks](https://arxiv.org/abs/2508.11584)
 - [📍 2025 - Space Science and Technology](https://eaps.ethz.ch/en/research/institutes/geophysics/space-science-technology.html)
 
-<br>
 
 - [Computational Robotics Lab](https://crl.ethz.ch/)
 - [Automatic Control Lab](https://control.ee.ethz.ch/)
