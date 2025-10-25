@@ -27,14 +27,13 @@ related_publications: true
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
 
-<br>
 
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
   - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
 
-<br>
+
 
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
@@ -139,6 +138,66 @@ related_publications: true
   - [2025 - VGGT](https://vgg-t.github.io/)
   - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
   - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
+
+<br>
+
+## Neural Differential Equations
+
+### 1. Core Idea  
+
+- Neural Differential Equations (NDEs) generalize neural networks to continuous depth. 
+- Instead of discrete layer updates, the hidden state evolves continuously over time according to an ordinary differential equation (ODE):
+
+$$
+\frac{d\mathbf{z}(t)}{dt} = f_\theta(\mathbf{z}(t), t), \quad \mathbf{z}(t_0) = \mathbf{z}_0
+$$
+
+- The solution is obtained by integrating over time:
+
+$$
+\mathbf{z}(t_1) = \mathbf{z}(t_0) + \int_{t_0}^{t_1} f_\theta(\mathbf{z}(t), t)\,dt
+$$
+
+### 2. Comparison with Standard Neural Networks
+
+| Property | Standard NN | Neural Differential Equation |
+|-----------|--------------|-------------------------------|
+| Structure | Discrete layers | Continuous dynamics |
+| Forward pass | \( h_{k+1} = f_\theta(h_k) \) | \( \frac{dh}{dt} = f_\theta(h,t) \) |
+| Depth | Fixed | Continuous |
+| Backpropagation | Chain rule | Adjoint sensitivity method |
+| Interpretation | Layer mapping | Continuous-time dynamical system |
+
+### 3. Training via the Adjoint Method  
+
+- Gradients are computed by solving an adjoint ODE backward in time:
+
+$$
+\frac{da(t)}{dt} = -a(t)^\top \frac{\partial f_\theta(\mathbf{z}(t),t)}{\partial \mathbf{z}}, \quad 
+\frac{dL}{d\theta} = -\int_{t_1}^{t_0} a(t)^\top \frac{\partial f_\theta(\mathbf{z}(t),t)}{\partial \theta}\,dt
+$$
+
+- This allows memory-efficient gradient computation since intermediate states do not need to be stored
+
+### 4. Variants
+
+- **Neural ODE:** Deterministic dynamics  
+- **Neural SDE:** Stochastic systems with noise  
+- **Neural PDE:** Parameterized partial differential equations  
+- **Hamiltonian NN:** Conserves physical energy  
+- **Controlled DE:** Handles continuous control inputs  
+
+
+### 5. Physical Interpretation  
+
+- The function \( f_\theta \) acts as a **learnable vector field** that defines how the system evolves in time 
+- This enables learning unknown physical dynamics directly from data:
+
+$$
+\frac{\partial u}{\partial t} = f_{\text{known}}(u) + f_\theta(u)
+$$
+
+
 
 <br>
 
