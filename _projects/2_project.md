@@ -61,8 +61,7 @@ related_publications: true
   - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
 
 
-<br><br>
-
+<br>
 
 
 ## Benchmarks and SOTAs
