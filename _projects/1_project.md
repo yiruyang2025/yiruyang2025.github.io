@@ -10,6 +10,8 @@ related_publications: true
 
 <br>
 
+## Diffusion Models
+
 
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
