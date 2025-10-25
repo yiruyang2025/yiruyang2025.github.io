@@ -16,6 +16,7 @@ related_publications: true
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
+  - [2025 - Video models are zero-shot Learners and Reasoners] (https://video-zero-shot.github.io/)
 
 
 ```
@@ -145,7 +146,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## Optimization
 
-| **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
+| **Component / Technique**           | **Description**                                                                                 | **Implementation**                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Optimizer**                       | Gradient-based weight updates with decoupled weight decay to improve stability on large models. | `AdamW` optimizer with `lr=2.6e-4` and default β=(0.9, 0.999); stable for transformer-like models. |
 | **Learning-Rate Schedule**          | Smooth cosine decay to avoid abrupt gradient shocks after warm-up.                              | `get_cosine_schedule_with_warmup(opt, 1000, 10000)` — warm-up = 1 k steps, total = 10 k steps.     |
@@ -158,13 +159,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Riemannian Geodesic Loss**        | Aligns feature geometry on curved manifold instead of flat Euclidean MSE.                       | Geodesic distance = `acos(cos_sim)` between normalized hidden states.                              |
 | **Model Architecture (Student)**    | Lightweight CNN + Transformer hybrid for speech sequence modeling.                              | Two 1-D Conv layers → 6 Transformer encoder blocks → linear output head.                           |
 | **Teacher Model**                   | Provides target logits and hidden features for distillation.                                    | Frozen `Whisper-large-v2` (FP16) encoder-decoder model.                                            |
-| **Data Representation**             | Converts LibriSpeech `.flac` + `.txt` pairs into log-Mel spectrograms + token IDs.              | Processed with `WhisperProcessor` (80-dim features @ 16 kHz).                                      |
-| **Training Infrastructure**         | Google Colab with TensorBoard for real-time monitoring.                                         | Logs saved under `/content/drive/MyDrive/distil_run_cell2.7.2/tb`.                                 |
-| **Checkpointing**                   | Saves model and optimizer state for resuming or evaluation.                                     | Every 200 steps: `checkpoint.pt` stored to Drive.                                                  |
-| **Parameter Efficiency**            | Only student parameters are updated; teacher frozen; LoRA omitted.                              | Compact CNN-Transformer trained directly, no redundant teacher weights.                            |
-| **Evaluation Strategy**             | Periodic validation to monitor loss convergence and feature alignment.                          | Every 200 steps, averaged validation loss logged in TensorBoard.                                   |
-| **Final Output**                    | Distilled, geometry-aligned speech encoder ready for downstream ASR tasks.                      | Saved to `/content/drive/MyDrive/distil_run_cell2.7.2/adapter_final/student_model.pt`.             |
-
 
 <br>
 
@@ -246,6 +240,7 @@ Machine Learning Fundamentals
    ssh user@ip_address         sshd (daemon listening on port 22)
 ```
 
+<br>
 
 | Protocol | Port | Purpose |
 |-----------|------|----------|
@@ -254,6 +249,7 @@ Machine Learning Fundamentals
 | FTP | 21 | File transfer |
 | **SSH** | **22** | Secure remote shell |
 
+<br>
 
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -262,9 +258,6 @@ Machine Learning Fundamentals
 | `Port Forwarding`    | ssh -L 8080:localhost:80 user@host             | Map a remote port to a local port through an encrypted tunnel |
 | Passwordless Login | Public key authentication (`~/.ssh/id_rsa.pub`)  | Automatically authenticate using key pairs                    |
 | Automation Control | Use SSH to execute commands or sync data in bulk | Common in DevOps or HPC environments                          |
-
-
-
 
 
 <br>
@@ -451,23 +444,19 @@ Execute in Environment (Robotics / Control)
 
 <br>
 
-| Topic                                           | Content                                                                                                                                                             | Focus                                                                                                                         |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Bias–Variance Trade-off**                     | Understand the decomposition of prediction error into bias², variance, and irreducible noise; analyze how model capacity and regularization (L1/L2, dropout, early stopping) govern generalization. | Derive and visualize bias–variance curves; compare polynomial regression vs. linear regression on synthetic data to quantify overfitting.                     |
-| **Loss Functions**                              | Master the mathematical formulation and gradients of MSE, Cross-Entropy, Hinge, KL-divergence, and CTC losses; relate them to likelihood maximization and task-specific objectives.                 | Construct mappings between task types (classification, ranking, sequence modeling) and optimal loss design; contrast probabilistic vs. margin-based criteria. |
-| **Optimization Fundamentals**                   | Deeply understand SGD and its momentum variants (RMSProp, Adam, AdamW); analyze convergence, stability, and implicit regularization; study learning-rate schedules and curvature effects.           | Derive update equations for each optimizer; simulate optimization trajectories on convex and non-convex surfaces to interpret convergence behavior.           |
-| **Regularization Strategies**                   | Examine explicit (L1/L2, weight decay) and implicit (dropout, data augmentation, early stopping) regularizers; interpret their influence on gradient dynamics and parameter sparsity.               | Compare gradient magnitudes under different penalties; evaluate the effect of augmentation on effective data entropy.                                         |
-| **Evaluation Metrics**                          | Formalize metrics such as Precision, Recall, F1, ROC-AUC, BLEU, and WER; understand trade-offs under class imbalance and probabilistic calibration.                                                 | Compute full confusion matrices; explore threshold tuning and visualize ROC/PR curves to interpret metric behavior.                                           |
-| **Neural Network Fundamentals**                 | Analyze forward and backward propagation through multilayer perceptrons; compute gradients via chain rule; interpret vanishing/exploding gradient phenomena.                                        | Manually derive partial derivatives for a one-hidden-layer MLP; validate gradients numerically using finite differences.                                      |
-| **Convolutional Neural Networks (CNNs)**        | Explore convolution as parameter sharing and local connectivity; examine receptive fields, stride, padding, pooling, and feature hierarchy formation.                                               | Implement a miniature convolution example by hand; compute output dimensions and receptive-field growth analytically.                                         |
-| **Recurrent / Gated Networks (RNN, LSTM, GRU)** | Model temporal dependencies and long-term gradient propagation; dissect gating mechanisms and compare architectures’ ability to mitigate vanishing gradients.                                       | Trace gradient flow across time steps; contrast SRN → LSTM → Transformer evolution in sequential modeling.                                                    |
-| **Transformer and Attention Mechanisms**        | Master Q-K-V formulation, scaled dot-product attention, multi-head operations, positional encodings, normalization layers, and their computational complexity.                                      | Derive softmax(QKᵀ / √d) attentional weighting; visualize attention maps to interpret self-attention versus convolution locality.                             |
-| **Graph Neural Networks (GNNs)**                | Understand message-passing frameworks (GCN, GAT, GraphSAGE) and hierarchical pooling; analyze how convolution generalizes to irregular domains.                                                     | Illustrate neighborhood aggregation with small graph examples; derive one-hop and multi-hop update equations.                                                 |
-| **Data Pipeline Engineering**                   | Design robust data-handling pipelines: cleaning, stratified splitting, shuffling, augmentation, and normalization while avoiding data leakage.                                                      | Build a pipeline diagram showing data flow and random-state control; test reproducibility under resampling.                                                   |
-| **Model Lifecycle Management**                  | Cover end-to-end ML workflow—training, validation, deployment, and monitoring—with emphasis on reproducibility and CI/CD integration.                                                               | Reconstruct your own project pipeline (e.g., DQLoRA) and annotate control points for data, code, and configuration versioning.                                |
-| **Debugging Machine Learning Systems**          | Identify root causes of non-convergence (poor initialization, LR instability, label noise, normalization errors); apply gradient clipping and adaptive schedulers.                                  | Perform systematic ablations varying LR and batch size; log gradient norms to detect exploding gradients.                                                     |
-| **Experiment Tracking and Reproducibility**     | Employ experiment-management frameworks for logging, checkpointing, and hyperparameter optimization; ensure deterministic training via controlled seeds.                                            | Configure a reproducible run with Weights & Biases or MLflow; record hyperparameter sweeps and validation curves.                                             |
-| **Model Deployment and Efficiency**             | Implement post-training compression—quantization, pruning, distillation, LoRA adapters—for low-resource inference; design efficient serving pipelines.                                              | Benchmark inference latency and memory footprint on constrained hardware; reproduce deployment from your hearing-aid ASR system.                              |
+| Function | Formula | Derivative | Core Idea | Usage / Notes |
+|-----------|----------|-------------|------------|----------------|
+| **Sigmoid** | $$f(x) = \frac{1}{1 + e^{-x}}$$ | $$f'(x) = f(x)\,[1 - f(x)]$$ | Smooth bounded mapping (0, 1) | Common in probabilistic outputs |
+| **Tanh** | $$f(x) = \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$ | $$f'(x) = 1 - f(x)^2$$ | Zero-centered output | Improves symmetry over Sigmoid |
+| **ReLU** | $$f(x) = \max(0,\,x)$$ | $$f'(x)=\begin{cases}1,&x>0\\0,&x\le0\end{cases}$$ | Sparse and efficient | Fast convergence, stable training |
+| **Leaky ReLU** | $$f(x)=\max(\alpha x,\,x)$$ | piecewise constant | Avoids dead neurons | Small negative slope for x < 0 |
+| **Swish / SiLU** | $$f(x)=x\,\sigma(x),\ \sigma(x)=\frac{1}{1+e^{-x}}$$ | $$f'(x)=\sigma(x)+x\,\sigma(x)[1-\sigma(x)]$$ | Smooth, self-gated ReLU | Used in Google EfficientNet |
+| **Mish** | $$f(x)=x\,\tanh(\ln(1+e^x))$$ | smooth | Non-monotonic, better gradient flow | Used in YOLOv4, ResNet variants |
+| **GELU** | $$f(x)=x\,\Phi(x),\ \Phi(x)\text{: Gaussian CDF}$$ | smooth | Probabilistic gating | Default in Transformers (BERT, GPT) |
+| **JumpReLU (DeepMind)** | $$f(x)=\max(0,\,x-j),\ j\text{ learned}$$ | piecewise constant | Learnable sparsity threshold | Used in Sparse Autoencoders for interpretability |
+| **Softmax** | $$f_i(x)=\frac{e^{x_i}}{\sum_j e^{x_j}}$$ | — | Converts logits → probabilities | Standard output for classification |
+
+
 
 
 <br>
