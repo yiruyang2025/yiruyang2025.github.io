@@ -142,7 +142,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 <br>
 
 
-## Post-Training Optimization - In Latent Space
+## Optimization
 
 | **Component / Technique**           | **Description**                                                                                 | **Implementation in Your Training**                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -1262,47 +1262,6 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
-## References
-
-  - [UK Biobank](https://www.ukbiobank.ac.uk/)
-  - [SCAI](https://scai.ethz.ch/)
-  - [2025 - MC-MED](https://github.com/dkimlab/MCMED)
-  - Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
-
-<br>
-
-
-## End-to-End Real-World Data Flow
-
-```
-Hospital CT / MRI
-        ↓
-
-DICOM (raw slices + metadata)
-        ↓ Segmentation + Reconstruction
-
-Surface Mesh (OBJ / STL / PLY / VTK)
-        ↓ Projection
-
-2D SVG (interactive) / PNG (static)
-        ↓ Annotation
-
-Surgeon marks points / lines on SVG
-        ↓ Mapping
-
-Handles mapped back to 3D mesh
-        ↓ Deformation
-
-FastAPI /deform → ARAP deformation applied
-        ↓ Visualization
-
-Updated 3D mesh rendered in LiverViewer (three.js)
-        ↓ Export
-
-Surgical plan → PDF / PNG / QR for clinical workflow
-```
-
-<br>
 
 ## Temporal Alignment Leakage
 
@@ -1325,7 +1284,6 @@ Surgical plan → PDF / PNG / QR for clinical workflow
 ```
 
 
-<br>
 
 | Method              | Memory Usage                    | Training Speed                    |
 | ------------------- | ------------------------------- | --------------------------------- |
