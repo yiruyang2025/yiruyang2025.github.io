@@ -23,25 +23,17 @@ related_publications: true
 
 ## Computational Robotics - Medical / Space
 
-  - [2025 - Visual Perception Engine](https://github.com/nasa-jpl/visual-perception-engine)
-
-  - [2025 - Visual Perception Engine: Fast and Flexible Multi-Head Inference for Robotic Vision Tasks](https://arxiv.org/abs/2508.11584)
-
-
-  - [📍 2025 - Space Science and Technology](https://eaps.ethz.ch/en/research/institutes/geophysics/space-science-technology.html)
+- [2025 - Visual Perception Engine](https://github.com/nasa-jpl/visual-perception-engine)
+- [2025 - Visual Perception Engine: Fast and Flexible Multi-Head Inference for Robotic Vision Tasks](https://arxiv.org/abs/2508.11584)
+- [📍 2025 - Space Science and Technology](https://eaps.ethz.ch/en/research/institutes/geophysics/space-science-technology.html)
 
 <br>
 
 - [Computational Robotics Lab](https://crl.ethz.ch/)
-
 - [Automatic Control Lab](https://control.ee.ethz.ch/)
-
 - [Autonomous Systems Lab](https://www.iris.ethz.ch/the-institute/autonomous-systems-lab.html)
-
 - [Terensis - The next gen agriculture intelligence platform](https://www.terensis.io/)
-
 - [Soft Robotics](https://mitpress.mit.edu/9780262049740/soft-robotics/)
-
 - [Aria Data Provider](https://github.com/facebookresearch/projectaria_tools)
 
 
@@ -50,7 +42,7 @@ related_publications: true
 
 ## Geometric Shape Modeling
 
-[📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [📍 Fabricaible](https://www.fabricaible.com/)
+- [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [📍 Fabricaible](https://www.fabricaible.com/)
 
 
 <p align="left">
@@ -133,20 +125,11 @@ Regularization Terms
 ## References
 
 
-[2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
-
-
-[2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
-
-
-
-[2022 - Enhancing computational fluid dynamics with machine learning](https://www.nature.com/articles/s43588-022-00264-7)
-
-
-[2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
-
-
-[2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
+- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
+- [2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
+- [2022 - Enhancing computational fluid dynamics with machine learning](https://www.nature.com/articles/s43588-022-00264-7)
+- [2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
+- [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
 <br>
@@ -154,19 +137,53 @@ Regularization Terms
 
 ## References / Reading List - Shape Modeling
 
-[Polyscope - Toolkit for demos](https://polyscope.run/py/)
+- [Polyscope - Toolkit for demos](https://polyscope.run/py/)
+- [SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
+- [2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
+- [2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
+- [2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
+
+<br>
+
+- [UK Biobank](https://www.ukbiobank.ac.uk/)
+- [SCAI](https://scai.ethz.ch/)
+- [2025 - MC-MED](https://github.com/dkimlab/MCMED)
+- Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
+
+<br>
 
 
-[SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
+## End-to-End Real-World Data Flow
 
+```
+Hospital CT / MRI
+        ↓
 
-[2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
+DICOM (raw slices + metadata)
+        ↓ Segmentation + Reconstruction
 
-[2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
+Surface Mesh (OBJ / STL / PLY / VTK)
+        ↓ Projection
 
+2D SVG (interactive) / PNG (static)
+        ↓ Annotation
 
-[2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
+Surgeon marks points / lines on SVG
+        ↓ Mapping
 
+Handles mapped back to 3D mesh
+        ↓ Deformation
+
+FastAPI /deform → ARAP deformation applied
+        ↓ Visualization
+
+Updated 3D mesh rendered in LiverViewer (three.js)
+        ↓ Export
+
+Surgical plan → PDF / PNG / QR for clinical workflow
+```
+
+<br>
 
 
 <br><br><br>
