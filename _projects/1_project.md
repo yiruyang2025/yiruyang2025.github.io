@@ -44,6 +44,18 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+## CNN
+
+| Model | Mathematical Expression | Preserves Spatial Structure | Parameter Scale | Learning Pattern |
+|--------|--------------------------|------------------------------|------------------|------------------|
+| **FCN** | $$y = f(Wx + b)$$ | No (input flattened) | $$O(H \times W \times C \times N)$$ | No spatial prior |
+| **2D CNN** | $$y_{i,j,c} = f\!\left(\sum_{m=1}^{k_h}\sum_{n=1}^{k_w}\sum_{c'=1}^{C_{in}} K_{m,n,c',c}\,X_{i+m-1,j+n-1,c'} + b_c\right)$$ | Yes (2D structured input) | $$O(k_h \times k_w \times C_{in} \times C_{out})$$ | Local spatial feature learning |
+| **3D CNN** | $$y_{i,j,k,c} = f\!\left(\sum_{m=1}^{k_h}\sum_{n=1}^{k_w}\sum_{p=1}^{k_d}\sum_{c'=1}^{C_{in}} K_{m,n,p,c',c}\,X_{i+m-1,j+n-1,k+p-1,c'} + b_c\right)$$ | Yes (3D volumetric input) | $$O(k_h \times k_w \times k_d \times C_{in} \times C_{out})$$ | Spatiotemporal or volumetric feature learning |
+| **4D CNN** | $$y_{i,j,k,l,c} = f\!\left(\sum_{m=1}^{k_h}\sum_{n=1}^{k_w}\sum_{p=1}^{k_d}\sum_{q=1}^{k_t}\sum_{c'=1}^{C_{in}} K_{m,n,p,q,c',c}\,X_{i+m-1,j+n-1,k+p-1,l+q-1,c'} + b_c\right)$$ | Yes (4D spatiotemporal or dynamic-geometry input) | $$O(k_h \times k_w \times k_d \times k_t \times C_{in} \times C_{out})$$ | Dynamic 4D pattern or motion-field learning |
+
+
+<br>
+
 ## Optimal Method as Below with Hash Value
 
 | Problem                       | Original Complexity | Optimal Complexity | Optimal Method                 | Further Optimization      |
@@ -510,12 +522,6 @@ Underfitting:     Overfitting:        Good Embedding:
 
 
 ## CNN
-
-| Model | Mathematical Expression | Preserves Spatial Structure | Parameter Scale | Learning Pattern |
-|--------|--------------------------|------------------------------|------------------|------------------|
-| **FCN** | $$y = f(Wx + b)$$ | No (input flattened) | $$O(H \times W \times C \times N)$$ | No spatial prior |
-| **CNN** | $$y_{i,j} = f\big((K * X)_{i,j} + b\big)$$ | Yes (2D structured input) | $$O(k_h \times k_w \times C_{in} \times C_{out})$$ | Local pattern learning |
-
 
 ```
 [Input  D×E  (image or signal)]
