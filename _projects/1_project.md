@@ -44,20 +44,11 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-## CNN
-
-| Model | Mathematical Expression | Preserves Spatial Structure | Parameter Scale | Learning Pattern |
-|--------|--------------------------|------------------------------|------------------|------------------|
-| **FCN** | $$y = f(Wx + b)$$ | No (input flattened) | $$O(H \times W \times C \times N)$$ | No spatial prior |
-| **2D CNN** | $$y_{i,j,c} = f\!\left(\sum_{m=1}^{k_h}\sum_{n=1}^{k_w}\sum_{c'=1}^{C_{in}} K_{m,n,c',c}\,X_{i+m-1,j+n-1,c'} + b_c\right)$$ | Yes (2D structured input) | $$O(k_h \times k_w \times C_{in} \times C_{out})$$ | Local spatial feature learning |
-| **3D CNN** | $$y_{i,j,k,c} = f\!\left(\sum_{m=1}^{k_h}\sum_{n=1}^{k_w}\sum_{p=1}^{k_d}\sum_{c'=1}^{C_{in}} K_{m,n,p,c',c}\,X_{i+m-1,j+n-1,k+p-1,c'} + b_c\right)$$ | Yes (3D volumetric input) | $$O(k_h \times k_w \times k_d \times C_{in} \times C_{out})$$ | Spatiotemporal or volumetric feature learning |
-
-<br>
 
 ## Backpropagation
 
 
-| Stage | Operation | Mathematical Expression | Meaning |
+| Stage | Operation | Expression | Meaning |
 |--------|------------|--------------------------|----------|
 | **Forward Pass** | Compute layer outputs | $$ z^{(l)} = W^{(l)} a^{(l-1)} + b^{(l)}, \quad a^{(l)} = f(z^{(l)}) $$ | Obtain network predictions |
 | **Compute Loss** | Compute error | $$ L = \tfrac{1}{2}\|\hat{y} - y\|^2 $$ | Measure output error |
