@@ -511,6 +511,12 @@ Underfitting:     Overfitting:        Good Embedding:
 
 ## CNN
 
+| Model | Mathematical Expression | Preserves Spatial Structure | Parameter Scale | Learning Pattern |
+|--------|--------------------------|------------------------------|------------------|------------------|
+| **FCN** | $$y = f(Wx + b)$$ | No (input flattened) | $$O(H \times W \times C \times N)$$ | No spatial prior |
+| **CNN** | $$y_{i,j} = f\big((K * X)_{i,j} + b\big)$$ | Yes (2D structured input) | $$O(k_h \times k_w \times C_{in} \times C_{out})$$ | Local pattern learning |
+
+
 ```
 [Input  D×E  (image or signal)]
       │
