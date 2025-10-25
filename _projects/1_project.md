@@ -245,7 +245,6 @@ Machine Learning Fundamentals
    ssh user@ip_address         sshd (daemon listening on port 22)
 ```
 
-<br>
 
 | Protocol | Port | Purpose |
 |-----------|------|----------|
@@ -254,8 +253,6 @@ Machine Learning Fundamentals
 | FTP | 21 | File transfer |
 | **SSH** | **22** | Secure remote shell |
 
-
-<br>
 
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -276,7 +273,7 @@ Machine Learning Fundamentals
 | Era | Optimizer | Year | Core Innovation | Key Equation / Concept | Limitation Solved | Remarks |
 |-----|------------|------|-----------------|------------------------|------------------|----------|
 | **Classical GD** | **Gradient Descent (GD)** | 1951 | Update weights along the negative gradient direction | $$ w_{t+1} = w_t - \eta \nabla L(w_t) $$ | None (too simple) | Foundation of all optimizers |
-|  | **Stochastic Gradient Descent (SGD)** | 1983 | Uses random mini-batches to improve efficiency | $$ \nabla L(w_t) \approx \frac{1}{|B|}\sum_{i \in B}\nabla L_i(w_t) $$ | High variance and slow convergence | Enables online / large-scale learning |
+|  | **Stochastic Gradient Descent (SGD)** | 1983 | Uses random mini-batches to improve efficiency | $$ \nabla L(w_t) \approx \frac{1}{\lvert B \rvert} \sum_{i \in B} \nabla L_i(w_t) $$ | High variance and slow convergence | Enables online / large-scale learning |
 | **Momentum Era** | **SGD + Momentum** | 1989 | Adds velocity term to accumulate past gradients | $$ v_t = \beta v_{t-1} + (1-\beta)\nabla L(w_t), \quad w_{t+1} = w_t - \eta v_t $$ | Oscillations in narrow valleys | Faster convergence, physics-inspired |
 |  | **Nesterov Accelerated Gradient (NAG)** | 1991 | Looks ahead using gradient of estimated future position | $$ v_t = \beta v_{t-1} + (1-\beta)\nabla L(w_t - \eta \beta v_{t-1}) $$ | Overshooting in Momentum | Smoother convergence and stability |
 | **Adaptive Learning** | **Adagrad** | 2011 | Per-parameter adaptive learning rate | $$ G_t = \sum_{\tau=1}^{t} g_\tau^2, \quad \eta_{t,i} = \frac{\eta}{\sqrt{G_{t,i}}+\epsilon} $$ | Manual learning rate tuning | Excellent for sparse features (NLP) |
