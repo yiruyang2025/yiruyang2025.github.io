@@ -230,12 +230,34 @@ In practice, "Deep" means:
 
 
 
-<br><br>
+<br>
+
+## Supervised and Unsupervised Learning
+
+
+<br>
+
+<p align="left">
+  <img src="/assets/img/deep_2.jpg" alt="Knowledge Map" width="75%">
+</p>
+
+<br>
+
+<p align="left">
+  <img src="/assets/img/deep_3.jpg" alt="Knowledge Map" width="75%">
+</p>
+
+<br>
+
+
 
 
 ## Some References
 
 - [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
+
+
+<br><br>
 
 
 <br><br>
