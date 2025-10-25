@@ -348,85 +348,85 @@ Outputs (Direct Prediction)
 
 ## Why Squared (L2) Loss
 
-### 1. Mathematical Reason  
-Squaring makes the error smooth, continuous, and differentiable, which is required for gradient-based optimization
+### 1. Mathematical
 
-We update parameters using gradient descent:
+- Squaring makes the error smooth, continuous, and differentiable, which is required for gradient-based optimization
+
+- We update parameters using gradient descent:
 
 $$
 \hat{a}_{k+1} = \hat{a}_k - \gamma \nabla L(\hat{a}_k)
 $$
 
-To perform this optimization, the loss \(L\) must be differentiable with respect to \(\hat{a}\)
+- To perform this optimization, the loss \(L\) must be differentiable with respect to \(\hat{a}\)
 
-Define the loss function as:
+- Define the loss function as:
 
 $$
 L = \| e \|^2 = e^\top e = \sum_i (b_i - F_i(\hat{a}))^2
 $$
 
-Then, the gradient is:
+- Then, the gradient is:
 
 $$
 \nabla_{\hat{a}} L = -2 J_F(\hat{a})^\top (b - F(\hat{a}))
 $$
 
-This ensures, 
-- Continuous and smooth gradient direction  
-- Analytical update expression  
-- Compatibility with automatic differentiation (autodiff)
+- This ensures, 
+  - Continuous and smooth gradient direction  
+  - Analytical update expression  
+  - Compatibility with automatic differentiation (autodiff)
 
-If instead we used the absolute error (L1 norm):
+- If instead we used the absolute error (L1 norm):
 
 $$
 L = \| e \| = \sum_i |b_i - F_i(\hat{a})|
 $$
 
-the gradient would be non-continuous at \(e = 0\), causing oscillation or instability during optimization.
+- the gradient would be non-continuous at \(e = 0\), causing oscillation or instability during optimization.
 
 <br>
 
 ### 2. Statistical
-The squared loss corresponds to assuming Gaussian noise in the measurements
 
-Assume the observation model:
+- The squared loss corresponds to assuming Gaussian noise in the measurements
+
+- Assume the observation model:
 
 $$
 b = F(\hat{a}) + \epsilon, \quad \epsilon \sim \mathcal{N}(0, \sigma^2 I)
 $$
 
-Then the likelihood function is:
+- Then the likelihood function is:
 
 $$
 p(b \mid \hat{a}) = \frac{1}{Z} \exp\!\left(-\frac{1}{2\sigma^2}\| b - F(\hat{a}) \|^2\right)
 $$
 
-Taking the negative log-likelihood (Maximum Likelihood Estimation):
+- Taking the negative log-likelihood (Maximum Likelihood Estimation):
 
 $$
 -\log p(b \mid \hat{a}) = \frac{1}{2\sigma^2}\| b - F(\hat{a}) \|^2 + \text{const.}
 $$
 
-Thus minimizing the squared loss is equivalent to Maximum Likelihood Estimation (MLE) under Gaussian noise
+- Thus minimizing the squared loss is equivalent to Maximum Likelihood Estimation (MLE) under Gaussian noise
 
 
 <br>
 
 ### 3. Optimization
 
-The squared loss amplifies large errors and stabilizes convergence
+- The squared loss amplifies large errors and stabilizes convergence
 
-Large residuals receive stronger penalties:
+- Large residuals receive stronger penalties:
 
 $$
 L = (b - F(\hat{a}))^2
 $$
 
-Hence,
-- Large errors are corrected faster (rapid early convergence)  
-- Small errors yield smaller gradients (smooth late convergence)
-
-
+- Hence,
+  - Large errors are corrected faster (rapid early convergence)  
+  - Small errors yield smaller gradients (smooth late convergence)
 
 <br>
 
