@@ -162,10 +162,11 @@ $$
 | Property | Standard NN | Neural Differential Equation |
 |-----------|--------------|-------------------------------|
 | Structure | Discrete layers | Continuous dynamics |
-| Forward pass | \( h_{k+1} = f_\theta(h_k) \) | \( \frac{dh}{dt} = f_\theta(h,t) \) |
+| Forward pass | $h_{k+1} = f_\theta(h_k)$ | $\frac{dh}{dt} = f_\theta(h,t)$ |
 | Depth | Fixed | Continuous |
 | Backpropagation | Chain rule | Adjoint sensitivity method |
 | Interpretation | Layer mapping | Continuous-time dynamical system |
+
 
 ### 3. Training via the Adjoint Method  
 
