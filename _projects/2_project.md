@@ -64,6 +64,21 @@ related_publications: true
 
 <br>
 
+## Random Matrices
+
+- Eigenvalues of large random matrices are statistically distributed across different systems
+
+### Wigner’s Semicircle Law
+
+- $\rho(\lambda) = \frac{1}{2\pi\sigma^{2}} \sqrt{4\sigma^{2} - \lambda^{2}}, \quad |\lambda| < 2\sigma$
+
+### Marčenko–Pastur Law
+
+- $\rho(\lambda) = \frac{1}{2\pi\sigma^{2} c \lambda} \sqrt{(\lambda_{+} - \lambda)(\lambda - \lambda_{-})}, \quad \lambda_{\pm} = \sigma^{2}(1 \pm \sqrt{c})^{2}$
+
+
+<br>
+
 
 ## Benchmarks and SOTAs
 
