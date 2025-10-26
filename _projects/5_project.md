@@ -61,6 +61,9 @@ related_publications: true
 
 <br>
 
+
+- In the brain connectivity matrix, random matrix theory helps us identify which connectivity patterns are `functional (signal)` and which are just random noise (noise)
+
 ```
 ┌─────────────────────────────────┐
 │  Chemistry Simulation (DFT, QM) │ ← Microscopic Level
