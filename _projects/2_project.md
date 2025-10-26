@@ -64,7 +64,7 @@ related_publications: true
 
 <br>
 
-## Random Matrices
+## Random Matrix Theory, RMT
 
 - Eigenvalues of large random matrices are statistically distributed across different systems
 
