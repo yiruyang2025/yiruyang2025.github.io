@@ -64,13 +64,13 @@ related_publications: true
 
 <br>
 
-## Random Matrix Theory, RMT
+## Random Matrix
 
 - Eigenvalues of large random matrices are statistically distributed across different systems
 
 ### Wigner’s Semicircle Law
 
-- $\rho(\lambda) = \frac{1}{2\pi\sigma^{2}} \sqrt{4\sigma^{2} - \lambda^{2}}, \quad |\lambda| < 2\sigma$
+- <p>ρ(λ) = (1 / 2πσ²) √(4σ² − λ²), |λ| &lt; 2σ</p>
 
 ### Marčenko–Pastur Law
 
