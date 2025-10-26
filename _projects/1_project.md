@@ -417,7 +417,7 @@ Collect Trajectory τ = {s_t, a_t, r_t}
 
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project1_6.jpg" alt="Project 1 Visualization" width="75%">
+  <img src="https://github.com/egelerj/SUMO2UEBridge/blob/main/assets/pic1.png" alt="Project 1 Visualization" width="75%">
 </p>
 
 
