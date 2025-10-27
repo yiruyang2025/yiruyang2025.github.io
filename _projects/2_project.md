@@ -59,7 +59,8 @@ related_publications: true
   - StreamSplat: A Framework for Self-Supervised, Online Novel View Synthesis
     -  Friday Oct 10th, 15:00-15:30 Zurich Time
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
-  - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 October 2025, 4:45 p.m, HIL D 53, Hönggerberg
+  - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 Oct 2025, 4:45 p.m, HIL D 53, Hönggerberg
+  - ReSplat, 27 Oct 2025
 
 
 <br>
