@@ -53,13 +53,15 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
+[Physically Based Simulation in Computer Graphics] (Blender, Unreal, 25)
+
 [CardioAI](https://www.linkedin.com/showcase/cardioai/)
 
 [Drug efficacy and pathway assessment in Brain Cancer](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/CancerBiology.html)
 
 Medical AI / Health Tech
 
-(*Large-Scale AI Engineering, GH200, 25)
+(*Large-Scale AI Engineering, 25)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
