@@ -28,7 +28,9 @@ latest_posts:
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - Programming - `Python`, Node.js, (C++), PyTorch, `TPU / GPU parallel Training`, TensorFlow, Jax
 
+
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [Orgo.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
+
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Latent Space, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [Balgrist](https://www.balgrist.ch/en/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Multiview 4D Reconstruction` / Connectomics, UZH AI, [CVG](https://cvg.ethz.ch/)
