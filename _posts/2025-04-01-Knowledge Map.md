@@ -53,7 +53,7 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
 
-[Physically Based Simulation in Computer Graphics] (Blender, Unreal, 25)
+[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (Blender, Unreal, 25)
 
 [CardioAI](https://www.linkedin.com/showcase/cardioai/)
 
