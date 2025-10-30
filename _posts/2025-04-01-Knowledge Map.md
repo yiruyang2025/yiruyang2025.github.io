@@ -55,6 +55,8 @@ Shape Modeling and Geometry Processing (C++, 25)
 
 [Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (Blender, Unreal, 25)
 
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/#about) (26)
+
 CardioAI
 
 Drug efficacy and pathway assessment in Brain Cancer
