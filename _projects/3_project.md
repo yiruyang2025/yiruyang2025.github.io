@@ -8,8 +8,6 @@ category: work
 related_publications: true
 ---
 
-<br>
-
 
 ## Some Cute Things
 
@@ -81,14 +79,11 @@ Regularization Terms
 [1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
 
   - Training data: Use edge collapse to compress the high-precision mesh into different levels
-
   - Generation process: Use a generative model to learn the inverse operation—vertex splitting
-
   - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
 
 
 [2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
-
 
 <br>
 
@@ -142,47 +137,12 @@ Regularization Terms
 - [2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
 - [2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
 
-<br>
 
 - [UK Biobank](https://www.ukbiobank.ac.uk/)
 - [SCAI](https://scai.ethz.ch/)
 - [2025 - MC-MED](https://github.com/dkimlab/MCMED)
 - Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
 
-<br>
-
-
-## End-to-End Real-World Data Flow
-
-```
-Hospital CT / MRI
-        ↓
-
-DICOM (raw slices + metadata)
-        ↓ Segmentation + Reconstruction
-
-Surface Mesh (OBJ / STL / PLY / VTK)
-        ↓ Projection
-
-2D SVG (interactive) / PNG (static)
-        ↓ Annotation
-
-Surgeon marks points / lines on SVG
-        ↓ Mapping
-
-Handles mapped back to 3D mesh
-        ↓ Deformation
-
-FastAPI /deform → ARAP deformation applied
-        ↓ Visualization
-
-Updated 3D mesh rendered in LiverViewer (three.js)
-        ↓ Export
-
-Surgical plan → PDF / PNG / QR for clinical workflow
-```
-
-<br>
 
 
 <br><br><br>
