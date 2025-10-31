@@ -13,17 +13,12 @@ images:
 ---
 
 
-Welcome to story time<br><br>
-
-
 # Topics
 
 <br>
 
 ## 1. Global Proverty Research
-
-
-[2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
+  - [2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
 
 
 <br><br><br>
@@ -31,7 +26,9 @@ Welcome to story time<br><br>
 
 ## 2. Child Welfare
 
-[2025 - Effect of multi-disciplinary deliberation on perceptions of risk and recommended actions in response to child abuse](https://www.sciencedirect.com/science/article/pii/S0190740925004190?via%3Dihub)
+  - [2025 - Effect of multi-disciplinary deliberation on perceptions of risk and recommended actions in response to child abuse](https://www.sciencedirect.com/science/article/pii/S0190740925004190?via%3Dihub)
+
+
 
 <br><br>
 
