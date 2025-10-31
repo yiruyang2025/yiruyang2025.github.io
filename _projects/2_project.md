@@ -100,7 +100,7 @@ related_publications: true
 
 ## Key Contributions
 
-- A FFN for 4d Construction, neat and simple pipeline
+- 
 
 
 ```
