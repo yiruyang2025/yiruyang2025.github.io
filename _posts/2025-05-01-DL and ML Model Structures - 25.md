@@ -86,12 +86,9 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 
 ## Why Deep Structure
 
-<br>
 
   - Compared with the original machine learning models:
-
   - **Linear Regression / SVM / Shallow Decision Trees**
- 
   - Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
 
 <br>
@@ -111,7 +108,7 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 
 
 
-These deep models are capable of **Learning Hierarchical Features**, where each layer captures increasingly abstract representations of the data.
+  - These deep models are capable of **Learning Hierarchical Features**, where each layer captures increasingly abstract representations of the data.
 
 <br>
 
@@ -127,9 +124,7 @@ These deep models are capable of **Learning Hierarchical Features**, where each 
 In practice, "Deep" means:
 
 - More than 3–4 layers in fully connected networks
-
 - 10+ layers in convolutional networks
-
 - Or even hundreds of layers in modern transformers like GPT and BERT
 
 
@@ -138,7 +133,6 @@ In practice, "Deep" means:
 
 ## Key Structures
 
-<br>
 
 - **MLP**
   - Multilayer Perceptron
@@ -254,7 +248,8 @@ In practice, "Deep" means:
   <img src="/assets/img/deep_4.jpg" alt="Knowledge Map" width="75%">
 </p>
 
-<br>
+<br><br>
+
 
 
 ## Some References
