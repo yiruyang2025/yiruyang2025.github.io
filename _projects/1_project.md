@@ -139,7 +139,29 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 └── IV. Problem Integration
     ├── Hard composite problems
     ├── Algorithm design questions
+
+┌─────────────────────────┐
+│   Algorithmic Thinking  │
+└─────────────────────────┘
+              │
+              ▼
+┌───────────────────────────────┐
+│   Problem-Solving Paradigms   │
+└───────────────────────────────┘
+      │            │             │             │               │
+      ▼            ▼             ▼             ▼               ▼
+ Backtracking  Divide & Conquer  Dynamic Programming  Graph / Tree Search  Greedy / Sliding Window
+      │              │                   │                   │                   │
+      ▼              ▼                   ▼                   ▼                   ▼
+ Generate & Prune   Binary Search     Substructure        Traversal          Local Optimization
+  (search tree)      (partition)        (overlap)          (BFS / DFS)         (two pointers)
+
 ```
+
+
+
+
+
 
 <br>
 
