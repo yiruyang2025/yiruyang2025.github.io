@@ -24,7 +24,6 @@ images:
 
 # 1. 2025 - 2026
 
-<br>
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
@@ -36,54 +35,33 @@ images:
 - [Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
-
-<br><br>
+<br>
 
 ## Relevant Coursework
 
 <br>
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
-
 [3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
-
 [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
-
 Shape Modeling and Geometry Processing (C++, 25)
-
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
-
-[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (Blender, Unreal, 25)
-
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/#about) (26)
-
+[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (Blender, Unreal 5.6, 25)
 CardioAI
-
 Drug efficacy and pathway assessment in Brain Cancer
-
 Medical AI / Health Tech
-
 (*Large-Scale AI Engineering, 25)
-
 (Vision Algorithms for Mobile Robotics (L+E))
-
 Systems on Chips (Cuda, HPC, 25)
-
 Graph Theory
-
 (Lie Group and Riemannian Geometry)
-
 (Information Geometry)
-
 (Discrete Differential Geometry)
-
 (Real Analysis)
 
 <br><br>
 
 ## Model Structures
-
-<br>
 
 - [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/DL-and-ML-Model-Structures-25/)
 
@@ -99,30 +77,27 @@ Graph Theory
   - Distillation (transfer knowledge)
   - Pruning (delete redundant structure)
 
-<br>
 
 ❄️ **Representation Learning**
   - Self-Supervised Learning - SSL
 
-<br>
 
 ❄️ **Model Manipulation**
   - Model Editing
   - Model Merging
 
-<br>
 
 ❄️ **Generalization**
   - Few-shot Learning
   - Zero-shot Learning
 
 
-<br><br><br>
+<br><br>
 
 
 # Check List
 
-- [x] Reading, Oxygen, Fruits no sugar, and Protein
+- [x] Reading, Oxygen, Fruits no sugar, Protein
   - [x] Chatting
   - [x] Water
 - [x] Take a Walk
