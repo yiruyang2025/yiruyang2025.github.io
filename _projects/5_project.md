@@ -16,8 +16,7 @@ related_publications: true
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
 
   
-  - [Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/)
-  - [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
+  - [Physiology or Medicine](https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/), [Physics](https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/)
   - [2025 - 12](https://www.uzh.ch/en/researchinnovation/excellence/nobelprize.html), [2025 - 22](https://ethz.ch/en/the-eth-zurich/portrait/awards/nobel-prize-laureates.html)
 
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
