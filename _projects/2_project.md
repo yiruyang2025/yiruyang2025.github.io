@@ -102,7 +102,6 @@ related_publications: true
 
 - 
 
-
 ```
 [2000s] Classical 2D Stitching
    - Euclidean / Affine / Homography
