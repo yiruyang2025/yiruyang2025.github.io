@@ -19,7 +19,10 @@ related_publications: true
 
 
 
-## Computational Robotics - Medical / Space
+## Computational Robotics - Space
+
+
+- [Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html)
 
 - [2025 - Visual Perception Engine](https://github.com/nasa-jpl/visual-perception-engine)
 - [2025 - Visual Perception Engine: Fast and Flexible Multi-Head Inference for Robotic Vision Tasks](https://arxiv.org/abs/2508.11584)
