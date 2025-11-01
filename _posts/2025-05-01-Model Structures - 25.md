@@ -230,7 +230,7 @@ In practice, "Deep" means:
 
 
 <p align="left">
-  <img src="/assets/img/deep_5.jpg" alt="Knowledge Map" width="75%">
+  <img src="/assets/img/deep_5.jpg" alt="Knowledge Map" width="50%">
 </p>
 
 
