@@ -34,7 +34,7 @@ images:
 <br>
 
 ```
-Deep Learning World                            Classical ML World
+Deep Learning World                             Classical ML World
 ═══════════════════════════════════             ════════════════════════════════════
 Raw Data → Multi-layer Network →                Handcrafted Features → Shallow Model →
 Learn Representations → Optimize by Gradient    Manual Design → Limited Adaptability
