@@ -397,7 +397,6 @@ intermediate = 0.1 * student_probs + 0.9 * teacher_probs
 
 ## RL On Diffusion
 
-
 I. Base Diffusion Backbone (Generative Prior)
 ```
 Input (x₀ = real data sample: image, trajectory, audio, 3D scene)
@@ -416,7 +415,6 @@ x_{t−1} = (x_t − √(1−α_t)·ε_θ(x_t, t, cond)) / √α_t + η·σ_t
 UNet / Transformer backbone → learns to reconstruct x₀
 ```
 
-<br>
 
 II. Policy Representation via Diffusion
 
@@ -434,15 +432,10 @@ Execute Action in Environment → Receive Reward r_t
 Collect Trajectory τ = {s_t, a_t, r_t}
 ```
 
-<br>
-
-
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project1_6.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
-
-<br>
 
 IV. Reward-Guided Diffusion Training (Diffusion Policy Optimization)
 
@@ -477,8 +470,6 @@ Clean Action Sequence (Optimal Trajectory)
 Execute in Environment (Robotics / Control)
 ```
 
-
-<br>
 
 | Function | Formula | Derivative | Core Idea | Usage / Notes |
 |-----------|----------|-------------|------------|----------------|
