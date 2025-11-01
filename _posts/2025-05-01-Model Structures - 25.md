@@ -234,7 +234,7 @@ In practice, "Deep" means:
 </p>
 
 
-### 1. What is Gradient Noise
+## 1. What is Gradient Noise
 
 
 
@@ -247,36 +247,44 @@ In practice, "Deep" means:
 | Communication noise (multi-GPU) | Random order of all-reduce operations causes slight variations in summed gradients.                  |
 | Regularization noise            | Dropout and mixed-precision scaling introduce artificial randomness.                                 |
 
+<br>
+
 $$
 \nabla L(\theta) = \frac{\partial L}{\partial \theta}
 $$
-| Compute the exact gradient of the loss function (ideal case)
+
+  - Compute the exact gradient of the loss function (ideal case)
 
 $$
 \tilde{\nabla} L(\theta) = \nabla L(\theta) + \varepsilon
 $$
-| Represent the noisy gradient observed in practice (with noise term \( \varepsilon \))
+
+  - Represent the noisy gradient observed in practice (with noise term \( \varepsilon \))
 
 
 <br>
 
-### 2. Why Gradient Noise is Especially Large in RL
+## 2. Why Gradient Noise is Especially Large in RL
 
 $$
 J(\theta) = \mathbb{E}_{\tau \sim \pi_\theta}[R(\tau)]
 $$
-| Expected future reward objective in reinforcement learning
+
+  - Expected future reward objective in reinforcement learning
 
 $$
 \nabla_\theta J(\theta) = \mathbb{E}_{\tau} \left[ \nabla_\theta \log \pi_\theta(a_t \mid s_t) \cdot R(\tau) \right]
 $$
-| Policy gradient estimating how parameters affect expected reward
+
+
+  - Policy gradient estimating how parameters affect expected reward
+
 
 $$
 Var(\nabla_\theta J) = Var\left(R \cdot \nabla_\theta \log \pi_\theta \right)
 $$
-| High variance of rewards and log-probabilities amplifies gradient noise
 
+  - High variance of rewards and log-probabilities amplifies gradient noise
 
 
 <br>
