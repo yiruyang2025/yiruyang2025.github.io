@@ -234,9 +234,9 @@ In practice, "Deep" means:
 </p>
 
 
+<br>
+
 ## 1. What is Gradient Noise
-
-
 
 
 | Source                          | Explanation                                                                                          |
