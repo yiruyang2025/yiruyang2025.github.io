@@ -359,7 +359,7 @@ Student (<Structure-free> Student from the teacher + LoRA adapters)
         ↓
    Optimizer (AdamW + Cosine LR)
         ↓
-  LoRA Adapter Checkpoint (Google Drive)
+  LoRA Adapter Checkpoint
         ↓
 Evaluation (WER / RTF / Memory)
 
