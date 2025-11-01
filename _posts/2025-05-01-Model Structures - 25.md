@@ -254,7 +254,6 @@ In practice, "Deep" means:
 
 ## Some References
 
-- [2014 Deeply-Supervised Nets](https://proceedings.mlr.press/v38/lee15a.html)
 
 
 <br><br>
