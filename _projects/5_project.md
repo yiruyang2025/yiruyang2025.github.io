@@ -27,7 +27,7 @@ related_publications: true
 ## Attended Lectures
 
   - [27-Nov-2025, 17:00, lecture hall ETH G3 (HCI)](https://www.linkedin.com/posts/eth-d-chab_ruzickaprize2025-ruzickaprize-awardee-activity-7389586307217276928-clEV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-    -  Nako Nakatsuka, Ph.D. , former Senior Scientist at D-ITET, ETH, and since two years Tenure-Track Assistant Professor at the Laboratory for Chemical Nanotechnology (CHEMINA), Neuro-X Institute, EPFL. Prof. Nakatsuka receives the #RuzickaPrize2025 for her outstanding work on engineering nano- and micro-biosensors for human health. The Ruzicka Prize 2025 is supported by dsm-firmenich
+    -  Nako Nakatsuka, Ph.D. , former Senior Scientist at D-ITET, ETH, and since two years Tenure-Track Assistant Professor at the Laboratory for Chemical Nanotechnology (CHEMINA), Neuro-X Institute, EPFL. Prof. Nakatsuka receives the RuzickaPrize2025 for her outstanding work on engineering nano- and micro-biosensors for human health. The Ruzicka Prize 2025 is supported by dsm-firmenich
 
 
 <br>
