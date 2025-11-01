@@ -210,7 +210,6 @@ In practice, "Deep" means:
      - Poor candidates are penalized or discarded<br>
      - 2020 - Denoising Diffusion Probabilistic Models
 
-<br>
 
 - **📍 SSL**
   - Learns from unlabeled data by solving pretext tasks<br>
@@ -221,6 +220,62 @@ In practice, "Deep" means:
 
 - **MEMORY - Transformers vs. RNN / LSTM**
   - Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
+
+
+
+<br>
+
+
+## Gradient Noise
+
+
+<p align="left">
+  <img src="/assets/img/deep_5.jpg" alt="Knowledge Map" width="75%">
+</p>
+
+
+### 1. What is Gradient Noise
+
+
+
+
+| Source                          | Explanation                                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Sampling noise                  | Each batch only samples part of the data, so the gradient is an approximation of the true mean.      |
+| Reward noise (RL-specific)      | Rewards from the environment vary greatly across trajectories.                                       |
+| Numerical noise (hardware)      | Floating-point rounding errors, limited bfloat16 precision, or non-deterministic accumulation order. |
+| Communication noise (multi-GPU) | Random order of all-reduce operations causes slight variations in summed gradients.                  |
+| Regularization noise            | Dropout and mixed-precision scaling introduce artificial randomness.                                 |
+
+$$
+\nabla L(\theta) = \frac{\partial L}{\partial \theta}
+$$
+| Compute the exact gradient of the loss function (ideal case)
+
+$$
+\tilde{\nabla} L(\theta) = \nabla L(\theta) + \varepsilon
+$$
+| Represent the noisy gradient observed in practice (with noise term \( \varepsilon \))
+
+
+<br>
+
+### 2. Why Gradient Noise is Especially Large in RL
+
+$$
+J(\theta) = \mathbb{E}_{\tau \sim \pi_\theta}[R(\tau)]
+$$
+| Expected future reward objective in reinforcement learning
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{\tau} \left[ \nabla_\theta \log \pi_\theta(a_t \mid s_t) \cdot R(\tau) \right]
+$$
+| Policy gradient estimating how parameters affect expected reward
+
+$$
+Var(\nabla_\theta J) = Var\left(R \cdot \nabla_\theta \log \pi_\theta \right)
+$$
+| High variance of rewards and log-probabilities amplifies gradient noise
 
 
 
