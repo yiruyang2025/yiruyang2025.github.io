@@ -23,7 +23,7 @@ related_publications: true
 ## Reading List / References
 
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
-  - [2025 - MonST3R](https://monst3r-project.github.io) - Feed forward, geometry from videos
+  - [2025 - MonST3R](https://monst3r-project.github.io)
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
   - [📍 2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
