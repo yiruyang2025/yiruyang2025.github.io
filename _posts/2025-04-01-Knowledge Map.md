@@ -75,16 +75,12 @@ Graph Theory
 
 ## Model Structures
 
-<br>
-
-- [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
+  - [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
 
 <br>
 
 
 ## Post-Training Techniques
-
-<br>
 
 ❄️ **Efficient Adaptation**
   - Adapter (reduce training parameters)
@@ -114,7 +110,7 @@ Graph Theory
 - [x] reading, oxygen, fruits no sugar, protein
   - [x] gym, swimming, tennis
   - [x] chatting
-  - [x] water
+  - [x] Water
 - [x] Take a Walk
 
 
