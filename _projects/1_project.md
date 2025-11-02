@@ -318,6 +318,13 @@ Machine Learning Fundamentals
 | **O(n!)**      | Factorial time    | Traveling Salesman, N-Queens                   | Explodes even faster than exponential                |
 | **O(bᵈ)**      | Branching search  | DFS in state tree with branching b and depth d | Common in backtracking or game trees                 |
 
+```
+O(n):         O(n log n):                O(n²):
+loop → → →    divide → sort → merge     double loop → compare all
+(one pass)    (log layers × n work)     (each pair compared)
+linear scan    merge / quick sort        bubble / selection sort
+```
+
 ## Space
 
 | Big-O        | Name              | Typical Example                        | Growth Description                     |
