@@ -16,8 +16,6 @@ related_publications: true
   - [Aeva – 4DLiDAR for Autonomous Navigation - Auto Driving - beyond Beam](https://www.aeva.com/)
 
 
-<br>
-
   - [A Digital Geneva / Zurich](https://carla.readthedocs.io/en/latest/adv_digital_twin/)
 
 
