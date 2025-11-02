@@ -174,6 +174,46 @@ Graph / Tree Search   →  Graph                 →  Traverse connected states
 Greedy / Sliding Window → Linear Graph         →  Local traversal with constraints
 ```
 
+```
+┌──────────────────────────────────────────────┐
+│      Category Mapping: Data Structures → Algorithms      │
+└──────────────────────────────────────────────┘
+
+Each data structure defines a computational space.
+Algorithms are strategies to traverse or optimize within that space.
+
+───────────────────────────────────────────────
+ Data Structure              →  Algorithmic Paradigms
+───────────────────────────────────────────────
+ Array / Linear List         →  Sequential Scan / Sliding Window / Greedy
+                             →  Dynamic Programming (1D state transition)
+
+ Stack / Queue               →  DFS / BFS Search
+                             →  Backtracking (depth-first exploration)
+
+ Tree                        →  Divide & Conquer (recursive decomposition)
+                             →  Recursive Traversal / Search Tree
+
+ Graph                       →  General Search / Optimization
+                             →  Dynamic Programming on DAGs
+                             →  A* Search / Path Finding
+
+ Heap / Priority Queue       →  Greedy Algorithms / Scheduling
+                             →  Optimization with local priority
+
+ Hash Table / Set            →  Memoization / State Caching
+                             →  Duplicate Elimination / Fast Lookup
+───────────────────────────────────────────────
+
+In essence:
+- Array  → Linear temporal order
+- Stack / Queue  → Controlled exploration order
+- Tree  → Hierarchical recursion
+- Graph  → Relational state space
+- Heap  → Ordered local optimization
+- Hash  → Memory and identity
+```
+
 <br>
 
 ## Diffusion, Stable Diffusion, Rectified Flow
@@ -405,7 +445,6 @@ intermediate = 0.1 * student_probs + 0.9 * teacher_probs
 
 
 ## Background Knowledge
-
 
 ## RL On Diffusion
 
