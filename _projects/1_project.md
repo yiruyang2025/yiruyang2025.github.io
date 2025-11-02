@@ -175,36 +175,35 @@ Greedy / Sliding Window → Linear Graph         →  Local traversal with const
 ```
 
 ```
-┌──────────────────────────────────────────────┐
-│      Category Mapping: Data Structures → Algorithms      │
-└──────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+│ Category Mapping: Data Structures → Algorithms  │
+└─────────────────────────────────────────────────┘
 
 Each data structure defines a computational space.
 Algorithms are strategies to traverse or optimize within that space.
 
-───────────────────────────────────────────────
+───────────────────────────────────────────────────────────────────
  Data Structure              →  Algorithmic Paradigms
-───────────────────────────────────────────────
- Array / Linear List         →  Sequential Scan / Sliding Window / Greedy
-                             →  Dynamic Programming (1D state transition)
+───────────────────────────────────────────────────────────────────
+ Array / Linear List         →  Scan / Sliding Window / Greedy
+                             →  DP in 1D state
 
  Stack / Queue               →  DFS / BFS Search
                              →  Backtracking (depth-first exploration)
 
- Tree                        →  Divide & Conquer (recursive decomposition)
+ Tree                        →  Divide & Conquer
                              →  Recursive Traversal / Search Tree
 
  Graph                       →  General Search / Optimization
                              →  Dynamic Programming on DAGs
                              →  A* Search / Path Finding
 
- Heap / Priority Queue       →  Greedy Algorithms / Scheduling
+ Heap / Priority Queue       →  Greedy / Scheduling
                              →  Optimization with local priority
 
  Hash Table / Set            →  Memoization / State Caching
                              →  Duplicate Elimination / Fast Lookup
-───────────────────────────────────────────────
-
+───────────────────────────────────────────────────────────────────
 In essence:
 - Array  → Linear temporal order
 - Stack / Queue  → Controlled exploration order
