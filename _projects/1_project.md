@@ -207,10 +207,10 @@ Algorithms are strategies to traverse or optimize within that space.
 In essence:
 - Array  → Linear temporal order
 - Stack / Queue  → Controlled exploration order
-- Tree  → Hierarchical recursion
+- Tree   → Hierarchical recursion
 - Graph  → Relational state space
-- Heap  → Ordered local optimization
-- Hash  → Memory and identity
+- Heap   → Ordered local optimization
+- Hash   → for everything
 ```
 
 <br>
