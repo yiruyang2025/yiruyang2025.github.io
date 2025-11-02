@@ -213,7 +213,6 @@ In essence:
 - Hash   → for everything
 ```
 
-<br>
 
 ## Diffusion, Stable Diffusion, Rectified Flow
 
@@ -302,6 +301,34 @@ Machine Learning Fundamentals
               ├─ Evaluation beyond accuracy: robustness, fairness, value alignment
               └─ Ethical ML engineering: accountability and transparency in large systems
 ```
+
+
+
+## Time
+
+| Big-O          | Name              | Typical Example                                | Growth Description                                   |
+| -------------- | ----------------- | ---------------------------------------------- | ---------------------------------------------------- |
+| **O(1)**       | Constant time     | Accessing array element                        | Execution time does not depend on input size         |
+| **O(log n)**   | Logarithmic time  | Binary search                                  | Problem size halves each iteration                   |
+| **O(n)**       | Linear time       | Single loop through array                      | Time grows proportionally with input size            |
+| **O(n log n)** | Linearithmic time | Merge sort, Quick sort                         | Divide-and-conquer: log n levels × n work per level  |
+| **O(n²)**      | Quadratic time    | Nested loops, Bubble sort                      | Each element compared with every other               |
+| **O(n³)**      | Cubic time        | Triple nested loops                            | Often in 3D DP or matrix operations                  |
+| **O(2ⁿ)**      | Exponential time  | Subset / permutation generation                | Grows doubly with input size, infeasible for large n |
+| **O(n!)**      | Factorial time    | Traveling Salesman, N-Queens                   | Explodes even faster than exponential                |
+| **O(bᵈ)**      | Branching search  | DFS in state tree with branching b and depth d | Common in backtracking or game trees                 |
+
+## Space
+
+| Big-O        | Name              | Typical Example                        | Growth Description                     |
+| ------------ | ----------------- | -------------------------------------- | -------------------------------------- |
+| **O(1)**     | Constant space    | In-place swap, variable assignment     | Memory usage independent of input size |
+| **O(log n)** | Logarithmic space | Recursive binary search                | Stack grows by log n levels            |
+| **O(n)**     | Linear space      | Storing array, dynamic programming 1-D | Memory grows linearly with input       |
+| **O(n²)**    | Quadratic space   | 2-D matrix, Floyd-Warshall DP          | Used for pairwise relationships        |
+| **O(n³)**    | Cubic space       | 3-D DP table                           | Multi-dimensional dynamic programming  |
+| **O(2ⁿ)**    | Exponential space | Memoization of all subsets             | Infeasible beyond small n              |
+
 
 <br>
 
