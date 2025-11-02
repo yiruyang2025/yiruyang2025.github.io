@@ -155,12 +155,24 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
       ▼              ▼                   ▼                   ▼                   ▼
  Generate & Prune   Binary Search    Substructure        Traversal          Local Optimization
   (search tree)      (partition)      (overlap)         (BFS / DFS)          (two pointers)
+
+┌────────────────────────────────────────────────────────────┐
+│   Category Mapping Between Algorithms and Data Structures  │
+└────────────────────────────────────────────────────────────┘
+
+Each algorithmic paradigm implicitly defines a state representation and a state traversal mechanism, the corresponding data structure serves as its physical carrier
+
+In other words:  
+Algorithm = Strategy  
+Data Structure = Space
+Computation = Traversal on structured space
+
+Backtracking          →  Tree (Search Tree)    →  Explore and prune paths  
+Divide & Conquer      →  Tree (Recursion)      →  Split and merge subproblems  
+Dynamic Programming   →  DAG (Acyclic Graph)   →  Reuse overlapping subproblems  
+Graph / Tree Search   →  Graph                 →  Traverse connected states  
+Greedy / Sliding Window → Linear Graph         →  Local traversal with constraints
 ```
-
-
-
-
-
 
 <br>
 
