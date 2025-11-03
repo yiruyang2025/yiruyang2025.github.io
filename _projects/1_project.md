@@ -76,15 +76,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Conclusion** | The most efficient in the **lookup** domain. | The most general but not universal in the **optimization/decision** domain. |
 
 
-
-| **Dimension**               | **English Name** | **State Form** | **Typical Examples**             |
-| --------------------------- | ---------------- | -------------- | -------------------------------- |
-| **0D (Constant DP)**        | Constant DP      | `dp = x`       | Fibonacci (rolling optimization) |
-| **1D (One-Dimensional DP)** | 1D DP            | `dp[i]`        | Climbing Stairs, LIS             |
-| **2D (Two-Dimensional DP)** | 2D DP            | `dp[i][j]`     | LCS, Edit Distance               |
-
-
-
 <br>
 
 ## Languages
@@ -237,7 +228,6 @@ Machine Learning Fundamentals
 ```
 
 
-
 ## Time
 
 | Big-O          | Name              | Typical Example                                |
@@ -286,9 +276,6 @@ linear scan       merge / quick sort         bubble / selection 
 | ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
 
 
-
-<br>
-
 ## Protocol and Ports
 
 ```
@@ -297,7 +284,6 @@ linear scan       merge / quick sort         bubble / selection 
    ssh user@ip_address         sshd (daemon listening on port 22)
 ```
 
-<br>
 
 | Protocol | Port | Purpose |
 |-----------|------|----------|
