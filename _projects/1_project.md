@@ -318,7 +318,7 @@ Machine Learning Fundamentals
 | **O(n!)**      | Factorial time    | Traveling Salesman, N-Queens                   |
 | **O(bᵈ)**      | Branching search  | DFS in state tree with branching b and depth d |
 
-
+<br>
 
 ```
 O(n):            O(n log n):                 O(n²):
