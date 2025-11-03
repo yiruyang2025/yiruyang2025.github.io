@@ -12,7 +12,6 @@ related_publications: true
 
 ## Diffusion Models
 
-
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/AI-Model-Structures-25/)
@@ -43,7 +42,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 - `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
 
 <br>
-
 
 ## Backpropagation
 
