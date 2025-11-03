@@ -319,6 +319,7 @@ Machine Learning Fundamentals
 | **O(bᵈ)**      | Branching search  | DFS in state tree with branching b and depth d |
 
 
+
 ```
 O(n):            O(n log n):                 O(n²):
 loop → → →       divide → sort → merge      double loop → compare all
