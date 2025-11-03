@@ -213,6 +213,24 @@ In essence:
 - Hash   → for everything
 ```
 
+| **Function Signature**                                           | **Meaning**                                             | **Why This Type / Conceptual Difference**                            | **Typical `return` Example**       |
+| ---------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------- |
+| `def findMax(nums: list[int]) -> int:`                           | Takes a list of integers and returns the maximum value. | Returns a **single scalar** (discrete numeric output).               | `return max(nums)`                 |
+| `def average(values: list[float]) -> float:`                     | Returns the average of float numbers.                   | Used when output can be **fractional / continuous**.                 | `return sum(values) / len(values)` |
+| `def isBalanced(root: TreeNode) -> bool:`                        | Checks if a binary tree is height-balanced.             | Returns **True / False**, used for decision problems.                | `return True` / `return False`     |
+| `def getGreeting(name: str) -> str:`                             | Returns a formatted greeting message.                   | Returns **textual data** instead of numeric.                         | `return f"Hello, {name}"`          |
+| `def merge(intervals: list[list[int]]) -> list[list[int]]:`      | Merges overlapping intervals and returns a 2-D list.    | Output is another **structured list**, same dimensionality as input. | `return merged`                    |
+| `def searchInsert(nums: list[int], target: int) -> int:`         | Returns the index of target or its insertion position.  | **Index lookup** → integer output.                                   | `return left`                      |
+| `def dfs(node: TreeNode) -> None:`                               | Performs DFS traversal and modifies state in-place.     | No explicit output; affects outer scope or global state.             | `return` (nothing)                 |
+| `def countWords(s: str) -> dict[str, int]:`                      | Returns a dictionary with word frequencies.             | Output is a **mapping** (key–value structure).                       | `return counter`                   |
+| `def findCoordinates(grid: list[list[int]]) -> tuple[int, int]:` | Returns two integer values as a pair.                   | Multiple discrete values grouped logically.                          | `return (x, y)`                    |
+| `def getNode(root: TreeNode, val: int) -> Optional[TreeNode]:`   | Returns a node if found, else None.                     | Output may **not exist**, hence “optional.”                          | `return node` or `return None`     |
+| `def generator(n: int) -> Generator[int, None, None]:`           | Yields values one by one without storing all in memory. | Used for **streaming / lazy evaluation.**                            | `yield i` (instead of `return`)    |
+| `def process(data: Any) -> Any:`                                 | Accepts and returns any Python object.                  | Used in **generic functions** or flexible APIs.                      | `return processed_data`            |
+
+
+
+
 
 ## Diffusion, Stable Diffusion, Rectified Flow
 
