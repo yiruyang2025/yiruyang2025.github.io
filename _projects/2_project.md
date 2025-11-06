@@ -17,8 +17,8 @@ related_publications: true
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
-<br>
 
+<br>
 
 ## Reading List / References
 
