@@ -211,6 +211,24 @@ $$
 \frac{\partial u}{\partial t} = f_{\text{known}}(u) + f_\theta(u)
 $$
 
+<br>
+
+## Speed up Your Training in Multiple Ways
+
+
+| **Category**                 | **Technique / Concept**                         | **Core Idea (One Line)**                                                                         | **Example Hardware / Framework**        |
+| ---------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| **Kernel Optimization**      | **AI Kernel Auto-Tuning (Triton / AutoTVM)**    | Automatically generate and fuse optimal CUDA kernels for specific tensor shapes.                 | NVIDIA H100, PyTorch 2.5, Triton 2      |
+| **Memory Efficiency**        | **FlashAttention 2 / Fused Ops**                | Combine attention and softmax in a single kernel to reduce memory and launch overhead.           | A100 / H100 / RTX 4090                  |
+| **Precision Optimization**   | **FP8 / INT8 Quantization-Aware Training**      | Use ultra-low precision arithmetic with adaptive scaling for faster, energy-efficient training.  | NVIDIA Hopper, AMD MI300X               |
+| **Graph Compilation**        | **TorchInductor / XLA / MetalFX Graph Capture** | Compile dynamic graphs into optimized static kernels for faster runtime.                         | PyTorch 2.x, TPU v6e, Apple M4 Max      |
+| **Diffusion Optimization**   | **Fused Diffusion Sampling**                    | Merge denoising and upsampling into one fused kernel for diffusion-based training.               | DiffusionRefine, Stable Diffusion Turbo |
+| **Adaptive Fine-Tuning**     | **LoRA / QLoRA / BitNet Adapters**              | Parameter-efficient fine-tuning for large models on limited hardware.                            | RTX 6000 Ada, M2 Ultra, Edge TPU        |
+| **Sequence Modeling**        | **Mamba SSM / Linear Attention**                | Replace quadratic attention with state-space or linear-time models for long-sequence efficiency. | Transformer Engine (H100), FlashMamba   |
+| **Hardware Co-Design**       | **Grace Hopper / TPU v6e / MI300X**             | Unified CPU–GPU/TPU memory design enabling zero-copy tensor access.                              | NVIDIA GH200, Google TPU Pods           |
+| **Distributed Optimization** | **FSDP + ZeRO + NVLink 4.0**                    | Fully sharded data parallelism and high-speed interconnect for multi-GPU scaling.                | DGX H100 Cluster, NVSwitch              |
+| **Emerging Paradigm**        | **Neural Compilation & Auto-Scheduling**        | Learn to generate compute graphs and schedule execution automatically.                           | TVM Unity, Modular Mojo                 |
+
 
 
 <br>
