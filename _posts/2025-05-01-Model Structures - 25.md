@@ -96,7 +96,6 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 ## Content
 
 - Transformer
-- BERT
 - Mamba
 - GPT
 - Tokenization
@@ -171,14 +170,6 @@ In practice, "Deep" means:
   - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
 
 <br>
-
-- **BERT**
-  - Bidirectional Encoder Representations from Transformers<br>
-  - using Masked language modeling<br>
-  - [2019 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC)<br>
-
-<br>
-
 
 - **Conformer**
   - Convolution + Transformer = Conformer
