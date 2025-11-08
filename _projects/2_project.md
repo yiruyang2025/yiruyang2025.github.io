@@ -124,11 +124,11 @@ Its invertibility depends on:
 - Hash inversion is **unrecoverable**.  
 - 2D → 3D reconstruction is **ill-posed but recoverable with priors**.
 
-In short:  
-> **Hash inversion is absolutely impossible; projection inversion is conditionally possible.**
-
+In short: **Hash inversion is absolutely impossible, projection inversion is conditionally possible.**
 
 <br>
+
+## DL For 3D Reconstruction
 
 | **Bottleneck Source** | **Limitation of Classical Geometry Methods** | **Deep Learning Improvement Strategy** |
 |------------------------|----------------------------------------------|----------------------------------------|
