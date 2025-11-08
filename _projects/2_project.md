@@ -105,7 +105,7 @@ $$
 The goal is to ensure that for any distinct inputs:
 
 $$
-x_1, \; x_2
+x_1, \ x_2
 $$
 
 their hash values satisfy:
