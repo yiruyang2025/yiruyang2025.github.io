@@ -127,7 +127,7 @@ In practice, "Deep" means:
 - Or even hundreds of layers in modern transformers like GPT and BERT
 
 
-<br><br>
+<br>
 
 
 ## Key Structures
@@ -139,13 +139,11 @@ In practice, "Deep" means:
   - Used in classification, regression, or small-scale tabular/audio tasks
   - 1989 - Universal Approximation Theorem / Still used as light head in multimodal systems<br>
 
-<br>
 
 - **RNN -> LSTM**
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
-<br>
 
 - **CNN**
   - Convolutional Neural Networks
@@ -154,7 +152,6 @@ In practice, "Deep" means:
   - Fully Connected Layer -> Receptive Field -> Parameter Sharing -> Convolutional Layer
   - 1998 - LeNet / 2012 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<br>
 
-<br>
 
 - **Transformer**
   - When inputs are sequences<br>
@@ -162,22 +159,19 @@ In practice, "Deep" means:
   - [2015 ICLR - Neural Machine Translation by Jointly Learning to Align and Translate - **Additive Attention**](https://arxiv.org/abs/1409.0473)<br>
   - [2017 NeuralPS - Attention Is All You Need - **Self-Attention / Scaled Dot-Product Attention**](https://arxiv.org/abs/1706.03762)<br>
 
-<br>
 
 - **Mamba**
   - Linear-Time Sequence Modeling<br>
   - State Space Model - SSM - with selective long-range memory<br>
-  - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)<br>
+  - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)
 
-<br>
+
 
 - **Conformer**
   - Convolution + Transformer = Conformer
   - Combines local - CNN - and Global Self-attention Features
   - Widely used in speech recognition tasks
   - [2020 - Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)<br>
-
-<br>
 
 
  - **GAN**
@@ -186,7 +180,7 @@ In practice, "Deep" means:
    - Popular in TTS, audio enhancement, and image generation<br>
    - [2014 - Generative Adversarial Nets](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html)<br>
 
-<br>
+
 
 - **Diffusion Based**
   -  Gradual denoising process to generate samples from noise<br>
@@ -207,11 +201,9 @@ In practice, "Deep" means:
   - Strong performance in low-resource and zero-shot setups<br>
 
 
-<br>
 
 - **MEMORY - Transformers vs. RNN / LSTM**
   - Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
-
 
 
 <br>
@@ -313,6 +305,5 @@ $$
 <br><br>
 
 
-<br><br>
 
 
