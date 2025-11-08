@@ -29,13 +29,13 @@ related_publications: true
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
   - 📍 cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
-
+<br>
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
   - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
   - [2011 - High-quality passive facial performance capture using 📍 anchor frames](https://d1wqtxts1xzle7.cloudfront.net/77751527/facial-libre.pdf?1640912246=&response-content-disposition=inline%3B+filename%3DHigh_quality_passive_facial_performance.pdf&Expires=1762643658&Signature=NgRyp~sdbcQRUFxAUbQDFiZr691HMb6kbVuUndJcpjW-430mrAb~surTn~nidAKIe7FrS9Pi~zfITeYBP1bJSgqi3~wIrv1XqXGIrRhQK8-~cfE7KicZvnqPWWRwSN8oxub51NbTyskeKeyY~X1kv6twwTR1X7xwAJfPk7N526XgBh5xQJto21DMkhjke7CCPnZ76XmMsYY4NH8qkxJKXOqOFCKGyfrzDnM3yMpsDedIVsicOwVeKROymIJAhBqPPYQnlgrVr7YRK5B77b5ln4vBd2FZwfuyiTINxodrC68DIHHufaL2zlekxGH1PCcYVKosEhuHZAcdvnfcEgVfsA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
-
+<br>
 
   - [📍 2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
