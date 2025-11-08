@@ -90,7 +90,7 @@ $$
 | **Complex Illumination and Reflection** | Simplified lighting model (Lambertian assumption) | Learn implicit neural representations that model reflection and BRDF properties |
 | **Temporal Consistency** | Treat each frame independently | Apply ConvGRU, flow matching, or diffusion-based temporal smoothing to maintain cross-frame consistency |
 
----
+<br>
 
 ### Representative Methods
 | **Model** | **Year** | **Core Idea** |
@@ -100,8 +100,17 @@ $$
 | **4D-LRM / 4D-Fly** | 2025 | Combines large-scale pretraining and temporal-consistency modules to reconstruct scenes from any view at any time. |
 
 
+## Possible Solutions
 
+**Learning Priors:**  Models such as DINOv3, SAM, and CLIP provide cross-scene semantic and shape priors that guide reconstruction beyond pure geometry
 
+**Dynamic Representation:**  Modules like ConvGRU, flow fields, and diffusion models are introduced to maintain temporal coherence and capture dynamic scene changes
+
+**Sparse-to-Dense Reconstruction:**  Generative or diffusion-based priors are used to complete missing views and synthesize dense geometric information from sparse observations
+
+**Efficient Models:**  Distillation, Adapter, and Quantization techniques compress complex reconstruction networks into lightweight, real-time models suitable for deployment
+
+**Self-supervised Consistency:**  Photometric consistency, cycle consistency, and geometry-based losses are applied to replace ground-truth supervision, enabling training without labeled data
 
 <br>
 
