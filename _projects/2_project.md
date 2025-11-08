@@ -93,6 +93,7 @@ $$
 <br>
 
 ### Representative Methods
+
 | **Model** | **Year** | **Core Idea** |
 |------------|-----------|----------------|
 | **NeRF** | 2020 | Learns an implicit volumetric rendering function $$f_\theta(x,d)$$ to recover high-quality 3D scenes without traditional geometric optimization. |
