@@ -102,9 +102,22 @@ $$
 y = h(x)
 $$
 
-The goal is to ensure that for any distinct \( x_1, x_2 \),  
-their hash values satisfy \( h(x_1) \neq h(x_2) \) and are uniformly distributed.  
-It is **deliberately designed to be irreversible**.
+The goal is to ensure that for any distinct inputs:
+
+$$
+x_1, \; x_2
+$$
+
+their hash values satisfy:
+
+$$
+h(x_1) \neq h(x_2)
+$$
+
+and are uniformly distributed.
+
+It is **deliberately designed to be irreversible**
+
 
 **Projection Operator $$ \Pi $$:**
 
