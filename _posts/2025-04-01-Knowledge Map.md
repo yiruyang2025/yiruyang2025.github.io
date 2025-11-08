@@ -108,7 +108,7 @@ Graph Theory
 # Check List
 
 - [x] reading, oxygen, fruits no sugar, protein
-  - [x] gym, swimming, tennis
+  - [x] gym, jogging, tennis
   - [x] chatting
   - [x] Water
 - [x] Take a Walk
