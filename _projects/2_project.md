@@ -87,7 +87,7 @@ $$
 
 ## Hash vs. 3DV
 
-| **Aspect** | **Hash Function** \( h(x) \) | **Visual Projection** \( \Pi(X, Y, Z) \) |
+| **Aspect** | **Hash Function** \( h(x) \) | **Visual Projection** $$ \Pi(X, Y, Z) $$ |
 |-------------|-------------------------------|------------------------------------------|
 | **Mapping Type** | Discrete, irreversible (designed to lose information) | Continuous, differentiable but compressive (natural physical projection) |
 | **Domain / Range** | Discrete bit space | Continuous geometric space (Euclidean space) |
@@ -98,7 +98,7 @@ $$
 
 <br>
 
-**Hash Function \( h \):**
+**Hash Function $$ \( h \) $$:**
 
 $$
 y = h(x)
@@ -108,7 +108,7 @@ The goal is to ensure that for any distinct \( x_1, x_2 \),
 their hash values satisfy \( h(x_1) \neq h(x_2) \) and are uniformly distributed.  
 It is **deliberately designed to be irreversible**.
 
-**Projection Operator \( \Pi \):**
+**Projection Operator $$ \Pi $$:**
 
 $$
 I(x, y) = \Pi(X, Y, Z)
