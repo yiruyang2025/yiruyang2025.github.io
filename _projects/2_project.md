@@ -92,7 +92,7 @@ $$
 
 <br>
 
-### Representative Methods
+## Representative Methods
 
 | **Model** | **Year** | **Core Idea** |
 |------------|-----------|----------------|
