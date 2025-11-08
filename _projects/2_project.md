@@ -64,6 +64,47 @@ related_publications: true
 
 <br>
 
+From **2D to 3D/4D reconstruction** is a highly **ill-posed inverse problem**, Projection model:
+
+$$
+I(x, y) = \Pi(X, Y, Z)
+$$
+
+where the projection operator $$\Pi$$ maps a 3D point in the world coordinate space to a 2D pixel on the image plane.
+
+The inverse problem is:
+
+$$
+\text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
+$$
+
+
+<br>
+
+| **Bottleneck Source** | **Limitation of Classical Geometry Methods** | **Deep Learning Improvement Strategy** |
+|------------------------|----------------------------------------------|----------------------------------------|
+| **Dynamic Scenes** | Assume the scene is static | Introduce temporal modeling (RNN / GRU / Transformer) and learn deformation fields (e.g., D-NeRF, HyperNeRF) |
+| **Sparse Viewpoints** | Insufficient view redundancy | Use pretrained priors, shape priors, or diffusion priors to fill in missing geometric information |
+| **Real-time Requirement** | Optimization is slow and iterative | Replace optimization with feed-forward neural networks and learned depth estimators |
+| **Weak or No Supervision** | Depend on accurate labels and calibration | Train via photometric consistency and self-supervised losses (e.g., Monodepth, NeuralRecon) |
+| **Complex Illumination and Reflection** | Simplified lighting model (Lambertian assumption) | Learn implicit neural representations that model reflection and BRDF properties |
+| **Temporal Consistency** | Treat each frame independently | Apply ConvGRU, flow matching, or diffusion-based temporal smoothing to maintain cross-frame consistency |
+
+---
+
+### Representative Methods
+| **Model** | **Year** | **Core Idea** |
+|------------|-----------|----------------|
+| **NeRF** | 2020 | Learns an implicit volumetric rendering function $$f_\theta(x,d)$$ to recover high-quality 3D scenes without traditional geometric optimization. |
+| **D-NeRF / HyperNeRF** | 2021 | Extends NeRF by learning non-rigid deformations along the temporal dimension, enabling 4D dynamic reconstruction. |
+| **4D-LRM / 4D-Fly** | 2025 | Combines large-scale pretraining and temporal-consistency modules to reconstruct scenes from any view at any time. |
+
+
+
+
+
+<br>
+
 ## Random Matrix
 
 - Eigenvalues of large random matrices are statistically distributed across different systems
