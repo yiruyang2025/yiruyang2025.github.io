@@ -39,6 +39,7 @@ related_publications: true
 
 <br>
 
+  - [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 
@@ -79,6 +80,52 @@ The inverse problem is:
 $$
 \text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
 $$
+
+
+<br>
+
+
+## Hash vs. 3DV
+
+| **Aspect** | **Hash Function** \( h(x) \) | **Visual Projection** \( \Pi(X, Y, Z) \) |
+|-------------|-------------------------------|------------------------------------------|
+| **Mapping Type** | Discrete, irreversible (designed to lose information) | Continuous, differentiable but compressive (natural physical projection) |
+| **Domain / Range** | Discrete bit space | Continuous geometric space (Euclidean space) |
+| **Information Loss** | Intentionally irreversible and patternless (for encryption or indexing) | Dimensionality reduction through projection, yet partially recoverable via geometric constraints |
+| **Local Consistency** | No local continuity (small change → large change) | Preserves spatial locality (small change → small change) |
+| **Recoverability via Learning** | Unrecoverable except by brute-force search | Approximate recovery possible via priors and probabilistic modeling |
+| **Invertibility** | Theoretically irreversible (one-way) | Mathematically ill-posed but recoverable under constraints (not impossible) |
+
+<br>
+
+**Hash Function \( h \):**
+
+$$
+y = h(x)
+$$
+
+The goal is to ensure that for any distinct \( x_1, x_2 \),  
+their hash values satisfy \( h(x_1) \neq h(x_2) \) and are uniformly distributed.  
+It is **deliberately designed to be irreversible**.
+
+**Projection Operator \( \Pi \):**
+
+$$
+I(x, y) = \Pi(X, Y, Z)
+$$
+
+This represents a **natural linear or perspective projection**.  
+Its invertibility depends on:
+- the number of available views,  
+- the accuracy of camera parameters,  
+- and the strength of prior information.
+
+**Therefore:**
+- Hash inversion is **unrecoverable**.  
+- 2D → 3D reconstruction is **ill-posed but recoverable with priors**.
+
+In short:  
+> **Hash inversion is absolutely impossible; projection inversion is conditionally possible.**
 
 
 <br>
