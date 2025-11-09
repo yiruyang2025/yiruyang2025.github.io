@@ -96,9 +96,7 @@ related_publications: true
 
   - Dark Matter Detection / Chemistry Simulation
 
-<br>
-
-## Topological Manifold Formulation
+## Formulations
 
 Define the neural manifold evolution:
 
@@ -130,7 +128,6 @@ $$
 | Product equals zero | Local structural collapse (functional failure) |
 | Loss of constraint (“no card”) | Global coupling and regulation breakdown |
 | **→ Result** | Disease emergence as a topological phase transition — not a linear decay |
-
 
 
 ## Essence
