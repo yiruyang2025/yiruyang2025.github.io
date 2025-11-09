@@ -130,7 +130,7 @@ $$
 | Loss of constraint (“no card”) | Global coupling and regulation breakdown |
 | **→ Result** | Disease emergence as a topological phase transition — not a linear decay |
 
-
+<br>
 
 ## Essence
 
