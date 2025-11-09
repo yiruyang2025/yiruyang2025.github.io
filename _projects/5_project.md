@@ -135,7 +135,7 @@ $$
 
 ## Essence
 
-  - The onset of disease corresponds to a **topological phase transition** in the 4D neural manifold, where the proportion of non-functional subgraphs exceeds a critical threshold, and the global topological invariants \( (\chi, \beta_k) \) undergo discontinuous change, signaling the **loss of structural coherence in neural connectivity**.
+  - The onset of disease corresponds to a **topological phase transition** in the 4D neural manifold, where the proportion of non-functional subgraphs exceeds a critical threshold, and the global topological invariants $$ ( (\chi, \beta_k) $$) undergo discontinuous change, signaling the **loss of structural coherence in neural connectivity**.
 
 
 
