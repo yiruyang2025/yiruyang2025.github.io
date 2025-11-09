@@ -177,6 +177,34 @@ In short: **Hash inversion is absolutely impossible, projection inversion is con
 
 <br>
 
+```
+                ┌────────────────────────────┐
+                │       macOS / Linux        │
+                │  (system level environment)│
+                └────────────┬───────────────┘
+                             │
+                ┌────────────▼───────────────┐
+                │     Warp Terminal (App)    │  ←⚡ GPU UI + AI + Cloud Sync
+                │ (replaces iTerm / Terminal)│
+                └────────────┬───────────────┘
+                             │
+                ┌────────────▼───────────────┐
+                │   Shell (zsh / bash / fish)│
+                │   ↳ runs your commands     │
+                │   ↳ plugins: Atuin, fzf... │
+                └────────────┬───────────────┘
+                             │
+                ┌────────────▼───────────────┐
+                │        OS Kernel           │
+                │      (exec, IO, etc.)      │
+                └────────────────────────────┘
+```
+
+
+
+
+
+<br>
 
 ## Benchmarks and SOTAs
 
