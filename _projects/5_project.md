@@ -94,7 +94,7 @@ related_publications: true
 
 ## [2/2] Connectomics - 4D Reconstruction
 
-## Dark Matter Detection / Chemistry Simulation
+  - Dark Matter Detection / Chemistry Simulation
 
 <br>
 
@@ -125,10 +125,10 @@ $$
 
 | **Concept** | **Intuitive Meaning** |
 |--------------|------------------------|
-| *Topological invariance* | Structural stability of the system |
-| *Random graph m-coloring* | Randomization of connectivity with functional labels |
-| *Product equals zero* | Local structural collapse (functional failure) |
-| *Loss of constraint (“no card”)* | Global coupling and regulation breakdown |
+| Topological invariance | Structural stability of the system |
+| Random graph m-coloring | Randomization of connectivity with functional labels |
+| Product equals zero | Local structural collapse (functional failure) |
+| Loss of constraint (“no card”) | Global coupling and regulation breakdown |
 | **→ Result** | Disease emergence as a topological phase transition — not a linear decay |
 
 
