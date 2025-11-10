@@ -46,11 +46,6 @@ related_publications: true
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 <br>
 
-  - [2025 - Human Boday Track - NAVER LABS Europe](https://arxiv.org/pdf/2511.03589)
-
-
-
-<br>
 
 **Attended Master Thesis Project Defense at cvg**
 
