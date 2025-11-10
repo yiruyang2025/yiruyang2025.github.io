@@ -74,7 +74,7 @@ related_publications: true
 | **Semantic alignment**              | DINOv2 / SAM + geometric head                | Replaces pixel-level matching with semantic feature alignment to recognize object-level correspondence. |
 | **Temporal attention**              | Video Transformer, 4D Diffusion              | Models temporal consistency jointly in the latent space through attention mechanisms.                   |
 | **Structural priors**               | Shape priors / implicit fields               | Incorporates geometric constraints to regularize dynamic or sparse-view reconstruction.                 |
-
+<br>
 
 
 ## 📍 Semantic vs. Photometric Consistency
@@ -121,6 +121,7 @@ $$
 \text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
 $$
 
+<br>
 
 ## Explicit vs. Implicit 3D Geometry Computation
 
@@ -144,7 +145,7 @@ $$
 | **Interpretability**         | High (based on explicit geometry equations).                                                                                              | Lower interpretability — geometry is **implicitly encoded** in network weights.                                        |
 | **Representative Methods**   | SfM, COLMAP, MVSNet, NeRF (explicit camera poses).                                                                                        | VGGT, St4RTrack, MapAnything (implicit world-frame prediction).                                                        |
 
-
+<br>
 
 
 ## DL For 3D Reconstruction
@@ -165,6 +166,8 @@ In short: **Hash inversion is absolutely impossible, projection inversion is con
 | **Weak or No Supervision** | Depend on accurate labels and calibration | Train via photometric consistency and self-supervised losses (e.g., Monodepth, NeuralRecon) |
 | **Complex Illumination and Reflection** | Simplified lighting model (Lambertian assumption) | Learn implicit neural representations that model reflection and BRDF properties |
 | **Temporal Consistency** | Treat each frame independently | Apply ConvGRU, flow matching, or diffusion-based temporal smoothing to maintain cross-frame consistency |
+
+<br>
 
 ## Representative Methods
 
