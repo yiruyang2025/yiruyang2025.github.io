@@ -146,64 +146,16 @@ $$
 
 
 
-<br>
 
-## Hash vs. 3DV
-
-| **Aspect** | **Hash Function** \( h(x) \) | **Visual Projection** $$ \Pi(X, Y, Z) $$ |
-|-------------|-------------------------------|------------------------------------------|
-| **Mapping Type** | Discrete, irreversible (designed to lose information) | Continuous, differentiable but compressive (natural physical projection) |
-| **Domain / Range** | Discrete bit space | Continuous geometric space (Euclidean space) |
-| **Information Loss** | Intentionally irreversible and patternless (for encryption or indexing) | Dimensionality reduction through projection, yet partially recoverable via geometric constraints |
-| **Local Consistency** | No local continuity (small change → large change) | Preserves spatial locality (small change → small change) |
-| **Recoverability via Learning** | Unrecoverable except by brute-force search | Approximate recovery possible via priors and probabilistic modeling |
-| **Invertibility** | Theoretically irreversible (one-way) | Mathematically ill-posed but recoverable under constraints (not impossible) |
-
-<br>
-
-**Hash Function \( h \):**
-
-$$
-y = h(x)
-$$
-
-The goal is to ensure that for any distinct inputs:
-
-$$
-x_1, \ x_2
-$$
-
-their hash values satisfy:
-
-$$
-h(x_1) \neq h(x_2)
-$$
-
-and are uniformly distributed.
-
-It is **deliberately designed to be irreversible**
+## DL For 3D Reconstruction
 
 
-**Projection Operator $$ \Pi $$:**
-
-$$
-I(x, y) = \Pi(X, Y, Z)
-$$
-
-This represents a **natural linear or perspective projection**.  
-Its invertibility depends on:
-- the number of available views,  
-- the accuracy of camera parameters,  
-- and the strength of prior information.
-
-**Therefore:**
 - Hash inversion is **unrecoverable**.  
 - 2D → 3D reconstruction is **ill-posed but recoverable with priors**.
 
 In short: **Hash inversion is absolutely impossible, projection inversion is conditionally possible.**
 
 
-## DL For 3D Reconstruction
 
 | **Bottleneck Source** | **Limitation of Classical Geometry Methods** | **Deep Learning Improvement Strategy** |
 |------------------------|----------------------------------------------|----------------------------------------|
@@ -213,8 +165,6 @@ In short: **Hash inversion is absolutely impossible, projection inversion is con
 | **Weak or No Supervision** | Depend on accurate labels and calibration | Train via photometric consistency and self-supervised losses (e.g., Monodepth, NeuralRecon) |
 | **Complex Illumination and Reflection** | Simplified lighting model (Lambertian assumption) | Learn implicit neural representations that model reflection and BRDF properties |
 | **Temporal Consistency** | Treat each frame independently | Apply ConvGRU, flow matching, or diffusion-based temporal smoothing to maintain cross-frame consistency |
-
-<br>
 
 ## Representative Methods
 
@@ -237,34 +187,6 @@ In short: **Hash inversion is absolutely impossible, projection inversion is con
 **Marčenko–Pastur Law**
 
 - $\rho(\lambda) = \frac{1}{2\pi\sigma^{2} c \lambda} \sqrt{(\lambda_{+} - \lambda)(\lambda - \lambda_{-})}, \quad \lambda_{\pm} = \sigma^{2}(1 \pm \sqrt{c})^{2}$
-
-
-<br>
-
-```
-                ┌────────────────────────────┐
-                │       macOS / Linux        │
-                │  (system level environment)│
-                └────────────┬───────────────┘
-                             │
-                ┌────────────▼───────────────┐
-                │     Warp Terminal (App)    │  ←⚡ GPU UI + AI + Cloud Sync
-                │ (replaces iTerm / Terminal)│
-                └────────────┬───────────────┘
-                             │
-                ┌────────────▼───────────────┐
-                │   Shell (zsh / bash / fish)│
-                │   ↳ runs your commands     │
-                │   ↳ plugins: Atuin, fzf... │
-                └────────────┬───────────────┘
-                             │
-                ┌────────────▼───────────────┐
-                │        OS Kernel           │
-                │      (exec, IO, etc.)      │
-                └────────────────────────────┘
-```
-
-
 
 
 
