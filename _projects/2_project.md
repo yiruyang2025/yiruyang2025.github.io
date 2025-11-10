@@ -18,6 +18,10 @@ related_publications: true
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 
+- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
+
+
+
 <br>
 
 ## Reading List / References
@@ -65,7 +69,6 @@ related_publications: true
 
 <br>
 
-
 ## Cross-frame Modelling
 
 | Direction                           | Methods                                      | Core Mechanism                                                                                          |
@@ -74,8 +77,8 @@ related_publications: true
 | **Semantic alignment**              | DINOv2 / SAM + geometric head                | Replaces pixel-level matching with semantic feature alignment to recognize object-level correspondence. |
 | **Temporal attention**              | Video Transformer, 4D Diffusion              | Models temporal consistency jointly in the latent space through attention mechanisms.                   |
 | **Structural priors**               | Shape priors / implicit fields               | Incorporates geometric constraints to regularize dynamic or sparse-view reconstruction.                 |
-<br>
 
+<br>
 
 ## 📍 Semantic vs. Photometric Consistency
 
@@ -124,10 +127,6 @@ $$
 <br>
 
 ## Explicit vs. Implicit 3D Geometry Computation
-
-- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference
-- `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
-
 
 | **Aspect**                   | **Explicit (Geometric Pipeline)**                                                                                                         | **Implicit (Neural Pipeline)**                                                                                         |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
