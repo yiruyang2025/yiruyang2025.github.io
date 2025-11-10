@@ -122,8 +122,27 @@ $$
 $$
 
 
-<br>
+## Explicit vs. Implicit 3D Geometry Computation
 
+| **Aspect**                   | **Explicit (Geometric Pipeline)**                                                                                                         | **Implicit (Neural Pipeline)**                                                                                         |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Example Setup**            | Suppose you have a video with **10 frames**.                                                                                              | The same **10 frames** are input to a neural model.                                                                    |
+| **Pairwise Matching**        | You must construct **10 × 10 = 100 image pairs** for feature matching.                                                                    | No explicit pair construction — attention layers automatically learn inter-frame relations.                            |
+| **Feature Matching Cost**    | Each pair requires thousands of **RANSAC iterations** to reject outliers.                                                                 | Correlation across all frames is learned once through **self-attention** and optimized end-to-end.                     |
+| **Pose Estimation**          | Each image pair needs **PnP / Essential Matrix** estimation to recover relative camera poses.                                             | The network implicitly infers all camera poses from global attention and latent camera tokens.                         |
+| **Global Optimization**      | Requires **Bundle Adjustment (BA)** over thousands of variables (poses + 3D points).                                                      | A **single forward pass** of the network jointly refines all poses and points.                                         |
+| **Computation Dependency**   | Each stage depends on the previous step (matching → pose → triangulation → BA), making the process **sequential and non-parallelizable**. | Entire pipeline is **feed-forward**; all operations are differentiable and **GPU-parallelizable** tensor computations. |
+| **Computational Complexity** | Typically **O(T²)** to **O(T³)** due to pairwise matching and optimization across frames.                                                 | Approximately **O(T)** with Alternating-Attention (frame-wise + global), scalable to hundreds of frames.               |
+| **Runtime**                  | Minutes to hours, depending on number of frames and optimization steps.                                                                   | Milliseconds to seconds for full reconstruction.                                                                       |
+| **Memory Usage**             | High — needs to store large Jacobians, keypoints, and pairwise constraints.                                                               | Moderate — mainly token embeddings and attention maps.                                                                 |
+| **Output**                   | Camera intrinsics/extrinsics, sparse or dense 3D structure after optimization.                                                            | Cameras, depth maps, and dense world-space point maps produced **directly from the network**.                          |
+| **Parallelizability**        | Low — iterative geometric solvers are inherently serial.                                                                                  | High — all computations are **matrix multiplications on GPU**.                                                         |
+| **Interpretability**         | High (based on explicit geometry equations).                                                                                              | Lower interpretability — geometry is **implicitly encoded** in network weights.                                        |
+| **Representative Methods**   | SfM, COLMAP, MVSNet, NeRF (explicit camera poses).                                                                                        | VGGT, St4RTrack, MapAnything (implicit world-frame prediction).                                                        |
+
+
+
+<br>
 
 ## Hash vs. 3DV
 
@@ -179,7 +198,6 @@ Its invertibility depends on:
 
 In short: **Hash inversion is absolutely impossible, projection inversion is conditionally possible.**
 
-<br>
 
 ## DL For 3D Reconstruction
 
