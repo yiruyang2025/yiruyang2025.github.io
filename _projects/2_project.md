@@ -124,6 +124,13 @@ $$
 
 ## Explicit vs. Implicit 3D Geometry Computation
 
+
+- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization
+- Complexity of `Implicit` methods stems from the linear dependency of neural inference.
+  - `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with world coordinates, rewrite the multi-view geometry problem as a linearly parallelizable forward computation problem
+
+
+
 | **Aspect**                   | **Explicit (Geometric Pipeline)**                                                                                                         | **Implicit (Neural Pipeline)**                                                                                         |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **Example Setup**            | Suppose you have a video with **10 frames**.                                                                                              | The same **10 frames** are input to a neural model.                                                                    |
