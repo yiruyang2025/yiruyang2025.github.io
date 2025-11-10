@@ -20,6 +20,10 @@ images:
 - ETH3D
 - Aria Gen 1/2
 - [Nature - Fair human-centric image dataset for ethical AI benchmarking](https://www.nature.com/articles/s41586-025-09716-2)
+- [Human Mesh Modeling for Anny Body - NAVER LABS Europe](https://arxiv.org/pdf/2511.03589)
+
+
+
 
 
 <br>
