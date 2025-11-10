@@ -149,14 +149,6 @@ $$
 
 ## DL For 3D Reconstruction
 
-
-- Hash inversion is **unrecoverable**.  
-- 2D → 3D reconstruction is **ill-posed but recoverable with priors**.
-
-In short: **Hash inversion is absolutely impossible, projection inversion is conditionally possible.**
-
-
-
 | **Bottleneck Source** | **Limitation of Classical Geometry Methods** | **Deep Learning Improvement Strategy** |
 |------------------------|----------------------------------------------|----------------------------------------|
 | **Dynamic Scenes** | Assume the scene is static | Introduce temporal modeling (RNN / GRU / Transformer) and learn deformation fields (e.g., D-NeRF, HyperNeRF) |
