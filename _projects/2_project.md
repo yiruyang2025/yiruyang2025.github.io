@@ -18,7 +18,7 @@ related_publications: true
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 
-- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
+- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT & St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
 
 
 
