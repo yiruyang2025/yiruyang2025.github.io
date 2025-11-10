@@ -96,11 +96,11 @@ $$
 L_{\text{semantic}} = \| f_{\text{DINO}}(I_t(p)) - f_{\text{DINO}}(I_{t'}(w(p))) \|,
 $$
 
-where \( f_{\text{DINO}}(\cdot) \) denotes patch-level semantic embeddings extracted by DINOv3.
+where $$ ( f_{\text{DINO}}(\cdot) $$) denotes patch-level semantic embeddings extracted by DINOv3.
 
 ---
 
-Because these \( f_{\text{DINO}} \) features are **patch-level and semantically stable**,  
+Because these $$ ( f_{\text{DINO}} $$) features are **patch-level and semantically stable**,  
 they remain consistent under viewpoint changes, illumination variations, and partial occlusions—  
 enabling robust **cross-frame** and **cross-view alignment** beyond raw photometric matching.
 
@@ -124,12 +124,8 @@ $$
 
 ## Explicit vs. Implicit 3D Geometry Computation
 
-- 1.Complexity of `Explicit` methods stems from the squared dependency of geometric optimization
-  
-- 2.Complexity of `Implicit` methods stems from the linear dependency of neural inference
-  
-  - `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
-
+- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference
+- `VGGT and St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem
 
 
 | **Aspect**                   | **Explicit (Geometric Pipeline)**                                                                                                         | **Implicit (Neural Pipeline)**                                                                                         |
