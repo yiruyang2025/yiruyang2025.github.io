@@ -144,6 +144,15 @@ In practice, "Deep" means:
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
+- **Some Other Temporal Modeling**
+
+| Model | Core Mechanism | Spatial Awareness | Dynamic Adaptation | Typical Use Case | Reference |
+|--------|----------------|------------------|--------------------|------------------|-----------|
+| **GRU** | Two-gate RNN (update/reset) | ✗ | ✗ | Text / speech / general sequences | Cho et al., 2014 |
+| **ConvGRU** | Convolutional gating unit | ✅ | ✗ | Video, 4D geometry | Shi et al., 2015 → ST4RTrack 2025 |
+| **Dynamic LSTM** | LSTM + input-dependent gates | ✗ | ✅ | Speech enhancement / ASR | Cheng et al., 2024 |
+| **Gated GRU** | GRU + dynamic/energy gates | ✗ | ✅ | Online SLU / incremental speech | Shivakumar et al., 2021 |
+
 
 - **CNN**
   - Convolutional Neural Networks
@@ -199,6 +208,7 @@ In practice, "Deep" means:
 
 - **MEMORY - Transformers vs. RNN / LSTM**
   - Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
+
 - **📍 Flow Matching**
   - [An Introduction to Flow Matching](https://mlg.eng.cam.ac.uk/2024/01/20/flow-matching.html)
 
