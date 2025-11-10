@@ -77,7 +77,7 @@ related_publications: true
 
 
 
-## Semantic vs. Photometric Consistency
+## 📍 Semantic vs. Photometric Consistency
 
 In traditional SfM / MVS / NeRF pipelines, pixel correspondence is established by enforcing **photometric consistency** across views:
 
