@@ -191,13 +191,14 @@ $$
 ## 1. 4D
 
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
+  - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
 <br>
 
 ## 2. 3D
 
 
-  - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
+
   - [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
   - [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
   - [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
