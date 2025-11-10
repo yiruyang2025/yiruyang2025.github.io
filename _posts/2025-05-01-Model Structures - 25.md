@@ -278,7 +278,7 @@ $$
 
 <br>
 
-## Supervised and Unsupervised Learning
+## 3. Supervised and Unsupervised Learning
 
 
 <br>
