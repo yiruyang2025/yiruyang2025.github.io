@@ -180,8 +180,6 @@ In practice, "Deep" means:
    - Popular in TTS, audio enhancement, and image generation<br>
    - [2014 - Generative Adversarial Nets](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html)<br>
 
-
-
 - **Diffusion Based**
   -  Gradual denoising process to generate samples from noise<br>
   -  Currently SoTA in image and speech generation<br>
@@ -195,16 +193,14 @@ In practice, "Deep" means:
      - Poor candidates are penalized or discarded<br>
      - 2020 - Denoising Diffusion Probabilistic Models
 
-
 - **📍 SSL**
   - Learns from unlabeled data by solving pretext tasks<br>
   - Strong performance in low-resource and zero-shot setups<br>
 
-
-
 - **MEMORY - Transformers vs. RNN / LSTM**
   - Add Reflection - 2024 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
-
+- **📍 Flow Matching**
+  - [An Introduction to Flow Matching](https://mlg.eng.cam.ac.uk/2024/01/20/flow-matching.html)
 
 <br>
 
