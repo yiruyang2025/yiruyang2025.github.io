@@ -27,6 +27,7 @@ related_publications: true
 ## Reading List / References
 
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
+  - [📍 2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [2025 - MonST3R](https://monst3r-project.github.io)
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
   - [📍 2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
