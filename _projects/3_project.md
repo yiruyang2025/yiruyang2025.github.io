@@ -14,29 +14,6 @@ related_publications: true
 - [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
 
 
-
-<br>
-
-
-
-## Computational Robotics - Space
-
-
-- [Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html)
-
-- [2025 - Visual Perception Engine](https://github.com/nasa-jpl/visual-perception-engine)
-- [2025 - Visual Perception Engine: Fast and Flexible Multi-Head Inference for Robotic Vision Tasks](https://arxiv.org/abs/2508.11584)
-- [📍 2025 - Space Science and Technology](https://eaps.ethz.ch/en/research/institutes/geophysics/space-science-technology.html)
-
-
-- [Computational Robotics Lab](https://crl.ethz.ch/)
-- [Automatic Control Lab](https://control.ee.ethz.ch/)
-- [Autonomous Systems Lab](https://www.iris.ethz.ch/the-institute/autonomous-systems-lab.html)
-- [Terensis - The next gen agriculture intelligence platform](https://www.terensis.io/)
-- [Soft Robotics](https://mitpress.mit.edu/9780262049740/soft-robotics/)
-- [Aria Data Provider](https://github.com/facebookresearch/projectaria_tools)
-
-
 <br>
 
 ## Implicit vs Explicit Representations
@@ -58,11 +35,7 @@ related_publications: true
 | **Example**                                  | **BANMo** – implicit volumetric field + neural blend skinning                                                                                 | **Animal Avatars** – explicit SMAL mesh + CSE pixel alignment                                           |
 
 <br>
-- BANMo provides an implicit volumetric field and motion-driven skinning, ideal for flexible and topology-free reconstruction
-- Animal Avatars provides an explicit mesh surface and precise pixel-to-surface alignment through CSE, ideal for controllable animation and realistic texturing
-- The proposed 4D Gaussian layer bridges these paradigms — learning a dynamic volumetric fur field 𝐹(𝑥,𝑡) that captures both spatial detail and temporal consistency
 
-<br>
 
 
 ## Geometric Shape Modeling
