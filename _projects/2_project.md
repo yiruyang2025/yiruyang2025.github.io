@@ -83,43 +83,43 @@ related_publications: true
 
 ## 📍 Semantic vs. Photometric Consistency
 
-In traditional SfM / MVS / NeRF pipelines, pixel correspondence is established by enforcing **photometric consistency** across views:
+- In traditional SfM / MVS / NeRF pipelines, pixel correspondence is established by enforcing **photometric consistency** across views:
 
 $$
 L_{\text{photo}} = \| I_t(p) - I_{t'}(w(p)) \|,
 $$
 
-where $I_t(p)$ is the pixel intensity at location $p$ in frame $t$,
+- where $I_t(p)$ is the pixel intensity at location $p$ in frame $t$,
 and $w(p)$ is the projection of that pixel into the target frame $t'$ using the estimated geometry.
 
 ---
 
-In contrast, **DINOv3**, built on the Vision Transformer (ViT), replaces raw pixel comparison with **semantic feature consistency**:
+- In contrast, **DINOv3**, built on the Vision Transformer (ViT), replaces raw pixel comparison with **semantic feature consistency**:
 
 $$
 L_{\text{semantic}} = \| f_{\text{DINO}}(I_t(p)) - f_{\text{DINO}}(I_{t'}(w(p))) \|,
 $$
 
-where $f_{\text{DINO}}(\cdot)$ denotes patch-level semantic embeddings extracted by DINOv3.
+- where $f_{\text{DINO}}(\cdot)$ denotes patch-level semantic embeddings extracted by DINOv3.
 
 ---
 
-Because these $f_{\text{DINO}}$ features are patch-level and semantically stable,
+- Because these $f_{\text{DINO}}$ features are patch-level and semantically stable,
 they remain consistent under viewpoint changes, illumination variations, and partial occlusions—
 enabling robust cross-frame and cross-view alignment beyond raw photometric matching.
 
 
 <br>
 
-From **2D to 3D/4D reconstruction** is a highly **ill-posed inverse problem**, Projection model:
+- From **2D to 3D/4D reconstruction** is a highly **ill-posed inverse problem**, Projection model:
 
 $$
 I(x, y) = \Pi(X, Y, Z)
 $$
 
-where the projection operator $\Pi$ maps a 3D point in the world coordinate space to a 2D pixel on the image plane.
+- where the projection operator $\Pi$ maps a 3D point in the world coordinate space to a 2D pixel on the image plane
 
-The inverse problem is:
+- The inverse problem is:
 
 $$
 \text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
