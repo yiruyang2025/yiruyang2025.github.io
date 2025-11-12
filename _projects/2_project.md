@@ -146,6 +146,10 @@ $$
 
 ## 📍 3D Reconstruction Inverse Problems vs. Hash Function Irreversibility
 
+- The "irreversibility" of 3D reconstruction stems from information loss and ill-posedness
+- The "irreversibility" of hash functions arises from the artificially designed computational irreversibility
+- Though superficially similar, their mathematical properties are entirely different
+
 | Dimension of Comparison       | 3D Reconstruction (Projection Inverse Problem)                          | Hash Function (One-Way Mapping)                                   |
 | ----------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | **Mathematical Form**         | Continuous mapping $\mathcal{P}: \mathbb{R}^3 \rightarrow \mathbb{R}^2$ | Discrete mapping $h: \{0,1\}^* \rightarrow \{0,1\}^n$             |
