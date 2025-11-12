@@ -125,6 +125,41 @@ $$
 \text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
 $$
 
+---
+
+Two-dimensional pixel observations alone cannot uniquely deduce the true three-dimensional structure, so traditional methods rely heavily on geometric priors and multi-view constraints
+
+## 📍 Diffusion Models vs. Flow Matching
+
+| Problem Type              | Diffusion Models                                                            | Flow Matching                                                         |
+| ------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Non-rigid deformation     | Implicitly learns temporal consistency through noise-to-structure denoising | Requires explicit motion supervision                                  |
+| Photometric inconsistency | Learns semantic-level feature representations beyond pixel matching         | Still relies on local intensity differences in continuous flow fields |
+| Sparse-view limitation    | Uses generative priors to “complete” missing geometry                       | Requires sufficient observation constraints                           |
+| Ill-posed inverse problem | Models latent structure distributions probabilistically via diffusion       | Deterministic ODE mapping, sensitive to noise                         |
+| Temporal consistency      | Implicit diffusion process provides natural temporal smoothness             | Lacks explicit temporal regularization                                |
+
+---
+
+
+## 📍 3D Reconstruction Inverse Problems vs. Hash Function Irreversibility
+
+| Dimension of Comparison       | 3D Reconstruction (Projection Inverse Problem)                          | Hash Function (One-Way Mapping)                                   |
+| ----------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Mathematical Form**         | Continuous mapping $\mathcal{P}: \mathbb{R}^3 \rightarrow \mathbb{R}^2$ | Discrete mapping $h: \{0,1\}^* \rightarrow \{0,1\}^n$             |
+| **Cause of Information Loss** | Projection reduces dimensionality → lost depth information              | Hash is designed to compress and mix input intentionally          |
+| **Invertibility**             | Theoretically reversible (multi-solution problem)                       | Theoretically irreversible (one-way function)                     |
+| **Physical Meaning**          | Multiple 3D scenes can produce the same 2D image                        | Multiple input messages can yield the same hash value (collision) |
+| **Nature of Solution**        | Multiple but continuous, can be estimated with priors                   | No solution; discrete and computationally infeasible to invert    |
+| **Optimization Objective**    | Find a plausible solution via regularization or prior constraints       | Ensure reverse computation is infeasible for security             |
+| **Mathematical Domain**       | Numerical analysis + inverse problem theory                             | Cryptography + information theory                                 |
+
+
+- Both are many-to-one mappings caused by information dimensionality reduction
+- Both face the non-invertibility problem due to lost information
+- Both require regularization or prior knowledge to attempt reconstruction
+
+
 <br>
 
 ## Explicit vs. Implicit 3D Geometry Computation
