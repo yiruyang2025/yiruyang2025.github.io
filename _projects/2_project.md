@@ -20,7 +20,7 @@ related_publications: true
 
 - Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT & St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem.
 
-- All **deterministic** models → `Cannot generate multiple plausible deformation trajectories`
+- All **deterministic** models → `Cannot generate multiple plausible deformation trajectories`, however, The goal of 4D Reconstruction is not merely to reconstruct "the surface deformation of a video," but rather to `capture the underlying deformation space`
 
 <br>
 
