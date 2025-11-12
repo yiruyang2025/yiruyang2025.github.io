@@ -125,9 +125,11 @@ $$
 \text{Given } I(x, y), \; \text{solve for } (X, Y, Z).
 $$
 
----
 
-Two-dimensional pixel observations alone cannot uniquely deduce the true three-dimensional structure, so traditional methods rely heavily on geometric priors and multi-view constraints
+
+- Two-dimensional pixel observations alone cannot uniquely deduce the true three-dimensional structure, so traditional methods rely heavily on geometric priors and multi-view constraints
+
+---
 
 ## 📍 Diffusion Models vs. Flow Matching
 
