@@ -144,30 +144,6 @@ $$
 ---
 
 
-## 📍 3D Reconstruction Inverse Problems vs. Hash Function Irreversibility
-
-- The "irreversibility" of 3D reconstruction stems from information loss and ill-posedness
-- The "irreversibility" of hash functions arises from the artificially designed computational irreversibility
-- Though superficially similar, their mathematical properties are entirely different
-
-| Dimension of Comparison       | 3D Reconstruction (Projection Inverse Problem)                          | Hash Function (One-Way Mapping)                                   |
-| ----------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Mathematical Form**         | Continuous mapping $\mathcal{P}: \mathbb{R}^3 \rightarrow \mathbb{R}^2$ | Discrete mapping $h: \{0,1\}^* \rightarrow \{0,1\}^n$             |
-| **Cause of Information Loss** | Projection reduces dimensionality → lost depth information              | Hash is designed to compress and mix input intentionally          |
-| **Invertibility**             | Theoretically reversible (multi-solution problem)                       | Theoretically irreversible (one-way function)                     |
-| **Physical Meaning**          | Multiple 3D scenes can produce the same 2D image                        | Multiple input messages can yield the same hash value (collision) |
-| **Nature of Solution**        | Multiple but continuous, can be estimated with priors                   | No solution; discrete and computationally infeasible to invert    |
-| **Optimization Objective**    | Find a plausible solution via regularization or prior constraints       | Ensure reverse computation is infeasible for security             |
-| **Mathematical Domain**       | Numerical analysis + inverse problem theory                             | Cryptography + information theory                                 |
-
-
-- Both are many-to-one mappings caused by information dimensionality reduction
-- Both face the non-invertibility problem due to lost information
-- Both require regularization or prior knowledge to attempt reconstruction
-
-
-<br>
-
 ## Explicit vs. Implicit 3D Geometry Computation
 
 | **Aspect**                   | **Explicit (Geometric Pipeline)**                                                                                                         | **Implicit (Neural Pipeline)**                                                                                         |
