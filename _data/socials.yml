@@ -13,7 +13,7 @@ email: anny.yiru.yang@gmail.com # your email address
 github_username: yiruyang2025
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+# inspirehep_id: 1010907 # Inspire HEP author ID -> 📍 can have, from CERN - High Energy Physics
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
@@ -29,7 +29,7 @@ inspirehep_id: 1010907 # Inspire HEP author ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # set to true to show the RSS icon
+# rss_icon: true # set to true to show the RSS icon -> 📍 can have, Really Simple Syndication
 scholar_userid: JBSkLNJloXwC # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
