@@ -37,7 +37,6 @@ images:
 
 ## Relevant Coursework
 
-<br>
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
