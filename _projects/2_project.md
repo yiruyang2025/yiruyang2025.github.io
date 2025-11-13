@@ -148,42 +148,41 @@ $$
 
 **Problem Definition**
 
-Given a set of frames  
-$$
-\{ I_1, I_2, \dots, I_T \},
-$$  
-and feature points extracted from each frame  
-$$
-\{ f_i^t \},
-$$  
-the goal is to find cross-frame correspondences  
-$$
-\pi: (f_i^t) \mapsto (f_j^{t+k}),
-$$  
-such that they represent the same real-world 3D point.
+- Given a set of frames  
+  $$
+  \{ I_1, I_2, \dots, I_T \},
+  $$  
+- and feature points extracted from each frame  
+  $$
+  \{ f_i^t \},
+  $$  
+- the goal is to find cross-frame correspondences  
+  $$
+  \pi: (f_i^t) \mapsto (f_j^{t+k}),
+  $$  
+- such that they represent the same real-world 3D point.
 
----
 
-**Why It Is NP-hard**
 
-This problem is equivalent to **graph matching**:
+## Why It Is NP-hard
 
-- Each frame’s feature points form a node set.  
-- Correspondences between frames are edges.  
-- Matches must satisfy both geometric (epipolar) and temporal consistency constraints.  
-- The optimal matching minimizes:
+- This problem is equivalent to **graph matching**:
+
+  - Each frame’s feature points form a node set.  
+  - Correspondences between frames are edges.  
+  - Matches must satisfy both geometric (epipolar) and temporal consistency constraints.  
+  - The optimal matching minimizes:
+  
   \[
   \min_{\pi} \sum_{t,k} \| P_t(f_i^t) - P_{t+k}(f_{\pi(i)}^{t+k}) \|^2
   \]
   where \( P_t \) is the projection matrix.
 
-When the number of views exceeds two, the search space grows exponentially.  
-Multi-view matching can be reduced to the **Quadratic Assignment Problem (QAP)**,  
-which is a classical **NP-hard** problem.
+- When the number of views exceeds two, the search space grows exponentially. Multi-view matching can be reduced to the **Quadratic Assignment Problem (QAP)**, which is a classical **NP-hard** problem.
 
----
 
-**Simplified and Practical Approaches**
+
+## Simplified and Practical Approaches
 
 | Method | Principle | Time Complexity | Integration Module |
 |--------|------------|----------------|--------------------|
