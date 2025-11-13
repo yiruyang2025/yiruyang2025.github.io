@@ -88,6 +88,7 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
   - Compared with the original machine learning models:
   - **Linear Regression / SVM / Shallow Decision Trees**
   - Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
+  - how to find some other temporal modeling way for the Non-linear Transformation?
 <br>
 
 ## Content
@@ -97,7 +98,7 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 - GPT
 - Tokenization
 - ARIMA
-- RNN
+- RNN, LSTM, GRU
 - Diffusion Models
 - Flow Matching
 - Quantization / Adapter Guided - LoRA + QLoRA
@@ -135,7 +136,7 @@ In practice, "Deep" means:
   - Used in classification, regression, or small-scale tabular/audio tasks
   - 1989 - Universal Approximation Theorem / Still used as light head in multimodal systems<br>
 
-- **RNN -> LSTM**
+- 📍 **RNN -> LSTM**
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
