@@ -264,7 +264,7 @@ $$
 
 <br>
 
-## 5. Learning Rates - Theoretically
+## 4. Learning Rates - Theoretically
 
   - [2025 - A Proof of Learning Rate Transfer under µP](https://arxiv.org/pdf/2511.01734)
 
