@@ -172,14 +172,12 @@ $$
   - Correspondences between frames are edges.  
   - Matches must satisfy both geometric (epipolar) and temporal consistency constraints.  
   - The optimal matching minimizes:
-  
-  \[
-  \min_{\pi} \sum_{t,k} \| P_t(f_i^t) - P_{t+k}(f_{\pi(i)}^{t+k}) \|^2
-  \]
-  where \( P_t \) is the projection matrix.
 
-- When the number of views exceeds two, the search space grows exponentially. Multi-view matching can be reduced to the **Quadratic Assignment Problem (QAP)**, which is a classical **NP-hard** problem.
+  $$
+  \min_{\pi} \sum_{t,k} \| P_t(f_i^t) - P_{t+k}(f_{\pi(i)}^{t+k}) \|^2,
+  $$
 
+- where $P_t$ is the projection matrix. When the number of views exceeds two, the search space grows exponentially. Multi-view matching can be reduced to the **Quadratic Assignment Problem (QAP)**, which is a classical **NP-hard** problem.
 
 
 ## Simplified and Practical Approaches
