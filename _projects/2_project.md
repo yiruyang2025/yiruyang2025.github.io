@@ -150,10 +150,15 @@ $$
 
 Given a set of frames  
 $ \{ I_1, I_2, \dots, I_T \} $  
+
 and feature points extracted from each frame  
+
 $ \{ f_i^t \} $,  
+
 the goal is to find cross-frame correspondences  
+
 $ \pi: (f_i^t) \mapsto (f_j^{t+k}) $  
+
 such that they represent the same real-world 3D point.
 
 ---
