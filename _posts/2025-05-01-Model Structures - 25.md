@@ -264,30 +264,6 @@ $$
 
 <br>
 
-## 4. Supervised and Unsupervised Learning
-
-
-<br>
-
-<p align="left">
-  <img src="/assets/img/deep_2.jpg" alt="Knowledge Map" width="75%">
-</p>
-
-<br>
-
-<p align="left">
-  <img src="/assets/img/deep_3.jpg" alt="Knowledge Map" width="75%">
-</p>
-
-<br>
-
-
-<p align="left">
-  <img src="/assets/img/deep_4.jpg" alt="Knowledge Map" width="75%">
-</p>
-
-<br>
-
 ## 5. Learning Rates - Theoretically
 
   - [2025 - A Proof of Learning Rate Transfer under µP](https://arxiv.org/pdf/2511.01734)
