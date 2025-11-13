@@ -85,12 +85,9 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 <br>
 
 ## Why Deep Structure
-
-
   - Compared with the original machine learning models:
   - **Linear Regression / SVM / Shallow Decision Trees**
   - Deep structures refer to neural networks with **Multiple Layers of Nonlinear Transformations**
-
 <br>
 
 ## Content
@@ -144,14 +141,12 @@ In practice, "Deep" means:
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
-- **Some Other Temporal Modeling**
 
-| Model | Core Mechanism | Spatial Awareness | Dynamic Adaptation | Typical Use Case | Reference |
-|--------|----------------|------------------|--------------------|------------------|-----------|
-| **GRU** | Two-gate RNN (update/reset) | ✗ | ✗ | Text / speech / general sequences | Cho et al., 2014 |
-| **ConvGRU** | Convolutional gating unit | ✅ | ✗ | Video, 4D geometry | Shi et al., 2015 → ST4RTrack 2025 |
-| **Dynamic LSTM** | LSTM + input-dependent gates | ✗ | ✅ | Speech enhancement / ASR | Cheng et al., 2024 |
-| **Gated GRU** | GRU + dynamic/energy gates | ✗ | ✅ | Online SLU / incremental speech | Shivakumar et al., 2021 |
+- **Some Other Temporal Modeling**
+  - GRU
+  - ConvGRU
+  - DynamicLSTM
+  - GatedGRU
 
 
 - **CNN**
@@ -300,7 +295,16 @@ $$
   <img src="/assets/img/deep_4.jpg" alt="Knowledge Map" width="75%">
 </p>
 
-<br><br>
+<br>
+
+## 4. Learning Rates
+
+  - [2025 - A Proof of Learning Rate Transfer under µP](https://arxiv.org/pdf/2511.01734)
+
+
+
+
+<br>
 
 
 
