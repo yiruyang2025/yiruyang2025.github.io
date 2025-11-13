@@ -140,7 +140,7 @@ In practice, "Deep" means:
   - When inputs are sequences<br>
   - [Hochreiter & Schmidhuber 1997 - LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)<br>
 
-- **Some Other Temporal Modeling**
+- **Some Other 📍 Temporal Modeling**
   - GRU
   - ConvGRU
   - DynamicLSTM
