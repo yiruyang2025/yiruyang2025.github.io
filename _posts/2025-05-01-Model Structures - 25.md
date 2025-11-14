@@ -287,13 +287,13 @@ $$
 
 ## 6. Common Kernel Functions
 
-| Kernel Name                        | Formula                                                 | Feature                                          |
-| ---------------------------------- | ------------------------------------------------------- | ------------------------------------------------ |
-| **Linear Kernel**                  | $K(x, y) = x^{T}y$                                      | Original linear inner product                    |
-| **Polynomial Kernel**              | $K(x, y) = (x^{T}y + c)^{d}$                            | Polynomial non-linear mapping                    |
-| **RBF / Gaussian Kernel**          | $K(x, y) = \exp!\big(-|x - y|^{2} / (2\sigma^{2})\big)$ | Infinite-dimensional mapping; most commonly used |
-| **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha,x^{T}y + c)$                    | Similar to a neural-network activation function  |
-| **Laplacian / Exponential Kernel** | $K(x, y) = \exp!\big(-|x - y| / \sigma\big)$            | More sensitive to sparse features                |
+| **Kernel Name**                   | **Formula**                                              | **Feature**                                       |
+| ---------------------------------- | -------------------------------------------------------- | ------------------------------------------------- |
+| **Linear Kernel**                  | $K(x, y) = x^{T}y$                                       | Original linear inner product                     |
+| **Polynomial Kernel**              | $K(x, y) = (x^{T}y + c)^{d}$                             | Polynomial non-linear mapping                     |
+| **RBF / Gaussian Kernel**          | $K(x, y) = \exp\!\big(-\|x - y\|^{2} / (2\sigma^{2})\big)$ | Infinite-dimensional mapping; most commonly used  |
+| **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha\, x^{T}y + c)$                   | Similar to a neural-network activation function   |
+| **Laplacian / Exponential Kernel** | $K(x, y) = \exp\!\big(-\|x - y\| / \sigma\big)$          | More sensitive to sparse features                 |
 
 
 <br><br><br><br>
