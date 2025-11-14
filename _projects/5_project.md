@@ -47,10 +47,10 @@ related_publications: true
 
 ## Best Modern Binding Frameworks for Large-Scale Simulation (2025 Recommendation)
 
-pybind11 – Stable and widely used (PyTorch official)
-nanobind – Faster, modern, and designed for large-scale GPU simulation
+- pybind11 – Stable and widely used (PyTorch official)<br>
+- nanobind – Faster, modern, and designed for large-scale GPU simulation
+  - [check with the author](https://github.com/wjakob)
 
-- [check with the author](https://github.com/wjakob)
 
 | Framework            | Key Features                                       | Advantages                                                         | Limitations                                                      | Typical Use Cases                                                            |
 | -------------------- | -------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------------------- |
