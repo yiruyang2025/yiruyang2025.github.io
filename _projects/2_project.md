@@ -124,6 +124,20 @@ $$
 
 <br>
 
+
+## Visualization - Demo Frame Extraction
+
+| Type                                                | Representative Papers                              | Typical Setting              | Your Setting                    | Analysis                                                                                                 |
+| --------------------------------------------------- | -------------------------------------------------- | ---------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Feed-forward 4D Reconstruction**                  | *St4RTrack* (ICCV 2025), *MapAnything* (CVPR 2024) | `fps=6–10`, `vframes=48–96`  | ✅ `fps=8, vframes=64`           | Perfect match. 8 fps offers the ideal balance between temporal smoothness and computational cost.        |
+| **Dynamic NeRF / Gaussian Splatting Series**        | *4DGS*, *HexPlane*, *D-NeRF*                       | `fps=4–6`, `vframes=100–200` | ⚖️ Slightly shorter (64 frames) | Yours is lighter and better suited for a feed-forward pipeline; theirs target long-term motion modeling. |
+| **Optical Flow / Tracking / CoTracker Series**      | *CoTracker* (CVPR 2023), *TAPVid-3D* (CVPR 2023)   | `fps=10–15`, `vframes=32–64` | ✅ Same level                    | Those focus on short-term tracking; your setup balances temporal smoothness with efficiency.             |
+| **Diffusion-based 4D Refinement**                   | *CasDiffMVS*, *DiffusionDepth*                     | `fps=8–12`, `vframes=64–128` | ⚖️ Slightly lower upper bound   | Your 8 × 64 configuration meets the minimal acceptable standard for diffusion-based refinement.          |
+| **Scene Flow / Depth Estimation (DUSt3R / MASt3R)** | CVPR 2024–2025                                     | `fps=2–4`, `vframes=16–32`   | 🚀 Much higher temporal density | Your sampling is 2× finer, making it more suitable for ConvGRU and temporal-consistency modeling.        |
+
+
+<br>
+
 ## Diffusion Models vs. Flow Matching
 
 | Problem Type              | Diffusion Models                                                            | Flow Matching                                                         |
@@ -255,7 +269,6 @@ $$
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
   - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
 
-<br>
 
 ## 2. 3D
 
@@ -264,8 +277,6 @@ $$
   - [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
   - [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
   - [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
-
-<br>
 
 
 ## Key Contributions
@@ -326,7 +337,7 @@ $$
 
 ## Neural Differential Equations
 
-### 1. Core Idea  
+**1. Core Idea**
 
 - Neural Differential Equations (NDEs) generalize neural networks to continuous depth. 
 - Instead of discrete layer updates, the hidden state evolves continuously over time according to an ordinary differential equation (ODE):
@@ -341,7 +352,7 @@ $$
 \mathbf{z}(t_1) = \mathbf{z}(t_0) + \int_{t_0}^{t_1} f_\theta(\mathbf{z}(t), t)\,dt
 $$
 
-### 2. Comparison with Standard Neural Networks
+**2. Comparison with Standard Neural Networks**
 
 | Property | Standard NN | Neural Differential Equation |
 |-----------|--------------|-------------------------------|
@@ -352,7 +363,7 @@ $$
 | Interpretation | Layer mapping | Continuous-time dynamical system |
 
 
-### 3. Training via the Adjoint Method  
+**3. Training via the Adjoint Method** 
 
 - Gradients are computed by solving an adjoint ODE backward in time:
 
@@ -363,7 +374,7 @@ $$
 
 - This allows memory-efficient gradient computation since intermediate states do not need to be stored
 
-### 4. Variants
+**4. Variants**
 
 - **Neural ODE:** Deterministic dynamics  
 - **Neural SDE:** Stochastic systems with noise  
@@ -372,7 +383,7 @@ $$
 - **Controlled DE:** Handles continuous control inputs  
 
 
-### 5. Physical Interpretation  
+**5. Physical Interpretation**  
 
 - The function \( f_\theta \) acts as a **learnable vector field** that defines how the system evolves in time 
 - This enables learning unknown physical dynamics directly from data:
