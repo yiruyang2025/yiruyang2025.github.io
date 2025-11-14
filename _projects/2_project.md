@@ -127,6 +127,13 @@ $$
 
 ## Visualization - Demo Frame Extraction
 
+
+```
+mkdir -p ./tmp_demo_frames
+ffmpeg -y -i ./assets/feng.mp4 -vf fps=**x/xx** -vframes=**xx** ./tmp_demo_frames/frame_%04d.png
+```
+
+
 | Type                                                | Representative Papers                              | Typical Setting              | Your Setting                    | Analysis                                                                                                 |
 | --------------------------------------------------- | -------------------------------------------------- | ---------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Feed-forward 4D Reconstruction**                  | *St4RTrack* (ICCV 2025), *MapAnything* (CVPR 2024) | `fps=6–10`, `vframes=48–96`  | ✅ `fps=8, vframes=64`           | Perfect match. 8 fps offers the ideal balance between temporal smoothness and computational cost.        |
