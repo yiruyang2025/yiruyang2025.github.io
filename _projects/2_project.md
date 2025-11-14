@@ -36,6 +36,7 @@ related_publications: true
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
   - [ICCV 2025, Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
   - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
+  - [2025 - This Camera System Can Focus on Everything, 📍 Everywhere, All At Once](https://petapixel.com/2025/11/10/this-camera-system-can-focus-on-everything-everywhere-all-at-once/)
 <br>
 
 
