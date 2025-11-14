@@ -34,6 +34,7 @@ related_publications: true
   - 📍 cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
   - [ICCV 2025, Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
+  - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
 <br>
 
 
