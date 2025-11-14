@@ -45,6 +45,21 @@ related_publications: true
 
 <br>
 
+## Best Modern Binding Frameworks for Large-Scale Simulation (2025 Recommendation)
+
+| Framework            | Key Features                                       | Advantages                                                         | Limitations                                                      | Typical Use Cases                                                            |
+| -------------------- | -------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **pybind11**         | Developed at ETH Zürich, C++11 header-only library | Simple, high performance, excellent integration with PyTorch/Eigen | Compile-time (static) binding; cannot dynamically update kernels | ✅ General scientific research / PyTorch extensions / Geometry reconstruction |
+| **nanobind**         | Created by *Wenzel Jakob* (author of pybind11)     | Faster (≈30% less memory), supports asynchronous CUDA streams      | Still under active development; not fully feature-complete       | ✅ HPC + next-generation ML frameworks (e.g., NVIDIA Warp, Taichi, NerfAcc)   |
+| **Warp (NVIDIA)**    | NVIDIA’s native Python→CUDA JIT framework          | Automatically compiles CUDA kernels, no pybind layer required      | Limited to NVIDIA GPUs only                                      | ✅ Large-scale physical simulations (Fluid, Diffusion, 3D Gaussian models)    |
+| **cppyy**            | CERN’s Cling-based C++ reflection binding          | Real-time (dynamic) binding, suitable for massive simulation codes | Lower stability and slightly reduced performance                 | ✅ Large scientific simulations (e.g., particle physics, medical imaging)     |
+| **Cython**           | Python-like syntax generating C/C++ code           | Fast for rapid prototyping                                         | Complicated for CUDA integration, poor scalability               | ⚙️ Quick prototyping for small-scale models                                  |
+| **PyO3 + Rust CUDA** | Rust → Python binding framework                    | Memory-safe, zero-copy interface                                   | New ecosystem, steep learning curve                              | ✅ Heterogeneous parallel systems / secure simulation engines                 |
+
+
+
+<br>
+
 ## [1/2] Physiology or Medicine
 
 
