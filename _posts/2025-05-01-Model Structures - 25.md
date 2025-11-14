@@ -270,9 +270,35 @@ $$
   - [2025 - A Proof of Learning Rate Transfer under µP](https://arxiv.org/pdf/2511.01734)
 
 
+<br>
+
+
+## 5. Historical Development of Kernel Functions
+
+| Year            | Person / School                  | Contribution                                                                                                                                                   |
+| --------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1909**        | **James Mercer**                 | Proposed **Mercer’s Theorem** — the mathematical relationship between symmetric positive-definite kernel functions and inner-product spaces of high dimension. |
+| **1930 – 1950** | Integral-Equation School         | The term *kernel* originally referred to the weighting function of an integral operator, $K(x, y)$.                                                            |
+| **1960s**       | **Vapnik & Chervonenkis (USSR)** | Developed **statistical learning theory** and introduced the idea of **implicit feature mapping**.                                                             |
+| **1992 – 1995** | **Vapnik, Boser, Guyon, Cortes** | Formally applied kernel functions in **Support Vector Machines (SVM)** using the **kernel trick** to avoid explicit high-dimensional mapping.                  |
 
 
 <br>
+
+## 6. Common Kernel Functions
+
+
+| Kernel Name                        | Formula                                      | Feature                                          |
+| ---------------------------------- | -------------------------------------------- | ------------------------------------------------ |
+| **Linear Kernel**                  | $K(x, y) = x^{T}y$                           | Original linear inner product                    |
+| **Polynomial Kernel**              | $K(x, y) = (x^{T}y + c)^{d}$                 | Polynomial non-linear mapping                    |
+| **RBF / Gaussian Kernel**          | $K(x, y) = e^{-|x - y|^{2} / (2\sigma^{2})}$ | Infinite-dimensional mapping; most commonly used |
+| **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha,x^{T}y + c)$         | Similar to a neural-network activation function  |
+| **Laplacian / Exponential Kernel** | $K(x, y) = e^{-|x - y| / \sigma}$            | More sensitive to sparse features                |
+
+
+
+<br><br><br><br>
 
 
 
