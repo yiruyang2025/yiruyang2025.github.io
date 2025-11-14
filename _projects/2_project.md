@@ -12,7 +12,8 @@ related_publications: true
 
 ## Related Coursework
 
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF,
+- [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted 📍 Diffusion Transformers](https://pixel-perfect-depth.github.io/)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
@@ -31,7 +32,7 @@ related_publications: true
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
   - [📍 2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-  - 📍 cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
+  - cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
   - [ICCV 2025, Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
   - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
