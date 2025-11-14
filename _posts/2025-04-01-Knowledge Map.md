@@ -21,6 +21,13 @@ images:
 
 <br>
 
+## Model Structures
+
+  - [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
+
+
+<br>
+
 # 1. 2025 - 2026
 
 
@@ -72,31 +79,27 @@ Graph Theory
 
 <br><br>
 
-## Model Structures
 
-  - [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
-
-<br>
 
 
 ## Post-Training Techniques
 
-❄️ **Efficient Adaptation**
+❄️ **Efficient Adaptation**<br>
   - Adapter (reduce training parameters)
   - Distillation (transfer knowledge)
   - Pruning (delete redundant structure)
 
 
-❄️ **Representation Learning**
+❄️ **Representation Learning**<br>
   - Self-Supervised Learning - SSL
 
 
-❄️ **Model Manipulation**
+❄️ **Model Manipulation**<br>
   - Model Editing
   - Model Merging
 
 
-❄️ **Generalization**
+❄️ **Generalization**<br>
   - Few-shot Learning
   - Zero-shot Learning
 
