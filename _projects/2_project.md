@@ -73,16 +73,6 @@ related_publications: true
 
 <br>
 
-## Cross-frame Modelling
-
-| Direction                           | Methods                                      | Core Mechanism                                                                                          |
-| ----------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Cross-frame feature aggregation** | ConvGRU, Transformer, Optical Flow Alignment | Accumulates features over time to ensure temporal consistency across frames.                            |
-| **Semantic alignment**              | DINOv2 / SAM + geometric head                | Replaces pixel-level matching with semantic feature alignment to recognize object-level correspondence. |
-| **Temporal attention**              | Video Transformer, 4D Diffusion              | Models temporal consistency jointly in the latent space through attention mechanisms.                   |
-| **Structural priors**               | Shape priors / implicit fields               | Incorporates geometric constraints to regularize dynamic or sparse-view reconstruction.                 |
-
-<br>
 
 ## 📍 Semantic vs. Photometric Consistency
 
