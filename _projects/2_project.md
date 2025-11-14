@@ -12,7 +12,7 @@ related_publications: true
 
 ## Related Coursework
 
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF,
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, DiT, 
 - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted 📍 Diffusion Transformers](https://pixel-perfect-depth.github.io/)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
