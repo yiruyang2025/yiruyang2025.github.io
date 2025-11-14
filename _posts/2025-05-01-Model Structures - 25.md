@@ -292,9 +292,9 @@ $$
 | ---------------------------------- | -------------------------------------------- | ------------------------------------------------ |
 | **Linear Kernel**                  | $K(x, y) = x^{T}y$                           | Original linear inner product                    |
 | **Polynomial Kernel**              | $K(x, y) = (x^{T}y + c)^{d}$                 | Polynomial non-linear mapping                    |
-| **RBF / Gaussian Kernel**          | $K(x, y) = e^{-|x - y|^{2} / (2\sigma^{2})}$ | Infinite-dimensional mapping; most commonly used |
+| **RBF / Gaussian Kernel**          | $K(x, y) = e^{-|x - y|^{2}/(2\sigma^{2})}$ | Infinite-dimensional mapping; most commonly used |
 | **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha,x^{T}y + c)$         | Similar to a neural-network activation function  |
-| **Laplacian / Exponential Kernel** | $K(x, y) = e^{-|x - y| / \sigma}$            | More sensitive to sparse features                |
+| **Laplacian / Exponential Kernel** | $K(x, y) = e^{-|x - y|/\sigma}$            | More sensitive to sparse features                |
 
 
 
