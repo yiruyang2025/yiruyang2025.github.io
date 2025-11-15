@@ -126,26 +126,6 @@ $$
 <br>
 
 
-## Visualization - Demo Frame Extraction
-
-
-```
-mkdir -p ./tmp_demo_frames
-ffmpeg -y -i ./assets/feng.mp4 -vf fps=xx -vframes=xx ./tmp_demo_frames/frame_%04d.png
-```
-
-
-| Type                                                | Representative Papers                              | Typical Setting              | Your Setting                    | Analysis                                                                                                 |
-| --------------------------------------------------- | -------------------------------------------------- | ---------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Feed-forward 4D Reconstruction**                  | St4RTrack (ICCV 2025), MapAnything (CVPR 2024) | `fps=6–10`, `vframes=48–96`  | ✅ `fps=8, vframes=64`           | Perfect match. 8 fps offers the ideal balance between temporal smoothness and computational cost.        |
-| **Dynamic NeRF / Gaussian Splatting Series**        | 4DGS, HexPlane, D-NeRF                       | `fps=4–6`, `vframes=100–200` | ⚖️ Slightly shorter (64 frames) | Yours is lighter and better suited for a feed-forward pipeline; theirs target long-term motion modeling. |
-| **Optical Flow / Tracking / CoTracker Series**      | CoTracker (CVPR 2023), TAPVid-3D (CVPR 2023)   | `fps=10–15`, `vframes=32–64` | ✅ Same level                    | Those focus on short-term tracking; your setup balances temporal smoothness with efficiency.             |
-| **Diffusion-based 4D Refinement**                   | CasDiffMVS, DiffusionDepth                     | `fps=8–12`, `vframes=64–128` | ⚖️ Slightly lower upper bound   | Your 8 × 64 configuration meets the minimal acceptable standard for diffusion-based refinement.          |
-| **Scene Flow / Depth Estimation (DUSt3R / MASt3R)** | CVPR 2024–2025                                     | `fps=2–4`, `vframes=16–32`   | 🚀 Much higher temporal density | Your sampling is 2× finer, making it more suitable for ConvGRU and temporal-consistency modeling.        |
-
-
-<br>
-
 ## Traditional Pairwise Pipeline (O(T²))
 
 ```
