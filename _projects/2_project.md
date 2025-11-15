@@ -146,6 +146,36 @@ ffmpeg -y -i ./assets/feng.mp4 -vf fps=xx -vframes=xx ./tmp_demo_frames/frame_%0
 
 <br>
 
+## Traditional Pairwise Pipeline (O(T²))
+
+```
+      I1 —— I2 —— I3 —— ... —— IT
+       ↕    ↕    ↕          ↕
+      (I1,I2), (I1,I3), (I2,I3), (I3,I4), ... (IT-1,IT)
+       └────────────── Dense Pairwise Matching ───────────────┘
+```
+
+## Anchor-based Pipeline (O(T))
+
+```
+       I1 ──────────▶ I2
+        │            │
+        │            ▼
+        │──────────▶ I3
+        │            │
+        │            ▼
+        │──────────▶ I4
+        │            │
+        │            ▼
+        └──────────▶ IT
+   (fixed anchor frame)
+
+→ Each frame j only forms one pair (I1, Ij)
+→ Each pair predicts (X^1_j, X^j_j) in the same world coordinate
+```
+
+<br>
+
 ## Diffusion Models vs. Flow Matching
 
 | Problem Type              | Diffusion Models                                                            | Flow Matching                                                         |
