@@ -71,6 +71,8 @@ related_publications: true
     -  Friday Oct 10th, 15:00-15:30 Zurich Time
   - (Uncertainty-Aware 3D Mapping, Monday, October 13th, Zoom)
   - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring, Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 Oct 2025, 4:45 p.m, HIL D 53, Hönggerberg
+  - iTwRL: Interactable Digital Twin for Reinforcement Learning
+    - Nov 17th, 2pm, CNB G 110 and Zoom
 
 <br>
 
