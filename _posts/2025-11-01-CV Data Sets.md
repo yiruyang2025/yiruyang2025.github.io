@@ -30,7 +30,14 @@ images:
 ## 2026
 
 
-<br><br>
+<br><br><br><br>
+
+
+
+
+
+
+## 4D Reconstruction
 
 
 
@@ -44,6 +51,26 @@ images:
 | **MPI-Sintel (Complete)**                                 | Blender-rendered movie frames with optical-flow ground truth         | Depth and optical flow maps                    | Semantic layers (albedo, shading)         | Camera poses provided                 | 23 training + 12 test sequences (≈ 1 min total)                           | ≈ 5.3 GB       |
 | **TUM-Dynamics** (RGB-D SLAM Benchmark 2012)              | Real RGB-D video sequences with moving objects                       | Depth maps from Kinect sensor                  | No semantic mask provided                 | Ground-truth camera poses             | 2 – 3 min per sequence × 15 – 20 sequences (≈ 1 h total)                  | ≈ 60 GB        |
 | **ETH3D** (Schöps et al., CVPR 2017)                      | Real multi-view stereo benchmark (static scenes)                     | Ground-truth depth maps                        | No semantic mask provided                 | Calibrated multi-view poses           | Static scenes (~10 – 50 images per scene)                                 | ≈ 25 GB        |
+
+
+<br><br><br><br>
+
+
+## NeurIPS 1987–2024
+
+| Period        | Core Theme                         | Representative Focus                                      |
+| ------------- | ---------------------------------- | --------------------------------------------------------- |
+| **1987–1993** | Neuro-inspired Foundations         | Neural computation, Hebbian learning, Hopfield networks   |
+| **1994–2000** | Statistical Learning Era           | SVM, VC theory, kernel methods                            |
+| **2001–2009** | Probabilistic Modeling             | Graphical models, Bayesian inference, LDA, GP             |
+| **2010–2014** | Representation Revival             | Deep belief nets, optimization, sparse coding             |
+| **2015–2017** | Theoretical Consolidation          | Learning theory, optimization, multi-agent RL             |
+| **2018–2019** | Deep Learning Formalization        | Neural ODEs, distributed optimization, RL theory          |
+| **2020–2021** | Scaling Reflection                 | GPT-3, robustness, evaluation metrics                     |
+| **2022–2023** | Diffusion + LLM Revolution         | Generative diffusion, alignment, safety                   |
+| **2024→**     | Multimodal + Reasoning Integration | Vision-language models, efficiency, real-world benchmarks |
+
+
 
 <br><br>
 
