@@ -217,8 +217,98 @@ $$
 | **Hough-Voting / DINO Semantic Alignment** | Use semantic token similarity for weakly supervised matching | O(N) per frame | DINO Semantic Prior |
 | **Graph Cut / Sinkhorn Normalization** | Approximate discrete matching via differentiable assignment | O(N³) | Differentiable Alignment |
 
+<br>
+
+## Ground Truth for 4D Reconstruction
+
+| Dataset                  | Scene Type                                                                           | Provided Ground Truth                                            | Used for Supervision                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Point Odyssey (PO)**   | Dynamic scenes with known camera trajectory and per-vertex motion (long-term tracks) | 3D vertex positions over time (x, y, z, t) and camera extrinsics | ✅ **Tracking Branch**: uses 4D vertex trajectories<br>✅ **Reconstruction Branch**: uses per-frame mesh depth |
+| **Dynamic Replica (DR)** | Real scanned scenes with dynamic motion (camera + objects)                           | Known static/dynamic meshes and GT camera pose                   | ✅ **Reconstruction**: per-frame geometry<br>✅ **Tracking**: vertex correspondences                           |
+| **Kubric**               | Synthetic multi-object scenes                                                        | Depth map, instance segmentation, camera pose                    | ✅ **Reconstruction only** (depth/geometry); weak tracking                                                    |
 
 
+
+## Step-by-Step: Constructing GT Pointmaps
+
+**Example:** *Point Odyssey* (Dynamic Replica follows the same logic)
+
+Each frame provides the scene mesh vertices in world coordinates:
+
+$$
+V_t = \{ v_k^t \in \mathbb{R}^3 \mid k = 1, \dots, N \}
+$$
+
+where each $v_k^t$ is a 3D vertex position at time $t$.
+
+For each image pixel $(u, v)$, find its corresponding mesh vertex (via rasterization or ray casting):
+
+$$
+X_t(u,v) = \text{mesh2image}(V_t)
+$$
+
+This is the ground-truth pointmap at time $t$.
+
+---
+
+### Tracking Branch Supervision
+
+For the same vertex across time $i \to j$:
+
+$$
+X^i_j(u,v)^{GT} = V^j_k - V^i_k
+$$
+
+provided by the dataset’s 4D trajectories.
+
+---
+
+### Reconstruction Branch Supervision
+
+Per-frame depth maps or meshes provide supervision for:
+
+$$
+X^j_j
+$$
+
+which represents geometry reconstruction at time $j$.
+
+All GT pointmaps are expressed in a **unified world coordinate frame**, transformed using the first frame’s camera extrinsics.
+
+---
+
+## Aligned Results — How They Are Computed
+
+During training and evaluation, predicted and GT pointmaps may differ in scale, rotation, or translation.  
+Alignment ensures they are comparable.
+
+---
+
+### Step 1: Global Median Scale Alignment (default)
+
+For each sequence, the predicted and GT pointmaps are scale-normalized:
+
+$$
+s = \text{median}\left( \frac{ \| GT_i \| }{ \| Pred_i \| } \right), \quad Pred \leftarrow s \cdot Pred
+$$
+
+---
+
+### Step 2: SIM(3) Alignment (used in evaluation)
+
+In Tables 4 and 5, an additional similarity transform alignment (scale + rotation + translation) is applied using the **Procrustes algorithm**:
+
+$$
+\min_{R, t, s} \sum_i \| GT_i - (s R Pred_i + t) \|^2
+$$
+
+The aligned prediction is then used to report metrics such as **APD₃ᴰ** and **EPE**.
+
+---
+
+**In summary:**  
+Ground-truth pointmaps are rasterized from dataset-provided 4D meshes, expressed in the world coordinate frame.  
+During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmaps before computing accuracy metrics.
 
 
 <br>
