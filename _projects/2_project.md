@@ -231,7 +231,7 @@ $$
 
 ## Step-by-Step: Constructing GT Pointmaps
 
-**Example:** *Point Odyssey* (Dynamic Replica follows the same logic)
+**Example:** Point Odyssey
 
 Each frame provides the scene mesh vertices in world coordinates:
 
@@ -251,7 +251,7 @@ This is the ground-truth pointmap at time $t$.
 
 ---
 
-### Tracking Branch Supervision
+## 1. Tracking Branch Supervision
 
 For the same vertex across time $i \to j$:
 
@@ -263,7 +263,7 @@ provided by the dataset’s 4D trajectories.
 
 ---
 
-### Reconstruction Branch Supervision
+## 2. Reconstruction Branch Supervision
 
 Per-frame depth maps or meshes provide supervision for:
 
@@ -279,14 +279,14 @@ All GT pointmaps are expressed in a **unified world coordinate frame**, transfor
 
 ## Aligned Results — How They Are Computed
 
-During training and evaluation, predicted and GT pointmaps may differ in scale, rotation, or translation.  
+- During training and evaluation, predicted and GT pointmaps may differ in scale, rotation, or translation.  
 Alignment ensures they are comparable.
 
 ---
 
-### Step 1: Global Median Scale Alignment (default)
+**Step 1: Global Median Scale Alignment (default)**
 
-For each sequence, the predicted and GT pointmaps are scale-normalized:
+- For each sequence, the predicted and GT pointmaps are scale-normalized:
 
 $$
 s = \text{median}\left( \frac{ \| GT_i \| }{ \| Pred_i \| } \right), \quad Pred \leftarrow s \cdot Pred
@@ -294,9 +294,9 @@ $$
 
 ---
 
-### Step 2: SIM(3) Alignment (used in evaluation)
+**Step 2: SIM(3) Alignment (used in evaluation)**
 
-In Tables 4 and 5, an additional similarity transform alignment (scale + rotation + translation) is applied using the **Procrustes algorithm**:
+- In Tables 4 and 5, an additional similarity transform alignment (scale + rotation + translation) is applied using the **Procrustes algorithm**:
 
 $$
 \min_{R, t, s} \sum_i \| GT_i - (s R Pred_i + t) \|^2
@@ -307,9 +307,8 @@ The aligned prediction is then used to report metrics such as **APD₃ᴰ** and 
 ---
 
 **In summary:**  
-Ground-truth pointmaps are rasterized from dataset-provided 4D meshes, expressed in the world coordinate frame.  
+- Ground-truth pointmaps are rasterized from dataset-provided 4D meshes, expressed in the world coordinate frame.  
 During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmaps before computing accuracy metrics.
-
 
 <br>
 
