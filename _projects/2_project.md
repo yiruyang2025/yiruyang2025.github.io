@@ -730,7 +730,7 @@ Outputs (Direct Prediction)
 
 ## Why Squared (L2) Loss
 
-### 1. Mathematical
+## 1. Mathematical
 
 - Squaring makes the error smooth, continuous, and differentiable, which is required for gradient-based optimization
 
@@ -769,7 +769,7 @@ $$
 
 <br>
 
-### 2. Statistical
+## 2. Statistical
 
 - The squared loss corresponds to assuming Gaussian noise in the measurements
 
@@ -796,7 +796,7 @@ $$
 
 <br>
 
-### 3. Optimization
+## 3. Optimization
 
 - The squared loss amplifies large errors and stabilizes convergence
 
