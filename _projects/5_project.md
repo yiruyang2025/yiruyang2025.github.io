@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - AI Simulation
-description: Scientific Research, NP-hard
+description: Scientific Research
 img: assets/img/4.jpg
 importance: 5
 category: work
