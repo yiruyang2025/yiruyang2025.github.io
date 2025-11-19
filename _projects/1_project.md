@@ -16,7 +16,8 @@ related_publications: true
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
   - [2025 - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
-  - [2025 - Towards End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
+  - [2025 - Towards 📍 End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
+  - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
 
 
 ```
