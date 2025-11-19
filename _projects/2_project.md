@@ -53,8 +53,51 @@ related_publications: true
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 <br>
 
+## Dealing With Continuous 3D Input Datasets
 
-**Attended Master Thesis Project Defense at cvg**
+```
++---------------------------+
+|  Discrete Token Sequence  |
+|  ["age", "BMI", "asthma"] |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Token Embedding Matrix   |
++---------------------------+
+             |
+             v
++---------------------------+
+| Multi-Head Self-Attention |
+|     O(N^2) complexity     |
++---------------------------+
+             |
+             v
++---------------------------+
+|     Feed-Forward Layer    |
++---------------------------+
+             |
+             v
++---------------------------+
+|   Output: Token-to-Token  |
+|     symbolic reasoning    |
++---------------------------+
+```
+
+## Continuous Modal Inputs Include:
+
+  - images
+  - depth maps
+  - 3D point clouds
+  - 3D meshes
+  - medical waveforms (ECG, PPG, Doppler)
+  - neural biosignals (EEG/MEG)
+
+- Issue: Discrete symbolic models cannot directly represent geometry.
+
+
+
+## Attended Master Thesis Project Defense at CVG
 
   - 01 Sep 2025 - 📍 Reconstructing Complete Garments with Foundation Models
     - Pattern Prediction on Fabric Recognition
