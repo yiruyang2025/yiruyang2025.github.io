@@ -95,6 +95,29 @@ related_publications: true
 
 - Issue: Discrete symbolic models cannot directly represent geometry.
 
+## Information Loss
+
+```
+ Continuous Data (image/depth/EEG/point cloud)
+           |
+           v
++------------------------------+
+| Continuous Encoder (CNN/ViT) |
++------------------------------+
+           |
+           v
+   Project to k "fake tokens"
+           |
+           v
++------------------------------+
+| Traditional LLM Transformer  |
+|   (expects symbolic tokens)  |
++------------------------------+
+           |
+           v
+   LLM pretends to "understand"
+   → But geometry/topology lost
+```
 
 
 ## Attended Master Thesis Project Defense at CVG
