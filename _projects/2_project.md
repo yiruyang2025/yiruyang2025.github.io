@@ -580,7 +580,6 @@ Points → Modern Neural Models (GS / Transformer)
 
   - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
   - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
-  - [3D gaussian](https://shivangi-aneja.github.io/projects/scaffoldavatar/)
 
 <br>
 
