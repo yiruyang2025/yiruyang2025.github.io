@@ -73,6 +73,8 @@ related_publications: true
   - From Sensors to Solutions: Permanent Laser Scanning in 📍 Environmental Monitoring
     - Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 Oct 2025, 4:45 p.m, HIL D 53, Hönggerberg
   - (iTwRL: Interactable Digital Twin for Reinforcement Learning, Nov 17th, 2pm, Zoom)
+  - Learning 3D Human Foundation Models: A Data Request, Prov. Siyu Tang, Mon, 24-Nov-2025, 13:00–14:00, HG D 16.2
+    - `Computational methods` to model human motion and behavior from visual inputs in real-world environments
 
 <br>
 
