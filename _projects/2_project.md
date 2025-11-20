@@ -31,6 +31,7 @@ related_publications: true
   - [2025 - MonST3R](https://monst3r-project.github.io)
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
   - [📍 2025 - PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://www.linkedin.com/posts/naveen-manwani-65491678_paper-alert-paper-title-physx-anything-activity-7396979898667552768-NxgP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+  - [2023 - 📍 Point Cloud Pre-training with Diffusion Models](https://arxiv.org/abs/2311.14960)
   - [📍 2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
   - cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
