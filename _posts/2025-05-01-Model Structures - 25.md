@@ -300,9 +300,9 @@ $$
 
 
 
-## Some References
+## References
 
-
+  - [2025 - Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/)
 
 <br><br>
 
