@@ -1052,23 +1052,6 @@ $$
 $$  
 
 
-
-## Deep Learning, Training, and Knowledge Distillation
-
-| Dimension                  | Deep Learning                                                                        | Training                            | Knowledge Distillation                                                                       |
-| -------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Objective**              | Learn multi-layer nonlinear function ( f(x; \theta) ) to represent complex patterns. | Optimize a loss function from data. | Make the student model mimic the teacher’s output distribution and internal representations. |
-| **Input Information**      | Raw data ( x )                                                                       | ( (x, y) )                          | ( (x, y, T(x)) )                                                                             |
-| **Loss Function**          | Any differentiable objective.                                                        | Task loss ( \mathcal{L}(f(x), y) )  | ( \alpha \mathcal{L}(f(x), y) + (1-\alpha)\mathrm{KL}(f(x) \Vert T(x)) )                     |
-| **Supervision Source**     | Data itself.                                                                         | Hard labels ( y ).                  | Teacher outputs ( T(x) ) + true labels ( y ).                                                |
-| **Entropy Characteristic** | May be high or low depending on task.                                                | Low-entropy one-hot supervision.    | High-entropy soft targets (smoothed teacher outputs).                                        |
-| **Optimization Process**   | BP + GD (Backpropagation + Gradient Descent).                                        | BP + GD.                            | BP + GD with temperature scaling ( \tau ).                                                   |
-| **Application Goal**       | General representation learning.                                                     | Task-specific model fitting.        | Model compression, knowledge transfer, or performance enhancement.                           |
-| **Output Features**        | Deep hierarchical representations.                                                   | Task predictions.                   | Balanced task accuracy and teacher–student alignment.                                        |
-
-
-
-
 <br><br>
 
 ## Hyperparameter Optimization
