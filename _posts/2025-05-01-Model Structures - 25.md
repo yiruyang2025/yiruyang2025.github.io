@@ -31,7 +31,22 @@ images:
 | **Impact / Use**   | Powers modern AI systems in **vision (CNNs)**, **language (Transformers)**, **speech (RNNs)**, and **generative models (Diffusion, GANs)**. |
 
 
-<br>
+## Deep Learning, Training, and Knowledge Distillation
+
+| Dimension | Deep Learning | Training | Knowledge Distillation |
+| ---------- | -------------- | ---------- | ------------------------ |
+| **Objective** | Learn multi-layer nonlinear function `f(x; θ)` to represent complex patterns. | Optimize a loss function from data. | Make the student model mimic the teacher’s output distribution and internal representations. |
+| **Input Information** | Raw data `(x)` | `(x, y)` | `(x, y, T(x))` |
+| **Loss Function** | Any differentiable objective. | Task loss `𝓛(f(x), y)` | `α 𝓛(f(x), y) + (1−α) KL(f(x) ∥ T(x))` |
+| **Supervision Source** | Data itself. | Hard labels `(y)`. | Teacher outputs `(T(x))` + true labels `(y)`. |
+| **Entropy Characteristic** | May be high or low depending on task. | Low-entropy one-hot supervision. | High-entropy soft targets (smoothed teacher outputs). |
+| **Optimization Process** | BP + GD *(Backpropagation + Gradient Descent)*. | BP + GD. | BP + GD with temperature scaling `τ`. |
+| **Application Goal** | General representation learning. | Task-specific model fitting. | Model compression, knowledge transfer, or performance enhancement. |
+| **Output Features** | Deep hierarchical representations. | Task predictions. | Balanced task accuracy and teacher–student alignment. |
+
+
+
+<BR>
 
 ```
 Deep Learning World                             Classical ML World
