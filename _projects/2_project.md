@@ -147,6 +147,15 @@ related_publications: true
 <br>
 
 
+## During Training
+
+| Implementation style         | Number of backward calls | Gradient behavior               | Characteristics                                                                                                  |
+| ---------------------------- | ------------------------ | ------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `(loss1 + loss2).backward()` | 1                        | Computes gradients jointly      | Simpler, but combined gradients are less controllable                                                            |
+| Separate `backward()` calls  | 2                        | Computes gradients individually | Better suited for tasks requiring different weighting or multi-branch networks (e.g., semantic + diffusion loss) |
+
+
+
 ## 📍 Semantic vs. Photometric Consistency
 
 - In traditional SfM / MVS / NeRF pipelines, pixel correspondence is established by enforcing **photometric consistency** across views:
