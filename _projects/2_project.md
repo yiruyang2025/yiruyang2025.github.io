@@ -18,13 +18,21 @@ related_publications: true
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
-
-
 - Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT & St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem.
 
 - All **deterministic** models → `Cannot generate multiple plausible deformation trajectories`, however, The goal of 4D Reconstruction is not merely to reconstruct **the surface deformation of a video**, but rather to `capture the underlying deformation space`.
 
 <br>
+
+
+
+## Refereces - 2D Vision SSL Supervision
+
+- [2021 - DINO: Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)
+- [2024 - DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/pdf/2304.07193)
+- [2025 - DINOv3](https://arxiv.org/pdf/2508.10104)
+
+
 
 ## Reading List / References
 
