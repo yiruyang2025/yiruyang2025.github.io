@@ -63,7 +63,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ## 4. Model Architecture
 
-### Encoder
+**Encoder**
 - Vision Transformer backbone (e.g., DINOv2 / ViT-L)
 - Temporal Positional Encoding (TPE):
   $$
@@ -71,12 +71,12 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
   $$
 - Token = image patch + geometric features + time embedding
 
-### Transformer Core
+**Transformer Core**
 - Based on MapAnything’s Alternating-Attention Transformer
 - Extended to cross-attention over **(views × time)**
 - Introduce **motion-aware attention block** modeling $\partial p / \partial t$
 
-### Decoder Heads
+**Decoder Heads**
 - **Ray directions**: $R_i(t)$  
 - **Depths along rays**: $D_i(t)$  
 - **Camera poses**: $P_i(t) = [R_i(t), T_i(t)]$  
@@ -91,13 +91,13 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 | Loss | Meaning | Expression |
 |------|----------|------------|
 | $L_{geom}$ | Geometric consistency (RDP structure) | As in MapAnything |
-| $L_{metric}$ | Metric scale consistency | $||\log m_{pred} - \log m_{gt}||$ |
-| $L_{flow}$ | Temporal scene flow consistency | $||X_t + F_t - X_{t+\Delta t}||$ |
+| $L_{metric}$ | Metric scale consistency | $\|\log m_{\text{pred}} - \log m_{\text{gt}}\|$ |
+| $L_{flow}$ | Temporal scene flow consistency | $\|X_t + F_t - X_{t+\Delta t}\|$ |
 | $L_{cluster}$ | Motion clustering | Contrastive or self-distillation |
-| $L_{smooth}$ | Temporal smoothness | $||X_{t+1} - 2X_t + X_{t-1}||$ |
+| $L_{smooth}$ | Temporal smoothness | $\|X_{t+1} - 2X_t + X_{t-1}\|$ |
 | $L_{mask}$ | Dynamic mask supervision | BCE or uncertainty weighting |
 
-Adaptive Robust Loss is used to weight all residuals (see section 8).
+- Adaptive Robust Loss is used to weight all residuals (see Section 8).
 
 ---
 
@@ -130,10 +130,10 @@ Where:
 
 ## 8. Adaptive Robust Loss
 
-### Core Idea
+**Core Idea**
 Adaptive Robust Loss is a **general parametric loss family** that unifies and generalizes $L_2$, $L_1$, Cauchy, Geman–McClure, and other robust losses under a single formulation.
 
-#### General form:
+**General form**
 $$
 L(x; \alpha, c) = \frac{|\alpha - 2|}{\alpha} \left( \left( \frac{(x/c)^2}{|\alpha - 2|} + 1 \right)^{\alpha/2} - 1 \right)
 $$
@@ -142,7 +142,8 @@ where:
 - $\alpha$: shape parameter controlling robustness
 - $c$: scale parameter controlling residual normalization
 
-#### Special cases:
+**Special cases**
+
 | $\alpha$ | Equivalent Loss | Behavior |
 |-----------|----------------|-----------|
 | 2 | L2 (Gaussian) | Sensitive, fast convergence |
@@ -151,21 +152,19 @@ where:
 | -2 | Geman–McClure | Very robust |
 | $\to \infty$ | Welsch / Tukey | Bounded, ignores outliers |
 
-### Adaptive Mechanism
+**Adaptive Mechanism**
 $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to automatically tune its robustness:
 - At early stages: smaller $\alpha$ → higher robustness
 - Later: $\alpha \to 2$ → smoother convergence
 
-This adaptivity stabilizes training on long-tailed error distributions common in visual geometry.
+- This adaptivity stabilizes training on long-tailed error distributions common in visual geometry.
 
-### Benefits
+**Benefits**
 - Unifies all standard robust losses  
 - Automatically adjusts to dataset noise level  
 - Requires no manual tuning  
 - Widely used in SLAM, SfM, VO, and 3D reconstruction tasks
 
-Reference:  
-J. T. Barron, *"A General and Adaptive Robust Loss Function,"* CVPR 2019, Google Research.
 
 ---
 
@@ -190,21 +189,16 @@ J. T. Barron, *"A General and Adaptive Robust Loss Function,"* CVPR 2019, Google
 | Task | Unified 3D + scene flow + temporal clustering |
 | Application | Dynamic SLAM, event-based perception, neural radiance flow reconstruction |
 
-Potential publication venues: CVPR, ICCV, ICRA, NeurIPS.
+- Potential publication venues: CVPR, ICCV, ICRA, NeurIPS.
 
 ---
 
 ## 11. Summary
 
-**MapAnything** models arbitrary static camera systems through a generalized camera representation.  
-**4D_MapAnything** extends this to **time-varying generalized cameras**, enabling **metric-scale, feed-forward 4D reconstruction** with dynamic clustering and temporal consistency.
+- **MapAnything** models arbitrary static camera systems through a generalized camera representation.  
+- **4D_MapAnything** extends this to **time-varying generalized cameras**, enabling **metric-scale, feed-forward 4D reconstruction** with dynamic clustering and temporal consistency.
 
-This framework offers a unified foundation for dynamic scene understanding across vision and robotics.
-
-
-
-
-
+- This framework offers a unified foundation for dynamic scene understanding across vision and robotics.
 
 
 <br>
@@ -223,5 +217,8 @@ This framework offers a unified foundation for dynamic scene understanding acros
 
 
 ## References
+
+
+J. T. Barron, *"A General and Adaptive Robust Loss Function,"* CVPR 2019, Google Research.
 
 <br>
