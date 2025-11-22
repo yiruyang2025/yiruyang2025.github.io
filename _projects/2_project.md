@@ -28,12 +28,13 @@ related_publications: true
 
 ## Reading List / References
 
+  - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
   - [2025 - MonST3R](https://monst3r-project.github.io)
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
-  - [📍 2025 - PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://www.linkedin.com/posts/naveen-manwani-65491678_paper-alert-paper-title-physx-anything-activity-7396979898667552768-NxgP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+  - [2025 - PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://www.linkedin.com/posts/naveen-manwani-65491678_paper-alert-paper-title-physx-anything-activity-7396979898667552768-NxgP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
   - [2025 - SAM 3D](https://ai.meta.com/blog/sam-3d/?utm_source=linkedin&utm_medium=organic_social&utm_content=video&utm_campaign=sam)
-  - [📍 2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
+  - [2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
   - cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
