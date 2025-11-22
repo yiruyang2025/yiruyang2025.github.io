@@ -131,9 +131,11 @@ Where:
 ## 8. Adaptive Robust Loss
 
 **Core Idea**
-Adaptive Robust Loss is a **general parametric loss family** that unifies and generalizes $L_2$, $L_1$, Cauchy, Geman–McClure, and other robust losses under a single formulation.
+
+- Adaptive Robust Loss is a **general parametric loss family** that unifies and generalizes $L_2$, $L_1$, Cauchy, Geman–McClure, and other robust losses under a single formulation.
 
 **General form**
+
 $$
 L(x; \alpha, c) = \frac{|\alpha - 2|}{\alpha} \left( \left( \frac{(x/c)^2}{|\alpha - 2|} + 1 \right)^{\alpha/2} - 1 \right)
 $$
@@ -153,6 +155,7 @@ where:
 | $\to \infty$ | Welsch / Tukey | Bounded, ignores outliers |
 
 **Adaptive Mechanism**
+
 $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to automatically tune its robustness:
 - At early stages: smaller $\alpha$ → higher robustness
 - Later: $\alpha \to 2$ → smoother convergence
@@ -160,6 +163,7 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 - This adaptivity stabilizes training on long-tailed error distributions common in visual geometry.
 
 **Benefits**
+
 - Unifies all standard robust losses  
 - Automatically adjusts to dataset noise level  
 - Requires no manual tuning  
@@ -202,7 +206,6 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 
 
 <br>
-
 
 
 
