@@ -42,8 +42,5 @@ latest_posts:
 **Interests**
   - Backbones, Perception, CFD
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  - not doing toy projects on no cluster and tiny 2.5TB storage at school
-
-
 
 <div style="height: 4rem;"></div>
