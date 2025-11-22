@@ -12,7 +12,7 @@ related_publications: true
 
 ## References
 
-[2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
+- [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
 
 
 
@@ -20,14 +20,15 @@ related_publications: true
 
 ## 1. Metric-Scale 3D Reconstruction
 
-### Definition
-"Metric-scale" means that the reconstructed 3D scene is expressed in **real-world physical units (e.g., meters)** rather than up-to-scale or normalized units.
+
+**Definition**
+
+- "Metric-scale" means that the reconstructed 3D scene is expressed in **real-world physical units (e.g., meters)** rather than up-to-scale or normalized units.
 
 - **Up-to-scale reconstruction** recovers only the structure's shape, not its real scale factor.  
   Example: a room reconstructed as either 3 m or 30 m wide appears identical.
 - **Metric-scale reconstruction** estimates a global scale parameter that converts the up-to-scale 3D structure into real-world dimensions.
-
-In MapAnything, a global metric scale token $m$ is predicted such that:
+- In MapAnything, a global metric scale token $m$ is predicted such that:
 $$
 X_i^{metric} = m \cdot X_i^{\sim}
 $$
@@ -35,14 +36,16 @@ where $X_i^{\sim}$ is the up-to-scale reconstruction.
 
 ---
 
-## 2. 4D_MapAnything: Pipeline Overview
+## 2. Pipeline
 
-### Objective
-To perform **feed-forward, metric-scale 4D reconstruction** of dynamic scenes using a **Time-Varying Generalized Camera** model.
+**Objective**
 
-### Concept
-MapAnything models static multi-view geometry using a generalized camera (fixed light-ray set).  
-4D_MapAnything extends this to **time-varying ray geometry**:
+- To perform **feed-forward, metric-scale 4D reconstruction** of dynamic scenes using a **Time-Varying Generalized Camera** model.
+
+**Concept**
+
+- MapAnything models static multi-view geometry using a generalized camera (fixed light-ray set).  
+
 $$
 \mathcal{C}(t) = \{ (p_i(t), d_i(t)) \}
 $$
@@ -51,6 +54,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 ---
 
 ## 3. Input Design
+
 
 | Input Type | Description | Example |
 |-------------|--------------|----------|
@@ -88,6 +92,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ## 5. Loss Functions
 
+
 | Loss | Meaning | Expression |
 |------|----------|------------|
 | $L_{geom}$ | Geometric consistency (RDP structure) | As in MapAnything |
@@ -97,13 +102,14 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 | $L_{smooth}$ | Temporal smoothness | $\|X_{t+1} - 2X_t + X_{t-1}\|$ |
 | $L_{mask}$ | Dynamic mask supervision | BCE or uncertainty weighting |
 
+
 - Adaptive Robust Loss is used to weight all residuals (see Section 8).
 
 ---
 
 ## 6. Output
 
-The model outputs:
+- The model outputs:
 $$
 \mathcal{O} = \{ X_i(t), P_i(t), F_i(t), m(t), C_i(t) \}
 $$
@@ -121,10 +127,10 @@ Where:
 
 | Stage | Goal | Data |
 |--------|------|------|
-| I. Static pretraining | Learn static geometry and scale | MapAnything datasets |
-| II. Temporal alignment | Temporal consistency learning | Dynamic Replica / TartanAirV2 |
-| III. Spatio-temporal fine-tuning | Train flow and clustering heads | Synthetic dynamic datasets |
-| IV. Self-supervised finetuning | Real data adaptation | Photometric + geometric consistency |
+| 1. Static pretraining | Learn static geometry and scale | MapAnything datasets |
+| 2. Temporal alignment | Temporal consistency learning | Dynamic Replica / TartanAirV2 |
+| 3. Spatio-temporal fine-tuning | Train flow and clustering heads | Synthetic dynamic datasets |
+| 4. Self-supervised finetuning | Real data adaptation | Photometric + geometric consistency |
 
 ---
 
@@ -184,28 +190,9 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 
 ---
 
-## 10. Research Impact and Potential Directions
-
-| Aspect | Potential Contribution |
-|---------|------------------------|
-| Theoretical | Extension from static to time-varying generalized camera model |
-| Model | Feed-forward transformer for 4D dynamic reconstruction |
-| Task | Unified 3D + scene flow + temporal clustering |
-| Application | Dynamic SLAM, event-based perception, neural radiance flow reconstruction |
-
-- Potential publication venues: CVPR, ICCV, ICRA, NeurIPS.
-
----
-
-## 11. Summary
-
-- **MapAnything** models arbitrary static camera systems through a generalized camera representation.  
-- **4D_MapAnything** extends this to **time-varying generalized cameras**, enabling **metric-scale, feed-forward 4D reconstruction** with dynamic clustering and temporal consistency.
-
-- This framework offers a unified foundation for dynamic scene understanding across vision and robotics.
 
 
-<br>
+<br><br><br>
 
 
 
@@ -217,11 +204,5 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
   - [Aeva – 4DLiDAR for Autonomous Navigation - Auto Driving - beyond Beam](https://www.aeva.com/)
   - [A Digital Geneva / Zurich](https://carla.readthedocs.io/en/latest/adv_digital_twin/)
 
-
-
-## References
-
-
-J. T. Barron, *"A General and Adaptive Robust Loss Function,"* CVPR 2019, Google Research.
 
 <br>
