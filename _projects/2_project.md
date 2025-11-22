@@ -34,7 +34,7 @@ related_publications: true
 
 
 
-## Reading List / References
+## References - 3D and 4D Reconstruction and Tracking
 
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
