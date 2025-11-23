@@ -46,10 +46,6 @@ scholar_userid: JBSkLNJloXwC # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  - logo: https://avatars.githubusercontent.com/u/4711862?s=200&v=4  # small OpenReview icon
-    title: OpenReview
-    url: https://openreview.net/profile?id=%7EYiru_Yang1
-
   - logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
     title: Custom Social
     url: https://openreview.net/profile?id=%7EYiru_Yang1
