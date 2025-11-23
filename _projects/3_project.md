@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Animal Avatars from Videos
-description: CVG
+description: Diffusion, CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
