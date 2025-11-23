@@ -10,15 +10,6 @@ related_publications: true
 
 <br>
 
-
-## Demo
-
-- [Label_4D ★](https://colab.research.google.com/drive/1cjTjAH0JCYJVidYi98uq6PmlifKRkFJw?usp=drive_link), Nov 2025
-- [4D_MapAnything ★], Dec 2025
-
-
-
-
 ## Related Coursework
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, DiT, 
