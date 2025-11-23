@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - AI Simulation
+title: 2026 - Thesis - Neural Diffusion
 description: Scientific Research
 img: assets/img/4.jpg
 importance: 5
