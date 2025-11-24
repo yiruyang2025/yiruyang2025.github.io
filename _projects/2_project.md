@@ -1073,7 +1073,7 @@ $$
   - [2023 - Point Cloud Pre-training with Diffusion Models](https://arxiv.org/pdf/2311.14960)
   - [2025 - Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning](https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Harnessing_Text-to-Image_Diffusion_Models_for_Point_Cloud_Self-Supervised_Learning_ICCV_2025_paper.pdf)
   - [2025 - FunGraph: Functionality Aware 3D Scene Graphs for Language-Prompted Scene Interaction](https://arxiv.org/abs/2503.07909)
-  - [2021 - The fishyscapes benchmark: Measuring blind spots in semantic segmentation](https://link.springer.com/article/10.1007/s11263-021-01511-6)
+  - [2021 - The fishyscapes benchmark: Measuring 📍 blind spots in semantic segmentation](https://link.springer.com/article/10.1007/s11263-021-01511-6)
 
 
 
