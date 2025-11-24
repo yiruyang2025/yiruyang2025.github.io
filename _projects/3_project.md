@@ -9,6 +9,12 @@ related_publications: true
 ---
 
 
+
+## Readings
+
+[📍 2025 - TorchMesh: GPU-Accelerated Mesh Processing for Physical Simulation and Scientific Visualization in Any Dimension](https://joss.theoj.org/papers/0c7171db2a9c20b84e737f255083437b)
+
+
 ## Some Cute Things
 
 - [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
