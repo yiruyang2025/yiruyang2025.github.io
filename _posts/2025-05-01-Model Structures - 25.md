@@ -26,6 +26,7 @@ images:
 | **2020–2022**  | **NeRF family**                  | Neural radiance fields (density + color)                                                             | Unified geometry and appearance; high fidelity but slow to train and render                                                           |
 | **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
 
+<br>
 
 ## 📍 Core Continuous Modeling Methods In Computational Geometry
 
@@ -36,7 +37,7 @@ images:
 | **Implicit Continuous Fields (Neural or Analytical)**             | Represent geometry implicitly as a function ( f(x, y, z) = 0 ) or ( f(x, y, z, t) = 0 ), such as DeepSDF (Signed Distance Function) or OctField (adaptive implicit representation). | Extremely flexible; topology-free; can model dynamics; suitable for learning-based frameworks. | Highly promising for 4D reconstruction and tracking, especially when aiming for generalization across scenes.                                              |
 | **Partial Differential Equations (PDEs) and Variational Methods** | Enforce continuity (e.g., ( C^2 ) smoothness) of surfaces or volumes via PDEs, or use variational formulations to model continuous media.                                           | Strong geometric continuity and clear mathematical properties.                                 | Valuable when physical constraints or deformation laws are known, but computationally expensive for large-scale neural or self-supervised learning setups. |
 
-
+<br>
 
 ## DL after Classic ML
 
@@ -50,6 +51,7 @@ images:
 | **Generalization** | Learns robust patterns that transfer to unseen data, aided by large datasets, GPUs, and regularization methods.                             |
 | **Impact / Use**   | Powers modern AI systems in **vision (CNNs)**, **language (Transformers)**, **speech (RNNs)**, and **generative models (Diffusion, GANs)**. |
 
+<br>
 
 ## Deep Learning, Training, and Knowledge Distillation
 
@@ -64,7 +66,7 @@ images:
 | **Application Goal** | General representation learning. | Task-specific model fitting. | Model compression, knowledge transfer, or performance enhancement. |
 | **Output Features** | Deep hierarchical representations. | Task predictions. | Balanced task accuracy and teacher–student alignment. |
 
-
+<br>
 
 ```
 Deep Learning World                             Classical ML World
@@ -88,6 +90,7 @@ Deep Learning = Student who learns concepts from examples (automatic understandi
 Classical ML  = Student who uses fixed formulas (must be told what features matter)
 ```
 
+<br>
 
 ## Generalization Ability
 
