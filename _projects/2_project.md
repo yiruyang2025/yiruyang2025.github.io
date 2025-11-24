@@ -64,6 +64,58 @@ related_publications: true
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
 <br>
 
+
+## The Physical Nature of Priors: Constraints on Reality
+
+In the most fundamental sense, a prior represents our assumptions or constraints about how the real world behaves.
+In computer vision and 3D/4D reconstruction, the problem is ill-posed: from limited 2D observations, we aim to infer the full spatial and temporal structure of a scene. Without any additional assumptions, there are infinitely many possible 3D explanations for the same 2D image sequence.
+
+Priors restrict this space of possibilities by encoding what is physically plausible.
+They formalize the stability and consistency that we intuitively expect from the real world.
+
+| Type of Prior      | Physical Meaning                                                                                               | Typical Mathematical Form                                                 |                                   |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------- |
+| **Shape Prior**    | The world is geometrically continuous — nearby points on a surface share similar depth, normal, and curvature. | Surface smoothness constraint (e.g., ∇²S ≈ 0) or local normal consistency |                                   |
+| **Semantic Prior** | Objects have consistent meanings and boundaries across time and viewpoint.                                     | Probabilistic class structure P(y                                         | x) or clustering in feature space |
+| **Temporal Prior** | The world changes smoothly over time rather than abruptly.                                                     | ∂S/∂t ≈ 0 or temporal feature smoothness                                  |                                   |
+
+In this view, a prior is not just an extra loss term — it is a model of reality’s stability. The shape prior enforces what the world looks like (form and geometry), while the semantic prior enforces what the world means (identity and consistency). Both are necessary for reconstructing coherent 4D scenes that are physically and semantically plausible.
+
+
+## The Learning Nature of Priors: Statistical Regularities
+
+- In deep learning, priors are no longer manually defined equations or analytic constraints. Instead, they emerge as statistical regularities learned from large-scale data. A modern neural network internalizes priors implicitly through its training distribution.
+
+- Shape Prior as Learned Geometry
+  - The shape prior is learned from geometric proxies such as depth maps, point clouds, optical flow, or structure-from-motion (SfM) supervision. Through this exposure, the network captures an implicit statistical rule:
+
+> “Most surfaces in the world are locally continuous, piecewise smooth, and physically connected.”
+
+Even when no explicit geometry is provided, the network tends to favor configurations that respect this learned spatial coherence.
+
+Semantic Prior as Learned Meaning
+
+The semantic prior, on the other hand, is learned from large-scale self-supervised training on images and videos.
+Models such as DINOv2, CLIP, or SAM2 acquire embeddings that encode object-level similarity and boundary awareness without labeled data.
+The network thus captures another statistical rule:
+
+> “Visual patterns that share semantic meaning should be close in embedding space.”
+
+This makes the learned features stable across changes in viewpoint, illumination, and even object deformation — an essential property for open-set and temporally consistent reconstruction.
+
+Interaction of Priors in Modern 4D Frameworks
+
+In feed-forward 4D reconstruction systems (e.g., St4RTrack with DINOv3 supervision),
+the shape prior emerges from low-level geometric encoders that predict depth and pointmaps,
+while the semantic prior comes from high-level self-supervised encoders providing semantic embeddings.
+Temporal modules like ConvGRU or attention mechanisms align these representations over time,
+and refinement modules such as diffusion-based smoothing further fuse them locally.
+
+In this sense, priors are not externally imposed anymore — they are learned statistical patterns of the visual world.
+
+
+<br>
+
 ## Dealing With Continuous 3D Input Datasets
 
 ```
