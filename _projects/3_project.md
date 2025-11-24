@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Animal Avatars from Videos
+title: 2025 - Thesis - Gaussian Furs from Monocular Videos
 description: CVG
 img: assets/img/4.jpg
 importance: 3
