@@ -27,8 +27,6 @@ images:
 | **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
 
 
-<br>
-
 ## 📍 Core Continuous Modeling Methods In Computational Geometry
 
 | Method                                                            | Core Idea                                                                                                                                                                           | Advantages                                                                                     | Applicability to Your Scenario                                                                                                                             |
@@ -68,8 +66,6 @@ images:
 
 
 
-<BR>
-
 ```
 Deep Learning World                             Classical ML World
 ═══════════════════════════════════             ════════════════════════════════════
@@ -91,8 +87,6 @@ Hybrid approaches:
 Deep Learning = Student who learns concepts from examples (automatic understanding)  
 Classical ML  = Student who uses fixed formulas (must be told what features matter)
 ```
-
-<br>
 
 
 ## Generalization Ability
