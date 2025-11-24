@@ -35,13 +35,9 @@ images:
   - Fast but discrete
 
 
-<br>
+<br><br><br><br>
 
   - Let's take a look at the history of the Model Structures we're using today.
-
-<br>
-
-
 
 ## 📍 Core Continuous Modeling Methods In Computational Geometry
 
