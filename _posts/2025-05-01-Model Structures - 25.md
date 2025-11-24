@@ -14,6 +14,29 @@ images:
 
 <br>
 
+
+  - 3D / 4D Reconstruction with 2D / 3D Supervision
+
+## Evolution of 3D Scene Representations
+
+| **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
+| -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **1980–2010s** | SfM / MVS / Mesh                 | Explicit point clouds or polygonal meshes                                                            | Accurate but discrete; cannot represent complex appearance or soft surfaces                                                           |
+| **1990–2010s** | IBR / Light Field                | Sampled light rays or image interpolation                                                            | Highly photorealistic but lacks true 3D geometry; strong view dependence                                                              |
+| **2015–2019**  | Deep Implicit Fields             | Implicit functions (Occupancy / Signed Distance Field)                                               | Continuous and smooth geometry; no explicit color or reflectance modeling                                                             |
+| **2020–2022**  | **NeRF family**                  | Neural radiance fields (density + color)                                                             | Unified geometry and appearance; high fidelity but slow to train and render                                                           |
+| **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
+
+
+- NeRF = continuous neural volume (implicit)
+  - Slow but smooth
+
+- 3DGS = explicit Gaussian cloud (explicit)
+  - Fast but discrete
+
+
+<br>
+
   - Let's take a look at the history of the Model Structures we're using today.
 
 <br>
@@ -130,33 +153,6 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 - Diffusion Models
 - Flow Matching
 - Quantization / Adapter Guided - LoRA + QLoRA
-
-
-<br>
-
-
-  - 3D / 4D Reconstruction with 2D / 3D Supervision
-
-## Evolution of 3D Scene Representations
-
-| **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
-| -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **1980–2010s** | SfM / MVS / Mesh                 | Explicit point clouds or polygonal meshes                                                            | Accurate but discrete; cannot represent complex appearance or soft surfaces                                                           |
-| **1990–2010s** | IBR / Light Field                | Sampled light rays or image interpolation                                                            | Highly photorealistic but lacks true 3D geometry; strong view dependence                                                              |
-| **2015–2019**  | Deep Implicit Fields             | Implicit functions (Occupancy / Signed Distance Field)                                               | Continuous and smooth geometry; no explicit color or reflectance modeling                                                             |
-| **2020–2022**  | **NeRF family**                  | Neural radiance fields (density + color)                                                             | Unified geometry and appearance; high fidelity but slow to train and render                                                           |
-| **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
-
-
-- NeRF = continuous neural volume (implicit)
-  - Slow but smooth
-
-- 3DGS = explicit Gaussian cloud (explicit)
-  - Fast but discrete
-
-
-
-
 
 
 <br>
