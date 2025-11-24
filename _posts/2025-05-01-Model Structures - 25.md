@@ -14,8 +14,7 @@ images:
 
 <br>
 
-
-  - 3D / 4D Reconstruction with 2D / 3D Supervision
+  - Let's take a look at the history of the Model Structures we're using today.
 
 ## Evolution of 3D Scene Representations
 
@@ -28,16 +27,7 @@ images:
 | **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
 
 
-- NeRF = continuous neural volume (implicit)
-  - Slow but smooth
-
-- 3DGS = explicit Gaussian cloud (explicit)
-  - Fast but discrete
-
-
-<br><br><br><br>
-
-  - Let's take a look at the history of the Model Structures we're using today.
+<br>
 
 ## 📍 Core Continuous Modeling Methods In Computational Geometry
 
