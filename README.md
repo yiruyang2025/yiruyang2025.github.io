@@ -1,9 +1,16 @@
 # al-folio
 
 
+**Template from**
+
+- https://alshedivat.github.io/al-folio/
+- https://github.com/alshedivat/al-folio
+
+
 **Change the Cover Page link**
 
 - _data/socials.yml
+
 
 
 <br><br><br>
