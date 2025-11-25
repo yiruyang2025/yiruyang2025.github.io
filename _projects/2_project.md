@@ -1026,7 +1026,8 @@ $$
   - [2021 - The fishyscapes benchmark: Measuring 📍 blind spots in semantic segmentation](https://link.springer.com/article/10.1007/s11263-021-01511-6)
   - [2025 - SNI-SLAM++: Tightly-Coupled 📍 Semantic Neural Implicit SLAM](https://ieeexplore.ieee.org/document/11260914)
   - [📍 2025 - osmAG-LLM: Zero-Shot Open-Vocabulary Object Navigation via Semantic Maps and Large Language Models Reasoning](https://arxiv.org/abs/2507.12753)
-
+  - [2024 - Improving 2D Feature Representations by 3D-Aware Fine-Tuning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rO_8EHsAAAAJ&citation_for_view=rO_8EHsAAAAJ:Y0pCki6q_DkC)
+  - [2025 - FrontierNet: Learning Visual Cues to Explore](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TXsJ1rUAAAAJ&citation_for_view=TXsJ1rUAAAAJ:zYLM7Y9cAGgC)
 
 <br><br><br><br><br><br>
 
