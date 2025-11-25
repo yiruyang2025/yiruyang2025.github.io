@@ -22,6 +22,11 @@ related_publications: true
 
 - All **deterministic** models → `Cannot generate multiple plausible deformation trajectories`, however, The goal of 4D Reconstruction is not merely to reconstruct **the surface deformation of a video**, but rather to `capture the underlying deformation space`.
 
+```
+- Diffusion-generated high-frequency details (hair, fabric folds) often adhere to existing surfaces
+- Deformable fields ensure that these details move consistently with body or surface movement
+```
+
 <br>
 
 
