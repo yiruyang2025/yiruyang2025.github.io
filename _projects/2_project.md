@@ -1029,6 +1029,7 @@ $$
   - [📍 2024 - Improving 2D Feature Representations by 3D-Aware Fine-Tuning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rO_8EHsAAAAJ&citation_for_view=rO_8EHsAAAAJ:Y0pCki6q_DkC), PRS Lab
   - [📍 2025 - FrontierNet: Learning Visual Cues to Explore](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TXsJ1rUAAAAJ&citation_for_view=TXsJ1rUAAAAJ:zYLM7Y9cAGgC), CVG Lab
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
+  - [2021 - Automatic detection and mapping of highway guardrails from mobile lidar point clouds](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553055)
 
 <br><br><br><br><br><br>
 
