@@ -1025,6 +1025,7 @@ $$
   - [📍 2025 - FunGraph: Functionality Aware 3D Scene Graphs for Language-Prompted Scene Interaction](https://arxiv.org/abs/2503.07909)
   - [2021 - The fishyscapes benchmark: Measuring 📍 blind spots in semantic segmentation](https://link.springer.com/article/10.1007/s11263-021-01511-6)
   - [2025 - SNI-SLAM++: Tightly-Coupled 📍 Semantic Neural Implicit SLAM](https://ieeexplore.ieee.org/document/11260914)
+  - [📍 2025 - osmAG-LLM: Zero-Shot Open-Vocabulary Object Navigation via Semantic Maps and Large Language Models Reasoning](https://arxiv.org/abs/2507.12753)
 
 
 <br><br><br><br><br><br>
