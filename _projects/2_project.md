@@ -72,6 +72,29 @@ related_publications: true
 
 <br>
 
+
+
+## Conceptual Distinction
+
+“Diffusion completion ≠ Dual-branch interaction modeling.”
+Although Diffusion models are powerful at image or feature completion (e.g., inpainting, conditional generation), their fundamental goal differs from that of a dual-branch Transformer.
+Diffusion reconstructs plausible samples from noise (probabilistic generation),
+while a dual-branch Transformer explicitly learns correspondences and relationships between two inputs (deterministic interaction).
+
+
+| Backbone Type                           | Example Models                                       | Characteristics                          | Advantages                                                  | Limitations                             |
+| --------------------------------------- | ---------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------- | --------------------------------------- |
+| **U-Net (CNN)**                         | DDPM, Stable Diffusion v1/v2                         | Encoder–decoder with skip connections    | Strong local spatial modeling; efficient; easy to train     | Limited global context; harder to scale |
+| **Vision Transformer (ViT)**            | DiT (Diffusion Transformer, 2023)                    | Patch-based transformer                  | Better global attention, high scalability, simple structure | Expensive to train; requires large data |
+| **Swin Transformer / Hierarchical ViT** | UViT, UDiT                                           | Combines U-Net hierarchy + ViT attention | Preserves multi-scale info while gaining Transformer power  | More complex to tune                    |
+| **ConvNeXt / ResNet**                   | Some lightweight diffusion variants                  | CNN-based but more modern than U-Net     | High efficiency, simple to integrate                        | Limited generative flexibility          |
+| **Graph Neural Network (GNN)**          | Molecular / 3D Diffusion models (e.g., EDM, GeoDiff) | Models relations over nodes/atoms        | Structured data modeling (e.g., point cloud, molecules)     | Not suited for grid data                |
+| **Implicit MLP (NeRF-style)**           | Score-based NeRF / Diffusion Fields                  | Continuous signal representation         | Excellent for 3D continuous spaces                          | Slow, not scalable for large images     |
+
+
+
+<br>
+
 ## Dealing With Continuous 3D Input Datasets
 
 ```
