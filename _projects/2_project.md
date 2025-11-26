@@ -33,6 +33,7 @@ related_publications: true
 
 ## Refereces - 2D Vision SSL Supervision
 
+- [2024 - DINO-Foresight: Looking into the Future with DINO](https://arxiv.org/pdf/2412.11673)
 - [2021 - DINO: Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294)
 - [2024 - DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/pdf/2304.07193)
 - [2025 - DINOv3](https://arxiv.org/pdf/2508.10104)
