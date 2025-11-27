@@ -1056,6 +1056,7 @@ $$
   - [2024 - Improving 2D Feature Representations by 3D-Aware Fine-Tuning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rO_8EHsAAAAJ&citation_for_view=rO_8EHsAAAAJ:Y0pCki6q_DkC), PRS Lab
   - [2025 - FrontierNet: Learning Visual Cues to Explore](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TXsJ1rUAAAAJ&citation_for_view=TXsJ1rUAAAAJ:zYLM7Y9cAGgC), CVG Lab
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
+  - [2024 - Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/pdf/2406.04338)
 
 
 <br><br><br><br><br><br>
