@@ -31,7 +31,7 @@ related_publications: true
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
 - Geometric Feature extracted from DINOv2_ViT-Small, semantic pixel-level features from DINOv3
-- 
+- DINOv2 ViT-S/14 (Small, patch size = 14, embed_dim = 384)
 
 
 
