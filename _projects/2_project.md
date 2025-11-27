@@ -30,10 +30,13 @@ related_publications: true
 ## Experiments Notes 2025
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
+- [pretrained_DINOv2](https://huggingface.co/FoundationVision/unitok_external/blob/main/dinov2_vits14_pretrain.pth?utm_source=chatgpt.com)
 
 | Model Name | Patch Size | Embedding Dim | Parameters |
 | ---------- | ---------- | ------------- | ---------- |
 | ViT-S/14   | 14         | 384           | ~21M       |
+
+
 
 
 <br>
