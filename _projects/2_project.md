@@ -27,11 +27,12 @@ related_publications: true
 - Deformable fields ensure that these details move consistently with body or surface movement
 ```
 
-## Experiments Notes
+## Experiments Notes 2025
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
 - Geometric Feature extracted from DINOv2_ViT-Small, semantic pixel-level features from DINOv3
 - DINOv2 ViT-S/14 (Small, patch size = 14, embed_dim = 384)
+- CVG_25/Label_4D/pretrained_DINOv2
 
 
 
@@ -78,7 +79,6 @@ related_publications: true
 
 
 <br>
-
 
 
 ## Conceptual Distinction
