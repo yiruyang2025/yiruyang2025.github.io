@@ -27,20 +27,18 @@ related_publications: true
 - Deformable fields ensure that these details move consistently with body or surface movement
 ```
 
+<br>
+
 ## Experiments Notes 2025
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
 - [pretrained_DINOv2](https://huggingface.co/FoundationVision/unitok_external/blob/main/dinov2_vits14_pretrain.pth?utm_source=chatgpt.com), 85M .pth
   - Model: DINOv2 ViT-S/14 Input: batch_size=1024, img_size=224x224, fp16, AdamW, DataLoader(num_workers=24)
-
-| Model Name | Patch Size | Embedding Dim | Parameters |
-| ---------- | ---------- | ------------- | ---------- |
-| ViT-S/14   | 14         | 384           | ~21M       |
+  - ViT-S/14, patch size = 14, Embedding Dim = 384, Parameters ~21M
 
 
 
-
-<br>
+<br><br><br>
 
 ## Refereces - 2D Vision SSL Supervision
 
