@@ -40,7 +40,7 @@ related_publications: true
 ## References - 3D and 4D Reconstruction and Tracking
 
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
-  - [2020 - Learning 3D Reconstruction in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
+  - [📍 2020 - Learning 3D Reconstruction 📍 in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
   - [2025 - MonST3R](https://monst3r-project.github.io)
     - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
