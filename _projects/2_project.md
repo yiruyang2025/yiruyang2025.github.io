@@ -31,6 +31,10 @@ related_publications: true
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
 
+| Model Name | Patch Size | Embedding Dim | Parameters |
+| ---------- | ---------- | ------------- | ---------- |
+| ViT-S/14   | 14         | 384           | ~21M       |
+
 
 <br>
 
