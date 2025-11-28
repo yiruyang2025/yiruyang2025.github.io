@@ -42,6 +42,7 @@ related_publications: true
     - [📍 2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
   - [2025 - some others - Discovering Symbolic Cognitive Models from Human and Animal Behavior](https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1)
 
+<br>
 
   - [2024 - Neural Diffusion Models](https://arxiv.org/pdf/2310.08337)
   - [2024 - Lightplane: Highly-Scalable Components for Neural 3D Fields](https://arxiv.org/pdf/2404.19760)
