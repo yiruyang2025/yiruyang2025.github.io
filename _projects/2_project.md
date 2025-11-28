@@ -33,7 +33,7 @@ related_publications: true
 
 - Colab machine has a maximum of 12 CPU threads, change to - num_workers = 12
 - [pretrained_DINOv2](https://huggingface.co/FoundationVision/unitok_external/blob/main/dinov2_vits14_pretrain.pth?utm_source=chatgpt.com), 85M .pth
-  - Model: DINOv2 ViT-S/14 Input: batch_size=1024, img_size=224x224, fp16, AdamW, DataLoader(num_workers=24)
+  - Model: DINOv2 ViT-S/14 Input: batch_size=1024, img_size=224x224, fp16, AdamW, DataLoader(num_workers=12)
   - ViT-S/14, patch size = 14, Embedding Dim = 384, Parameters ~21M
 - Feature Extraction Backbones
   - third_party/MoGe
