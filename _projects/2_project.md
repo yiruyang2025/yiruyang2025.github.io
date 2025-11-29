@@ -49,7 +49,7 @@ related_publications: true
   - policies can be trained with diffusions
 
 
-
+<br><br>
 
 ## 2D Vision SSL Supervision
 
