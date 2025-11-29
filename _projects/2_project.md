@@ -1081,7 +1081,7 @@ $$
 
 <br>
 
-  - [2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
+  - [📍 2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
 
 <br><br><br><br><br><br>
 
