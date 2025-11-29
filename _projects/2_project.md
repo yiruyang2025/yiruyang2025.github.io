@@ -60,7 +60,7 @@ related_publications: true
 
 
 ## 3D / 4D Reconstruction and Tracking
-  - - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://pixel-perfect-depth.github.io/)
+  - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://pixel-perfect-depth.github.io/)
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
   - [📍 2020 - Learning 3D Reconstruction 📍 in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
   - [2025 - St4RTrack](https://st4rtrack.github.io/)
