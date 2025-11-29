@@ -13,7 +13,7 @@ related_publications: true
 ## Related Coursework
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, DiT, 
-- [📍 Patent 2025, Transfer learning between different computer vision tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&cstart=20&pagesize=80&citation_for_view=8gruapYAAAAJ:RYcK_YlVTxYC)
+- [📍 Patent 2025, Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
