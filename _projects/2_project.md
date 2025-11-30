@@ -38,6 +38,9 @@ related_publications: true
 - Feature Extraction Backbones
   - third_party/MoGe
   - dust3r/semantic_prior # ViT 16*16 patch -> pixels
+- Upsampling - TTO style
+  - [2025 - Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling](https://seominseok0429.github.io/Upsample-Anything/)
+
 
 
 <br><br><br>
