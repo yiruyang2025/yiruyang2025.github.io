@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Outdoor Semantic 4D Pixel Tracking Cues` / Connectomics, UZH AI, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Fur Surface Refinement from `Monocular` Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - 4D_MapAnything, A Pipeline for who have more Datasets
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - SAM-4D: SSL Dense Diffusive Reconstruction, with Limitied Real `Multi-view` 4D Medical Images
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - SAM-4D: SSL Dense Diffusive Reconstruction
 
 <br>
 
