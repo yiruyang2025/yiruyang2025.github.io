@@ -44,7 +44,7 @@ related_publications: true
 
 ## References
 
-- [📍 2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation, Marc](https://arxiv.org/abs/2511.18386)
+- [📍 2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation, Peter Siegel, Federico Tombari, Marc Pollefeys, Daniel Barath](https://arxiv.org/abs/2511.18386)
 - [📍 2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 
 
