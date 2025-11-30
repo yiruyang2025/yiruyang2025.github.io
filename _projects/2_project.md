@@ -42,6 +42,14 @@ related_publications: true
 
 <br><br><br>
 
+## References
+
+- [📍 2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation, Marc](https://arxiv.org/abs/2511.18386)
+- [📍 2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
+
+
+
+<br>
 
 ## Navigation - Generalization
 
@@ -49,7 +57,7 @@ related_publications: true
   - policies can be trained with diffusions
 
 
-<br><br>
+<br>
 
 ## 2D Vision SSL Supervision
 
@@ -58,6 +66,7 @@ related_publications: true
 - [2024 - DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/pdf/2304.07193)
 - [2025 - DINOv3](https://arxiv.org/pdf/2508.10104)
 
+<br>
 
 ## 3D / 4D Reconstruction and Tracking
   - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://pixel-perfect-depth.github.io/)
