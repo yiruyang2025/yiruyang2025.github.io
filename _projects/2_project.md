@@ -49,7 +49,7 @@ related_publications: true
 
 - [📍 2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation, Peter Siegel, Federico Tombari, Marc Pollefeys, Daniel Barath](https://arxiv.org/abs/2511.18386), CVG
 - [📍 2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
-- [2023 - Using multi-camera systems in robotics: Efficient solutions to the NPnP problem](https://ieeexplore.ieee.org/document/6631107), ASL
+- [📍 2023 - Using 📍 multi-camera systems in robotics: Efficient solutions to the NPnP problem](https://ieeexplore.ieee.org/document/6631107), ASL
 
 
 <br>
