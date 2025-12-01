@@ -13,7 +13,6 @@ related_publications: true
 ## Related Coursework
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, NExF, DiT, 
-- [📍 Patent 2025, Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
@@ -49,7 +48,7 @@ related_publications: true
 
 - [2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386), CVG
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
-
+- [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 
 
 <br>
