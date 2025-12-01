@@ -1093,7 +1093,8 @@ $$
 
 <br>
 
-  - [📍 2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
+  - [2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
+  - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
 
 <br><br><br><br><br><br>
 
