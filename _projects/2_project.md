@@ -213,7 +213,9 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
     - Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 Oct 2025, 4:45 p.m, HIL D 53, Hönggerberg
   - (iTwRL: Interactable Digital Twin for Reinforcement Learning, Nov 17th, 2pm, Zoom)
   - Learning 3D Human Foundation Models: A Data Request, Prov. Siyu Tang, Mon, 24-Nov-2025, 13:00–14:00, HG D 16.2
-    - `Computational methods` to model human motion and behavior from visual inputs in real-world environments, 📍 `Non-rigid 4D Reconstruction and Tracking`
+    - Computational methods to model human motion and behavior from visual inputs in real-world environments, 📍 `Non-rigid 4D Reconstruction and Tracking`
+    - Guided Monocular Depth Estimation, Mon, Dec 8th, 2pm, CNB G 110 and Zoom by Sophie Selgrad
+      - Supervisors, Dr. Christoph Vogel and Dr. Silvano Galliani
 <br>
 
 
