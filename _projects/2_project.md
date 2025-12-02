@@ -40,9 +40,24 @@ related_publications: true
 - Upsampling - TTO style
   - [2025 - Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling](https://seominseok0429.github.io/Upsample-Anything/)
 
+<br>
 
 
-<br><br><br>
+## Projection for the Semantic Prior
+
+| Head Type       | Alignment Level | Semantic Context    | Output          | Computation     | Recommended Use                  |
+| --------------- | --------------- | ------------------- | --------------- | --------------- | -------------------------------- |
+| **Linear Head** | Patch-wise      | Local semantics     | 3D patch blocks | ⚡ Fast (O(N×C)) | Gaussian Fur, fast inference     |
+| **DPT Head**    | Multi-layer     | Global + contextual | Dense 3D map    | 🧠 3–5× heavier | Full 4D reconstruction, tracking |
+
+
+
+
+
+
+
+
+<br><br>
 
 ## References
 
