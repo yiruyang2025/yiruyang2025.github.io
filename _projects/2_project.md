@@ -50,10 +50,24 @@ related_publications: true
 | **Linear Head** | Patch-wise      | Local semantics     | 3D patch blocks | ⚡ Fast (O(N×C)) | Gaussian Fur, fast inference     |
 | **DPT Head**    | Multi-layer     | Global + contextual | Dense 3D map    | 🧠 3–5× heavier | Full 4D reconstruction, tracking |
 
+## In the Latent Space - DINOv3(ViT-S/14)
+
+| Stage              | Symbol                       | Description                              | Shape |
+| ------------------ | ---------------------------- | ---------------------------------------- | ----- |
+| Input image        | –                            | `[B, 3, H, W]`                           |       |
+| Patch embedding    | `14×14` patch size → flatten | `[B, N, 384]`, where `N = (H/14)*(W/14)` |       |
+| Output feature dim | `C_enc = 384`                | semantic token embedding                 |       |
 
 
 
+## St4RTrack (DUSt3R backbone)
 
+
+| Parameter       | Typical value (from `dust3r/configs`) | Meaning                           |
+| --------------- | ------------------------------------- | --------------------------------- |
+| `enc_embed_dim` | 768 or 1024                           | dimension of encoder tokens       |
+| `dec_embed_dim` | 512 or 768                            | dimension expected by the decoder |
+| `patch_size`    | 16                                    | one token ↔ 16×16 input pixels    |
 
 
 
