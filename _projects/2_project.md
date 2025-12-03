@@ -87,6 +87,7 @@ related_publications: true
 - [2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386), CVG
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
+- [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG
 
 
 <br>
@@ -1121,12 +1122,9 @@ $$
 
   - [2023 - Point Cloud Pre-training with Diffusion Models](https://arxiv.org/pdf/2311.14960)
   - [2025 - Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning](https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Harnessing_Text-to-Image_Diffusion_Models_for_Point_Cloud_Self-Supervised_Learning_ICCV_2025_paper.pdf)
-  - [📍 2025 - FunGraph: Functionality Aware 3D Scene Graphs for Language-Prompted Scene Interaction](https://arxiv.org/abs/2503.07909)
   - [2021 - The fishyscapes benchmark: Measuring 📍 blind spots in semantic segmentation](https://link.springer.com/article/10.1007/s11263-021-01511-6)
   - [2025 - SNI-SLAM++: Tightly-Coupled 📍 Semantic Neural Implicit SLAM](https://ieeexplore.ieee.org/document/11260914)
   - [2025 - osmAG-LLM: Zero-Shot Open-Vocabulary Object Navigation via Semantic Maps and Large Language Models Reasoning](https://arxiv.org/abs/2507.12753)
-  - [2024 - Improving 2D Feature Representations by 3D-Aware Fine-Tuning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rO_8EHsAAAAJ&citation_for_view=rO_8EHsAAAAJ:Y0pCki6q_DkC), PRS Lab
-  - [2025 - FrontierNet: Learning Visual Cues to Explore](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TXsJ1rUAAAAJ&citation_for_view=TXsJ1rUAAAAJ:zYLM7Y9cAGgC), CVG Lab
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
   - [2024 - Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/pdf/2406.04338)
 
