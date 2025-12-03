@@ -125,8 +125,8 @@ related_publications: true
   - [ICCV 2025, Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
   - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
   - [2025 - This Camera System Can Focus on Everything, 📍 Everywhere, All At Once](https://petapixel.com/2025/11/10/this-camera-system-can-focus-on-everything-everywhere-all-at-once/)
-<br>
 
+<br>
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
   - [2024 - UniDepth: Universal Monocular Metric Depth Estimation](https://arxiv.org/pdf/2403.18913)
@@ -159,7 +159,6 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
 | **ConvNeXt / ResNet**                   | Some lightweight diffusion variants                  | CNN-based but more modern than U-Net     | High efficiency, simple to integrate                        | Limited generative flexibility          |
 | **Graph Neural Network (GNN)**          | Molecular / 3D Diffusion models (e.g., EDM, GeoDiff) | Models relations over nodes/atoms        | Structured data modeling (e.g., point cloud, molecules)     | Not suited for grid data                |
 | **Implicit MLP (NeRF-style)**           | Score-based NeRF / Diffusion Fields                  | Continuous signal representation         | Excellent for 3D continuous spaces                          | Slow, not scalable for large images     |
-
 
 
 <br>
@@ -253,7 +252,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
   - (iTwRL: Interactable Digital Twin for Reinforcement Learning, Nov 17th, 2pm, Zoom)
   - Learning 3D Human Foundation Models: A Data Request, Prov. Siyu Tang, Mon, 24-Nov-2025, 13:00–14:00, HG D 16.2
     - Computational methods to model human motion and behavior from visual inputs in real-world environments, 📍 `Non-rigid 4D Reconstruction and Tracking`
-- Guided Monocular Depth Estimation, Mon, Dec 8th, 2pm, CNB G 110 and Zoom by Sophie Selgrad
+  - Guided Monocular Depth Estimation, Mon, Dec 8th, 2pm, CNB G 110 and Zoom, Sophie Selgrad
 
 <br>
 
@@ -415,7 +414,6 @@ $$
 | **Point Odyssey (PO)**   | Dynamic scenes with known camera trajectory and per-vertex motion (long-term tracks) | 3D vertex positions over time (x, y, z, t) and camera extrinsics | ✅ **Tracking Branch**: uses 4D vertex trajectories<br>✅ **Reconstruction Branch**: uses per-frame mesh depth |
 | **Dynamic Replica (DR)** | Real scanned scenes with dynamic motion (camera + objects)                           | Known static/dynamic meshes and GT camera pose                   | ✅ **Reconstruction**: per-frame geometry<br>✅ **Tracking**: vertex correspondences                           |
 | **Kubric**               | Synthetic multi-object scenes                                                        | Depth map, instance segmentation, camera pose                    | ✅ **Reconstruction only** (depth/geometry); weak tracking                                                    |
-
 
 
 ## Step-by-Step: Constructing GT Pointmaps
