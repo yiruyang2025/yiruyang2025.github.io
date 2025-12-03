@@ -10,6 +10,29 @@ related_publications: true
 
 <br>
 
+## Topic
+
+
+- 2024 ECCV - Animal Avatars from Monocular Videos
+
+
+## Background Knowledge
+
+
+- Reconstructing animatable 3D animal models — including mesh, appearance, and motion (pose, shape, texture) — directly from monocular videos of real animals, such as dogs.
+- Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
+
+
+| **Component**                           | **Description**                                                                                                                                                               | **Key Idea / Benefit**                                                                                                                                      |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Parametric Template Model (SMAL)**    | Builds on **SMAL**, the animal counterpart of SMPL for humans. Serves as a **template mesh prior** with a consistent skeleton and deformation basis across sequences.         | Provides structural consistency and controllable deformation for animatable 3D reconstruction.                                                              |
+| **Continuous Surface Embeddings (CSE)** | Learns **dense, continuous embeddings** on the mesh surface instead of sparse keypoints. Enables **image-to-mesh reprojection** that aligns pixels to 3D points across views. | Offers **view-agnostic supervision** — embeddings remain stable and recognizable from any viewpoint, supporting robust multi-view and temporal consistency. |
+| **Implicit Duplex-Mesh Texture Model**  | Defines texture in a **canonical pose**, which **deforms with pose and shape** changes. Uses implicit texture fields for flexible, consistent appearance modeling.            | Maintains realistic texture through deformations and ensures **appearance consistency** during rendering.                                                   |
+| **Per-Video Optimization Pipeline**     | Performs **per-sequence fitting** of shape, pose, texture, and embedding parameters, rather than training a general model. Implemented via `main_optimize_scene.py`.          | Tailors reconstruction to each individual video, achieving **high-fidelity, video-specific 3D models**.                                                     |
+
+
+
+
 ## Readings
 
 - [📍 2025 - TorchMesh: GPU-Accelerated Mesh Processing for Physical Simulation and Scientific Visualization in Any Dimension](https://joss.theoj.org/papers/0c7171db2a9c20b84e737f255083437b)
