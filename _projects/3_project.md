@@ -53,23 +53,19 @@ related_publications: true
 
 <br>
 
+
 ## Implicit vs Explicit Representations
 
-| Concept                                      | **Implicit Representation**                                                                                                                   | **Explicit Representation**                                                                             |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Definition**                               | Geometry is represented by a *continuous function* (e.g., NeRF, SDF) that implicitly defines occupancy, density, or color at any 3D location. | Geometry is represented by *explicit surface elements*, such as vertices, faces, and normals in a mesh. |
-| **Typical Form**                             | ( f_\theta(x, t) \rightarrow {\sigma, c} ) (density and color)                                                                                | ( (V, F) ) mesh vertices and faces, deformed by pose parameters.                                        |
-| **Key Property**                             | Continuous, topology-free, differentiable                                                                                                     | Discrete, topology-fixed, physically interpretable                                                      |
-| **Advantages**                               | ① Unconstrained topology                                                                                                                      |                                                                                                         |
-| ② Smooth and differentiable                  |                                                                                                                                               |                                                                                                         |
-| ③ Naturally fits neural fields               | ① Precise control over surface                                                                                                                |                                                                                                         |
-| ② Compatible with animation and rendering    |                                                                                                                                               |                                                                                                         |
-| ③ Supports texture mapping and fur direction |                                                                                                                                               |                                                                                                         |
-| **Drawbacks**                                | ① Ambiguous topology                                                                                                                          |                                                                                                         |
-| ② Hard to extract exact normals              |                                                                                                                                               |                                                                                                         |
-| ③ Computationally heavy for rendering        | ① Limited to known topology (e.g., SMAL)                                                                                                      |                                                                                                         |
-| ② Difficult to generalize across species     |                                                                                                                                               |                                                                                                         |
-| **Example**                                  | **BANMo** – implicit volumetric field + neural blend skinning                                                                                 | **Animal Avatars** – explicit SMAL mesh + CSE pixel alignment                                           |
+| **Concept** | **Implicit Representation** | **Explicit Representation** |
+|--------------|-----------------------------|------------------------------|
+| **Definition** | Geometry is represented by a *continuous function* (e.g., NeRF, SDF) that implicitly defines occupancy, density, or color at any 3D location. | Geometry is represented by *explicit surface elements*, such as vertices, faces, and normals in a mesh. |
+| **Typical Form** | \( f_\theta(x, t) \rightarrow \{\sigma, c\} \) — density and color fields | \( (V, F) \) — mesh vertices and faces, deformed by pose parameters |
+| **Key Property** | Continuous, topology-free, differentiable | Discrete, topology-fixed, physically interpretable |
+| **Advantages** | ① Unconstrained topology  <br>② Smooth and differentiable  <br>③ Naturally fits neural fields | ① Precise control over surface  <br>② Compatible with animation and rendering  <br>③ Supports texture mapping and fur direction |
+| **Drawbacks** | ① Ambiguous topology  <br>② Hard to extract exact normals  <br>③ Computationally heavy for rendering | ① Limited to known topology (e.g., SMAL)  <br>② Difficult to generalize across species |
+| **Example** | **BANMo** – implicit volumetric field + neural blend skinning | **Animal Avatars** – explicit SMAL mesh + CSE pixel alignment |
+
+
 
 <br>
 
