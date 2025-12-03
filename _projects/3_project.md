@@ -16,6 +16,9 @@ related_publications: true
 - 2024 ECCV - Animal Avatars from Monocular Videos
 
 
+
+<br>
+
 ## Background Knowledge
 
 
@@ -31,7 +34,7 @@ related_publications: true
 | **Per-Video Optimization Pipeline**     | Performs **per-sequence fitting** of shape, pose, texture, and embedding parameters, rather than training a general model. Implemented via `main_optimize_scene.py`.          | Tailors reconstruction to each individual video, achieving **high-fidelity, video-specific 3D models**.                                                     |
 
 
-
+<br>
 
 ## Readings
 
