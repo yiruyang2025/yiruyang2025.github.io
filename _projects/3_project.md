@@ -32,6 +32,8 @@ related_publications: true
 | **Continuous Surface Embeddings (CSE)** | Learns **dense, continuous embeddings** on the mesh surface instead of sparse keypoints. Enables **image-to-mesh reprojection** that aligns pixels to 3D points across views. | Offers **view-agnostic supervision** — embeddings remain stable and recognizable from any viewpoint, supporting robust multi-view and temporal consistency. |
 | **Implicit Duplex-Mesh Texture Model**  | Defines texture in a **canonical pose**, which **deforms with pose and shape** changes. Uses implicit texture fields for flexible, consistent appearance modeling.            | Maintains realistic texture through deformations and ensures **appearance consistency** during rendering.                                                   |
 | **Per-Video Optimization Pipeline**     | Performs **per-sequence fitting** of shape, pose, texture, and embedding parameters, rather than training a general model. Implemented via `main_optimize_scene.py`.          | Tailors reconstruction to each individual video, achieving **high-fidelity, video-specific 3D models**.                                                     |
+| **Overall Summary**                     | Integrates parametric mesh priors, dense view-agnostic supervision, implicit texture fields, and per-video optimization into one pipeline.                                    | Enables **animatable, view-consistent 3D reconstruction from monocular videos**.                                                                            |
+
 
 
 <br>
