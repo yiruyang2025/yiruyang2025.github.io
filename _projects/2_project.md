@@ -50,6 +50,8 @@ related_publications: true
 | **Linear Head** | Patch-wise      | Local semantics     | 3D patch blocks | ⚡ Fast (O(N×C)) | Gaussian Fur, fast inference     |
 | **DPT Head**    | Multi-layer     | Global + contextual | Dense 3D map    | 🧠 3–5× heavier | Full 4D reconstruction, tracking |
 
+<br>
+
 ## In the Latent Space - DINOv3(ViT-S/14)
 
 | Stage              | Symbol                       | Description                              | Shape |
@@ -58,7 +60,7 @@ related_publications: true
 | Patch embedding    | `14×14` patch size → flatten | `[B, N, 384]`, where `N = (H/14)*(W/14)` |       |
 | Output feature dim | `C_enc = 384`                | semantic token embedding                 |       |
 
-
+<br>
 
 ## St4RTrack (DUSt3R backbone)
 
