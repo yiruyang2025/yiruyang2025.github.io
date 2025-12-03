@@ -42,6 +42,13 @@ related_publications: true
 
 <br>
 
+## Products
+
+  - moondream
+
+
+
+<br>
 
 ## Projection for the Semantic Prior
 
