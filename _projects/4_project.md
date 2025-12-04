@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - 4D MapAnything
+title: 2026 - Thesis - 4D MapAnything
 description: Feed-forward 4D Reconstruction
 img: assets/img/4.jpg
 importance: 4
