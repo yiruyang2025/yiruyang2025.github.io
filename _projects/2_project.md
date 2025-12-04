@@ -84,7 +84,7 @@ related_publications: true
 
 <br>
 
-## In the Latent Space - DINOv3(ViT-S/14)
+## In the Latent Space - DINOv3 (ViT-S/14)
 
 | Stage              | Symbol                       | Description                              | Shape |
 | ------------------ | ---------------------------- | ---------------------------------------- | ----- |
