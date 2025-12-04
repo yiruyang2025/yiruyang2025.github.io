@@ -34,7 +34,7 @@ related_publications: true
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG, ICCV
-- [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync)
+- [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
 
 <br>
 
