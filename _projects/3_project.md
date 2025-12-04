@@ -20,12 +20,28 @@ related_publications: true
 
 <br>
 
-## Background Knowledge
 
+
+## The fundamental limitations of monocular (2D) video input
+
+| Problem                     | Effect                                                                     |
+| --------------------------- | -------------------------------------------------------------------------- |
+| **Limited viewpoint**       | Depth, thickness, and surface normal directions are all ambiguous.         |
+| **Lighting variation**      | Fur reflection, translucency, and self-occlusion make appearance unstable. |
+| **Strong deformation**      | Animal skin and fur exhibit local non-rigid motion.                        |
+| **No temporal supervision** | Hard to maintain frame-to-frame consistency.                               |
+
+
+
+
+<br>
+
+## Background Knowledge
 
 - Reconstructing animatable 3D animal models — including mesh, appearance, and motion (pose, shape, texture) — directly from monocular videos of real animals, such as dogs.
 - Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
 
+<br>
 
 | **Component**                           | **Description**                                                                                                                                                               | **Key Idea / Benefit**                                                                                                                                      |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
