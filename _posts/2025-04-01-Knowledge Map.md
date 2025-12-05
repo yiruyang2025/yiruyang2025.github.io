@@ -32,7 +32,8 @@ images:
 
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
-- [Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
+- [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
+- [Prof. Kostas AlexisKostas Alexis](https://www.linkedin.com/posts/kostas-alexis-67713918_distinguished-seminar-in-robotics-systems-activity-7402359448847069186--Lfl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
