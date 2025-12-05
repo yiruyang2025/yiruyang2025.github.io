@@ -16,7 +16,7 @@ related_publications: true
 
 - 2024 ECCV - Animal Avatars from Monocular Videos
 
-
+- When combined with Neural Diffusion, parametric curves - Bezier polynomial, Bezier (de Casteljau), and B-Spline, etc. act as strong geometric priors that prevent unrealistic deformation, making them ideal for displacement-map prediction and 4D reconstruction
 
 <br>
 
@@ -42,6 +42,8 @@ related_publications: true
 - Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
 
 <br>
+
+## Structure
 
 | **Component**                           | **Description**                                                                                                                                                               | **Key Idea / Benefit**                                                                                                                                      |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
