@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Latent Space, [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/)
-- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Semantic 4D Pixel Tracking Cues`, UZH AI, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Semantic 4D Pixel Cues`, UZH AI, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Fur Surface Refinement from `Monocular` Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - (4D_MapAnything, a pipeline)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - (SAM-4D: SSL Dense pixel tracking)
