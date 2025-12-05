@@ -33,7 +33,6 @@ related_publications: true
 - [2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386), engineering one
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
-- [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG, ICCV
 - [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
 
 <br>
@@ -1159,6 +1158,7 @@ $$
   - [2025 - osmAG-LLM: Zero-Shot Open-Vocabulary Object Navigation via Semantic Maps and Large Language Models Reasoning](https://arxiv.org/abs/2507.12753)
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
   - [2024 - Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/pdf/2406.04338)
+  - [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG
 
 <br>
 
