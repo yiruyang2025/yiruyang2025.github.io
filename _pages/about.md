@@ -42,6 +42,6 @@ latest_posts:
 
 **Interests**
   - Backbones, Perception, CFD
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Ed Sheeran
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
 
 <div style="height: 4rem;"></div>
