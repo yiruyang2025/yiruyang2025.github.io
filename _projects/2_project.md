@@ -1159,6 +1159,7 @@ $$
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
   - [2024 - Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/pdf/2406.04338)
   - [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG
+  - [2022 - Embodied Active Domain Adaptation for Semantic Segmentation via Informative Path Planning](https://arxiv.org/abs/2203.00549)
 
 <br>
 
