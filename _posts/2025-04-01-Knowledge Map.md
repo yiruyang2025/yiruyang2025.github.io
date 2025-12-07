@@ -50,6 +50,8 @@ images:
 
 [3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
+[Visual Computing - BA](https://cvg.ethz.ch/lectures/Visual-Computing/) (25)
+
 [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
