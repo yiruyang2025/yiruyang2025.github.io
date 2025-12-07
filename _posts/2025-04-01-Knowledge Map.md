@@ -52,13 +52,13 @@ images:
 
 [Visual Computing - BA](https://cvg.ethz.ch/lectures/Visual-Computing/) (25)
 
-[Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
-
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender 4.4, Unreal, 25)
 
 [Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (25)
+
+[Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
 
 Drug efficacy and pathway assessment in Brain Cancer
 
@@ -112,10 +112,10 @@ Graph Theory
 
 # Check List
 
-- [x] reading, oxygen, fruits no sugar, protein
+- [x] reading, oxygen, fruits No sugar, protein
   - [x] gym, jogging, tennis
   - [x] chatting
-  - [x] Cartoons and Water
+  - [x] Cartoon and Water
 - [x] Take a Walk
 
 
