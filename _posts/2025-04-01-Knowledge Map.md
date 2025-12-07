@@ -34,7 +34,6 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
-- [Prof. Kostas AlexisKostas Alexis](https://www.linkedin.com/posts/kostas-alexis-67713918_distinguished-seminar-in-robotics-systems-activity-7402359448847069186--Lfl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
@@ -49,17 +48,17 @@ images:
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
-[3D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
+[3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
 
 [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
 
-Shape Modeling and Geometry Processing (C++, 25)
+[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
-[Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, 25)
+[Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender 4.4, Unreal, 25)
 
-[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (Blender, Unreal 5.6, 25)
+[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (25)
 
-CardioAI, Drug efficacy and pathway assessment in Brain Cancer
+Drug efficacy and pathway assessment in Brain Cancer
 
 Medical AI / Health Tech
 
@@ -67,7 +66,7 @@ Medical AI / Health Tech
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-Systems on Chips (Cuda, HPC, 25)
+Systems on Chips (CUDA, HPC, 25)
 
 Graph Theory
 
