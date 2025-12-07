@@ -113,7 +113,7 @@ Graph Theory
 - [x] reading, oxygen, fruits no sugar, protein
   - [x] gym, jogging, tennis
   - [x] chatting
-  - [x] Water
+  - [x] Cartoons and Water
 - [x] Take a Walk
 
 
