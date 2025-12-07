@@ -34,6 +34,7 @@ related_publications: true
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
+- [2025 ICCV - Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](https://boyangdeng.com/visual-chronicles/)
 
 <br>
 
