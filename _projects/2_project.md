@@ -123,6 +123,7 @@ related_publications: true
 
 - [2025 - TANGO: Traversablility-Aware Navigation with Local Metric Control for Topological Goals](https://podgorki.github.io/TANGO/)
   - policies can be trained with diffusions
+- [📍 2025 - Sound Source Localization for Spatial Mapping of Actions in Dynamic Scenes](https://arxiv.org/pdf/2510.24332)
 
 
 <br>
@@ -1161,7 +1162,7 @@ $$
   - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
   - [2025 - FlowR: Flowing from Sparse to Dense 3D Reconstructions](https://tobiasfshr.github.io/pub/flowr/), CVG
   - [2025 - Aerial Gym Simulator: A Framework for Highly Parallelized Simulation of Aerial Robots](https://arxiv.org/pdf/2503.01471)
-  - [2025 - Sound Source Localization for Spatial Mapping of Actions in Dynamic Scenes](https://arxiv.org/pdf/2510.24332)
+
 
 <br><br><br><br><br><br>
 
