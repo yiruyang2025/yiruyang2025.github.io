@@ -29,14 +29,22 @@ related_publications: true
 | **No temporal supervision** | Hard to maintain frame-to-frame consistency.                               |
 
 
-
-
 <br>
 
 ## Background Knowledge
 
 - Reconstructing animatable 3D animal models — including mesh, appearance, and motion (pose, shape, texture) — directly from monocular videos of real animals, such as dogs.
 - Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
+
+<br>
+
+
+| Stage / Parameter                            | Controlled Stage | Optimization Target / Scope                                                                                           | Related Module                      | Typical Range |
+| -------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------- |
+| **Shape Optimization (`exp.n_shape_steps`)** | Geometry Stage   | Optimizes mesh geometry, object pose, point cloud, or Gaussian primitive positions; may also refine camera extrinsics | `SceneOptimizer.optimize_shape()`   | 1000–5000     |
+| **Texture Optimization (`exp.n_steps`)**     | Texture Stage    | Optimizes the texture MLP including color, lighting, reflectance, transparency, and shading parameters                | `SceneOptimizer.optimize_texture()` | 1000–5000     |
+
+
 
 <br>
 
