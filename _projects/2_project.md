@@ -30,7 +30,6 @@ related_publications: true
 
 ## References
 
-- [2025 - SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386), engineering one
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
@@ -59,15 +58,6 @@ related_publications: true
   - dust3r/semantic_prior # ViT 16*16 patch -> pixels
 - Upsampling - TTO style
   - [2025 - Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling](https://seominseok0429.github.io/Upsample-Anything/)
-
-<br>
-
-## Products
-
-  - moondream
-
-<br>
-
 
 <br>
 
@@ -124,7 +114,7 @@ related_publications: true
 - [2025 - TANGO: Traversablility-Aware Navigation with Local Metric Control for Topological Goals](https://podgorki.github.io/TANGO/)
   - policies can be trained with diffusions
 - [📍 2025 - Sound Source Localization for Spatial Mapping of Actions in Dynamic Scenes](https://arxiv.org/pdf/2510.24332)
-
+- [2025 - From Pixels to Perception: Interpretable Predictions via Instance-wise Grouped Feature Selection](https://arxiv.org/pdf/2505.06003)
 
 <br>
 
