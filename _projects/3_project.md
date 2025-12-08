@@ -38,6 +38,28 @@ related_publications: true
 
 <br>
 
+## Polynomial vs. Recursive Construction (Essential Differences for ML & Geometry)
+
+| Aspect                       | **Polynomial (Analytic / Global Form)**                 | **Recursive (de Casteljau / Local Form)**                                                                        |
+| ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Influence of Control Points  | **Global** — one control point affects the entire curve | **Local** — each segment depends only on nearby control points                                                   |
+| Function Complexity          | High-complexity global polynomial                       | Simple repeated linear interpolation                                                                             |
+| Learning Stability           | Unstable (global coupling → noisy gradients)            | Stable (local structure → smooth gradients)                                                                      |
+| Regularization               | Weak — no inherent geometric constraints                | Strong — recursive structure acts as built-in regularizer                                                        |
+| Overfitting Risk             | High                                                    | Low                                                                                                              |
+| Compatibility with ML        | Poor for displacement or dynamic motion                 | Excellent for neural models (diffusion, deformation, 4D trajectories)                                            |
+| Extension to High Dimensions | Difficult (global interactions)                         | Easy (local updates generalize to 3D/4D motion)                                                                  |
+| Relation to Other Priors     | —                                                       | Naturally compatible with **B-Splines (local support)** and **natural parametrization (arc-length consistency)** |
+
+
+<br>
+
+
+
+<br>
+
+
+## During Training
 
 | Stage / Parameter                            | Controlled Stage | Optimization Target / Scope                                                                                           | Related Module                      | Typical Range |
 | -------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------- |
