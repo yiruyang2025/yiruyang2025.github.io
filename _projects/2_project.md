@@ -293,7 +293,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
 | `(loss1 + loss2).backward()` | 1                        | Computes gradients jointly      | Simpler, but combined gradients are less controllable                                                            |
 | Separate `backward()` calls  | 2                        | Computes gradients individually | Better suited for tasks requiring different weighting or multi-branch networks (e.g., semantic + diffusion loss) |
 
-
+<br>
 
 ## 📍 Semantic vs. Photometric Consistency
 
