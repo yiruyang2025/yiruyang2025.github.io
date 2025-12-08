@@ -32,7 +32,6 @@ related_publications: true
 
 ## Related Art works
 
-  - [2025 - VGGT](https://vgg-t.github.io/)
   - 📍 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
   - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
 
@@ -45,7 +44,6 @@ related_publications: true
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS 2025 (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
-- [2025 ICCV - Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](https://boyangdeng.com/visual-chronicles/)
 
 <br>
 
