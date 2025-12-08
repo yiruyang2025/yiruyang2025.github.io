@@ -1153,6 +1153,8 @@ $$
   - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
   - [2025 - FlowR: Flowing from Sparse to Dense 3D Reconstructions](https://tobiasfshr.github.io/pub/flowr/), CVG
   - [2025 - Aerial Gym Simulator: A Framework for Highly Parallelized Simulation of Aerial Robots](https://arxiv.org/pdf/2503.01471)
+  - [2019 - ICCV - Pix2Vox: Context-aware 3D Reconstruction from 📍 Single and Multi-view Images](https://www.infinitescript.com/project/pix2vox/)
+  - [2015 - ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012)
 
 
 <br><br><br><br><br><br>
