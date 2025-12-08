@@ -38,6 +38,14 @@ related_publications: true
 
 <br>
 
+
+## Attended Doctoral Thesis Project Defense at CVG
+
+- Generalizing Monocular 3D Estimation by Luigi Piccinelli, 9 Dec 2025 at 3pm, in Room HG D22 / online
+
+
+<br>
+
 ## Polynomial vs. Recursive Construction (Essential Differences for ML & Geometry)
 
 | Aspect                       | **Polynomial (Analytic / Global Form)**                 | **Recursive (de Casteljau / Local Form)**                                                                        |
