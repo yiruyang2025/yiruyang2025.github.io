@@ -54,6 +54,36 @@ related_publications: true
 
 <br>
 
+## Pipeline Overview
+
+| **Stage**   | **Script**                         | **Function**                                                                   | **Main Computation**                                                                                         | **Input**                                                  | **Output**                                                                           | **GPU / CPU Usage**                                                                                    | **Typical Runtime**           |
+| ----------- | ---------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| **Step 01** | `main_preprocess_scene.py`         | Preprocessing – Extract DensePose CSE embeddings and estimate PnP camera poses | Feature extraction + RANSAC-based pose estimation                                                            | Raw RGB frames + masks + `metadata.sqlite`                 | `*_cse_predictions.pk`, `*_pnp_R_T.pk`, visualization videos (mp4)                   | **Hybrid GPU + CPU**<br>• Detectron2 / DensePose → GPU<br>• RANSAC → CPU                               | ≈ 30 min (202 frames on V100) |
+| **Step 02** | `main_optimize_scene.py`           | Optimization – Fit SMAL pose, shape and texture parameters (+ fur layer)       | Back-propagation + differentiable rendering + multi-loss optimization (Chamfer, CSE, Color, Laplacian, etc.) | Step 01 outputs (CSE + PnP) + `init_pose` + `refined_mask` | `/experiments/<sequence>/` containing `mesh/`, `texture/`, `log.txt`, `checkpoints/` | **Mainly GPU**<br>• PyTorch3D + Lightplane + Triton kernel rendering<br>• CPU for I/O and data loading | 2 – 5 hours (V100 32 GB)      |
+| **Step 03** | `main_visualize_reconstruction.py` | Visualization – Render and export 3D reconstruction results                    | Load mesh and texture → render turntable video or overlay sequence                                           | Experiment directory `/experiments/<sequence>/`            | Rendered mp4 video and final 3D models (.obj / .ply)                                 | **CPU + Light GPU** (for rendering and encoding)                                                       | 3 – 10 min                    |
+
+
+```
+        ┌──────────────┐
+        │  CoP3D Video │
+        └──────┬───────┘
+               │ RGB + Mask + Metadata
+               ▼
+     [Step 01] main_preprocess_scene.py
+               │
+               ├─► CSE Embedding (.pk)
+               ├─► Camera Extrinsics (.pk)
+               └─► Visualization (CSE / PnP .mp4)
+               ▼
+     [Step 02] main_optimize_scene.py
+               │
+               ├─► Optimize (SMAL Pose + Shape)
+               ├─► Render Texture (Lightplane)
+               ├─► Save Mesh / Texture / Logs
+               ▼
+     [Step 03] main_visualize_reconstruction.py
+               └─► Rendered Demo Video (.mp4 / .obj)
+```
 
 
 <br>
