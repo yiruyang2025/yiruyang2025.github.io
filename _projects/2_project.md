@@ -26,6 +26,17 @@ related_publications: true
 - Deformable fields ensure that these details move consistently with body or surface movement
 ```
 
+
+<br>
+
+
+## Related Art works
+
+  - [2025 - VGGT](https://vgg-t.github.io/)
+  - 📍 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
+
+
 <br>
 
 ## References
@@ -640,14 +651,6 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
    - Powers Pixel 10 AI (Gemini Nano + Tensor G5)
 ```
 
-<br>
-
-
-## Some Related Art works
-
-  - [2025 - VGGT](https://vgg-t.github.io/)
-  - 📍 [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation
 
 <br>
 
