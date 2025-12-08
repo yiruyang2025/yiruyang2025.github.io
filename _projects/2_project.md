@@ -155,7 +155,6 @@ related_publications: true
   - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
   - [2025 - This Camera System Can Focus on Everything, 📍 Everywhere, All At Once](https://petapixel.com/2025/11/10/this-camera-system-can-focus-on-everything-everywhere-all-at-once/)
 
-<br>
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
   - [2024 - UniDepth: Universal Monocular Metric Depth Estimation](https://arxiv.org/pdf/2403.18913)
@@ -258,6 +257,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
    → But geometry/topology lost
 ```
 
+<br>
 
 ## Attended Master Thesis Project Defense at CVG
 
