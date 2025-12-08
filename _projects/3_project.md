@@ -110,6 +110,35 @@ related_publications: true
 | **Per-Video Optimization Pipeline**     | Performs **per-sequence fitting** of shape, pose, texture, and embedding parameters, rather than training a general model. Implemented via `main_optimize_scene.py`.          | Tailors reconstruction to each individual video, achieving **high-fidelity, video-specific 3D models**.                                                     |
 | **Overall Summary**                     | Integrates parametric mesh priors, dense view-agnostic supervision, implicit texture fields, and per-video optimization into one pipeline.                                    | Enables **animatable, view-consistent 3D reconstruction from monocular videos**.                                                                            |
 
+<br>
+
+
+## Step 02 – main_optimize_scene.py
+
+| **Stage**                             | **Component**                                              | **Device (CPU/GPU)** | **Operation**                                                                     | **Details**                                                      |
+| ------------------------------------- | ---------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **1. Load preprocessed data**         | `get_input_cop_from_cfg()`                                 | CPU → GPU            | Loads images, masks, cameras, CSE embeddings, etc., and transfers tensors to GPU. | Input comes from Step 01 outputs.                                |
+| **2. Model initialization**           | `initialize_pose_model()` + `initialize_texture_model()`   | GPU                  | Builds neural modules (pose, texture) and loads checkpoints if available.         | Parameters moved to GPU memory.                                  |
+| **3. Differentiable rendering setup** | PyTorch3D / Lightplane renderer                            | GPU                  | Prepares renderer with Cameras, Meshes, Textures for forward/backward passes.     | Uses CUDA kernels and Triton ops.                                |
+| **4. Optimization loop**              | `SceneOptimizer.optimize_scene()`                          | ✅ GPU (heavy)        | Runs forward → loss → backward → update per epoch                                 | Losses: Chamfer, CSE, Color, Laplace; gradients computed on GPU. |
+| **5. Evaluation & checkpointing**     | `CallbackEval`, `CallbackEarlyStop`                        | GPU + CPU            | Periodically evaluates PSNR, IoU and saves checkpoints.                           | Evaluation forward passes on GPU; logging on CPU.                |
+| **6. Rendering for inspection**       | `vizrend.global_visualization()` + `viz.make_video_list()` | GPU + CPU            | Generates before/after videos of optimized scene.                                 | GPU rasterization → CPU video encoding.                          |
+
+
+
+
+## Step 3 - main_visualize_reconstruction.py — GPU Usage and Data Flow
+
+
+| **Stage**                        | **Component**                                           | **Device (CPU/GPU)** | **Operation**                                                          | **Details**                                                                                 |
+| -------------------------------- | ------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **1. Load inputs**               | `get_input_cop_from_archive()`                          | CPU → GPU            | Loads images, masks, cameras, embeddings, and moves tensors to the GPU | Uses `.to(device)` for tensors (e.g. `images`, `masks`, `texture`, `cse_embedding`)         |
+| **2. Load trained models**       | `Inferencer.load_pose_model()` + `load_texture_model()` | GPU                  | Loads checkpointed weights to `pose_model` and `texture_model`         | Models are explicitly moved to GPU (`.to(device)`)                                          |
+| **3. Evaluation**                | `CallbackEval.call()`                                   | GPU                  | Runs forward passes for test frames                                    | Computes metrics like PSNR, IoU, LPIPS, etc. (all on GPU)                                   |
+| **4. Visualization (Rendering)** | `vizrend.global_visualization()`                        | GPU + CPU            | Performs differentiable rendering using PyTorch3D                      | Heavy GPU computation for mesh projection, rasterization, and lighting; CPU collects frames |
+| **5. Video export**              | `viz.make_video_list()`                                 | CPU                  | Concatenates rendered frames and encodes into MP4                      | Uses `ffmpeg` or OpenCV on CPU; no training computation                                     |
+
+
 
 
 <br>
