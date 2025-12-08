@@ -125,9 +125,9 @@ related_publications: true
 | **6. Rendering for inspection**       | `vizrend.global_visualization()` + `viz.make_video_list()` | GPU + CPU            | Generates before/after videos of optimized scene.                                 | GPU rasterization → CPU video encoding.                          |
 
 
+<br>
 
-
-## Step 3 - main_visualize_reconstruction.py — GPU Usage and Data Flow
+## Step 3 - main_visualize_reconstruction.py
 
 
 | **Stage**                        | **Component**                                           | **Device (CPU/GPU)** | **Operation**                                                          | **Details**                                                                                 |
