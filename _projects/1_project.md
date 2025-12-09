@@ -98,8 +98,9 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Philosophy**           | **“Zero-cost abstraction”** — safety + performance                      | **“Pragmatic simplicity”** — simplicity + efficiency              | **“Total control”** — performance + flexibility          | **“Ease of use”** — simplicity + rapid prototyping |
 | **Key Projects**         | Firefox, Tokio, AWS Firecracker                                         | Docker, Kubernetes, Terraform                                     | Unreal Engine, Chrome, TensorRT                          | PyTorch, TensorFlow, YouTube                       |
 
+<br>
 
-## C++, Python, Java
+## C++, Python
 
 | Language | Execution Pipeline | Abstraction Level | Real-World Performance |
 |-----------|-------------------|-------------------|------------------------|
