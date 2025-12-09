@@ -54,15 +54,11 @@ related_publications: true
 
 <br>
 
-| **Stage**   | **Script**                         | **Purpose / Function**                                                             | **Main Computation**                                                                                         | **Input**                                                  | **Output**                                                                           | **GPU / CPU Usage**                                                                           | **Typical Runtime**           |
+| **Stage**   | **Script<br>File**                 | **Purpose / Function**                                                             | **Main Computation**                                                                                         | **Input**                                                  | **Output**                                                                           | **GPU / CPU Usage**                                                                           | **Typical Runtime**           |
 | ----------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ----------------------------- |
 | **Step 01** | `main_preprocess_scene.py`         | **Preprocessing** – extract DensePose CSE embeddings and estimate PnP camera poses | Feature extraction and RANSAC-based camera pose estimation                                                   | Raw RGB frames + masks + `metadata.sqlite`                 | `*_cse_predictions.pk`, `*_pnp_R_T.pk`, visualization videos (.mp4)                  | **Hybrid GPU + CPU**<br>• Detectron2 / DensePose → GPU<br>• RANSAC → CPU                      | ≈ 30 min (202 frames on V100) |
 | **Step 02** | `main_optimize_scene.py`           | **Optimization** – fit SMAL pose, shape, and texture parameters (+ fur layer)      | Back-propagation + differentiable rendering + multi-loss optimization (Chamfer, CSE, Color, Laplacian, etc.) | Step 01 outputs (CSE + PnP) + `init_pose` + `refined_mask` | `/experiments/<sequence>/` containing `mesh/`, `texture/`, `log.txt`, `checkpoints/` | **Mainly GPU**<br>• PyTorch3D + Lightplane + Triton kernels<br>• CPU for I/O and data loading | 2 – 5 h (V100 32 GB)          |
 | **Step 03** | `main_visualize_reconstruction.py` | **Visualization** – render and export 3D reconstruction results                    | Load mesh + texture → render turntable or overlay sequence                                                   | Experiment directory `/experiments/<sequence>/`            | Rendered video (.mp4) and final 3D models (.obj / .ply)                              | **CPU + Light GPU** (for rendering and encoding)                                              | 3 – 10 min                    |
-
-
-
-
 
 
 
