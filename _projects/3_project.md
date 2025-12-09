@@ -264,7 +264,10 @@ Regularization Terms
 - [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
 
 
+## Fur
+
 - [2024 - Controllable Neural Style Transfer for Dynamic Meshes](https://studios.disneyresearch.com/2024/07/28/controllable-neural-style-transfer-for-dynamic-meshes/)
+- [2025 - Shaping Strands with Neural Style Transfer](https://dl.acm.org/doi/pdf/10.1145/3763365)
 
 
 
