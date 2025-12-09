@@ -98,6 +98,19 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Philosophy**           | **“Zero-cost abstraction”** — safety + performance                      | **“Pragmatic simplicity”** — simplicity + efficiency              | **“Total control”** — performance + flexibility          | **“Ease of use”** — simplicity + rapid prototyping |
 | **Key Projects**         | Firefox, Tokio, AWS Firecracker                                         | Docker, Kubernetes, Terraform                                     | Unreal Engine, Chrome, TensorRT                          | PyTorch, TensorFlow, YouTube                       |
 
+
+## C++, Python, Java
+
+| Language | Execution Pipeline | Abstraction Level | Real-World Performance |
+|-----------|-------------------|-------------------|------------------------|
+| **C/C++** | Source code → Compilation → Machine code → Executed directly by the **CPU** ✅ one-step execution | **Direct (no virtual layer)** | 🔥 **≈ 100%** (baseline) |
+| **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled 🌀 one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
+| **Python** | Source code → **Interpreter** → Dynamic execution 🌀🌀 multiple layers | **Interpreter + dynamic typing** | 🐢 **≈ 1 – 5%** of C++ |
+
+
+
+
+
 <br>
 
 ## Latent Space Structure
