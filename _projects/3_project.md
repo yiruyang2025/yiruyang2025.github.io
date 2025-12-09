@@ -54,6 +54,26 @@ related_publications: true
 
 <br>
 
+## Trouble Shooting
+
+- Your Ray
+
+```
+Camera parameters (R, T, intrinsics)
+   ↓
+Ray sampling → (x, y, z)
+   ↓
+Project to image plane (u, v)
+   ↓
+Sample RGB, mask, features at (u, v)
+```
+
+
+
+
+
+## During Training
+
 | **Stage**   | **Script<br>File**                 | **Purpose / Function**                                                             | **Main Computation**                                                                                         | **Input**                                                  | **Output**                                                                           | **GPU / CPU Usage**                                                                           | **Typical Runtime**           |
 | ----------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ----------------------------- |
 | **Step 01** | `main_preprocess_scene.py`         | **Preprocessing** – extract DensePose CSE embeddings and estimate PnP camera poses | Feature extraction and RANSAC-based camera pose estimation                                                   | Raw RGB frames + masks + `metadata.sqlite`                 | `*_cse_predictions.pk`, `*_pnp_R_T.pk`, visualization videos (.mp4)                  | **Hybrid GPU + CPU**<br>• Detectron2 / DensePose → GPU<br>• RANSAC → CPU                      | ≈ 30 min (202 frames on V100) |
