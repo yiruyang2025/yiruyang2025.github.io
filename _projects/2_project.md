@@ -1149,7 +1149,6 @@ $$
   - [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG
   - [2022 - Embodied Active Domain Adaptation for Semantic Segmentation via Informative Path Planning](https://arxiv.org/abs/2203.00549)
 
-<br>
 
   - [2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
   - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
