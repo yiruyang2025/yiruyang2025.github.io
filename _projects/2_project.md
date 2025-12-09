@@ -30,11 +30,12 @@ related_publications: true
 <br>
 
 
-## 📍 Related Art works
+## Related Art works
 
   - [📍 2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf) - Open set
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/) - SSL, Neural scene representation, Generative representation learning, Multi-view Geometry
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+
 
 
 <br>
