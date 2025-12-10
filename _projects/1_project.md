@@ -105,16 +105,16 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 | Language | Execution Pipeline | Abstraction Level | Real-World Performance |
 |-----------|-------------------|-------------------|------------------------|
-| **C/C++** | Source code → Compilation → Machine code → Executed directly by the **CPU** ✅ one-step execution | **Direct (no virtual layer)** | 🔥 **≈ 100%** (baseline) |
-| **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled 🌀 one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
-| **Python** | Source code → **Interpreter** → Dynamic execution 🌀🌀 multiple layers | **Interpreter + dynamic typing** | 🐢 **≈ 1 – 5%** of C++ |
+| **C/C++** | Source code → Compilation → Machine code → Executed directly by the **CPU** one-step execution | **Direct (no virtual layer)** | **≈ 100%** (baseline) |
+| **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
+| **Python** | Source code → **Interpreter** → Dynamic execution multiple layers | **Interpreter + dynamic typing** | **≈ 1 – 5%** of C++ |
 
 <br>
 
 ## C++（with CUDA）
 
-- C++ was designed as a systems programming language, Goal:
-   - “Generate code that maps directly to hardware”
+C++ was designed as a systems programming language, goal:
+  - “Generate code that maps directly to hardware”
 
 ```
 C++/CUDA code (.cu)
@@ -124,9 +124,11 @@ PTX / SASS GPU machine code
 GPU executes the kernel directly
 ```
 
-## Python with GPUs only execute PTX/SASS machine code and do not understand Python bytecode (.pyc)
+<br>
 
-- Python was designed as a high-level dynamic scripting language, Goal:
+## Python
+
+Python was designed as a high-level dynamic scripting language, goal:
   - “Maximize developer productivity and readability, not performance”
 
 ```
