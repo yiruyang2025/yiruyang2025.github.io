@@ -38,6 +38,20 @@ related_publications: true
 
 <br>
 
+
+## Animal Avatars
+
+| Contribution                                                  | Meaning                                                                            | Relevance to Our Fur Layer                                                             |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **CSE + articulated mesh for dense supervision**              | Provides dense 2D-to-3D correspondences for every pixel, independent of viewpoint. | Our Gaussian fur geometry must be anchored to the mesh; this attachment relies on CSE. |
+| **Canonical + deformed duplex-mesh texture**                  | Ensures semantic consistency and continuous appearance across poses.               | Enables future extensions such as canonical fur color or reflectance fields.           |
+| **Layered implicit field (inner and outer shells)**           | Represents texture within a volumetric region rather than a single surface.        | Matches our volumetric Gaussian primitives, which naturally occupy a 3D volume.        |
+| **Monocular reconstruction improved through CSE constraints** | Provides strong supervision even for rear and side views.                          | Required for stable fur smoothness losses and future temporal constraints.             |
+
+
+
+<br>
+
 ## Polynomial vs. Recursive Construction (Essential Differences for ML & Geometry)
 
 | Aspect                       | **Polynomial (Analytic / Global Form)**                 | **Recursive (de Casteljau / Local Form)**                                                                        |
@@ -67,7 +81,6 @@ Project to image plane (u, v)
    ↓
 Sample RGB, mask, features at (u, v)
 ```
-
 
 
 
