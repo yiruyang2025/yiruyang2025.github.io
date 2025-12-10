@@ -109,6 +109,36 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled 🌀 one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
 | **Python** | Source code → **Interpreter** → Dynamic execution 🌀🌀 multiple layers | **Interpreter + dynamic typing** | 🐢 **≈ 1 – 5%** of C++ |
 
+<br>
+
+## C++（with CUDA）
+
+- C++ was designed as a systems programming language, Goal:
+   - “Generate code that maps directly to hardware”
+
+```
+C++/CUDA code (.cu)
+        ↓ nvcc compile
+PTX / SASS GPU machine code
+        ↓
+GPU executes the kernel directly
+```
+
+## Python with GPUs only execute PTX/SASS machine code and do not understand Python bytecode (.pyc)
+
+- Python was designed as a high-level dynamic scripting language, Goal:
+  - “Maximize developer productivity and readability, not performance”
+
+```
+Python code (.py)
+        ↓
+Calls into C/C++ library (PyTorch, TensorFlow, NumPy, CuPy…)
+        ↓
+C/C++ implementation launches CUDA kernels
+        ↓
+GPU executes the kernel
+```
+
 
 
 
