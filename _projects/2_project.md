@@ -42,6 +42,7 @@ related_publications: true
 
 ## References
 
+- [Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
 - [2017 - CVPR - 📍 Multi-view Supervision for Single-view Reconstruction via 📍 Differentiable Ray Consistency](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tulsiani_Multi-View_Supervision_for_CVPR_2017_paper.pdf)
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
