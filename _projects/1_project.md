@@ -45,6 +45,25 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+## Limitations and Potential Improvements of Whisper
+
+| Area                                     | Current Limitation                                                                           | Potential Improvement                                                                                                    | Example / Research Direction                           |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| **1. Model Efficiency**                  | Whisper models (esp. large) are compute-heavy and slow for real-time ASR.                    | Apply **quantization (8-bit / 4-bit)**, **Adapter / LoRA fine-tuning**, or **distillation**.                             | QLoRA, Distil-Whisper, or your own **QDLoRA** project. |
+| **2. Low-Resource / Domain Adaptation**  | Performance drops sharply on domain-specific or low-resource speech (e.g. noisy, dialectal). | Use **Adapter-guided fine-tuning**, **domain-aware data augmentation**, or **knowledge distillation from large models**. | Domain-aware denoising ASR for hearing aids.           |
+| **3. Multilingual Robustness**           | Still weaker on code-switching or underrepresented languages.                                | Introduce **multilingual adapters** or **language routing mechanisms** that dynamically adjust to language context.      | M-Adapter, Switch-Transformer.                         |
+| **4. Latency / Streaming ASR**           | Whisper is **offline** (needs full audio before decoding).                                   | Convert to **streaming architecture** using chunk-based inference or online Conformer encoder.                           | Online Whisper, Incremental SLU systems.               |
+| **5. Robustness to Noise**               | Whisper handles mild noise but not extreme acoustic distortions.                             | Combine with **speech enhancement front-end** (DGRNN / diffusion denoiser) or **multi-condition training**.              | Whisper + DG-RNN enhancement.                          |
+| **6. Temporal Alignment**                | Whisper’s timestamps can drift or misalign for long recordings.                              | Introduce **alignment refinement modules** or **CTC-based timestamp correction**.                                        | Frame-level VAD alignment, temporal calibration.       |
+| **7. Reasoning / Instruction Following** | Whisper is limited to transcription; lacks reasoning or instruction ability.                 | Combine with **LLMs or Tool-augmented agents** (e.g., Whisper + GPT reasoning).                                          | Elastic Reasoning, multi-modal ASR Agents.             |
+| **8. Privacy / On-device Deployment**    | Too large for edge devices.                                                                  | Develop **compact on-device variants** with 100–300 MB footprint.                                                        | Distilled Whisper-small + LoRA adapters.               |
+| **9. Data Bias**                         | Training data skewed toward high-resource English and clean YouTube content.                 | Build **balanced multilingual corpora** and **curate synthetic data** for fairness.                                      | Self-supervised synthetic speech data generation.      |
+
+
+
+
+<br>
+
 ## Backpropagation
 
 
