@@ -61,6 +61,7 @@ related_publications: true
 └────────────────────────────────┘
 ```
 
+<br>
 
 ## Data Types
 
@@ -71,6 +72,8 @@ related_publications: true
 | **Pose / Interaction Data**           | Vive → Unreal                        | Controller and head IMU data, Lighthouse tracking signals |
 | **Audio Stream**                      | Unreal → Audio Chip / DP / Audio EXE | PCM waveform data or triggered audio events               |
 
+
+<br>
 
 ## Physical Layers For the Data Flow
 
@@ -88,7 +91,7 @@ related_publications: true
 
 **2. Unreal Engine ↔ HTC Vive (Headset + Controllers)**
 
-(1) Video and Audio Signals
+`(1) Video and Audio Signals`
 
 | **Type**                          | **Channel**                        | **Cable**                           | **Direction**    |
 | --------------------------------- | ---------------------------------- | ----------------------------------- | ---------------- |
@@ -96,7 +99,7 @@ related_publications: true
 | Audio Stream (PCM / Compressed)   | GPU / Motherboard → HMD Headphones | Audio sub-channel within DP or HDMI | One-way (output) |
 
 
-(2) Sensor and Control Signals
+`(2) Sensor and Control Signals`
 
 | **Type**                              | **Channel**                       | **Cable**                  | **Direction** |
 | ------------------------------------- | --------------------------------- | -------------------------- | ------------- |
