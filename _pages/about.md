@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - `Semantic 4D Pixel Cues`, UZH AI, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Fur Surface Refinement from `Monocular` Videos, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - (4D_MapAnything, a pipeline)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - SSL Better Normalization
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - SSL Auto Better Normalization
 
 <br>
 
