@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Gaussian Furs from Monocular Videos
+title: 2025 - Thesis - 3D Neural Sound
 description: CVG
 img: assets/img/4.jpg
 importance: 3
@@ -27,6 +27,90 @@ related_publications: true
 | **Lighting variation**      | Fur reflection, translucency, and self-occlusion make appearance unstable. |
 | **Strong deformation**      | Animal skin and fur exhibit local non-rigid motion.                        |
 | **No temporal supervision** | Hard to maintain frame-to-frame consistency.                               |
+
+
+<br>
+
+
+## SUMO Bridge
+
+```
+┌────────────────────────────┐
+│ SUMO Bridge (Traffic Sim)  │
+│  - Runs locally, offline   │
+│  - Outputs vehicle poses & │
+│    event timestamps        │
+└─────────────┬──────────────┘
+              │
+   (Shared Memory / TCP localhost)
+              │
+┌─────────────▼──────────────┐
+│ Unreal Engine (VR Runtime) │
+│  - Renders the scene       │
+│  - Receives SUMO data      │
+│  - Triggers audio events   │
+│  - Synchronizes pose with  │
+│    HTC Vive SDK            │
+└───────┬─────────┬──────────┘
+        │         │
+ (SteamVR API)  (Audio EXE via DP port)
+        │         │
+┌───────▼─────────▼──────────────┐
+│ HTC Vive Headset + Controllers │
+│  - IMU / Lighthouse tracking   │
+│  - Controller input via        │
+│    SteamVR runtime             │
+└────────────────────────────────┘
+```
+
+
+## Time Alignment
+
+- Without an internet connection, there is no external time source (such as NTP or PTP). Therefore, all components must share a master clock, and every process synchronizes around it
+- What happens if your master clock is the system clock
+  - ✅ You can run completely offline
+  - ✅ You can maintain full timestamp consistency between Unreal, the EXE, and the HMD as long as every process refers to the same local system time or the same bridge-provided clock derived from it
+
+
+
+| Component                    | Role                     | Time Source                      | Works Offline? | Synchronization Scope    |
+| ---------------------------- | ------------------------ | -------------------------------- | -------------- | ------------------------ |
+| **System Clock**             | Hardware timer of OS     | Physical wall time               | Yes            | Microsecond precision    |
+| **Sync Server (Python/C++)** | Simulation scheduler     | Derived from system clock        | Yes            | Defines frame order      |
+| **SUMO Bridge**              | Produces simulation data | Receives time from Sync Server   | Yes            | Simulation step time     |
+| **Unreal Engine**            | Renders VR scene         | Driven by same time packets      | Yes            | Logical–physical mapping |
+| **HTC Vive / SteamVR**       | Device tracking          | Uses same OS clock internally    | Yes            | Predictive frame timing  |
+| **Audio EXE**                | Sound events             | Reads sync timestamps via socket | Yes            | Aligned playback timing  |
+
+
+```
+┌────────────────────────┐
+│  /C++ SyncServer       │   ← master process
+│  - owns master clock   │
+│  - sends {frame_idx, t}│
+└────────┬───────────────┘
+         │ sockets (localhost)
+┌────────▼────────┐     ┌────────▼────────┐
+│ Unreal Engine   │     │ SUMO Process    │
+│ (Client)        │     │ (Client)        │
+│ uses t, frame # │     │ uses t, frame # │
+└─────────────────┘     └─────────────────┘
+```
+
+
+<br>
+
+
+## The essence of `NTP`
+
+- To make sure that every computer (or process) in a network agrees on the same notion of time
+
+| Component            | Role                                                                  |
+| -------------------- | --------------------------------------------------------------------- |
+| **NTP Server**       | Maintains accurate time (usually synchronized to GPS or atomic clock) |
+| **NTP Client**       | Periodically queries the server to adjust its local clock             |
+| **Network Protocol** | UDP (port 123), exchanging timestamps to compute delay and offset     |
+
 
 
 <br>
