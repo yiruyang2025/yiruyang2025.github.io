@@ -74,7 +74,7 @@ related_publications: true
 
 ## Physical Layers For the Data Flow
 
-1. SUMO ↔ Unreal Engine
+**1. SUMO ↔ Unreal Engine**
 
 | **Aspect**            | **Details**                                                                                                                                        |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +86,7 @@ related_publications: true
 
 <br>
 
-2. Unreal Engine ↔ HTC Vive (Headset + Controllers)
+**2. Unreal Engine ↔ HTC Vive (Headset + Controllers)**
 
 (1) Video and Audio Signals
 
