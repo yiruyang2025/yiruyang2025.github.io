@@ -123,7 +123,6 @@ PTX / SASS GPU machine code
 GPU executes the kernel directly
 ```
 
-<br>
 
 ## Python
 
@@ -139,8 +138,14 @@ C/C++ implementation launches CUDA kernels
 GPU executes the kernel
 ```
 
+## DNS
 
-
+| **IP Address**     | **Service / Network**       | **Description**                                                                  |
+| ------------------ | --------------------------- | -------------------------------------------------------------------------------- |
+| **129.132.98.12**  | ETH Zurich Primary DNS      | Main campus DNS; default resolver used by **EULER** and **VPN connections**.     |
+| **129.132.250.2**  | ETH Zurich Secondary DNS    | Backup DNS paired with the primary resolver above.                               |
+| **129.132.250.10** | SIS / Leonhard / LeoMed DNS | Internal DNS for **Leonhard**, **LeoMed**, and **SIS Research IT** environments. |
+| **129.132.250.11** | SIS / Backup DNS            | High-availability (HA) redundant DNS for research and secure clusters.           |
 
 
 <br>
