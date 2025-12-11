@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Neural Diffusion
+title: 2026 - Thesis
 description:
 img: assets/img/4.jpg
 importance: 5
