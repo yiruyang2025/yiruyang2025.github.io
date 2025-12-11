@@ -75,6 +75,7 @@ related_publications: true
 ## Physical Layers For the Data Flow
 
 1. SUMO ↔ Unreal Engine
+
 | **Aspect**            | **Details**                                                                                                                                        |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Transmission Type** | Software-level communication (no physical cables)                                                                                                  |
@@ -86,7 +87,9 @@ related_publications: true
 <br>
 
 2. Unreal Engine ↔ HTC Vive (Headset + Controllers)
+
 (1) Video and Audio Signals
+
 | **Type**                          | **Channel**                        | **Cable**                           | **Direction**    |
 | --------------------------------- | ---------------------------------- | ----------------------------------- | ---------------- |
 | Video Frame Signal (Frame Buffer) | GPU → HMD Display                  | DisplayPort (DP) or HDMI            | One-way (output) |
@@ -94,6 +97,7 @@ related_publications: true
 
 
 (2) Sensor and Control Signals
+
 | **Type**                              | **Channel**                       | **Cable**                  | **Direction** |
 | ------------------------------------- | --------------------------------- | -------------------------- | ------------- |
 | Control Signals (USB HID)             | Vive Headset ↔ PC                 | USB 3.0 Cable              | Bidirectional |
