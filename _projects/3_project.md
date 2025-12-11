@@ -17,8 +17,6 @@ related_publications: true
 
 <br>
 
-
-
 ## The fundamental limitations of monocular (2D) video input
 
 | Problem                     | Effect                                                                     |
@@ -62,7 +60,6 @@ related_publications: true
 │    SteamVR runtime             │
 └────────────────────────────────┘
 ```
-
 
 ## Time Alignment
 
@@ -111,6 +108,26 @@ related_publications: true
 | **NTP Client**       | Periodically queries the server to adjust its local clock             |
 | **Network Protocol** | UDP (port 123), exchanging timestamps to compute delay and offset     |
 
+
+```
+[ SUMO Process ]
+     │  Δt = 100 ms
+     ▼
+  "SumoCommunicationRunnable"
+     │  sends {frame_id, sim_time}
+     ▼
+[ Local NTP / Sync Bridge ]
+     │  broadcasts {sim_time, delta}
+     ▼
+[ Unreal Engine Runtime ]
+     │
+     ├── updates Actor transforms at t = sim_time
+     └── triggers AudioBridge event “engine_start” @ t = sim_time
+           │
+           ▼
+[ Audio EXE ]
+     aligns its playback clock to t = sim_time
+```
 
 
 <br>
