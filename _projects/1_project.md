@@ -109,7 +109,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
 | **Python** | Source code → **Interpreter** → Dynamic execution multiple layers | **Interpreter + dynamic typing** | **≈ 1 – 5%** of C++ |
 
-<br>
 
 ## C++（with CUDA）
 
@@ -190,6 +189,7 @@ GPU executes the kernel
     ├── Hard composite problems
     ├── Algorithm design questions
 ```
+
 
 ## Diffusion, Stable Diffusion, Rectified Flow
 
@@ -377,7 +377,6 @@ linear scan       merge / quick sort         bubble / selection 
 |  | **Shampoo** | 2021 | Matrix preconditioning per layer | $$ G_t = \sum_{\tau=1}^{t} g_\tau g_\tau^\top, \quad W_{t+1}=W_t - \eta G_t^{-1/2}\nabla L $$ | Slow convergence on ill-conditioned loss | Improves conditioning for large models |
 | **Modern LLM Optimizers** | **Lion** | 2023 | Momentum with sign-based updates | $$ w_{t+1} = w_t - \eta \, \text{sign}(\beta_1 m_t + (1-\beta_1)g_t) $$ | Over-adaptation of Adam | Efficient and strong generalization for LLMs |
 |  | **Sophia** | 2023 | Second-order curvature-aware optimizer | $$ w_{t+1} = w_t - \eta \frac{g_t}{\sqrt{h_t+\epsilon}}, \quad h_t \approx \text{diag}(H_t) $$ | Slow convergence in large-scale Adam | State-of-the-art for Transformer training |
-
 
 
 <br>
