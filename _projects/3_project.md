@@ -98,6 +98,7 @@ related_publications: true
 | Video Frame Signal (Frame Buffer) | GPU → HMD Display                  | DisplayPort (DP) or HDMI            | One-way (output) |
 | Audio Stream (PCM / Compressed)   | GPU / Motherboard → HMD Headphones | Audio sub-channel within DP or HDMI | One-way (output) |
 
+<br>
 
 `(2) Sensor and Control Signals`
 
@@ -120,7 +121,7 @@ related_publications: true
 | Component                    | Role                     | Time Source                      | Works Offline? | Synchronization Scope    |
 | ---------------------------- | ------------------------ | -------------------------------- | -------------- | ------------------------ |
 | **System Clock**             | Hardware timer of OS     | Physical wall time               | Yes            | Microsecond precision    |
-| **Sync Server (Python/C++)** | Simulation scheduler     | Derived from system clock        | Yes            | Defines frame order      |
+| **Sync Server (C++)**        | Simulation scheduler     | Derived from system clock        | Yes            | Defines frame order      |
 | **SUMO Bridge**              | Produces simulation data | Receives time from Sync Server   | Yes            | Simulation step time     |
 | **Unreal Engine**            | Renders VR scene         | Driven by same time packets      | Yes            | Logical–physical mapping |
 | **HTC Vive / SteamVR**       | Device tracking          | Uses same OS clock internally    | Yes            | Predictive frame timing  |
@@ -186,18 +187,16 @@ related_publications: true
 ## Volumetric Representation vs. NeRF vs. Gaussian Splatting
 
 
-| Property                  | Volumetric Representation                  | NeRF                                                     | Gaussian Splatting                                   |
-| ------------------------- | ------------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------- |
-| **Function form**         | Explicit voxel field (V(\mathbf{x}))       | Implicit neural field (f_\theta(\mathbf{x}, \mathbf{d})) | Explicit Gaussian kernels ({G_i(\mathbf{x})})        |
-| **Rendering**             | Numerical volume integration               | Neural volume integration                                | Analytical Gaussian accumulation                     |
-| **Continuity**            | Piecewise (via interpolation)              | Continuous (via MLP)                                     | Continuous (via Gaussian kernel)                     |
-| **Optimization goal**     | Photometric consistency                    | Photometric consistency                                  | Photometric consistency                              |
-| **Storage**               | Dense voxel grid                           | Network weights                                          | Sparse Gaussian parameters                           |
-| **Computation**           | Heavy (O(V³))                              | Heavy (O(R×S))                                           | Lightweight (O(N))                                   |
-| **Best suited for**       | Static volumetric scenes                   | High-quality static fields                               | Real-time dynamic 3D/4D scenes                       |
-| **Mathematical relation** | Numerical approximation of volume integral | Neural approximation of the same integral                | Analytical kernel approximation of the same integral |
-
-
+| **Property**              | **Volumetric Representation**              | **NeRF**                                                   | **Gaussian Splatting**                               |
+| ------------------------- | ------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
+| **Function form**         | Explicit voxel field $V(\mathbf{x})$       | Implicit neural field $f_{\theta}(\mathbf{x}, \mathbf{d})$ | Explicit Gaussian kernels ${G_i(\mathbf{x})}$        |
+| **Rendering**             | Numerical volume integration               | Neural volume integration                                  | Analytical Gaussian accumulation                     |
+| **Continuity**            | Piecewise (via interpolation)              | Continuous (via MLP)                                       | Continuous (via Gaussian kernel)                     |
+| **Optimization goal**     | Photometric consistency                    | Photometric consistency                                    | Photometric consistency                              |
+| **Storage**               | Dense voxel grid                           | Network weights                                            | Sparse Gaussian parameters                           |
+| **Computation**           | Heavy $\mathcal{O}(V^3)$                   | Heavy $\mathcal{O}(R \times S)$                            | Lightweight $\mathcal{O}(N)$                         |
+| **Best suited for**       | Static volumetric scenes                   | High-quality static fields                                 | Real-time dynamic 3D/4D scenes                       |
+| **Mathematical relation** | Numerical approximation of volume integral | Neural approximation of the same integral                  | Analytical kernel approximation of the same integral |
 
 
 <br>
