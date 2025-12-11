@@ -113,8 +113,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## C++（with CUDA）
 
-C++ was designed as a systems programming language, goal:
-  - “Generate code that maps directly to hardware”
+- Designed as a systems programming language, “Generate code that maps directly to hardware”
 
 ```
 C++/CUDA code (.cu)
@@ -128,8 +127,7 @@ GPU executes the kernel directly
 
 ## Python
 
-Python was designed as a high-level dynamic scripting language, goal:
-  - “Maximize developer productivity and readability, not performance”
+- Designed as a high-level dynamic scripting language, “Maximize developer productivity and readability, not performance”
 
 ```
 Python code (.py)
