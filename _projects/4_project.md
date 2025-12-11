@@ -16,6 +16,9 @@ related_publications: true
 
 
 
+<br>
+
+
 ## 4D Gaussian Formulation
 
 
@@ -29,8 +32,7 @@ related_publications: true
 | Rendering             | Per-frame splatting          | Motion-compensated splatting               |
 
 
-
-<br><br>
+<br>
 
 ## 1. Metric-Scale 3D Reconstruction
 
