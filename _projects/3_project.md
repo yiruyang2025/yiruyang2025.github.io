@@ -181,12 +181,31 @@ related_publications: true
 
 <br>
 
+
+## Volumetric Representation vs. NeRF vs. Gaussian Splatting
+
+
+| Property                  | Volumetric Representation                  | NeRF                                                     | Gaussian Splatting                                   |
+| ------------------------- | ------------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------- |
+| **Function form**         | Explicit voxel field (V(\mathbf{x}))       | Implicit neural field (f_\theta(\mathbf{x}, \mathbf{d})) | Explicit Gaussian kernels ({G_i(\mathbf{x})})        |
+| **Rendering**             | Numerical volume integration               | Neural volume integration                                | Analytical Gaussian accumulation                     |
+| **Continuity**            | Piecewise (via interpolation)              | Continuous (via MLP)                                     | Continuous (via Gaussian kernel)                     |
+| **Optimization goal**     | Photometric consistency                    | Photometric consistency                                  | Photometric consistency                              |
+| **Storage**               | Dense voxel grid                           | Network weights                                          | Sparse Gaussian parameters                           |
+| **Computation**           | Heavy (O(V³))                              | Heavy (O(R×S))                                           | Lightweight (O(N))                                   |
+| **Best suited for**       | Static volumetric scenes                   | High-quality static fields                               | Real-time dynamic 3D/4D scenes                       |
+| **Mathematical relation** | Numerical approximation of volume integral | Neural approximation of the same integral                | Analytical kernel approximation of the same integral |
+
+
+
+
+<br>
+
 ## Background Knowledge
 
 - Reconstructing animatable 3D animal models — including mesh, appearance, and motion (pose, shape, texture) — directly from monocular videos of real animals, such as dogs.
 - Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
 
-<br>
 
 
 ## Animal Avatars
