@@ -62,7 +62,35 @@ related_publications: true
 
 <br>
 
-## Best Modern Binding Frameworks for Large-Scale Simulation (2025 Recommendation)
+
+## Best Normalization
+
+| **Data Distribution Characteristics**       | **Method**    | **Formula**                                                | **Core Assumption**                                                                 |
+| ------------------------------------------- | --------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Gaussian-like Distribution**              | Standard z-score normalization          | ((x - \mu) / \sigma)                                       | Most data points are concentrated near the mean; few outliers exist.                |
+| **Skewed or Heavy-Tailed Distribution**     | Robust z-score (Median + MAD)           | ((x - \text{median}) / \text{MAD})                         | Extreme values exist; the median provides a more stable estimate.                   |
+| **Bounded Values (0–1, Ratio-type Data)**   | Min–Max normalization                   | ((x - x_{\text{min}}) / (x_{\text{max}} - x_{\text{min}})) | Data lies within a fixed range; preserving proportional relationships is important. |
+| **Log-Normal or Multiplicative Noise Data** | Log transform + z-score                 | (\log(x)) or (\log(1 + x)) → z-score                       | Noise varies multiplicatively; log transformation linearizes it.                    |
+| **Mixed Noise or Asymmetric Distributions** | Quantile normalization / Rank transform | Mapping by quantiles                                       | The exact values are less important; only the rank order matters.                   |
+
+<br>
+
+## Brain Signals (Why Median + MAD)
+
+
+| **Property**                  | **Meaning**                                       | **Impact**                                     |
+| ----------------------------- | ------------------------------------------------- | ---------------------------------------------- |
+| **Non-stationary**            | The mean varies across time and sessions          | Mean and standard deviation become unstable    |
+| **Heavy-tailed distribution** | Strong artifacts or high-amplitude spikes         | Standard deviation is inflated by outliers     |
+| **Weak signal + mixed noise** | High-frequency oscillations + low-frequency drift | Large mean variation, clear skewness           |
+| **Inter-channel variation**   | Each sensor has different sensitivity             | Requires independent per-channel normalization |
+
+
+
+<br>
+
+
+## Best Modern Binding Frameworks for Large-Scale Simulation
 
 - pybind11 – Stable and widely used (PyTorch official)<br>
 - nanobind – Faster, modern, and designed for large-scale GPU simulation
