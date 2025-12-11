@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - 4D MapAnything
+title: 2026 - Thesis - Brain Mapping
 description: Feed-forward 4D Reconstruction
 img: assets/img/4.jpg
 importance: 4
@@ -13,6 +13,20 @@ related_publications: true
 ## References
 
 - [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
+
+
+
+## 4D Gaussian Formulation
+
+
+| Property              | 3D Gaussian Splatting        | 4D Gaussian Fields                         |
+| --------------------- | ---------------------------- | ------------------------------------------ |
+| Temporal modeling     | Static scene                 | Dynamic, time-dependent scene              |
+| Parameterization      | Fixed (\mu_i, \Sigma_i, c_i) | Functions (\mu_i(t), \Sigma_i(t), c_i(t))  |
+| Motion representation | None                         | Explicit velocity field (v(\mathbf{x}, t)) |
+| Topology handling     | Fixed structure              | Supports appearance/disappearance          |
+| Continuity            | Spatial smoothness           | Spatiotemporal smoothness                  |
+| Rendering             | Per-frame splatting          | Motion-compensated splatting               |
 
 
 
