@@ -157,6 +157,7 @@ related_publications: true
 | **NTP Client**       | Periodically queries the server to adjust its local clock             |
 | **Network Protocol** | UDP (port 123), exchanging timestamps to compute delay and offset     |
 
+<br>
 
 ```
 [ SUMO Process ]
