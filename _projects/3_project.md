@@ -13,9 +13,9 @@ related_publications: true
 
 ## Topic
 
-- When combined with Neural Diffusion, parametric curves - Bezier polynomial, Bezier (de Casteljau), and B-Spline, etc. act as strong geometric priors that prevent unrealistic deformation, making them ideal for displacement-map prediction and 4D reconstruction
 
-<br>
+<br><br>
+
 
 ## The fundamental limitations of monocular (2D) video input
 
