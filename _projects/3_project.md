@@ -120,9 +120,11 @@ related_publications: true
 | **Audio EXE**                | Sound events             | Reads sync timestamps via socket | Yes            | Aligned playback timing  |
 
 
+<br>
+
 ```
 ┌────────────────────────┐
-│  /C++ SyncServer       │   ← master process
+│  C++ SyncServer        │   ← master process
 │  - owns master clock   │
 │  - sends {frame_idx, t}│
 └────────┬───────────────┘
