@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis
+title: 2026 - Thesis - Brain Mapping
 description:
 img: assets/img/4.jpg
 importance: 5
