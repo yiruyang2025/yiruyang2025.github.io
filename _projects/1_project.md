@@ -1377,6 +1377,20 @@ Use recomputed activations → compute gradient
 Use Layer1 activation → compute gradient
 ```
 
+<br>
+
+
+## Git Extended Workflow with Merge
+
+| Step | Command                | Purpose                                                                  | Data Location                                                      |
+| ---- | ---------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| 1    | `git add .`            | Stage modified files for the next commit.                                | Staging Area                                                       |
+| 2    | `git commit -m "..."`  | Record a new version snapshot.                                           | Local Repository                                                   |
+| 3    | `git pull origin main` | Fetch updates from the remote and **merge** them into your local branch. | Merges remote changes into Local Repository and Working Directory. |
+| 4    | `git push origin main` | Upload local commits to the remote repository (e.g., GitHub).            | Cloud (Remote Repository)                                          |
+
+
+
 <br><br>
 
 
