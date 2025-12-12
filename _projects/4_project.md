@@ -42,9 +42,14 @@ related_publications: true
 
 
 
-<br>
+<br><br>
 
-## 4D Gaussian Formulation
+
+
+
+## Topics
+
+## 1. 4D Gaussian Formulation
 
 
 | Property              | 3D Gaussian Splatting        | 4D Gaussian Fields                         |
@@ -59,7 +64,7 @@ related_publications: true
 
 <br>
 
-## 1. Metric-Scale 3D Reconstruction
+## 2. Metric-Scale 3D Reconstruction
 
 
 **Definition**
@@ -77,7 +82,7 @@ where $X_i^{\sim}$ is the up-to-scale reconstruction.
 
 ---
 
-## 2. Pipeline
+**Pipeline**
 
 **Objective**
 
@@ -94,7 +99,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ---
 
-## 3. Input Design
+**Input Design**
 
 
 | Input Type | Description | Example |
@@ -106,7 +111,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ---
 
-## 4. Model Architecture
+**Model Architecture**
 
 **Encoder**
 - Vision Transformer backbone (e.g., DINOv2 / ViT-L)
@@ -131,7 +136,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ---
 
-## 5. Loss Functions
+**Loss Functions**
 
 
 | Loss | Meaning | Expression |
@@ -148,7 +153,7 @@ where each pixel corresponds to a ray with a time-dependent origin $p_i(t)$ and 
 
 ---
 
-## 6. Output
+**Output**
 
 - The model outputs:
 $$
@@ -164,7 +169,7 @@ Where:
 
 ---
 
-## 7. Training Strategy
+**Training Strategy**
 
 | Stage | Goal | Data |
 |--------|------|------|
@@ -175,7 +180,7 @@ Where:
 
 ---
 
-## 8. Adaptive Robust Loss
+**Adaptive Robust Loss**
 
 **Core Idea**
 
@@ -219,7 +224,7 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 
 ---
 
-## 9. Evaluation Metrics
+**Evaluation Metrics**
 
 | Category | Metric |
 |-----------|---------|
