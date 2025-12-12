@@ -63,7 +63,7 @@ related_publications: true
 
 <br>
 
-## In a VR system, there are 3 essential layers
+## In a Hardware system, there are 3 essential layers
 
 | Layer                              | Name                                                | Responsibility                                                                                  |
 | ---------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
