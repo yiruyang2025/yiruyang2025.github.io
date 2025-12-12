@@ -34,7 +34,7 @@ related_publications: true
 <br>
 
 
-**2. Products**
+**3. Products**
 
 
 - [Apptronik](https://apptronik.com/)
@@ -46,10 +46,7 @@ related_publications: true
 
 
 
-
-## Topics
-
-## 1. 4D Gaussian Formulation
+## 4D Gaussian Formulation
 
 
 | Property              | 3D Gaussian Splatting        | 4D Gaussian Fields                         |
@@ -64,7 +61,7 @@ related_publications: true
 
 <br>
 
-## 2. Metric-Scale 3D Reconstruction
+## Metric-Scale 3D Reconstruction
 
 
 **Definition**
