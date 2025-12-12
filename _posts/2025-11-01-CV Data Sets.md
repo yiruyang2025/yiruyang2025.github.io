@@ -67,21 +67,16 @@ images:
 
 <br><br><br><br>
 
+## Topics
 
-## NeurIPS 1987–2024
-
-| Period        | Core Theme                         | Representative Focus                                      |
-| ------------- | ---------------------------------- | --------------------------------------------------------- |
-| **1987–1993** | Neuro-inspired Foundations         | Neural computation, Hebbian learning, Hopfield networks   |
-| **1994–2000** | Statistical Learning Era           | SVM, VC theory, kernel methods                            |
-| **2001–2009** | Probabilistic Modeling             | Graphical models, Bayesian inference, LDA, GP             |
-| **2010–2014** | Representation Revival             | Deep belief nets, optimization, sparse coding             |
-| **2015–2017** | Theoretical Consolidation          | Learning theory, optimization, multi-agent RL             |
-| **2018–2019** | Deep Learning Formalization        | Neural ODEs, distributed optimization, RL theory          |
-| **2020–2021** | Scaling Reflection                 | GPT-3, robustness, evaluation metrics                     |
-| **2022–2023** | Diffusion + LLM Revolution         | Generative diffusion, alignment, safety                   |
-| **2024→**     | Multimodal + Reasoning Integration | Vision-language models, efficiency, real-world benchmarks |
-
+| **Conference**                                                        | **Primary Academic Focus**                                                                                                                                    |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ICML** (International Conference on Machine Learning)               | Emphasizes **learning theory, algorithms, statistical modeling, and optimization methods**.                                                                   |
+| **NeurIPS** (Conference on Neural Information Processing Systems)     | Focuses on **neural networks, cognitive science, large-scale applications, and interdisciplinary systems research**.                                          |
+| **ICLR** (International Conference on Learning Representations)       | Highlights **deep learning architectures, representation learning, interpretability, and empirical training practices**.                                      |
+| **CVPR** (IEEE Conference on Computer Vision and Pattern Recognition) | Concentrates on **computer vision algorithms, image/video understanding, 3D perception, and applied AI for visual data**.                                     |
+| **ECCV** (European Conference on Computer Vision)                     | Shares the same vision focus as CVPR but emphasizes **methodological novelty, geometry, and European research collaborations**.                               |
+| **ICCV** (International Conference on Computer Vision)                | Serves as the **global flagship vision conference**, covering **fundamental theory, large-scale datasets, and emerging applications in vision and robotics**. |
 
 
 <br><br><br><br><br><br>
