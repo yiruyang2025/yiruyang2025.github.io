@@ -19,8 +19,6 @@ images:
 
 - ETH3D
 - Aria Gen 1/2
-- [Kubric - synthetic](https://github.com/google-research/kubric)
-- [Nature - Fair human-centric image dataset for ethical AI benchmarking](https://www.nature.com/articles/s41586-025-09716-2)
 - [Human Mesh Modeling for Anny Body - NAVER LABS Europe](https://arxiv.org/pdf/2511.03589)
 - [2025 - Kinematify: Open-Vocabulary Synthesis of High-DoF Articulated Objects](https://huggingface.co/papers/2511.01294)
 - [2025 - Automatic analysis of three-dimensional cardiac tagged magnetic resonance images using neural networks trained on synthetic data](https://www.sciencedirect.com/science/article/pii/S1097664725000316?via%3Dihub)
