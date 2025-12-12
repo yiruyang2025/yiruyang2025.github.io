@@ -63,6 +63,29 @@ related_publications: true
 
 <br>
 
+## In a VR system, there are three essential layers
+
+| Layer                              | Name                                                | Responsibility                                                                                  |
+| ---------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Application Layer (App Layer)**  | Unreal / Unity / Blender / Games / Research Demos   | Handles rendering, logic, and user interaction.                                                 |
+| **Runtime API Layer (Middleware)** | OpenVR / OpenXR / Oculus SDK / WindowsMR            | Provides VR hardware abstraction, pose tracking, frame synchronization, and display management. |
+| **Device Layer (Hardware Layer)**  | HTC Vive / Valve Index / Meta Quest / Varjo / Pimax | Represents the physical headset, controllers, and tracking sensors.                             |
+
+
+## The Role of DP (DisplayPort)
+
+| Component                   | Function                     | Description                                                                                             |
+| --------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **DP (DisplayPort)**        | Physical video interface     | Transmits rendered frames from the GPU to the VR headset’s display.                                     |
+| **Bandwidth**               | High data transfer rate      | Supports dual-eye high-resolution output (e.g., 2K–4K per eye).                                         |
+| **Refresh Rate**            | Frame delivery speed         | Enables 90–120 Hz display updates to prevent motion sickness.                                           |
+| **Latency**                 | Image update timing          | Ensures real-time synchronization between head movement and displayed image.                            |
+| **Relation to Runtime API** | Software vs. hardware bridge | The Runtime API manages what is rendered; DisplayPort delivers it physically to the headset screen. |
+
+
+
+<br>
+
 ## Data Types
 
 | Data Type                             | Direction                            | Example Content                                           |
