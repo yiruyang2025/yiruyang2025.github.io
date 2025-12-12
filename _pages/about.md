@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. MSc in AI, 🇨🇭, yangyiru@staff-net-vpn in Use 2025
+subtitle: <a href='#'>Affiliations</a>. MSc in AI, 🇨🇭, @staff-net-vpn in use recently
 
 profile:
   align: right
