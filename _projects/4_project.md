@@ -18,6 +18,21 @@ related_publications: true
 
 <br>
 
+## Robotics
+
+**Series Elastic Actuators**
+
+- [2017](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
+- [Apptronik](https://apptronik.com/)
+
+
+<br>
+
+**
+
+
+
+<br>
 
 ## 4D Gaussian Formulation
 
