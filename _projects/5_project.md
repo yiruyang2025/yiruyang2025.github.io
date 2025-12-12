@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Brain Mapping
-description: SSL Better Normalization
+description: SSL
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -32,7 +32,7 @@ related_publications: true
 
 ## References
 
-- [2025 - ZapBench](https://github.com/google-research/zapbench)
+- [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 - [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
