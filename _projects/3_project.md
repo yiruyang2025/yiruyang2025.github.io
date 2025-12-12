@@ -63,7 +63,7 @@ related_publications: true
 
 <br>
 
-## In a VR system, there are three essential layers
+## In a VR system, there are 3 essential layers
 
 | Layer                              | Name                                                | Responsibility                                                                                  |
 | ---------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -71,6 +71,8 @@ related_publications: true
 | **Runtime API Layer (Middleware)** | OpenVR / OpenXR / Oculus SDK / WindowsMR            | Provides VR hardware abstraction, pose tracking, frame synchronization, and display management. |
 | **Device Layer (Hardware Layer)**  | HTC Vive / Valve Index / Meta Quest / Varjo / Pimax | Represents the physical headset, controllers, and tracking sensors.                             |
 
+
+<br>
 
 ## The Role of DP (DisplayPort)
 
