@@ -20,16 +20,21 @@ related_publications: true
 
 ## Robotics
 
-**Series Elastic Actuators**
+**1. Series Elastic Actuators**
 
 - [2017](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
 
 
+<br>
+
+**2. Advances in self-supervised multimodal learning - Prof. Dr. Hilde Kuehne (Tuebingen AI Center)**
+
+- [2025 - Recording](https://www.youtube.com/watch?v=uhVzzW5d4W4)
 
 <br>
 
 
-**Products**
+**2. Products**
 
 
 - [Apptronik](https://apptronik.com/)
