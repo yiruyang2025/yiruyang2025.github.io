@@ -7,6 +7,8 @@
 - https://github.com/alshedivat/al-folio
 
 
+<br><br><br>
+
 **⛱️ Change the Cover Page link**
 
 - _data/socials.yml
