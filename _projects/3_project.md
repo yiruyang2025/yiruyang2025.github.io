@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - 3D Neural Sound
+title: 2025 - Thesis - Neural_Diffusion
 description: CVG
 img: assets/img/4.jpg
 importance: 3
