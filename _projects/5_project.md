@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Brain Mapping
-description:
+description: SSL Better Normalization
 img: assets/img/4.jpg
 importance: 5
 category: work
