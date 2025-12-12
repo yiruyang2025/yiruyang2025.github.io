@@ -48,15 +48,14 @@ related_publications: true
 
 ## 4D Gaussian Formulation
 
-
-| Property              | 3D Gaussian Splatting        | 4D Gaussian Fields                         |
-| --------------------- | ---------------------------- | ------------------------------------------ |
-| Temporal modeling     | Static scene                 | Dynamic, time-dependent scene              |
-| Parameterization      | Fixed (\mu_i, \Sigma_i, c_i) | Functions (\mu_i(t), \Sigma_i(t), c_i(t))  |
-| Motion representation | None                         | Explicit velocity field (v(\mathbf{x}, t)) |
-| Topology handling     | Fixed structure              | Supports appearance/disappearance          |
-| Continuity            | Spatial smoothness           | Spatiotemporal smoothness                  |
-| Rendering             | Per-frame splatting          | Motion-compensated splatting               |
+| Property              | 3D Gaussian Splatting          | 4D Gaussian Fields                          |
+| --------------------- | ------------------------------ | ------------------------------------------- |
+| Temporal modeling     | Static scene                   | Dynamic, time-dependent scene               |
+| Parameterization      | Fixed $(\mu_i, \Sigma_i, c_i)$ | Functions $(\mu_i(t), \Sigma_i(t), c_i(t))$ |
+| Motion representation | None                           | Explicit velocity field $v(\mathbf{x}, t)$  |
+| Topology handling     | Fixed structure                | Supports appearance/disappearance           |
+| Continuity            | Spatial smoothness             | Spatiotemporal smoothness                   |
+| Rendering             | Per-frame splatting            | Motion-compensated splatting                |
 
 
 <br>
