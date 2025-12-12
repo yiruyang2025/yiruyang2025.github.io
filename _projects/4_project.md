@@ -23,12 +23,17 @@ related_publications: true
 **Series Elastic Actuators**
 
 - [2017](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
-- [Apptronik](https://apptronik.com/)
+
 
 
 <br>
 
-**
+
+**Products**
+
+
+- [Apptronik](https://apptronik.com/)
+
 
 
 
