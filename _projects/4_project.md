@@ -22,7 +22,7 @@ related_publications: true
 
 **1. Series Elastic Actuators**
 
-- [2017](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
+- [2017 - Intro](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
 
 
 <br>
