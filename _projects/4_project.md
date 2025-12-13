@@ -22,6 +22,7 @@ related_publications: true
 
 **1. Series Elastic Actuators**
 
+- [📍 1995 - Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
 - [2017 - Intro](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
 
 
