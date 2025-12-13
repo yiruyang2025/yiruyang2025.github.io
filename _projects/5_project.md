@@ -22,7 +22,7 @@ related_publications: true
 
 ## References
 
-- [1995 - 📍 Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
+- [📍 1995 - Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
 - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
