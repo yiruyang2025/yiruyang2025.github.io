@@ -16,15 +16,6 @@ related_publications: true
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
 
-<br>
-
-
-## Tool Kits
-
-
-- [Project MONAI](https://github.com/Project-MONAI)
-
-
 
 <br>
 
@@ -32,11 +23,24 @@ related_publications: true
 
 ## References
 
+- [1995 - 📍 Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
 - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 - [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
 - [2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
+
+
+<br>
+
+
+
+
+## Tool Kits
+
+
+- [Project MONAI](https://github.com/Project-MONAI)
+
 
 
 <br>
