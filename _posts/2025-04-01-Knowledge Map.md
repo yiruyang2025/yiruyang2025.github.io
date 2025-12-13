@@ -58,7 +58,7 @@ images:
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/), C++, Blender 4.4, SUMO, Unreal, 25
 
-(Systems on Chips, [Prof. Dr. Luca Benini](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)), CUDA, HPC, 26
+([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)), CUDA, HPC, 26
 
 ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
