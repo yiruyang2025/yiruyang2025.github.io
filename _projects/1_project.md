@@ -1390,6 +1390,13 @@ Use Layer1 activation → compute gradient
 | 4    | `git push origin main` | Upload local commits to the remote repository (e.g., GitHub).            | Cloud (Remote Repository)                                          |
 
 
+## ARM as Advanced RISC Machine
+
+| Architecture              | Typical devices                                  | Instruction style                       | Power use           | Example chips                          |
+| ------------------------- | ------------------------------------------------ | --------------------------------------- | ------------------- | -------------------------------------- |
+| **ARM (aarch64 / ARM64)** | Apple Silicon (M1, M2, M3), smartphones, tablets | RISC (Reduced Instruction Set Computer) | ✅ Very efficient    | Apple M1, M2, Snapdragon, Raspberry Pi |
+| **x86 / x64**             | Intel & AMD desktops/laptops                     | CISC (Complex Instruction Set Computer) | ❌ More power-hungry | Intel Core i7, AMD Ryzen               |
+
 
 <br><br>
 
