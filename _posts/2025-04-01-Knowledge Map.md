@@ -46,20 +46,23 @@ images:
 
 ## Relevant Coursework
 
+<br>
 
-- [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
+- [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s), Python, 25
 
-- [3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (26)
+- [3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/), 26
 
-- (Systems on Chips (CUDA, HPC, 26), by [Prof. Dr. Luca Benini](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html))
+- (Systems on Chips, [Prof. Dr. Luca Benini](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)), CUDA, HPC, 26
 
-- [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
+- [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
 
-- [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender 4.4, SUMO, Unreal, 25)
+- [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/), C++, 26
 
-- [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
+- [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/), C++, Blender 4.4, SUMO, Unreal, 25
 
-- ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (25))
+- Doctoral Seminar in Visual Computing
+
+- ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
 - ([Visual Computing](https://cvg.ethz.ch/lectures/Visual-Computing/))
 
