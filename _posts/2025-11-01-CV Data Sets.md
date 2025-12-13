@@ -65,7 +65,7 @@ images:
 | **ECCV** (European Conference on Computer Vision)                     | Shares the same vision focus as CVPR but emphasizes **methodological novelty, geometry, and European research collaborations**.                               |
 | **ICCV** (International Conference on Computer Vision)                | Serves as the **global flagship vision conference**, covering **fundamental theory, large-scale datasets, and emerging applications in vision and robotics**. |
 
-
+<br>
 
 ## 4D Reconstruction
 
