@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-  - [📍 Click Here](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
+  - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
 
@@ -22,7 +22,7 @@ related_publications: true
 
 ## References
 
-- [📍 1995 - Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
+- [1995 - 📍 Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
 - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
