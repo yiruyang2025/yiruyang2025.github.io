@@ -27,15 +27,6 @@ related_publications: true
 ```
 
 
-<br>
-
-
-## Related Art works
-
-  - [📍 2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
-
 
 
 <br>
@@ -47,6 +38,14 @@ related_publications: true
 - [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
 - [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
 - [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
+
+<br>
+
+
+## DINO
+
+1. Why Second-Order Correlation (Gram Matrix)
+
 
 <br>
 
@@ -1040,7 +1039,19 @@ $$
 | **Future of SfM** <br> From optimization-based to transformer-based methods.                                     | **SfM vs VGGT** <br> COLMAP vs VGGT, comparison of pros and cons.                              |
 
 
-<br><br>
+<br>
+
+
+
+## Related Art works
+
+  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+
+
+
+<br>
 
 
 ## References 1
