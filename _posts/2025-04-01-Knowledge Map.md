@@ -28,7 +28,7 @@ images:
 
 <br>
 
-# 1. 2025 - 2026
+## 2025 - 2026
 
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
@@ -43,46 +43,47 @@ images:
 
 <br>
 
+
 ## Relevant Coursework
 
 
-[Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
+- [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
-[3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (25)
+- [3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (26)
 
-[Visual Computing - BA](https://cvg.ethz.ch/lectures/Visual-Computing/) (25)
+- (Systems on Chips (CUDA, HPC, 26), by [Prof. Dr. Luca Benini](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html))
 
-[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
+- [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
-[Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender 4.4, Unreal, 25)
+- [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender 4.4, SUMO, Unreal, 25)
 
-[Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (25)
+- [Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
 
-[Doctoral Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/) (25)
+- ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html) (25))
 
-Drug efficacy and pathway assessment in Brain Cancer
+- ([Visual Computing](https://cvg.ethz.ch/lectures/Visual-Computing/))
 
-Medical AI / Health Tech
+- Drug efficacy and pathway assessment in Brain Cancer
 
-(*Large-Scale AI Engineering, 25)
+- Medical AI / Health Tech
 
-(Vision Algorithms for Mobile Robotics (L+E))
+- (*Large-Scale AI Engineering, 25)
 
-Systems on Chips (CUDA, HPC, 25)
+- (Vision Algorithms for Mobile Robotics (L+E))
 
-Graph Theory
 
-(Lie Group and Riemannian Geometry)
+- Graph Theory
 
-(Information Geometry)
+- (Lie Group and Riemannian Geometry)
 
-(Discrete Differential Geometry)
+- (Information Geometry)
 
-(Real Analysis)
+- (Discrete Differential Geometry)
+
+- (Real Analysis)
+
 
 <br><br>
-
-
 
 
 ## Post-Training Techniques
