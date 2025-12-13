@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi There
+# Hi There, 🇨🇭
 
 📝 [**Colab Page**]() | 🌟 [**ArXiv**]() | 💻 [**Code**]() | 📚 [**ICML Oral**]()
 
