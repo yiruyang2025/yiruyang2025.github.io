@@ -1389,13 +1389,34 @@ Use Layer1 activation → compute gradient
 | 3    | `git pull origin main` | Fetch updates from the remote and **merge** them into your local branch. | Merges remote changes into Local Repository and Working Directory. |
 | 4    | `git push origin main` | Upload local commits to the remote repository (e.g., GitHub).            | Cloud (Remote Repository)                                          |
 
+<br>
 
 ## ARM as Advanced RISC Machine
 
 | Architecture              | Typical devices                                  | Instruction style                       | Power use           | Example chips                          |
 | ------------------------- | ------------------------------------------------ | --------------------------------------- | ------------------- | -------------------------------------- |
-| **ARM (aarch64 / ARM64)** | Apple Silicon (M1, M2, M3), smartphones, tablets | RISC (Reduced Instruction Set Computer) | ✅ Very efficient    | Apple M1, M2, Snapdragon, Raspberry Pi |
-| **x86 / x64**             | Intel & AMD desktops/laptops                     | CISC (Complex Instruction Set Computer) | ❌ More power-hungry | Intel Core i7, AMD Ryzen               |
+| **ARM (aarch64 / ARM64)** | Apple Silicon (M1, M2, M3), smartphones, tablets | RISC (Reduced Instruction Set Computer) | Very efficient    | Apple M1, M2, Snapdragon, Raspberry Pi |
+| **x86 / x64**             | Intel & AMD desktops/laptops                     | CISC (Complex Instruction Set Computer) | More power-hungry | Intel Core i7, AMD Ryzen               |
+
+
+<br>
+
+## Major CPU Architectures (with origin, purpose, and usage)
+
+| Architecture              | Type                              | Invented by                             | First Appeared        | Core Idea                                                                          | Typical Devices / Users                                  | Status Today                                 |
+| ------------------------- | --------------------------------- | --------------------------------------- | --------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------- |
+| **x86**                   | CISC                              | **Intel**                               | **1978** (Intel 8086) | Large, complex instruction set for flexible programming and backward compatibility | Intel/AMD desktop & laptop CPUs                          | Still dominant in PCs and many servers       |
+| **x86-64 (AMD64)**        | CISC (64-bit extension)           | **AMD**                                 | **2003**              | Extended x86 to 64-bit while keeping backward compatibility                        | Modern Intel & AMD CPUs                                  | Standard in all x86-based computers          |
+| **ARM (AArch32/AArch64)** | RISC                              | **Acorn Computers / ARM Ltd. (UK)**     | **1985**              | Small, fast, energy-efficient instruction set                                      | Apple M-series, smartphones, tablets, embedded systems   | Dominant in mobile and growing in PCs        |
+| **PowerPC**               | RISC                              | **IBM, Motorola, Apple (AIM Alliance)** | **1991**              | High-performance RISC for desktops and servers                                     | Old Apple Macs (before 2006), IBM servers, game consoles | Still used in IBM high-end systems           |
+| **MIPS**                  | RISC                              | **Stanford University (John Hennessy)** | **1981**              | “Minimal instruction set” design for simplicity and speed                          | Early workstations, routers, embedded devices            | Mostly replaced by ARM and RISC-V            |
+| **SPARC**                 | RISC                              | **Sun Microsystems**                    | **1987**              | Scalable RISC for servers and scientific computing                                 | Sun servers, Oracle systems                              | Rarely used, mostly legacy                   |
+| **RISC-V**                | RISC (open-source)                | **UC Berkeley (Krste Asanović et al.)** | **2010**              | Fully open instruction set — anyone can implement it                               | Academic, open hardware, AI accelerators                 | Rapidly growing open standard                |
+| **Itanium (IA-64)**       | VLIW (Very Long Instruction Word) | **Intel & HP**                          | **2001**              | Parallel execution through compiler scheduling                                     | Enterprise servers (HP/Intel)                            | Discontinued, considered a failed experiment |
+| **Alpha**                 | RISC                              | **Digital Equipment Corporation (DEC)** | **1992**              | 64-bit performance-focused RISC design                                             | High-performance servers (1990s)                         | Discontinued after DEC acquisition by Compaq |
+| **VAX**                   | CISC                              | **Digital Equipment Corporation (DEC)** | **1977**              | Very rich and complex instruction set                                              | Mainframes, early minicomputers                          | Historical only, inspired x86 and others     |
+
+
 
 
 <br><br>
