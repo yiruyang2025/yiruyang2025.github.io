@@ -46,8 +46,6 @@ images:
 
 ## Relevant Coursework
 
-<br>
-
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
 [3D/4D Vision](https://cvg.ethz.ch/lectures/3D-vision/) (26)
