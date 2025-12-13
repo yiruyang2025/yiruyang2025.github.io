@@ -70,12 +70,11 @@ Drug efficacy and pathway assessment in Brain Cancer
 
 Medical AI / Health Tech
 
+Graph Theory
+
 (*Large-Scale AI Engineering, 25)
 
 (Vision Algorithms for Mobile Robotics (L+E))
-
-
-Graph Theory
 
 (Lie Group and Riemannian Geometry)
 
