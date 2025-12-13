@@ -70,13 +70,15 @@ related_publications: true
 
 ## Best Normalization
 
-| **Data Distribution Characteristics**       | **Method**    | **Formula**                                                | **Core Assumption**                                                                 |
-| ------------------------------------------- | --------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Gaussian-like Distribution**              | Standard z-score normalization          | ((x - \mu) / \sigma)                                       | Most data points are concentrated near the mean; few outliers exist.                |
-| **Skewed or Heavy-Tailed Distribution**     | Robust z-score (Median + MAD)           | ((x - \text{median}) / \text{MAD})                         | Extreme values exist; the median provides a more stable estimate.                   |
-| **Bounded Values (0–1, Ratio-type Data)**   | Min–Max normalization                   | ((x - x_{\text{min}}) / (x_{\text{max}} - x_{\text{min}})) | Data lies within a fixed range; preserving proportional relationships is important. |
-| **Log-Normal or Multiplicative Noise Data** | Log transform + z-score                 | (\log(x)) or (\log(1 + x)) → z-score                       | Noise varies multiplicatively; log transformation linearizes it.                    |
-| **Mixed Noise or Asymmetric Distributions** | Quantile normalization / Rank transform | Mapping by quantiles                                       | The exact values are less important; only the rank order matters.                   |
+| **Data Distribution Characteristics**       | **Method**                              | **Formula**                                      | **Core Assumption**                                                                 |
+| ------------------------------------------- | --------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| **Gaussian-like Distribution**              | Standard z-score normalization          | $z = \dfrac{x - \mu}{\sigma}$                    | Most data points are concentrated near the mean; few outliers exist.                |
+| **Skewed or Heavy-Tailed Distribution**     | Robust z-score (Median + MAD)           | $z = \dfrac{x - \mathrm{median}}{\mathrm{MAD}}$  | Extreme values exist; the median provides a more stable estimate.                   |
+| **Bounded Values (0–1, Ratio-type Data)**   | Min–Max normalization                   | $x' = \dfrac{x - x_{\min}}{x_{\max} - x_{\min}}$ | Data lies within a fixed range; preserving proportional relationships is important. |
+| **Log-Normal or Multiplicative Noise Data** | Log transform + z-score                 | $\log(x)$ or $\log(1 + x);\rightarrow;$ z-score  | Noise varies multiplicatively; log transformation linearizes it.                    |
+| **Mixed Noise or Asymmetric Distributions** | Quantile normalization / Rank transform | $x \mapsto \mathrm{rank}(x)$ or quantile mapping | Exact values are less important; relative ordering matters.                         |
+
+
 
 <br>
 
