@@ -6,7 +6,11 @@
 
 </div>
 
-**🫐 Template From**
+
+
+<br>
+
+## 🫐 Template From
 
 - https://alshedivat.github.io/al-folio/
 - https://github.com/alshedivat/al-folio
@@ -17,7 +21,7 @@
 <br><br><br>
 
 
-**⛱️ Change the Cover Page Links**
+## ⛱️ Change the Cover Page Links
 
 - _data/socials.yml
 
@@ -26,7 +30,7 @@
 <br><br><br>
 
 
-**🧊 A simple, clean, and responsive profile**
+## 🧊 A simple, clean, and responsive profile
 
 
 
