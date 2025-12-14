@@ -376,9 +376,23 @@ Sample RGB, mask, features at (u, v)
 
 <br>
 
-## Some Cute Datasets
 
-- [Middlebury “dino” data set](https://vision.middlebury.edu/mview/?utm_source=chatgpt.com)
+## Python - If Can be A Dict Key
+
+| Type                    | Can Be Dict Key | Hashable | Immutable | Notes                         |
+| ----------------------- | --------------- | -------- | --------- | ----------------------------- |
+| `int`                   | Yes             | Yes      | Yes       | Numeric scalar                |
+| `float`                 | Yes             | Yes      | Yes       | Numeric scalar                |
+| `bool`                  | Yes             | Yes      | Yes       | Subclass of `int`             |
+| `str`                   | Yes             | Yes      | Yes       | Immutable text                |
+| `tuple`                 | Yes*            | Yes*     | Yes       | All elements must be hashable |
+| `frozenset`             | Yes             | Yes      | Yes       | Immutable set                 |
+| `list`                  | No              | No       | No        | Mutable sequence              |
+| `set`                   | No              | No       | No        | Mutable set                   |
+| `dict`                  | No              | No       | No        | Mutable mapping               |
+| Custom object (default) | Yes             | Yes      | Usually   | Hash based on object identity |
+
+
 
 
 <br>
