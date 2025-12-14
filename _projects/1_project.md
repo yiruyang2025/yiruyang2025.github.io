@@ -109,11 +109,11 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
 | **Python** | Source code → **Interpreter** → Dynamic execution multiple layers | **Interpreter + dynamic typing** | **≈ 1 – 5%** of C++ |
 
+<br>
 
-## C++（with CUDA）
+## C++
 
 - Designed as a systems programming language, “Generate code that maps directly to hardware”
-
 ```
 C++/CUDA code (.cu)
         ↓ nvcc compile
@@ -122,11 +122,11 @@ PTX / SASS GPU machine code
 GPU executes the kernel directly
 ```
 
+<br>
 
 ## Python
 
 - Designed as a high-level dynamic scripting language, “Maximize developer productivity and readability, not performance”
-
 ```
 Python code (.py)
         ↓
@@ -327,6 +327,7 @@ linear scan       merge / quick sort         bubble / selection 
 | ④ Build DataLoader        | `train_loader = DataLoader(...)`                      | Yes (here)     | Padding is applied when combining samples into a batch. |
 | ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
 
+<br>
 
 ## Protocol and Ports
 
@@ -344,7 +345,6 @@ linear scan       merge / quick sort         bubble / selection 
 | FTP | 21 | File transfer |
 | **SSH** | **22** | Secure remote shell |
 
-<br>
 
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -539,8 +539,6 @@ Execute in Environment (Robotics / Control)
 | **GELU** | $$f(x)=x\,\Phi(x),\ \Phi(x)\text{: Gaussian CDF}$$ | smooth | Probabilistic gating | Default in Transformers (BERT, GPT) |
 | **JumpReLU (DeepMind)** | $$f(x)=\max(0,\,x-j),\ j\text{ learned}$$ | piecewise constant | Learnable sparsity threshold | Used in Sparse Autoencoders for interpretability |
 | **Softmax** | $$f_i(x)=\frac{e^{x_i}}{\sum_j e^{x_j}}$$ | — | Converts logits → probabilities | Standard output for classification |
-
-
 
 
 <br>
