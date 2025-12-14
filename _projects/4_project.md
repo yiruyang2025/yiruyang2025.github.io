@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Robotics
-description: Feed-forward 4D Reconstruction
+description: Feed-forward 4D Reconstruction, (CRL / )
 img: assets/img/4.jpg
 importance: 4
 category: work
