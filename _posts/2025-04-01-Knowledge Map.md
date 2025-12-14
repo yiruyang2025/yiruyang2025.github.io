@@ -14,7 +14,7 @@ images:
 
 <br>
 
-  - Pretty things here
+  - 🧊 Pretty things here
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
 
@@ -38,7 +38,7 @@ images:
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
 
-- [Daily News Briefing](https://www.ft.com/ft-news-briefing)
+- [⛱️ Daily News Briefingn](https://www.ft.com/ft-news-briefing)
 
 
 <br>
@@ -52,7 +52,7 @@ images:
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++, 26)
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++, Robotics, 26)
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender, SUMO, Unreal, 25)
 
@@ -88,22 +88,22 @@ Graph Theory
 
 ## Post-Training Techniques
 
-❄️ **Efficient Adaptation**<br>
+❄️ **Efficient Adaptation**
   - Adapter (reduce training parameters)
   - Distillation (transfer knowledge)
   - Pruning (delete redundant structure)
 
 
-❄️ **Representation Learning**<br>
+❄️ **Representation Learning**
   - Self-Supervised Learning - SSL
 
 
-❄️ **Model Manipulation**<br>
+❄️ **Model Manipulation**
   - Model Editing
   - Model Merging
 
 
-❄️ **Generalization**<br>
+❄️ **Generalization**
   - Few-shot Learning
   - Zero-shot Learning
 
@@ -113,9 +113,9 @@ Graph Theory
 
 # Check List
 
-- [x] reading, oxygen, fruits No sugar, protein
-  - [x] gym, jogging, tennis
-  - [x] chatting
+- [x] Reading, Oxygen, Fruits No sugar, Protein
+  - [x] Gym, Jogging, Tennis
+  - [x] Chatting
   - [x] Water
 - [x] Take a Walk
 
