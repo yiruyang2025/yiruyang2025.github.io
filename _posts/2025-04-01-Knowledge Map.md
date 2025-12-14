@@ -38,7 +38,7 @@ images:
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
 
-- [⛱️ Daily News Briefingn](https://www.ft.com/ft-news-briefing)
+- [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
 <br>
