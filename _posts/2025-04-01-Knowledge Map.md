@@ -58,9 +58,9 @@ images:
 
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
 
-([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
-
 ([Visual Computing](https://cvg.ethz.ch/lectures/Visual-Computing/))
+
+([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
 Doctoral Seminar in Visual Computing
 
