@@ -74,6 +74,42 @@ related_publications: true
 
 <br>
 
+## User Feedback - If Dizzy
+
+
+| Layer Frequency | Sensor / System                     | Primary Function                                     | Role in Tracking Pipeline                                                           |
+| --------------- | ----------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| High-frequency  | **IMU (gyroscope + accelerometer)** | Real-time orientation estimation and pose prediction | Provides low-latency motion updates and enables motion-to-photon latency reduction  |
+| Mid-frequency   | **Photodiodes**                     | Receive sweeping laser signals from base stations    | Supplies angular constraints for pose correction                                    |
+| Low-frequency   | **Lighthouse base stations**        | Provide absolute spatial reference                   | Ensures global consistency and long-term drift correction                           |
+| Fusion layer    | **Sensor fusion algorithms**        | Produce stable 6DoF pose estimates                   | Combines inertial prediction with optical correction into a coherent state estimate |
+
+
+
+
+## HTC Vive Tracking Architecture (Lighthouse System)
+
+| Layer                | Sensor / System                     | Function                                             |
+| -------------------- | ----------------------------------- | ---------------------------------------------------- |
+| High-frequency layer | **IMU (gyroscope + accelerometer)** | Real-time orientation estimation and pose prediction |
+| Mid-frequency layer  | **Photodiodes**                     | Receive sweeping laser signals                       |
+| Low-frequency layer  | **Lighthouse base stations**        | Provide absolute spatial reference                   |
+| Fusion layer         | **Sensor fusion algorithms**        | Produce stable 6DoF pose estimates                   |
+
+
+## HTC Vive Software Stack
+
+| Layer            | Responsibility                                    |
+| ---------------- | ------------------------------------------------- |
+| Firmware         | IMU sampling and hardware-level timestamping      |
+| Tracking runtime | Fusion of IMU and Lighthouse optical measurements |
+| SteamVR          | Provides 6DoF pose to the system                  |
+| Application      | Games and XR applications                         |
+
+
+
+<br>
+
 ## The Role of DP (DisplayPort)
 
 | Component                   | Function                     | Description                                                                                             |
