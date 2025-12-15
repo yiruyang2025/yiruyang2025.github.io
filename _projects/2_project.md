@@ -33,6 +33,7 @@ related_publications: true
 
 ## References
 
+- [📍 2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
 - [Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
 - [2025 - RelationField: Relate Anything in Radiance Fields](https://openaccess.thecvf.com/content/CVPR2025/html/Koch_RelationField_Relate_Anything_in_Radiance_Fields_CVPR_2025_paper.html)
 - [2025 - OpenHype: Hyperbolic Embeddings for Hierarchical Open-Vocabulary Radiance Fields](https://arxiv.org/pdf/2510.21441)
@@ -184,7 +185,7 @@ related_publications: true
 
 ## Mesh
 
-[2024 - Mesh Simplification For Unfolding](https://cdl.ethz.ch/publications/mesh-simplification-for-unfolding/)
+- [2024 - Mesh Simplification For Unfolding](https://cdl.ethz.ch/publications/mesh-simplification-for-unfolding/)
 
 
 
