@@ -175,6 +175,24 @@ related_publications: true
 <br>
 
 
+## Curve
+
+
+<br><br>
+
+
+
+## Mesh
+
+[2024 - Mesh Simplification For Unfolding](https://cdl.ethz.ch/publications/mesh-simplification-for-unfolding/)
+
+
+
+
+
+<br>
+
+
 ## Conceptual Distinction
 
 “Diffusion completion ≠ Dual-branch interaction modeling.”
