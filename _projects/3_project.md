@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Neural_Diffusion
-description: Prototype, CVG
+title: 2025 - Thesis - Prototype
+description: Neural_Diffusion, CVG
 img: assets/img/4.jpg
 importance: 3
 category: work
