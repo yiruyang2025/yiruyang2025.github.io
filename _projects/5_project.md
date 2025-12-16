@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Brain Mapping
+title: 2026 - Thesis - Brain Mapping / Camera
 description: SSL
 img: assets/img/4.jpg
 importance: 5
