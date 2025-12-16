@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, Fur Surface Refinement, [CVG](https://cvg.ethz.ch/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects, `Robotics`
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - 1995 - `Series Elastic Actuators`
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - 1995 - Series Elastic Actuators, `Camera` for Non-Dizzy
 
 <br>
 
