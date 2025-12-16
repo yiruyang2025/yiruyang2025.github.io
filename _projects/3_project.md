@@ -85,7 +85,7 @@ related_publications: true
 | Fusion layer    | **Sensor fusion algorithms**        | Produce stable 6DoF pose estimates                   | Combines inertial prediction with optical correction into a coherent state estimate |
 
 
-
+<br>
 
 ## HTC Vive Tracking Architecture (Lighthouse System)
 
@@ -97,6 +97,8 @@ related_publications: true
 | Fusion layer         | **Sensor fusion algorithms**        | Produce stable 6DoF pose estimates                   |
 
 
+<br>
+
 ## HTC Vive Software Stack
 
 | Layer            | Responsibility                                    |
@@ -105,7 +107,6 @@ related_publications: true
 | Tracking runtime | Fusion of IMU and Lighthouse optical measurements |
 | SteamVR          | Provides 6DoF pose to the system                  |
 | Application      | Games and XR applications                         |
-
 
 
 <br>
@@ -119,7 +120,6 @@ related_publications: true
 | **Refresh Rate**            | Frame delivery speed         | Enables 90–120 Hz display updates to prevent motion sickness.                                           |
 | **Latency**                 | Image update timing          | Ensures real-time synchronization between head movement and displayed image.                            |
 | **Relation to Runtime API** | Software vs. hardware bridge | The Runtime API manages what is rendered; DisplayPort delivers it physically to the headset screen. |
-
 
 
 <br>
