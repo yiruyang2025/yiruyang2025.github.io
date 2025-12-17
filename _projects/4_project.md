@@ -39,7 +39,7 @@ related_publications: true
 
 
 - [Apptronik](https://apptronik.com/)
-- [TNKR.ai](https://tnkr.ai/explore)
+- [📍 TNKR.ai](https://tnkr.ai/explore)
 
 
 
