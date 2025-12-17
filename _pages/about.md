@@ -41,7 +41,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Backbones, Perception, CFD
+  - Backbones, Perception, CFD, [AI not manual Coding](https://geohot.github.io/blog/jekyll/update/2025/09/12/ai-coding.html)
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
 
 <div style="height: 4rem;"></div>
