@@ -36,7 +36,8 @@ related_publications: true
 - [📍 2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
 - [Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
 - [2025 - RelationField: Relate Anything in Radiance Fields](https://openaccess.thecvf.com/content/CVPR2025/html/Koch_RelationField_Relate_Anything_in_Radiance_Fields_CVPR_2025_paper.html)
-- [2025 - OpenHype: Hyperbolic Embeddings for Hierarchical Open-Vocabulary Radiance Fields](https://arxiv.org/pdf/2510.21441)
+- [2025 - OpenHype: Hyperbolic Embeddings for 📍 Hierarchical Open-Vocabulary Radiance Fields](https://arxiv.org/pdf/2510.21441)
+- [Nov 2025 - Hierarchical 4D Scene Graph](https://nicolasgorlo.com/DAAAM_25/)
 
 
 - [2017 - Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tulsiani_Multi-View_Supervision_for_CVPR_2017_paper.pdf)
