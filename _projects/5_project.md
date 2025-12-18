@@ -34,7 +34,7 @@ related_publications: true
 ## A Dynamic Camera with Signal Fusion
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
-Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
+Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references, CVG, prof. Dr. Marc Pollefeys
 
 
 
