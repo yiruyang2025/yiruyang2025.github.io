@@ -29,7 +29,12 @@ related_publications: true
 - [2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
 
 
-<br>
+## Dynamic Camera
+
+- [2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
+Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf), Marc
+- [2013 - Collaborative Monocular SLAM with Multiple Micro Aerial Vehicles](https://ieeexplore.ieee.org/abstract/document/6696923?casa_token=nyk2i78Z49MAAAAA:MtecZxr-D3wukFqeGnTsc2ZJ5Ggejeh4oBPe8eAF66U7Bea7gfRnPNtmeqDaIzV9JtxBCEs2mA), Davide
+
 
 
 ## 3D/4D Non-Rigid Reconstruction vs. Series Elastic Actuators (SEA)
