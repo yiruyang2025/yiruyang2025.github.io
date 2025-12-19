@@ -41,6 +41,8 @@ images:
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
+<br><br>
+
 **Zurich**
 
 - [Boda Borg](https://www.zuerich.com/en/visit/sport/boda-borg-rumlang)
