@@ -49,7 +49,7 @@ images:
 - [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
 
 
-<br>
+<br><br>
 
 
 ## Relevant Coursework
