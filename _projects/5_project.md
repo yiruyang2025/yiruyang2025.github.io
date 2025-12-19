@@ -41,6 +41,9 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 <br><br><br><br>
 
 
+
+
+
 ## A Dynamic Camera with Multi-modal Input Signal Fusion
 
 
@@ -61,6 +64,18 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
  │       │        │ tracker│ / ToF  │        │
  └───────┴────────┴────────┴────────┴────────┘
 ```
+
+
+
+
+## Modelling
+
+
+
+[2025 - Artificial Models of Biological Learning](https://nicolaszucchet.github.io/assets/pdf/phd_thesis_nicolas_zucchet.pdf)
+
+
+<br><br><br><br>
 
 
 
