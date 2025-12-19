@@ -43,7 +43,7 @@ images:
 
 <br><br>
 
-**Zurich**
+**♨️ Zurich**
 
 - [Boda Borg](https://www.zuerich.com/en/visit/sport/boda-borg-rumlang)
 - [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
