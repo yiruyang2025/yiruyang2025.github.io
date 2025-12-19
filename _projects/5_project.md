@@ -52,9 +52,9 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
         └──────────────────┘
                  ▲
                  │
-    ┌────────────┴────────────┐
-    │   XR System Estimation  │
-    └────────────┬────────────┘
+    ┌────────────┴────────────────┐
+    │ Wearable System Estimation  │
+    └────────────┬────────────────┘
                  │
  ┌───────┬────────┬────────┬────────┬────────┐
  │ Camera│  IMU   │ Eye    │ Depth  │ Others │
