@@ -41,6 +41,32 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 <br><br><br><br>
 
 
+## A Dynamic Camera with Multi-modal Input Signal Fusion
+
+
+```
+          Human perception
+        ┌──────────────────┐
+        │  Vestibular      │
+        │  Vision          │
+        └──────────────────┘
+                 ▲
+                 │
+    ┌────────────┴────────────┐
+    │   XR System Estimation  │
+    └────────────┬────────────┘
+                 │
+ ┌───────┬────────┬────────┬────────┬────────┐
+ │ Camera│  IMU   │ Eye    │ Depth  │ Others │
+ │       │        │ tracker│ / ToF  │        │
+ └───────┴────────┴────────┴────────┴────────┘
+```
+
+
+
+<br>
+
+
 ## 3D/4D Non-Rigid Reconstruction vs. Series Elastic Actuators (SEA)
 
 - Both problems replace impossible exact control or exact reconstruction with explicit structural priors that guarantee stability, coherence, and robustness under uncertainty
