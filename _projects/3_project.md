@@ -578,5 +578,10 @@ Regularization Terms
 - [2025 - E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework](https://www.linkedin.com/posts/erium_e-m3rf-an-equivariant-multimodal-3d-re-assembly-activity-7399815222879907840-yPPk?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 
 
+## 2025
+
+- [2025 - Single-Image 3D Human Reconstruction with 3D-Aware Diffusion Priors and Facial Enhancement](https://dl.acm.org/doi/full/10.1145/3757377.3763839)
+
+
 
 <br><br><br>
