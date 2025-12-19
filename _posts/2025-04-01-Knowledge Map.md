@@ -41,6 +41,12 @@ images:
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
+**Zurich**
+
+- [Boda Borg](https://www.zuerich.com/en/visit/sport/boda-borg-rumlang)
+- [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
+
+
 <br>
 
 
