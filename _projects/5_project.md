@@ -63,6 +63,18 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 | **Neural / Learned Filters**      | Learned belief update                           | High                           | Yes                | Weak (opaque)              | Geometry drift        | ✗ (as core filter)            |
 
 
+<br>
+
+
+## Method Selection Is Constraint-Driven, Not Aesthetic
+
+
+| Hard Constraint                             | Practical Interpretation                                                                                                                                                                | Technical Implication                                                                                                                                                       |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Online, real-time, low latency**          | The system runs on an XR device worn by a human user. End-to-end latency above tens of milliseconds leads to motion sickness and unacceptable user experience.                          | Any method that is offline, batch-only, or exhibits unstable latency is infeasible and must be excluded.                                                                    |
+| **High-dimensional continuous state space** | The system state includes not only camera pose but also velocity, IMU biases, camera intrinsics and extrinsics, and temporal offsets between sensors.                                   | The resulting state space is high-dimensional, continuous, and strongly nonlinear, making general inference methods computationally intractable.                            |
+| **Geometric honesty and interpretability**  | Solutions must be physically and geometrically valid, not merely visually plausible. Calibration parameters must correspond to real camera models and be diagnosable when errors occur. | Methods that produce visually convincing but geometrically inconsistent results are unacceptable. Explicit state representation and interpretable uncertainty are required. |
+
 
 
 <br><br>
