@@ -72,6 +72,10 @@ images:
 
 Doctoral Seminar in Visual Computing
 
+(*Large-Scale AI Engineering, 25)
+
+(Vision Algorithms for Mobile Robotics (L+E))
+
 Drug efficacy and pathway assessment in Brain Cancer
 
 Medical AI / Health Tech
@@ -80,18 +84,11 @@ Graph Theory
 
 Information Geometry
 
-
-(*Large-Scale AI Engineering, 25)
-
-(Vision Algorithms for Mobile Robotics (L+E))
-
 (Lie Group and Riemannian Geometry)
 
 (Real Analysis)
 
 (Point-Set Topology)
-
-（Symplectic Geometry）
 
 (Discrete Differential Geometry)
 
