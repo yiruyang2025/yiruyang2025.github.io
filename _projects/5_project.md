@@ -31,7 +31,7 @@ related_publications: true
 
 <br>
 
-## A Dynamic Camera with Signal Fusion / Space
+## A (Not Dynamic yet) Camera with Signal Fusion / Space
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
@@ -53,7 +53,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 | --------------------------------- | ----------------------------------------------- | ------------------------------ | ------------------ | -------------------------- | --------------------- | ----------------------------- |
 | **Full Bayesian Filtering**       | Exact posterior inference $p(x_t \mid y_{1:t})$ | No (intractable)               | No                 | Theoretically yes          | Intractable integrals | ✗ (theoretical only)          |
 | **Particle Filter**               | Sampling-based Bayesian inference               | Poor (curse of dimensionality) | No                 | Weak (implicit geometry)   | Sample degeneracy     | ✗                             |
-| **Kalman Filter (KF)**            | Linear-Gaussian Bayesian inference              | Moderate                       | Yes                | Strong (explicit states)   | Model mismatch        | ✓ (baseline)                  |
+| `Kalman Filter (KF)`            | Linear-Gaussian Bayesian inference              | Moderate                       | Yes                | Strong (explicit states)   | Model mismatch        | ✓ (baseline)                  |
 | **Extended Kalman Filter (EKF)**  | Local linearization of nonlinear models         | Moderate–High                  | Yes                | Strong                     | Linearization error   | ✓✓                            |
 | **Unscented Kalman Filter (UKF)** | Sigma-point approximation                       | Moderate                       | Borderline         | Strong                     | Computational cost    | △                             |
 | **Information Filter**            | KF in information (precision) form              | High                           | Yes                | Strong                     | Numerical instability | ✓                             |
@@ -80,7 +80,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 <br>
 
 
-## Kalman-Style Filtering in the Feasible Regime
+## 📍 Kalman-Style Filtering in the Feasible Regime
 
 | Aspect                          | Trade-Off Made                                         | Practical Consequence                                             |
 | ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
@@ -90,10 +90,6 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 | **Computational cost**          | Avoids sampling-based or variational inference         | Supports real-time, bounded-latency operation                     |
 | **Failure behavior**            | Accepts approximation error                            | Provides diagnosable and predictable failure modes                |
 | **Geometric compatibility**     | Restricts inference to interpretable state spaces      | Integrates naturally with geometry-aware constraints              |
-
-
-
-
 
 
 
