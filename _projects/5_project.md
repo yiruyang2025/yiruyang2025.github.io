@@ -45,12 +45,12 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
     - How the state changes over time (prediction)
     - How observations arise from the state (update)
   - Kalman Filtering As The Mathematical Origin of Sensor Fusion
-    - The key ideas introduced in this paper include:
-      - `Latent state`
-        - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
-      - `Observation model`
+    - The key ideas introduced in this paper includes:
+    - `Latent state`
+      - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
+    - `Observation model`
         - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
-      - `Recursive Bayesian update`
+    - `Recursive Bayesian update`
           - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
 
 
