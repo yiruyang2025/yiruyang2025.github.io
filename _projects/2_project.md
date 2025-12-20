@@ -681,6 +681,26 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 <br>
 
+
+
+## 📍 Extension - Historical Evolution of Geometry in 3D Reconstruction
+
+
+| Era                      | Dominant Geometry         | Continuous or Discrete | Key Mathematical Idea   |
+| ------------------------ | ------------------------- | ---------------------- | ----------------------- |
+| Classical Photogrammetry | Euclidean geometry        | Continuous             | Metric reconstruction   |
+| Early Computer Vision    | Projective geometry       | Continuous             | Calibration-free vision |
+| Multi-View Geometry      | Projective + affine       | Continuous             | Geometric invariants    |
+| Modern SfM / SLAM        | Lie groups + optimization | Continuous             | Nonlinear estimation    |
+| Dense Reconstruction     | Discrete geometry         | Discrete               | Surface approximation   |
+| Learning-Based 3D        | Hybrid                    | Both                   | Geometry as constraint  |
+
+
+
+
+<br>
+
+
 ## Benchmarks and SOTAs
 
 ## 1. 4D
