@@ -33,6 +33,10 @@ related_publications: true
 
 ## A (Not Dynamic yet) Camera with Signal Fusion / Space
 
+```
+-> The important thing is not the formula, but: multi-sensor = multiple observations constraining the same latent state.
+```
+
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
 - [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
