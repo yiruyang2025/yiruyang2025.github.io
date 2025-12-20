@@ -34,7 +34,7 @@ related_publications: true
 ## A (Not Dynamic yet) Camera with Signal Fusion / Space
 
 
-- The important thing is not the formula, but `Multi-sensor = Multiple Observations Constraining the Same Latent State`
+- The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
 
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
@@ -44,14 +44,13 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
   - It defines a state-space model, breaking down the problem into:
     - How the state changes over time (prediction)
     - How observations arise from the state (update)
-  - Kalman Filtering As The Mathematical Origin of Sensor Fusion
-    - The key ideas introduced in this paper includes:
+  - Kalman Filtering As The Mathematical Origin of Sensor Fusion, the key ideas introduced in this paper includes:
     - `Latent state`
-      - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
+    - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
     - `Observation model`
-        - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
+    - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
     - `Recursive Bayesian update`
-        - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
+    - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
 
 
 
