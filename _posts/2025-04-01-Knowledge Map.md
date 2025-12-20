@@ -78,17 +78,22 @@ Medical AI / Health Tech
 
 Graph Theory
 
+Information Geometry
+
+
 (*Large-Scale AI Engineering, 25)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
 (Lie Group and Riemannian Geometry)
 
-(Information Geometry)
+(Real Analysis)
+
+(Point-Set Topology)
+
+（Symplectic Geometry）
 
 (Discrete Differential Geometry)
-
-(Real Analysis)
 
 
 <br><br>
