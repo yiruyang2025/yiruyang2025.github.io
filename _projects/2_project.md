@@ -896,6 +896,41 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br>
 
+
+## Fundamental Limitations of Voxel-Based Methods
+
+
+| Issue                              | Explanation                                                                                                                 |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Cubic Resolution Complexity**    | A voxel grid discretizes 3D space uniformly, resulting in **O(N³)** memory and computation complexity.                      |
+| **Exponential Memory Growth**      | Doubling the spatial resolution increases memory consumption by **8×**, making high-resolution representations impractical. |
+| **Poor Scalability**               | Due to cubic scaling, voxel grids do not scale well to large scenes or fine geometric detail.                               |
+| **Dimensional Mismatch**           | Real-world surfaces are **2D manifolds**, but voxel grids densely sample the entire **3D volume**.                          |
+| **Wasted Representation Capacity** | Most voxels lie in empty space and do not contribute to the surface geometry, leading to severe inefficiency.               |
+
+
+
+<br>
+
+
+## 📍 From Volumetric Representation Learning to Gaussian Splats
+
+
+| Stage                                | Representation Type          | What Is Learned                      | Core Idea                                                   | Main Limitation                         |
+| ------------------------------------ | ---------------------------- | ------------------------------------ | ----------------------------------------------------------- | --------------------------------------- |
+| **Classic Volumetric**               | Discrete voxel grid          | Occupancy / SDF per voxel            | Uniformly discretize 3D space and extract isosurfaces       | Cubic memory and computation cost       |
+| **Adaptive Volumetric**              | Sparse voxels / octrees      | Occupancy / TSDF                     | Allocate resolution near surfaces                           | Still discrete, complex data structures |
+| **Implicit Geometry**                | Analytical implicit function | Continuous SDF                       | Surface defined as zero level set                           | Limited expressiveness                  |
+| **Implicit Representation Learning** | Neural implicit field        | SDF / occupancy / density            | Learn a continuous function over ℝ³ with a neural network   | Expensive optimization, slow rendering  |
+| **Volumetric Neural Rendering**      | Neural density field         | Density + color                      | Differentiable volume rendering (NeRF-style)                | High training and inference cost        |
+| **Hybrid Implicit + Extraction**     | Neural field + mesh          | Implicit geometry + explicit surface | Extract mesh via Marching Cubes                             | Sampling and extraction overhead        |
+| **Point-Based Neural Rendering**     | Learned point primitives     | Position, feature, opacity           | Replace volume sampling with points                         | Requires careful point placement        |
+| **Gaussian Splats**                  | Anisotropic 3D Gaussians     | Mean, covariance, color, opacity     | Directly render continuous radiance with splatted Gaussians | Limited topological guarantees          |
+
+
+
+<br>
+
 ## Structure-from-Motion (SfM) Pipeline
 
 
