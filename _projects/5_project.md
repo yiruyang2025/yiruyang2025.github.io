@@ -39,12 +39,19 @@ related_publications: true
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references, CVG
-- [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
+- [1960 - A New Approach to Linear 📍 Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
   - The essence of Kalman Filtering is to make an optimal estimate of the state of a system that evolves over time, in the presence of noise
   - It defines a state-space model, breaking down the problem into:
     - How the state changes over time (prediction)
     - How observations arise from the state (update)
-
+  - Kalman Filtering As The Mathematical Origin of Sensor Fusion
+    - The key ideas introduced in this paper include:
+      - `Latent state`
+        - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
+      - `Observation model`
+        - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
+      - `Recursive Bayesian update`
+          - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
 
 
 
