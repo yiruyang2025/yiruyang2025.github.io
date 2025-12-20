@@ -34,11 +34,11 @@ related_publications: true
 ## A (Not Dynamic yet) Camera with Signal Fusion / Space
 
 ```
--> The important thing is not the formula, but: multi-sensor = multiple observations constraining the same latent state.
+-> The important thing is not the formula, but Multi-sensor = Multiple observations constraining the same latent state.
 ```
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
-Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
+Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references, CVG
 - [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
   - The essence of Kalman Filtering is to make an optimal estimate of the state of a system that evolves over time, in the presence of noise
   - It defines a state-space model, breaking down the problem into:
@@ -84,7 +84,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 <br>
 
 
-## 📍 Kalman-Style Filtering in the Feasible Regime
+## Kalman-Style Filtering in the Feasible Regime
 
 | Aspect                          | Trade-Off Made                                         | Practical Consequence                                             |
 | ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
@@ -103,7 +103,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 
 
-## A Dynamic Camera with Multi-modal Input Signal Fusion
+## A Dynamic Camera with Multi-modal Input Signal 📍 Fusion
 
 
 ```
