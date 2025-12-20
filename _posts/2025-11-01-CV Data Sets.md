@@ -45,8 +45,12 @@ images:
 
 
 
-## 2026 - The Origin of 3D Computer Vision
+## 2026
 
+
+```
+- The Origin of 3D Computer Vision
+```
 
 ## Coordinate Systems & Euclidean Transformations
 
@@ -56,6 +60,8 @@ images:
 | Rotation                       | Euler (18th c.)                | Model rigid motion preserving distances     | $x' = R x$, $R^T R = I$, $\det R=1$ | Linear isometry, group $SO(n)$     |
 | Translation                    | Classical mechanics            | Describe displacement of objects            | $x' = x + t$                        | Affine (non-linear) transformation |
 | Euclidean Transformation       | Klein (1872, Erlangen Program) | Classify geometry by invariants             | $x' = R x + t$                      | Group action of $SE(n)$            |
+
+<br>
 
 
 ## Homogeneous (Extended) Coordinates
@@ -67,6 +73,8 @@ images:
 | Euclidean Transform in Homogeneous Form | Classical                 | Unified matrix representation         | $\begin{bmatrix} R & t \ 0 & 1 \end{bmatrix}$       | Linear action on $\mathbb{P}^n$              |
 
 
+<br>
+
 ## 3D Projective Geometry
 
 | Concept                        | Who / When       | Why Introduced      | Mathematical Form    | Mathematical Essence  |
@@ -75,6 +83,8 @@ images:
 | Plane Representation           | Duality          | Incidence algebra   | $\pi^T X = 0$        | Dual space            |
 | Plane at Infinity $\pi_\infty$ | Projective geom. | Parallelism in 3D   | $(0,0,0,1)^T$        | Directions            |
 
+
+<br>
 
 ## Camera Model (Pinhole)
 
@@ -86,6 +96,8 @@ images:
 | Extrinsics        | Rigid motion   | Camera pose         | $[R                                                             | t]$                  | $SE(3)$        |
 
 
+<br>
+
 ## Calibration & Estimation
 
 | Concept            | Who / When            | Why Introduced        | Mathematical Form     | Mathematical Essence |
@@ -95,6 +107,8 @@ images:
 | Reprojection Error | Photogrammetry        | ML optimality         | $\sum |x - \hat x|^2$ | Maximum likelihood   |
 | Zhang Calibration  | Zhengyou Zhang (1999) | Practical calibration | Plane homographies    | Absolute conic       |
 
+
+<br>
 
 ## Distortions & Non-Ideal Cameras
 
@@ -119,11 +133,12 @@ images:
 
 
 
-<br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 
 
-## Topics
+
+## Topics - 2025 to 2026
 
 | **Conference**                                                        | **Primary Academic Focus**                                                                                                                                    |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -136,6 +151,6 @@ images:
 
 
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 
