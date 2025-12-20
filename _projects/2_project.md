@@ -617,6 +617,40 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 <br>
 
+
+## A. Continuous Geometry (Conceptual / Physical World)
+
+| Geometry / Space            | Continuous or Discrete | Mathematical Definition                              | What It Encodes           | Role in 3D Reconstruction                                   |
+| --------------------------- | ---------------------- | ---------------------------------------------------- | ------------------------- | ----------------------------------------------------------- |
+| **Euclidean Space**         | Continuous             | $(\mathbb{R}^n, \langle \cdot,\cdot \rangle)$        | Length, angles, distances | Physical world model; final metric reconstruction           |
+| **Affine Space**            | Continuous             | Vector space without origin                          | Parallelism, ratios       | Intermediate reconstruction (affine upgrade)                |
+| **Projective Space**        | Continuous             | $\mathbb{P}^n = (\mathbb{R}^{n+1}\setminus{0})/\sim$ | Incidence, collinearity   | Natural space of images and cameras                         |
+| **Smooth Manifold**         | Continuous             | Locally $\mathbb{R}^n$ with smooth atlas             | Differentiability         | Camera motion, pose spaces                                  |
+| **Riemannian Manifold**     | Continuous             | Smooth manifold + metric tensor $g$                  | Curvature, geodesics      | Pose optimization, uncertainty modeling                     |
+| **Lie Groups**              | Continuous             | Smooth groups (e.g. $SO(3), SE(3)$)                  | Rigid motion              | Camera pose and motion                                      |
+| **Pseudo-Riemannian Space** | Continuous             | Indefinite metric                                    | Time/space separation     | Rare in reconstruction (mostly theoretical)                 |
+| **Symplectic Manifold**     | Continuous             | Closed nondegenerate 2-form $\omega$                 | Phase-space dynamics      | Not core to reconstruction (used in dynamics, not geometry) |
+
+
+
+
+<br>
+
+
+## Continuous Geometric Structures Used Explicitly
+
+| Structure                         | Continuous or Discrete | Mathematical Nature                  | Purpose in Reconstruction |
+| --------------------------------- | ---------------------- | ------------------------------------ | ------------------------- |
+| **Homogeneous Coordinates**       | Continuous             | Projective embedding                 | Linearizes projection     |
+| **Absolute Conic / Dual Quadric** | Continuous             | Metric structure in projective space | Metric self-calibration   |
+| **Epipolar Geometry**             | Continuous             | Algebraic constraints                | Two-view geometry         |
+| **Multi-View Geometry**           | Continuous             | Projective relations                 | Structure from Motion     |
+| **Camera Projection Models**      | Continuous             | Rational maps                        | Image formation           |
+
+
+
+<br>
+
 ## Benchmarks and SOTAs
 
 ## 1. 4D
