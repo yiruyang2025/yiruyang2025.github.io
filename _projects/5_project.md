@@ -77,9 +77,29 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 
 
+<br>
+
+
+## Kalman-Style Filtering in the Feasible Regime
+
+| Aspect                          | Trade-Off Made                                         | Practical Consequence                                             |
+| ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
+| **Distribution expressiveness** | Discards multi-modal posteriors and non-Gaussian tails | Enables closed-form or efficiently approximated inference         |
+| **Uncertainty representation**  | Sacrifices global uncertainty expressiveness           | Retains explicit covariance for local uncertainty and diagnostics |
+| **State representation**        | Enforces explicit, physically meaningful states        | Each variable corresponds to a real system quantity               |
+| **Computational cost**          | Avoids sampling-based or variational inference         | Supports real-time, bounded-latency operation                     |
+| **Failure behavior**            | Accepts approximation error                            | Provides diagnosable and predictable failure modes                |
+| **Geometric compatibility**     | Restricts inference to interpretable state spaces      | Integrates naturally with geometry-aware constraints              |
+
+
+
+
+
+
+
+
+
 <br><br>
-
-
 
 
 
