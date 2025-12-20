@@ -14,8 +14,6 @@ related_publications: true
 - The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
 ```
 
-<br>
-
 ## Related Coursework
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, 
