@@ -11,14 +11,6 @@ related_publications: true
 <br>
 
 
-> The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
-
-
-
-
-
-<br>
-
 ## Diffusion Models
 
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
