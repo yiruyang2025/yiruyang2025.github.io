@@ -31,7 +31,7 @@ related_publications: true
 
 <br>
 
-## A (Not Dynamic yet) Camera with Signal Fusion / Space
+## A (Online Self-calibrated) Camera with Signal Fusion / Space
 
 
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
