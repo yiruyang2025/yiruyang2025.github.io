@@ -45,12 +45,81 @@ images:
 
 
 
-## 2026
+## 2026 - The Origin of 3D Computer Vision
+
+
+## Coordinate Systems & Euclidean Transformations
+
+| Concept                        | Who / When                     | Why Introduced                              | Mathematical Form                   | Mathematical Essence               |
+| ------------------------------ | ------------------------------ | ------------------------------------------- | ----------------------------------- | ---------------------------------- |
+| Euclidean Space $\mathbb{R}^n$ | Euclid (~300 BC)               | Describe geometry with distances and angles | $x \in \mathbb{R}^n$                | Metric space with inner product    |
+| Rotation                       | Euler (18th c.)                | Model rigid motion preserving distances     | $x' = R x$, $R^T R = I$, $\det R=1$ | Linear isometry, group $SO(n)$     |
+| Translation                    | Classical mechanics            | Describe displacement of objects            | $x' = x + t$                        | Affine (non-linear) transformation |
+| Euclidean Transformation       | Klein (1872, Erlangen Program) | Classify geometry by invariants             | $x' = R x + t$                      | Group action of $SE(n)$            |
+
+
+## Homogeneous (Extended) Coordinates
+
+| Concept                                 | Who / When                | Why Introduced                        | Mathematical Form                                   | Mathematical Essence                         |
+| --------------------------------------- | ------------------------- | ------------------------------------- | --------------------------------------------------- | -------------------------------------------- |
+| Homogeneous Coordinates                 | Möbius, Plücker (19th c.) | Represent translation linearly        | $(x,y) \rightarrow (x,y,1)$                         | Embedding affine space into projective space |
+| Projective Space $\mathbb{P}^n$         | Poncelet, Plücker         | Remove special cases (parallel lines) | $\mathbb{P}^n = (\mathbb{R}^{n+1}\setminus 0)/\sim$ | Equivalence classes up to scale              |
+| Euclidean Transform in Homogeneous Form | Classical                 | Unified matrix representation         | $\begin{bmatrix} R & t \ 0 & 1 \end{bmatrix}$       | Linear action on $\mathbb{P}^n$              |
+
+
+## 3D Projective Geometry
+
+| Concept                        | Who / When       | Why Introduced      | Mathematical Form    | Mathematical Essence  |
+| ------------------------------ | ---------------- | ------------------- | -------------------- | --------------------- |
+| 3D Homogeneous Point           | Classical        | Unified 3D geometry | $X \in \mathbb{P}^3$ | Ray in $\mathbb{R}^4$ |
+| Plane Representation           | Duality          | Incidence algebra   | $\pi^T X = 0$        | Dual space            |
+| Plane at Infinity $\pi_\infty$ | Projective geom. | Parallelism in 3D   | $(0,0,0,1)^T$        | Directions            |
+
+
+## Camera Model (Pinhole)
+
+| Concept           | Who / When     | Why Introduced      | Mathematical Form                                               | Mathematical Essence |                |
+| ----------------- | -------------- | ------------------- | --------------------------------------------------------------- | -------------------- | -------------- |
+| Pinhole Camera    | Kepler (1604)  | Ideal imaging model | $x \sim P X$                                                    | Central projection   |                |
+| Projection Matrix | CV standard    | Unified model       | $P = K [R                                                       | t]$                  | Projective map |
+| Intrinsics $K$    | Photogrammetry | Sensor parameters   | $\begin{bmatrix}f & s & c_x \ 0 & f & c_y \ 0&0&1\end{bmatrix}$ | Image metric         |                |
+| Extrinsics        | Rigid motion   | Camera pose         | $[R                                                             | t]$                  | $SE(3)$        |
+
+
+## Calibration & Estimation
+
+| Concept            | Who / When            | Why Introduced        | Mathematical Form     | Mathematical Essence |
+| ------------------ | --------------------- | --------------------- | --------------------- | -------------------- |
+| DLT                | Faugeras, Hartley     | Linear estimation     | $Ah=0$                | Null-space problem   |
+| Normalization      | Hartley (1997)        | Numerical stability   | Zero-mean, unit RMS   | Conditioning         |
+| Reprojection Error | Photogrammetry        | ML optimality         | $\sum |x - \hat x|^2$ | Maximum likelihood   |
+| Zhang Calibration  | Zhengyou Zhang (1999) | Practical calibration | Plane homographies    | Absolute conic       |
+
+
+## Distortions & Non-Ideal Cameras
+
+| Concept           | Who / When          | Why Introduced     | Mathematical Form              | Mathematical Essence     |
+| ----------------- | ------------------- | ------------------ | ------------------------------ | ------------------------ |
+| Radial Distortion | Brown (1966)        | Real lenses        | $x_d = x(1+k_1 r^2 + k_2 r^4)$ | Nonlinear mapping        |
+| Rolling Shutter   | Modern sensors      | Line-wise exposure | Time-dependent pose            | Non-rigid projection     |
+| Event Camera      | Neuromorphic vision | High-speed sensing | Asynchronous events            | Spatio-temporal geometry |
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
 
 
 <br><br><br><br>
-
-
 
 
 
@@ -65,25 +134,8 @@ images:
 | **ECCV** (European Conference on Computer Vision)                     | Shares the same vision focus as CVPR but emphasizes **methodological novelty, geometry, and European research collaborations**.                               |
 | **ICCV** (International Conference on Computer Vision)                | Serves as the **global flagship vision conference**, covering **fundamental theory, large-scale datasets, and emerging applications in vision and robotics**. |
 
-<br>
-
-## 4D Reconstruction
-
-| Dataset                                                   | Data Type                                                            | Depth Map                                      | Semantic / Mask                           | Camera Pose                           | Temporal Length                                                           | Approx Size    |
-| --------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------- | ----------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------- | -------------- |
-| **PointOdyssey v1.2** (Stanford, ICCV 2023)               | Synthetic, long-term deformable human/animal scenes, 30 fps, 540×960 | Dense depth maps and surface normals per frame | Instance segmentation and visibility mask | Full camera intrinsics and extrinsics | ~2 000 frames per video × 159 videos (≈ 1 h 30 min)                       | ≈ 300 GB       |
-| **Dynamic Replica v2** (Meta AI, CVPR 2023 DynamicStereo) | Synthetic RGB-D videos of human–object interactions                  | Dense depth maps                               | Semantic segmentation masks               | Full camera poses                     | ~300 frames (≈ 10 s) per video × 524 videos (≈ 1 h 15 min training split) | ≈ 1.7 – 1.8 TB |
-| **Kubric** (Google Research 2022)                         | Procedural synthetic multi-object MVS generator                      | Per-pixel depth and normals                    | Segmentation and instance masks           | Intrinsics and extrinsics available   | Short clips (≈ 24 frames average)                                         | ≈ 1 TB         |
-| **MPI-Sintel (Complete)**                                 | Blender-rendered movie frames with optical-flow ground truth         | Depth and optical flow maps                    | Semantic layers (albedo, shading)         | Camera poses provided                 | 23 training + 12 test sequences (≈ 1 min total)                           | ≈ 5.3 GB       |
-| **TUM-Dynamics** (RGB-D SLAM Benchmark 2012)              | Real RGB-D video sequences with moving objects                       | Depth maps from Kinect sensor                  | No semantic mask provided                 | Ground-truth camera poses             | 2 – 3 min per sequence × 15 – 20 sequences (≈ 1 h total)                  | ≈ 60 GB        |
-| **ETH3D** (Schöps et al., CVPR 2017)                      | Real multi-view stereo benchmark (static scenes)                     | Ground-truth depth maps                        | No semantic mask provided                 | Calibrated multi-view poses           | Static scenes (~10 – 50 images per scene)                                 | ≈ 25 GB        |
-
-
 
 
 <br><br><br><br><br><br>
-
-
-
 
 
