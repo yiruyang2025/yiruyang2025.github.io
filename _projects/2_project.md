@@ -618,7 +618,7 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 <br>
 
 
-## A. Continuous Geometry (Conceptual / Physical World)
+## 📍 A. Continuous Geometry (Conceptual / Physical World)
 
 | Geometry / Space            | Continuous or Discrete | Mathematical Definition                              | What It Encodes           | Role in 3D Reconstruction                                   |
 | --------------------------- | ---------------------- | ---------------------------------------------------- | ------------------------- | ----------------------------------------------------------- |
@@ -630,8 +630,6 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 | **Lie Groups**              | Continuous             | Smooth groups (e.g. $SO(3), SE(3)$)                  | Rigid motion              | Camera pose and motion                                      |
 | **Pseudo-Riemannian Space** | Continuous             | Indefinite metric                                    | Time/space separation     | Rare in reconstruction (mostly theoretical)                 |
 | **Symplectic Manifold**     | Continuous             | Closed nondegenerate 2-form $\omega$                 | Phase-space dynamics      | Not core to reconstruction (used in dynamics, not geometry) |
-
-
 
 
 <br>
@@ -646,6 +644,38 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 | **Epipolar Geometry**             | Continuous             | Algebraic constraints                | Two-view geometry         |
 | **Multi-View Geometry**           | Continuous             | Projective relations                 | Structure from Motion     |
 | **Camera Projection Models**      | Continuous             | Rational maps                        | Image formation           |
+
+
+<br>
+
+
+## 📍 B. Discrete Structures Approximating Continuous Geometry
+
+
+| Geometry / Structure               | Continuous or Discrete | Mathematical Nature       | Role                       |
+| ---------------------------------- | ---------------------- | ------------------------- | -------------------------- |
+| **Graphs**                         | Discrete               | Vertices and edges        | Pose graphs, factor graphs |
+| **Simplicial Complexes**           | Discrete               | Combinatorial topology    | Mesh representation        |
+| **Polygonal Meshes**               | Discrete               | Piecewise-linear surfaces | Surface reconstruction     |
+| **Voxel Grids**                    | Discrete               | Discretized volume        | Dense reconstruction       |
+| **Point Clouds**                   | Discrete               | Sampled manifold          | SfM / LiDAR                |
+| **Discrete Differential Geometry** | Discrete               | Discrete operators        | Curvature estimation       |
+| **Finite Difference Operators**    | Discrete               | Numerical approximation   | Optimization               |
+
+
+<br>
+
+
+## 📍 Discrete vs Continuous Roles
+
+
+| Aspect       | Continuous Geometry  | Discrete Geometry           |
+| ------------ | -------------------- | --------------------------- |
+| Represents   | Ideal physical space | Computational approximation |
+| Calculus     | Exact                | Finite / approximate        |
+| Curvature    | Intrinsic            | Estimated                   |
+| Cameras      | Modeled exactly      | Estimated numerically       |
+| Optimization | Formulated           | Solved numerically          |
 
 
 
