@@ -51,7 +51,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
     - `Observation model`
         - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
     - `Recursive Bayesian update`
-          - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
+        - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
 
 
 
