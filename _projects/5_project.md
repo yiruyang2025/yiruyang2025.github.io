@@ -35,7 +35,7 @@ related_publications: true
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
-- [1960 - Kalman - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf)
+- [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
 
 
 <br><br><br><br>
