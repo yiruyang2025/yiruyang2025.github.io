@@ -8,13 +8,11 @@ category: work
 related_publications: true
 ---
 
-<br>
 
+## Related Coursework
 
 - The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
 
-
-## Related Coursework
 
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
