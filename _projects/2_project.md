@@ -10,9 +10,9 @@ related_publications: true
 
 <br>
 
-```
+
 - The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
-```
+
 
 ## Related Coursework
 
@@ -29,8 +29,6 @@ related_publications: true
 - Diffusion-generated high-frequency details (hair, fabric folds) often adhere to existing surfaces
 - Deformable fields ensure that these details move consistently with body or surface movement
 ```
-
-
 
 
 <br>
@@ -649,7 +647,7 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 <br>
 
 
-## 📍 B. Discrete Structures Approximating Continuous Geometry
+## B. Discrete Structures Approximating Continuous Geometry
 
 
 | Geometry / Structure               | Continuous or Discrete | Mathematical Nature       | Role                       |
@@ -683,7 +681,7 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 
 
-## 📍 Extension - Historical Evolution of Geometry in 3D Reconstruction
+## Historical Evolution of Geometry in 3D Reconstruction
 
 
 | Era                      | Dominant Geometry         | Continuous or Discrete | Key Mathematical Idea   |
