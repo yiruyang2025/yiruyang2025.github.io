@@ -10,8 +10,9 @@ related_publications: true
 
 <br>
 
-> The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
-
+```
+- The core of geometric research has never been "shape," but rather: `space + permissible structure + invariants`
+```
 
 <br>
 
