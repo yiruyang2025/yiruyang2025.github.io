@@ -205,11 +205,7 @@ For online inference, we approximate the posterior using Bayesian filtering.
 - **Prediction**
 - The prediction step propagates the belief forward in time using the system dynamics:
 
-$p(x_t \mid z_{1:t-1})
-
-\int p(x_t \mid x_{t-1})\,
-     p(x_{t-1} \mid z_{1:t-1})\,
-     dx_{t-1}$
+$p(x_t \mid z_{1:t-1}) = \int p(x_t \mid x_{t-1}) p(x_{t-1} \mid z_{1:t-1}) dx_{t-1}$
 
 - **Update**
 - The update step incorporates the new observation into the predicted belief:
