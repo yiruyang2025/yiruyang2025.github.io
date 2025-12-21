@@ -84,6 +84,31 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 <br>
 
+## 📍 Explicit (vs. Implicit) Modeling of Temporal Inconsistency
+
+| Dimension                         | Explicit Modeling                                                                         | Implicit Modeling                                                               |
+| --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Core idea                         | Temporal inconsistency is modeled as structured uncertainty and explicitly reasoned about | Temporal inconsistency is absorbed by the model through representation learning |
+| Time representation               | Timestamps, exposure intervals, offsets, and drift are explicit variables                 | Time is encoded as features or implicitly handled by network layers             |
+| Treatment of uncertainty          | Different sources of uncertainty are explicitly separated and modeled                     | All uncertainty is merged into a generic latent representation                  |
+| Physical meaning                  | Each temporal variable has a clear physical or statistical interpretation                 | Temporal effects lack explicit physical interpretation                          |
+| Interpretability                  | High, temporal conflicts can be inspected and analyzed                                    | Low, behavior emerges without clear explanation                                 |
+| Handling heterogeneous sensors    | Naturally supports different frame rates, shutter types, and modalities                   | Requires large datasets to implicitly learn heterogeneity                       |
+| Long-term stability               | Robust to clock drift and long-duration recordings                                        | Sensitive to distribution shift and temporal drift                              |
+| Downstream propagation            | Temporal uncertainty can be propagated to perception and decision modules                 | Downstream modules are unaware of temporal uncertainty                          |
+| Data efficiency                   | Moderate, constraints guide learning                                                      | High, relies on extensive data coverage                                         |
+| Engineering complexity            | Higher, requires modeling, inference, and optimization                                    | Lower, simpler end-to-end training                                              |
+| Scalability                       | Scales well across heterogeneous systems with known structure                             | Scalability depends on dataset diversity                                        |
+| Failure diagnosis                 | Failures can be attributed to specific temporal factors                                   | Failure modes are difficult to diagnose                                         |
+| Alignment with theory             | Strongly aligned with probabilistic and state-space models                                | Weak theoretical grounding                                                      |
+| Suitability for CVPR-style papers | Medium, may be perceived as theoretical                                                   | High, fits empirical optimization culture                                       |
+| Long-term research value          | High, addresses structural modeling gaps                                                  | Medium, provides empirical robustness                                           |
+| Typical failure mode              | Incorrect assumptions in the explicit model                                               | Overfitting temporal correlations                                               |
+| Best use case                     | When temporal inconsistency is a core modeling concern                                    | When temporal inconsistency is minor or data is abundant                        |
+
+
+<br>
+
 
 ## Core Formulation: Bayesian Multi-Modal Sensor Fusion
 
