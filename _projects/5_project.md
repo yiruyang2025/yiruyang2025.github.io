@@ -107,22 +107,16 @@ $p(x_t \mid x_{t-1})
 
 **Sensor Models**
 
-$z_t^{imu} = h_{imu}(T_{t-1}, T_t) + \epsilon_{imu}$
-
-$z_t^{cam} = h_{cam}(T_t, \theta) + \epsilon_{cam}$
-
-$z_t^{eye} = h_{eye}(T_t, \psi_t) + \epsilon_{eye}$
+- $z_t^{imu} = h_{imu}(T_{t-1}, T_t) + \epsilon_{imu}$
+- $z_t^{cam} = h_{cam}(T_t, \theta) + \epsilon_{cam}$
+- $z_t^{eye} = h_{eye}(T_t, \psi_t) + \epsilon_{eye}$
 
 
 **Filtering Approximation**
 
-
 For online inference, we approximate the posterior using Bayesian filtering.
-- Prediction:
-$p(x_t \mid z_{1:t-1}) = \int p(x_t \mid x_{t-1}) p(x_{t-1} \mid z_{1:t-1}) dx_{t-1}$
-
-- Update:
-$p(x_t \mid z_{1:t}) \propto p(z_t \mid x_t) p(x_t \mid z_{1:t-1})$
+- Prediction: $p(x_t \mid z_{1:t-1}) = \int p(x_t \mid x_{t-1}) p(x_{t-1} \mid z_{1:t-1}) dx_{t-1}$
+- Update: $p(x_t \mid z_{1:t}) \propto p(z_t \mid x_t) p(x_t \mid z_{1:t-1})$
 
 
 
