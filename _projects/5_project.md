@@ -27,6 +27,7 @@ related_publications: true
     - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 - [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
 - [2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
+- [2025 - 📍 Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](https://iccv.thecvf.com/virtual/2025/poster/278)
 
 
 <br>
