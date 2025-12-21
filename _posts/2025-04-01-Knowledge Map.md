@@ -167,7 +167,66 @@ Information Geometry
 
 
 
+<br><br>
+
+
+## Appendix - Unified Problem Hierarchy Across Pure Math, Theoretical Physics, and CVPR
+
+**Level 0 — Foundational Laws (Discovery of Principles)**
+
+| Time Period | Field                           | Problem Type            | Core Question                                                   | Who / Where                              | Why It Emerged                                        |
+| ----------- | ------------------------------- | ----------------------- | --------------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- |
+| 1600–1900   | Pure Mathematics                | Foundational structures | What are numbers, space, continuity, infinity?                  | Newton, Euler, Gauss, Riemann            | Need to formalize calculus, geometry, and analysis    |
+| 1900–1950   | Theoretical Physics             | Fundamental laws        | What are the laws governing matter, energy, spacetime?          | Einstein, Dirac, Schrödinger, Heisenberg | Empirical anomalies in classical physics              |
+| 1900–1950   | Mathematics & Physics Interface | Structural unification  | Can physical laws be written as invariant mathematical objects? | Hilbert, Noether                         | Symmetry and conservation laws demanded formalization |
+
 <br>
+
+**Level 1 — Formalization and Systematization**
+
+| Time Period | Field               | Problem Type      | Core Question                                                     | Who / Where          | Why It Emerged                              |
+| ----------- | ------------------- | ----------------- | ----------------------------------------------------------------- | -------------------- | ------------------------------------------- |
+| 1930–1970   | Pure Mathematics    | Axiomatization    | Can mathematics be made logically complete and rigorous?          | Gödel, Bourbaki      | Need for consistency and abstraction        |
+| 1950–1980   | Theoretical Physics | Field theories    | Can physical laws be written as consistent mathematical theories? | Yang, Mills, Feynman | Quantum field inconsistencies               |
+| 1950–2000   | Mathematics         | Global structures | How do local rules imply global behavior?                         | Grothendieck, Atiyah | Geometry, topology, and algebra unification |
+
+
+<br>
+
+
+**Level 2 — Identifiability, Limits, and Impossibility**
+
+| Time Period | Field               | Problem Type            | Core Question                                   | Who / Where           | Why It Emerged               |
+| ----------- | ------------------- | ----------------------- | ----------------------------------------------- | --------------------- | ---------------------------- |
+| 1960–1990   | Pure Mathematics    | Limits of reasoning     | What cannot be proven, computed, or classified? | Gödel, Turing, Church | Logical self-reference       |
+| 1970–2000   | Theoretical Physics | Non-perturbative limits | When do theories fail to define reality?        | Wilson, ’t Hooft      | Divergences, renormalization |
+| 1970–2000   | Computer Science    | Complexity limits       | Which problems are fundamentally hard?          | Cook, Levin           | Algorithmic explosion        |
+
+<br>
+
+**Level 3 — Engineering Reality on Top of Theory**
+
+| Time Period | Field                      | Problem Type          | Core Question                                     | Who / Where               | Why It Emerged                |
+| ----------- | -------------------------- | --------------------- | ------------------------------------------------- | ------------------------- | ----------------------------- |
+| 1980–2000   | Physics & Engineering      | Approximation regimes | How do ideal laws survive noise and scale?        | Applied physics community | Real systems are messy        |
+| 1990–2005   | Computer Vision (pre-deep) | Geometric modeling    | How does vision arise from projection and motion? | Hartley, Faugeras, Kanade | Robotics and perception needs |
+| 2000–2010   | Statistics / ML            | Learning theory       | When does data approximate truth?                 | Vapnik                    | Data replaces models          |
+
+
+<br>
+
+**Level 4 — Data-Driven Construction (Modern CVPR Core)**
+
+| Time Period  | Field     | Problem Type            | Core Question                              | Who / Where          | Why It Emerged           |
+| ------------ | --------- | ----------------------- | ------------------------------------------ | -------------------- | ------------------------ |
+| 2010–present | CVPR / ML | Empirical performance   | Can we build systems that work at scale?   | Large labs, industry | Compute + data abundance |
+| 2015–present | CVPR      | Representation learning | Which architectures work best empirically? | AI labs              | Engineering pressure     |
+| 2020–present | CVPR      | System integration      | How do models survive deployment?          | Industry-academia    | Real-world constraints   |
+
+
+
+
+<br><br><br>
 
 
 ## Post-Training Techniques
