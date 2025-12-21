@@ -45,6 +45,7 @@ images:
 
 **♨️ Zurich**
 
+- [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
 - [Boda Borg](https://www.zuerich.com/en/visit/sport/boda-borg-rumlang)
 - [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
 
