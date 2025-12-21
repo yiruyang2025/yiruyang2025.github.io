@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Brain Mapping / Camera
-description: SSL, Learning-based, ()
+description: SSL, 
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -38,9 +38,9 @@ related_publications: true
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
 
 
-- [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
+- [2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
-- [2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf), and 📍its author's papers
+- [2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf)
 - [2025 - Aria Gen 2 Documentation](https://facebookresearch.github.io/projectaria_tools/gen2/)
 - [1960 - A New Approach to Linear 📍 Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
   - The essence of Kalman Filtering is to make an optimal estimate of the state of a system that evolves over time, in the presence of noise
