@@ -166,10 +166,7 @@ Information Geometry
 | Typical timeline           | Decades to centuries                                                        |
 | Relation to applied fields | Mostly indirect; influence appears only after resolution                    |
 
-
-
 <br><br>
-
 
 ## Appendix - Unified Problem Hierarchy Across Pure Math, Theoretical Physics, and CVPR
 
@@ -226,7 +223,7 @@ Information Geometry
 
 <br>
 
-## ⛱️ Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
+## Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
 
 | Era (Approx.) | Branch                         | Key Figures           | Why It Was Proposed (Core Motivation)                                             |
 | ------------- | ------------------------------ | --------------------- | --------------------------------------------------------------------------------- |
