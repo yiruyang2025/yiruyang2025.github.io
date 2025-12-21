@@ -418,18 +418,43 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Typical applications              | High-speed motion estimation, visual odometry, SLAM, optical flow, robotics, autonomous driving, high-speed tracking, and low-power vision.                                                                                          |
 | Conceptual summary                | **Event cameras measure “when something changes,” not “what the scene looks like at a fixed time.”**                                                                                                                                 |
 
-<br>
-
-
-
-
-
-
-
-
 <br><br>
 
 
+## A. Unresolved Core Problems in Modern CVPR (Post-Deep Learning Era)
+
+| Problem Area                    | What the Problem Really Is                                                    | Why It Is Still Unsolved                                                                                     | How CVPR Papers Currently Cope                                      | Why Best Papers Still Miss It                                                        |
+| ------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Continuous-time modeling        | Vision models are fundamentally discrete, but the world is continuous in time | Continuous-time inference is mathematically harder; requires differential equations and observability theory | Discretization, frame aggregation, splines, heuristic interpolation | Best papers optimize within discretized assumptions instead of fixing the time model |
+| Temporal causality              | Models confuse correlation across frames with causal structure                | Causality requires intervention and counterfactual reasoning, not passive data                               | Self-supervision, temporal contrastive losses                       | These methods improve prediction, not causal understanding                           |
+| Identifiability                 | Whether the true scene/state is uniquely recoverable from data                | Identifiability depends on geometry, noise, and sensor configuration                                         | Overparameterization hides non-identifiability                      | Best papers report accuracy, not whether the solution is meaningful                  |
+| Geometry–learning consistency   | Learned representations often violate geometric invariants                    | Neural networks lack built-in structure preservation                                                         | Add geometry as loss terms or regularizers                          | Geometry is treated as decoration, not a first-class constraint                      |
+| Probabilistic correctness       | Most “uncertainty” estimates are not valid probabilities                      | Proper probabilistic modeling is expensive and restrictive                                                   | Softmax scores, Monte Carlo dropout                                 | Best papers optimize calibration metrics without true probabilistic guarantees       |
+| Sensor modeling                 | Real sensors are nonlinear, asynchronous, and imperfect                       | Accurate sensor models complicate learning pipelines                                                         | Synthetic data, simplified sensor assumptions                       | Papers assume idealized sensors to keep benchmarks manageable                        |
+| Scale vs. meaning               | Scaling improves performance without improving understanding                  | Optimization rewards accuracy, not interpretability                                                          | Larger models, more data                                            | Best papers often demonstrate scale, not conceptual progress                         |
+| Benchmark validity              | Benchmarks measure proxies, not the intended task                             | Ground truth is often ill-defined or biased                                                                  | Dataset curation and metric tuning                                  | Best papers win benchmarks without questioning what they measure                     |
+| Failure characterization        | Knowing *when* and *why* a model fails                                        | Requires negative results and adversarial analysis                                                           | Ignore rare or hard cases                                           | Best papers are structurally biased against failure analysis                         |
+| Generalization guarantees       | Performance outside training distribution                                     | Distribution shift is unavoidable in vision                                                                  | Domain adaptation, augmentation                                     | These mitigate but do not solve the theoretical problem                              |
+| Multi-sensor fusion theory      | How heterogeneous sensors should be fused optimally                           | Requires unified state-space and noise models                                                                | Late fusion, learned fusion                                         | Fusion is learned empirically, not derived                                           |
+| Inverse problems under learning | Whether learned inverses are stable and well-posed                            | Inverse problems are often ill-posed by nature                                                               | Implicit regularization via networks                                | Best papers rely on empirical stability, not proofs                                  |
+| Long-horizon reasoning          | Understanding scenes over long time spans                                     | Error accumulation and memory limits                                                                         | Sliding windows, recurrent modules                                  | Best papers focus on short-term tasks                                                |
+| Physical consistency            | Ensuring predictions obey physical laws                                       | Physics constraints are hard to encode differentiably                                                        | Physics-informed losses                                             | Usually approximate and task-specific                                                |
+| Evaluation under ambiguity      | Multiple valid interpretations of the same scene                              | Ground truth often assumes a single answer                                                                   | Pick one label or average                                           | Best papers collapse ambiguity instead of modeling it                                |
+
+
+## B. Key Meta-Observation (Critical)
+
+| Observation                                      | Explanation                                     |
+| ------------------------------------------------ | ----------------------------------------------- |
+| These are not “missing tricks”                   | They are structural modeling problems           |
+| They predate deep learning                       | Many come from 1950–2000 math/physics           |
+| Best papers optimize *within* broken assumptions | They rarely question the assumptions themselves |
+| Solving them reduces leaderboard gains           | Which is why incentives avoid them              |
+| They require saying “this task is ill-posed”     | CVPR culture discourages this                   |
+
+
+
+<br><br><br><br>
 
 
 
