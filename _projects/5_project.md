@@ -85,7 +85,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 <br>
 
-## 📍 Explicit (vs. Implicit) Modeling of Temporal Inconsistency
+## Explicit vs. Implicit Modeling of 📍 Temporal Inconsistency
 
 | Dimension                         | Explicit Modeling                                                                         | Implicit Modeling                                                               |
 | --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
