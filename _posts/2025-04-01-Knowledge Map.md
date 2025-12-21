@@ -98,7 +98,7 @@ Information Geometry
 
 
 
-## 🥥 A. Fundamentally Speaking, Second-Layer (1950–2000) Problems Still Open in CVPR-Level Vision
+## A. Fundamentally Speaking, Second-Layer (1950–2000) Problems Still Open in CVPR-Level Vision
 
 
 | Problem Area                         | What the Second-Layer Problem Is                                                                  | Why It Is Not Solved                                                                                | Classical Foundations (1950–2000)                                                      | Why CVPR Can Still Accept It                                    | What Makes It Non-Trivial                                                               |
@@ -130,7 +130,7 @@ Information Geometry
 
 
 
-## ♨️ A. Fundamental Open Problems in Pure Mathematics
+## A. Fundamental Open Problems in Pure Mathematics
 
 
 | Problem                                   | Core Question (Pure Math Level)                                                                      | Why It Is Still Unsolved                                                                         | Who Formulated / Popularized It                                                    | Why It Matters                                                            |
