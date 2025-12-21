@@ -221,9 +221,9 @@ Information Geometry
 | 2015–present | CVPR      | Representation learning | Which architectures work best empirically? | AI labs              | Engineering pressure     |
 | 2020–present | CVPR      | System integration      | How do models survive deployment?          | Industry-academia    | Real-world constraints   |
 
-<br>
+<br><br>
 
-## Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
+## ⛱️ Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
 
 | Era (Approx.) | Branch                         | Key Figures           | Why It Was Proposed (Core Motivation)                                             |
 | ------------- | ------------------------------ | --------------------- | --------------------------------------------------------------------------------- |
