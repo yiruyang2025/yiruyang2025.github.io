@@ -463,6 +463,7 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Physical consistency            | Ensuring predictions obey physical laws                                       | Physics constraints are hard to encode differentiably                                                        | Physics-informed losses                                             | Usually approximate and task-specific                                                |
 | Evaluation under ambiguity      | Multiple valid interpretations of the same scene                              | Ground truth often assumes a single answer                                                                   | Pick one label or average                                           | Best papers collapse ambiguity instead of modeling it                                |
 
+<br>
 
 ## B. Key Meta-Observation (Critical)
 
