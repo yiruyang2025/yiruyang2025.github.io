@@ -38,8 +38,8 @@ related_publications: true
 
 
 - [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
-Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references, CVG
-- [2025 - Aria Gen 2 Documentation](https://facebookresearch.github.io/projectaria_tools/gen2/), CVG
+Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
+- [2025 - Aria Gen 2 Documentation](https://facebookresearch.github.io/projectaria_tools/gen2/)
 - [1960 - A New Approach to Linear 📍 Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
   - The essence of Kalman Filtering is to make an optimal estimate of the state of a system that evolves over time, in the presence of noise
   - It defines a state-space model, breaking down the problem into:
