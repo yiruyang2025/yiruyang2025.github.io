@@ -285,7 +285,7 @@ p(x_t \mid z_{1:t-1})$
 
 <br>
 
-## In 📍 Each Time Stamp
+## In 📍 Each Time Step
 
 ```
 Time t-1 belief                    Prediction                    Update
