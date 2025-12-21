@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Brain Mapping / Camera
-description: SSL, Explicit Modeling, 
+description: SSL, Learning-based Self-calibration, 
 img: assets/img/4.jpg
 importance: 5
 category: work
