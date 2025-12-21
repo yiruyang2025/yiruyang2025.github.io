@@ -62,7 +62,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 <br>
 
 
-**Core Formulation: Bayesian Multi-Modal Sensor Fusion**
+## Core Formulation: Bayesian Multi-Modal Sensor Fusion
 
 **Latent State Definition**
 
@@ -98,10 +98,31 @@ $p(z_t \mid x_t)
 $p(x_t \mid x_{t-1})
 = p(T_t \mid T_{t-1})\, p(\psi_t \mid \psi_{t-1})\, p(\theta)$
 
-- where $\theta$ is treated as a time-invariant latent variable.
+- where $\theta$ is treated as a time-invariant latent variable, $p(\theta)$ enforces temporal consistency of calibration parameters.
+
 
 **Interpretation**
 - Fusion thus corresponds to Bayesian state estimation under uncertainty, where heterogeneous sensor observations impose probabilistic constraints on a shared latent state evolving over time. Calibration parameters are inferred jointly with pose and user states, enabling online self-calibration.
+
+
+**Sensor Models**
+
+$z_t^{imu} = h_{imu}(T_{t-1}, T_t) + \epsilon_{imu}$
+
+$z_t^{cam} = h_{cam}(T_t, \theta) + \epsilon_{cam}$
+
+$z_t^{eye} = h_{eye}(T_t, \psi_t) + \epsilon_{eye}$
+
+
+**Filtering Approximation**
+
+
+For online inference, we approximate the posterior using Bayesian filtering.
+- Prediction:
+$p(x_t \mid z_{1:t-1}) = \int p(x_t \mid x_{t-1}) p(x_{t-1} \mid z_{1:t-1}) dx_{t-1}$
+
+- Update:
+$p(x_t \mid z_{1:t}) \propto p(z_t \mid x_t) p(x_t \mid z_{1:t-1})$
 
 
 
