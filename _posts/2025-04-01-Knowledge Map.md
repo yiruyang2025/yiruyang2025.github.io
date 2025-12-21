@@ -15,6 +15,7 @@ images:
 <br>
 
   - 🧊 Pretty things here
+  - We model the world mathematically via different philosophical viewpoints 🍷
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
 
@@ -223,10 +224,51 @@ Information Geometry
 | 2015–present | CVPR      | Representation learning | Which architectures work best empirically? | AI labs              | Engineering pressure     |
 | 2020–present | CVPR      | System integration      | How do models survive deployment?          | Industry-academia    | Real-world constraints   |
 
+<br>
+
+## ⛱️ Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
+
+| Era (Approx.) | Branch                         | Key Figures           | Why It Was Proposed (Core Motivation)                                             |
+| ------------- | ------------------------------ | --------------------- | --------------------------------------------------------------------------------- |
+| ~300 BCE      | Euclidean Geometry 📐          | Euclid                | To formalize spatial reasoning and deduction from axioms; birth of rigorous proof |
+| 1600s         | Calculus                       | Newton, Leibniz       | To describe motion, change, and physical laws using infinitesimal reasoning       |
+| 1700s         | Classical Analysis             | Euler, Lagrange       | To systematize calculus and infinite processes                                    |
+| 1800–1850     | Linear Algebra                 | Gauss, Hamilton       | To solve systems of equations and understand linear structure                     |
+| 1800–1900     | Abstract Algebra               | Galois, Cayley        | To understand symmetry and solvability of equations                               |
+| 1850–1900     | Real Analysis                  | Weierstrass, Dedekind | To remove ambiguity from calculus via rigorous limits                             |
+| 1850–1900     | Complex Analysis               | Cauchy, Riemann       | To study functions with extraordinary rigidity and structure                      |
+| 1850–1900     | Differential Geometry 🌐       | Gauss, Riemann        | To formalize curvature and smooth spaces beyond Euclid                            |
+| 1880–1930     | Set Theory                     | Cantor                | To define infinity and provide foundations for all mathematics                    |
+| 1900–1930     | Mathematical Logic 🧠          | Hilbert, Gödel        | To formalize proof, consistency, and limits of reasoning                          |
+| 1900–1950     | Topology                       | Poincaré              | To study properties invariant under continuous deformation                        |
+| 1900–1950     | Functional Analysis            | Banach, Hilbert       | To understand infinite-dimensional spaces and operators                           |
+| 1910–1950     | Measure Theory                 | Lebesgue              | To rigorously define integration and size of sets                                 |
+| 1920–1960     | Algebraic Geometry             | Zariski, Weil         | To unify polynomial equations and geometry                                        |
+| 1930–1970     | Homological Algebra            | Cartan, Eilenberg     | To systematically measure failure of exactness                                    |
+| 1940–1970     | Probability Theory 🎲          | Kolmogorov            | To axiomatize randomness and stochastic processes                                 |
+| 1950–1980     | Partial Differential Equations | Hörmander             | To rigorously analyze equations governing physics                                 |
+| 1950–1980     | Representation Theory          | Harish-Chandra        | To understand how abstract symmetries act concretely                              |
+| 1950–1980     | Category Theory 🧩             | Eilenberg, Mac Lane   | To unify mathematics via compositional structure                                  |
+| 1950–1980     | Calculus of Variations         | Tonelli, Morrey       | To study minimization principles underlying physics                               |
+| 1960–1990     | Algebraic Topology             | Serre, Bott           | To connect topology with algebraic invariants                                     |
+| 1960–1990     | Dynamical Systems              | Smale                 | To study long-term behavior of evolving systems                                   |
+| 1960–1990     | Ergodic Theory                 | Kolmogorov, Sinai     | To connect dynamics with statistical behavior                                     |
+| 1960–2000     | Number Theory (Modern) 🔢      | Weil, Langlands       | To unify arithmetic via geometry and analysis                                     |
+| 1960–present  | Arithmetic Geometry            | Grothendieck          | To merge number theory and geometry at a structural level                         |
+| 1960–present  | Noncommutative Geometry        | Connes                | To generalize geometry beyond classical spaces                                    |
+| 1970–present  | Combinatorics                  | Erdős                 | To study discrete structure and extremal phenomena                                |
+| 1970–present  | Graph Theory                   | Tutte                 | To understand networks and connectivity                                           |
+| 1970–present  | Operator Algebras              | von Neumann           | To formalize quantum observables                                                  |
+| 1980–present  | Stochastic Analysis            | Itô                   | To analyze continuous-time randomness                                             |
+| 1990–present  | Higher Category Theory         | Grothendieck (ideas)  | To reason about structures between structures                                     |
+| 2000–present  | Homotopy Type Theory           | Voevodsky             | To unify logic, topology, and computation                                         |
+| 2000–present  | Derived Geometry               | Lurie                 | To repair limitations of classical geometry                                       |
+| 2000–present  | Arithmetic Langlands Program   | Langlands             | To unify symmetry, geometry, and arithmetic                                       |
+| 2000–present  | Motivic Theory                 | Grothendieck (vision) | To explain why cohomology theories agree                                          |
 
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 ## Post-Training Techniques
