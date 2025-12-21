@@ -1312,6 +1312,7 @@ $$
   - [2015 - ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012)
 
   - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model](https://arxiv.org/pdf/2403.13064)
+  - [2025 - Prior2Former - Evidential Modeling of Mask Transformers for Assumption-Free Open-World Panoptic Segmentation](https://iccv.thecvf.com/virtual/2025/poster/317)
 
 <br><br><br><br><br><br>
 
