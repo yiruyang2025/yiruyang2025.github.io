@@ -55,7 +55,6 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 - [2005 - Probabilistic Robotics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zj6FavAAAAAJ&citation_for_view=zj6FavAAAAAJ:cSdaV2aYdYsC), Multi-sensor Input Fusion
 - [2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview), training and testing semantic perception on adverse visual conditions
-- [2003 - Generalized Multi-Camera Scene Reconstruction Using Graph Cuts](https://link.springer.com/chapter/10.1007/978-3-540-45063-4_32)
 - [2003 - Using many cameras as one](https://ieeexplore.ieee.org/document/1211520)
 
 
