@@ -142,7 +142,7 @@ related_publications: true
 
 <br>
 
-## 3D / 4D Reconstruction and Tracking
+## 3D / 4D Reconstruction (and Tracking)
   - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://pixel-perfect-depth.github.io/)
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
   - [📍 2020 - Learning 3D Reconstruction 📍 in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
@@ -170,7 +170,7 @@ related_publications: true
   - [📍 2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
   - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
-
+  - [2025 - Concerto: Joint 2D-3D Self-Supervised Learning Emerges 📍 Spatial Representations](https://pointcept.github.io/Concerto/)
 
 <br>
 
