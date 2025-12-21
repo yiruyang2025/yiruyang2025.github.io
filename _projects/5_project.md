@@ -59,6 +59,28 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 - [2003 - Using many cameras as one](https://ieeexplore.ieee.org/document/1211520)
 
 
+<br>
+
+## A Dynamic Camera with Multi-modal Input Signal 📍 Fusion
+
+
+```
+          Human perception
+        ┌──────────────────┐
+        │  Vestibular      │
+        │  Vision          │
+        └──────────────────┘
+                 ▲
+                 │
+    ┌────────────┴────────────────┐
+    │ Wearable System Estimation  │
+    └────────────┬────────────────┘
+                 │
+ ┌───────┬────────┬────────┬────────┬────────┐
+ │ Camera│  IMU   │ Eye    │ Depth  │ Others │
+ │       │        │ tracker│ / ToF  │        │
+ └───────┴────────┴────────┴────────┴────────┘
+```
 
 <br>
 
@@ -172,30 +194,127 @@ For online inference, we approximate the posterior using Bayesian filtering.
 
 
 
-<br><br>
+<br>
+
+
+## Why Gaussian
+
+- For Closure Under Bayesian Operations
+- Bayesian filtering requires two fundamental operations that are applied recursively over time.
+
+- **Prediction**
+- The prediction step propagates the belief forward in time using the system dynamics:
+
+$p(x_t \mid z_{1:t-1})
+=
+\int p(x_t \mid x_{t-1})\,
+     p(x_{t-1} \mid z_{1:t-1})\,
+     dx_{t-1}$
+
+- **Update**
+- The update step incorporates the new observation into the predicted belief:
+
+$p(x_t \mid z_{1:t})
+\propto
+p(z_t \mid x_t)\,
+p(x_t \mid z_{1:t-1})$
+
+----
+
+- Gaussian distributions possess a crucial closure property under these Bayesian operations:
+  - The product of two Gaussian distributions is Gaussian.
+  - The marginalization of a joint Gaussian distribution is Gaussian.
+
+- As a consequence:
+  - The prediction step preserves Gaussianity.
+  - The update step preserves Gaussianity.
+
+- Without this closure property, the posterior distribution does not remain in a tractable functional family, and Bayesian filtering becomes analytically intractable.
 
 
 
-## A Dynamic Camera with Multi-modal Input Signal 📍 Fusion
 
+<br>
+
+## Bayesian Filter、Kalman Filter, Gaussian Distribution
 
 ```
-          Human perception
-        ┌──────────────────┐
-        │  Vestibular      │
-        │  Vision          │
-        └──────────────────┘
-                 ▲
-                 │
-    ┌────────────┴────────────────┐
-    │ Wearable System Estimation  │
-    └────────────┬────────────────┘
-                 │
- ┌───────┬────────┬────────┬────────┬────────┐
- │ Camera│  IMU   │ Eye    │ Depth  │ Others │
- │       │        │ tracker│ / ToF  │        │
- └───────┴────────┴────────┴────────┴────────┘
+┌───────────────────────────────────────────────┐
+│               Bayesian Filtering              │
+│                                               │
+│  p(x_t | z_{1:t}) ∝ p(z_t | x_t) p(x_t | z_{1:t-1}) │
+│                                               │
+│  • General probabilistic inference framework  │
+│  • Arbitrary distributions                    │
+│  • Arbitrary nonlinear dynamics               │
+│  • Arbitrary observation models               │
+│                                               │
+│        (Intractable in general)               │
+└───────────────────────┬───────────────────────┘
+                        │
+                        │  Gaussian assumption
+                        ▼
+┌───────────────────────────────────────────────┐
+│            Kalman-style Filtering             │
+│                                               │
+│  Assumption:                                  │
+│  p(x_t | z_{1:t}) ≈ 𝒩(μ_t, Σ_t)              │
+│                                               │
+│  • Posterior represented only by mean + cov   │
+│  • Recursive closed-form updates              │
+│  • Efficient and online                       │
+│                                               │
+│  Includes:                                    │
+│   - Kalman Filter (linear)                    │
+│   - EKF (local linearization)                 │
+│   - UKF (sigma-point)                         │
+└───────────────────────┬───────────────────────┘
+                        │
+                        │  Linear model + Gaussian noise
+                        ▼
+┌───────────────────────────────────────────────┐
+│               Kalman Filter                   │
+│                                               │
+│  x_t = A x_{t-1} + w_t ,   w_t ~ 𝒩(0, Q)     │
+│  z_t = H x_t     + v_t ,   v_t ~ 𝒩(0, R)     │
+│                                               │
+│  • Exact Bayesian inference                   │
+│  • Optimal under linear-Gaussian assumptions  │
+└───────────────────────────────────────────────┘
 ```
+
+<br>
+
+## In 📍 Each Time Stamp
+
+```
+Time t-1 belief                    Prediction                    Update
+(posterior at t-1)                 (motion model)               (sensor fusion)
+
+   p(x_{t-1}|z_{1:t-1})             p(x_t|z_{1:t-1})             p(x_t|z_{1:t})
+     ~ 𝒩(μ_{t-1}, Σ_{t-1})     →       ~ 𝒩(μ_t^-, Σ_t^-)     →       ~ 𝒩(μ_t, Σ_t)
+                │                              │                              │
+                │                              │                              │
+                ▼                              ▼                              ▼
+        Gaussian belief              Gaussian prediction            Gaussian posterior
+```
+
+<br>
+
+## Multiple sensors = multiple Gaussian 📍 constraints on the same state
+
+```
+                    z_t^cam
+                 (camera likelihood)
+                        │
+                        ▼
+                   ┌────────┐
+z_t^imu ───────▶   │  x_t   │   ◀────── z_t^eye
+(IMU likelihood)   │ latent │   (eye-tracking likelihood)
+                   │ state  │
+                   └────────┘
+```
+
 
 
 
@@ -262,7 +381,53 @@ For online inference, we approximate the posterior using Bayesian filtering.
 | **Inter-channel variation**   | Each sensor has different sensitivity             | Requires independent per-channel normalization |
 
 
-<br><br><br>
+<br>
+
+## Event Camera, Dynamic Camera, Generalized Camera
+
+| Camera Model       | Who proposed it                                                                       | When                                               | Why it was proposed                                                                                                   | Core idea                                                                                      | What it is used for in practice                                                                                                        | Canonical mathematical formulation                                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Event Camera       | Tobi Delbrück and the neuromorphic vision community                                   | Early 2000s (concept); practical devices 2008–2014 | To overcome motion blur, low temporal resolution, high latency, and redundancy of frame-based cameras                 | Pixels asynchronously report changes in log intensity instead of recording frames              | High-speed motion estimation, optical flow, visual odometry, SLAM, robotics, autonomous driving in extreme lighting, low-power sensing | Event is triggered when:  \n$\Delta L(x,y,t)=\log I(x,y,t)-\log I(x,y,t-\Delta t) \ge C$  \nEvent representation:  \n$e_k=(x_k,y_k,t_k,p_k)$ |
+| Dynamic Camera     | Gennady Medioni, Yi Ma, Stefano Soatto (dynamic vision / dynamic scene modeling line) | Late 1990s – early 2000s                           | To model cameras observing **time-varying scenes** and **camera motion** jointly rather than assuming static geometry | Camera measurements are functions of both spatial projection and temporal evolution            | Dynamic scene reconstruction, structure-from-motion with motion, video-based 3D reconstruction, non-rigid SLAM                         | Time-dependent projection model:  \n$x(t)=\pi(P(t),X(t))$  \nwhere camera pose $P(t)$ and scene point $X(t)$ evolve over time                |
+| Generalized Camera | Thijs K. Schoenemann, Richard Hartley, later formalized by Geyer and Daniilidis       | Early 2000s (2000–2001)                            | To unify pinhole, multi-camera rigs, catadioptric, and non-central cameras in a single geometric model                | A camera is modeled as a set of rays in space, not necessarily passing through a single center | Multi-camera calibration, omnidirectional vision, panoramic systems, camera rigs in robotics and autonomous driving                    | Ray-based model:  \n$r_i = (o_i, d_i)$  \nwith projection constraint:  \n$X \in \{ o_i + \lambda d_i \mid \lambda > 0 \}$                    |
+
+
+- Event camera: designed for when something changes.
+- Dynamic camera: designed for how scenes and cameras evolve over time.
+- Generalized camera: designed for how rays are formed, regardless of camera hardware.
+
+
+<br>
+
+
+## An Event Camera
+
+| Aspect                            | Description                                                                                                                                                                                                                          |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Core idea (essence)               | An event camera is an **asynchronous, pixel-wise change detector** that outputs events whenever the **logarithmic intensity change** at a pixel exceeds a threshold, instead of recording full image frames at fixed time intervals. |
+| What it outputs                   | A stream of events $e_k = (x_k, y_k, t_k, p_k)$, where $(x_k, y_k)$ is the pixel location, $t_k$ is the timestamp (microsecond resolution), and $p_k \in {+1, -1}$ is the polarity (brightness increase or decrease).                |
+| Fundamental measurement principle | An event is triggered when the change in log intensity satisfies:  \n$\Delta L(x, y, t) = \log I(x, y, t) - \log I(x, y, t - \Delta t) \geq C$  \nwhere $C$ is a contrast threshold.                                                 |
+| Data representation               | Sparse, asynchronous, temporally continuous event stream (no frames, no fixed FPS).                                                                                                                                                  |
+| Who proposed it                   | First proposed conceptually and experimentally by **Tobi Delbrück** and collaborators in the neuromorphic vision community.                                                                                                          |
+| When                              | Early 2000s (around 2001–2004 for initial silicon retina designs); practical modern devices emerged around 2008–2014.                                                                                                                |
+| Why it was proposed               | To overcome limitations of frame-based cameras: motion blur, low temporal resolution, high latency, and redundant data in static scenes.                                                                                             |
+| Biological inspiration            | Inspired by the **human retina**, where neurons respond to **changes** in brightness rather than absolute intensity.                                                                                                                 |
+| Key advantages                    | Ultra-high temporal resolution (microseconds), high dynamic range (often >120 dB), low latency, low power consumption, and no motion blur.                                                                                           |
+| Key limitations                   | No absolute intensity information, sparse data difficult to process, noise under low contrast, requires new algorithms.                                                                                                              |
+| Contrast with frame cameras       | Frame cameras sample intensity: $I(x,y,t)$ at discrete times; event cameras sample changes: $\frac{d}{dt} \log I(x,y,t)$.                                                                                                            |
+| Typical applications              | High-speed motion estimation, visual odometry, SLAM, optical flow, robotics, autonomous driving, high-speed tracking, and low-power vision.                                                                                          |
+| Conceptual summary                | **Event cameras measure “when something changes,” not “what the scene looks like at a fixed time.”**                                                                                                                                 |
+
+<br>
+
+
+
+
+
+
+
+
+<br><br>
 
 
 
