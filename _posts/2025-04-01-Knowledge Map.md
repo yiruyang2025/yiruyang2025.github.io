@@ -42,7 +42,7 @@ images:
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
 
 
-<br><br>
+<br>
 
 **♨️ Zurich**
 
@@ -298,8 +298,8 @@ Information Geometry
 - [x] Reading, Oxygen, Fruits No sugar, Protein
   - [x] Gym, Jogging, Tennis
   - [x] Chatting
-  - [x] Water
-- [x] Take a Walk
+  - [x] 🌊 Water
+- [x] Take a Walk 🗣️
 
 
 <br>
