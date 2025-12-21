@@ -596,6 +596,7 @@ Regularization Terms
 ## 2025
 
 - [2025 - Single-Image 3D Human Reconstruction with 3D-Aware Diffusion Priors and Facial Enhancement](https://dl.acm.org/doi/full/10.1145/3757377.3763839)
+- [2025 - Find Any Part in 3D](https://iccv.thecvf.com/virtual/2025/poster/98)
 
 
 
