@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Robotics, Prototype
-description: Representation 4D, (CRL / )
+description: Semantic Representation 4D, (CRL / )
 img: assets/img/4.jpg
 importance: 4
 category: work
