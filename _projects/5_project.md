@@ -54,10 +54,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
     - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
 
 - [2005 - Probabilistic Robotics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zj6FavAAAAAJ&citation_for_view=zj6FavAAAAAJ:cSdaV2aYdYsC), Multi-sensor Input Fusion
-- [📍 2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview)
-  - Adverse Conditions Dataset with Correspondences for training and testing semantic perception methods on adverse visual conditions
-  - 1080p GoPro Hero 5 camera recording 8-bit RGB images at 30 Hz
-  - 4006 adverse-condition images with fine pixel-level annotations, Split in 1000 foggy, 1006 nighttime, 1000 rainy and 1000 snowy images
+- [📍 2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview), training and testing semantic perception on adverse visual conditions
 
 <br>
 
