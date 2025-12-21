@@ -174,8 +174,8 @@ related_publications: true
 
 - Without an internet connection, there is no external time source (such as NTP or PTP). Therefore, all components must share a master clock, and every process synchronizes around it
 - What happens if your master clock is the system clock
-  - ✅ You can run completely offline
-  - ✅ You can maintain full timestamp consistency between Unreal, the EXE, and the HMD as long as every process refers to the same local system time or the same bridge-provided clock derived from it
+  - You can run completely offline
+  - You can maintain full timestamp consistency between Unreal, the EXE, and the HMD as long as every process refers to the same local system time or the same bridge-provided clock derived from it
 
 
 
@@ -562,6 +562,21 @@ Regularization Terms
 | **X11 / X-Forwarding** | *X Window System (Version 11)*         | A protocol that allows GUI applications running on a remote server to display on your local machine.                                                  | `ssh -Y`, **XQuartz** (macOS), **MobaXterm** (Windows)                                           | Run GUI apps like MATLAB or visualization tools from servers                |
 | **FTP / FTPS**         | *File Transfer Protocol / Secure*      | A classic file transfer protocol; FTPS adds SSL/TLS encryption.                                                                                       | **WinSCP**, **FileZilla**, `ftp` command                                                         | Transfer files (less secure than SFTP; used in legacy systems)              |
 | **API / REST API**     | *Application Programming Interface*    | A structured interface that allows software components or servers to communicate via HTTP requests (often JSON-based).                                | **curl**, **Postman**, Python `requests` library                                                 | Access remote datasets, trigger jobs, or fetch information programmatically |
+
+
+<br>
+
+
+## Historical Origins of Classical and Quantum Statistical Distributions
+
+| Distribution          | Proposed By                                             | Year      | Historical Context                                                                    | Original Motivation                                                                                                                      |
+| --------------------- | ------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Maxwell–Boltzmann** | James Clerk Maxwell (1860), Ludwig Boltzmann (1872)     | 1860–1872 | Classical thermodynamics and kinetic theory of gases during the Industrial Revolution | To explain macroscopic thermodynamic laws (pressure, temperature) from microscopic particle motion under classical mechanics assumptions |
+| **Fermi–Dirac**       | Enrico Fermi (1926), Paul Dirac (1926)                  | 1926      | Emergence of quantum mechanics and the discovery of the Pauli exclusion principle     | To model the statistical behavior of indistinguishable fermions obeying quantum exclusion, especially electrons in atoms and solids      |
+| **Bose–Einstein**     | Satyendra Nath Bose (1924), Albert Einstein (1924–1925) | 1924–1925 | Early quantum theory and photon statistics                                            | To explain black-body radiation and collective quantum behavior of bosons, allowing multiple particles to occupy the same state          |
+
+
+
 
 
 <br>
