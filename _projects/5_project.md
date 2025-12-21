@@ -59,7 +59,53 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
   - 1080p GoPro Hero 5 camera recording 8-bit RGB images at 30 Hz
   - 4006 adverse-condition images with fine pixel-level annotations, Split in 1000 foggy, 1006 nighttime, 1000 rainy and 1000 snowy images
 
-<br><br>
+<br>
+
+
+**Core Formulation: Bayesian Multi-Modal Sensor Fusion**
+
+**Latent State Definition**
+
+- At time step t, the latent state is defined as:
+$x_t = \{ T_t, \theta, \psi_t \}$
+
+- where $T_t$ denotes the device pose, $\theta$ represents the calibration parameters shared across time, and $\psi_t$ denotes user-centric latent variables.
+
+**Multi-Modal Observations**
+
+- Given heterogeneous sensor measurements at time t:
+$z_t = \{ z_t^{cam}, z_t^{imu}, z_t^{eye} \}$
+
+- where observations are obtained from the camera, IMU, and eye-tracking modalities.
+
+**Bayesian Fusion Objective**
+
+- Multi-modal fusion is defined as inference over the joint posterior:
+$p(x_{1:T} \mid z_{1:T})$
+
+- Using the Markov assumption and conditional independence of observations, the posterior factorizes as:
+$p(x_{1:T} \mid z_{1:T}) \propto \prod_{t=1}^{T} p(z_t \mid x_t)\, p(x_t \mid x_{t-1})$
+
+**Multi-Modal Likelihood Factorization**
+
+- Assuming conditional independence between sensor modalities given the latent state:
+$p(z_t \mid x_t)
+= p(z_t^{cam} \mid x_t)\, p(z_t^{imu} \mid x_t)\, p(z_t^{eye} \mid x_t)$
+
+**State Transition Model**
+
+- The temporal evolution of the latent state is modeled as:
+$p(x_t \mid x_{t-1})
+= p(T_t \mid T_{t-1})\, p(\psi_t \mid \psi_{t-1})\, p(\theta)$
+
+- where $\theta$ is treated as a time-invariant latent variable.
+
+**Interpretation**
+- Fusion thus corresponds to Bayesian state estimation under uncertainty, where heterogeneous sensor observations impose probabilistic constraints on a shared latent state evolving over time. Calibration parameters are inferred jointly with pose and user states, enabling online self-calibration.
+
+
+
+<br>
 
 
 ## Practical Filtering Choices under XR Self-Calibrated Camera Constraints
