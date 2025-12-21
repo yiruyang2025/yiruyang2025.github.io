@@ -1304,12 +1304,15 @@ $$
   - [2022 - Embodied Active Domain Adaptation for Semantic Segmentation via Informative Path Planning](https://arxiv.org/abs/2203.00549)
 
 
+  - [2023 - Large Scale Dense 3D Reconstruction via 📍 Sparse Representations](https://www.ri.cmu.edu/app/uploads/2023/06/thesis-compressed.pdf)
   - [2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
   - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
   - [2025 - FlowR: Flowing from Sparse to Dense 3D Reconstructions](https://tobiasfshr.github.io/pub/flowr/), CVG
   - [2025 - Aerial Gym Simulator: A Framework for Highly Parallelized Simulation of Aerial Robots](https://arxiv.org/pdf/2503.01471)
   - [2019 - ICCV - Pix2Vox: Context-aware 3D Reconstruction from 📍 Single and Multi-view Images](https://www.infinitescript.com/project/pix2vox/)
   - [2015 - ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012)
+
+
 
   - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model](https://arxiv.org/pdf/2403.13064)
   - [2025 - Prior2Former - Evidential Modeling of Mask Transformers for Assumption-Free Open-World Panoptic Segmentation](https://iccv.thecvf.com/virtual/2025/poster/317)
