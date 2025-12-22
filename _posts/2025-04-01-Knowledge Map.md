@@ -39,7 +39,11 @@ images:
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 
 
+**Readings**
+
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
+- [2025 - The most complex model we actually understand - Welch Labs](https://www.youtube.com/watch?v=D8GOeCFFby4&t=704s)
+  - [Welch Labs](https://www.welchlabs.com/)
 
 
 <br>
