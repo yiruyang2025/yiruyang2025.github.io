@@ -10,11 +10,35 @@ related_publications: true
 
 <br>
 
+## Topics
+
+## Impact of Realistic Quantum Noise Modeling on System Capability
+
+| Noise Characteristic                  | Consequence If Ignored                                                                                    | Capability When Properly Modeled                                                                                             |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Non-Gaussian Noise**                | Rare but large noise events catastrophically break control loops and invalidate average-error assumptions | Control policies become robust to outliers and extreme events, enabling reliable operation under real hardware conditions    |
+| **Temporal Drift**                    | Continuous manual recalibration is required as device parameters slowly change over time                  | The system adapts online, tracking slow parameter drift automatically and maintaining performance without human intervention |
+| **Non-Markovian Memory Effects**      | Gate fidelity collapses because past operations influence future behavior in unmodeled ways               | Long-horizon stability is achieved by learning history-dependent dynamics and compensating for hardware memory               |
+| **Spatial and Temporal Correlations** | Crosstalk accumulates across qubits, causing errors to scale with system size                             | Coordinated, chip-level control strategies emerge that actively suppress correlated errors                                   |
+| **Physical Noise Origins**            | Noise is treated as an abstract nuisance, offering no guidance for improving hardware                     | Learned models expose actionable physical causes, directly informing materials, layout, and electronics design               |
+| **High-Dimensional Structure**        | Simplified models fail to represent reality and break as system size grows                                | Scalable AI models capture latent structure, enabling control and optimization of large-scale quantum processors             |
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<br>
+
 ## References
 
 - [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
-
-
 
 <br>
 
