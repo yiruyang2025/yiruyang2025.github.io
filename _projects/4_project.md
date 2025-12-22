@@ -26,15 +26,58 @@ related_publications: true
 
 <br>
 
+## The 'Right Abstraction' for A System
+
+```
+Category                          | Focus Area / Topics
+----------------------------------|------------------------------------------------------------
+Representation & Inductive Bias   | Network architecture design
+                                  | Multimodal alignment (vision–language–action)
+                                  | World models
+                                  | 
+                                  | Impact of good inductive bias:
+                                  | - 10× less data required
+                                  | - 100× lower training cost
+
+Learning × Control                | Model-based reinforcement learning
+                                  | Differentiable MPC
+                                  | Latent dynamics models
+                                  | Structured sim-to-real methods
+                                  |
+                                  | Key insight:
+                                  | - Control background is a major advantage
+                                  | - Not brute-force learning
+
+System-level AI                   | ML compilers
+                                  | Scheduling on heterogeneous hardware
+                                  | Memory-aware training
+                                  | Inference optimization
+                                  |
+                                  | These areas strongly reward intelligent
+                                  | system and structure design
+
+Robotics / Embodied AI            | Not actuators, SEA, or motors
+                                  | (These are constrained by physics)
+                                  |
+                                  | Instead focus on:
+                                  | - Contact representation
+                                  | - Hybrid system abstraction
+                                  | - Task decomposition
+                                  | - Perception–control interfaces
+                                  | - Failure-aware planning
+                                  |
+                                  | Goal:
+                                  | - Replace large sets of heuristics with
+                                  |   a unified abstraction
+
+```
 
 
 
 
 
 
-
-
-<br>
+<br><br><br>
 
 ## References
 
