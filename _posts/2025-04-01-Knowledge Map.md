@@ -229,7 +229,7 @@ Information Geometry
 
 <br><br>
 
-## ⛱️ Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
+## Core Branches of Pure Mathematics - Timeline, Proposers, and Motivation
 
 | Era (Approx.) | Branch                         | Key Figures           | Why It Was Proposed (Core Motivation)                                             |
 | ------------- | ------------------------------ | --------------------- | --------------------------------------------------------------------------------- |
