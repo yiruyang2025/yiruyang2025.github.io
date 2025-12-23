@@ -513,18 +513,31 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Robotics               | Mapping between camera frame and world frame |
 
 
+<br>
+
+## Camera Calibration Core Definition
+
+
+| Concept                | Meaning                                                                                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Calibration            | Estimating the mapping between 3D world coordinates and 2D image measurements                                                                          |
+| Intrinsics             | Parameters internal to the camera (focal length, principal point, distortion)                                                                          |
+| Extrinsics             | Rigid transformation between camera and world (or other sensors)                                                                                       |
+| Camera Registration    | Estimation of the **rigid pose (rotation & translation)** of a camera relative to another reference (e.g., another camera, a world frame, or a sensor) |
+| Assumption (classical) | Camera parameters are static and known                                                                                                                 |
+
+
 <br><br><br>
 
 
 ## References - Canonical Theory: Sensory Conflict Theory
 
-| Aspect       | Description                                          |
-| ------------ | ---------------------------------------------------- |
-| Origin       | Reason & Brand (1975), refined in VR literature      |
-| Core idea    | Motion sickness arises when sensory inputs disagree  |
-| Key conflict | Visual motion vs vestibular (inner ear) motion       |
-| XR relevance | XR systems frequently introduce artificial conflicts |
-
+| Aspect       | Description                                                                                                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Origin       | Sensory Conflict Theory was introduced by Reason & Brand (1975) and further elaborated in Reason (1978) as a dominant framework in motion sickness research    |
+| Core idea    | Motion sickness arises when there is a mismatch between sensory inputs (e.g., visual, vestibular, and proprioceptive) and what is expected based on prior experience  |
+| Key conflict | Discrepancies between visual motion cues and vestibular (inner ear) information commonly drive symptoms such as nausea, head discomfort, and disorientation    |
+| XR relevance | Extended to virtual reality, simulator sickness, and cybersickness, where lack of physical motion but visual motion cues induce sensory conflict, leading to adverse symptoms |
 
 
 
