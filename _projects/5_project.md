@@ -450,9 +450,7 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Amazon    | Commerce, logistics                 | Robotics calibration in warehouses                                                   | No mobile-device-facing solution                          | Domain-specific, not platform-oriented                  |
 | Qualcomm  | Chip enablement                     | ISP tuning, sensor fusion hooks                                                      | No system-level calibration ownership                     | Sells silicon, not end-to-end systems                   |
 
-
 <br>
-
 
 ## Calibration Methodology
 
@@ -465,8 +463,33 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Qualcomm  | OEM-dependent  | OEM-dependent | No      | No         |
 
 
+<br>
 
-<br><br><br><br>
+## Assumptions About the Camera
+
+| Assumption            | Apple   | Google  | Meta    | Microsoft | Reality    |
+| --------------------- | ------- | ------- | ------- | --------- | ---------- |
+| Intrinsics are static | Yes     | Mostly  | Yes     | Mostly    | False      |
+| Extrinsics are fixed  | Yes     | Mostly  | Mostly  | Partially | False      |
+| Drift is negligible   | Assumed | Assumed | Assumed | Managed   | False      |
+| Users tolerate error  | Yes     | Yes     | Yes     | Less      | Decreasing |
+
+<br>
+
+## What Is Fundamentally Missing
+
+| Missing Capability             | Status             |
+| ------------------------------ | ------------------ |
+| Online intrinsic re-estimation | Not shipped by any |
+| Target-free calibration        | Research-only      |
+| Long-term temporal consistency | Not addressed      |
+| Cross-camera self-consistency  | Partial hacks only |
+| System-level ownership         | No clear owner     |
+
+
+
+
+<br><br><br>
 
 
 
