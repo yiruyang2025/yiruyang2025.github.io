@@ -513,9 +513,23 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Robotics               | Mapping between camera frame and world frame |
 
 
+<br><br><br>
+
+
+## References - Canonical Theory: Sensory Conflict Theory
+
+| Aspect       | Description                                          |
+| ------------ | ---------------------------------------------------- |
+| Origin       | Reason & Brand (1975), refined in VR literature      |
+| Core idea    | Motion sickness arises when sensory inputs disagree  |
+| Key conflict | Visual motion vs vestibular (inner ear) motion       |
+| XR relevance | XR systems frequently introduce artificial conflicts |
+
+
 
 
 <br><br><br>
+
 
 
 
