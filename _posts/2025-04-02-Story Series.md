@@ -16,6 +16,8 @@ images:
 
 ## Topics 2025 - 2026
 
+<br>
+
 ## A.Founding of Major Technology Companies
 
 | Company   | Founded (Year) | Founder(s)                                    | Why It Was Founded                                           | First Product(s)                          |
@@ -26,6 +28,7 @@ images:
 | AMD       | 1969           | Jerry Sanders                                 | To provide second-source and high-performance semiconductors | Logic chips and RAM                       |
 | NVIDIA    | 1993           | Jensen Huang, Chris Malachowsky, Curtis Priem | To accelerate 3D graphics and parallel computation           | NV1 graphics card                         |
 
+<br>
 
 ## Foundational Technology Companies and Their Initial Capital
 
@@ -77,10 +80,12 @@ images:
 
 # Topics 2024
 
+<br>
+
 ## 1. Global Proverty Research
   - [2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
 
-<br>
+<br><br>
 
 ## 2. Child Welfare
 
