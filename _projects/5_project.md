@@ -486,6 +486,32 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Cross-camera self-consistency  | Partial hacks only |
 | System-level ownership         | No clear owner     |
 
+<br>
+
+## How ML Makes Camera Errors More Dangerous
+
+| Stage                  | What Happens                                | Why It Is Dangerous                                |
+| ---------------------- | ------------------------------------------- | -------------------------------------------------- |
+| Geometry is wrong      | Camera intrinsics or extrinsics drift       | The physical reference frame is no longer correct  |
+| ML compensates         | Neural networks adapt and mask errors       | Errors are hidden instead of detected              |
+| System appears to work | Outputs look plausible to users and metrics | No obvious failure signal is triggered             |
+| Metrics pass           | Task-level KPIs remain within tolerance     | Validation does not detect geometric inconsistency |
+| Lost signal            | Geometric consistency is no longer enforced | The system loses its primary correctness alarm     |
+| Result                 | System does not know it is wrong            | Errors become silent, global, and compounding      |
+
+
+<br>
+
+## Camera as the Global Reference Frame in Vision Systems
+
+| Module                 | What It Depends On                           |
+| ---------------------- | -------------------------------------------- |
+| SLAM                   | Camera intrinsics and extrinsics             |
+| Augmented Reality (AR) | Camera coordinate frame                      |
+| Depth / Stereo         | Multi-camera geometric consistency           |
+| Sensor Fusion          | Camera–IMU extrinsic calibration             |
+| Robotics               | Mapping between camera frame and world frame |
+
 
 
 
