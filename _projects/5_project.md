@@ -60,7 +60,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 <br>
 
-## A Dynamic Camera with Multi-modal Input Signal 📍 Fusion
+## A Dynamic Camera with Multi-modal Input Signal Fusion
 
 
 ```
@@ -83,7 +83,7 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 <br>
 
-## Explicit vs. Implicit Modeling of 📍 Temporal Inconsistency
+## Explicit vs. Implicit Modeling of Temporal Inconsistency
 
 | Dimension                         | Explicit Modeling                                                                         | Implicit Modeling                                                               |
 | --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -305,7 +305,7 @@ p(x_t \mid z_{1:t-1})$
 
 <br>
 
-## For 📍 Each Time Step
+## For Each Time Step
 
 ```
 Time t-1 belief                    Prediction                    Update
@@ -321,7 +321,7 @@ Time t-1 belief                    Prediction                    Update
 
 <br>
 
-## Multiple sensors = multiple Gaussian 📍 constraints on the same state
+## Multiple sensors = multiple Gaussian constraints on the same state
 
 ```
                     z_t^cam
@@ -435,6 +435,34 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Best papers optimize *within* broken assumptions | They rarely question the assumptions themselves |
 | Solving them reduces leaderboard gains           | Which is why incentives avoid them              |
 | They require saying “this task is ill-posed”     | CVPR culture discourages this                   |
+
+
+<br>
+
+## Status Overview
+
+| Company   | Primary Motivation                  | What They Do Today                                                                   | What They Explicitly Do NOT Do                            | Why They Stop There                                     |
+| --------- | ----------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------- |
+| Apple     | Product reliability, AR UX          | Factory calibration, tight hardware control, limited runtime correction (ISP, ARKit) | No general online re-calibration of intrinsics/extrinsics | System risk, cost, consumer tolerance, closed ecosystem |
+| Google    | Developer platform, ML-first vision | ARCore runtime estimation, ML-based geometric compensation                           | No metric-accurate, device-level self-calibration         | Prioritizes ML robustness over geometric correctness    |
+| Meta      | Social AR, avatar realism           | Per-session tracking calibration for AR effects                                      | No persistent, long-term calibration across time          | Focus on perceptual realism, not physical accuracy      |
+| Microsoft | Enterprise AR, robotics             | Device-specific calibration pipelines (HoloLens)                                     | No general-purpose consumer-scale solution                | Enterprise-only scale, controlled hardware              |
+| Amazon    | Commerce, logistics                 | Robotics calibration in warehouses                                                   | No mobile-device-facing solution                          | Domain-specific, not platform-oriented                  |
+| Qualcomm  | Chip enablement                     | ISP tuning, sensor fusion hooks                                                      | No system-level calibration ownership                     | Sells silicon, not end-to-end systems                   |
+
+
+<br>
+
+
+## Calibration Methodology
+
+| Company   | Geometry-Based | ML-Based      | Hybrid  | Continuous |
+| --------- | -------------- | ------------- | ------- | ---------- |
+| Apple     | Yes            | Yes           | Yes     | No         |
+| Google    | Weak           | Strong        | Partial | No         |
+| Meta      | Weak           | Strong        | Partial | No         |
+| Microsoft | Strong         | Moderate      | Yes     | Limited    |
+| Qualcomm  | OEM-dependent  | OEM-dependent | No      | No         |
 
 
 
