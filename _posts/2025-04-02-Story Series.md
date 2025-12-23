@@ -95,3 +95,29 @@ images:
 <br><br>
 
 
+
+
+## Zurich
+
+<br>
+
+## Home and Interior Design Stores – Origins
+
+| Store                   | Founded (Year)          | Founder(s)                         | Background & Notes                                                                                                                        |
+| ----------------------- | ----------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Wohnhilfe**           | 1931                    | Family-owned (Zurich)              | One of Zurich’s oldest furniture stores; originally focused on functional Swiss home furnishing, later expanded to European design brands |
+| **Schubiger Möbel**     | 1935                    | Schubiger family                   | Established as a traditional furniture retailer; grew into one of Zurich’s largest multi-floor furniture houses                           |
+| **Memorie.ch**          | 1999                    | Private Swiss design entrepreneurs | Founded to focus on design classics (mid-century modern, European icons) and contemporary high-end furniture                              |
+| **Raum Reolon**         | c. 2000s                | Private interior design studio     | Boutique interior design practice; founder name not publicly emphasized, typical for Swiss design studios                                 |
+| **Wow Props**           | 2010s                   | Independent Zurich curators        | Founded by prop stylists / vintage curators; bridges interior design, film props, and collectible furniture                               |
+| **Einzelstück**         | 2000s                   | Independent artisans & designers   | Concept store for one-of-a-kind handmade furniture and home objects; “Einzelstück” literally means “single piece”                         |
+| **Stadtstube**          | 1990s                   | Zurich-based collectors            | Specialized in restored design classics; founder names are usually secondary to curation                                                  |
+| **Zürcher Brockenhaus** | Late 19th–early 20th c. | Charitable organizations           | Traditional Swiss second-hand institutions (“Brocki”), often founded by churches or social foundations                                    |
+
+
+
+
+
+
+<br><br><br><br>
+
