@@ -14,7 +14,23 @@ related_publications: true
 ## Topic
 
 
-<br><br>
+<br>
+
+
+[2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
+
+<br>
+
+<p align="center">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
+</p>
+
+
+
+
+
+
+<br>
 
 
 ## The fundamental limitations of monocular (2D) video input
