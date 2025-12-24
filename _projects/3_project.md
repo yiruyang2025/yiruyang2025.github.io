@@ -634,6 +634,7 @@ Regularization Terms
 - [2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
 - Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
 - [2025 - E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework](https://www.linkedin.com/posts/erium_e-m3rf-an-equivariant-multimodal-3d-re-assembly-activity-7399815222879907840-yPPk?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+- [2018 - End-to-end recovery of human shape and pose](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6NjbexEAAAAJ&citation_for_view=6NjbexEAAAAJ:f9jR0vFhilIC)
 
 
 ## 2025
