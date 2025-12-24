@@ -1288,7 +1288,47 @@ $$
   - [3DV projects 2025]
 
 
+<br>
+
+
+
+## Table 1. Computer Vision: Historical Topics, Motivation, and Key Contributors
+
+| Era          | Topic                                         | Key Contributors                               | Why It Was Introduced                                              | Backbone Significance                                                  |
+| ------------ | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| 1960s–1970s  | Digital Images and Sensors                    | Russell Kirsch, Bell Labs                      | To represent visual information in discrete, machine-readable form | Established the pixel as the fundamental representation of visual data |
+| 1960s–1970s  | Image Segmentation and Morphology             | Azriel Rosenfeld, Georges Matheron             | To extract structure and objects from raw images                   | Formalized vision as a structural decomposition problem                |
+| 1970s        | Fourier Transform and Filtering               | Joseph Fourier (theory), applied by Bracewell  | To analyze frequency content of images                             | Introduced signal processing as a backbone for vision                  |
+| 1970s–1980s  | Convolution and Image Features                | Hubel & Wiesel (biology), Marr (vision theory) | To model local receptive fields and feature extraction             | Connected biological vision to computational operators                 |
+| 1980s        | Unitary Transformations and Image Compression | JPEG committee, Ahmed et al. (DCT)             | To reduce storage and transmission cost                            | Linked vision to information theory                                    |
+| 1980s–1990s  | Warping, Optical Flow, Video Compression      | Horn & Schunck, Lucas & Kanade                 | To model motion and temporal correspondence                        | Introduced dynamics into visual modeling                               |
+| 1980s        | Radon Transform                               | Johann Radon (theory), applied in CT           | To reconstruct images from projections                             | Connected vision with inverse problems and tomography                  |
+| 1990s–2000s  | Handcrafted Feature Descriptors               | Lowe (SIFT), Dalal & Triggs (HOG)              | To achieve invariance to scale and viewpoint                       | Stabilized vision under geometric variation                            |
+| 2012–present | Convolutional Neural Networks                 | LeCun, Hinton, Krizhevsky                      | To learn features directly from data                               | Shifted vision from analytic design to learned operators               |
+
+
+<br>
+
+## Table 2. Computer Graphics
+
+| Era          | Topic                                   | Key Contributors                 | Why It Was Introduced                             | Backbone Significance                             |
+| ------------ | --------------------------------------- | -------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
+| 1960s–1970s  | Drawing Triangles, Rasterization        | Ivan Sutherland                  | To display geometry efficiently on raster devices | Defined the discrete rendering pipeline           |
+| 1970s        | Transformations, Geometry, Textures     | Sutherland, Blinn                | To map 3D geometry to 2D images                   | Established linear algebra as a graphics backbone |
+| 1980s        | Rendering Pipeline                      | Foley & van Dam                  | To standardize and accelerate rendering           | Modularized graphics computation                  |
+| 1980s        | Lighting, Shading, Visibility, Shadows  | Phong, Blinn, Whitted            | To simulate visual appearance                     | Introduced physical and perceptual models         |
+| 1980s        | Curves and Surfaces                     | Bézier, B-splines, Catmull-Clark | To represent smooth shapes compactly              | Enabled continuous surface modeling               |
+| 1990s–2000s  | Geometry Processing                     | Taubin, Desbrun, Botsch, Sorkine | To edit and optimize surfaces                     | Reframed graphics as variational geometry         |
+| 1980         | Ray Tracing                             | Turner Whitted                   | To model global light transport                   | Introduced physically based rendering             |
+| 1990s–2000s  | Physically Based Simulation             | Baraff, Witkin, Bridson          | To model deformable objects                       | Connected graphics to PDEs and mechanics          |
+| 2000s–2010s  | Scientific Visualization and Effects    | SIGGRAPH community               | To simulate complex natural phenomena             | Unified physics, geometry, and rendering          |
+| 2015–present | Differentiable Rendering and Simulation | OpenDR, Mitsuba DR               | To enable learning and optimization               | Bridged graphics with machine learning            |
+
+
+
+
 <br><br>
+
 
 
 ## References
