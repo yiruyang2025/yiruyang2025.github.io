@@ -1309,6 +1309,11 @@ $$
 
 <br>
 
+- Conceptual trajectory
+    - Pixels → Signals → Features → Motion → Inverse Problems → Learned Representations
+
+<br>
+
 ## Table 2. Computer Graphics
 
 | Era          | Topic                                   | Key Contributors                 | Why It Was Introduced                             | Backbone Significance                             |
@@ -1325,10 +1330,26 @@ $$
 | 2015–present | Differentiable Rendering and Simulation | OpenDR, Mitsuba DR               | To enable learning and optimization               | Bridged graphics with machine learning            |
 
 
+<br>
+
+- Conceptual trajectory
+    - Drawing → Transforming → Rendering → Physical Simulation → Geometry Processing → Differentiable Systems
+
+<br>
+
+## Table 3. Structural Comparison of Vision and Graphics Backbones
+
+| Aspect             | Computer Vision                 | Computer Graphics                        |
+| ------------------ | ------------------------------- | ---------------------------------------- |
+| Core Question      | What is in the image?           | How does an image arise?                 |
+| Primary Direction  | Inverse problems                | Forward modeling                         |
+| Mathematical Tools | Signal processing, optimization | Geometry, physics                        |
+| Historical Shift   | Handcrafted → Learned features  | Deterministic → Differentiable pipelines |
+| Current Frontier   | Learned operators, uncertainty  | Generative and probabilistic modeling    |
+
 
 
 <br><br>
-
 
 
 ## References
