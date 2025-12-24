@@ -15,6 +15,7 @@ related_publications: true
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
+  - Fundamentally speaking, the "system-level geometric-temporal inconsistency problem that causes XR dizziness" is remodeled as an "online, multi-sensor, time-extrinsic joint estimation problem", and a learning method is used to allow the system to continuously self-correct during operation, rather than being calibrated once
   - Keywords: Multimodal Perception • Sensor Fusion • Online Calibration • Multi-sensor Geometry
 
 
