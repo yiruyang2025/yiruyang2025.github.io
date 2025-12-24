@@ -21,8 +21,8 @@ related_publications: true
 
 <br>
 
-<p align="center">
-  <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_2.jpg" alt="Project 1 Visualization" width="75%">
 </p>
 
 
