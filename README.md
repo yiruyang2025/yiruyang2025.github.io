@@ -21,10 +21,16 @@
 <br><br><br>
 
 
-## ⛱️ Change the Cover Page Links
+## ⛱️ Change the Links
 
+**Cover Page**
 - _data/socials.yml
 
+
+**Assets**
+<p align="center">
+  <img src="https://yiruyang2025.github.io/assets/img/project1_1.jpg" alt="Project 1 Visualization" width="75%">
+</p>
 
 
 <br><br><br>
