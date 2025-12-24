@@ -11,6 +11,7 @@ related_publications: true
 
 ## Related Coursework
 
+- [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, 
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
