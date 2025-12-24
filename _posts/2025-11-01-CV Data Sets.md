@@ -24,6 +24,7 @@ images:
 - [2025 - Automatic analysis of three-dimensional cardiac tagged magnetic resonance images using neural networks trained on synthetic data](https://www.sciencedirect.com/science/article/pii/S1097664725000316?via%3Dihub)
 - [2025 - CL-Splats-Dataset](https://huggingface.co/datasets/ackermannj/cl-splats-dataset)
 - [SwissHeart Study](https://cmr.ethz.ch/swiss-heart-study.html)
+- [Dec 2025 - Performance Guide](https://abseil.io/fast/)
 
 
 <br><br>
