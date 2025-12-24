@@ -15,9 +15,6 @@ related_publications: true
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
-  - Fundamentally speaking, the "system-level geometric-temporal inconsistency problem that causes XR dizziness" is remodeled as an "online, multi-sensor, time-extrinsic joint estimation problem", and a learning method is used to allow the system to continuously self-correct during operation, rather than being calibrated once
-  - Keywords: Multimodal Perception • Sensor Fusion • Online Calibration • Multi-sensor Geometry
-
 
 <br>
 
@@ -173,7 +170,7 @@ For online inference, we approximate the posterior using Bayesian filtering.
 <br>
 
 
-## Practical Filtering Choices under XR Self-Calibrated Camera Constraints
+## Practical Filtering Choices under Self-Calibrated Camera Constraints
 
 | Method                            | Inference Principle                             | Handles High-Dimensional State | Real-Time / Online | Geometric Interpretability | Typical Failure Mode  | Suitability for Your Pipeline |
 | --------------------------------- | ----------------------------------------------- | ------------------------------ | ------------------ | -------------------------- | --------------------- | ----------------------------- |
@@ -197,7 +194,7 @@ For online inference, we approximate the posterior using Bayesian filtering.
 
 | Hard Constraint                             | Practical Interpretation                                                                                                                                                                | Technical Implication                                                                                                                                                       |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Online, real-time, low latency**          | The system runs on an XR device worn by a human user. End-to-end latency above tens of milliseconds leads to motion sickness and unacceptable user experience.                          | Any method that is offline, batch-only, or exhibits unstable latency is infeasible and must be excluded.                                                                    |
+| **Online, real-time, low latency**          | The system runs on an wearable device worn by a human user. End-to-end latency above tens of milliseconds leads to motion sickness and unacceptable user experience.                          | Any method that is offline, batch-only, or exhibits unstable latency is infeasible and must be excluded.                                                                    |
 | **High-dimensional continuous state space** | The system state includes not only camera pose but also velocity, IMU biases, camera intrinsics and extrinsics, and temporal offsets between sensors.                                   | The resulting state space is high-dimensional, continuous, and strongly nonlinear, making general inference methods computationally intractable.                            |
 | **Geometric honesty and interpretability**  | Solutions must be physically and geometrically valid, not merely visually plausible. Calibration parameters must correspond to real camera models and be diagnosable when errors occur. | Methods that produce visually convincing but geometrically inconsistent results are unacceptable. Explicit state representation and interpretable uncertainty are required. |
 
@@ -540,7 +537,7 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Origin       | Sensory Conflict Theory was introduced by Reason & Brand (1975) and further elaborated in Reason (1978) as a dominant framework in motion sickness research    |
 | Core idea    | Motion sickness arises when there is a mismatch between sensory inputs (e.g., visual, vestibular, and proprioceptive) and what is expected based on prior experience  |
 | Key conflict | Discrepancies between visual motion cues and vestibular (inner ear) information commonly drive symptoms such as nausea, head discomfort, and disorientation    |
-| XR relevance | Extended to virtual reality, simulator sickness, and cybersickness, where lack of physical motion but visual motion cues induce sensory conflict, leading to adverse symptoms |
+| On-device relevance | Extended to virtual reality, simulator sickness, and cybersickness, where lack of physical motion but visual motion cues induce sensory conflict, leading to adverse symptoms |
 
 
 
