@@ -28,10 +28,11 @@
 
 
 **Assets**
+```
 <p align="center">
   <img src="https://yiruyang2025.github.io/assets/img/xxx.jpg" alt="Project 1 Visualization" width="75%">
 </p>
-
+```
 
 <br><br><br>
 
