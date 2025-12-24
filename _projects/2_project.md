@@ -25,6 +25,18 @@ related_publications: true
 - Deformable fields ensure that these details move consistently with body or surface movement
 ```
 
+<br>
+
+The development order of a field is determined by 
+  - `the highest level of abstraction humans can reliably control` at the time
+In other words:
+  - Humans model first at the level they can control
+  - Levels that cannot be controlled are necessarily postponed
+This is not a matter of choice — it is a matter of feasibility
+
+
+
+
 
 <br>
 
