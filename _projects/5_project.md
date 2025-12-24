@@ -34,7 +34,7 @@ related_publications: true
 
 <br>
 
-## A Camera Self-calibration System with Multi-sensor Signal Fusion / Space and more long-tail seneraios
+## A Camera Self-calibration System with Multi-sensor Signal Fusion / Space, under-water and more long-tail seneraios
 
 
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
