@@ -1524,6 +1524,16 @@ Use Layer1 activation → compute gradient
 
 <br>
 
+## L2 Loss vs. Geodesic Loss
+
+| L2 Loss                    | Geodesic Loss              |
+| -------------------------- | -------------------------- |
+| Euclidean space            | Curved (Riemannian) space  |
+| Sensitive to vector norm   | Depends only on direction  |
+| Encourages radial collapse | Avoids radial degeneration |
+
+<br>
+
 
 ## Distillation Methods and Who Proposed
 
