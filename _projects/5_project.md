@@ -83,6 +83,19 @@ Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and
 
 <br>
 
+## The System
+
+| Assumption Level      | Classical SLAM / CV Assumption              | This Work’s Position               | Mathematical Consequence                    |
+| --------------------- | ------------------------------------------- | ---------------------------------- | ------------------------------------------- |
+| Time                  | Timestamps are correct and globally aligned | No natural global time axis exists | Time offsets are latent variables           |
+| Geometry              | Cameras are rigid and static                | Sensor geometry can drift          | Extrinsics are part of the state            |
+| Cross-sensor relation | IMU–camera extrinsics are fixed             | Cross-sensor coupling is uncertain | Joint state estimation is required          |
+| Modeling stance       | Errors treated as noise                     | System inconsistency is explicit   | State space includes system error structure |
+
+
+
+<br>
+
 ## Explicit vs. Implicit Modeling of Temporal Inconsistency
 
 | Dimension                         | Explicit Modeling                                                                         | Implicit Modeling                                                               |
