@@ -1160,6 +1160,19 @@ print("Best hyperparameters:", study.best_params)
 
 <br>
 
+
+## Dimensionality Reduction and Related Methods
+
+| Method | Category                 | Linear | Preserves                     | Mathematical Core                 | Typical Use Case             |
+| ------ | ------------------------ | ------ | ----------------------------- | --------------------------------- | ---------------------------- |
+| PCA    | Dimensionality reduction | Yes    | Global variance               | Eigen-decomposition of covariance | Compression, noise reduction |
+| t-SNE  | Manifold learning        | No     | Local neighborhoods           | KL divergence minimization        | Visualization                |
+| UMAP   | Manifold learning        | No     | Local + some global structure | Fuzzy simplicial sets             | Visualization + clustering   |
+| DTW    | Distance measure         | No     | Temporal alignment            | Dynamic programming               | Time-series similarity       |
+
+
+<br>
+
 ```
 - Local weights
 w_ij = exp(−(d(x_i, x_j) − ρ_i) / σ_i)  
