@@ -1547,7 +1547,7 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-| Aspect                | Point Alignment(main experiment) | Curve Alignment (ablation 2)         |
+| Aspect                | Point Alignment (main experiment) | Curve Alignment (ablation 2)         |
 | --------------------- | ---------------------------- | ---------------------------------------- |
 | Geometric object      | Point on a hypersphere       | Curve on a hypersphere                   |
 | Mathematical form     | Vector                       | Vector-valued function                   |
