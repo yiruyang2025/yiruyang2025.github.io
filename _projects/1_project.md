@@ -1534,6 +1534,34 @@ Use Layer1 activation → compute gradient
 
 <br>
 
+## Point vs. Curve Distillation
+
+| Dimension                | Point (main experiment)  | Curve (ablation 2)                  |
+| ------------------------ | ------------------------ | ----------------------------------- |
+| Basic object             | Single hidden state      | Sequence of hidden states           |
+| Mathematical object      | Vector                   | Vector-valued function              |
+| Geometric structure      | Point on a hypersphere   | Curve on a hypersphere              |
+| Loss operates on         | Point-to-point alignment | Local shape + global discrimination |
+| Order sensitivity        | No                       | Yes                                 |
+| Second-order information | No                       | Yes (curvature)                     |
+
+<br>
+
+| Aspect                | Point Alignment(main experiment) | Curve Alignment (ablation 2)         |
+| --------------------- | ---------------------------- | ---------------------------------------- |
+| Geometric object      | Point on a hypersphere       | Curve on a hypersphere                   |
+| Mathematical form     | Vector                       | Vector-valued function                   |
+| What is matched       | Representation position      | Representation evolution                 |
+| Temporal dependency   | Ignored                      | Explicitly modeled                       |
+| Loss acts on          | Individual states            | Local shape + global structure           |
+| Information order     | Zero-order (state)           | First/second-order (velocity, curvature) |
+| Constraint strength   | Weak                         | Strong                                   |
+| Optimization behavior | Stable                       | Sensitive                                |
+| Overfitting risk      | Low                          | Higher                                   |
+| Information density   | Coarse                       | Very high                                |
+| **Essential meaning** | Semantic alignment           | Process / trajectory alignment           |
+
+<br>
 
 ## Distillation Methods and Who Proposed
 
@@ -1542,8 +1570,6 @@ Use Layer1 activation → compute gradient
 | ----------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | **Logit Distillation**              | **Caruana et al., 2006** (model compression) and early KD literature     | Directly matches teacher and student **logits** (pre-softmax values) using e.g. L2 loss on logits                    |
 | **Label (Soft-Label) Distillation** | **Hinton et al., 2015** (“Distilling the Knowledge in a Neural Network”) | Matches teacher and student **softmax probability distributions** (soft targets) using cross-entropy / KL divergence |
-
-
 
 <br><br>
 
