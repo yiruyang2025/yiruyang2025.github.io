@@ -1502,6 +1502,26 @@ Use Layer1 activation → compute gradient
 
 
 
+<br>
+
+
+## KD, BYOL, and Self-Distillation
+
+
+| Loss / Objective                      | Who proposed                                                 | Why (English)                                                                        |
+| ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **Hard Cross Entropy**                | Standard supervised learning (Shannon; modern deep learning) | To train models to predict the ground-truth label directly                           |
+| **Soft Cross Entropy (Soft Targets)** | **Hinton et al., 2015**                                      | To transfer the teacher’s full output distribution, not just the argmax              |
+| **Temperature $T$**                   | **Hinton et al., 2015**                                      | To expose dark knowledge encoded in low-probability classes                          |
+| **$T^2$ Gradient Scaling**            | **Hinton et al., 2015**                                      | To keep gradient magnitudes consistent when changing $T$                             |
+| **Logit L2 Loss**                     | **Caruana et al., 2006**                                     | To match teacher and student pre-softmax representations                             |
+| **KL Divergence View**                | Kullback–Leibler (1951), applied by **Hinton et al.**        | To formalize distillation as asymmetric distribution matching                        |
+| **Soft Targets as Regularization**    | **Hinton et al., 2015 (implicit)**                           | To act as a data-dependent prior that reduces overfitting                            |
+| **BYOL Loss (Prediction Matching)**   | **Grill et al., 2020 (BYOL)**                                | To match representations between online and target networks without negative samples |
+| **Self-Distillation (EMA Teacher)**   | **Mean Teacher (2017); BYOL (2020)**                         | To distill knowledge from a temporally averaged version of the same model            |
+| **Representation Consistency Loss**   | **Self-distillation / BYOL line of work**                    | To enforce invariance across views, augmentations, and training time                 |
+
+
 <br><br>
 
 ## References
