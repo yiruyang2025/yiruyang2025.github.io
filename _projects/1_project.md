@@ -1419,7 +1419,7 @@ Use Layer1 activation → compute gradient
 <br>
 
 
-## Table. GPU memory (HBM) vs CPU memory (DDR)
+## GPU memory (HBM) vs CPU memory (DDR)
 
 
 | Aspect                      | GPU Memory (HBM / HBM2e / HBM3)        | CPU Memory (DDR4 / DDR5)        |
@@ -1435,7 +1435,7 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-## Table. Memory bandwidth comparison
+## Memory bandwidth comparison
 
 | Aspect                 | GPU HBM Bandwidth                      | CPU DDR Bandwidth              |
 | ---------------------- | -------------------------------------- | ------------------------------ |
@@ -1449,7 +1449,7 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-## Table. Why and How They Be Determined
+## Why and How They Be Determined
 
 | Dimension                      | Memory Capacity                | Memory Bandwidth                  |
 | ------------------------------ | ------------------------------ | --------------------------------- |
