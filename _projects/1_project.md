@@ -44,7 +44,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
   - [3/3] **Codebase - 2025 - Pre-Training Pipeline**
 
 - `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
-- [Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 
 <br>
 
