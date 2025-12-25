@@ -1487,6 +1487,21 @@ Use Layer1 activation → compute gradient
 | HBM   | High Bandwidth Memory        | Device-local memory              | GPU / Accelerator | Bandwidth optimization   | Extreme-bandwidth memory for accelerators      |
 
 
+<br>
+
+## Loss Functions in KD
+
+| Loss Name                  | Mathematical Form                  | Purpose             | Why                                   |
+| -------------------------- | ---------------------------------- | ------------------- | ------------------------------------- |
+| Hard CE                    | $-\sum_i y_i \log q_i$             | Correctness         | Prevents deviation from the task      |
+| Soft CE                    | $-\sum_i p_i^{(T)} \log q_i^{(T)}$ | Knowledge transfer  | Encodes class similarity structure    |
+| $T^2$ scaling              | $T^2,\mathcal{L}_{\text{soft}}$    | Scale stabilization | Keeps gradient magnitude consistent   |
+| Logit L2                   | $\sum_i \lVert z_i - v_i \rVert^2$ | Limiting case       | High-temperature approximation        |
+| KL divergence              | $\mathrm{KL}(p^{(T)} ,|, q^{(T)})$ | Unified view        | Asymmetric teacher → student matching |
+| Soft target regularization | implicit                           | Regularization      | Data-dependent prior from teacher     |
+
+
+
 <br><br>
 
 ## References
