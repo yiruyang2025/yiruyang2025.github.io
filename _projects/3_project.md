@@ -14,12 +14,9 @@ related_publications: true
 ## Topic
 
 
-<br>
+-  [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
 
 
-[2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
-
-<br>
 
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project3_2.jpg" alt="Project 1 Visualization" width="75%">
