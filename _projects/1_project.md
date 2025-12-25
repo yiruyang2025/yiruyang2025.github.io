@@ -1449,7 +1449,7 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-## Table 3. Why and How They Be Determined
+## Table. Why and How They Be Determined
 
 | Dimension                      | Memory Capacity                | Memory Bandwidth                  |
 | ------------------------------ | ------------------------------ | --------------------------------- |
@@ -1459,9 +1459,22 @@ Use Layer1 activation → compute gradient
 | Helps with                     | Fitting models and activations | Feeding compute units fast enough |
 | Typical failure mode           | Out-of-memory                  | Compute units stall               |
 
+<br>
+
+## Memory Types in Hardware Hierarchy and Naming Context
+
+| Name  | Full Name                    | Hardware Layer                   | Attached To       | Naming Basis             | Primary Role                                   |
+| ----- | ---------------------------- | -------------------------------- | ----------------- | ------------------------ | ---------------------------------------------- |
+| SRAM  | Static Random Access Memory  | On-chip cache (L1/L2/L3)         | CPU / GPU         | Storage mechanism        | Low-latency cache to hide memory access delays |
+| DRAM  | Dynamic Random Access Memory | Main system memory               | CPU               | Storage mechanism        | General-purpose working memory                 |
+| DDR   | Double Data Rate SDRAM       | Main system memory               | CPU               | Signaling technique      | High-throughput system memory                  |
+| LPDDR | Low-Power Double Data Rate   | Main memory (mobile)             | CPU / SoC         | Power optimization       | Energy-efficient system memory                 |
+| VRAM  | Video Random Access Memory   | Device-local memory (conceptual) | GPU               | Intended use             | GPU-attached working memory                    |
+| GDDR  | Graphics Double Data Rate    | Device-local memory              | GPU               | Intended use + signaling | High-bandwidth graphics and compute memory     |
+| HBM   | High Bandwidth Memory        | Device-local memory              | GPU / Accelerator | Bandwidth optimization   | Extreme-bandwidth memory for accelerators      |
+
 
 <br><br>
-
 
 ## References
 
