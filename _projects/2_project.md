@@ -1302,7 +1302,7 @@ $$
 
 
 
-## Table 1. Computer Vision: Historical Topics, Motivation, and Key Contributors
+## Computer Vision: Historical Topics, Motivation, and Key Contributors
 
 | Era          | Topic                                         | Key Contributors                               | Why It Was Introduced                                              | Backbone Significance                                                  |
 | ------------ | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
@@ -1324,7 +1324,7 @@ $$
 
 <br>
 
-## Table 2. Computer Graphics
+## Computer Graphics
 
 | Era          | Topic                                   | Key Contributors                 | Why It Was Introduced                             | Backbone Significance                             |
 | ------------ | --------------------------------------- | -------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
@@ -1347,7 +1347,7 @@ $$
 
 <br>
 
-## Table 3. Structural Comparison of Vision and Graphics Backbones
+## Structural Comparison of Vision and Graphics Backbones
 
 | Aspect             | Computer Vision                 | Computer Graphics                        |
 | ------------------ | ------------------------------- | ---------------------------------------- |
