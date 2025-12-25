@@ -1416,7 +1416,48 @@ Use Layer1 activation → compute gradient
 | **Alpha**                 | RISC                              | **Digital Equipment Corporation (DEC)** | **1992**              | 64-bit performance-focused RISC design                                             | High-performance servers (1990s)                         | Discontinued after DEC acquisition by Compaq |
 | **VAX**                   | CISC                              | **Digital Equipment Corporation (DEC)** | **1977**              | Very rich and complex instruction set                                              | Mainframes, early minicomputers                          | Historical only, inspired x86 and others     |
 
+<br>
 
+
+## Table. GPU memory (HBM) vs CPU memory (DDR)
+
+
+| Aspect                      | GPU Memory (HBM / HBM2e / HBM3)        | CPU Memory (DDR4 / DDR5)        |
+| --------------------------- | -------------------------------------- | ------------------------------- |
+| Physical location           | On-package with GPU (2.5D interposer)  | Off-chip DIMMs on motherboard   |
+| Primary purpose             | Feed massively parallel compute units  | Serve general-purpose workloads |
+| Typical capacity per device | 16–80 GB (A100: 40/80 GB)              | 64 GB – several TB per node     |
+| Scalability                 | Limited by package area and cost       | Easily scalable via DIMM slots  |
+| Address space               | Private to each GPU                    | Shared across all CPU cores     |
+| Latency                     | Higher than CPU cache, lower than PCIe | Lower than GPU HBM              |
+| Coherency                   | Not hardware coherent with CPU         | Hardware cache coherence        |
+
+
+<br>
+
+## Table. Memory bandwidth comparison
+
+| Aspect                 | GPU HBM Bandwidth                      | CPU DDR Bandwidth              |
+| ---------------------- | -------------------------------------- | ------------------------------ |
+| Typical peak bandwidth | 900–3000 GB/s                          | 100–400 GB/s                   |
+| Bus width              | Extremely wide (4096–8192 bit)         | Narrow (64 bit per channel)    |
+| Number of channels     | Many HBM stacks in parallel            | 4–12 memory channels           |
+| Access pattern         | Optimized for streaming and throughput | Optimized for low latency      |
+| Sustained bandwidth    | Very high for regular access           | Drops quickly under contention |
+| Primary bottleneck     | Bandwidth-bound kernels                | Latency-bound workloads        |
+
+
+<br>
+
+## Table 3. Why and How They Be Determined
+
+| Dimension                      | Memory Capacity                | Memory Bandwidth                  |
+| ------------------------------ | ------------------------------ | --------------------------------- |
+| Determined by                  | Number of DRAM cells           | Number and width of data paths    |
+| Physical limiter               | Silicon area, HBM stacks       | Memory controllers, I/O pins      |
+| Can be “pooled” across devices | No                             | No                                |
+| Helps with                     | Fitting models and activations | Feeding compute units fast enough |
+| Typical failure mode           | Out-of-memory                  | Compute units stall               |
 
 
 <br><br>
