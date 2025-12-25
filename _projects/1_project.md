@@ -1161,7 +1161,7 @@ print("Best hyperparameters:", study.best_params)
 <br>
 
 
-## Dimensionality Reduction and Related Methods
+## 📍 Dimensionality Reduction and Related Methods
 
 | Method | Category                 | Linear | Preserves                     | Mathematical Core                 | Typical Use Case             |
 | ------ | ------------------------ | ------ | ----------------------------- | --------------------------------- | ---------------------------- |
