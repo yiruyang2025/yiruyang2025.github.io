@@ -1522,6 +1522,19 @@ Use Layer1 activation → compute gradient
 | **Representation Consistency Loss**   | **Self-distillation / BYOL line of work**                    | To enforce invariance across views, augmentations, and training time                 |
 
 
+<br>
+
+
+## Distillation Methods and Who Proposed
+
+
+| Distillation Type                   | Who Proposed                                                             | Brief Description                                                                                                    |
+| ----------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Logit Distillation**              | **Caruana et al., 2006** (model compression) and early KD literature     | Directly matches teacher and student **logits** (pre-softmax values) using e.g. L2 loss on logits                    |
+| **Label (Soft-Label) Distillation** | **Hinton et al., 2015** (“Distilling the Knowledge in a Neural Network”) | Matches teacher and student **softmax probability distributions** (soft targets) using cross-entropy / KL divergence |
+
+
+
 <br><br>
 
 ## References
