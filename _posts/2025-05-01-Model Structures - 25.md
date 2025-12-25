@@ -330,9 +330,57 @@ $$
 | **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha\, x^{T}y + c)$                   | Similar to a neural-network activation function   |
 | **Laplacian / Exponential Kernel** | $K(x, y) = \exp\!\big(-\|x - y\| / \sigma\big)$          | More sensitive to sparse features                 |
 
+<br>
 
-<br><br><br><br>
+## Convolution and CNN as Structured DNN
 
+- [1989 - Backpropagation applied to handwritten zip code recognition](https://ieeexplore.ieee.org/abstract/document/6795724/)
+- [1998 - LeNet5 - Gradient-Based Learning Applied to Document Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=726791)
+- NeuroBio Fudanmental
+  - 1959–1962 David Hubel & Torsten Wiesel
+  - [1980 - Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position](https://link.springer.com/article/10.1007/BF00344251)
+
+
+<br>
+
+
+| Aspect                  | Mathematical Convolution                                                 | CNN Convolution Layer                                | Fully Connected DNN (MLP)          | Intuitive Explanation                   |
+| ----------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------- | ---------------------------------- | --------------------------------------- |
+| First appearance        | 18–19th century (Fourier analysis, signal processing)                    | 1989                                                 | 1950s–60s                          | Convolution long predates deep learning |
+| Key proposer            | —                                                                        | Yann LeCun                                           | Rosenblatt, Widrow, others         | CNN formalized for vision tasks         |
+| Original motivation     | Analyze signals & systems                                                | Model visual pattern recognition                     | Generic function approximation     | CNN was built *for images*              |
+| Core formula            | $(f * g)(x)=\int f(\tau)g(x-\tau),d\tau$; $(f * g)[i]=\sum_k f[k]g[i-k]$ | Same discrete form (kernel flip ignored in practice) | $y=Wx+b$                           | All are linear mappings                 |
+| What it actually does   | Sliding weighted sum                                                     | Sliding weighted sum                                 | One-shot global weighted sum       | CNN looks locally, MLP looks everywhere |
+| How weights behave      | One kernel reused everywhere                                             | Same filter reused across space                      | Each connection has its own weight | CNN “reuses the same eye”               |
+| Connectivity pattern    | Local                                                                    | Local                                                | Dense                              | CNN ignores far-away pixels             |
+| Weight matrix view      | Toeplitz / structured operator                                           | Sparse, tied $W$                                     | Dense $W$                          | CNN = heavily constrained $W$           |
+| Translation behavior    | Translation equivariant                                                  | Translation equivariant                              | Not equivariant                    | Shift image → shift features            |
+| Layer equation          | —                                                                        | $y_i=\sum_{j\in\mathcal{N}(i)} w_{j-i}x_j$           | $y=Wx+b$                           | CNN is a restricted linear layer        |
+| Parameters              | Few (kernel-sized)                                                       | Few                                                  | Many                               | CNN saves parameters massively          |
+| Inductive bias          | Built-in locality & symmetry                                             | Built-in locality & symmetry                         | None                               | CNN encodes assumptions about the world |
+| Function class          | —                                                                        | Subset of DNN                                        | Superset                           | CNN $\subset$ DNN                       |
+| What is *not* different | —                                                                        | Expressive power in principle                        | Expressive power in principle      | Difference is learning efficiency       |
+| Final takeaway          | A mathematical operator                                                  | A structured linear layer                            | A generic linear layer             | CNN is a **structured DNN**             |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br>
 
 
 ## References
