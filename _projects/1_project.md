@@ -1643,7 +1643,8 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-Key takeaway: In the cases of practical interest for machine learning, unique solutions exist for both ODEs/flows and SDEs
+**Key takeaways**
+- In the cases of practical interest for machine learning, unique solutions exist for both ODEs / flows and SDEs
 **Stochastic calculus perspective**
 - Solutions to SDEs are constructed via stochastic integrals, defined as limits of Itô–Riemann sums
 
