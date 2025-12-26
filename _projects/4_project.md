@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Robotics, Medical
+title: 2026 - Thesis - Medical
 description: LLM Encoding 3D Clinical Knowledge
 img: assets/img/4.jpg
 importance: 4
@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- [2023 - Large language models 📍 encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2)
+- [2023 - Large language models 📍 encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2), Nathan Scales, Zurich
 
 
 
@@ -27,7 +27,7 @@ related_publications: true
 
 
 
-<br>
+<br><br><br>
 
 ## Impact of Realistic Quantum Noise Modeling on System Capability
 
