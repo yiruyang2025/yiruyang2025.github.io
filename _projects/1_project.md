@@ -12,8 +12,8 @@ related_publications: true
 
 ## Logits and Labels
 
-- Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015
-  - "Knowledge is not parameters, but the mapping from input to output distributions"
+- Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015. and previous work
+  - Knowledge is not parameters, but the mapping from `Input to Output Distributions`
 
 ```
 Previously: logits ≈ regression target
