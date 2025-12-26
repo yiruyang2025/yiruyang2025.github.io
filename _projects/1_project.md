@@ -27,10 +27,15 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 - [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
   - [score-matching](https://github.com/cheind/score-matching)
 
+| Representation                 | Requires normalization | Local / Global | Directly enters dynamics | High-dimensional feasibility |
+| ------------------------------ | ---------------------- | -------------- | ------------------------ | ---------------------------- |
+| $p(x)$                         | Yes                    | Global         | No                       | No                           |
+| $\log p(x)$                    | Yes                    | Global         | No                       | No                           |
+| Energy $E(x)$                  | No                     | Global         | No                       | Limited                      |
+| **Score $\nabla_x \log p(x)$** | No                     | **Local**      | **Yes**                  | **Yes**                      |
 
 
-
-<br>
+<br><br>
 
 
 ## Diffusion Models
