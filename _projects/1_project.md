@@ -31,7 +31,7 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
   - [2025 - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
   - [2025 - Towards 📍 End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
   - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
-  - [2025 - Introduction to Flow Matching and Diffusion Models - MIT](https://diffusion.csail.mit.edu/2025/index.html)
+  - [2025 - 📍 Introduction to Flow Matching and Diffusion Models - MIT](https://diffusion.csail.mit.edu/2025/index.html)
 
 
 ```
