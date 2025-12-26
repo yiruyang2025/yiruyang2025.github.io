@@ -1599,6 +1599,22 @@ Use Layer1 activation → compute gradient
 | **Logit Distillation**              | **Caruana et al., 2006** (model compression) and early KD literature     | Directly matches teacher and student **logits** (pre-softmax values) using e.g. L2 loss on logits                    |
 | **Label (Soft-Label) Distillation** | **Hinton et al., 2015** (“Distilling the Knowledge in a Neural Network”) | Matches teacher and student **softmax probability distributions** (soft targets) using cross-entropy / KL divergence |
 
+<br>
+
+
+## ODE, SDE, and Neural ODE
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 
 ## References
