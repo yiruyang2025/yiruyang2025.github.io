@@ -1385,7 +1385,7 @@ $$
 
 
 
-  - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model](https://arxiv.org/pdf/2403.13064)
+  - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive 📍 Structured Language Model](https://arxiv.org/pdf/2403.13064)
   - [2025 - Prior2Former - Evidential Modeling of Mask Transformers for Assumption-Free Open-World Panoptic Segmentation](https://iccv.thecvf.com/virtual/2025/poster/317)
   - [2025 - Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment](https://iccv.thecvf.com/virtual/2025/awards_detail)
 
