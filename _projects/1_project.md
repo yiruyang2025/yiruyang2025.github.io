@@ -22,6 +22,16 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 
 <br>
 
+## Score Field Instead of Raw Data Distribution
+
+- [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
+  - [score-matching](https://github.com/cheind/score-matching)
+
+
+
+
+<br>
+
 
 ## Diffusion Models
 
