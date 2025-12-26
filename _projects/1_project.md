@@ -1605,14 +1605,43 @@ Use Layer1 activation → compute gradient
 ## ODE, SDE, and Neural ODE
 
 
+| Aspect                     | ODE (Ordinary Differential Equation)                                                                                                                                                            | SDE (Stochastic Differential Equation)                                                                                                          | Neural ODE                                                                  |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Historical motivation      | Describe deterministic physical laws                                                                                                                                                            | Model intrinsic randomness in dynamical systems                                                                                                 | Learn continuous-time dynamics from data                                    |
+| When introduced            | 17th century                                                                                                                                                                                    | 1940s                                                                                                                                           | 2018                                                                        |
+| Original problem           | Predict future state from current state                                                                                                                                                         | Predict distributional evolution under noise                                                                                                    | Replace discrete deep layers with continuous dynamics                       |
+| Core equation              | $ \frac{dx}{dt} = f(x,t) $                                                                                                                                                                      | $ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $                                                                                                     | $ \frac{dx}{dt} = f_\theta(x,t) $                                           |
+| Nature of dynamics         | Deterministic                                                                                                                                                                                   | Stochastic                                                                                                                                      | Deterministic but learned                                                   |
+| Role of randomness         | None                                                                                                                                                                                            | Essential (Brownian noise)                                                                                                                      | None in dynamics (data-driven uncertainty only)                             |
+| What evolves               | A single trajectory                                                                                                                                                                             | A distribution over trajectories                                                                                                                | A trajectory parameterized by a neural network                              |
+| Output interpretation      | One future path                                                                                                                                                                                 | A family of possible paths                                                                                                                      | Continuous-depth transformation                                             |
+| Mathematical object        | Function                                                                                                                                                                                        | Stochastic process                                                                                                                              | Neural-parametrized ODE                                                     |
+| Relation to probability    | Implicit (via initial condition)                                                                                                                                                                | Explicit (distribution is primary object)                                                                                                       | Implicit; often paired with likelihood or flow models                       |
+| Typical use cases          | Physics, mechanics, control                                                                                                                                                                     | Diffusion, Langevin dynamics, finance                                                                                                           | Continuous normalizing flows, deep learning models                          |
+| Key conceptual role        | Deterministic time evolution                                                                                                                                                                    | Distributional time evolution                                                                                                                   | Learnable continuous-time computation                                       |
+| Limiting relationship      | —                                                                                                                                                                                               | Reduces to ODE when noise $\to 0$                                                                                                               | ODE with learned vector field                                               |
+| **Existence & uniqueness** | **Picard–Lindelöf theorem**: if $f$ is continuously differentiable with bounded derivatives (or more generally Lipschitz), a unique solution to the ODE exists; equivalently, a flow map exists | **Existence & uniqueness theorem for SDEs**: if $b$ is Lipschitz and $\sigma$ is continuous (or Lipschitz), a unique solution to the SDE exists | Inherits ODE guarantees under the same regularity assumptions on $f_\theta$ |
+
+
+<br>
+
+- ODEs (Picard–Lindelöf theorem):
+- If the vector field $f$ is Lipschitz (e.g., continuously differentiable with bounded derivatives), then a unique solution to
+$ \frac{dx}{dt} = f(x,t) $
+- exists. Equivalently, a flow map is well-defined
 
 
 
+- SDEs (Existence and Uniqueness Theorem):
+- If the drift $b$ is Lipschitz and the diffusion coefficient $\sigma$ is continuous (or Lipschitz), then a unique solution to
+$ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $
+- exists
 
 
 
-
-
+- Key takeaway: In the cases of practical interest for machine learning, unique solutions exist for both ODEs/flows and SDEs
+- Stochastic calculus perspective
+  - Solutions to SDEs are constructed via stochastic integrals, defined as limits of Itô–Riemann sums.
 
 
 <br><br>
