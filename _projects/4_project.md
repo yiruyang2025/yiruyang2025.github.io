@@ -10,25 +10,6 @@ related_publications: true
 
 <br>
 
-## Topics
-
-- [2023 - Large language models 📍 encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2), Nathan Scales, Zurich
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br>
-
 ## Impact of Realistic Quantum Noise Modeling on System Capability
 
 | Noise Characteristic                  | Consequence If Ignored                                                                                    | Capability When Properly Modeled                                                                                             |
