@@ -10,6 +10,18 @@ related_publications: true
 
 <br>
 
+## Logits and Labels
+
+- Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015
+  - "Knowledge is not parameters, but the mapping from input to output distributions"
+
+```
+Previously: logits ≈ regression target
+After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probability geometry
+```
+
+<br>
+
 
 ## Diffusion Models
 
