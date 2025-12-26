@@ -1627,21 +1627,15 @@ Use Layer1 activation → compute gradient
 
 **ODEs (Picard–Lindelöf theorem)**
 - If the vector field $f$ is Lipschitz (e.g., continuously differentiable with bounded derivatives), then a unique solution to
-
   $ \frac{dx}{dt} = f(x,t) $
-
 - exists. Equivalently, a flow map is well-defined
 
-<br>
 
 **SDEs (Existence and Uniqueness Theorem)**
 - If the drift $b$ is Lipschitz and the diffusion coefficient $\sigma$ is continuous (or Lipschitz), then a unique solution to
-
   $ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $
-
 - exists
 
-<br>
 
 **Key takeaways**
 - In the cases of practical interest for machine learning, unique solutions exist for both ODEs / flows and SDEs
@@ -1649,7 +1643,7 @@ Use Layer1 activation → compute gradient
 - Solutions to SDEs are constructed via stochastic integrals, defined as limits of Itô–Riemann sums
 
 
-<br><br>
+<br>
 
 ## References
 
