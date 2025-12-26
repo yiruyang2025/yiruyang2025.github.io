@@ -59,6 +59,22 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+
+## Core Generative Model Paradigms (Images / Video / Science)
+
+| Model                | Proposed by (Year)         | Model Type                         | Core Idea (Essence)                                                            |
+| -------------------- | -------------------------- | ---------------------------------- | ------------------------------------------------------------------------------ |
+| **Stable Diffusion** | Stability AI et al. (2022) | **Diffusion Model**                | Learn to **reverse Gaussian noise** step-by-step to generate images from text. |
+| **DALL·E**           | OpenAI (2021–2023)         | **Diffusion Model**                | Text-conditioned diffusion for image synthesis with strong semantic alignment. |
+| **OpenAI Sora**      | OpenAI (2024)              | **Diffusion + World Model**        | Diffusion in **latent spacetime**, learning physical and temporal consistency. |
+| **Meta MovieGen**    | Meta (2024)                | **Diffusion Model**                | High-fidelity video generation via large-scale diffusion with motion priors.   |
+| **AlphaFold3**       | DeepMind (2024)            | **Diffusion + Geometric Modeling** | Diffusion over **3D molecular structures** (proteins, DNA, ligands).           |
+| **RFDiffusion**      | Baker Lab (2023)           | **Diffusion Model**                | Generate **novel protein backbones** via structure-space diffusion.            |
+
+
+
+<br>
+
 ## Backpropagation
 
 
