@@ -25,7 +25,7 @@ images:
 ## Model Structures
 
   - [DL / ML Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
-  - [2025 - 📍 Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2025/index.html)
+  - [📍 Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2025/index.html)
 
 
 <br>
