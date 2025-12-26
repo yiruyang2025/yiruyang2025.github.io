@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - Robotics, Prototype
-description: Semantic Representation 4D, (CRL / )
+title: 2026 - Thesis - Robotics, Medical
+description: LLM Encoding 3D Clinical Knowledge
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -11,6 +11,23 @@ related_publications: true
 <br>
 
 ## Topics
+
+- [2023 - Large language models 📍 encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
 
 ## Impact of Realistic Quantum Noise Modeling on System Capability
 
