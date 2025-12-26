@@ -557,6 +557,19 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | String Theory        | Green, Schwarz, Witten          | 1970s–    | Quantum gravity + unification           | 1D strings, higher dimensions       | Unverified, controversial |
 
 
+<br>
+
+## 📍 Camera System Overview
+
+| Category                        | Typical Camera Count |
+| ------------------------------- | -------------------- |
+| Safety & Situational Awareness  | 4–8                  |
+| Landing & Navigation            | 2–4                  |
+| Thermal Protection System (TPS) | 6–20                 |
+| Engine & Propulsion Monitoring  | 3–6                  |
+| Ground Operations & Maintenance | Mobile / Portable    |
+| Commercial Payloads             | Mission-dependent    |
+| Media, Documentation & PR       | 2–6                  |
 
 
 <br><br>
