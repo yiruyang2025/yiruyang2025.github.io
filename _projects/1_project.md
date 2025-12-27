@@ -1686,6 +1686,12 @@ Use Layer1 activation → compute gradient
 - [2020 - Bootstrap your own latent: A new approach to self-supervised learning 📍 BYOL, 2020](https://github.com/lucidrains/byol-pytorch)
 - [2022 - data2vec: A General Framework for Self-supervised Learning in 📍 Speech, Vision and Language](https://arxiv.org/pdf/2202.03555)
 
+
+- [2020 - 📍 Graph Structure of Neural Networks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:pS0ncopqnHgC)
+
+
+
+
 <br><br>
 
 
