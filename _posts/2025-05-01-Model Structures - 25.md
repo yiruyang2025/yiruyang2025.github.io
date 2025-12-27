@@ -363,21 +363,27 @@ $$
 | Final takeaway          | A mathematical operator                                                  | A structured linear layer                            | A generic linear layer             | CNN is a **structured DNN**             |
 
 
+<br>
 
+## Concepts From CNN
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Concept                                 | What it is                                                     | Who formalized / popularized it   | What problem it solves                       | Why it matters                            |
+| --------------------------------------- | -------------------------------------------------------------- | --------------------------------- | -------------------------------------------- | ----------------------------------------- |
+| **Equivariance to translation**         | Convolution commutes with spatial translation: $f(Tx)=T(f(x))$ | LeCun et al. (CNNs, 1990s)        | Detects features regardless of location      | Encodes translation symmetry              |
+| **Patch processing**                    | Applies the same local operator to overlapping spatial patches | Hubel & Wiesel (biology); CNNs    | Exploits local spatial correlations          | Enforces locality bias                    |
+| **Image filtering**                     | Linear filtering with learnable kernels                        | Classical signal processing; CNNs | Extracts edges, textures, patterns           | Bridges signal processing and learning    |
+| **Parameter sharing**                   | Same kernel weights reused across spatial locations            | LeCun et al.                      | Reduces parameter count                      | Improves data efficiency                  |
+| **Variable-sized input processing**     | Convolution independent of absolute input size                 | CNN framework design              | Handles arbitrary image resolutions          | Enables dense prediction                  |
+| **Multi-channel convolution**           | Each output channel sums convolutions over all input channels  | Early CNNs                        | Combines multiple feature maps               | Enables cross-channel feature composition |
+| **Local receptive field**               | Each neuron depends only on a local neighborhood               | Fukushima (Neocognitron), CNNs    | Limits interaction range                     | Defines spatial inductive bias            |
+| **Hierarchical feature composition**    | Deeper layers compose simpler features into complex ones       | Deep CNNs (AlexNet onward)        | Models high-level structure                  | Explains the role of depth                |
+| **Nonlinearity**                        | Pointwise nonlinear functions (e.g., ReLU)                     | Modern neural networks            | Prevents collapse to linear filters          | Enables expressive function classes       |
+| **Pooling / downsampling**              | Spatial aggregation (max, average, strided conv)               | LeCun et al.                      | Introduces robustness to small shifts        | Produces approximate invariance           |
+| **Equivariance vs. invariance**         | Convolution is equivariant; pooling induces invariance         | CNN theory                        | Clarifies preserved vs discarded information | Central to representation design          |
+| **Fully convolutional operator**        | Defines a mapping on spatial fields, not fixed vectors         | FCNs (Long et al.)                | Enables per-pixel prediction                 | Treats CNNs as operators on grids         |
+| **Implicit regularization**             | Architectural constraints bias learning                        | Empirical deep learning theory    | Improves generalization                      | Architecture acts as a prior              |
+| **Boundary conditions / padding**       | How convolution handles image borders                          | Practical CNN design              | Controls artifacts and symmetry breaks       | Affects exact equivariance                |
+| **Group equivariance (generalization)** | Convolution as a group-equivariant operator                    | Cohen & Welling (G-CNNs)          | Extends symmetry beyond translation          | Unifies CNNs with symmetry theory         |
 
 
 <br><br><br>
