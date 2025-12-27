@@ -67,12 +67,7 @@ Robotics / Embodied AI            | Not actuators, SEA, or motors
                                   | Goal:
                                   | - Replace large sets of heuristics with
                                   |   a unified abstraction
-
 ```
-
-
-
-
 
 
 <br><br><br>
