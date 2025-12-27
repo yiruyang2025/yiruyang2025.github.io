@@ -23,12 +23,7 @@ related_publications: true
 </p>
 
 
-
-
-
-
 <br>
-
 
 ## The fundamental limitations of monocular (2D) video input
 
@@ -42,6 +37,21 @@ related_publications: true
 
 <br>
 
+## Vector Field, Probability Flow, and the Continuity Equation in Diffusion / Flow
+
+| Component                              | Mathematical Form                                                                        | What It Represents                                                                   | First Introduced / Formalized                                            | Why It Was Introduced                                                   | Original Application Domain                |
+| -------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------ |
+| **Vector field**                       | $u(x,t)$                                                                                 | Local infinitesimal rule specifying how a state changes at position $x$ and time $t$ | Classical differential geometry (19th century); formalized in ODE theory | To describe continuous-time dynamical systems via local evolution rules | Mechanics, fluid dynamics                  |
+| **Probability density**                | $p(x,t)$                                                                                 | Distribution of samples over state space at time $t$                                 | Laplace, Gauss (18th–19th century probability theory)                    | To describe uncertainty and population-level behavior                   | Statistical physics                        |
+| **Probability flow**                   | $p(x,t),u(x,t)$                                                                          | Flux of probability mass through space                                               | Boltzmann, Gibbs (late 19th century)                                     | To model transport of mass or particles                                 | Kinetic theory                             |
+| **Divergence operator**                | $\nabla\cdot(\cdot)$                                                                     | Net outflow vs inflow at a point                                                     | Gauss, Green (19th century analysis)                                     | To quantify conservation laws                                           | Electromagnetism, fluid flow               |
+| **Continuity equation**                | $\displaystyle \frac{\partial p(x,t)}{\partial t} = -\nabla\cdot\big(p(x,t),u(x,t)\big)$ | Conservation law governing how probability density evolves                           | Liouville (1838); later generalized in physics                           | To enforce mass/probability conservation under dynamics                 | Hamiltonian systems, statistical mechanics |
+| **Interpretation in diffusion / flow** | same equation                                                                            | Distribution-level consequence of many samples following the same vector field       | Adopted in modern form by Villani, Ambrosio; used in ML after 2019       | To connect sample dynamics with density evolution                       | Normalizing flows, diffusion models        |
+| **Key conceptual role**                | —                                                                                        | Vector field generates the time evolution of the entire distribution                 | Mathematical fact, not a modeling choice                                 | Enables continuous-time generative modeling                             | Flow models, continuous diffusion          |
+
+
+
+<br>
 
 ## SUMO Bridge
 
