@@ -655,6 +655,8 @@ Regularization Terms
 - [2025 - Single-Image 3D Human Reconstruction with 3D-Aware Diffusion Priors and Facial Enhancement](https://dl.acm.org/doi/full/10.1145/3757377.3763839)
 - [2025 - Find Any Part in 3D](https://iccv.thecvf.com/virtual/2025/poster/98)
 - [2025 - Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](https://arxiv.org/pdf/2506.08220)
+- [2024 - DressCode: Autoregressively Sewing and Generating Garments from TextGuidance](https://www.youtube.com/watch?v=ofFyJBKL-Qg)
+- [📍 2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
 
 
 
