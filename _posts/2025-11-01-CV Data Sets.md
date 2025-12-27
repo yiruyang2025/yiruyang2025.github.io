@@ -27,7 +27,19 @@ images:
 - [Dec 2025 - Performance Guide](https://abseil.io/fast/)
 
 
-<br><br>
+<br>
+
+- [2024 - GCD (GarmentCodeData)](https://igl.ethz.ch/projects/GarmentCodeData/)
+- [GCD-MM (GarmentCodeData-MultiModal)](https://huggingface.co/georgeNakayama/AIpparel)
+- [SewFactory - empty in 2025](https://huggingface.co/datasets/liulj/sewfactory)
+
+
+
+
+
+
+
+<br>
 
 
 ## Medical
