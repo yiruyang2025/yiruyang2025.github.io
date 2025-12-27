@@ -304,9 +304,23 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 <br><br><br>
 
 
+## 📍 Multi-modal Inference
 
+- The capacity to accurately interpret multimodal inputs typically only emerges in large models with billions of parameters 
+
+
+
+
+<br>
 
 ## Topics
+
+  - [2023 - Gpt-4 technical report](https://cdn.openai.com/papers/gpt-4.pdf)
+  - [📍 2024 - Improved Baselines with Visual Instruction Tuning](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Improved_Baselines_with_Visual_Instruction_Tuning_CVPR_2024_paper.pdf)
+
+
+
+
 
   - [2024 - Interactive4D: Interactive 4D LiDAR Segmentation](https://arxiv.org/abs/2410.08206)
   - [4D Lidar L1 Application Scenarios - Robots - Unitree](https://www.unitree.com/cn/LiDAR)
