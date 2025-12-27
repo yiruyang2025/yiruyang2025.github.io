@@ -301,10 +301,29 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 
 
 
-<br><br><br>
+<br>
+
+## What Kinds of Computer Vision Tasks It Can Be Applied To
+
+- [2025 - Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
+
+| Task Category                   | Example Tasks                                | Why Transfer Learning Helps                                            |
+| ------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------- |
+| **Image Classification**        | Object or scene classification               | Reuses low- and mid-level visual features learned from large datasets. |
+| **Object Detection**            | Bounding box localization and recognition    | Transfers backbone representations to detection heads.                 |
+| **Semantic Segmentation**       | Pixel-level labeling of images               | Leverages shared visual structure across tasks.                        |
+| **Depth Estimation**            | Predicting depth or geometry from images     | Adapts learned visual cues to geometric inference.                     |
+| **Video Understanding**         | Action recognition, temporal perception      | Transfers spatial features to temporal models.                         |
+| **Domain Adaptation**           | Cross-domain image understanding             | Allows adaptation between different visual domains.                    |
+| **Robotics Perception**         | Object recognition for manipulation          | Enables rapid adaptation to new environments.                          |
+| **Autonomous Systems**          | Road scene understanding, obstacle detection | Shares representations across perception subtasks.                     |
+| **Multi-task Learning Systems** | Unified perception pipelines                 | Supports multiple vision tasks using a shared model backbone.          |
 
 
-## 📍 Multi-modal Inference
+<br><br>
+
+
+## Multi-modal Inference
 
 - The capacity to accurately interpret multimodal inputs typically only emerges in large models with billions of parameters 
 
