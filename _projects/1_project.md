@@ -12,8 +12,8 @@ related_publications: true
 
 ## Logits and Labels
 
-- Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015. and previous work
-  - Knowledge is not parameters, but the mapping from `Input to Output Distributions`
+Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015. and previous work
+- Knowledge is not parameters, but the mapping from `Input to Output Distributions`
 
 ```
 Previously: logits ≈ regression target
@@ -73,7 +73,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 - `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
 
-
 <br>
 
 | From                    | VRAM        |
@@ -84,7 +83,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Projection head         | ~0.1 GB     |
 | Optimizer state (init)  | ~0.5 GB     |
 | CUDA allocator cache    | ~1.3 GB     |
-| **合计**                 | **~7.0 GB** |
+| **In total**            | **~7.0 GB** |
 
 
 <br>
