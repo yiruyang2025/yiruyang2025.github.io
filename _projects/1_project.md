@@ -86,6 +86,9 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **In total**            | **~7.0 GB** |
 
 
+- trainable params: 15,728,640 || all params: 181,860,864 || trainable%: 8.6487
+
+
 <br>
 
 
@@ -194,6 +197,8 @@ C/C++ implementation launches CUDA kernels
         ↓
 GPU executes the kernel
 ```
+
+<br>
 
 ## DNS
 
