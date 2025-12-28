@@ -74,6 +74,8 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 - `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
 
 
+<br>
+
 | From                    | VRAM        |
 | ----------------------- | ----------- |
 | CUDA context + runtime  | ~0.8 GB     |
