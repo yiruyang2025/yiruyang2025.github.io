@@ -94,6 +94,31 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+## Logged Teacher & Student Model Artifacts
+
+| Log Item                                        | Applies To                         | Meaning                            | Why It Exists / What It Tells You                                                                 |
+| ----------------------------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `torch_dtype is deprecated! Use dtype instead!` | Both                               | Warning from Hugging Face API      | Indicates an API change; does **not** affect model correctness or results. Safe to ignore.        |
+| `HF_TOKEN does not exist in Colab secrets`      | Both                               | Authentication warning             | Hugging Face token is **optional** for public models. No impact on loading Whisper checkpoints.   |
+| `config.json`                                   | Teacher & Student                  | Model architecture configuration   | Defines model size, layers, hidden dimensions, attention heads, vocab size, etc.                  |
+| `model.safetensors` (3.09 GB)                   | **Teacher (Whisper Large v3)**     | Full model weights                 | Contains all frozen parameters of the teacher model (~1.5B parameters).                           |
+| `model.safetensors` (332 MB)                    | **Student (Distil-Whisper Small)** | Base student weights               | Contains the pretrained student backbone before LoRA injection.                                   |
+| `generation_config.json`                        | Both                               | Decoding configuration             | Stores generation defaults (beam size, length penalties, etc.). Used for inference, not training. |
+| `preprocessor_config.json`                      | Both                               | Audio preprocessing setup          | Defines log-mel extraction, sampling rate, feature normalization.                                 |
+| `tokenizer_config.json`                         | Both                               | Tokenizer metadata                 | High-level tokenizer settings (padding, truncation, model type).                                  |
+| `vocab.json`                                    | Both                               | Token vocabulary                   | Maps tokens to integer IDs. Shared or nearly shared between teacher and student.                  |
+| `tokenizer.json`                                | Both                               | Fast tokenizer graph               | Serialized tokenizer for efficient runtime tokenization.                                          |
+| `merges.txt`                                    | Both                               | BPE merge rules                    | Defines subword merges for Byte Pair Encoding.                                                    |
+| `normalizer.json`                               | Both                               | Text normalization rules           | Controls lowercasing, punctuation handling, unicode normalization.                                |
+| `added_tokens.json`                             | Both                               | Extra special tokens               | Language tokens, task tokens, timestamp tokens, etc.                                              |
+| `special_tokens_map.json`                       | Both                               | Special token mapping              | Identifies BOS, EOS, PAD, language tokens, and task markers.                                      |
+| `trainable params: 15,728,640`                  | **Student only**                   | Parameters updated during training | Includes **LoRA adapters + projection head**. These are the *only* parameters optimized.          |
+| `all params: 181,860,864`                       | **Student only**                   | Total student parameter count      | Includes frozen base Whisper weights + LoRA + heads.                                              |
+| `trainable%: 8.6487`                            | **Student only**                   | Fraction of trainable parameters   | Shows **parameter-efficient learning**: <9% of student parameters are updated.                    |
+
+
+<br>
+
 
 ## Core Generative Model Paradigms (Images / Video / Science)
 
