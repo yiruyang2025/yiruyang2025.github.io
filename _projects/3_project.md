@@ -25,6 +25,21 @@ related_publications: true
 
 <br>
 
+## 2026 Experiments
+
+**Config**
+
+- Optimizer: AdamW
+- Learning rate: $1 \times 10^{-4}$
+- LR schedule: cosine decay → 0
+- Warm-up: first 500 steps
+- Batch size: 32 per GPU (total batch size = 32)
+- Training steps: 25,000
+- Total training time: ≈ 36–48 hours (2 × A100)
+
+
+<br>
+
 ## The fundamental limitations of monocular (2D) video input
 
 | Problem                     | Effect                                                                     |
