@@ -73,6 +73,18 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 - `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
 
+
+| From                    | VRAM        |
+| ----------------------- | ----------- |
+| CUDA context + runtime  | ~0.8 GB     |
+| Whisper Large v3 (fp16) | ~3.1 GB     |
+| Student model + LoRA    | ~1.2 GB     |
+| Projection head         | ~0.1 GB     |
+| Optimizer state (init)  | ~0.5 GB     |
+| CUDA allocator cache    | ~1.3 GB     |
+| **合计**                 | **~7.0 GB** |
+
+
 <br>
 
 
