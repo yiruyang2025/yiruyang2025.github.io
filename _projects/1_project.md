@@ -75,6 +75,11 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+## Experiments 2025
+
+
+<br>
+
 | From                    | VRAM        |
 | ----------------------- | ----------- |
 | CUDA context + runtime  | ~0.8 GB     |
@@ -87,7 +92,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 
 - trainable params: 15,728,640 || all params: 181,860,864 || trainable%: 8.6487
-
+- monitoring at https://wandb.ai/home
 
 <br>
 
