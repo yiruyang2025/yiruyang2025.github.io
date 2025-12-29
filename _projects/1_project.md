@@ -96,6 +96,11 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## Logged Teacher & Student Model Artifacts
 
+
+- Place the teacher's inference within `torch.cuda.amp.autocast(dtype=torch.float16)`, ensures all calculations are performed under `float16`, avoiding type conversion issues. Add `torch.no_grad()` as a context manager to conserve memory (the teacher doesn't need gradients).
+
+<br>
+
 | Log Item                                        | Applies To                         | Meaning                            | Why It Exists / What It Tells You                                                                 |
 | ----------------------------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
 | `torch_dtype is deprecated! Use dtype instead!` | Both                               | Warning from Hugging Face API      | Indicates an API change; does **not** affect model correctness or results. Safe to ignore.        |
