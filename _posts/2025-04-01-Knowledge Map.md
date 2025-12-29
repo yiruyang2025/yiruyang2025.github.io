@@ -41,7 +41,7 @@ images:
   - [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
-- [NAVER LABS Europe](https://x.com/fabienbaradel?s=20)
+- ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
 - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
