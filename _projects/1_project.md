@@ -78,7 +78,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ## Experiments 2025
 
 - Random Seed = 52
-- monitoring at https://wandb.ai/home
+- monitoring at https://wandb.ai/home, Tool in use - colab
 - trainable params: 15,728,640, all params: 181,860,864, trainable%: 8.6487
 
 
@@ -91,6 +91,17 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Optimizer state (init)  | ~0.5 GB     |
 | CUDA allocator cache    | ~1.3 GB     |
 | **In total**            | **~7.0 GB** |
+
+<br>
+
+
+| **Main Experiment** | **Ablation 2**  |
+| ------------------- | --------------- |
+| Point Alignment     | Curve Alignment |
+| First-order         | Second-order    |
+| Static              | Dynamic         |
+| Stable              | High-risk       |
+
 
 <br>
 
