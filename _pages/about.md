@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Latent Space, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/)
-- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [CVG](https://cvg.ethz.ch/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, Non-rigid Surface Refinement
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Camera Self-calibration System with `Multi-sensor Signal Fusion` for Space and Underwater
