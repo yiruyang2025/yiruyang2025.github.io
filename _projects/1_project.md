@@ -94,17 +94,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-
-| **Main Experiment** | **Ablation 2**  |
-| ------------------- | --------------- |
-| Point Alignment     | Curve Alignment |
-| First-order         | Second-order    |
-| Static              | Dynamic         |
-| Stable              | High-risk       |
-
-
-<br>
-
 ## Logged Teacher & Student Model Artifacts
 
 
