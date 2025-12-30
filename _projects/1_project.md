@@ -108,6 +108,22 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+## ICML Standard Practice for Main Experiments and Ablation Studies
+
+| Aspect                  | Main Experiment                                            | Ablation Experiments                                                  |
+| ----------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------- |
+| Purpose                 | Establish the best-performing full model                   | Analyze the contribution of individual components                     |
+| Hyperparameter Search   | Allowed and encouraged                                     | Not performed                                                         |
+| Validation Usage        | Hyperparameters selected on a development / validation set | Same hyperparameters as the main experiment                           |
+| Hyperparameter Settings | Tuned to obtain a single optimal configuration             | Frozen to the main experiment configuration                           |
+| What Is Modified        | Model architecture and loss formulation during tuning      | Only one component at a time                                          |
+| Typical Modifications   | Loss weights, temperatures, learning rates                 | Remove a loss term, remove a module, or replace a modeling assumption |
+| Fairness Criterion      | Best achievable performance under validation tuning        | Controlled comparison under identical settings                        |
+| Reviewer Expectation    | Demonstrates competitiveness                               | Ensures causal interpretability of improvements                       |
+
+
+<br>
+
 ## Logged Teacher & Student Model Artifacts
 
 
