@@ -94,6 +94,22 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+| Category                     | Specification                                                                           |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| Dataset                      | Facebook Multilingual LibriSpeech                                                       |
+| License                      | CC-BY-4.0                                                                               |
+| Languages                    | 7 (German, French, Dutch, Spanish, Italian, Portuguese, Polish)                         |
+| Language Distribution        | German 86h; French 50h; Dutch 32h; Spanish 71h; Italian 40h; Portuguese 37h; Polish 44h |
+| Total Audio Duration         | 360 hours                                                                               |
+| Total Samples                | Approximately 1,296,000                                                                 |
+| Sampling Rate                | 16,000 Hz                                                                               |
+| Training Mode                | Streaming, interleaved across languages                                                 |
+| Batch Size                   | 1 (streaming)                                                                           |
+| Experiment Runtime           | 3–4 hours on NVIDIA T4                                                                  |
+| Data Coverage per Experiment | Approximately 3.85% (50k training steps)                                                |
+
+<br>
+
 ## Logged Teacher & Student Model Artifacts
 
 
