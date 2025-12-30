@@ -105,8 +105,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Sampling Rate                | 16,000 Hz                                                                               |
 | Training Mode                | Streaming, interleaved across languages                                                 |
 | Batch Size                   | 1 (streaming)                                                                           |
-| Experiment Runtime           | 3–4 hours on NVIDIA T4                                                                  |
-| Data Coverage per Experiment | Approximately 3.85% (50k training steps)                                                |
 
 <br>
 
