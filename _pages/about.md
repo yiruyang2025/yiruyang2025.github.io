@@ -26,13 +26,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- (C++), Python, PyTorch3D, (Rust), CUDA, Blender, Unreal, SUMO
+- (C++), Python, PyTorch3D, (Rust), Blender, CUDA, Unreal, SUMO
 
 
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [Orgo.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Latent Space, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Latent Space, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [Balgrist](https://www.balgrist.ch/en/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [CVG](https://cvg.ethz.ch/research/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, Non-rigid Surface Refinement, [CVG](https://cvg.ethz.ch/research/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects
