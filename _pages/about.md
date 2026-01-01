@@ -41,7 +41,7 @@ latest_posts:
 <br>
 
 **Interests**
-  - Backbones, Perception, CFD
+  - Backbones, Perception, Engineering
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
 
 <div style="height: 4rem;"></div>
