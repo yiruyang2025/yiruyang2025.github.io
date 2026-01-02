@@ -21,8 +21,8 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 ```
 
 **3 Stages of Training Config**
-
   - KD → representation alignment → conditional LM fine-tuning
+  - In Stage III, reduce the linear decay of CONTRASTIVE_WEIGHT to 0.1, since  it no longer provides a valid gradient
 
 <br>
 
