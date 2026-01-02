@@ -26,6 +26,20 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 
 <br>
 
+## Role of Validation Loss in Multilingual KD Training
+
+
+| Aspect                        | Conventional Supervised Training | Our Multilingual KD Setting                                           |
+| ----------------------------- | -------------------------------- | --------------------------------------------------------------------- |
+| Primary risk                  | Data overfitting                 | Objective overfitting                                                 |
+| Cause of overfitting          | Memorization of training samples | Over-optimization of auxiliary distillation losses                    |
+| Role of validation loss       | Detect memorization              | Detect misalignment between surrogate losses and token-level accuracy |
+| What validation loss measures | Generalization gap               | When representation-level alignment no longer improves decoding       |
+| Mitigation strategy           | Early stopping                   | Stage-wise loss reweighting and auxiliary loss decay                  |
+
+
+<br>
+
 ## Score Field Instead of Raw Data Distribution
 
 - [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
