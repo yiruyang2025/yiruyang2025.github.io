@@ -20,6 +20,10 @@ Previously: logits ≈ regression target
 After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probability geometry
 ```
 
+**3 Stages of Training Config**
+
+  - KD → representation alignment → conditional LM fine-tuning
+
 <br>
 
 ## Score Field Instead of Raw Data Distribution
