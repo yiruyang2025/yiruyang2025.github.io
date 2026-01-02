@@ -1750,11 +1750,21 @@ Use Layer1 activation → compute gradient
   $ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $
 - exists
 
-
 **Key takeaways**
 - In the cases of practical interest for machine learning, unique solutions exist for both ODEs / flows and SDEs
 **Stochastic calculus perspective**
 - Solutions to SDEs are constructed via stochastic integrals, defined as limits of Itô–Riemann sums
+
+<br>
+
+## Sources of Non-Determinism in Training
+
+| Concept                           | What it is                                                                                                                          | Who / Origin                                                                                           | When                                          | Why it exists                                                                                         |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **RNG (Random Number Generator)** | A mechanism that produces pseudo-random numbers controlling stochastic processes in training (e.g., data order, dropout, sampling). | Computer science & statistics community (e.g., Knuth); implemented in **PyTorch**, **NumPy**, **CUDA** | 1960s (theory); 2016+ in modern DL frameworks | Enables stochastic optimization, regularization, and scalable training over large datasets.           |
+| **JIT Compilation**               | Just-In-Time compilation that generates optimized GPU kernels at runtime based on actual tensor shapes and hardware.                | **NVIDIA (CUDA)**, **LLVM**, adopted by **PyTorch**, **cuDNN**                                         | ~2007 (CUDA); widely used in DL since ~2017   | Achieves hardware-specific performance without requiring precompiled kernels for every configuration. |
+| **Autotuning**                    | Runtime benchmarking and selection of the fastest kernel among multiple implementations.                                            | **NVIDIA cuDNN / cuBLAS**                                                                              | ~2014–2016                                    | Maximizes throughput by adapting to input shapes, memory layout, and GPU architecture.                |
+
 
 
 <br>
