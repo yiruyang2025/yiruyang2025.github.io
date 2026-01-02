@@ -28,8 +28,7 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 
 ## Score Field Instead of Raw Data Distribution
 
-[2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
-  - [score-matching](https://github.com/cheind/score-matching)
+- [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
 
 | Representation                 | Requires normalization | Local / Global | Directly enters dynamics | High-dimensional feasibility |
 | ------------------------------ | ---------------------- | -------------- | ------------------------ | ---------------------------- |
