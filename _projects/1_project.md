@@ -24,6 +24,14 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
   - KD → representation alignment → conditional LM fine-tuning
   - In Stage III, after freezing the encoder, we linearly decay the `contrastive loss weight to 0.1`, as its contribution to representation learning diminishes and may introduce misaligned gradients during decoder optimization
 
+**check**
+
+```
+    "final_ce": history["ce"][-1] if len(history.get("ce", [])) > 0 else None,
+    "final_kl": history["kl"][-1] if len(history.get("kl", [])) > 0 else None,
+    "final_geo": history["geo"][-1] if len(history.get("geo", [])) > 0 else None,
+    "final_contrastive": history["contrastive"][-1] if len(history.get("contrastive", [])) > 0 else None,
+```
 
 <br>
 
