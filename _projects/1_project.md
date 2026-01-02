@@ -25,34 +25,7 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
   - In Stage III, after freezing the encoder, we linearly decay the `contrastive loss weight to 0.1`, as its contribution to representation learning diminishes and may introduce misaligned gradients during decoder optimization
 
 
-## Role of Validation Loss in Multilingual KD Training
-
-
-| Aspect                        | Conventional Supervised Training | Our Multilingual KD Setting                                           |
-| ----------------------------- | -------------------------------- | --------------------------------------------------------------------- |
-| Primary risk                  | Data overfitting                 | Objective overfitting                                                 |
-| Cause of overfitting          | Memorization of training samples | Over-optimization of auxiliary distillation losses                    |
-| Role of validation loss       | Detect memorization              | Detect misalignment between surrogate losses and token-level accuracy |
-| What validation loss measures | Generalization gap               | When representation-level alignment no longer improves decoding       |
-| Mitigation strategy           | Early stopping                   | Stage-wise loss reweighting and auxiliary loss decay                  |
-
-
 <br>
-
-## Score Field Instead of Raw Data Distribution
-
-- [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
-
-| Representation                 | Requires normalization | Local / Global | Directly enters dynamics | High-dimensional feasibility |
-| ------------------------------ | ---------------------- | -------------- | ------------------------ | ---------------------------- |
-| $p(x)$                         | Yes                    | Global         | No                       | No                           |
-| $\log p(x)$                    | Yes                    | Global         | No                       | No                           |
-| Energy $E(x)$                  | No                     | Global         | No                       | Limited                      |
-| **Score $\nabla_x \log p(x)$** | No                     | **Local**      | **Yes**                  | **Yes**                      |
-
-
-<br><br>
-
 
 ## Diffusion Models
 
@@ -172,7 +145,6 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
-
 ## Core Generative Model Paradigms (Images / Video / Science)
 
 | Model                | Proposed by (Year)         | Model Type                         | Core Idea (Essence)                                                            |
@@ -185,6 +157,18 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | **RFDiffusion**      | Baker Lab (2023)           | **Diffusion Model**                | Generate **novel protein backbones** via structure-space diffusion.            |
 
 
+<br>
+
+## Role of Validation Loss in Multilingual KD Training
+
+
+| Aspect                        | Conventional Supervised Training | Our Multilingual KD Setting                                           |
+| ----------------------------- | -------------------------------- | --------------------------------------------------------------------- |
+| Primary risk                  | Data overfitting                 | Objective overfitting                                                 |
+| Cause of overfitting          | Memorization of training samples | Over-optimization of auxiliary distillation losses                    |
+| Role of validation loss       | Detect memorization              | Detect misalignment between surrogate losses and token-level accuracy |
+| What validation loss measures | Generalization gap               | When representation-level alignment no longer improves decoding       |
+| Mitigation strategy           | Early stopping                   | Stage-wise loss reweighting and auxiliary loss decay                  |
 
 <br>
 
@@ -1766,8 +1750,22 @@ Use Layer1 activation → compute gradient
 | **Autotuning**                    | Runtime benchmarking and selection of the fastest kernel among multiple implementations.                                            | **NVIDIA cuDNN / cuBLAS**                                                                              | ~2014–2016                                    | Maximizes throughput by adapting to input shapes, memory layout, and GPU architecture.                |
 
 
+<br>
+
+## Score Field Instead of Raw Data Distribution
+
+- [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
+
+| Representation                 | Requires normalization | Local / Global | Directly enters dynamics | High-dimensional feasibility |
+| ------------------------------ | ---------------------- | -------------- | ------------------------ | ---------------------------- |
+| $p(x)$                         | Yes                    | Global         | No                       | No                           |
+| $\log p(x)$                    | Yes                    | Global         | No                       | No                           |
+| Energy $E(x)$                  | No                     | Global         | No                       | Limited                      |
+| **Score $\nabla_x \log p(x)$** | No                     | **Local**      | **Yes**                  | **Yes**                      |
+
 
 <br>
+
 
 ## References
 
