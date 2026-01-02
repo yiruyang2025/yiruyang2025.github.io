@@ -24,7 +24,6 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
   - KD → representation alignment → conditional LM fine-tuning
   - In Stage III, after freezing the encoder, we linearly decay the `contrastive loss weight to 0.1`, as its contribution to representation learning diminishes and may introduce misaligned gradients during decoder optimization
 
-<br>
 
 ## Role of Validation Loss in Multilingual KD Training
 
