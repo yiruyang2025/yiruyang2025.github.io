@@ -1805,6 +1805,7 @@ Use Layer1 activation → compute gradient
 
 - [2020 - 📍 Graph Structure of Neural Networks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:pS0ncopqnHgC)
 - [2025 - Towards Fully FP8 GEMM LLM Training at Scale](https://openreview.net/forum?id=KYTFXxTJ12&referrer=%5Bthe%20profile%20of%20Martin%20Jaggi%5D(%2Fprofile%3Fid%3D~Martin_Jaggi1))
+- [2025 - 📍 Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free](https://openreview.net/forum?id=1b7whO4SfY)
 
 
 
