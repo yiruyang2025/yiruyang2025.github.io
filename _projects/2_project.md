@@ -12,7 +12,7 @@ related_publications: true
 ## Related Coursework
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, 
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0, 
 - [2025 - WeDLM : Reconciling 📍 Diffusion Language Models with Standard Causal Attention for Fast Inference](https://wedlm.github.io/)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
@@ -1389,6 +1389,7 @@ $$
   - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive 📍 Structured Language Model](https://arxiv.org/pdf/2403.13064)
   - [2025 - Prior2Former - Evidential Modeling of Mask Transformers for Assumption-Free Open-World Panoptic Segmentation](https://iccv.thecvf.com/virtual/2025/poster/317)
   - [2025 - Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment](https://iccv.thecvf.com/virtual/2025/awards_detail)
+  - [2017 - 📍 FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ilg_FlowNet_2.0_Evolution_CVPR_2017_paper.pdf)
 
 
 <br><br><br><br><br><br>
