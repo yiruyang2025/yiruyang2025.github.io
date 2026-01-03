@@ -83,7 +83,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 - Restart the official main training from scratch after hyperparameter search
    - Hyperparameters are selected on a validation set, then the final model is trained from scratch using the selected hyperparameters
-- Random Seed = 52
+- Random Seed = `52`
 - monitoring at https://wandb.ai/home, Tool in use - colab
 - trainable params: 15,728,640, all params: 181,860,864, trainable%: 8.6487
 
