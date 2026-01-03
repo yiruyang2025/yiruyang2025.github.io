@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [CVG](https://cvg.ethz.ch/research/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, Non-rigid Surface Refinement, [CVG](https://cvg.ethz.ch/research/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects, `Liver Donor`, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Camera Self-calibration System with `Multi-sensor Signal Fusion` for Space and Underwater
+- 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Camera Self-calibration System with `Multi-modal Input Fusion` for Space and Underwater
 
 <br>
 
