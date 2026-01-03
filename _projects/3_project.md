@@ -37,6 +37,16 @@ related_publications: true
 - Training steps: 25,000
 - Total training time: ≈ 36–48 hours (2 × A100)
 
+<br>
+
+## Ablations
+
+| Method           | Geometric Representation | Non-Rigid Handling       | Evaluation Focus (Ablation Purpose)                                                                                                                              |
+| ---------------- | ------------------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AIpparel (Base)  | Mesh                     | Weak (Parametric)        | Serves as a base model to reveal the limitations of parametric mesh representations in capturing fine-grained surface deformations.                              |
+| 3DGS (Baseline)  | Points / Splatting       | Strong (Point-based)     | Evaluates whether point-based splatting can recover detailed wrinkles, while exposing its inherent limitations in topology consistency and structural coherence. |
+| Ours (Diffusion) | Refined Mesh             | Very Strong (Generative) | Demonstrates that diffusion-based modeling can simultaneously achieve fine-grained geometric detail and sewing-pattern consistency.                              |
+
 
 <br>
 
