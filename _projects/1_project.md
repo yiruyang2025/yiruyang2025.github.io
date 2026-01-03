@@ -96,7 +96,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Projection head         | ~0.1 GB     |
 | Optimizer state (init)  | ~0.5 GB     |
 | CUDA allocator cache    | ~1.3 GB     |
-| **In total**            | **~7.0 GB** |
+| **In total**            | **~7.0 GB** -> 22.0 GB for 200K steps |
 
 <br>
 
