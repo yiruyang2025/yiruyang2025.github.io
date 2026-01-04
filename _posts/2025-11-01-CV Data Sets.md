@@ -56,10 +56,30 @@ images:
 
 <br><br>
 
+## Audio Formats and Data Transfer Choices in ASR Datasets
 
+| Component                   | Format / Command                                | Description                                                               | Why This Choice Is Common in AI / ML                                                                   |
+| --------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Raw audio in distribution   | **FLAC (Free Lossless Audio Codec)**            | Lossless compressed waveform format that preserves exact signal fidelity  | Guarantees no acoustic information loss; ideal for reproducible research and feature extraction        |
+| Compressed alternative      | **OPUS**                                        | High-efficiency lossy codec optimized for speech at low bitrates          | Strong compression–quality trade-off; reduces storage and transfer cost for large multilingual corpora |
+| Internal segmentation       | **Short audio segments (≈10–20 s)**             | Audiobook recordings split into short utterances aligned with transcripts | Enables stable training, efficient batching, and reduced memory footprint in sequence models           |
+| Common uncompressed format  | **WAV (PCM)**                                   | Raw pulse-code modulated waveform, typically 16-bit                       | Simple, universal, but storage-inefficient; often used internally after decoding                       |
+| Legacy compressed format    | **MP3**                                         | Lossy audio compression designed for music playback                       | Rarely used in modern ASR due to artifacts and inconsistent decoding                                   |
+| Broadcast / archival format | **AIFF**                                        | Uncompressed audio container similar to WAV                               | Occasionally used in speech corpora, but large in size                                                 |
+| Research-friendly format    | **OGG Vorbis**                                  | Open-source lossy codec                                                   | Less common than OPUS; weaker speech-optimized performance                                             |
+| Neural codec research       | **EnCodec / SoundStream**                       | Learned neural audio codecs                                               | Used in research on end-to-end audio modeling, not standard dataset storage                            |
+| Dataset packaging           | **`.tar.gz` archive**                           | `tar` bundles files while preserving structure; `gzip` compresses them    | Standard for distributing large datasets with intact directory hierarchies                             |
+| Data transfer tool          | **`rsync`**                                     | Incremental file transfer utility over SSH                                | Robust, resumable transfer of large datasets to HPC systems                                            |
+| Transfer option             | **`-a` (archive)**                              | Preserves permissions, timestamps, and directory structure                | Ensures dataset integrity and reproducibility                                                          |
+|                             | **`-v` (verbose)**                              | Prints detailed transfer progress                                         | Useful for monitoring long-running uploads                                                             |
+|                             | **`-P` (progress + partial)**                   | Shows progress and keeps partial files if interrupted                     | Critical for multi-GB dataset transfers over unstable networks                                         |
+| Typical workflow            | `rsync -avP *.tar.gz user@cluster:/scratch/...` | Upload compressed archives before extraction or streaming                 | Standard practice in large-scale ASR training pipelines                                                |
+
+
+
+<br><br>
 
 ## 2026
-
 
 ```
 - The Origin of 3D Computer Vision
