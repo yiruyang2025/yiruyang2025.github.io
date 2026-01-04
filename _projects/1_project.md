@@ -10,6 +10,12 @@ related_publications: true
 
 <br>
 
+## Background Readings
+
+- [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
+
+
+
 ## Logits and Labels
 
 Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015. and previous work
