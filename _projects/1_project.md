@@ -130,11 +130,11 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ## `opus.tar.gz` Data Extraction
 
 Phase 1 – Safe and Effective
-	•	Italian, Portuguese, Polish (smallest)
-	•	~120k–240k files
-	•	~30–60 GB raw audio
-	•	Leaves plenty of space for training outputs, models, logs
-- Starting with 3–4 non-English languages will use ~100k–400k files and ~30–200 GB space
+- Italian, Portuguese, Polish (smallest)
+- ~120k–240k files
+- ~30–60 GB raw audio
+- Leaves plenty of space for training outputs, models, logs
+Starting with 3–4 non-English languages will use ~100k–400k files and ~30–200 GB space
 
 <br>
 
