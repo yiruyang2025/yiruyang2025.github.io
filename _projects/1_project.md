@@ -129,12 +129,16 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## `opus.tar.gz` Data Extraction
 
-Phase 1 – Safe and Effective
-- Italian, Portuguese, Polish (smallest)
-- ~120k–240k files
-- ~30–60 GB raw audio
-- Leaves plenty of space for training outputs, models, logs
-Starting with 3–4 non-English languages will use ~100k–400k files and ~30–200 GB space
+| Category                         | Phase 1 (Smallest)                                                | Phase 2 (Extended)                                   |
+| -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
+| Languages                        | Italian, Portuguese, Polish                                       | Phase 1 + Spanish                                    |
+| Total Audio Duration             | ~511 hours                                                        | ~1,429 hours                                         |
+| Segment Count                    | ~135,000 files                                                    | ~363,000 files                                       |
+| Estimated Storage (Opus, 16 kHz) | ~15–20 GB                                                         | ~45–60 GB                                            |
+| Recommended Storage Buffer       | ~40–50 GB (2.5×)                                                  | ~110–150 GB (2.5×)                                   |
+| Audio Format Efficiency          | Opus @16 kHz, ~5× smaller than FLAC with near-transparent quality | Same as Phase 1                                      |
+| Segment Length                   | Mostly 10–20 seconds, optimized for GPU VRAM efficiency           | Same as Phase 1                                      |
+| Intended Training Use            | Efficient ASR training with reduced I/O and VRAM footprint        | Larger-scale ASR training and multilingual extension |
 
 <br>
 
