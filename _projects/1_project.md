@@ -133,7 +133,60 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Total Samples                | Approximately 1,296,000                                                                 |
 | Sampling Rate                | 16,000 Hz                                                                               |
 | Training Mode                | Streaming, interleaved across languages                                                 |
-| Batch Size                   | 1 (streaming)                                                                           |
+| Batch Size                   | 1 (streaming) -> 64 with 40G VRAM A100 ->                                               |
+
+<br>
+
+## Optimization and Scheduling
+
+| Component         | Your Configuration         |
+| ----------------- | -------------------------- |
+| Optimizer         | AdamW                      |
+| Weight decay      | 0.01                       |
+| Scheduler         | CosineAnnealingLR          |
+| Max steps         | 20,000                     |
+| Min LR            | 1e-6                       |
+| Mixed precision   | AMP (fp16) with GradScaler |
+| Gradient clipping | Global norm = 1.0          |
+
+<br>
+
+## Initialization and State Management
+
+| Component        | Initialization                   |
+| ---------------- | -------------------------------- |
+| Teacher          | Fully pretrained, frozen         |
+| Student backbone | Pretrained Whisper-medium        |
+| LoRA adapters    | Random init (rank=xxx), trainable |
+| Projection head  | Random linear projection         |
+| Optimizer state  | Fresh if no checkpoint found     |
+| Scheduler state  | Fresh cosine schedule            |
+| AMP scaler       | Initialized before training      |
+
+
+<br>
+
+
+## Italian Training Data Statistics
+
+| Property       | Value                                |
+| -------------- | ------------------------------------ |
+| Language       | Italian                              |
+| Dataset        | MLS (OpenSLR 94, OPUS)               |
+| Training split | train                                |
+| Audio files    | 59,623                               |
+| Total duration | ~279 hours                           |
+| Audio format   | OPUS                                 |
+| Sample rate    | Resampled to 16 kHz                  |
+| Validation     | None (dev split unavailable locally) |
+
+
+```
+1 epoch ≈ 60k steps
+Stage I: 0.25 epoch ≈ 10k steps
+Stage II: 1 epoch ≈ 40k steps
+Stage III: 0.25 epoch ≈ 10k steps
+```
 
 <br>
 
