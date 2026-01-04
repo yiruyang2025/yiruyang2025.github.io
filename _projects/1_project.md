@@ -33,8 +33,6 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
     "final_contrastive": history["contrastive"][-1] if len(history.get("contrastive", [])) > 0 else None,
 ```
 
-<br>
-
 **LoRA + Freezing Parameters: Optimizer Caveat**
 - The optimizer still holds state (e.g., AdamW momentum) for the frozen parameters, these parameters:
 - are not updated, but their optimizer states remain inactive (“stale”)
