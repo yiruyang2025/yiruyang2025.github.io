@@ -15,6 +15,17 @@ related_publications: true
 - [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
 - [Pytorch - Correctly Merge your Pull Requests](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Aezyang+claude+code+is%3Aclosed+label%3AMerged)
 
+## Sharding Design Comparison
+
+| Aspect                                    | JAX Sharding                   | PyTorch Sharding                | Programming Language Analogy |
+| ----------------------------------------- | ------------------------------ | ------------------------------- | ---------------------------- |
+| User Experience                           | More intuitive and declarative | Less intuitive, more imperative | Python > C++                 |
+| Expressiveness Constraints                | Strongly constrained           | Weakly constrained              | Python > C++                 |
+| Extensibility                             | Closed design                  | Open design                     | C++ > Python                 |
+| Ability to Represent Irregular Cases      | Limited                        | Strong                          | C++ > Python                 |
+| Tolerance for “Ugly but Useful” Solutions | Not allowed                    | Allowed                         | C++                          |
+
+
 <br>
 
 ## Logits and Labels
