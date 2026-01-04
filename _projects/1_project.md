@@ -14,7 +14,7 @@ related_publications: true
 
 - [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
 
-
+<br>
 
 ## Logits and Labels
 
