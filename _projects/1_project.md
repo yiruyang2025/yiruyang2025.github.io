@@ -151,6 +151,17 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+```
+Training set: 59,623 audio–text pairs  
+Development (validation) set: 1,248  
+Test set: 1,262
+Batch size: 64  
+Total training steps (MAX_STEPS): 4,000  
+Equivalent number of epochs: ≈ 4
+```
+
+<br>
+
 ## Initialization and State Management
 
 | Component        | Initialization                   |
