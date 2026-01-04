@@ -32,10 +32,10 @@ latest_posts:
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [Orgo.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Hyper-loss, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [Balgrist](https://www.balgrist.ch/en/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Hyper-Loss, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [Balgrist](https://www.balgrist.ch/en/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, [CVG](https://cvg.ethz.ch/research/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion, [CVG](https://cvg.ethz.ch/research/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects, `Liver Donor`
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Dealing with Moving Objects, `Liver Donor`, SSL
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Camera Self-calibration System with `Multi-modal Input Fusion` for Space and Underwater
 
 <br>
