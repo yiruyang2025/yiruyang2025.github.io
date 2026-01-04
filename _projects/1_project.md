@@ -321,6 +321,22 @@ GPU executes the kernel
 | **129.132.250.10** | SIS / Leonhard / LeoMed DNS | Internal DNS for **Leonhard**, **LeoMed**, and **SIS Research IT** environments. |
 | **129.132.250.11** | SIS / Backup DNS            | High-availability (HA) redundant DNS for research and secure clusters.           |
 
+<br>
+
+## Unix vs Linux - Concise Comparison
+
+| Aspect          | Unix (1969)                                                                 | Linux (1991)                                                             |
+| --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Creator         | AT&T Bell Labs (Ken Thompson, Dennis Ritchie)                               | Linus Torvalds                                                           |
+| Motivation      | Replace the bloated Multics system with a simple, reliable operating system | Provide a free, Unix-compatible system that runs on inexpensive hardware |
+| Cost            | Expensive, proprietary                                                      | Free and open-source                                                     |
+| License         | Vendor-specific, closed-source                                              | GNU GPL (open-source)                                                    |
+| Status Today    | Legacy and declining (e.g., Solaris, AIX, HP-UX)                            | Dominant platform (over 90% of servers, all top supercomputers)          |
+| Core Philosophy | Modularity: “Do one thing, and do it well”                                  | Democratization of Unix through open collaboration                       |
+
+
+- **Unix** laid the foundation in 1969 → **Linux** made Unix free and ubiquitous in 1991 → **EOF** enables clean multi-line command input in Bash.
+
 
 <br>
 
