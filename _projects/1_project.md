@@ -15,7 +15,9 @@ related_publications: true
 - [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
 - [Pytorch - Correctly Merge your Pull Requests](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Aezyang+claude+code+is%3Aclosed+label%3AMerged)
 
-## Sharding Design Comparison
+<br>
+
+**Sharding Design Comparison**
 
 | Aspect                                    | JAX Sharding                   | PyTorch Sharding                | Programming Language Analogy |
 | ----------------------------------------- | ------------------------------ | ------------------------------- | ---------------------------- |
