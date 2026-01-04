@@ -102,8 +102,8 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Dataset                      | Facebook Multilingual LibriSpeech                                                       |
 | License                      | CC-BY-4.0                                                                               |
 | Languages                    | 7 (German, French, Dutch, Spanish, Italian, Portuguese, Polish)                         |
-| Language Distribution        | German 86h; French 50h; Dutch 32h; Spanish 71h; Italian 40h; Portuguese 37h; Polish 44h |
-| Total Audio Duration         | 360 hours                                                                               |
+| Language Distribution        | German ~3,288 h; French 50h; Dutch 32h; Spanish 71h; Italian ~279 h + ~0.2 M; Portuguese ~285 h ~0.1–0.2 M; Polish ~137 h + ~0.07 M |
+| Total Audio Duration         | 9015 hours                                                                               |
 | Total Samples                | Approximately 1,296,000                                                                 |
 | Sampling Rate                | 16,000 Hz                                                                               |
 | Training Mode                | Streaming, interleaved across languages                                                 |
@@ -124,6 +124,17 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | Fairness Criterion      | Best achievable performance under validation tuning        | Controlled comparison under identical settings                        |
 | Reviewer Expectation    | Demonstrates competitiveness                               | Ensures causal interpretability of improvements                       |
 
+<br>
+
+
+## `opus.tar.gz` Data Extraction
+
+Phase 1 – Safe and Effective
+	•	Italian, Portuguese, Polish (smallest)
+	•	~120k–240k files
+	•	~30–60 GB raw audio
+	•	Leaves plenty of space for training outputs, models, logs
+- Starting with 3–4 non-English languages will use ~100k–400k files and ~30–200 GB space
 
 <br>
 
