@@ -57,6 +57,12 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 - The optimizer still holds state (e.g., AdamW momentum) for the frozen parameters, these parameters:
 - are not updated, but their optimizer states remain inactive (“stale”)
 
+```
+import librosa
+from jiwer import wer, cer, CharacterErrorRate
+```
+
+
 <br>
 
 ## Diffusion Models
