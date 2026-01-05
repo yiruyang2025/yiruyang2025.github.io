@@ -137,6 +137,14 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 <br>
 
+```
+Italian MLS dataset
+Dataset: 59623 files x 4 epochs = 238492 samples
+Dev: 1248 transcripts, 1248 files
+```
+
+<br>
+
 ## Optimization and Scheduling
 
 | Component         | Your Configuration         |
