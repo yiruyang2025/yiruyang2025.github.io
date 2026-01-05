@@ -277,6 +277,21 @@ Equivalent number of epochs: ≈ 4
 
 <br>
 
+
+## Gradient Accumulation For Whisper-large-v3
+
+| Aspect               | What Happens                                        | Why It Hurts Gradient Accumulation                  |
+| -------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| Non-linear compute   | Audio → Mel → Encoder with **O(T²) attention**      | Compute does **not scale linearly** with batch size |
+| Heavy padding        | Large variance in audio length inside a batch       | Short clips still pay for long ones                 |
+| Per-forward overhead | Padding masks, attention layouts, kernel scheduling | **Repeated every micro-batch**                      |
+| Attention kernels    | Depend on actual sequence length                    | Cannot be reused efficiently                        |
+| GPU scheduling       | Kernel launch & layout setup dominate               | Overhead > useful compute                           |
+
+
+
+<br>
+
 ## Role of Validation Loss in Multilingual KD Training
 
 
