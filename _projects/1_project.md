@@ -70,7 +70,7 @@ from jiwer import wer, cer, CharacterErrorRate
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
   - [Model Structures](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
-  - [2025 - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
+  - [2025 - GDM - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
   - [2025 - Towards 📍 End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
   - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
   - [2025 - 📍 Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2025/index.html)
