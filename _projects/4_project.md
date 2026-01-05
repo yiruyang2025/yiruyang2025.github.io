@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - Medical
-description: LLM Encoding 3D Clinical Knowledge
+title: 2026 - Thesis - Liver Donor
+description: SSL, USZ, Balgrist
 img: assets/img/4.jpg
 importance: 4
 category: work
@@ -67,6 +67,39 @@ Robotics / Embodied AI            | Not actuators, SEA, or motors
                                   | Goal:
                                   | - Replace large sets of heuristics with
                                   |   a unified abstraction
+```
+
+
+<br>
+
+
+## Liver Donor - 39 Real-world Patient Cases
+
+```
+FEATURES = [
+    "donor_age",
+    "AST",
+    "ALT",
+    "bilirubin",
+    "DCD",
+    "cold_ischemia_time",
+    "warm_ischemia_time",
+]
+
+encoder = TabularEncoder(input_dim=len(FEATURES)*2)
+classifier = TransplantabilityHead(z_dim=64)
+
+encoder.eval()
+classifier.eval()
+
+p = predict_transplantability(
+    "donor_012.json",
+    encoder,
+    classifier,
+    FEATURES
+)
+
+print(f"Predicted P(TX) = {p:.3f}")
 ```
 
 
