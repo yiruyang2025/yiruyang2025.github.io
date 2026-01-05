@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Liver Donor
-description: SSL, USZ, Balgrist
+description: SSL, Representation Learning for Privacy, 
 img: assets/img/4.jpg
 importance: 4
 category: work
