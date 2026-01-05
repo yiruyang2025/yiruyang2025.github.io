@@ -192,13 +192,6 @@ Equivalent number of epochs: ≈ 4
 | Validation     | None (dev split unavailable locally) |
 
 
-```
-1 epoch ≈ 60k steps
-Stage I: 0.25 epoch ≈ 10k steps
-Stage II: 1 epoch ≈ 40k steps
-Stage III: 0.25 epoch ≈ 10k steps
-```
-
 <br>
 
 ## ICML Standard Practice for Main Experiments and Ablation Studies
