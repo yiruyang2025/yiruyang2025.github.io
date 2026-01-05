@@ -107,7 +107,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 - Restart the official main training from scratch after hyperparameter search
    - Hyperparameters are selected on a validation set, then the final model is trained from scratch using the selected hyperparameters
 - Random Seed = `52`
-- monitoring at https://wandb.ai/home, Tool in use - colab
+- monitoring at https://wandb.ai/home, Tool in use - colab, AMP FP16 + TF32
 - trainable params: 15,728,640, all params: 181,860,864, trainable%: 8.6487
 
 
@@ -164,7 +164,7 @@ Training set: 59,623 audio–text pairs
 Development (validation) set: 1,248  
 Test set: 1,262
 Batch size: 64  
-Total training steps (MAX_STEPS): 4,000  
+Total training steps (MAX_STEPS): 8,000  
 Equivalent number of epochs: ≈ 4
 ```
 
