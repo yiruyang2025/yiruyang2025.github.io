@@ -32,8 +32,8 @@ images:
 - [2024 - GCD (GarmentCodeData)](https://igl.ethz.ch/projects/GarmentCodeData/)
 - [GCD-MM (GarmentCodeData-MultiModal)](https://huggingface.co/georgeNakayama/AIpparel)
 - [SewFactory - empty in 2025](https://huggingface.co/datasets/liulj/sewfactory)
-
-
+- [POMELO Model Population Density Maps¶](https://gee-community-catalog.org/projects/pomelo/)
+  - POMELO is a deep learning model addressing the need for fine-grained population maps in urban planning, environmental monitoring, public health, and humanitarian operations
 
 
 
