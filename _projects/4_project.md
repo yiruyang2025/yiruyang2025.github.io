@@ -24,6 +24,19 @@ related_publications: true
 
 <br>
 
+```
+        Representation Learning
+                   ▲
+                   │
+Small / Limited Supervision ──── Tabular / Medical Data
+```
+
+
+
+
+
+<br>
+
 ## The 'Right Abstraction' for A System
 
 ```
