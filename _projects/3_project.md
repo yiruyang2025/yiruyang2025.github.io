@@ -23,7 +23,6 @@ related_publications: true
 </p>
 
 
-<br>
 
 - [📍 2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 
