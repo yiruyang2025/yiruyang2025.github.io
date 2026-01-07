@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / Hyper-Loss, [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/), [Balgrist](https://www.balgrist.ch/en/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, ([PRS](https://huggingface.co/prs-eth)), CVG
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion, [CVG](https://cvg.ethz.ch/research/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion, [CVG](https://neural-edge-map.github.io/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), A SSL Encoder
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Multi-camera Self-calibration with `Multi-sensor Input Fusion` for Space and Underwater
 
