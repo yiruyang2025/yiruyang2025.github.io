@@ -10,6 +10,23 @@ related_publications: true
 
 <br>
 
+## References
+
+- [2026 - From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://x.com/leafs_s/status/2009245227295617132?s=20)
+
+
+
+<br>
+
+```
+        Representation Learning
+                   ▲
+                   │
+Small / Limited Supervision ──── Tabular / Medical Data
+```
+
+<br>
+
 ## Impact of Realistic Quantum Noise Modeling on System Capability
 
 | Noise Characteristic                  | Consequence If Ignored                                                                                    | Capability When Properly Modeled                                                                                             |
@@ -24,18 +41,6 @@ related_publications: true
 
 <br>
 
-```
-        Representation Learning
-                   ▲
-                   │
-Small / Limited Supervision ──── Tabular / Medical Data
-```
-
-
-
-
-
-<br>
 
 ## The 'Right Abstraction' for A System
 
