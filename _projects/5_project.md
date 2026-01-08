@@ -38,30 +38,27 @@ Poincaré ≈ Efficient geometry of high-dimensional statistical manifolds in lo
 moving objects⇒state uncertainty grows exponentially in t⇒latent statistical manifold has negative curvature⇒low-dim effective geometry
 ```
 
-<br>
-
-### Latent State Representation
+**Latent State Representation**
 
 The latent state of a moving object is represented by a probability
 distribution
 $$
 p_t(x), \qquad t \ge 0,
 $$
-which evolves over time under stochastic dynamics.
+which evolves over time under stochastic dynamics
 
-<br>
 
-### Assumption (Positive Lyapunov Dynamics)
+**Assumption (Positive Lyapunov Dynamics)**
 
 There exists a constant $\lambda > 0$ such that infinitesimal perturbations
 of the state grow as
 $$
-\|\delta x_t\| \approx \|\delta x_0\| e^{\lambda t}.
+\|\delta x_t\| \approx \|\delta x_0\| e^{\lambda t}
 $$
 
 <br>
 
-### Uncertainty Expansion
+**Uncertainty Expansion**
 
 Let $\Sigma_t$ denote the covariance matrix of $p_t(x)$.
 Under linearized dynamics,
@@ -77,7 +74,7 @@ Thus, the volume of reachable states grows exponentially in time.
 
 <br>
 
-### Information-Geometric Constraint
+**Information-Geometric Constraint**
 
 Let $\mathcal{P}$ denote the space of probability distributions equipped
 with the Fisher--Rao metric $g$.
@@ -102,7 +99,7 @@ $$
 
 <br>
 
-### Effective Geometry
+**Effective Geometry**
 
 Riemannian manifolds with isotropic negative curvature and exponential
 volume growth are quasi-isometric to hyperbolic space $\mathbb{H}^k$.
