@@ -38,74 +38,88 @@ Poincaré ≈ Efficient geometry of high-dimensional statistical manifolds in lo
 moving objects⇒state uncertainty grows exponentially in t⇒latent statistical manifold has negative curvature⇒low-dim effective geometry
 ```
 
-The latent state of a moving object be represented by a probability distribution \( p_t(x) \) evolving over time under stochastic dynamics
+<br>
 
----
+### Latent State Representation
 
-**Assumption (Positive Lyapunov Dynamics).**
+The latent state of a moving object is represented by a probability
+distribution
+$$
+p_t(x), \qquad t \ge 0,
+$$
+which evolves over time under stochastic dynamics.
 
-There exists \( \lambda > 0 \) such that infinitesimal perturbations grow as
-\[
+<br>
+
+### Assumption (Positive Lyapunov Dynamics)
+
+There exists a constant $\lambda > 0$ such that infinitesimal perturbations
+of the state grow as
+$$
 \|\delta x_t\| \approx \|\delta x_0\| e^{\lambda t}.
-\]
+$$
 
----
+<br>
 
-**Uncertainty Expansion.**
+### Uncertainty Expansion
 
-Let \( \Sigma_t \) denote the covariance of \( p_t \).
+Let $\Sigma_t$ denote the covariance matrix of $p_t(x)$.
 Under linearized dynamics,
-\[
+$$
 \Sigma_t \approx J_t \Sigma_0 J_t^\top,
-\quad
-\det \Sigma_t \sim e^{2\lambda d t}.
-\]
+\qquad
+\det \Sigma_t \sim e^{2 \lambda d t},
+$$
+where $J_t$ is the Jacobian of the flow map and $d$ is the intrinsic state
+dimension.
 
 Thus, the volume of reachable states grows exponentially in time.
 
----
+<br>
 
-**Information-Geometric Constraint.**
+### Information-Geometric Constraint
 
-The space of distributions \( \mathcal{P} \) equipped with the Fisher–Rao
-metric \( g \) forms a statistical manifold.
-For a Riemannian manifold, the volume of a geodesic ball satisfies
-\[
+Let $\mathcal{P}$ denote the space of probability distributions equipped
+with the Fisher--Rao metric $g$.
+This space forms a statistical manifold.
+
+For a $d$-dimensional Riemannian manifold, the volume of a geodesic ball
+of radius $r$ satisfies
+$$
 \operatorname{Vol}(B_r)
 =
 C r^d
 \left(
 1 - \tfrac{1}{6}\operatorname{Ric}(v,v) r^2 + O(r^3)
-\right).
-\]
+\right),
+$$
+where $\operatorname{Ric}$ denotes the Ricci curvature.
 
 Exponential volume growth requires
-\[
+$$
 \operatorname{Ric} < 0.
-\]
+$$
 
----
+<br>
 
-**Effective Geometry.**
+### Effective Geometry
 
-Manifolds with isotropic negative curvature and exponential volume growth
-are quasi-isometric to hyperbolic space \( \mathbb{H}^k \).
+Riemannian manifolds with isotropic negative curvature and exponential
+volume growth are quasi-isometric to hyperbolic space $\mathbb{H}^k$.
 
 Therefore, there exists a low-dimensional embedding
-\[
-\Phi : (\mathcal{P}, g_{\mathrm{Fisher}})
+$$
+\Phi :
+(\mathcal{P}, g_{\mathrm{Fisher}})
 \;\to\;
 (\mathbb{H}^k, g_{\mathrm{hyp}})
-\]
+$$
 such that
-\[
+$$
 d_{\mathrm{Fisher}}(p_t, p_{t+\Delta})
 \approx
 d_{\mathbb{H}}(\Phi(p_t), \Phi(p_{t+\Delta})).
-\]
-
----
-
+$$
 
 
 <br>
