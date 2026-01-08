@@ -31,6 +31,85 @@ related_publications: true
 
 <br>
 
+## Dealing with 4D Moving Objects
+
+```
+Poincaré ≈ Efficient geometry of high-dimensional statistical manifolds in low dimensions
+moving objects⇒state uncertainty grows exponentially in t⇒latent statistical manifold has negative curvature⇒low-dim effective geometry
+```
+
+The latent state of a moving object be represented by a probability distribution \( p_t(x) \) evolving over time under stochastic dynamics
+
+---
+
+**Assumption (Positive Lyapunov Dynamics).**
+
+There exists \( \lambda > 0 \) such that infinitesimal perturbations grow as
+\[
+\|\delta x_t\| \approx \|\delta x_0\| e^{\lambda t}.
+\]
+
+---
+
+**Uncertainty Expansion.**
+
+Let \( \Sigma_t \) denote the covariance of \( p_t \).
+Under linearized dynamics,
+\[
+\Sigma_t \approx J_t \Sigma_0 J_t^\top,
+\quad
+\det \Sigma_t \sim e^{2\lambda d t}.
+\]
+
+Thus, the volume of reachable states grows exponentially in time.
+
+---
+
+**Information-Geometric Constraint.**
+
+The space of distributions \( \mathcal{P} \) equipped with the Fisher–Rao
+metric \( g \) forms a statistical manifold.
+For a Riemannian manifold, the volume of a geodesic ball satisfies
+\[
+\operatorname{Vol}(B_r)
+=
+C r^d
+\left(
+1 - \tfrac{1}{6}\operatorname{Ric}(v,v) r^2 + O(r^3)
+\right).
+\]
+
+Exponential volume growth requires
+\[
+\operatorname{Ric} < 0.
+\]
+
+---
+
+**Effective Geometry.**
+
+Manifolds with isotropic negative curvature and exponential volume growth
+are quasi-isometric to hyperbolic space \( \mathbb{H}^k \).
+
+Therefore, there exists a low-dimensional embedding
+\[
+\Phi : (\mathcal{P}, g_{\mathrm{Fisher}})
+\;\to\;
+(\mathbb{H}^k, g_{\mathrm{hyp}})
+\]
+such that
+\[
+d_{\mathrm{Fisher}}(p_t, p_{t+\Delta})
+\approx
+d_{\mathbb{H}}(\Phi(p_t), \Phi(p_{t+\Delta})).
+\]
+
+---
+
+
+
+<br>
+
 ## A Camera Self-calibration System with Multi-sensor Signal Fusion + Dynamic System Temporal Synchronization / Space, Under-water and more Rare Seneraios
 
 
