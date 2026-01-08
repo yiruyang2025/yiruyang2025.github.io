@@ -38,7 +38,7 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
-- ([Prof. Dr. Seong Joon Oh](https://www.linkedin.com/in/seong-joon-oh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app))
+- ([📍 Prof. Dr. Seong Joon Oh](https://www.linkedin.com/in/seong-joon-oh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app))
 - ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html))
   - [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 - [DailyPapers](https://x.com/HuggingPapers)
@@ -46,7 +46,7 @@ images:
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
-- [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
+  - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
 
 
 <br>
