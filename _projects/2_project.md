@@ -46,13 +46,14 @@ This is not a matter of choice — it is a matter of feasibility
 
 - [📍 2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
 - [2023 - Guided 📍 Depth Super-Resolution by Deep Anisotropic Diffusion](https://github.com/prs-eth/Diffusion-Super-Resolution), PRS
-- [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
+- [2024 - ContextGS: Compact 3D Gaussian Splatting with 📍 Anchor Level Context Model](https://proceedings.neurips.cc/paper_files/paper/2024/file/5c20ca4b0b20b0bd2f1d839dc605e70f-Paper-Conference.pdf)
 
 
 - [2025 - 📍 Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
-- [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync), CVG
+- [2025 - RocSync: 📍 Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync)
 - [2025 patent - Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
 - [2025 - Hierarchical 4D Scene Graph](https://nicolasgorlo.com/DAAAM_25/)
+- [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
 
 
 <br>
