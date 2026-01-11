@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Prototype
-description: Neural_Diffusion,
+description: Neural_Diffusion, UZH, 
 img: assets/img/4.jpg
 importance: 3
 category: work
