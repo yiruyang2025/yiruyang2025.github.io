@@ -17,6 +17,7 @@ related_publications: true
 - [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
 - [Pytorch - Correctly Merge your Pull Requests](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Aezyang+claude+code+is%3Aclosed+label%3AMerged)
 - [2025 - "Ghost" Suites for Fast Gradient Information Calculation](https://github.com/Jiachen-T-Wang/GhostSuite)
+- [2026 - Dropout: Training Robust Models Through Noise](https://medium.com/@kdwaMachineLearning/dropout-training-robust-models-through-noise-40befa7b1690)
 
 <br>
 
