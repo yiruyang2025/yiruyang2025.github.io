@@ -16,6 +16,7 @@ related_publications: true
 - [Riemannian Optimization and Manifold Learning](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765)
 - [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
 - [Pytorch - Correctly Merge your Pull Requests](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Aezyang+claude+code+is%3Aclosed+label%3AMerged)
+- [2025 - "Ghost" Suites for Fast Gradient Information Calculation](https://github.com/Jiachen-T-Wang/GhostSuite)
 
 <br>
 
