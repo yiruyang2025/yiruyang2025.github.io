@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Hyper-Loss](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/)
 - 📍 [Project and Master Thesis 1](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D, ([PRS](https://huggingface.co/prs-eth)), CVG
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion, [CVG](https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion, ([PRS](https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html))
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), A SSL Encoder, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Thesis 2](https://yiruyang2025.github.io/projects/5_project/) - Multi-camera Self-calibration with `Multi-sensor Input Fusion` for Space and Underwater
 
