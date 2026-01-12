@@ -13,7 +13,7 @@ related_publications: true
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0, 
-- [2025 - WeDLM : Reconciling 📍 Diffusion Language Models with Standard Causal Attention for Fast Inference](https://wedlm.github.io/)
+- [2025 - WeDLM : Reconciling Diffusion Language Models with Standard Causal Attention for Fast Inference](https://wedlm.github.io/)
 - [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
 - [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
 - [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
