@@ -25,6 +25,7 @@ images:
 - [2025 - CL-Splats-Dataset](https://huggingface.co/datasets/ackermannj/cl-splats-dataset)
 - [SwissHeart Study](https://cmr.ethz.ch/swiss-heart-study.html)
 - [Dec 2025 - Performance Guide](https://abseil.io/fast/)
+- [2024 - Generative Zoo](https://genzoo.is.tue.mpg.de/)
 
 
 <br>
