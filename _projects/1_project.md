@@ -1616,6 +1616,25 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
+**ResNet**
+
+```
+Plain Net:                 ResNet:
+
+Input                      Input
+  │                          │
+[Conv]                    [Conv]
+  │                          │
+[Conv]        vs         [Conv] +───┐
+  │                          │      │
+[Conv]                    [Conv] ◄──┘
+  │                          │
+Output                     Output
+```
+
+
+<br>
+
 
 | **Stage** | **Process** | **Mathematical Meaning** | **Intuitive Explanation** |
 |------------|--------------|---------------------------|----------------------------|
