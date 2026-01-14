@@ -1638,6 +1638,13 @@ Local region
 │               │
 │   weak  STRONG│  ──►  STRONG
 └───────────────┘
+
+# 2D + 3D Convolution
+Input: H × W × C
+Kernel: k × k × C
+
+Input: H × W × T × C
+Kernel: k × k × k × C
 ```
 
 
