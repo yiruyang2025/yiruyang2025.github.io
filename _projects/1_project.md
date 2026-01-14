@@ -1630,6 +1630,14 @@ Input                      Input
 [Conv]                    [Conv] ◄──┘
   │                          │
 Output                     Output
+
+# Pooling Layer
+Local region
+┌───────────────┐
+│   weak   weak │
+│               │
+│   weak  STRONG│  ──►  STRONG
+└───────────────┘
 ```
 
 
