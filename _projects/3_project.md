@@ -14,7 +14,8 @@ related_publications: true
 ## Topic
 
 
--  [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
+- [2023 - AlphaDev discovers faster sorting algorithms](https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/)
+- [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
 
 
 
