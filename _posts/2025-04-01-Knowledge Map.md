@@ -80,7 +80,7 @@ images:
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++, Robotics, 26)
 
-[Computer Vision for Automated Driving](https://www.linkedin.com/posts/insaitinstitute_insait-introduces-diffsim-trinity-diffsimtrinityinsaitai-activity-7416396320137011200-tgfl?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link) (PRS, UZH AI, 🩵 26), Christos Sakaridis
+[Computer Vision for Automated Driving](https://www.linkedin.com/posts/insaitinstitute_insait-introduces-diffsim-trinity-diffsimtrinityinsaitai-activity-7416396320137011200-tgfl?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link) (PRS, 26), Christos Sakaridis
 
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
 
