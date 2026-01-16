@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Liver Donor
+title: 2026 - Thesis - Liver Predictor
 description: SSL, USZ, 
 img: assets/img/4.jpg
 importance: 4
@@ -12,9 +12,10 @@ related_publications: true
 
 ## References
 
-- [2026 - From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://x.com/leafs_s/status/2009245227295617132?s=20)
-
-
+- [1] 📍 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021 Oral.
+- [2] BYOL: Bootstrap your own latent: A new approach to self-supervised Learning, Google Deepmind, NeurIPS 2020.
+- [3] CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
+- [4] AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, NeurIPS 2012.
 
 <br>
 
@@ -24,6 +25,8 @@ related_publications: true
                    │
 Small / Limited Supervision ──── Tabular / Medical Data
 ```
+
+Moderate clustering metrics across PCA, t-SNE, and UMAP indicate non-random latent structure but insufficient outcome separability, highlighting the need for representation learning beyond geometric proximity in raw tabular space.
 
 <br>
 
