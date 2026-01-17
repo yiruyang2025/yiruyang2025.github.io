@@ -39,30 +39,6 @@ WHERE uv = (u, v);
 - In the CPU era, algorithms aimed to reduce instruction cycles;
 - In the GPU era, algorithms aim to achieve memory coalescing and avoid branch prediction.
 
-<br>
-
-## 2026 Experiments with Hash Table
-
-**Config**
-
-- Optimizer: AdamW
-- Learning rate: $1 \times 10^{-4}$
-- LR schedule: cosine decay → 0
-- Warm-up: first 500 steps
-- Batch size: 32 per GPU (total batch size = 32)
-- Training steps: 25,000
-- Total training time: ≈ 36–48 hours (2 × A100)
-
-<br>
-
-## Ablations
-
-| Method           | Geometric Representation | Non-Rigid Handling       | Evaluation Focus (Ablation Purpose)                                                                                                                              |
-| ---------------- | ------------------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AIpparel (Base)  | Mesh                     | Weak (Parametric)        | Serves as a base model to reveal the limitations of parametric mesh representations in capturing fine-grained surface deformations.                              |
-| 3DGS (Baseline)  | Points / Splatting       | Strong (Point-based)     | Evaluates whether point-based splatting can recover detailed wrinkles, while exposing its inherent limitations in topology consistency and structural coherence. |
-| Ours (Diffusion) | Refined Mesh             | Very Strong (Generative) | Demonstrates that diffusion-based modeling can simultaneously achieve fine-grained geometric detail and sewing-pattern consistency.                              |
-
 
 <br>
 
