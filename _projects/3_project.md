@@ -39,7 +39,7 @@ WHERE uv = (u, v);
 ```
 - Here, the “residual” represents high-frequency appearance or geometric detail attached to a specific surface location, while the global garment shape, panel layout, and sewing-pattern topology remain fixed by construction.
 - This shift—from unstructured geometry to structured surface coordinates—is what makes neural diffusion refinement efficient and controllable. Diffusion no longer needs to explore the full space of possible surfaces; it only operates on surface-aligned residual fields defined over a stable coordinate system. As a result, the generative space is dramatically reduced, and complex refinement tasks can be solved with far fewer diffusion steps.
-- In essence, Nuvo provides the schema. Neural diffusion becomes the query engine `in A Hash Table'.
+- In essence, Nuvo provides the schema. Neural diffusion becomes the query engine `in A Hash Table`.
 
 
 
