@@ -34,6 +34,10 @@ FROM garment_surface
 WHERE uv = (u, v);
 ```
 
+**Modern Hardware-aware Algorithm**
+
+- In the CPU era, algorithms aimed to reduce instruction cycles;
+- In the GPU era, algorithms aim to achieve memory coalescing and avoid branch prediction.
 
 <br>
 
