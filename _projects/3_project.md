@@ -28,19 +28,6 @@ related_publications: true
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
 
-- Once the surface of a 3D garment has been flattened into 2D charts by `Nuvo (2023)`, the problem fundamentally changes in nature.
-Originally, garment geometry lives in an unstructured space: a collection of points or triangles in 3D, with irregular connectivity and no canonical indexing. Performing learning or optimization directly in this space is analogous to querying an unindexed, schema-less database—powerful, but inefficient and unstable.
-- Nuvo transforms this representation by mapping the garment surface onto a set of continuous UV charts. This operation effectively converts an unstructured geometric dataset into a structured, surface-aligned domain. In database terms, a point cloud or mesh becomes a table indexed by UV coordinates. Refinement becomes a local, structured operation defined over the UV domain. Conceptually, this reduces to a simple query over a structured dataset:
-```
-SELECT residual
-FROM garment_surface
-WHERE uv = (u, v);
-```
-- Here, the “residual” represents high-frequency appearance or geometric detail attached to a specific surface location, while the global garment shape, panel layout, and sewing-pattern topology remain fixed by construction.
-- This shift—from unstructured geometry to structured surface coordinates—is what makes neural diffusion refinement efficient and controllable. Diffusion no longer needs to explore the full space of possible surfaces; it only operates on surface-aligned residual fields defined over a stable coordinate system. As a result, the generative space is dramatically reduced, and complex refinement tasks can be solved with far fewer diffusion steps.
-- In essence, Nuvo provides the schema. Neural diffusion becomes the query engine.
-
-
 
 <br>
 
