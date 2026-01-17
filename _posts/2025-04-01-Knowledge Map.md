@@ -104,6 +104,10 @@ Graph Theory
 
 Information Geometry
 
+Calculus of Variations
+
+Visual Complex Analysis - Tristan Needham。
+
 (Lie Group and Riemannian Geometry)
 
 (Real Analysis)
