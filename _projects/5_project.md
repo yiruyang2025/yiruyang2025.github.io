@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Brain Mapping / Camera
-description: Multi-modal Fusion, SSL
+description: Multi-modal Fusion
 img: assets/img/4.jpg
 importance: 5
 category: work
