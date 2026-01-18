@@ -31,7 +31,7 @@ related_publications: true
 **Overview**
 
 - We demonstrate that, under high-performance hardware (H200) conditions, constructing a geometry-aligned discrete hash field is the optimal solution for handling high-frequency garment details compared to stacking deep MLPs.
-- By defining the diffusion process `within the residual hash space`, we achieve `O(1)-level feature extraction` for complex nonlinear folds.
+- By defining the diffusion process `within the residual hash space`, we achieve 📍 `O(1)-level feature extraction` for complex nonlinear folds.
 
 
 ```
