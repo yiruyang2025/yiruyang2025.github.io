@@ -29,6 +29,15 @@ related_publications: true
 - Tools in use, H200
 
 ```
+model:
+  num_charts: 8
+  use_vertex_duplication: true ##
+  hidden_dim: 256
+  num_layers: 8
+```
+
+**Assign Hash to your Nvidia sponsored renders**
+```
 SELECT residual
 FROM garment_surface
 WHERE uv = (u, v);
