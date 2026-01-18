@@ -40,7 +40,7 @@ moving objects⇒state uncertainty grows exponentially in t⇒latent statistical
 
 <br>
 
-## A Camera Self-calibration System with Multi-sensor Signal Fusion + Dynamic System Temporal Synchronization / Space, Under-water and more Rare Seneraios
+## Multi-sensor Input Fusion From Space
 
 
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
