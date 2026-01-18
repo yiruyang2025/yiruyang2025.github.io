@@ -28,6 +28,12 @@ related_publications: true
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
 
+**Overview**
+
+- We demonstrate that, under high-performance hardware (H200) conditions, constructing a geometry-aligned discrete hash field is the optimal solution for handling high-frequency garment details compared to stacking deep MLPs.
+- By defining the diffusion process `within the residual hash space`, we achieve `O(1)-level feature extraction` for complex nonlinear folds.
+
+
 ```
 model:
   num_charts: 8
