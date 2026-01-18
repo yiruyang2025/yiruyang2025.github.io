@@ -73,6 +73,14 @@ WHERE uv = (u, v);
 
 <br>
 
+
+> On LeetCode, your opponent is **computational complexity**; at SIGGRAPH, your opponent is **entropy**.
+
+  - The hash-value mindset you `like` (for example, Instant-NGP) is essentially a classic *programmer’s counterattack*. It no longer tries to understand complex geometric continuity. Instead, it says: `I don’t care how complicated your surface is—I’ll just chop you up in hash space and look you up in a table`
+  - This approach—trading space for time, and lookup tables for computation—may have little aesthetic appeal in the eyes of mathematicians, `but on an H200, it runs the fastest`
+
+<br>
+
 **Modern Hardware-aware Algorithm**
 
 - In the CPU era, algorithms aimed to reduce instruction cycles;
