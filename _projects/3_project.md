@@ -50,7 +50,7 @@ WHERE uv = (u, v);
   - `Value` is the corresponding geometric residual $R$.
   - The `beauty` lies in avoiding all the pitfalls of high-frequency signal fitting, because the hash table itself can perfectly store high-frequency information, requiring `no` Fourier transform patching.
  
-📍 **Note** - Once it becomes discrete geometry, you don't have to work on it anymore, all been solved by a large `Hash Table` -> let's move on to `Continuous Geometry / Signal Processing` in [Liver predictor](https://github.com/yiruyang2025/Liver_Predictor)
+📍 **Notes** - Once it becomes discrete geometry, you don't have to work on it anymore, all been solved by a large `Hash Table` -> let's move on to Continuous Geometry / Signal Processing in [Liver predictor - 2026](https://github.com/yiruyang2025/Liver_Predictor)
 
 <br>
 
