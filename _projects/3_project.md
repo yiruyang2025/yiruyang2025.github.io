@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Prototype
-description: Neural_Diffusion, UZH, 
+description: Neural_Diffusion, per-scene optimization
 img: assets/img/4.jpg
 importance: 3
 category: work
