@@ -79,6 +79,7 @@ from jiwer import wer, cer, CharacterErrorRate
   - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
   - [2025 - 📍 Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2025/index.html)
   - [2026 - OpenAI - Large Video Planner (LVP-14B)](https://x.com/boyuanchen0/status/2008269201694495227?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  - [2025 - pi-Flow: 📍 Policy-Based Few-Step Generation via Imitation Distillation](https://arxiv.org/pdf/2510.14974), preprint
 
 
 ```
