@@ -27,7 +27,7 @@ related_publications: true
 
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
-- Diffusion: 5 steps, beta=[0.0001, 0.02]
+- Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
 
 **Overview**
 
