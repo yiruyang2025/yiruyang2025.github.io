@@ -32,6 +32,7 @@ related_publications: true
 model:
   num_charts: 8
   use_vertex_duplication: true *https://github.com/ruiqixu37/Nuvo
+-> then for the diffusion process -> It's just about tweaking details in a function space where the geometry is already aligned.
   hidden_dim: 256
   num_layers: 8
 ```
