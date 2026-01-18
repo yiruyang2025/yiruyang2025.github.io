@@ -44,6 +44,13 @@ FROM garment_surface
 WHERE uv = (u, v);
 ```
 
+- By discretize the 3D space：
+  - Hash function is Nuvo. It maps $P(x,y,z)$ to a specific (chart_id, u, v).
+  - Key is these UV coordinates. Your value is the corresponding geometric residual $R$.
+  - The `beauty` lies in avoiding all the pitfalls of high-frequency signal fitting, because the hash table itself can perfectly store high-frequency information, requiring `no` Fourier transform patching.
+
+<br>
+
 **Modern Hardware-aware Algorithm**
 
 - In the CPU era, algorithms aimed to reduce instruction cycles;
