@@ -31,7 +31,7 @@ related_publications: true
 ```
 model:
   num_charts: 8
-  use_vertex_duplication: true ##
+  use_vertex_duplication: true *https://github.com/ruiqixu37/Nuvo
   hidden_dim: 256
   num_layers: 8
 ```
