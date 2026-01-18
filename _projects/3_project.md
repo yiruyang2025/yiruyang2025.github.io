@@ -61,6 +61,17 @@ WHERE uv = (u, v);
 
 <br>
 
+
+**Some Over-smooth Outcome**
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_3.png" alt="Project 1 Visualization" width="75%">
+</p>
+
+
+
+<br>
+
 **Modern Hardware-aware Algorithm**
 
 - In the CPU era, algorithms aimed to reduce instruction cycles;
