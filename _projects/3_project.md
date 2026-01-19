@@ -14,6 +14,7 @@ related_publications: true
 Real-time is the only time. The rest is just latency.
                       --- `Hash Firm Zurich`
 
+- If the hardware (such as the H200) provides terrifying memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
 
 <br>
 
@@ -58,6 +59,13 @@ SELECT residual
 FROM garment_surface
 WHERE uv = (u, v);
 ```
+
+- Nuvo is Data Indexer
+- Diffusion is Error Corrector
+- H200 is Hardware Accelerator
+
+Can also add a **"stitching graph consistency check"**, which is essentially a `Union-Find problem in graph theory`, ensuring that the hash values ​​at the stitching points of two pieces eventually converge to the same value.
+
 
 - By discretize the 3D space：
   - Hash function is Nuvo. It maps $P(x,y,z)$ to a specific (chart_id, u, v).
