@@ -29,16 +29,6 @@ related_publications: true
 
 <br>
 
-The development order of a field is determined by 
-  - `the highest level of abstraction humans can reliably control` at the time
-In other words:
-  - Humans model first at the level they can control
-  - Levels that cannot be controlled are necessarily postponed
-This is not a matter of choice — it is a matter of feasibility
-
-
-<br>
-
 ## References
 
 - [2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
