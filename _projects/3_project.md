@@ -11,6 +11,13 @@ related_publications: true
 <br>
 
 
+Real-time is the only time. The rest is just latency.
+                      --- `Hash Firm Zurich`
+
+
+<br>
+
+
 ## Topic
 
 - [2023 - AlphaDev discovers faster sorting algorithms](https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/)
