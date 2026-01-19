@@ -14,7 +14,7 @@ related_publications: true
 Real-time is the only time. The rest is just latency.
                       --- `Hash Firm Zurich`
 
-- If the hardware (such as the H200) provides terrifying memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
+- If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
 
 <br>
 
