@@ -42,6 +42,6 @@ latest_posts:
 
 **Interests**
   - [Sp](https://x.com/googleresearch/status/2010774511101333958?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)[ace](https://www.linkedin.com/posts/eth-zurich-space_ethzurich-ieeefellow-remotesensing-activity-7415331554950119425-9xEy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), Backbones, Perception
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [KPI](https://www.nature.com/articles/d41586-025-01125-9)
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
 
 <div style="height: 4rem;"></div>
