@@ -121,8 +121,7 @@ p = predict_transplantability(
 print(f"Predicted P(TX) = {p:.3f}")
 ```
 
-
-<br><br><br>
+<br>
 
 ## References
 
