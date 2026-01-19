@@ -538,7 +538,6 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Camera Registration    | Estimation of the **rigid pose (rotation & translation)** of a camera relative to another reference (e.g., another camera, a world frame, or a sensor) |
 | Assumption (classical) | Camera parameters are static and known                                                                                                                 |
 
-
 <br>
 
 
@@ -556,36 +555,8 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | String Theory        | Green, Schwarz, Witten          | 1970s–    | Quantum gravity + unification           | 1D strings, higher dimensions       | Unverified, controversial |
 
 
-<br>
-
-## 📍 Camera System Overview
-
-| Category                        | Typical Camera Count |
-| ------------------------------- | -------------------- |
-| Safety & Situational Awareness  | 4–8                  |
-| Landing & Navigation            | 2–4                  |
-| Thermal Protection System (TPS) | 6–20                 |
-| Engine & Propulsion Monitoring  | 3–6                  |
-| Ground Operations & Maintenance | Mobile / Portable    |
-| Commercial Payloads             | Mission-dependent    |
-| Media, Documentation & PR       | 2–6                  |
-
-
-<br><br>
-
-
-## References - Canonical Theory: Sensory Conflict Theory
-
-| Aspect       | Description                                                                                                                                                                               |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Origin       | Sensory Conflict Theory was introduced by Reason & Brand (1975) and further elaborated in Reason (1978) as a dominant framework in motion sickness research    |
-| Core idea    | Motion sickness arises when there is a mismatch between sensory inputs (e.g., visual, vestibular, and proprioceptive) and what is expected based on prior experience  |
-| Key conflict | Discrepancies between visual motion cues and vestibular (inner ear) information commonly drive symptoms such as nausea, head discomfort, and disorientation    |
-| On-device relevance | Extended to virtual reality, simulator sickness, and cybersickness, where lack of physical motion but visual motion cues induce sensory conflict, leading to adverse symptoms |
-
-
-
 <br><br><br>
+
 
 
 
