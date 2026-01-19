@@ -19,11 +19,6 @@ images:
 - [User Studies](https://juliachatain.com/)
 
 
-
-
-
-
-
 <br><br>
 
 ## 2025
@@ -47,7 +42,11 @@ images:
 - [POMELO Model Population Density Maps¶](https://gee-community-catalog.org/projects/pomelo/)
   - POMELO is a deep learning model addressing the need for fine-grained population maps in urban planning, environmental monitoring, public health, and humanitarian operations
 
+<br>
 
+## Notes
+
+- [2025 - Recursive Language Models](https://arxiv.org/pdf/2512.24601)
 
 
 
