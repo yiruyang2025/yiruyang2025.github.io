@@ -46,7 +46,7 @@ moving objects⇒state uncertainty grows exponentially in t⇒latent statistical
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
 
 
-- [📍 2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
+- [2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
 - [2025 - Aria Gen 2 Documentation](https://facebookresearch.github.io/projectaria_tools/gen2/)
 - [1998 - Self-calibration and metric reconstruction in spite of varying and unknown internal camera parameters](https://ieeexplore.ieee.org/document/710705)
