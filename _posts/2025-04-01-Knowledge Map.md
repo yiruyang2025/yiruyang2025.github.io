@@ -60,7 +60,6 @@ images:
 - [2025 - 📍 Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - The most complex model we actually understand - Welch Labs](https://www.youtube.com/watch?v=D8GOeCFFby4&t=704s)
   - [Welch Labs](https://www.welchlabs.com/)
-- [2025 - Decoupling for Markov Chains](https://www.linkedin.com/posts/nawaf-bou-rabee-559225310_decoupling-for-markov-chains-activity-7408870990396469248-jikM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 <br>
 
@@ -290,7 +289,7 @@ Visual Complex Analysis - Tristan Needham。
 
 
 
-<br><br><br><br><br>
+<br><br><br>
 
 
 ## Post-Training Techniques
