@@ -68,7 +68,6 @@ WHERE uv = (u, v);
  
 📍 **Notes** - Once it becomes discrete geometry, you don't have to work on it anymore, all been solved by a large `Hash Table` -> let's move on to Continuous Geometry / Signal Processing in [Liver predictor](https://github.com/yiruyang2025/Liver_Predictor)
 
-<br>
 
 ```
 python train_demo.py --config configs/demo.yaml --sample_idx 5
