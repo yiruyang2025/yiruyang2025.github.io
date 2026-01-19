@@ -23,20 +23,10 @@ related_publications: true
 
 - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
-    - [Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
+    - [Prof. Dr. Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 - [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
 - [2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
-- [2025 - 📍 Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](https://iccv.thecvf.com/virtual/2025/poster/278)
-
-
-<br>
-
-## Dealing with 4D Moving Objects
-
-```
-Poincaré ≈ Efficient geometry of high-dimensional statistical manifolds in low dimensions
-moving objects⇒state uncertainty grows exponentially in t⇒latent statistical manifold has negative curvature⇒low-dim effective geometry
-```
+- [2025 - Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](https://iccv.thecvf.com/virtual/2025/poster/278)
 
 <br>
 
