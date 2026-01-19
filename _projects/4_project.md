@@ -12,12 +12,10 @@ related_publications: true
 
 ## References
 
-- 📍 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021 Oral.
+- 📍 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021.
 - BYOL: Bootstrap your own latent: A new approach to self-supervised Learning, Google Deepmind, NeurIPS 2020.
 - CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, NeurIPS 2012.
-
-<br>
 
 ```
         Representation Learning
