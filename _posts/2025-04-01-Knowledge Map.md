@@ -31,7 +31,8 @@ images:
   - [🧊 2026 - Ice Maze RL Basis](https://www.linkedin.com/posts/ravinakumar_ice-maze-rl-basics-activity-7415813269673750529-RwI0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
   - [ml-switcheroo 🔄🦘](https://samuelmarks.github.io/ml-switcheroo/)
     - A Deterministic, Specification-Driven `Transpiler for Deep Learning Frameworks`
-
+  - [2025 - Mastering Learning Rate Schedulers in Deep Learning](https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71)
+  - [2026 - Understanding Rust’s Memory Model](https://medium.com/@limemanas0/understanding-rusts-memory-model-ed3a4342c66f)
 
 <br>
 
