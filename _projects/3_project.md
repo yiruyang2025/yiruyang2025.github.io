@@ -37,10 +37,10 @@ Real-time is the only time. The rest is just latency.
 
 **Overview**
 
-- `Stop diffusing, start addressing. Our neural network is just a hash function with a better PR team.`
-
 - We demonstrate that, under high-performance hardware (H200) conditions, constructing a geometry-aligned discrete hash field is the optimal solution for handling high-frequency garment details compared to stacking deep MLPs.
 - By defining the diffusion process `within the residual hash space`, we achieve 📍 `per-point refinement cost` does not scale with geometric complexity for complex nonlinear folds.
+- `three_two_three` (bijective constraint): Equivalent to `assert hash_map.size() == unique_points.size()`. A low weight for this constraint indicates severe hash collisions, meaning multiple 3D points map to the same UV, resulting in a blurry rendering.
+- `cluster` (clustering constraint): Equivalent to `assert is_adjacent(p1, p2) == is_adjacent(hash(p1), hash(p2))`. It ensures that spatially adjacent points are also close together in the hash bucket, preventing the rendering from becoming fragmented.
 
 
 ```
