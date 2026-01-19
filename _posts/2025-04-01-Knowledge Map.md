@@ -60,6 +60,8 @@ images:
 - [2025 - 📍 Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - The most complex model we actually understand - Welch Labs](https://www.youtube.com/watch?v=D8GOeCFFby4&t=704s)
   - [Welch Labs](https://www.welchlabs.com/)
+- [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
+
 
 <br>
 
