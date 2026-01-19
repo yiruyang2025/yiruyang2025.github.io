@@ -62,9 +62,18 @@ WHERE uv = (u, v);
 
 <br>
 
+```
+python train_demo.py --config configs/demo.yaml --sample_idx 5
 
+Losses: Diffusion (MSE) + LPIPS
+- diffusion_weight: 1.0
+- lpips_weight: 0.5
+- l1_weight: 0.5 (metric only)
+```
 
-**Some Draft Outcome**
+<br>
+
+**Some Draft Can't be use Outcome**
 
 
 <p align="left">
