@@ -108,8 +108,6 @@ Losses: Diffusion (MSE) + LPIPS
   - Patches include: Positional Encoding, Hash Grid, Tri-plane...
 - The truth: This is essentially because `MLPs (Neural Networks) are too inefficient / un-flexible`; they can't remember high-frequency details. So, people manually add "external storage" to them
 
-<br>
-
 - On LeetCode, your opponent is **computational complexity**; at SIGGRAPH, your opponent is **entropy**.
   - The hash-value mindset you `like` (for example, Instant-NGP) is essentially a classic *programmer’s counterattack*. It no longer tries to understand complex geometric continuity. Instead, it says: `I don’t care how complicated your surface is—I’ll just chop you up in hash space and look you up in a table`
   - This approach—trading space for time, and lookup tables for computation—may have little aesthetic appeal in the eyes of mathematicians, `but on an H200, it runs the fastest`
