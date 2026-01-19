@@ -13,7 +13,6 @@ related_publications: true
 
 ## Topic
 
-- "Stop diffusing, start addressing. Our neural network is just a hash function with a better PR team."
 - [2023 - AlphaDev discovers faster sorting algorithms](https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/)
 - [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
 
@@ -30,6 +29,8 @@ related_publications: true
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
 
 **Overview**
+
+- `Stop diffusing, start addressing. Our neural network is just a hash function with a better PR team.`
 
 - We demonstrate that, under high-performance hardware (H200) conditions, constructing a geometry-aligned discrete hash field is the optimal solution for handling high-frequency garment details compared to stacking deep MLPs.
 - By defining the diffusion process `within the residual hash space`, we achieve 📍 `per-point refinement cost` does not scale with geometric complexity for complex nonlinear folds.
