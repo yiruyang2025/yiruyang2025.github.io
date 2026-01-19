@@ -11,9 +11,7 @@ related_publications: true
 <br>
 
 
-Real-time is the only time. The rest is just latency.
-                      --- `Hash Firm Zurich`
-
+Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
 
 <br>
