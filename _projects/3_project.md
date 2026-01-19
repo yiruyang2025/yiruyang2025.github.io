@@ -63,6 +63,15 @@ WHERE uv = (u, v);
 <br>
 
 
+
+**Some Draft Outcome**
+
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_4.png" alt="Project 1 Visualization" width="75%">
+</p>
+
+
 **Some Over-smooth Outcome**
 
 <p align="left">
