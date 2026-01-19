@@ -89,11 +89,9 @@ Losses: Diffusion (MSE) + LPIPS
 
 <br>
 
-**Pls Don't Read**
-
-- In LeetCode, a coordinate point is simply (x, y), the logic is very clear. However, in current computer graphics papers, to enable neural networks to optimize this point, they've invented:
+- In LeetCode, `a coordinate point` is simply (x, y), the logic is very clear. However, in current computer graphics papers, to enable neural networks to optimize this point, they've invented:
   - Patches include: Positional Encoding, Hash Grid, Tri-plane...
-- The truth: This is essentially because MLPs (Neural Networks) are too inefficient; they can't remember high-frequency details. So, people manually add "external storage" to them
+- The truth: This is essentially because `MLPs (Neural Networks) are too inefficient / un-flexible`; they can't remember high-frequency details. So, people manually add "external storage" to them
 
 <br>
 
