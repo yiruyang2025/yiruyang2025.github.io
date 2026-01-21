@@ -156,10 +156,7 @@ Visual Complex Analysis - Tristan Needham。
 | Who this suits         | Researchers already past the “learning new tools” phase    |
 
 
-
 <br>
-
-
 
 ## A. Fundamental Open Problems in Pure Mathematics
 
