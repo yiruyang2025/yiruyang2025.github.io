@@ -48,6 +48,7 @@ images:
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
+- ([Philipp Fischer](https://lmb.informatik.uni-freiburg.de/people/fischer/)), author of U-net and FlowNet, University of Freiburg, de
 
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
   - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
