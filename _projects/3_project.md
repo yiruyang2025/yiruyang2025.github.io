@@ -10,9 +10,14 @@ related_publications: true
 
 <br>
 
-
 Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
+
+<br>
+
+- Prompt some certain Numbers of different size of buildings + avoid lakes, etc. <- with `assigning some certain Hash Value for the diversity` if you like (I did so), some [Blender Demo](https://drive.google.com/file/d/1yHixdRDu0Iu6Sx7p0kxDcGuDV4XWsMYe/view?usp=sharing) Auto 3D Assets Prompting in Sep 2026.
+
+
 
 <br>
 
