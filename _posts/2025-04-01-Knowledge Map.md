@@ -71,6 +71,7 @@ images:
 **♨️ Zurich**
 
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
+- [Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
 - [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
 
 
