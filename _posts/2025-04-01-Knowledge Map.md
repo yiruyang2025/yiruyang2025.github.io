@@ -104,17 +104,15 @@ Doctoral Seminar in Visual Computing
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender, SUMO, Unreal, 25)
 
-Drug efficacy and pathway assessment in Brain Cancer
-
 Medical AI / Health Tech
 
 Graph Theory
 
 Information Geometry
 
-Calculus of Variations
+(Calculus of Variations)
 
-Visual Complex Analysis - Tristan Needham。
+(Visual Complex Analysis - Tristan Needham)
 
 (Lie Group and Riemannian Geometry)
 
@@ -217,7 +215,6 @@ Visual Complex Analysis - Tristan Needham。
 
 
 <br>
-
 
 **Level 2 — Identifiability, Limits, and Impossibility**
 
