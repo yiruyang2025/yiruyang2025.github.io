@@ -30,7 +30,7 @@ related_publications: true
 
 <br>
 
-## Multi-sensor Input Fusion From Space
+## Multi-sensor Input Fusion From Space, Safety Detection
 
 
 - The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
