@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Brain Mapping / Space
+title: 2026 - Master Thesis - Space
 description: Multi-modal Sensor Fusion
 img: assets/img/4.jpg
 importance: 5
