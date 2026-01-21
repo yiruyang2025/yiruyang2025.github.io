@@ -72,6 +72,7 @@ images:
 
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
 - [🧊 Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
+- [Where to Ski](https://x.com/jphorism/status/2009748551006380069?s=12&t=1tqSPaJVuc_ns2oTMZs8EQ)
 - [MeiXin Tischgrill](https://www.instagram.com/meixingrill/)
 
 
