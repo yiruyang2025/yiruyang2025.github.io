@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Master Thesis and Project
+title: 2025 - Thesis and Project
 description: 4D Reconstruction, (PRS), USZ
 img: assets/img/4.jpg
 importance: 2
