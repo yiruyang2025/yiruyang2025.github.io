@@ -109,9 +109,7 @@ Losses: Diffusion (MSE) + LPIPS
 
 <br>
 
-- In LeetCode, `a coordinate point` is simply (x, y), the logic is very clear. However, in current computer graphics papers, to enable neural networks to optimize this point, they've invented:
-  - Patches include: Positional Encoding, Hash Grid, Tri-plane...
-- The truth: This is essentially because `MLPs (Neural Networks) are too inefficient / un-flexible`; they can't remember high-frequency details. So, people manually add "external storage" to them
+- In LeetCode, `a coordinate point` is simply (x, y), the logic is very clear. However, in current computer graphics papers, the goal is to enable neural networks to optimize this point, The truth: This is essentially because `MLPs (Neural Networks) are too inefficient / un-flexible`, they can't remember high-frequency details. So, people manually add "external storage" to them.
 
 - In LeetCode, your opponent is **computational complexity**, at SIGGRAPH, your opponent is **entropy**.
   - The hash-value mindset you `like` (for example, Instant-NGP) is essentially a classic *programmer’s counterattack*. It no longer tries to understand complex geometric continuity. Instead, it says: `I don’t care how complicated your surface is—I’ll just chop you up in hash space and look you up in a table`
