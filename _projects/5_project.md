@@ -13,7 +13,6 @@ related_publications: true
 ## Topics
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
-  - [Thesis](https://sirop.org/app/013a8549-281d-475b-bc42-1a63fff75d98?_k=D4wOn3UvPzaQuIzU)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
 
 <br>
