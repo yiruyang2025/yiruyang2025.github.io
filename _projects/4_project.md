@@ -16,6 +16,7 @@ related_publications: true
 - BYOL: Bootstrap your own latent: A new approach to self-supervised Learning, Google Deepmind, NeurIPS 2020.
 - CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, NeurIPS 2012.
+- [2024 - SignCLIP: Connecting Text and Sign Language by Contrastive Learning](https://arxiv.org/pdf/2407.01264).
 
 ```
         Representation Learning
