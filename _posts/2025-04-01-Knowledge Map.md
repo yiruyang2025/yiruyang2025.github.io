@@ -39,7 +39,7 @@ images:
 ## 2025 - 2026
 
 
-- [🧊 Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20)
+- [🧊 Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), and [his website](https://paulgraham.com/goodwriting.html)
 
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
