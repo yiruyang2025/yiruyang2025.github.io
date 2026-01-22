@@ -45,7 +45,7 @@ related_publications: true
 
 <br>
 
-## Attended Doctoral Thesis Project Defense at CVG
+## Attended Doctoral Thesis Project Defense
 
 - Generalizing Monocular 3D Estimation by Luigi Piccinelli, 9 Dec 2025 at 3pm, in Room HG D22, co-supervised by Prof. Andreas Geiger
 
@@ -178,9 +178,6 @@ related_publications: true
 - [2024 - Mesh Simplification For Unfolding](https://cdl.ethz.ch/publications/mesh-simplification-for-unfolding/)
 
 
-
-
-
 <br>
 
 
@@ -293,7 +290,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
     - Prof. Dr.-Ing. Daniel Czerwonka-Schröder, 22 Oct 2025, 4:45 p.m, HIL D 53, Hönggerberg
   - (iTwRL: Interactable Digital Twin for Reinforcement Learning, Nov 17th, 2pm, Zoom)
   - Learning 3D Human Foundation Models: A Data Request, Prov. Siyu Tang, Mon, 24-Nov-2025, 13:00–14:00, HG D 16.2
-    - Computational methods to model human motion and behavior from visual inputs in real-world environments, 📍 `Non-rigid 4D Reconstruction and Tracking`
+    - Computational methods to model human motion and behavior from visual inputs in real-world environments, Non-rigid 4D Reconstruction and Tracking
   - Guided Monocular Depth Estimation, Mon, Dec 8th, 2pm, CNB G 110 and Zoom, Sophie Selgrad
   - 22-Dec, MOBIUS goes 3D: Efficient Monocular 3D Object Detection, 2pm Zoom, by Hannes Stählin, Marta Tintore Gazulla, Vasile Lup
 
