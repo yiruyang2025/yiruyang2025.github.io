@@ -16,9 +16,12 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - Prompt some certain Numbers of different size of buildings + avoid lakes, etc. <- with `assigning some certain Hash Value for the diversity` if you like (I did so), some [Blender Demo](https://drive.google.com/file/d/1yHixdRDu0Iu6Sx7p0kxDcGuDV4XWsMYe/view?usp=sharing) Auto 3D Assets Prompting in Sep 2026.
 
 
-<p align="left">
-  <video src="https://yiruyang2025.github.io/assets/video/project3_1.mp4" alt="Project 1 Visualization" width="75%">
-</p>
+<div style="text-align: left;">
+  <video width="75%" controls playsinline>
+    <source src="https://yiruyang2025.github.io/assets/video/project3_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 <br>
