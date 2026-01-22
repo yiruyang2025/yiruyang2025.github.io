@@ -45,9 +45,9 @@ related_publications: true
 
 <br>
 
-## Attended Doctoral Thesis Project Defense
+## Attended Doctoral Thesis Defense
 
-- Generalizing Monocular 3D Estimation by Luigi Piccinelli, 9 Dec 2025 at 3pm, in Room HG D22, co-supervised by Prof. Andreas Geiger
+- Generalizing Monocular 3D Estimation by Luigi Piccinelli, 9 Dec 2025 at 3pm, in Room HG D22
 
 <br>
 
