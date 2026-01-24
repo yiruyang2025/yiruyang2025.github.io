@@ -28,18 +28,17 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 - [2023 - AlphaDev discovers faster sorting algorithms](https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/)
 - [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
-
-
-
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project3_2.jpg" alt="Project 1 Visualization" width="75%">
-</p>
-
-
-
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
+
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_2.png" alt="Project 1 Visualization" width="75%">
+</p>
+
+
+<br>
 
 **Overview**
 
