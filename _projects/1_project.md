@@ -68,7 +68,6 @@ from jiwer import wer, cer, CharacterErrorRate
 
   - [📍 How Diffusions Work](https://x.com/docmilanfar/status/1977913980820848912)
   - [Workflow with your auto Research paper generation Tools](https://github.com/jhfnetboy/DSR-Research-Flow-Template/blob/main/README_EN.md)
-  - [Model Structures](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
   - [2025 - GDM - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
   - [2025 - Towards 📍 End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
   - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
@@ -89,54 +88,14 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
  - [1/3] Stabilizing the Training, in **Latent Space**
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
+   - [2026 - mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/pdf/2512.24880)
    - [2019 - S4l: Self-supervised 📍 semi-supervised learning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf)
    - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
  - [2/3] Training Loss with different training set amounts
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
-    - [ASR SOTA](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
 
-  - [3/3] **Codebase - 2025 - Pre-Training Pipeline**
-
-- `A Neural Network` is essentially a differentiable function approximator. Its difference from traditional linear regression lies not in the objective function, but in the `optimization method` and `the complexity of the function it can represent`
-
-<br>
-
-## Experiments 2025
-
-- Restart the official main training from scratch after hyperparameter search
-   - Hyperparameters are selected on a validation set, then the final model is trained from scratch using the selected hyperparameters
-- Random Seed = 
-- monitoring at https://wandb.ai/home, Tool in use - colab, AMP FP16 + TF32
-- trainable params: 15,728,640, all params: 181,860,864, trainable%: 8.6487
-
-
-| From                    | VRAM        |
-| ----------------------- | ----------- |
-| CUDA context + runtime  | ~0.8 GB     |
-| Whisper Large v3 (fp16) | ~3.1 GB     |
-| Student model + LoRA    | ~1.2 GB     |
-| Projection head         | ~0.1 GB     |
-| Optimizer state (init)  | ~0.5 GB     |
-| CUDA allocator cache    | ~1.3 GB     |
-| **In total**            | **~7.0 GB** -> 22.0 GB for 200K steps |
-
-<br>
-
-| Category                     | Specification                                                                           |
-| ---------------------------- | --------------------------------------------------------------------------------------- |
-| Dataset                      | Facebook Multilingual LibriSpeech                                                       |
-| License                      | CC-BY-4.0                                                                               |
-| Languages                    | 7 (German, French, Dutch, Spanish, Italian, Portuguese, Polish)                         |
-| Language Distribution        | German ~3,288 h; French 50h; Dutch 32h; Spanish 71h; Italian ~279 h + ~0.2 M; Portuguese ~285 h ~0.1–0.2 M; Polish ~137 h + ~0.07 M |
-| Total Audio Duration         | 9015 hours                                                                               |
-| Total Samples                | Approximately 1,296,000                                                                 |
-| Sampling Rate                | 16,000 Hz                                                                               |
-| Training Mode                | Streaming, interleaved across languages                                                 |
-| Batch Size                   | 1 (streaming) -> 64 with 40G VRAM A100 ->                                               |
-
-<br>
 
 ```
 Italian MLS dataset
