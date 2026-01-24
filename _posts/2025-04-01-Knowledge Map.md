@@ -106,8 +106,6 @@ Doctoral Seminar in Visual Computing
 
 [Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender, SUMO, Unreal, 25)
 
-Medical AI / Health Tech
-
 Graph Theory
 
 Information Geometry
