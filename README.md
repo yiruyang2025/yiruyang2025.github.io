@@ -26,6 +26,9 @@
 - _data/socials.yml
 
 
+**icon logo**
+-_includes/head.html
+
 **Assets**
 ```
 <p align="center">
