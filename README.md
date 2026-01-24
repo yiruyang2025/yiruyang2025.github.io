@@ -10,7 +10,7 @@
 
 <br>
 
-## 🫐 Template From
+## Templates
 
 - https://alshedivat.github.io/al-folio/
 - https://github.com/alshedivat/al-folio
@@ -21,7 +21,7 @@
 <br><br><br>
 
 
-## ⛱️ Change the Links
+## Change the Links
 
 **Cover Page**
 - _data/socials.yml
@@ -34,20 +34,8 @@
 </p>
 ```
 
-<br><br><br>
-
-
-## 🧊 A simple, clean, and responsive profile
-
-
-
 
 <br><br><br><br><br><br>
-
-
-
-
-
 
 
 ## Star History
