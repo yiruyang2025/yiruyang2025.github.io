@@ -40,6 +40,35 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 <br>
 
+## Tools
+
+| Feature          | **Polyscope (Scientific Viewer)**                                              | **Blender (Production Renderer)**                          |
+| ---------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| Primary goal     | Data inspection and debugging                                                  | High-fidelity visual rendering                             |
+| Visual style     | Flat shading; color-coded scalar fields (e.g., UV charts, normals, error maps) | Photorealistic materials; global illumination; ray tracing |
+| Geometry support | Robust to raw meshes, point clouds, non-manifold geometry                      | Requires clean topology or high-poly meshes                |
+| Workflow         | Immediate, programmatic (C++ / Python API)                                     | Offline, manual setup (lights, cameras, shaders)           |
+| Role in paper    | Qualitative analysis (UV consistency, error visualization)                     | Teaser and results (realistic wrinkles, shadows)           |
+
+
+## End-to-End Dataflow
+
+| Phase          | Component                               | Data Type       | Description                                                                       |
+| -------------- | --------------------------------------- | --------------- | --------------------------------------------------------------------------------- |
+| **Input**      | Sewing pattern prior                    | SVG / JSON      | 2D panel geometry, stitching graph, material constants                            |
+|                | Base mesh $\mathcal{M}_{\text{base}}$   | OBJ / PLY       | Coarse 3D garment surface (low-frequency folds)                                   |
+|                | Anchor frame $x_{\text{anchor}}$        | Tensor          | Initial shape distribution at $t_0$                                               |
+| **Process**    | Nuvo mapping $f_\theta$                 | MLP             | Continuous mapping $(x,y,z)\rightarrow(u,v,k)$ over canonical UV charts           |
+|                | Reverse diffusion                       | ODE / SDE       | 5–10 denoising steps in residual space $\mathcal{R}$                              |
+|                | Loss constraints                        | Functions       | $\mathcal{L}*{\text{MSE}} + \mathcal{L}*{\text{LPIPS}} + \mathcal{L}_{\text{L1}}$ |
+| **Output**     | Residual field $R$                      | Implicit / hash | High-frequency offsets (≤5% mesh scale) in UV space                               |
+|                | Refined mesh $\mathcal{M}_{\text{ref}}$ | Mesh / points   | $\mathcal{M}*{\text{ref}}=\mathcal{M}*{\text{base}}+R(u,v)$                       |
+| **Evaluation** | Metrics                                 | Scalars         | Panel L2 (cm), stitch accuracy, perceptual fidelity (LPIPS)                       |
+
+
+
+<br>
+
 **Overview**
 
 - We demonstrate that, under high-performance hardware (H200) conditions, constructing a geometry-aligned discrete hash field is the optimal solution for handling high-frequency garment details compared to stacking deep MLPs.
