@@ -13,15 +13,10 @@ related_publications: true
 ## Background Readings
 
 
-- [Riemannian Optimization and Manifold Learning](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765)
-- [2026 - The gap between a Helpful Assistant and a Senior Engineer](https://blog.ezyang.com/2026/01/the-gap-between-a-helpful-assistant-and-a-senior-engineer/)
-- [Pytorch - Correctly Merge your Pull Requests](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Aezyang+claude+code+is%3Aclosed+label%3AMerged)
-- [2025 - "Ghost" Suites for Fast Gradient Information Calculation](https://github.com/Jiachen-T-Wang/GhostSuite)
-- [2026 - Dropout: Training Robust Models Through Noise](https://medium.com/@kdwaMachineLearning/dropout-training-robust-models-through-noise-40befa7b1690)
-
+- [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
 <br>
 
-**Sharding Design Comparison**
+## Model Sharding
 
 | Aspect                                    | JAX Sharding                   | PyTorch Sharding                | Programming Language Analogy |
 | ----------------------------------------- | ------------------------------ | ------------------------------- | ---------------------------- |
