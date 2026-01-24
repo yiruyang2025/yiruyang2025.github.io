@@ -12,6 +12,7 @@
 
 ## Templates
 
+- https://favicon.io/
 - https://alshedivat.github.io/al-folio/
 - https://github.com/alshedivat/al-folio
 - https://yamlresume.dev/
