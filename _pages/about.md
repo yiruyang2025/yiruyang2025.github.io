@@ -29,7 +29,7 @@ latest_posts:
 - (C++), Python, PyTorch3D, (Rust), Blender, CUDA, Unreal, SUMO
 
 
-- Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [MedNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
+- Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Hyper-Loss](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch), [AI Center](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), [Balgrist](https://www.balgrist.ch/en/)
