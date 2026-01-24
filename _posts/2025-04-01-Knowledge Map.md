@@ -56,9 +56,6 @@ images:
   - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
 
 
-- [AAAI 2026](https://www.linkedin.com/posts/andreas-geiger-658b24269_scholarinbox-aaai-activity-7418210248546508800-FnJU/?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
-
-
 <br>
 
 **Readings**
