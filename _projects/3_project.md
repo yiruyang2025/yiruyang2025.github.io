@@ -11,9 +11,7 @@ related_publications: true
 <br>
 
 Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
-- If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**.
-
-- Prompt some certain Numbers of different size for buildings + avoid lakes, etc. <- with `assigning some certain Hash Value for the diversity` if you like, some [Blender Demo](https://drive.google.com/file/d/1yHixdRDu0Iu6Sx7p0kxDcGuDV4XWsMYe/view?usp=sharing) Auto 3D Assets Prompting in Sep 2025.
+- If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**. Prompt some certain Numbers of different size for buildings + avoid lakes, etc. <- with `assigning some certain Hash Value for the diversity` if you like, some [Blender Demo](https://drive.google.com/file/d/1yHixdRDu0Iu6Sx7p0kxDcGuDV4XWsMYe/view?usp=sharing) Auto 3D Assets Prompting in Sep 2025.
 
 <br>
 
@@ -21,6 +19,17 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
   <source src="project3_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<br>
+
+
+## Refereces
+
+- [2025 - GIST: Greedy Independent Set Thresholding for Max-Min Diversification with Submodular Utility](https://scholar.google.com/citations?hl=en&user=4T2Ji_gAAAAJ&view_op=list_works&sortby=pubdate)
+
+
+
+
 
 <br>
 
