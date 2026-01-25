@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Space
-description: Multi-modal Sensor Fusion
+description: Multi-modal Sensor Fusion, LiDAR Free
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -22,8 +22,13 @@ related_publications: true
 
 - [CVPR](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)
 - [Earthdata Plugin](https://plugins.qgis.org/plugins/nasa_earthdata/)
-- `If a team / mentor can tolerate you saying "This has no information" and listen carefully to the rest of your sentence, then it is a good mentor.`
+- `If a team / mentor can tolerate you saying "This has no information" and listen carefully to the rest of your sentence, then it is a very good peer / team.`
 
+- [DiffusionDrive](https://openreview.net/revisions?id=sh7vDLo5EY), CVPR highlight 2025.
+- [Disentangling Monocular 3D Object Detection](https://openaccess.thecvf.com/content_ICCV_2019/papers/Simonelli_Disentangling_Monocular_3D_Object_Detection_ICCV_2019_paper.pdf), ICCV 2019.
+- [Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ku_Monocular_3D_Object_Detection_Leveraging_Accurate_Proposals_and_Shape_Reconstruction_CVPR_2019_paper.pdf), CVPR 2019.
+- [Monocular Quasi-Dense 3D Object Tracking](https://ieeexplore.ieee.org/document/9760217), 2021.
+  - The core method of 3D perception that `does not rely on LiDAR` laid the foundation for many subsequent 3D Tracking and 3D MOT vision methods.
 
 <br>
 
