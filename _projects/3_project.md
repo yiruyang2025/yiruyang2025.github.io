@@ -20,8 +20,6 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
   Your browser does not support the video tag.
 </video>
 
-<br>
-
 
 ## Paper Generator™
 
@@ -34,8 +32,6 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 | **Moral High Ground**      | Claim novelty through theoretical legitimacy rather than structural insight. <br/> *“This is the first algorithm with provable guarantees under this setting.”* |
 
 
-
-
 <br>
 
 ## Topic
@@ -44,8 +40,6 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - 1993 - Computational Complexity - Christos Papadimitriou
 - 2009 - Computational Complexity: A Modern Approach - Arora & Barak
 
-
-<br>
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
