@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://openreview.net/profile?id=%7EYiru_Yang1'>Affiliations</a>. MSc in AI, 🇨🇭
+subtitle: <a href=''>Affiliations</a>. MSc in AI, 🇨🇭
 
 profile:
   align: right
