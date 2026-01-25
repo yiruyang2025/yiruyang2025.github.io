@@ -22,6 +22,7 @@ related_publications: true
 
 - [CVPR](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)
 - [Earthdata Plugin](https://plugins.qgis.org/plugins/nasa_earthdata/)
+- ‘If a team / mentor can tolerate you saying "This has no information" and listen carefully to the rest of your sentence, then it is a good mentor.’
 
 
 <br>
