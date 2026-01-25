@@ -25,7 +25,7 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 ## Refereces
 
-- [2025 - GIST: Greedy Independent Set Thresholding for Max-Min Diversification with Submodular Utility](https://scholar.google.com/citations?hl=en&user=4T2Ji_gAAAAJ&view_op=list_works&sortby=pubdate)
+- [2025 - GIST: Greedy Independent Set Thresholding for Max-Min Diversification with Submodular Utility](https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/)
 
 
 
