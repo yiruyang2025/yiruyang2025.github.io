@@ -25,11 +25,11 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 | Stage                      | Description                                                                                                                                                     |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Problem Selection**      | Choose a widely used problem where optimality is rarely critical or empirically evaluated. <br/> *Examples: subset selection, coverage, diversity, matching.*   |
-| **Hardness Injection**     | Force a reduction to a well-known NP-hard problem to establish theoretical difficulty. <br/> *Typically via a reduction from Maximum Independent Set.*          |
-| **Heuristic Recovery**     | Apply a textbook-level greedy or local search heuristic with minor variations. <br/> *E.g., bicriteria greedy algorithm.*                                       |
+| **Problem Selection**      | Choose a widely used problem where optimality is rarely critical or empirically evaluated.  |
+| **Hardness Injection**     | Force a reduction to a well-known NP-hard problem to establish theoretical difficulty.    |
+| **Heuristic Recovery**     | Apply a textbook-level greedy or local search heuristic with minor variations.     |
 | **Approximation Blessing** | Provide a constant-factor approximation bound. <br/> *Common values: 1/2, 1/e, 0.56 (“provable guarantee”).*                                                    |
-| **Moral High Ground**      | Claim novelty through theoretical legitimacy rather than structural insight. <br/> *“This is the first algorithm with provable guarantees under this setting.”* |
+| **Moral High Ground**      | Claim novelty through theoretical legitimacy rather than structural insight. <br/>  |
 
 
 <br>
