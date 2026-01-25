@@ -63,6 +63,7 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 | Workflow         | Immediate, programmatic (C++ / Python API)                                     | Offline, manual setup (lights, cameras, shaders)           |
 | Role in paper    | Qualitative analysis (UV consistency, error visualization)                     | Teaser and results (realistic wrinkles, shadows)           |
 
+<br>
 
 ## End-to-End Dataflow
 
