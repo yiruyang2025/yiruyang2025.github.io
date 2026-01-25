@@ -20,6 +20,7 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
   Your browser does not support the video tag.
 </video>
 
+<br>
 
 ## Paper Generator™
 
