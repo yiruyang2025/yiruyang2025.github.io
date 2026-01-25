@@ -20,6 +20,12 @@ related_publications: true
 
 ## References
 
+- [CVPR](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)
+- [Earthdata Plugin](https://plugins.qgis.org/plugins/nasa_earthdata/)
+
+
+<br>
+
 - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Prof. Dr. Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
