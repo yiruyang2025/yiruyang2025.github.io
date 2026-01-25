@@ -23,10 +23,15 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 <br>
 
 
-## Refereces
+## Paper Generator™
 
-- [2025 - GIST: Greedy Independent Set Thresholding for Max-Min Diversification with Submodular Utility](https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/)
-
+| Stage                      | Description                                                                                                                                                     |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Problem Selection**      | Choose a widely used problem where optimality is rarely critical or empirically evaluated. <br/> *Examples: subset selection, coverage, diversity, matching.*   |
+| **Hardness Injection**     | Force a reduction to a well-known NP-hard problem to establish theoretical difficulty. <br/> *Typically via a reduction from Maximum Independent Set.*          |
+| **Heuristic Recovery**     | Apply a textbook-level greedy or local search heuristic with minor variations. <br/> *E.g., bicriteria greedy algorithm.*                                       |
+| **Approximation Blessing** | Provide a constant-factor approximation bound. <br/> *Common values: 1/2, 1/e, 0.56 (“provable guarantee”).*                                                    |
+| **Moral High Ground**      | Claim novelty through theoretical legitimacy rather than structural insight. <br/> *“This is the first algorithm with provable guarantees under this setting.”* |
 
 
 
@@ -36,7 +41,11 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 ## Topic
 
 - [2023 - AlphaDev discovers faster sorting algorithms](https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/)
-- [2025 - Decoupling for Markov Chains](https://arxiv.org/abs/2512.19351)
+- 1993 - Computational Complexity - Christos Papadimitriou
+- 2009 - Computational Complexity: A Modern Approach - Arora & Barak
+
+
+<br>
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
