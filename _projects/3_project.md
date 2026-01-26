@@ -51,7 +51,7 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 ```
 R(u,v) = Φ_θ((z_t, t, Nuvo(u,v)))
 nuvo_features = diffusion_model.get_nuvo_features(points, nuvo_model)
-spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8 <- change here
+spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8 <- change here for your 3D Hash value assignment
 normalized_diff = residual_diff / spatial_dist <- change here
 ```
 
