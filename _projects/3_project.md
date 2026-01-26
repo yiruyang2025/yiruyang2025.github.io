@@ -55,7 +55,7 @@ spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8 <- change her
 normalized_diff = residual_diff / spatial_dist <- change here
 ```
 
-**Config**
+## Config
 
 ```
 python train.py --config configs/icml.yaml --sample_idx 0
@@ -63,6 +63,42 @@ python train.py --config configs/icml.yaml --sample_idx 0
 - **Stage 2** (5000-10000): Nuvo + ND with hash assignment
 num_iterations: 10000
 diffusion_start_iter: 5000
+
+Input (Boxmesh) Details Analysis:
+  Vertices: 67970
+  Normal variation:
+    Mean: 0.076664
+    Std:  0.263265
+    Max:  2.000000
+  Curvature proxy:
+    Mean: 104265.058453
+    Std:  1197198.073828
+    Max:  92199800.035140
+  OK: Input (Boxmesh) has good details (mean >= 0.05)
+
+Ground Truth (Sim) Details Analysis:
+  Vertices: 67970
+  Normal variation:
+    Mean: 0.443511
+    Std:  0.523963
+    Max:  1.999905
+  Curvature proxy:
+    Mean: 825298.086679
+    Std:  8333963.860213
+    Max:  196949800.860008
+  OK: Ground Truth (Sim) has good details (mean >= 0.05)
+
+Residuals Analysis:
+  Mean magnitude: 0.222847
+  Std magnitude:  0.076963
+  Max magnitude:  0.530114
+  Min magnitude:  0.044882
+  OK: Residuals are significant (mean >= 0.05)
+
+High-frequency residuals:
+  Mean: 0.087973
+  Max:  0.934507
+  OK: High-frequency details present
 ```
 
 
