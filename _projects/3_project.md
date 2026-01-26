@@ -58,6 +58,7 @@ normalized_diff = residual_diff / spatial_dist <- change here
 ## Config
 
 - python train.py --config configs/icml_10steps.yaml --sample_idx 0
+
 ```
 - **Stage 1** (0-5000): Nuvo only
 - **Stage 2** (5000-10000): Nuvo + ND with hash assignment
