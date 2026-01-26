@@ -45,6 +45,12 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
 
+<br>
+
+``
+R(u,v) = Φ_θ((z_t, t, Nuvo(u,v)))
+nuvo_features = diffusion_model.get_nuvo_features(points, nuvo_model)
+```
 
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project3_2.png" alt="Project 1 Visualization" width="75%">
