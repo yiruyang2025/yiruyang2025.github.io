@@ -55,6 +55,18 @@ spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8 <- change her
 normalized_diff = residual_diff / spatial_dist <- change here
 ```
 
+**Config**
+
+```
+python train.py --config configs/icml.yaml --sample_idx 0
+- **Stage 1** (0-5000): Nuvo only
+- **Stage 2** (5000-10000): Nuvo + ND with hash assignment
+  num_iterations: 10000
+  diffusion_start_iter: 5000
+```
+
+
+
 <p align="left">
   <img src="https://yiruyang2025.github.io/assets/img/project3_2.png" alt="Project 1 Visualization" width="75%">
 </p>
