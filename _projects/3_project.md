@@ -47,7 +47,7 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 <br>
 
-``
+```
 R(u,v) = Φ_θ((z_t, t, Nuvo(u,v)))
 nuvo_features = diffusion_model.get_nuvo_features(points, nuvo_model)
 ```
