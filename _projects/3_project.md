@@ -43,7 +43,6 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 
 - [2023 - Nuvo: Neural UV Mapping for Unruly 3D Representations](https://arxiv.org/pdf/2312.05283)
 -  2021 - Shape As Points: A Differentiable Poisson Solver
-- [2025 - AIpparel](https://georgenakayama.github.io/AIpparel/)
 - [2021 - Neural Geometric Level of Detail](https://arxiv.org/pdf/2101.10994)
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
