@@ -45,7 +45,6 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - Tools in use, H200
 - Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
 
-<br>
 
 ```
 R(u,v) = Φ_θ((z_t, t, Nuvo(u,v)))
