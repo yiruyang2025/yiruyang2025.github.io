@@ -42,6 +42,7 @@ latest_posts:
 
 **Interests**
   - [Space](https://x.com/googleresearch/status/2010774511101333958?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Backbones, Perception
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [AI](https://www.linkedin.com/in/philipjohnst0n/) in [Space](https://starcloudinc.github.io/wp.pdf), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
+  - GDM, Gemini, Microsoft MAI, Meta MSL
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
 
 <div style="height: 4rem;"></div>
