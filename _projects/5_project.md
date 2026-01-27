@@ -52,24 +52,11 @@ related_publications: true
 
 - [2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
 Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
-- [2025 - Aria Gen 2 Documentation](https://facebookresearch.github.io/projectaria_tools/gen2/)
 - [1998 - Self-calibration and metric reconstruction in spite of varying and unknown internal camera parameters](https://ieeexplore.ieee.org/document/710705)
 - [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
-  - The essence of Kalman Filtering is to make an optimal estimate of the state of a system that evolves over time, in the presence of noise
-  - It defines a state-space model, breaking down the problem into:
-    - How the state changes over time (prediction)
-    - How observations arise from the state (update)
-  - Kalman Filtering As The Mathematical Origin of Sensor Fusion, the key ideas introduced in this paper includes:
-    - `Latent state`
-    - A hidden variable that represents the true system state we care about (e.g., position, orientation, velocity), which cannot be observed directly
-    - `Observation model`
-    - A probabilistic mapping from the latent state to sensor measurements, explicitly modeling noise and uncertainty
-    - `Recursive Bayesian update`
-    - A principled way to update the belief over the latent state over time, combining prior knowledge with new observations in a sequential and efficient manner
-
 - [2005 - Probabilistic Robotics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zj6FavAAAAAJ&citation_for_view=zj6FavAAAAAJ:cSdaV2aYdYsC), Multi-sensor Input Fusion
 - [2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview), training and testing semantic perception on adverse visual conditions
-- [2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf)
+- [📍 2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf)
 
 <br>
 
