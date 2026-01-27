@@ -18,7 +18,7 @@ related_publications: true
 - CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, NeurIPS 2012.
 - 📍 ResNet: Deep Residual Learning, CVPR 2015.
-- 
+
 
 ```
         Representation Learning
