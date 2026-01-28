@@ -14,6 +14,7 @@ related_publications: true
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
+  - [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
 
 <br>
 
