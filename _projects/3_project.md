@@ -52,7 +52,7 @@ normalized_diff = residual_diff / spatial_dist
 -  2021 - Shape As Points: A Differentiable Poisson Solver
 - [2021 - Neural Geometric Level of Detail](https://arxiv.org/pdf/2101.10994)
 - Tools in use, H200
-- Diffusion: 5 steps, beta=[0.0001, 0.02]， Scaling residuals: std=1.2004 -> 0.1551
+- Diffusion: 5 steps, beta=[0.0001, 0.02] / [0.1, 0.8]， Scaling residuals: std=1.2004 -> 0.1551
 
 
 ```
