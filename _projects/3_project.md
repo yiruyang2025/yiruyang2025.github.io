@@ -116,11 +116,6 @@ High-frequency residuals:
 </p>
 
 
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project3_5.png" alt="Project 1 Visualization" width="75%">
-</p>
-
-
 <br>
 
 ## Tools
@@ -212,6 +207,11 @@ Losses: Diffusion (MSE) + LPIPS
   <img src="https://yiruyang2025.github.io/assets/img/project3_4.png" alt="Project 1 Visualization" width="75%">
 </p>
 
+
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_5.png" alt="Project 1 Visualization" width="75%">
+</p>
 
 
 - In LeetCode, `a coordinate point` is simply (x, y), the logic is very clear. However, in current computer graphics papers, the goal is to enable neural networks to optimize this point, The truth: This is essentially because `MLPs (Neural Networks) are too inefficient / un-flexible`, they can't remember high-frequency details. So, people manually add "external storage" to them.
