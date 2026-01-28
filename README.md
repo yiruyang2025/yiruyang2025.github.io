@@ -22,7 +22,7 @@
 
 ## Change the Links
 
-**Cover Page** - _data/socials.yml
+**cover Page** - _data/socials.yml
 
 
 **icon logo** -_includes/head.html
