@@ -210,7 +210,7 @@ Losses: Diffusion (MSE) + LPIPS
 
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project3_5.png" alt="Project 1 Visualization" width="75%">
+  <img src="https://yiruyang2025.github.io/assets/img/project3_5.png" alt="Project 1 Visualization" width="35%">
 </p>
 
 
