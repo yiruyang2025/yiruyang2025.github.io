@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), A SSL Encoder, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Multi-sensor Input Fusion` From Space, ([PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations))
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Multi-sensor Input Fusion` From Space, ([PRS](https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html))
 
 <br>
 
