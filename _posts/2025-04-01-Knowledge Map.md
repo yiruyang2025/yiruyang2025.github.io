@@ -50,7 +50,6 @@ images:
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
-- ([Philipp Fischer](https://lmb.informatik.uni-freiburg.de/people/fischer/), [Thomas Brox](https://scholar.google.com/citations?hl=en&user=0VAe-TQAAAAJ&view_op=list_works&citft=1&email_for_op=anny.yiru.yang%40gmail.com&gmla=APjjwuYhYsBind0xLm-4BBF9T_VkcaqON9_VcwL7hXx1vNSiJcmvbeBm59vtYJMhhrYjmffa3Q6ejPSwZHt6HmJ2KgjwND4UGvH_hVsniRjaT2VUJrbPst8fPytqAnUJUSHOpTktvmkywyymS4gJqDx9uUSuEY0kFERoA15jzVoKHWqpT5JFeaMou--ETc7NV9_Z7hGdF-HVu5Iutd0Z8gA_tEHfWOaSsvL6amjRMcAOL1xUqpnl))
 
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
   - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
