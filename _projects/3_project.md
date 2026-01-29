@@ -18,6 +18,10 @@ Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 ```
 spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8
 normalized_diff = residual_diff / spatial_dist
+
+Iter 1000–3000: HashSize ≈ full
+Iter 4000–6000: HashSize ↓
+Iter 7000+: HashSize << full # should be for Hash
 ```
 
 <br>
