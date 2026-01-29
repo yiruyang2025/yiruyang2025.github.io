@@ -76,6 +76,10 @@ from jiwer import wer, cer, CharacterErrorRate
   - [2025 - pi-Flow: 📍 Policy-Based Few-Step Generation via Imitation Distillation](https://arxiv.org/pdf/2510.14974), preprint
 
 
+  - [2026 - Self-Refining Video Sampling](https://agwmon.github.io/self-refine-video/)
+
+
+
 ```
 def compute_distillation_loss()
     cos_sim = (s * t).sum(dim=-1).clamp(-1 + eps, 1 - eps)
