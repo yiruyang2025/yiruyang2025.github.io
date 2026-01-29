@@ -386,7 +386,23 @@ $$
 | **Group equivariance (generalization)** | Convolution as a group-equivariant operator                    | Cohen & Welling (G-CNNs)          | Extends symmetry beyond translation          | Unifies CNNs with symmetry theory         |
 
 
-<br><br><br>
+<br>
+
+
+
+## ROAD MAPS
+
+
+
+<p align="left">
+  <img src="/assets/img/deep_6.png" alt="Knowledge Map" width="50%">
+</p>
+
+
+
+
+
+<br><br>
 
 
 ## References
