@@ -316,6 +316,21 @@ Information Geometry
 <br><br>
 
 
+
+
+## ROAD MAPS
+
+
+<p align="left">
+  <img src="/assets/img/deep_6.png" alt="Knowledge Map" width="80%">
+</p>
+
+
+
+
+<br>
+
+
 # Check List
 
 - [x] Reading, Oxygen, Fruits No sugar, Protein
