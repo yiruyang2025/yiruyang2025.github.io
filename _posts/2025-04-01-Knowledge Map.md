@@ -14,7 +14,7 @@ images:
 
 <br>
 
-  - [📍 My Garden - 26](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
+  - [📍 Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
 
 
   - 🧊 Pretty things here
