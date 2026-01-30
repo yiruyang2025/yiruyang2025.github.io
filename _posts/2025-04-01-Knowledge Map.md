@@ -14,8 +14,6 @@ images:
 
 <br>
 
-  - [📍 Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
-
 
   - 🧊 Pretty things here
   - We model the world mathematically via different philosophical viewpoints
@@ -27,6 +25,9 @@ images:
 
 ## Model Structures
 
+  - [Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
+
+  
   - [📍 Introduction to Flow Matching and Diffusion Models - MIT 25/26](https://diffusion.csail.mit.edu/2025/index.html)
   - [2025 - Advances in Computer Vision](https://scenerepresentations.org/courses/2025/spring/advances-in-cv/#syllabus)
   - [2026 - Implement your AI Model Experiments](https://blog.ezyang.com/)
