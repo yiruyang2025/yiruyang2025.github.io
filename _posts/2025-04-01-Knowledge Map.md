@@ -317,17 +317,6 @@ Information Geometry
 
 
 
-
-## ROAD MAPS
-
-
-<p align="left">
-  <img src="/assets/img/deep_6.png" alt="Knowledge Map" width="80%">
-</p>
-
-
-
-
 <br>
 
 
