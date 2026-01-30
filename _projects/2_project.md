@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis and Project
-description: 4D Reconstruction, USZ
+description: 4D Reconstruction
 img: assets/img/4.jpg
 importance: 2
 category: work
