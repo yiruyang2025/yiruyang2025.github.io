@@ -28,17 +28,6 @@ images:
 
 <br>
 
-## 📍 Core Continuous Modeling Methods In Computational Geometry
-
-| Method                                                            | Core Idea                                                                                                                                                                           | Advantages                                                                                     | Applicability to Your Scenario                                                                                                                             |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Parametric Splines / NURBS / B-Spline / T-Spline**              | Define surfaces or volumes using parameters ( (u,v) ) (or higher-dimensional equivalents). Geometry is represented via control points and basis functions (e.g., B-Splines).        | High geometric precision and controllability; widely used in industrial CAD.                   | Works well for static, parameterizable objects, but limited for dynamic 4D or large-scale scenes.                                                          |
-| **Subdivision Surfaces**                                          | Generate smooth limit surfaces by repeatedly subdividing a coarse mesh (e.g., Catmull–Clark subdivision).                                                                           | Provides mathematically well-defined limit surfaces; handles certain topological changes.      | Effective for deformable shapes such as humans or cloth, but less flexible for time-varying or large-scale 4D tracking.                                    |
-| **Implicit Continuous Fields (Neural or Analytical)**             | Represent geometry implicitly as a function ( f(x, y, z) = 0 ) or ( f(x, y, z, t) = 0 ), such as DeepSDF (Signed Distance Function) or OctField (adaptive implicit representation). | Extremely flexible; topology-free; can model dynamics; suitable for learning-based frameworks. | Highly promising for 4D reconstruction and tracking, especially when aiming for generalization across scenes.                                              |
-| **Partial Differential Equations (PDEs) and Variational Methods** | Enforce continuity (e.g., ( C^2 ) smoothness) of surfaces or volumes via PDEs, or use variational formulations to model continuous media.                                           | Strong geometric continuity and clear mathematical properties.                                 | Valuable when physical constraints or deformation laws are known, but computationally expensive for large-scale neural or self-supervised learning setups. |
-
-<br>
-
 ## DL after Classic ML
 
 | **Component**      | **Description**                                                                                                                             |
