@@ -44,12 +44,16 @@ images:
 
 - [🧊 Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), and [his website](https://paulgraham.com/goodwriting.html)
 
-- [Max Welling](https://x.com/wellingmax?lang=en)
+
+- [Axel Naumann](https://www.linkedin.com/in/axelnaumann/), CERN
+
+
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
 - ([Prof. Sergey Tomin](https://github.com/ocelot-collab))
 - ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html))
   - [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+- [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
