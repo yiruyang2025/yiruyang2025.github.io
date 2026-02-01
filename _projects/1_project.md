@@ -14,6 +14,8 @@ related_publications: true
 
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
+- [2026 - Qwen3-ASR](https://x.com/huggingpapers/status/2017824057295859960?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  
 <br>
 
 ## Model Sharding
