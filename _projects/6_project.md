@@ -17,4 +17,14 @@ related_publications: true
 
 
 
-<br><br>
+<br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+## References
+
+- [2026 - SharpNet: Enhancing MLPs to Represent Functions with Controlled Non-differentiability](https://arxiv.org/pdf/2601.19683)
