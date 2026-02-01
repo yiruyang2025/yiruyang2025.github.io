@@ -12,6 +12,9 @@ related_publications: true
 
 ## References
 
+
+- [✨ 2011 - Coldplay](https://www.youtube.com/watch?v=mRP72Ib2e9I)
+
 - 📍 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021.
 - Large-scale pancreatic cancer detection via non-contrast CT and deep learning, Nature 2023.
 - BYOL: Bootstrap your own latent: A new approach to self-supervised Learning, Google Deepmind, NeurIPS 2020.
