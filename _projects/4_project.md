@@ -388,7 +388,6 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 ## References
 
   - [2023 - Gpt-4 technical report](https://cdn.openai.com/papers/gpt-4.pdf)
-  - [📍 2024 - Improved Baselines with Visual Instruction Tuning](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Improved_Baselines_with_Visual_Instruction_Tuning_CVPR_2024_paper.pdf)
 
 
 <br>
