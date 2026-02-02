@@ -63,7 +63,7 @@ related_publications: true
 ## Topics
 
 
-1. Maritime Search and Rescue
+**1. Maritime Search and Rescue**
 
 ```
 Optical satellite images
@@ -89,8 +89,7 @@ Optical satellite images
 | Time    | Snapshot → Long-term monitoring    |
 
 
-
-2. Input Data Type
+**2. Input Data Type**
 
 | Modality | Data Type           | Format                                       |
 | -------- | ------------------- | -------------------------------------------- |
@@ -99,7 +98,7 @@ Optical satellite images
 | Geometry | Ship size (derived) | Numeric vector (length, width, aspect ratio) |
 
 
-3. 
+**3. Fusion Space**
 
 ```
 Optical image ─┐
@@ -108,7 +107,7 @@ SAR image     ─┘
 ```
 
 
-4. Output Data
+**4. Output Data**
 
 | Stage      | Output Used                   |
 | ---------- | ----------------------------- |
