@@ -14,6 +14,7 @@ related_publications: true
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
+  - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [PATHFINDER](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
   - [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
   - [2026 - SpaceX](https://x.com/Starlink/status/2017064797125410863?s=20)
 
@@ -42,8 +43,6 @@ related_publications: true
 - [AnyCalib: On-Manifold Learning for Model-Agnostic Single-View Camera Calibration](https://arxiv.org/abs/2503.12701), ICCV 2025.
 
 
-
-- [2025 - 📍 ZapBench](https://github.com/google-research/zapbench)
 - [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
     - [Prof. Dr. Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 - [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
