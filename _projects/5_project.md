@@ -53,17 +53,69 @@ related_publications: true
 
 ## Multi-sensor Input Fusion From Space, Safety Detection
 
-
-- The important thing is not the formula, but `multi-sensor = multiple observations constraining the same latent state`
-
-
-- [2013 - Self-Calibration and Visual SLAM with a Multi-Camera System on a
-Micro Aerial Vehicle](https://people.inf.ethz.ch/pomarc/pubs/HengAURO15.pdf) and its references
-- [1998 - Self-calibration and metric reconstruction in spite of varying and unknown internal camera parameters](https://ieeexplore.ieee.org/document/710705)
 - [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
 - [2005 - Probabilistic Robotics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zj6FavAAAAAJ&citation_for_view=zj6FavAAAAAJ:cSdaV2aYdYsC), Multi-sensor Input Fusion
 - [2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview), training and testing semantic perception on adverse visual conditions
 - [📍 2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf)
+
+<br>
+
+## Topics
+
+
+1. Maritime Search and Rescue
+
+```
+Optical satellite images
++ SAR satellite images
+→ Ship Detection
+→ Ship Re-Identification (ReID)
+→ Trajectory generation & route prediction
+```
+
+
+| Platform          | Strength                                | Fundamental Limitation             |
+| ----------------- | --------------------------------------- | ---------------------------------- |
+| GEO satellites    | Wide coverage, high temporal resolution | Low spatial resolution             |
+| Video satellites  | High spatial & temporal resolution      | Short duration, small coverage     |
+| AIS-based systems | Accurate identity info                  | Only works for cooperative targets |
+
+
+| Axis    | Examples                           |
+| ------- | ---------------------------------- |
+| Sensors | Optical, SAR, LiDAR, multispectral |
+| Tasks   | Detection, ReID, tracking, mapping |
+| Scale   | Local → Global                     |
+| Time    | Snapshot → Long-term monitoring    |
+
+
+
+2. Input Data Type
+
+| Modality | Data Type           | Format                                       |
+| -------- | ------------------- | -------------------------------------------- |
+| Optical  | RGB image           | 3-channel, 8-bit TIF                         |
+| SAR      | Radar backscatter   | 1-channel, 32-bit float TIF                  |
+| Geometry | Ship size (derived) | Numeric vector (length, width, aspect ratio) |
+
+
+3. 
+
+```
+Optical image ─┐
+               ├─ Dual-head tokenizer → Shared Transformer Encoder → Unified embedding
+SAR image     ─┘
+```
+
+
+4. Output Data
+
+| Stage      | Output Used                   |
+| ---------- | ----------------------------- |
+| ReID       | Feature distance matrix       |
+| Tracking   | Identity association          |
+| Trajectory | Time-ordered identity matches |
+
 
 <br>
 
@@ -384,16 +436,6 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 
 <br>
 
-
-
-## Tool Kits
-
-
-- [Project MONAI](https://github.com/Project-MONAI)
-
-
-
-<br>
 
 
 ## Best Normalization
