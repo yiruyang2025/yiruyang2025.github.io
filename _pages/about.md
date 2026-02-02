@@ -44,6 +44,5 @@ latest_posts:
 **Interests**
   - [Space](https://x.com/googleresearch/status/2010774511101333958?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Backbones, Perception
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20)
-  - `A professor's duty is to keep students pursue their passion for research / execute their ideas, not vice versa.`
 
 <div style="height: 4rem;"></div>
