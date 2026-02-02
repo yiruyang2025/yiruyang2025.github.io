@@ -9,14 +9,10 @@ related_publications: true
 ---
 
 
-## Related Coursework
+## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0, 
-- [2025 - WeDLM : Reconciling Diffusion Language Models with Standard Causal Attention for Fast Inference](https://wedlm.github.io/)
-- [2025 - 3D Vision](https://cvg.ethz.ch/lectures/3D-vision/)
-- [2025 - Seminar in Visual Computing](https://cvg.ethz.ch/lectures/Doctoral-Seminar/)
-- [2025 - Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/)
 
 - Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT & St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem.
 
@@ -269,7 +265,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
 
 <br>
 
-## Attended Master Thesis Project Defense at CVG
+## Attended Master Thesis Project Defense
 
   - 01 Sep 2025 - 📍 Reconstructing Complete Garments with Foundation Models
     - Pattern Prediction on Fabric Recognition
@@ -1266,17 +1262,7 @@ $$
   - [ViT], [DINOv3], [SAM 3]
 
 
-<br>
-
-
-## Some Products
-
-  - [2025 - RealityScan](https://x.com/RealityCapture_/status/1932422430967922793)
-  - [3DV projects 2024](https://cvg.ethz.ch/lectures/3D-vision/assets/3DV_Projects_2024.pdf)
-  - [3DV projects 2025]
-
-
-<br>
+<br><br>
 
 
 
@@ -1350,14 +1336,12 @@ $$
   - [2025 - osmAG-LLM: Zero-Shot Open-Vocabulary Object Navigation via Semantic Maps and Large Language Models Reasoning](https://arxiv.org/abs/2507.12753)
   - [2025 - ProcGen3D: Learning Neural Procedural Graphs for Image-to-3D Reconstruction](https://xzhang-t.github.io/project/ProcGen3D/)
   - [2024 - Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/pdf/2406.04338)
-  - [📍 2021 - Pixel-Perfect Structure-from-Motion with Featuremetric Refinement](https://openaccess.thecvf.com/content/ICCV2021/papers/Lindenberger_Pixel-Perfect_Structure-From-Motion_With_Featuremetric_Refinement_ICCV_2021_paper.pdf), CVG
   - [2022 - Embodied Active Domain Adaptation for Semantic Segmentation via Informative Path Planning](https://arxiv.org/abs/2203.00549)
 
 
   - [2023 - Large Scale Dense 3D Reconstruction via 📍 Sparse Representations](https://www.ri.cmu.edu/app/uploads/2023/06/thesis-compressed.pdf)
   - [2022 - Understanding Uncertainty Maps in Vision with Statistical Testing](https://openaccess.thecvf.com/content/CVPR2022/html/Nazarovs_Understanding_Uncertainty_Maps_in_Vision_With_Statistical_Testing_CVPR_2022_paper.html)
   - [2025 - Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation](https://arxiv.org/pdf/2504.19718)
-  - [2025 - FlowR: Flowing from Sparse to Dense 3D Reconstructions](https://tobiasfshr.github.io/pub/flowr/), CVG
   - [2025 - Aerial Gym Simulator: A Framework for Highly Parallelized Simulation of Aerial Robots](https://arxiv.org/pdf/2503.01471)
   - [2019 - ICCV - Pix2Vox: Context-aware 3D Reconstruction from 📍 Single and Multi-view Images](https://www.infinitescript.com/project/pix2vox/)
   - [2015 - ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012)
