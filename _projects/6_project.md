@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Robotics
-description: Perception, Flow-RL
+description: Perception, Flow-RL, (CRL)
 img: assets/img/4.jpg
 importance: 5
 category: work
