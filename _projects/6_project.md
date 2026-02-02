@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Robotics
-description: Perception, RL, ROS2
+description: Perception, Flow-RL, ROS2
 img: assets/img/4.jpg
 importance: 5
 category: work
