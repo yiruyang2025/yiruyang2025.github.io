@@ -14,7 +14,7 @@ related_publications: true
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
-  - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [2025 - PATHFINDER](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
+  - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
   - [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
   - [2026 - SpaceX](https://x.com/Starlink/status/2017064797125410863?s=20)
 
@@ -40,14 +40,7 @@ related_publications: true
 - [Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ku_Monocular_3D_Object_Detection_Leveraging_Accurate_Proposals_and_Shape_Reconstruction_CVPR_2019_paper.pdf), CVPR 2019.
 - [Monocular Quasi-Dense 3D Object Tracking](https://ieeexplore.ieee.org/document/9760217), 2021.
 - [Multi-Level Fusion based 3D Object Detection from Monocular Images](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf), CVPR 2018.
-- [AnyCalib: On-Manifold Learning for Model-Agnostic Single-View Camera Calibration](https://arxiv.org/abs/2503.12701), ICCV 2025.
-
-
-- [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html)
-    - [Prof. Dr. Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
-- [Topological Deep Learning](https://decisive-stomach-548.notion.site/Topological-Deep-Learning-2a1425ccedaa800782f5ca86486c5080?showMoveTo=true&saveParent=true)
-- [2025 - TopoBench: A Framework for Benchmarking Topological Deep Learning](https://arxiv.org/pdf/2406.06642)
-- [2025 - Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras](https://iccv.thecvf.com/virtual/2025/poster/278)
+- [Development of the Nervous System](https://www.mls.uzh.ch/en/research/hajnal/teaching.html), [Prof. Dr. Stoeckli Esther](https://www.mls.uzh.ch/en/research/stoeckli/research.html)
 
 <br>
 
@@ -61,10 +54,9 @@ related_publications: true
 <br>
 
 ## Topics
-
+<br>
 
 **1. Maritime Search and Rescue**
-
 ```
 Optical satellite images
 + SAR satellite images
@@ -87,28 +79,25 @@ Optical satellite images
 | Tasks   | Detection, ReID, tracking, mapping |
 | Scale   | Local → Global                     |
 | Time    | Snapshot → Long-term monitoring    |
-
+<br>
 
 **2. Input Data Type**
-
 | Modality | Data Type           | Format                                       |
 | -------- | ------------------- | -------------------------------------------- |
 | Optical  | RGB image           | 3-channel, 8-bit TIF                         |
 | SAR      | Radar backscatter   | 1-channel, 32-bit float TIF                  |
 | Geometry | Ship size (derived) | Numeric vector (length, width, aspect ratio) |
-
+<br>
 
 **3. Fusion Space**
-
 ```
 Optical image ─┐
                ├─ Dual-head tokenizer → Shared Transformer Encoder → Unified embedding
 SAR image     ─┘
 ```
-
+<br>
 
 **4. Output Data**
-
 | Stage      | Output Used                   |
 | ---------- | ----------------------------- |
 | ReID       | Feature distance matrix       |
@@ -140,45 +129,6 @@ SAR image     ─┘
 ```
 
 <br>
-
-## The System
-
-| Assumption Level      | Classical SLAM / CV Assumption              | This Work’s Position               | Mathematical Consequence                    |
-| --------------------- | ------------------------------------------- | ---------------------------------- | ------------------------------------------- |
-| Time                  | Timestamps are correct and globally aligned | No natural global time axis exists | Time offsets are latent variables           |
-| Geometry              | Cameras are rigid and static                | Sensor geometry can drift          | Extrinsics are part of the state            |
-| Cross-sensor relation | IMU–camera extrinsics are fixed             | Cross-sensor coupling is uncertain | Joint state estimation is required          |
-| Modeling stance       | Errors treated as noise                     | System inconsistency is explicit   | State space includes system error structure |
-
-
-
-<br>
-
-## Explicit vs. Implicit Modeling of Temporal Inconsistency
-
-| Dimension                         | Explicit Modeling                                                                         | Implicit Modeling                                                               |
-| --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Core idea                         | Temporal inconsistency is modeled as structured uncertainty and explicitly reasoned about | Temporal inconsistency is absorbed by the model through representation learning |
-| Time representation               | Timestamps, exposure intervals, offsets, and drift are explicit variables                 | Time is encoded as features or implicitly handled by network layers             |
-| Treatment of uncertainty          | Different sources of uncertainty are explicitly separated and modeled                     | All uncertainty is merged into a generic latent representation                  |
-| Physical meaning                  | Each temporal variable has a clear physical or statistical interpretation                 | Temporal effects lack explicit physical interpretation                          |
-| Interpretability                  | High, temporal conflicts can be inspected and analyzed                                    | Low, behavior emerges without clear explanation                                 |
-| Handling heterogeneous sensors    | Naturally supports different frame rates, shutter types, and modalities                   | Requires large datasets to implicitly learn heterogeneity                       |
-| Long-term stability               | Robust to clock drift and long-duration recordings                                        | Sensitive to distribution shift and temporal drift                              |
-| Downstream propagation            | Temporal uncertainty can be propagated to perception and decision modules                 | Downstream modules are unaware of temporal uncertainty                          |
-| Data efficiency                   | Moderate, constraints guide learning                                                      | High, relies on extensive data coverage                                         |
-| Engineering complexity            | Higher, requires modeling, inference, and optimization                                    | Lower, simpler end-to-end training                                              |
-| Scalability                       | Scales well across heterogeneous systems with known structure                             | Scalability depends on dataset diversity                                        |
-| Failure diagnosis                 | Failures can be attributed to specific temporal factors                                   | Failure modes are difficult to diagnose                                         |
-| Alignment with theory             | Strongly aligned with probabilistic and state-space models                                | Weak theoretical grounding                                                      |
-| Suitability for CVPR-style papers | Medium, may be perceived as theoretical                                                   | High, fits empirical optimization culture                                       |
-| Long-term research value          | High, addresses structural modeling gaps                                                  | Medium, provides empirical robustness                                           |
-| Typical failure mode              | Incorrect assumptions in the explicit model                                               | Overfitting temporal correlations                                               |
-| Best use case                     | When temporal inconsistency is a core modeling concern                                    | When temporal inconsistency is minor or data is abundant                        |
-
-
-<br>
-
 
 ## Core Formulation: Bayesian Multi-Modal Sensor Fusion
 
@@ -383,7 +333,7 @@ Time t-1 belief                    Prediction                    Update
 (posterior at t-1)                 (motion model)               (sensor fusion)
 
    p(x_{t-1}|z_{1:t-1})             p(x_t|z_{1:t-1})             p(x_t|z_{1:t})
-     ~ 𝒩(μ_{t-1}, Σ_{t-1})     →       ~ 𝒩(μ_t^-, Σ_t^-)     →       ~ 𝒩(μ_t, Σ_t)
+   ~ 𝒩(μ_{t-1}, Σ_{t-1})     →       ~ 𝒩(μ_t^-, Σ_t^-)     →       ~ 𝒩(μ_t, Σ_t)
                 │                              │                              │
                 │                              │                              │
                 ▼                              ▼                              ▼
@@ -407,34 +357,7 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 ```
 
 
-
-
 <br>
-
-
-## 3D/4D Non-Rigid Reconstruction vs. Series Elastic Actuators (SEA)
-
-- Both problems replace impossible exact control or exact reconstruction with explicit structural priors that guarantee stability, coherence, and robustness under uncertainty
-
-| Aspect                    | 3D / 4D Non-Rigid Reconstruction                                                              | Series Elastic Actuators (SEA)                                                                                            |
-| ------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| One-sentence essence      | Recover a time-varying continuous geometry from incomplete, noisy, and indirect observations. | Design a physical actuation system that remains stable, controllable, and predictable under uncertainty and non-rigidity. |
-| Nature of the system      | Perceptual and representational                                                               | Physical and mechanical                                                                                                   |
-| Objects involved          | Humans, animals, cloth, hair, soft bodies                                                     | Motors, gears, springs, loads, environment                                                                                |
-| Type of non-rigidity      | Geometric deformation and topology change                                                     | Mechanical compliance and elasticity                                                                                      |
-| Source of difficulty      | Incomplete observations and ill-posed inference                                               | Unknown contacts, shocks, delays, and model mismatch                                                                      |
-| Observations / inputs     | 2D images, videos, sparse points, patch-level features                                        | Motor states, force sensing, spring deformation                                                                           |
-| True target               | 3D / 4D geometry with spatiotemporal consistency                                              | Stable force / impedance interaction with the environment                                                                 |
-| Local–global coupling     | Local deformation affects global shape                                                        | Local elastic deformation affects global stability                                                                        |
-| Failure mode if untreated | Drift, collapse of correspondence, inconsistent geometry                                      | Instability, shocks, damage, unsafe interaction                                                                           |
-| Core strategy             | Introduce structural priors to regularize an ill-posed inverse problem                        | Introduce mechanical structure to regularize an uncontrollable system                                                     |
-| Role of structure         | Geometry, smoothness, correspondence, temporal coherence                                      | Passive elasticity, impedance, energy storage                                                                             |
-| What structure replaces   | Impossible exact reconstruction from data alone                                               | Impossible exact control of rigid, high-gain actuators                                                                    |
-| Problem class             | “Structural degeneration + ill-posed inverse problem”                                         | “Physical interaction + uncertainty problem”                                                                              |
-
-
-<br>
-
 
 
 ## Best Normalization
@@ -510,30 +433,6 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Microsoft | Enterprise AR, robotics             | Device-specific calibration pipelines (HoloLens)                                     | No general-purpose consumer-scale solution                | Enterprise-only scale, controlled hardware              |
 | Amazon    | Commerce, logistics                 | Robotics calibration in warehouses                                                   | No mobile-device-facing solution                          | Domain-specific, not platform-oriented                  |
 | Qualcomm  | Chip enablement                     | ISP tuning, sensor fusion hooks                                                      | No system-level calibration ownership                     | Sells silicon, not end-to-end systems                   |
-
-<br>
-
-## Calibration Methodology
-
-| Company   | Geometry-Based | ML-Based      | Hybrid  | Continuous |
-| --------- | -------------- | ------------- | ------- | ---------- |
-| Apple     | Yes            | Yes           | Yes     | No         |
-| Google    | Weak           | Strong        | Partial | No         |
-| Meta      | Weak           | Strong        | Partial | No         |
-| Microsoft | Strong         | Moderate      | Yes     | Limited    |
-| Qualcomm  | OEM-dependent  | OEM-dependent | No      | No         |
-
-
-<br>
-
-## Assumptions About the Camera
-
-| Assumption            | Apple   | Google  | Meta    | Microsoft | Reality    |
-| --------------------- | ------- | ------- | ------- | --------- | ---------- |
-| Intrinsics are static | Yes     | Mostly  | Yes     | Mostly    | False      |
-| Extrinsics are fixed  | Yes     | Mostly  | Mostly  | Partially | False      |
-| Drift is negligible   | Assumed | Assumed | Assumed | Managed   | False      |
-| Users tolerate error  | Yes     | Yes     | Yes     | Less      | Decreasing |
 
 <br>
 
