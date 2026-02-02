@@ -31,8 +31,8 @@ images:
   - [📍 Introduction to Flow Matching and Diffusion Models - MIT 25/26](https://diffusion.csail.mit.edu/2025/index.html)
   - [2025 - Advances in Computer Vision](https://scenerepresentations.org/courses/2025/spring/advances-in-cv/#syllabus)
   - [2026 - Implement your AI Model Experiments](https://blog.ezyang.com/)
-  - [🧊 2026 - Ice Maze RL Basis](https://www.linkedin.com/posts/ravinakumar_ice-maze-rl-basics-activity-7415813269673750529-RwI0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-  - [ml-switcheroo 🦘](https://samuelmarks.github.io/ml-switcheroo/)
+  - [2026 - Ice Maze RL Basis](https://www.linkedin.com/posts/ravinakumar_ice-maze-rl-basics-activity-7415813269673750529-RwI0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+  - [ml-switcheroo](https://samuelmarks.github.io/ml-switcheroo/)
     - A Deterministic, Specification-Driven Transpiler for Deep Learning Frameworks
   - [2025 - Mastering Learning Rate Schedulers in Deep Learning](https://medium.com/@limemanas0/mastering-learning-rate-schedulers-in-deep-learning-38790635cf71)
   - [2026 - Understanding Rust’s Memory Model](https://medium.com/@limemanas0/understanding-rusts-memory-model-ed3a4342c66f)
@@ -47,8 +47,7 @@ images:
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
 - ([Prof. Sergey Tomin](https://github.com/ocelot-collab))
-- ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html))
-  - [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+- ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html)), [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
@@ -64,7 +63,6 @@ images:
 
 - [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - The most complex model we actually understand - Welch Labs](https://www.youtube.com/watch?v=D8GOeCFFby4&t=704s)
-  - [Welch Labs](https://www.welchlabs.com/)
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
 
 
