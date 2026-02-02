@@ -56,6 +56,10 @@ related_publications: true
 ## Topics
 <br>
 
+
+- AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these two prerequisites, both $A$ and $H$ of the Kalman filter are incorrect.
+
+
 **1. Maritime Search and Rescue**
 ```
 Optical satellite images
@@ -220,25 +224,6 @@ For online inference, we approximate the posterior using Bayesian filtering.
 | **Geometric honesty and interpretability**  | Solutions must be physically and geometrically valid, not merely visually plausible. Calibration parameters must correspond to real camera models and be diagnosable when errors occur. | Methods that produce visually convincing but geometrically inconsistent results are unacceptable. Explicit state representation and interpretable uncertainty are required. |
 
 
-
-<br>
-
-
-## Kalman-Style Filtering in the Feasible Regime
-
-| Aspect                          | Trade-Off Made                                         | Practical Consequence                                             |
-| ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
-| **Distribution expressiveness** | Discards multi-modal posteriors and non-Gaussian tails | Enables closed-form or efficiently approximated inference         |
-| **Uncertainty representation**  | Sacrifices global uncertainty expressiveness           | Retains explicit covariance for local uncertainty and diagnostics |
-| **State representation**        | Enforces explicit, physically meaningful states        | Each variable corresponds to a real system quantity               |
-| **Computational cost**          | Avoids sampling-based or variational inference         | Supports real-time, bounded-latency operation                     |
-| **Failure behavior**            | Accepts approximation error                            | Provides diagnosable and predictable failure modes                |
-| **Geometric compatibility**     | Restricts inference to interpretable state spaces      | Integrates naturally with geometry-aware constraints              |
-
-
-
-
-
 <br>
 
 
@@ -271,8 +256,6 @@ p(x_t \mid z_{1:t-1})$
   - The update step preserves Gaussianity.
 
 - Without this closure property, the posterior distribution does not remain in a tractable functional family, and Bayesian filtering becomes analytically intractable.
-
-
 
 
 <br>
