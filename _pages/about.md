@@ -6,7 +6,7 @@ subtitle: <a href="https://openreview.net/profile?id=%7EYiru_Yang1">Affiliations
 
 profile:
   align: right
-  image: yiru_.png
+  image: front_page.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>April 2025, Zürich, 🇨🇭ing </p>
