@@ -6,7 +6,7 @@ subtitle: <a href=''>Affiliations</a>. MSc in AI, 🇨🇭
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: front_page.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>April 2025, Zürich, 🇨🇭ing </p>
