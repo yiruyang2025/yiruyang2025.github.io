@@ -54,6 +54,7 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
+- (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
 - [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
