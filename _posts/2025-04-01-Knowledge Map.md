@@ -86,7 +86,7 @@ images:
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
-[3D/4D Computer Vision](https://cvg.ethz.ch/lectures/3D-vision/) (26)
+3D/4D Computer Vision (26)
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
@@ -96,7 +96,7 @@ images:
 
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
 
-([Visual Computing](https://cvg.ethz.ch/lectures/Visual-Computing/))
+Visual Computing
 
 ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
@@ -106,7 +106,7 @@ Doctoral Seminar in Visual Computing
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-[Mixed Reality](https://cvg.ethz.ch/lectures/Mixed-Reality/) (C++, Blender, SUMO, Unreal, 25)
+Mixed Reality (C++, Blender, SUMO, Unreal, 25)
 
 Graph Theory
 
