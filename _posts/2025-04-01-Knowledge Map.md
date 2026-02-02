@@ -42,9 +42,7 @@ images:
 ## 2025 - 2026
 
 
-- [🧊 Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), and [his website](https://paulgraham.com/goodwriting.html)
-- [Axel Naumann](https://www.linkedin.com/in/axelnaumann/), CERN
-
+- [Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), [his website](https://paulgraham.com/goodwriting.html)
 
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
@@ -57,15 +55,14 @@ images:
 - (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
-- [⛱️ Daily News Briefing](https://www.ft.com/ft-news-briefing)
-  - [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
+- [Daily News Briefing](https://www.ft.com/ft-news-briefing), [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
 
 
 <br>
 
 **Readings**
 
-- [2025 - 📍 Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
+- [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - The most complex model we actually understand - Welch Labs](https://www.youtube.com/watch?v=D8GOeCFFby4&t=704s)
   - [Welch Labs](https://www.welchlabs.com/)
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
@@ -76,7 +73,7 @@ images:
 **♨️ Zurich**
 
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
-- [📍 Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
+- [Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
 
 
 <br><br>
