@@ -66,6 +66,8 @@ related_publications: true
 |----------|----------------------------|--------------------------------------|
 | Optical  | Visible-light satellite camera | 3-channel RGB image (8-bit)          |
 | SAR      | Synthetic Aperture Radar     | 1-channel SAR image (32-bit float)   |
+
+
 <br>
 
 **1. Maritime Search and Rescue**
