@@ -69,6 +69,7 @@ AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these 
 <br>
 
 **1. Maritime Search and Rescue**
+
 ```
 Optical satellite images
 + SAR satellite images
@@ -95,6 +96,7 @@ Optical satellite images
 <br>
 
 **2. Input Data Type**
+
 | Modality | Data Type           | Format                                       |
 | -------- | ------------------- | -------------------------------------------- |
 | Optical  | RGB image           | 3-channel, 8-bit TIF                         |
@@ -109,6 +111,7 @@ Optical image ─┐
                ├─ Dual-head tokenizer → Shared Transformer Encoder → Unified embedding
 SAR image     ─┘
 ```
+
 <br>
 
 **4. Output Data**
