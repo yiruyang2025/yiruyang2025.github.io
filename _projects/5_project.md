@@ -54,10 +54,8 @@ related_publications: true
 <br>
 
 ## Topics
-<br>
 
-
-- AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these two prerequisites, both $A$ and $H$ of the Kalman filter are incorrect
+AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these two prerequisites, both $A$ and $H$ of the Kalman filter are incorrect.
 
 
 **0. Sensor Modalities and Data Types**
