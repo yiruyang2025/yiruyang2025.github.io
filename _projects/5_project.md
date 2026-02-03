@@ -481,22 +481,6 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Camera Registration    | Estimation of the **rigid pose (rotation & translation)** of a camera relative to another reference (e.g., another camera, a world frame, or a sensor) |
 | Assumption (classical) | Camera parameters are static and known                                                                                                                 |
 
-<br>
-
-
-## Major Foundational and Speculative Theories in Theoretical Physics
-
-| Theory               | Proposer(s)                     | Period    | Core Goal                               | Fundamental Equation / Structure    | Experimental Status       |
-| -------------------- | ------------------------------- | --------- | --------------------------------------- | ----------------------------------- | ------------------------- |
-| Quantum Mechanics    | Planck, Heisenberg, Schrödinger | 1900–1930 | Describe microscopic phenomena          | Schrödinger equation                | Verified                  |
-| Special Relativity   | Einstein                        | 1905      | Describe spacetime at high velocity     | Lorentz transformations, E = mc²    | Verified                  |
-| General Relativity   | Einstein                        | 1915      | Describe gravity as spacetime curvature | Einstein field equations            | Verified                  |
-| Quantum Field Theory | Feynman, Dirac, Weinberg        | 1940–1970 | Unify QM and special relativity         | Lagrangian field formalism          | Verified                  |
-| Standard Model       | Glashow, Weinberg, Salam        | 1960–1970 | Describe EM, weak, strong forces        | Gauge theory (SU(3)×SU(2)×U(1))     | Verified                  |
-| Unified Field Theory | Einstein                        | 1920–1955 | Unify gravity and EM                    | Differential geometry               | Failed                    |
-| Grand Unified Theory | Georgi, Glashow                 | 1970s     | Unify strong, weak, EM                  | Simple gauge groups (SU(5), SO(10)) | Unverified                |
-| String Theory        | Green, Schwarz, Witten          | 1970s–    | Quantum gravity + unification           | 1D strings, higher dimensions       | Unverified, controversial |
-
 
 <br><br><br>
 
