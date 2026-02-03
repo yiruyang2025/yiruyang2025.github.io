@@ -36,8 +36,7 @@ latest_posts:
 - 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/2_project/) - Semantic Representation 4D
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), A SSL Encoder, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Multi-sensor Input Fusion` From Space, [PRS](https://github.com/yiruyang2025/remote_sensing_representations)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Flow-matching, [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1), [PRS](https://github.com/yiruyang2025/remote_sensing_representations)
 
 <br>
 
