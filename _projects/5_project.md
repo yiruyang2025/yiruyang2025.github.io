@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Space
-description: LiDAR Free, PRS
+description: LiDAR Free, 4D Brain Mapping, PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
