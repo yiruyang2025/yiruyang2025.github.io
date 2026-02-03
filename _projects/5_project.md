@@ -55,14 +55,12 @@ related_publications: true
 
 ## Topics
 
-AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these two prerequisites, both $A$ and $H$ of the Kalman filter are incorrect.
-
 
 **0. Sensor Modalities and Data Types**
 
 | Modality | Sensor Type                 | Data Representation                  |
 |----------|----------------------------|--------------------------------------|
-| Optical  | Visible-light satellite camera | 3-channel RGB image (8-bit)          |
+| Optical  | Visible-light satellite camera | 3-channel RGB image (8-bit)        |
 | SAR      | Synthetic Aperture Radar     | 1-channel SAR image (32-bit float)   |
 
 
