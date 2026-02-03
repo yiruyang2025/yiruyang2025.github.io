@@ -58,7 +58,9 @@ related_publications: true
 
 
 - AnyCalib (for determining $H$) and RocSync (for determining $t$). Without these two prerequisites, both $A$ and $H$ of the Kalman filter are incorrect
-- Sensor Modalities and Data Types:
+
+
+**0. Sensor Modalities and Data Types**
 
 | Modality | Sensor Type                 | Data Representation                  |
 |----------|----------------------------|--------------------------------------|
