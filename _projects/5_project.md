@@ -91,6 +91,7 @@ Optical satellite images
 | Tasks   | Detection, ReID, tracking, mapping |
 | Scale   | Local → Global                     |
 | Time    | Snapshot → Long-term monitoring    |
+
 <br>
 
 **2. Input Data Type**
@@ -99,6 +100,7 @@ Optical satellite images
 | Optical  | RGB image           | 3-channel, 8-bit TIF                         |
 | SAR      | Radar backscatter   | 1-channel, 32-bit float TIF                  |
 | Geometry | Ship size (derived) | Numeric vector (length, width, aspect ratio) |
+
 <br>
 
 **3. Fusion Space**
@@ -110,6 +112,7 @@ SAR image     ─┘
 <br>
 
 **4. Output Data**
+
 | Stage      | Output Used                   |
 | ---------- | ----------------------------- |
 | ReID       | Feature distance matrix       |
