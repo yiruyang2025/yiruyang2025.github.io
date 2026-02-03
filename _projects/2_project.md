@@ -12,16 +12,7 @@ related_publications: true
 ## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0, 
-
-- Complexity of `Explicit` methods stems from the squared dependency of geometric optimization, Complexity of `Implicit` methods stems from the linear dependency of neural inference. `VGGT & St4RTrack`, through an Alternating Attention mechanism aligned with `world coordinates`, rewrite the multi-view geometry problem as a `linearly parallelizable forward computation` problem.
-
-- All **deterministic** models → `Cannot generate multiple plausible deformation trajectories`, however, The goal of 4D Reconstruction is not merely to reconstruct **the surface deformation of a video**, but rather to `capture the underlying deformation space`.
-
-```
-- Diffusion-generated high-frequency details (hair, fabric folds) often adhere to existing surfaces
-- Deformable fields ensure that these details move consistently with body or surface movement
-```
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0
 
 <br>
 
@@ -110,15 +101,6 @@ related_publications: true
 
 
 
-## Navigation - Generalization
-
-- [2025 - TANGO: Traversablility-Aware Navigation with Local Metric Control for Topological Goals](https://podgorki.github.io/TANGO/)
-  - policies can be trained with diffusions
-- [📍 2025 - Sound Source Localization for Spatial Mapping of Actions in Dynamic Scenes](https://arxiv.org/pdf/2510.24332)
-- [2025 - From Pixels to Perception: Interpretable Predictions via Instance-wise Grouped Feature Selection](https://arxiv.org/pdf/2505.06003)
-
-<br>
-
 ## 2D Vision SSL Supervision
 
 - [2024 - DINO-Foresight: Looking into the Future with DINO](https://arxiv.org/pdf/2412.11673)
@@ -160,14 +142,6 @@ related_publications: true
   - [2025 - This Camera System Can Focus on Everything, 📍 Everywhere, All At Once](https://petapixel.com/2025/11/10/this-camera-system-can-focus-on-everything-everywhere-all-at-once/)
 
 <br>
-
-
-## Curve
-
-
-<br><br>
-
-
 
 ## Mesh
 
@@ -237,7 +211,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
   - medical waveforms (ECG, PPG, Doppler)
   - neural biosignals (EEG/MEG)
 
-- Issue: Discrete symbolic models cannot directly represent geometry.
+Issue: Discrete symbolic models cannot directly represent geometry.
 
 ## Information Loss
 
@@ -302,7 +276,7 @@ while a dual-branch Transformer explicitly learns correspondences and relationsh
 
 <br>
 
-## 📍 Semantic vs. Photometric Consistency
+## Semantic vs. Photometric Consistency
 
 - In traditional SfM / MVS / NeRF pipelines, pixel correspondence is established by enforcing **photometric consistency** across views:
 
@@ -596,7 +570,7 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 <br>
 
 
-## 📍 A. Continuous Geometry (Conceptual / Physical World)
+## A. Continuous Geometry (Conceptual / Physical World)
 
 | Geometry / Space            | Continuous or Discrete | Mathematical Definition                              | What It Encodes           | Role in 3D Reconstruction                                   |
 | --------------------------- | ---------------------- | ---------------------------------------------------- | ------------------------- | ----------------------------------------------------------- |
@@ -642,23 +616,6 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 
 <br>
-
-
-## 📍 Discrete vs Continuous Roles
-
-
-| Aspect       | Continuous Geometry  | Discrete Geometry           |
-| ------------ | -------------------- | --------------------------- |
-| Represents   | Ideal physical space | Computational approximation |
-| Calculus     | Exact                | Finite / approximate        |
-| Curvature    | Intrinsic            | Estimated                   |
-| Cameras      | Modeled exactly      | Estimated numerically       |
-| Optimization | Formulated           | Solved numerically          |
-
-
-
-<br>
-
 
 
 ## Historical Evolution of Geometry in 3D Reconstruction
@@ -897,24 +854,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br>
 
-
-## 📍 From Volumetric Representation Learning to Gaussian Splats
-
-
-| Stage                                | Representation Type          | What Is Learned                      | Core Idea                                                   | Main Limitation                         |
-| ------------------------------------ | ---------------------------- | ------------------------------------ | ----------------------------------------------------------- | --------------------------------------- |
-| **Classic Volumetric**               | Discrete voxel grid          | Occupancy / SDF per voxel            | Uniformly discretize 3D space and extract isosurfaces       | Cubic memory and computation cost       |
-| **Adaptive Volumetric**              | Sparse voxels / octrees      | Occupancy / TSDF                     | Allocate resolution near surfaces                           | Still discrete, complex data structures |
-| **Implicit Geometry**                | Analytical implicit function | Continuous SDF                       | Surface defined as zero level set                           | Limited expressiveness                  |
-| **Implicit Representation Learning** | Neural implicit field        | SDF / occupancy / density            | Learn a continuous function over ℝ³ with a neural network   | Expensive optimization, slow rendering  |
-| **Volumetric Neural Rendering**      | Neural density field         | Density + color                      | Differentiable volume rendering (NeRF-style)                | High training and inference cost        |
-| **Hybrid Implicit + Extraction**     | Neural field + mesh          | Implicit geometry + explicit surface | Extract mesh via Marching Cubes                             | Sampling and extraction overhead        |
-| **Point-Based Neural Rendering**     | Learned point primitives     | Position, feature, opacity           | Replace volume sampling with points                         | Requires careful point placement        |
-| **Gaussian Splats**                  | Anisotropic 3D Gaussians     | Mean, covariance, color, opacity     | Directly render continuous radiance with splatted Gaussians | Limited topological guarantees          |
-
-
-
-<br>
 
 ## Structure-from-Motion (SfM) Pipeline
 
