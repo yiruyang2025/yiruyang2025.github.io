@@ -53,6 +53,61 @@ related_publications: true
 
 <br>
 
+## Alzheimer’s Disease Neuroimaging Initiative (ADNI)
+
+A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement.
+
+<br>
+
+## 1. Overview of the ADNI Dataset
+
+| Item          | Description                                                     |
+| ------------- | --------------------------------------------------------------- |
+| Study Name    | Alzheimer’s Disease Neuroimaging Initiative (ADNI)              |
+| Start Year    | 2004                                                            |
+| Current Phase | ADNI4                                                           |
+| Phases        | ADNI1, ADNIGO, ADNI2, ADNI3, ADNI4                              |
+| Study Type    | Longitudinal, multi-center, multi-modal                         |
+| Primary Goal  | Early detection and progression modeling of Alzheimer’s disease |
+| Access        | IDA portal (login + Data Use Agreement required)                |
+
+
+## 2. Participant Identifiers and Longitudinal Indexing
+
+| Field                         | Description                          | Usage                                        |
+| ----------------------------- | ------------------------------------ | -------------------------------------------- |
+| PTID                          | Participant ID (format: XXX_S_XXXXX) | Primary key across all tables                |
+| RID                           | Numeric subject ID derived from PTID | Easier joins and indexing                    |
+| VISDATE / EXAMDATE / SCANDATE | Visit / exam / scan date             | Temporal alignment for longitudinal analysis |
+| Phase Indicator               | ADNI1 / GO / 2 / 3 / 4               | Cohort and protocol stratification           |
+
+
+## 3. Diagnostic Group Distribution
+
+| Group          | Description                     | Number of Subjects |
+| -------------- | ------------------------------- | ------------------ |
+| CN             | Cognitively Normal              | 1,272              |
+| SMC            | Significant Memory Concern      | 97                 |
+| EMCI           | Early Mild Cognitive Impairment | 315                |
+| LMCI           | Late Mild Cognitive Impairment  | 180                |
+| MCI (total)    | EMCI + LMCI                     | 1,006              |
+| AD             | Alzheimer’s Disease             | 523                |
+| Total Patients | All non-CN subjects             | 141                |
+
+## 4. Neuroimaging Data (Raw and Processed)
+
+| Modality         | Access Path           | Format             | Dimensionality | Typical Use                    |
+| ---------------- | --------------------- | ------------------ | -------------- | ------------------------------ |
+| Structural MRI   | Advanced Image Search | DICOM / NIfTI      | 3D             | Brain atrophy analysis, 3D CNN |
+| Functional MRI   | Advanced Image Search | NIfTI              | 4D             | Functional connectivity        |
+| Amyloid PET      | Advanced Image Search | DICOM / NIfTI      | 3D             | Amyloid burden estimation      |
+| FDG-PET          | Advanced Image Search | DICOM / NIfTI      | 3D             | Glucose metabolism analysis    |
+| Pathology Slides | Advanced Image Search | Whole-slide images | 2D/3D          | Neuropathological validation   |
+
+
+
+<br>
+
 ## Topics
 
 
