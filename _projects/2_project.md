@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Benchmark
-description: 4D Reconstruction
+description: 4D Reconstruction, DINO_4D
 img: assets/img/4.jpg
 importance: 2
 category: work
