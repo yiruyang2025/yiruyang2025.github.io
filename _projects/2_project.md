@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis and Project
+title: 2025 - Thesis - Benchmark
 description: 4D Reconstruction
 img: assets/img/4.jpg
 importance: 2
