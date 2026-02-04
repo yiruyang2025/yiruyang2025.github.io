@@ -49,6 +49,7 @@ images:
 
 
 - ([Prof. Sergey Tomin](https://github.com/ocelot-collab))
+- (Dragomir Anguelov)
 - ([Prof. Luca Benini](https://www.linkedin.com/posts/lubenini_if-you-are-in-ch-this-monday-9th-of-february-activity-7424936621961150464-Suma?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk))
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
