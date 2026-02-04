@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion
 - 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), A SSL Encoder, [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - Topology, [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1), [3D Brain-Mapping](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), [PRS](https://github.com/yiruyang2025/remote_sensing_representations)
-- 📍 Sensor Fusion, Self-Calibration, and LiDAR Free for Future Autonomous Vehicles and Space Observation, 2026
+- 📍 Sensor Fusion, Self-Calibration, and LiDAR Free for `Future Autonomous Vehicles and Space Observation`, 2026
 
 <br>
 
