@@ -17,21 +17,7 @@ related_publications: true
 
 <br>
 
-## References
 
-- [2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
-- [2023 - Guided 📍 Depth Super-Resolution by Deep Anisotropic Diffusion](https://github.com/prs-eth/Diffusion-Super-Resolution), PRS
-- [2025 - You 📍 Only Train Once](https://people.phys.ethz.ch/~csakarid/YOTO/You_Only_Train_Once-Sakaridis-arXiv_2025.pdf), PRS
-
-
-- [2025 - 📍 Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
-- [2025 - RocSync:Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync)
-- [2025 patent - Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
-- [2025 - Hierarchical 4D Scene Graph](https://nicolasgorlo.com/DAAAM_25/)
-- [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
-
-
-<br>
 
 ## Attended Doctoral Thesis Defense
 
@@ -1265,8 +1251,22 @@ $$
 
 <br><br>
 
+## Reference 1
 
-## References
+- [2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
+- [2023 - Guided 📍 Depth Super-Resolution by Deep Anisotropic Diffusion](https://github.com/prs-eth/Diffusion-Super-Resolution), PRS
+- [2025 - You 📍 Only Train Once](https://people.phys.ethz.ch/~csakarid/YOTO/You_Only_Train_Once-Sakaridis-arXiv_2025.pdf), PRS
+
+
+- [2025 - 📍 Transfer learning between different computer vision tasks](https://patentimages.storage.googleapis.com/0a/f0/2c/1f28d09af469a8/US12272442B2.pdf)
+- [2025 - RocSync:Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync)
+- [2025 patent - Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
+- [2025 - Hierarchical 4D Scene Graph](https://nicolasgorlo.com/DAAAM_25/)
+- [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
+
+<br>
+
+## References 2 
 
   - [2023 - Point Cloud Pre-training with Diffusion Models](https://arxiv.org/pdf/2311.14960)
   - [2025 - Beyond neural scaling laws: beating power law scaling via data pruning](https://nips.cc/virtual/2022/poster/53016)
