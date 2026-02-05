@@ -42,6 +42,6 @@ latest_posts:
 
 **Interests**
   - [Space](https://x.com/googleresearch/status/2010774511101333958?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Backbones, Perception
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich](https://www.linkedin.com/posts/pikinder_veo-3-the-swiss-way-httpslnkdinekuwmgmh-activity-7330711128014032897-oJPf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 <div style="height: 4rem;"></div>
