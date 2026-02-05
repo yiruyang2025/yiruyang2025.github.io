@@ -8,12 +8,13 @@ category: work
 related_publications: true
 ---
 
+<br>
 
 ## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT
-- Dust3R (2024), MoGe (2025), St4rTrack (2025)
+- Backbone in Use: Dust3R (2024), MoGe (2025), St4rTrack (2025), DINO, 
 
 <br>
 
@@ -25,8 +26,16 @@ related_publications: true
   - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
   - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
+<br>
 
-<br><br>
+
+## Motion
+
+  - [2025 - 📍 Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
+  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931) - 📍 Genie 3
+
+<br>
+
 
 ## Attended Doctoral Thesis Defense
 
@@ -72,6 +81,7 @@ related_publications: true
 ## 3D / 4D Reconstruction (and Tracking)
 
   - [📍 2025- Wayve.ai](https://arxiv.org/pdf/2506.02265)
+  - [2025 - SAM 3D](https://ai.meta.com/blog/sam-3d/?utm_source=linkedin&utm_medium=organic_social&utm_content=video&utm_campaign=sam)
   - [2024 - UniDepth: Universal Monocular Metric Depth Estimation](https://arxiv.org/pdf/2403.18913)
   - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
@@ -85,10 +95,8 @@ related_publications: true
 
 
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
-  - [📍 2020 - Learning 3D Reconstruction 📍 in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
 
 
-  - [2025 - SAM 3D](https://ai.meta.com/blog/sam-3d/?utm_source=linkedin&utm_medium=organic_social&utm_content=video&utm_campaign=sam)
   - cute demo - [2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
   - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
@@ -104,7 +112,6 @@ related_publications: true
 
 
 <br>
-
 
 
 ## Dealing With Continuous 3D Input Datasets
@@ -183,7 +190,7 @@ Issue: Discrete symbolic models cannot directly represent geometry.
     - [2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
     - [2025 - Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates](https://arxiv.org/html/2504.08353v1)
   - 10 Sep 2025 - An Interactive, Foundation-Model-Empowered Video Annotation Interface for Constructing a Challenging Video Object Segmentation Dataset
-    - SAM 2, DINOv2, GPT-4o, 📍 `real-time Annotation`
+    - SAM 2, DINOv2, GPT-4o, 📍 `real-time Annotation` -> [Segment.ai by Uber](https://segments.ai/) in 2025
     - demo - nutsh
   - 02 Oct 2025 - VSLAM-LAB: A Comprehensive Framework for Visual SLAM Baselines and Datasets, pixi
     - 2024 - Gaussian Splatting SLAM, demo
@@ -729,15 +736,6 @@ Points → Modern Neural Models (GS / Transformer)
 
 <br>
 
-
-## Motion
-
-  - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
-  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
-
-<br>
-
-
 ## Fundamental Limitations of Voxel-Based Methods
 
 
@@ -1015,26 +1013,8 @@ $$
 
 <br>
 
-- Conceptual trajectory
-    - Pixels → Signals → Features → Motion → Inverse Problems → Learned Representations
-
-<br>
-
-## Computer Graphics
-
-| Era          | Topic                                   | Key Contributors                 | Why It Was Introduced                             | Backbone Significance                             |
-| ------------ | --------------------------------------- | -------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1960s–1970s  | Drawing Triangles, Rasterization        | Ivan Sutherland                  | To display geometry efficiently on raster devices | Defined the discrete rendering pipeline           |
-| 1970s        | Transformations, Geometry, Textures     | Sutherland, Blinn                | To map 3D geometry to 2D images                   | Established linear algebra as a graphics backbone |
-| 1980s        | Rendering Pipeline                      | Foley & van Dam                  | To standardize and accelerate rendering           | Modularized graphics computation                  |
-| 1980s        | Lighting, Shading, Visibility, Shadows  | Phong, Blinn, Whitted            | To simulate visual appearance                     | Introduced physical and perceptual models         |
-| 1980s        | Curves and Surfaces                     | Bézier, B-splines, Catmull-Clark | To represent smooth shapes compactly              | Enabled continuous surface modeling               |
-| 1990s–2000s  | Geometry Processing                     | Taubin, Desbrun, Botsch, Sorkine | To edit and optimize surfaces                     | Reframed graphics as variational geometry         |
-| 1980         | Ray Tracing                             | Turner Whitted                   | To model global light transport                   | Introduced physically based rendering             |
-| 1990s–2000s  | Physically Based Simulation             | Baraff, Witkin, Bridson          | To model deformable objects                       | Connected graphics to PDEs and mechanics          |
-| 2000s–2010s  | Scientific Visualization and Effects    | SIGGRAPH community               | To simulate complex natural phenomena             | Unified physics, geometry, and rendering          |
-| 2015–present | Differentiable Rendering and Simulation | OpenDR, Mitsuba DR               | To enable learning and optimization               | Bridged graphics with machine learning            |
-
+Conceptual trajectory
+  - Pixels → Signals → Features → Motion → Inverse Problems → Learned Representations
 
 <br>
 
