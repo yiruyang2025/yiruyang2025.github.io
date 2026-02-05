@@ -69,31 +69,8 @@ related_publications: true
 | **Linear Head** | Patch-wise      | Local semantics     | 3D patch blocks | Fast (O(N×C)) | Gaussian Fur, fast inference     |
 | **DPT Head**    | Multi-layer     | Global + contextual | Dense 3D map    | 3–5× heavier | Full 4D reconstruction, tracking |
 
-<br>
-
-## In the Latent Space - DINOv3 (ViT-S/14)
-
-| Stage              | Symbol                       | Description                              | Shape |
-| ------------------ | ---------------------------- | ---------------------------------------- | ----- |
-| Input image        | –                            | `[B, 3, H, W]`                           |       |
-| Patch embedding    | `14×14` patch size → flatten | `[B, N, 384]`, where `N = (H/14)*(W/14)` |       |
-| Output feature dim | `C_enc = 384`                | semantic token embedding                 |       |
 
 <br>
-
-## St4RTrack (DUSt3R backbone)
-
-
-| Parameter       | Typical value (from `dust3r/configs`) | Meaning                           |
-| --------------- | ------------------------------------- | --------------------------------- |
-| `enc_embed_dim` | 768 or 1024                           | dimension of encoder tokens       |
-| `dec_embed_dim` | 512 or 768                            | dimension expected by the decoder |
-| `patch_size`    | 16                                    | one token ↔ 16×16 input pixels    |
-
-
-
-<br><br>
-
 
 
 ## 2D Vision SSL Supervision
@@ -116,25 +93,21 @@ related_publications: true
 
   - [📍 2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
   - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
-  - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
+  - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with 📍 Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
   - [2025 - Concerto: Joint 2D-3D Self-Supervised Learning Emerges 📍 Spatial Representations](https://pointcept.github.io/Concerto/)
 
 
-  - [2025 NeurIPS - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://pixel-perfect-depth.github.io/)
   - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
   - [📍 2020 - Learning 3D Reconstruction 📍 in Function Space](https://x.com/Oxford_VGG/status/1255105577581240321?s=20)
-  - [2025 - St4RTrack](https://st4rtrack.github.io/)
-  - [2025 - MonST3R](https://monst3r-project.github.io)
-    - [codebase](https://colab.research.google.com/drive/1-fc8uBxaXC2gbgBJQF-Jf_f0BVmJ-uTP?usp=drive_link)
-  - [2025 - PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://www.linkedin.com/posts/naveen-manwani-65491678_paper-alert-paper-title-physx-anything-activity-7396979898667552768-NxgP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+
+
   - [2025 - SAM 3D](https://ai.meta.com/blog/sam-3d/?utm_source=linkedin&utm_medium=organic_social&utm_content=video&utm_campaign=sam)
-  - [2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
+  - cute demo - [2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
   - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-  - cute demo - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
+  - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
   - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
-  - [ICCV 2025, Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
+  - [ICCV 2025, 📍 Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
   - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
-  - [2025 - This Camera System Can Focus on Everything, 📍 Everywhere, All At Once](https://petapixel.com/2025/11/10/this-camera-system-can-focus-on-everything-everywhere-all-at-once/)
 
 <br>
 
@@ -146,25 +119,6 @@ related_publications: true
 <br>
 
 
-## Conceptual Distinction
-
-“Diffusion completion ≠ Dual-branch interaction modeling.”
-Although Diffusion models are powerful at image or feature completion (e.g., inpainting, conditional generation), their fundamental goal differs from that of a dual-branch Transformer.
-Diffusion reconstructs plausible samples from noise (probabilistic generation),
-while a dual-branch Transformer explicitly learns correspondences and relationships between two inputs (deterministic interaction).
-
-
-| Backbone Type                           | Example Models                                       | Characteristics                          | Advantages                                                  | Limitations                             |
-| --------------------------------------- | ---------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------- | --------------------------------------- |
-| **U-Net (CNN)**                         | DDPM, Stable Diffusion v1/v2                         | Encoder–decoder with skip connections    | Strong local spatial modeling; efficient; easy to train     | Limited global context; harder to scale |
-| **Vision Transformer (ViT)**            | DiT (Diffusion Transformer, 2023)                    | Patch-based transformer                  | Better global attention, high scalability, simple structure | Expensive to train; requires large data |
-| **Swin Transformer / Hierarchical ViT** | UViT, UDiT                                           | Combines U-Net hierarchy + ViT attention | Preserves multi-scale info while gaining Transformer power  | More complex to tune                    |
-| **ConvNeXt / ResNet**                   | Some lightweight diffusion variants                  | CNN-based but more modern than U-Net     | High efficiency, simple to integrate                        | Limited generative flexibility          |
-| **Graph Neural Network (GNN)**          | Molecular / 3D Diffusion models (e.g., EDM, GeoDiff) | Models relations over nodes/atoms        | Structured data modeling (e.g., point cloud, molecules)     | Not suited for grid data                |
-| **Implicit MLP (NeRF-style)**           | Score-based NeRF / Diffusion Fields                  | Continuous signal representation         | Excellent for 3D continuous spaces                          | Slow, not scalable for large images     |
-
-
-<br>
 
 ## Dealing With Continuous 3D Input Datasets
 
@@ -412,14 +366,6 @@ $$
 
 <br>
 
-## Ground Truth for 4D Reconstruction
-
-| Dataset                  | Scene Type                                                                           | Provided Ground Truth                                            | Used for Supervision                                                                                         |
-| ------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Point Odyssey (PO)**   | Dynamic scenes with known camera trajectory and per-vertex motion (long-term tracks) | 3D vertex positions over time (x, y, z, t) and camera extrinsics | ✅ **Tracking Branch**: uses 4D vertex trajectories<br>✅ **Reconstruction Branch**: uses per-frame mesh depth |
-| **Dynamic Replica (DR)** | Real scanned scenes with dynamic motion (camera + objects)                           | Known static/dynamic meshes and GT camera pose                   | ✅ **Reconstruction**: per-frame geometry<br>✅ **Tracking**: vertex correspondences                           |
-| **Kubric**               | Synthetic multi-object scenes                                                        | Depth map, instance segmentation, camera pose                    | ✅ **Reconstruction only** (depth/geometry); weak tracking                                                    |
-
 
 ## Step-by-Step: Constructing GT Pointmaps
 
@@ -538,15 +484,6 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 <br>
 
-## Representative Methods
-
-| **Model** | **Year** | **Core Idea** |
-|------------|-----------|----------------|
-| **NeRF** | 2020 | Learns an implicit volumetric rendering function $$f_\theta(x,d)$$ to recover high-quality 3D scenes without traditional geometric optimization. |
-| **D-NeRF / HyperNeRF** | 2021 | Extends NeRF by learning non-rigid deformations along the temporal dimension, enabling 4D dynamic reconstruction. |
-| **4D-LRM / 4D-Fly** | 2025 | Combines large-scale pretraining and temporal-consistency modules to reconstruct scenes from any view at any time. |
-
-<br>
 
 ## Random Matrix
 
@@ -630,27 +567,7 @@ During evaluation, predictions are scale- or SIM(3)-aligned to these GT pointmap
 
 <br>
 
-
-## Benchmarks and SOTAs
-
-## 1. 4D
-
-  - [2025 - St4RTrack](https://st4rtrack.github.io/)
-  - [2025 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion](https://monst3r-project.github.io/)
-
-
-## 2. 3D
-
-
-
-  - [2024 - AGILE3D](https://ywyue.github.io/AGILE3D/)
-  - [2016 - COLMAP 1](https://github.com/colmap/colmap) - baseline 1
-  - [2025 - COLMAP 2](https://developer.nvidia.com/blog/how-to-instantly-render-real-world-scenes-in-interactive-simulation/) - baseline 2
-
-
 ## Key Contributions
-
-- 
 
 ```
 [2000s] Classical 2D Stitching
@@ -882,36 +799,6 @@ Input: Multiple images (Image Sequence)
    - Camera trajectory (motion path)  
 ```
 
-
-<br>
-
-## Visual SLAM Pipeline
-
-```
-Input Images (RGB / RGB-D / Stereo)
-        ↓
-Front-End Tracking
-   - Feature Extraction (ORB, SuperPoint)
-   - Feature Matching (KLT, StereoGlue)
-   - Motion Estimation (PnP, Essential Matrix)
-        ↓
-Back-End Optimization
-   - Bundle Adjustment (BA)
-   - Sliding Window Optimization
-        ↓
-Loop Closure
-   - Place Recognition
-   - Pose Graph Optimization
-        ↓
-Mapping
-   - Sparse Map (Point Cloud)
-   - Dense Map (Depth / Voxel / Mesh)
-   - Semantic Map (Object / Scene Labels)
-        ↓
-Output: Robust Trajectory + Map
-```
-
-
 <br>
 
 ## Visual Computing
@@ -974,26 +861,6 @@ VGGT = Instant Polaroid Printer that Prints 3D (fast, all-in-one)
 
 <br>
 
-## VGGT (Learning-driven)
-
-```
-Input Images
-   ↓
-Patch Embedding (DINO)
-   ↓
-Camera Tokens + Self-Attention
-   ↓
-Feed-forward Transformer
-   ↓
-Outputs (Direct Prediction)
-   • Intrinsics K
-   • Extrinsics [R | t]
-   • Depth Maps
-   • Point Maps
-   • 3D Tracks
-```
-
-<br>
 
 ## Why Squared (L2) Loss
 
@@ -1144,50 +1011,6 @@ $$
 <br>
 
 
-## 4D
-
-  - [2025 - 4DNex](https://x.com/janusch_patas/status/1957697411591336114?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ) - 4d scene understanding
-  - [2024 - CAT4D](https://cat-4d.github.io/) - 4d Reconstruction from video
-
-
-
-```
-[ Multi-view Cameras + Rig Info ]
-            ↓
-         (Rig3R)
-     3D Scene Understanding
-            ↓
-   [ BEV / Map / Agent Context ]
-            ↓
-        (DiffusionDrive)
-   Multi-Modal Trajectory Generation
-            ↓
-     Control & Real-Time Driving
-```
-
-<br>
-
-
-## 3D
-
-  - [2025 - VGGT](https://vgg-t.github.io/)
-  - [📍 2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [📍 2024 - Segment3D](https://link.springer.com/chapter/10.1007/978-3-031-72754-2_16)
-  - [2023 - AGILE3D](https://ywyue.github.io/AGILE3D/)
-  - [COLMAP], [GLOMAP]
-
-<br>
-
-
-## 2D
-
-  - [ViT], [DINOv3], [SAM 3]
-
-
-<br><br>
-
-
-
 ## Computer Vision: Historical Topics, Motivation, and Key Contributors
 
 | Era          | Topic                                         | Key Contributors                               | Why It Was Introduced                                              | Backbone Significance                                                  |
@@ -1291,11 +1114,8 @@ $$
   - [2025 - GauSTAR: Gaussian Surface Tracking and Reconstruction](https://eth-ait.github.io/GauSTAR/)
 
 
-<br><br><br><br><br><br>
 
-
-
-
+<br><br><br><br>
 
 
 
