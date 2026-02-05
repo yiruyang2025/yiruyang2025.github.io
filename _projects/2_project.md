@@ -18,7 +18,7 @@ related_publications: true
 <br>
 
 
-## Not Related Art works
+## Not Related But Art works
 
   - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
   - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
