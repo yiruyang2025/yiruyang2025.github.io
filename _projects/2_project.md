@@ -12,12 +12,20 @@ related_publications: true
 ## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, DiT
+- ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT
 - Dust3R (2024), MoGe (2025), St4rTrack (2025)
 
 <br>
 
 
+## Not Related But Art works
+
+  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+
+
+<br>
 
 ## Attended Doctoral Thesis Defense
 
@@ -1089,18 +1097,6 @@ $$
 | **Extensions I: Dynamic Scenes** <br> Non-rigid SfM, motion segmentation.                                        | **Extensions II: Large-Scale SfM** <br> City-scale and aerial 3D reconstruction.               |
 | **Learning-based SfM I** <br> Deep feature matching (SuperGlue, LoFTR).                                          | **Learning-based SfM II** <br> Neural reconstruction pipelines (DUSt3R, VGGT).                 |
 | **Future of SfM** <br> From optimization-based to transformer-based methods.                                     | **SfM vs VGGT** <br> COLMAP vs VGGT, comparison of pros and cons.                              |
-
-
-<br>
-
-
-
-## Related Art works
-
-  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
-
 
 
 <br>
