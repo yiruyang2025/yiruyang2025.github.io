@@ -1417,7 +1417,6 @@ Use Layer1 activation → compute gradient
 
 - [2014 - FitNets]
 - [2017 - Mask R-CNN]
-- [2001 - Conditional Random Fields: Probabilistic Models for Segmenting and Labeling 📍 Sequence Data, ICML](https://dl.acm.org/doi/10.5555/645530.655813)
 - [2022 - Masked Autoencoders Are Scalable Vision Learners](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf)
 - [1991 - Adaptive Mixtures of Local Experts](https://ieeexplore.ieee.org/abstract/document/6797059)
 - [2022 - Knowledge Distillation via Hypersphere Features Distribution Transfer](https://dl.acm.org/doi/abs/10.1145/3511808.3557621?casa_token=5zxwbIg9Lp8AAAAA:LqsNXD0NVGJIFJqlulaWKhSG8kp69U673xQL0Jr2vauz2MlxmVoTq0rlxXzyKdR0IRthPyemq9_t)
@@ -1433,12 +1432,10 @@ Use Layer1 activation → compute gradient
 - [2019 - Auxiliary teacher - Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393?utm_source=chatgpt.com)
 - [2023 - Sub-sentence encoder: Contrastive learning of propositional semantic representations](https://arxiv.org/pdf/2311.04335)
 - [2023 - Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
-- [ASR WER + Latency](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
+
 - [2021 - 1-bit Adam: Communication Efficient Large-Scale Training with Adam’s Convergence Speed](https://proceedings.mlr.press/v139/tang21a.html)
 - [2020 - Bootstrap your own latent: A new approach to self-supervised learning 📍 BYOL, 2020](https://github.com/lucidrains/byol-pytorch)
 - [2022 - data2vec: A General Framework for Self-supervised Learning in 📍 Speech, Vision and Language](https://arxiv.org/pdf/2202.03555)
-
-
 - [2020 - 📍 Graph Structure of Neural Networks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:pS0ncopqnHgC)
 - [2025 - Towards Fully FP8 GEMM LLM Training at Scale](https://openreview.net/forum?id=KYTFXxTJ12&referrer=%5Bthe%20profile%20of%20Martin%20Jaggi%5D(%2Fprofile%3Fid%3D~Martin_Jaggi1))
 
