@@ -12,7 +12,8 @@ related_publications: true
 ## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, (NExF,) DiT, FlowNet 2.0
+- ViT, DINOv3, Semantic-SAM, Diffusion, OpenScene, 📍SAP (Shape As Points), 3D Edge Reconstruction from UDF, DiT
+- Dust3R (2024), MoGe (2025), St4rTrack (2025)
 
 <br>
 
