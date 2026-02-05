@@ -58,7 +58,24 @@ related_publications: true
 - A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement
 - [ADNI Database](https://adni.loni.usc.edu/)
 - The essence of Alzheimer's disease (AD) is the breakdown of neuronal connections caused by the deposition of amyloid plaques at the microscopic level, PATHFINDER (bioRxiv 2025) addresses how to precisely reconstruct damaged neurons, QSM/MRI Framework (Arxiv 2503) addresses how to quantify plaque burden in vivo using imaging
-- Data alignment: Microscopic data (PATHFINDER) and MRI data (ADNI) differ in spatial scale by several orders of magnitude. Instead of directly feeding them into the same model, you need to learn their representation mapping
+- Data alignment: Microscopic data (PATHFINDER) and MRI data (ADNI) differ in spatial scale by several orders of magnitude. Instead of directly feeding them into the same model, you need to learn their representation mapping, 3D U-Net or `A Medical GAN`
+- Python + PyTorch (deep learning) + ANTs (image registration) + MEDI (QSM reconstruction)
+- Based on 3D deep learning, `Spatial Mapping Reconstruction` from QSM magnetic signals to Amyloid pathological signals is achieved, `Why`:
+  - PET scan (Reference Standard): Can directly visualize amyloid plaques in the brain, but it is expensive, involves radiation, and is not available in many hospitals. QSM MRI (Input): A newer MRI technique, highly sensitive to magnetic materials in the brain (such as iron deposits and plaques). It is inexpensive and safe. Your task: Use AI to find patterns between QSM signals and PET plaque distribution.
+
+
+<br>
+
+| Term                     | Definition                                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **MRI → PET Translator** | A deep learning model that transforms ordinary, low-cost MRI-derived QSM signals into PET-equivalent amyloid distribution maps |
+| **Input Space**          | Clinical QSM MRI                                                                                                               |
+| **Target Space**         | Amyloid PET uptake maps                                                                                                        |
+| **Training Supervision** | Paired MRI–PET scans from the same subjects                                                                                    |
+
+
+
+
 
 <br>
 
