@@ -58,6 +58,7 @@ related_publications: true
 - A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement
 - [ADNI Database](https://adni.loni.usc.edu/)
 - The essence of Alzheimer's disease (AD) is the breakdown of neuronal connections caused by the deposition of amyloid plaques at the microscopic level, PATHFINDER (bioRxiv 2025) addresses how to precisely reconstruct damaged neurons, QSM/MRI Framework (Arxiv 2503) addresses how to quantify plaque burden in vivo using imaging
+- Data alignment: Microscopic data (PATHFINDER) and MRI data (ADNI) differ in spatial scale by several orders of magnitude. Instead of directly feeding them into the same model, you need to learn their representation mapping
 
 
 
