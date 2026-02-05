@@ -68,15 +68,12 @@ related_publications: true
 
 <br>
 
-| Term                     | Definition                                                                                                                     |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **MRI → PET Translator** | A deep learning model that transforms ordinary, low-cost MRI-derived QSM signals into PET-equivalent amyloid distribution maps |
-| **Input Space**          | Clinical QSM MRI                                                                                                               |
-| **Target Space**         | Amyloid PET uptake maps                                                                                                        |
-| **Training Supervision** | Paired MRI–PET scans from the same subjects                                                                                    |
+## Generalization
 
-
-
+| Method                                 | Core Idea                                                                      | Effect on Optimization                                               | Importance in This Thesis                                                                                                                                                                                                |
+| -------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **SAM (Sharpness-Aware Minimization)** | Explicitly searches for flat minima that are robust to parameter perturbations | Reduces sensitivity to small weight changes and avoids sharp valleys | **Critical**: Medical imaging models are prone to overfitting sharp minima that perform well on ADNI but fail under real-world, out-of-distribution clinical data. SAM significantly improves generalization robustness. |
+| **Weight Decay**                       | Penalizes large parameter magnitudes                                           | Prevents memorization and controls model capacity                    | Essential for stabilizing training and avoiding overfitting, especially when only a small subset of parameters (e.g., projection and LoRA modules) is trainable.                                                         |
 
 
 <br>
