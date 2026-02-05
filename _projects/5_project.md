@@ -171,7 +171,7 @@ related_publications: true
 
 <br>
 
-**1. Maritime Search and Rescue**
+## 1. Maritime Search and Rescue
 
 ```
 Optical satellite images
@@ -198,7 +198,7 @@ Optical satellite images
 
 <br>
 
-**2. Input Data Type**
+## 2. Input Data Type
 
 | Modality | Data Type           | Format                                       |
 | -------- | ------------------- | -------------------------------------------- |
@@ -208,7 +208,8 @@ Optical satellite images
 
 <br>
 
-**3. Fusion Space**
+## 3. Fusion Space
+
 ```
 Optical image ─┐
                ├─ Dual-head tokenizer → Shared Transformer Encoder → Unified embedding
@@ -217,7 +218,7 @@ SAR image     ─┘
 
 <br>
 
-**4. Output Data**
+## 4. Output Data
 
 | Stage      | Output Used                   |
 | ---------- | ----------------------------- |
