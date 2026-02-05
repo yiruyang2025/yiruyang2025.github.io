@@ -12,10 +12,82 @@ related_publications: true
 
 ## Background Readings
 
-
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
-- [2026 - Qwen3-ASR](https://x.com/huggingpapers/status/2017824057295859960?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  
+
+<br>
+
+## Hyper-Constraint for the Shared Latent Representation Space
+
+```
+h_T = Encoder_T(x)
+h_S = Encoder_S(x)
+
+z_T = Projector_T(h_T)
+z_S = Projector_S(h_S)
+
+Constraints:  applied to (z_T, z_S)
+Task losses: applied to Decoder(z_S)
+```
+
+<br>
+
+## Overview
+
+Hyper-Constraints(Hc) shape the representation space
+Decoder LoRA learns the task-specific interpretation of that shared representation space
+
+```
+                         Teacher (Whisper-large-v3)
+                   ┌─────────────────────────────────┐
+                   │  Encoder (frozen)               │
+Input (ASR / PC) ─▶│  Hidden States (d_T)            │
+                   │                                 │
+                   │  Decoder (frozen)               │
+                   │  Token Logits (seq × V)         │
+                   └───────────────┬─────────────────┘
+                                   │
+                                   │  KL Divergence
+                                   ▼
+                         Student (Whisper-medium) multi-lingual
+                   ┌─────────────────────────────────┐
+                   │  Encoder (frozen)               │
+Input (ASR / PC) ─▶│  Hidden States (d_S)            │
+                   │                                 │
+                   │  Nonlinear Projection (trainable)│
+                   │  d_S → d_T                      │
+                   │                                 │
+                   │  Hyper-Constrained Representation│
+                   │  Space (geometry-aware)         │
+                   └───────────────┬─────────────────┘
+                                   │
+        ┌──────────────────────────┼──────────────────────────┐
+        │                          │                          │
+        ▼                          ▼                          ▼
+ Representation Alignment      Decoder (LoRA)           Task Head
+ (Geo / Contrastive Loss)      Token Logits             (optional)
+                               (seq × V)
+                                   │
+                                   ▼
+                         Cross-Entropy Loss
+                         (Ground-Truth Tokens)
+
+Trainable Parameters:
+- Projection module
+- Decoder LoRA adapters
+
+Frozen Parameters:
+- Teacher encoder and decoder
+- Student encoder
+```
+
+```
+optimizer = AdamW(
+    list(projector.parameters()) +
+    list(decoder_lora.parameters())
+)
+```
+
+
 <br>
 
 ## Model Sharding
@@ -33,7 +105,7 @@ related_publications: true
 
 ## Logits and Labels
 
-Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015. and previous work
+Starting from Geoffrey Hinton, Oriol Vinyals, Jeff Dean, 2015, and previous work
   - Knowledge is not parameters, but the mapping from `Input to Output Distributions`
 
 ```
@@ -42,7 +114,7 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 ```
 
 **3 Stages of Training Config**
-  - KD → representation alignment → conditional LM fine-tuning
+  - KD + Extra Audio Training Set → Representation Alignment → Conditional LM fine-tuning
   - In Stage III, after freezing the encoder, we linearly decay the `contrastive loss weight to 0.1`, as its contribution to representation learning diminishes and may introduce misaligned gradients during decoder optimization
 
 **check**
@@ -55,14 +127,24 @@ After Distilling the Knowledge in a Neural Network 2015: soft label ≈ probabil
 ```
 
 **LoRA + Freezing Parameters: Optimizer Caveat**
-- The optimizer still holds state (e.g., AdamW momentum) for the frozen parameters, these parameters:
-- are not updated, but their optimizer states remain inactive (“stale”)
+- The optimizer still holds state (AdamW momentum) for the frozen parameters, these parameters: are not updated, but their optimizer states remain inactive (“stale”)
 
 ```
 import librosa
-from jiwer import wer, cer, CharacterErrorRate
-```
+from jiwer import wer, cer
 
+audio_path = "XXX.wav"
+y, sr = librosa.load(audio_path, sr=16000)
+print(f"Duration: {librosa.get_duration(y=y, sr=sr):.2f} s")
+
+ground_truth = "the patient shows early signs of alzheimers disease"
+hypothesis = "the patient show early signs of alzimers disease"
+error_word = wer(ground_truth, hypothesis)
+error_char = cer(ground_truth, hypothesis)
+
+print(f"WER: {wer(ground_truth, hypothesis):X.XX%}")
+print(f"CER: {cer(ground_truth, hypothesis):X.XX%}")
+```
 
 <br>
 
@@ -73,13 +155,6 @@ from jiwer import wer, cer, CharacterErrorRate
   - [2025 - GDM - Video models are zero-shot Learners and Reasoners](https://video-zero-shot.github.io/)
   - [2025 - Towards 📍 End-to-End Generative Modeling](https://drive.google.com/file/d/1T88z00PeSXvzoQKZbdpi3RG9c7A_LpGb/view)
   - [2025 - Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
-  - [2025 - 📍 Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2025/index.html)
-  - [2026 - OpenAI - Large Video Planner (LVP-14B)](https://x.com/boyuanchen0/status/2008269201694495227?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
-  - [2025 - pi-Flow: 📍 Policy-Based Few-Step Generation via Imitation Distillation](https://arxiv.org/pdf/2510.14974), preprint
-
-
-  - [2026 - Self-Refining Video Sampling](https://agwmon.github.io/self-refine-video/)
-
 
 
 ```
@@ -87,51 +162,47 @@ def compute_distillation_loss()
     cos_sim = (s * t).sum(dim=-1).clamp(-1 + eps, 1 - eps)
     geo_loss = torch.acos(cos_sim).mean()
     ...
-    total_loss = ()
+    total_loss = ce_loss + kl_loss + λ * geo_loss
 return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 ```
 
- - [1/3] Stabilizing the Training, in **Latent Space**
+ - Stabilizing the Training, in **Latent Space**
    - [2024 - nGPT](https://arxiv.org/html/2410.01131v1)
    - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
    - [2026 - mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/pdf/2512.24880)
-   - [2019 - S4l: Self-supervised 📍 semi-supervised learning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf)
-   - [2025 - Why Stacking Sliding Windows Can't See Very Far](https://guangxuanx.com/blog/stacking-swa.html)
 
- - [2/3] Training Loss with different training set amounts
+ - Training Loss with different training set amounts
     - [What a real loss curve for 70B looks like (with y-axis labels)](https://x.com/haeggee/status/1962933627584413721)
 
-
-
-```
-Italian MLS dataset
-Dataset: 59623 files x 4 epochs = 238492 samples
-Dev: 1248 transcripts, 1248 files
-```
 
 <br>
 
 ## Optimization and Scheduling
 
-| Component         | Your Configuration         |
-| ----------------- | -------------------------- |
-| Optimizer         | AdamW                      |
-| Weight decay      | 0.01                       |
-| Scheduler         | CosineAnnealingLR          |
-| Max steps         | 20,000                     |
-| Min LR            | 1e-6                       |
-| Mixed precision   | AMP (fp16) with GradScaler |
-| Gradient clipping | Global norm = 1.0          |
+| Component                | Configuration                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------- |
+| Optimizer                | AdamW (decoupled weight decay)                                                         |
+| Weight Decay             | 0.01 (applied to weight matrices only; excluded for bias and normalization parameters) |
+| Learning Rate Scheduler  | CosineAnnealingLR                                                                      |
+| Minimum Learning Rate    | 1e-6                                                                                   |
+| Mixed Precision Training | Automatic Mixed Precision (fp16) with GradScaler                                       |
+| Gradient Clipping        | Global norm clipping with max norm = 1.0                                               |
+
+- The objects being regularized are: Linear weights of the Encoder, Non-linear mapping weights of the Projector
+
+
+```
+CE + KL define the task
+Geo loss regularizes representation geometry
+Weight decay regularizes parameter scale, not representation geometry
+```
 
 <br>
 
 ```
-Training set: 59,623 audio–text pairs  
-Development (validation) set: 1,248  
-Test set: 1,262
-Batch size: 64  
-Total training steps (MAX_STEPS): 8,000  
-Equivalent number of epochs: ≈ 4
+MLS dataset
+Dataset: 59623 files x 4 epochs = 238,492 samples
+Dev: 1248 transcripts, 1248 files
 ```
 
 <br>
@@ -142,89 +213,11 @@ Equivalent number of epochs: ≈ 4
 | ---------------- | -------------------------------- |
 | Teacher          | Fully pretrained, frozen         |
 | Student backbone | Pretrained Whisper-medium        |
-| LoRA adapters    | Random init (rank=xxx), trainable |
+| LoRA adapters    | Random init (rank=64), trainable |
 | Projection head  | Random linear projection         |
 | Optimizer state  | Fresh if no checkpoint found     |
 | Scheduler state  | Fresh cosine schedule            |
 | AMP scaler       | Initialized before training      |
-
-
-<br>
-
-
-## Italian Training Data Statistics
-
-| Property       | Value                                |
-| -------------- | ------------------------------------ |
-| Language       | Italian                              |
-| Dataset        | MLS (OpenSLR 94, OPUS)               |
-| Training split | train                                |
-| Audio files    | 59,623                               |
-| Total duration | ~279 hours                           |
-| Audio format   | OPUS                                 |
-| Sample rate    | Resampled to 16 kHz                  |
-| Validation     | None (dev split unavailable locally) |
-
-
-<br>
-
-## ICML Standard Practice for Main Experiments and Ablation Studies
-
-| Aspect                  | Main Experiment                                            | Ablation Experiments                                                  |
-| ----------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------- |
-| Purpose                 | Establish the best-performing full model                   | Analyze the contribution of individual components                     |
-| Hyperparameter Search   | Allowed and encouraged                                     | Not performed                                                         |
-| Validation Usage        | Hyperparameters selected on a development / validation set | Same hyperparameters as the main experiment                           |
-| Hyperparameter Settings | Tuned to obtain a single optimal configuration             | Frozen to the main experiment configuration                           |
-| What Is Modified        | Model architecture and loss formulation during tuning      | Only one component at a time                                          |
-| Typical Modifications   | Loss weights, temperatures, learning rates                 | Remove a loss term, remove a module, or replace a modeling assumption |
-| Fairness Criterion      | Best achievable performance under validation tuning        | Controlled comparison under identical settings                        |
-| Reviewer Expectation    | Demonstrates competitiveness                               | Ensures causal interpretability of improvements                       |
-
-<br>
-
-
-## `opus.tar.gz` Data Extraction
-
-| Category                         | Phase 1 (Smallest)                                                | Phase 2 (Extended)                                   |
-| -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------- |
-| Languages                        | Italian, Portuguese, Polish                                       | Phase 1 + Spanish                                    |
-| Total Audio Duration             | ~511 hours                                                        | ~1,429 hours                                         |
-| Segment Count                    | ~135,000 files                                                    | ~363,000 files                                       |
-| Estimated Storage (Opus, 16 kHz) | ~15–20 GB                                                         | ~45–60 GB                                            |
-| Recommended Storage Buffer       | ~40–50 GB (2.5×)                                                  | ~110–150 GB (2.5×)                                   |
-| Audio Format Efficiency          | Opus @16 kHz, ~5× smaller than FLAC with near-transparent quality | Same as Phase 1                                      |
-| Segment Length                   | Mostly 10–20 seconds, optimized for GPU VRAM efficiency           | Same as Phase 1                                      |
-| Intended Training Use            | Efficient ASR training with reduced I/O and VRAM footprint        | Larger-scale ASR training and multilingual extension |
-
-<br>
-
-## Logged Teacher & Student Model Artifacts
-
-
-- Place the teacher's inference within `torch.cuda.amp.autocast(dtype=torch.float16)`, ensures all calculations are performed under `float16`, avoiding type conversion issues. Add `torch.no_grad()` as a context manager to conserve memory (the teacher doesn't need gradients).
-
-<br>
-
-| Log Item                                        | Applies To                         | Meaning                            | Why It Exists / What It Tells You                                                                 |
-| ----------------------------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
-| `torch_dtype is deprecated! Use dtype instead!` | Both                               | Warning from Hugging Face API      | Indicates an API change; does **not** affect model correctness or results. Safe to ignore.        |
-| `HF_TOKEN does not exist in Colab secrets`      | Both                               | Authentication warning             | Hugging Face token is **optional** for public models. No impact on loading Whisper checkpoints.   |
-| `config.json`                                   | Teacher & Student                  | Model architecture configuration   | Defines model size, layers, hidden dimensions, attention heads, vocab size, etc.                  |
-| `model.safetensors` (3.09 GB)                   | **Teacher (Whisper Large v3)**     | Full model weights                 | Contains all frozen parameters of the teacher model (~1.5B parameters).                           |
-| `model.safetensors` (332 MB)                    | **Student (Distil-Whisper Small)** | Base student weights               | Contains the pretrained student backbone before LoRA injection.                                   |
-| `generation_config.json`                        | Both                               | Decoding configuration             | Stores generation defaults (beam size, length penalties, etc.). Used for inference, not training. |
-| `preprocessor_config.json`                      | Both                               | Audio preprocessing setup          | Defines log-mel extraction, sampling rate, feature normalization.                                 |
-| `tokenizer_config.json`                         | Both                               | Tokenizer metadata                 | High-level tokenizer settings (padding, truncation, model type).                                  |
-| `vocab.json`                                    | Both                               | Token vocabulary                   | Maps tokens to integer IDs. Shared or nearly shared between teacher and student.                  |
-| `tokenizer.json`                                | Both                               | Fast tokenizer graph               | Serialized tokenizer for efficient runtime tokenization.                                          |
-| `merges.txt`                                    | Both                               | BPE merge rules                    | Defines subword merges for Byte Pair Encoding.                                                    |
-| `normalizer.json`                               | Both                               | Text normalization rules           | Controls lowercasing, punctuation handling, unicode normalization.                                |
-| `added_tokens.json`                             | Both                               | Extra special tokens               | Language tokens, task tokens, timestamp tokens, etc.                                              |
-| `special_tokens_map.json`                       | Both                               | Special token mapping              | Identifies BOS, EOS, PAD, language tokens, and task markers.                                      |
-| `trainable params: 15,728,640`                  | **Student only**                   | Parameters updated during training | Includes **LoRA adapters + projection head**. These are the *only* parameters optimized.          |
-| `all params: 181,860,864`                       | **Student only**                   | Total student parameter count      | Includes frozen base Whisper weights + LoRA + heads.                                              |
-| `trainable%: 8.6487`                            | **Student only**                   | Fraction of trainable parameters   | Shows **parameter-efficient learning**: <9% of student parameters are updated.                    |
 
 
 <br>
@@ -240,34 +233,6 @@ Equivalent number of epochs: ≈ 4
 | **AlphaFold3**       | DeepMind (2024)            | **Diffusion + Geometric Modeling** | Diffusion over **3D molecular structures** (proteins, DNA, ligands).           |
 | **RFDiffusion**      | Baker Lab (2023)           | **Diffusion Model**                | Generate **novel protein backbones** via structure-space diffusion.            |
 
-
-<br>
-
-
-## Gradient Accumulation For Whisper-large-v3
-
-| Aspect               | What Happens                                        | Why It Hurts Gradient Accumulation                  |
-| -------------------- | --------------------------------------------------- | --------------------------------------------------- |
-| Non-linear compute   | Audio → Mel → Encoder with **O(T²) attention**      | Compute does **not scale linearly** with batch size |
-| Heavy padding        | Large variance in audio length inside a batch       | Short clips still pay for long ones                 |
-| Per-forward overhead | Padding masks, attention layouts, kernel scheduling | **Repeated every micro-batch**                      |
-| Attention kernels    | Depend on actual sequence length                    | Cannot be reused efficiently                        |
-| GPU scheduling       | Kernel launch & layout setup dominate               | Overhead > useful compute                           |
-
-
-
-<br>
-
-## Role of Validation Loss in Multilingual KD Training
-
-
-| Aspect                        | Conventional Supervised Training | Our Multilingual KD Setting                                           |
-| ----------------------------- | -------------------------------- | --------------------------------------------------------------------- |
-| Primary risk                  | Data overfitting                 | Objective overfitting                                                 |
-| Cause of overfitting          | Memorization of training samples | Over-optimization of auxiliary distillation losses                    |
-| Role of validation loss       | Detect memorization              | Detect misalignment between surrogate losses and token-level accuracy |
-| What validation loss measures | Generalization gap               | When representation-level alignment no longer improves decoding       |
-| Mitigation strategy           | Early stopping                   | Stage-wise loss reweighting and auxiliary loss decay                  |
 
 <br>
 
@@ -326,44 +291,6 @@ Equivalent number of epochs: ≈ 4
 
 <br>
 
-## C++, Python
-
-| Language | Execution Pipeline | Abstraction Level | Real-World Performance |
-|-----------|-------------------|-------------------|------------------------|
-| **C/C++** | Source code → Compilation → Machine code → Executed directly by the **CPU** one-step execution | **Direct (no virtual layer)** | **≈ 100%** (baseline) |
-| **Java**  | Source code → **Bytecode (.class)** → **JVM** → Interpreted / JIT-compiled one extra layer | **Virtual machine layer** | ⚡ **≈ 70 – 100%** of C++, sometimes faster |
-| **Python** | Source code → **Interpreter** → Dynamic execution multiple layers | **Interpreter + dynamic typing** | **≈ 1 – 5%** of C++ |
-
-<br>
-
-## C++
-
-- Designed as a systems programming language, “Generate code that maps directly to hardware”
-```
-C++/CUDA code (.cu)
-        ↓ nvcc compile
-PTX / SASS GPU machine code
-        ↓
-GPU executes the kernel directly
-```
-
-<br>
-
-## Python
-
-- Designed as a high-level dynamic scripting language, “Maximize developer productivity and readability, not performance”
-```
-Python code (.py)
-        ↓
-Calls into C/C++ library (PyTorch, TensorFlow, NumPy, CuPy…)
-        ↓
-C/C++ implementation launches CUDA kernels
-        ↓
-GPU executes the kernel
-```
-
-<br>
-
 ## DNS
 
 | **IP Address**     | **Service / Network**       | **Description**                                                                  |
@@ -385,9 +312,6 @@ GPU executes the kernel
 | License         | Vendor-specific, closed-source                                              | GNU GPL (open-source)                                                    |
 | Status Today    | Legacy and declining (e.g., Solaris, AIX, HP-UX)                            | Dominant platform (over 90% of servers, all top supercomputers)          |
 | Core Philosophy | Modularity: “Do one thing, and do it well”                                  | Democratization of Unix through open collaboration                       |
-
-
-- **Unix** laid the foundation in 1969 → **Linux** made Unix free and ubiquitous in 1991 → **EOF** enables clean multi-line command input in Bash.
 
 
 <br>
@@ -468,22 +392,6 @@ GPU executes the kernel
 
 <br>
 
-```
-distil_run_cell2.7.2/
-│
-├── tb/                           ← TensorBoard log files
-│   ├── events.out.tfevents...    
-│
-├── adapter_final/                ← Final trained student model
-│   └── student_model.pt
-│
-├── checkpoint.pt                 ← Intermediate checkpoint (used if training was interrupted)
-├── training_history.json         ← Recorded training and validation loss curves
-├── best_params.json              ← Best hyperparameter record (e.g., kl_weight, geo_weight)
-└── training_config.json          ← Training configuration and setup details
-```
-
-<br>
 
 ## Structure
 
@@ -560,18 +468,6 @@ linear scan       merge / quick sort         bubble / selection 
 
 <br>
 
-## Data Loader
-
-| Stage                     | Code Section                                          | Padding Applied  | Explanation                                             |
-| ------------------------- | ----------------------------------------------------- | ---------------- | ------------------------------------------------------- |
-| ① Dataset structure check | `os.walk()` file scan                                 |No             | Only scans file names, counts, and sizes.               |
-| ② Load audio–text pairs   | `pairs = load_audio_text_pairs(DATA_DIR)`             | No             | Generates file paths, no tensor involved.               |
-| ③ Build Dataset           | `dataset = LibriSpeechLocalDataset(pairs, processor)` | Not yet       | Each sample is returned separately, no unified length.  |
-| ④ Build DataLoader        | `train_loader = DataLoader(...)`                      | Yes (here)     | Padding is applied when combining samples into a batch. |
-| ⑤ Train model             | `for step, batch in enumerate(train_loader):`         | Already padded | Batch tensors have equal dimensions for training.       |
-
-<br>
-
 ## Protocol and Ports
 
 ```
@@ -588,6 +484,7 @@ linear scan       merge / quick sort         bubble / selection 
 | FTP | 21 | File transfer |
 | **SSH** | **22** | Secure remote shell |
 
+<br>
 
 | Function              | Command Example                                  | Description                                                   |
 | --------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -596,7 +493,6 @@ linear scan       merge / quick sort         bubble / selection 
 | `Port Forwarding`    | ssh -L 8080:localhost:80 user@host             | Map a remote port to a local port through an encrypted tunnel |
 | Passwordless Login | Public key authentication (`~/.ssh/id_rsa.pub`)  | Automatically authenticate using key pairs                    |
 | Automation Control | Use SSH to execute commands or sync data in bulk | Common in DevOps or HPC environments                          |
-
 
 <br>
 
@@ -620,55 +516,6 @@ linear scan       merge / quick sort         bubble / selection 
 |  | **Shampoo** | 2021 | Matrix preconditioning per layer | $$ G_t = \sum_{\tau=1}^{t} g_\tau g_\tau^\top, \quad W_{t+1}=W_t - \eta G_t^{-1/2}\nabla L $$ | Slow convergence on ill-conditioned loss | Improves conditioning for large models |
 | **Modern LLM Optimizers** | **Lion** | 2023 | Momentum with sign-based updates | $$ w_{t+1} = w_t - \eta \, \text{sign}(\beta_1 m_t + (1-\beta_1)g_t) $$ | Over-adaptation of Adam | Efficient and strong generalization for LLMs |
 |  | **Sophia** | 2023 | Second-order curvature-aware optimizer | $$ w_{t+1} = w_t - \eta \frac{g_t}{\sqrt{h_t+\epsilon}}, \quad h_t \approx \text{diag}(H_t) $$ | Slow convergence in large-scale Adam | State-of-the-art for Transformer training |
-
-
-<br>
-
-## Riemannian Projector, Geodesic Loss
-
-```
-class RiemannianProjector(nn.Module):
-    def __init__(self, in_dim=768, out_dim=1280):
-        ...
-    def forward(self, x):
-        x = self.map(x)
-        return F.normalize(x, dim=-1)
-
-cos_sim = (x*y).sum(-1)
-loss = acos(cos_sim)
-
-
-Teacher (Whisper-large-v2, frozen)
-        │
-        ▼
-Student (<Structure-free> Student from the teacher + LoRA adapters)
-        │
-        ├── CE loss (labels supervision)
-        │       ↑
-        │       └── Hard labels = ground truth text
-        │           (e.g. “Hello world” from dataset)
-        │
-        ├── KL loss (soft logits distillation)
-        │       ↑
-        │       └── Soft labels = teacher’s predicted probabilities
-        │           (e.g. P(“hello”)=0.62, P(“hey”)=0.31, P(“halo”)=0.07)
-        │
-        └── Geo loss (Riemannian alignment)
-                ↑
-                └── Aligns latent embeddings on a curved manifold
-                    (ensures student follows teacher’s geometry)
-        ↓
-   Optimizer (AdamW + Cosine LR)
-        ↓
-  LoRA Adapter Checkpoint
-        ↓
-Evaluation (WER / RTF / Memory)
-
-
-s_hid = student_proj(s_out.encoder_last_hidden_state)
-t_hid = normalize(t_out.encoder_last_hidden_state)
-geo = geodesic_distance_on_sphere(s_hid, t_hid)
-```
 
 <br>
 
@@ -833,54 +680,6 @@ Underfitting:     Overfitting:        Good Embedding:
 
 <br>
 
-
-## CNN
-
-```
-[Input  D×E  (image or signal)]
-      │
-      ▼
-[Convolution  U×V  (kernel/filter)]
-      │  learns local spatial patterns
-      │  parameters ≪ fully-connected layers
-      ▼
-[Zero-Padding / Stride Control]
-      │
-      ├─ Padding → keeps size (same)
-      └─ Stride  → downsamples (D−U)/S+1
-      ▼
-[Feature Map  K×M  (activation before nonlinearity)]
-      │
-      ▼
-[Activation  g(a)  → ReLU / Sigmoid / Tanh]
-      │
-      ▼
-[Pooling  R×R  window (Avg / Max / Global)]
-      │
-      ├─ replaces stride for down-sampling
-      ├─ reduces spatial size, increases receptive field
-      └─ enhances translation invariance
-      ▼
-[Stacked Conv + Pooling Layers]
-      │
-      ├─ small kernels (3×3) + pooling ⇒ large receptive field
-      ├─ more layers > larger kernels (prefer depth)
-      └─ weights grow linearly w/ layers
-      ▼
-[Flatten or Global Pooling]
-      │
-      ├─ flatten:  A ∈ ℝ^{Q×K×M} → a ∈ ℝ^{Q·K·M}
-      └─ global pooling:  spatial avg → a ∈ ℝ^{Q}
-      ▼
-[Fully-Connected Layer + Loss]
-      │
-      ├─ Regression → J_L2
-      ├─ Binary → J_BCE
-      └─ Categorical → Softmax + J_CCE
-      ▼
-[Output Prediction y  / Class Probabilities]
-```
-
 ## Forward Pass
 
 ```
@@ -905,9 +704,7 @@ Softmax → [Cat, Dog, Car, …]
 
 <br>
 
-
-
-## Optimization for Training
+## Optimizations for Training
 
 | Stage                   | **Method**                                  | **Purpose / Effect**                                        |
 | --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
@@ -920,6 +717,7 @@ Softmax → [Cat, Dog, Car, …]
 
 
 <br>
+
 
 ## Normalization and Regularization in different Model Structures
 
@@ -972,38 +770,6 @@ Classical Decoding (Without KV Cache)             Optimized Decoding (With KV Ca
    - High memory bandwidth                           - Lower memory & power
    - Slow inference                                  - Faster inference
 ```
-
-<br>
-
-```
-Training Loop
-    ↓
-[ Forward pass ]
-    ↓
-[ Compute loss ]
-    ↓
-[ Backward pass: compute gradients ]
-    ↓
-[ **Gradient Clipping** ]       ←— `clip_grad_norm_(model.params, max_norm)`
-    ↓
-[ **AdamW Update** ]            ←— `optimizer = AdamW(lr=…, weight_decay=…)`
-    ↓
-[ Zero Gradients ]          ←— `optimizer.zero_grad()`
-    ↓
-[ **Cosine LR Annealing** ]     ←— `scheduler = CosineAnnealingLR(optimizer, T_max, eta_min)`
-    ↓
-[ Next batch ]
-```
-
-<br>
-
-## Single card peak ~ 13–15 GB VRAM -> Start your Experiment with FP16 + AMP
-
-Whisper large-v3 has the same architecture as the previous large and large-v2 models, except for the following minor differences:
-
-1. The spectrogram input uses 128 Mel frequency bins instead of 80
-2. A new language token for Cantonese
-3. Each token output by `Attention carries global context information`, while `FFN applies "fine-tuning" or "feature combination" to each token` to improve the feature quality at each position
 
 <br>
 
@@ -1061,77 +827,7 @@ Input Features From Whisper
 
 <br>
 
-## Fourier Transform
 
-```
-        ┌───────────────────────────────┐
-        │        Original Domain        │
-        │  - Pixels (Images)            │
-        │  - Samples (Audio, Signals)   │
-        │  - Tokens (Text)              │
-        └───────────────────────────────┘
-                       │
-                       ▼  Fourier Transform
-        ┌───────────────────────────────┐
-        │        Frequency Domain       │
-        │  - Low frequencies → smooth   │
-        │  - High frequencies → edges   │
-        │  - Harmonics → fine details   │
-        └───────────────────────────────┘
-                       │
-        ┌──────────────┼────────────────────┐
-        ▼              ▼                    ▼
-   ┌───────────┐  ┌────────────┐       ┌─────────────┐
-   │   CNNs    │  │ Transformers│      │ Speech/Image│
-   └───────────┘  └────────────┘       └─────────────┘
-   - Edges = HF   - Sinusoidal pos.    - STFT / spectrogram
-   - Smooth = LF    encoding           - Highlight textures
-   - Convolutions   (frequency basis)  - Recognize phonemes
-     simplified                        - Detect fine image details
-     in frequency
-     space
-```
-
-
-```
-Teacher (Whisper-large-v2)                     Student
-─────────────────────────────                  ──────────────────────────────────────────────────
-
-Audio Input                                     Audio Input  
-1 × T samples                                   1 × T samples
-     │                                               │
-     ▼                                               ▼
-Whisper Encoder                                 Whisper Encoder
-1280-d hidden, T~1500 frames                    768-d hidden, T~499 frames
-(32 layers, FROZEN)                            (12 layers, FROZEN)
-     │                                               │
-     │                                               │
-     ├─────── Hidden States ──────────────────────── ├─── Projection Layer ───┐
-     │        (B,1500,1280)                          │    (768→1280)          │
-     │                                               │                        │
-     ▼                                               ▼                        ▼
-Whisper Decoder                                 Whisper Decoder              Aligned Hidden
-(32 layers, FROZEN)                            (4 layers +/ LoRA)            (B,1500,1280)
-     │                                               │                        │
-     │                                               │                        │
-     ▼                                               ▼                        │
-Teacher Logits ────── Soft Targets ─────────▶ Student Logits                  │
-(B,seq,vocab)         (KL Loss)               (B,seq,vocab)                   │
-     │                 T=temperature              │                           │
-     │                                            │                           │
-     │                                            ▼                           │
-     │                                      Hard Labels ◀── Ground Truth      │
-     │                                      (CTC Loss)                        │
-     │                                            │                           │
-     │                                            │                           │
-     │                                            ▼                           │
-     │                                       Student Loss ◀─── MSE Loss ──────┘
-     │                                            │         (Hidden Align)
-     │                                            │
-     ▼                                            ▼
-No parameter updates                        (LoRA) + Projection parameters
-(Inference only)                             ONLY these are trained
-```
 
 
 **Why T≈499**
@@ -1156,8 +852,7 @@ No parameter updates                        (LoRA) + Projection parameters
 ≈500 frames  (actually 499 frames)
 ```
 
-
-  - Audio Signal Characteristics - Redundancy -> why can be **compressed** to T~499 frames
+Audio Signal Characteristics - Redundancy -> why can be **compressed** to T~499 frames
 
 ```
 1. Audio frame rate is typically high
@@ -1171,14 +866,6 @@ total_frames = 30 * frame_rate  # 3000 frames
 3. Adjacent frames are highly correlated
 correlation_coefficient ≈ 0.9  # typical inter-frame correlation
 ```
-
-
-- Always remember to do **Automatic checkpoint saving**
-- !pip install -U bitsandbytes>=0.41.0
-- Put Your Teacher model on CPU
-- MIN_DURATION = 1.0
-- MAX_DURATION = 30.0 # Same as **Whispe maximum acceptance length**
-
 
 <br>
 
@@ -1197,19 +884,6 @@ decoder.layers.*.encoder_attn.q_proj
 decoder.layers.*.encoder_attn.v_proj
 decoder.layers.*.self_attn.q_proj
 decoder.layers.*.self_attn.v_proj
-```
-
-
-```
-decoder.layers.*.encoder_attn.q_proj, encoder_attn.k_proj, encoder_attn.v_proj
-decoder.layers.*.self_attn.q_proj, self_attn.k_proj, self_attn.v_proj
-decoder.layers.*.fc2
-```
-
-```
-decoder.layers.*.encoder_attn.q_proj, encoder_attn.k_proj, encoder_attn.v_proj, encoder_attn.out_proj
-decoder.layers.*.self_attn.q_proj, self_attn.k_proj, self_attn.v_proj, self_attn.out_proj
-decoder.layers.*.fc1, fc2
 ```
 
 <br>
@@ -1304,88 +978,25 @@ without explicit frame-level labels:
 
 <br>
 
-**KL Distillation Loss - Soft Supervision**
-
-KL Distillation Loss compares the teacher’s and student’s posterior distributions over labels at each time-step in latent space
-
-  - Soft Distribution Matching
-  - Preference Transfer
-  - Capturing Uncertainty
-
-
-Since the softmax outputs retain probabilities for all tokens, the KL term transfers the teacher’s uncertainty patterns—e.g., when the teacher is unsure between two phonemes, the student learns to mirror that ambiguity
-
-
-**Total Loss**
-
-$$
-L_{\text{total}}
-= L_{\mathrm{CE}}
-+ 0.xx\,T^{2}\,L_{\mathrm{KD}}
-+ \alpha\,L_{\mathrm{hidden\_align}}
-$$
-
-
-
-where
-
-$$
-\begin{aligned}
-& L_{\mathrm{CE}}
-   &&\text{is the hard CE loss}\\
-& L_{\mathrm{KD}}
-   = \mathrm{KL}\bigl(p_{\rm teacher}^{T}\;\|\;p_{\rm student}^{T}\bigr)
-   &&\text{is the softened KL-divergence loss with temperature }T\text{ and weight }\0.8 (*the same as student backbone)\\
-& L_{\mathrm{hidden\_align}}
-   &&\text{is the projected hidden-state MSE loss with weight }\alpha
-\end{aligned}
-$$  
-
 
 <br><br>
 
 ## Hyperparameter Optimization
 
-
-With 15hrs dataset experiment, we used 50 rounds to run a "warm-up" for no problem. If you want to perform large-scale tuning in a production environment, it is recommended to `increase n_trials to 50-100`
+Knowledge fidelity × Geometric alignment × Optimization stability
 
 ```
-import optuna
-from optuna.pruners import MedianPruner
-from optuna.samplers import TPESampler
-
 def objective(trial):
-    # Distillation loss weights
-    alpha = trial.suggest_loguniform("alpha", 1e-3, 1e1)
-    beta  = trial.suggest_loguniform("beta",  1e-3, 1e1)
-    # Optimization hyperparameters
-    lr        = trial.suggest_loguniform("lr",        1e-5, 1e-3)
-    batch_size= trial.suggest_categorical("batch_size", [4, 8, 16, 32])
-    dropout   = trial.suggest_float("dropout", 0.0, 0.5)
-    
-    # Train & evaluate with these settings (implement train_and_evaluate accordingly)
+    lambda_kl  = trial.suggest_loguniform("lambda_kl", 1e-2, 1e1)
+    lambda_geo = trial.suggest_loguniform("lambda_geo", 1e-3, 1e0)
+    lr         = trial.suggest_loguniform("lr", 5e-5, 5e-4)
+
     wer = train_and_evaluate(
-        alpha=alpha,
-        beta=beta,
-        learning_rate=lr,
-        batch_size=batch_size,
-        dropout=dropout,
-        pruner=trial  # for early stopping
+        lambda_kl=lambda_kl,
+        lambda_geo=lambda_geo,
+        learning_rate=lr
     )
     return wer
-
-# Pruner to stop unpromising trials early
-pruner  = MedianPruner(n_startup_trials=5, n_warmup_steps=100)
-sampler = TPESampler()
-
-study = optuna.create_study(
-    direction="minimize",
-    sampler=sampler,
-    pruner=pruner
-)
-study.optimize(objective, n_trials=100)
-
-print("Best hyperparameters:", study.best_params)
 ```
 
 <br>
@@ -1414,16 +1025,6 @@ print("Best hyperparameters:", study.best_params)
 
 <br>
 
-```
-- Local weights
-w_ij = exp(−(d(x_i, x_j) − ρ_i) / σ_i)  
-w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
-
-- Fuse into a single “strength” score
-μ_ij = w_ij + w_ji − w_ij * w_ji
-```
-
-<br>
 
 ## Background Knowledge 2
 
@@ -1577,7 +1178,7 @@ w_ji = exp(−(d(x_j, x_i) − ρ_j) / σ_j)
 
 <br>
 
-**ResNet**
+## ResNet
 
 ```
 Plain Net:                 ResNet:
@@ -1764,50 +1365,6 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-## Loss Functions in KD
-
-| Loss Name                  | Mathematical Form                  | Purpose             | Why                                   |
-| -------------------------- | ---------------------------------- | ------------------- | ------------------------------------- |
-| Hard CE                    | $-\sum_i y_i \log q_i$             | Correctness         | Prevents deviation from the task      |
-| Soft CE                    | $-\sum_i p_i^{(T)} \log q_i^{(T)}$ | Knowledge transfer  | Encodes class similarity structure    |
-| $T^2$ scaling              | $T^2,\mathcal{L}_{\text{soft}}$    | Scale stabilization | Keeps gradient magnitude consistent   |
-| Logit L2                   | $\sum_i \lVert z_i - v_i \rVert^2$ | Limiting case       | High-temperature approximation        |
-| KL divergence              | $\mathrm{KL}(p^{(T)} ,|, q^{(T)})$ | Unified view        | Asymmetric teacher → student matching |
-| Soft target regularization | implicit                           | Regularization      | Data-dependent prior from teacher     |
-
-
-
-<br>
-
-
-## KD, BYOL, and Self-Distillation
-
-
-| Loss / Objective                      | Who proposed                                                 | Why (English)                                                                        |
-| ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| **Hard Cross Entropy**                | Standard supervised learning (Shannon; modern deep learning) | To train models to predict the ground-truth label directly                           |
-| **Soft Cross Entropy (Soft Targets)** | **Hinton et al., 2015**                                      | To transfer the teacher’s full output distribution, not just the argmax              |
-| **Temperature $T$**                   | **Hinton et al., 2015**                                      | To expose dark knowledge encoded in low-probability classes                          |
-| **$T^2$ Gradient Scaling**            | **Hinton et al., 2015**                                      | To keep gradient magnitudes consistent when changing $T$                             |
-| **Logit L2 Loss**                     | **Caruana et al., 2006**                                     | To match teacher and student pre-softmax representations                             |
-| **KL Divergence View**                | Kullback–Leibler (1951), applied by **Hinton et al.**        | To formalize distillation as asymmetric distribution matching                        |
-| **Soft Targets as Regularization**    | **Hinton et al., 2015 (implicit)**                           | To act as a data-dependent prior that reduces overfitting                            |
-| **BYOL Loss (Prediction Matching)**   | **Grill et al., 2020 (BYOL)**                                | To match representations between online and target networks without negative samples |
-| **Self-Distillation (EMA Teacher)**   | **Mean Teacher (2017); BYOL (2020)**                         | To distill knowledge from a temporally averaged version of the same model            |
-| **Representation Consistency Loss**   | **Self-distillation / BYOL line of work**                    | To enforce invariance across views, augmentations, and training time                 |
-
-
-<br>
-
-## L2 Loss vs. Geodesic Loss
-
-| L2 Loss                    | Geodesic Loss              |
-| -------------------------- | -------------------------- |
-| Euclidean space            | Curved (Riemannian) space  |
-| Sensitive to vector norm   | Depends only on direction  |
-| Encourages radial collapse | Avoids radial degeneration |
-
-<br>
 
 ## Point vs. Curve Distillation
 
@@ -1848,48 +1405,6 @@ Use Layer1 activation → compute gradient
 
 <br>
 
-
-## ODE, SDE, and Neural ODE
-
-
-| Aspect                     | ODE (Ordinary Differential Equation)                                                                                                                                                            | SDE (Stochastic Differential Equation)                                                                                                          | Neural ODE                                                                  |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| Historical motivation      | Describe deterministic physical laws                                                                                                                                                            | Model intrinsic randomness in dynamical systems                                                                                                 | Learn continuous-time dynamics from data                                    |
-| When introduced            | 17th century                                                                                                                                                                                    | 1940s                                                                                                                                           | 2018                                                                        |
-| Original problem           | Predict future state from current state                                                                                                                                                         | Predict distributional evolution under noise                                                                                                    | Replace discrete deep layers with continuous dynamics                       |
-| Core equation              | $ \frac{dx}{dt} = f(x,t) $                                                                                                                                                                      | $ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $                                                                                                     | $ \frac{dx}{dt} = f_\theta(x,t) $                                           |
-| Nature of dynamics         | Deterministic                                                                                                                                                                                   | Stochastic                                                                                                                                      | Deterministic but learned                                                   |
-| Role of randomness         | None                                                                                                                                                                                            | Essential (Brownian noise)                                                                                                                      | None in dynamics (data-driven uncertainty only)                             |
-| What evolves               | A single trajectory                                                                                                                                                                             | A distribution over trajectories                                                                                                                | A trajectory parameterized by a neural network                              |
-| Output interpretation      | One future path                                                                                                                                                                                 | A family of possible paths                                                                                                                      | Continuous-depth transformation                                             |
-| Mathematical object        | Function                                                                                                                                                                                        | Stochastic process                                                                                                                              | Neural-parametrized ODE                                                     |
-| Relation to probability    | Implicit (via initial condition)                                                                                                                                                                | Explicit (distribution is primary object)                                                                                                       | Implicit; often paired with likelihood or flow models                       |
-| Typical use cases          | Physics, mechanics, control                                                                                                                                                                     | Diffusion, Langevin dynamics, finance                                                                                                           | Continuous normalizing flows, deep learning models                          |
-| Key conceptual role        | Deterministic time evolution                                                                                                                                                                    | Distributional time evolution                                                                                                                   | Learnable continuous-time computation                                       |
-| Limiting relationship      | —                                                                                                                                                                                               | Reduces to ODE when noise $\to 0$                                                                                                               | ODE with learned vector field                                               |
-| **Existence & uniqueness** | **Picard–Lindelöf theorem**: if $f$ is continuously differentiable with bounded derivatives (or more generally Lipschitz), a unique solution to the ODE exists; equivalently, a flow map exists | **Existence & uniqueness theorem for SDEs**: if $b$ is Lipschitz and $\sigma$ is continuous (or Lipschitz), a unique solution to the SDE exists | Inherits ODE guarantees under the same regularity assumptions on $f_\theta$ |
-
-
-<br>
-
-**ODEs (Picard–Lindelöf theorem)**
-- If the vector field $f$ is Lipschitz (e.g., continuously differentiable with bounded derivatives), then a unique solution to
-  $ \frac{dx}{dt} = f(x,t) $
-- exists. Equivalently, a flow map is well-defined
-
-
-**SDEs (Existence and Uniqueness Theorem)**
-- If the drift $b$ is Lipschitz and the diffusion coefficient $\sigma$ is continuous (or Lipschitz), then a unique solution to
-  $ dX_t = b(X_t,t),dt + \sigma(X_t,t),dW_t $
-- exists
-
-**Key takeaways**
-- In the cases of practical interest for machine learning, unique solutions exist for both ODEs / flows and SDEs
-**Stochastic calculus perspective**
-- Solutions to SDEs are constructed via stochastic integrals, defined as limits of Itô–Riemann sums
-
-<br>
-
 ## Sources of Non-Determinism in Training
 
 | Concept                           | What it is                                                                                                                          | Who / Origin                                                                                           | When                                          | Why it exists                                                                                         |
@@ -1897,20 +1412,6 @@ Use Layer1 activation → compute gradient
 | **RNG (Random Number Generator)** | A mechanism that produces pseudo-random numbers controlling stochastic processes in training (e.g., data order, dropout, sampling). | Computer science & statistics community (e.g., Knuth); implemented in **PyTorch**, **NumPy**, **CUDA** | 1960s (theory); 2016+ in modern DL frameworks | Enables stochastic optimization, regularization, and scalable training over large datasets.           |
 | **JIT Compilation**               | Just-In-Time compilation that generates optimized GPU kernels at runtime based on actual tensor shapes and hardware.                | **NVIDIA (CUDA)**, **LLVM**, adopted by **PyTorch**, **cuDNN**                                         | ~2007 (CUDA); widely used in DL since ~2017   | Achieves hardware-specific performance without requiring precompiled kernels for every configuration. |
 | **Autotuning**                    | Runtime benchmarking and selection of the fastest kernel among multiple implementations.                                            | **NVIDIA cuDNN / cuBLAS**                                                                              | ~2014–2016                                    | Maximizes throughput by adapting to input shapes, memory layout, and GPU architecture.                |
-
-
-<br>
-
-## Score Field Instead of Raw Data Distribution
-
-- [2005 - Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)
-
-| Representation                 | Requires normalization | Local / Global | Directly enters dynamics | High-dimensional feasibility |
-| ------------------------------ | ---------------------- | -------------- | ------------------------ | ---------------------------- |
-| $p(x)$                         | Yes                    | Global         | No                       | No                           |
-| $\log p(x)$                    | Yes                    | Global         | No                       | No                           |
-| Energy $E(x)$                  | No                     | Global         | No                       | Limited                      |
-| **Score $\nabla_x \log p(x)$** | No                     | **Local**      | **Yes**                  | **Yes**                      |
 
 
 <br>
@@ -1938,17 +1439,12 @@ Use Layer1 activation → compute gradient
 - [2023 - Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
 - [ASR WER + Latency](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 - [2021 - 1-bit Adam: Communication Efficient Large-Scale Training with Adam’s Convergence Speed](https://proceedings.mlr.press/v139/tang21a.html)
-- [2024 - SqueezeAttention: 2D Management of KV-Cache in LLM Inference via Layer-wise Optimal Budget](https://arxiv.org/abs/2404.04793)
-- [2025 - Qwen/Qwen3-235B-A22B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507)
 - [2020 - Bootstrap your own latent: A new approach to self-supervised learning 📍 BYOL, 2020](https://github.com/lucidrains/byol-pytorch)
 - [2022 - data2vec: A General Framework for Self-supervised Learning in 📍 Speech, Vision and Language](https://arxiv.org/pdf/2202.03555)
 
 
 - [2020 - 📍 Graph Structure of Neural Networks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:pS0ncopqnHgC)
 - [2025 - Towards Fully FP8 GEMM LLM Training at Scale](https://openreview.net/forum?id=KYTFXxTJ12&referrer=%5Bthe%20profile%20of%20Martin%20Jaggi%5D(%2Fprofile%3Fid%3D~Martin_Jaggi1))
-- [2025 - 📍 Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free](https://openreview.net/forum?id=1b7whO4SfY)
-
-
 
 
 <br><br>
