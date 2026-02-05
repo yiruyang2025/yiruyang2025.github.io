@@ -55,7 +55,8 @@ related_publications: true
 
 ## Alzheimer’s Disease Neuroimaging Initiative (ADNI)
 
-A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement.
+- A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement
+- [3D Medical Data](https://adni.loni.usc.edu/)
 
 <br>
 
