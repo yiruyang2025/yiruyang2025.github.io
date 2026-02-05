@@ -49,7 +49,7 @@ images:
 
 
 - ([Prof. Sergey Tomin](https://github.com/ocelot-collab))
-- (Dragomir Anguelov)
+- (Dragomir Anguelov, Amirabbas Asadi)
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
