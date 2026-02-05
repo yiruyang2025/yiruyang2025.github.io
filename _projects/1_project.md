@@ -13,6 +13,7 @@ related_publications: true
 ## Background Readings
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
+- [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 
 <br>
 
