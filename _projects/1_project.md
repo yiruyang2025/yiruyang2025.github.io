@@ -195,11 +195,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 CE + KL define the task
 Geo loss regularizes representation geometry
 Weight decay regularizes parameter scale, not representation geometry
-```
 
-<br>
-
-```
 MLS dataset
 Dataset: 59623 files x 4 epochs = 238,492 samples
 Dev: 1248 transcripts, 1248 files
@@ -209,16 +205,16 @@ Dev: 1248 transcripts, 1248 files
 
 ## Initialization and State Management
 
-| Component        | Initialization                   |
-| ---------------- | -------------------------------- |
-| Teacher          | Fully pretrained, frozen         |
-| Student backbone | Pretrained Whisper-medium        |
-| LoRA adapters    | Random init (rank=64), trainable |
-| Projection head  | Random linear projection         |
-| Optimizer state  | Fresh if no checkpoint found     |
-| Scheduler state  | Fresh cosine schedule            |
-| AMP scaler       | Initialized before training      |
-
+| Component         | Initialization                                      |
+| ----------------- | --------------------------------------------------- |
+| Teacher           | Fully pretrained, encoder and decoder frozen        |
+| Student encoder   | Pretrained Whisper-medium, frozen                   |
+| Student decoder   | Pretrained, frozen (with trainable LoRA adapters)   |
+| LoRA adapters     | Randomly initialized (rank = 64), trainable         |
+| Projection module | Randomly initialized projection module              |
+| Optimizer state   | Initialized from scratch if no checkpoint is loaded |
+| Scheduler state   | Fresh cosine learning rate schedule                 |
+| AMP scaler        | Initialized before training                         |
 
 <br>
 
