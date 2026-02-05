@@ -72,6 +72,8 @@ A large-scale longitudinal multi-center study initiated in 2004. The dataset inc
 | Access        | IDA portal (login + Data Use Agreement required)                |
 
 
+<br>
+
 ## 2. Participant Identifiers and Longitudinal Indexing
 
 | Field                         | Description                          | Usage                                        |
@@ -81,6 +83,7 @@ A large-scale longitudinal multi-center study initiated in 2004. The dataset inc
 | VISDATE / EXAMDATE / SCANDATE | Visit / exam / scan date             | Temporal alignment for longitudinal analysis |
 | Phase Indicator               | ADNI1 / GO / 2 / 3 / 4               | Cohort and protocol stratification           |
 
+<br>
 
 ## 3. Diagnostic Group Distribution
 
@@ -94,6 +97,8 @@ A large-scale longitudinal multi-center study initiated in 2004. The dataset inc
 | AD             | Alzheimer’s Disease             | 523                |
 | Total Patients | All non-CN subjects             | 141                |
 
+<br>
+
 ## 4. Neuroimaging Data (Raw and Processed)
 
 | Modality         | Access Path           | Format             | Dimensionality | Typical Use                    |
@@ -103,7 +108,6 @@ A large-scale longitudinal multi-center study initiated in 2004. The dataset inc
 | Amyloid PET      | Advanced Image Search | DICOM / NIfTI      | 3D             | Amyloid burden estimation      |
 | FDG-PET          | Advanced Image Search | DICOM / NIfTI      | 3D             | Glucose metabolism analysis    |
 | Pathology Slides | Advanced Image Search | Whole-slide images | 2D/3D          | Neuropathological validation   |
-
 
 
 <br>
