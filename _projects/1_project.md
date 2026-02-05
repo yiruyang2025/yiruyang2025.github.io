@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Deep Learning
-description: Latent Space
+description: Latent Space, Point Clouds Encoder
 img: assets/img/4.jpg
 importance: 1
 category: work
