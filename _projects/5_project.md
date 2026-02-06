@@ -16,7 +16,7 @@ related_publications: true
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
   - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
   - [2024  - Next-generation AI for 📍 Connectomics](https://www.nature.com/articles/s41592-024-02336-0)
-  - [2023 - 📍 SegCLR: Multi-layered maps of neuropil with segmentation-guided contrastive learning, Nature Methods.]
+  - [2023 - 📍 SegCLR: Multi-layered maps of neuropil with segmentation-guided contrastive learning, Nature Methods.](https://www.nature.com/articles/s41592-023-02059-8)
 
 
 
