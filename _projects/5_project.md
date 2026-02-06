@@ -15,6 +15,10 @@ related_publications: true
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
   - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
+  - [2024  - Next-generation AI for 📍 connectomics](https://www.nature.com/articles/s41592-024-02336-0)
+
+
+
   - [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
   - [2026 - SpaceX](https://x.com/Starlink/status/2017064797125410863?s=20)
 
