@@ -18,6 +18,8 @@ related_publications: true
   - [2024  - Next-generation AI for 📍 connectomics](https://www.nature.com/articles/s41592-024-02336-0)
 
 
+  - [2026 - A generalizable foundation model for analysis of human brain MRI](https://www.nature.com/articles/s41593-026-02202-6)
+
 
   - [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
   - [2026 - SpaceX](https://x.com/Starlink/status/2017064797125410863?s=20)
@@ -39,7 +41,7 @@ related_publications: true
 - `If a team / mentor can tolerate you saying "This has no information" and listen carefully to the rest of your sentence, then it is a very good peer / team.`
 
 - [DiffusionDrive](https://openreview.net/revisions?id=sh7vDLo5EY), CVPR highlight 2025.
-- [📍 Disentangling Monocular 3D Object Detection](https://openaccess.thecvf.com/content_ICCV_2019/papers/Simonelli_Disentangling_Monocular_3D_Object_Detection_ICCV_2019_paper.pdf), ICCV 2019.
+- [Disentangling Monocular 3D Object Detection](https://openaccess.thecvf.com/content_ICCV_2019/papers/Simonelli_Disentangling_Monocular_3D_Object_Detection_ICCV_2019_paper.pdf), ICCV 2019.
   - The core method of 3D perception that `does not rely on LiDAR` laid the foundation for many subsequent 3D Tracking and 3D MOT vision methods.
 - [Monocular 3D Object Detection Leveraging Accurate Proposals and Shape Reconstruction](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ku_Monocular_3D_Object_Detection_Leveraging_Accurate_Proposals_and_Shape_Reconstruction_CVPR_2019_paper.pdf), CVPR 2019.
 - [Monocular Quasi-Dense 3D Object Tracking](https://ieeexplore.ieee.org/document/9760217), 2021.
@@ -68,6 +70,56 @@ related_publications: true
   - `PET scan`: Can directly visualize amyloid plaques in the brain, but it is expensive, involves radiation, and is not available in many hospitals
   - `QSM MRI (Input)`: A newer MRI technique, highly sensitive to magnetic materials in the brain (such as iron deposits and plaques). It is inexpensive and safe
   - `Thesis task`: Use AI to find patterns between QSM signals and PET plaque distribution.
+
+
+<br>
+
+```
+ADNI Cohort
+│
+├── QSM MRI (in vivo)
+│     ├── QSM reconstruction & normalization
+│     ├── Spatial registration to PET space
+│     └── 3D volume cropping / resampling
+│
+├── Amyloid PET (reference standard)
+│     ├── ADNI-standard preprocessing
+│     ├── Intensity normalization
+│     └── Co-registration with QSM
+│
+▼
+3D QSM Volume
+│
+▼
+Encoder: BrainIAC-Pretrained 3D Vision Transformer
+│   (global contextual representation learning)
+│
+▼
+Latent Cross-Modal Representation
+│
+▼
+Alignment Module
+│   (Conditional Diffusion or GAN-based refinement)
+│
+▼
+Decoder
+│
+▼
+Predicted Amyloid Burden Map
+(continuous voxel-wise 3D estimate)
+│
+▼
+Loss Optimization
+│   ├── Structural Similarity (SSIM)
+│   ├── Perceptual Loss (VGG-based)
+│   └── Intensity Consistency Loss
+│
+▼
+Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
+```
+
+
+
 
 
 <br>
@@ -539,61 +591,4 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 | Qualcomm  | Chip enablement                     | ISP tuning, sensor fusion hooks                                                      | No system-level calibration ownership                     | Sells silicon, not end-to-end systems                   |
 
 <br>
-
-## What Is Fundamentally Missing
-
-| Missing Capability             | Status             |
-| ------------------------------ | ------------------ |
-| Online intrinsic re-estimation | Not shipped by any |
-| Target-free calibration        | Research-only      |
-| Long-term temporal consistency | Not addressed      |
-| Cross-camera self-consistency  | Partial hacks only |
-| System-level ownership         | No clear owner     |
-
-<br>
-
-## How ML Makes Camera Errors More Dangerous
-
-| Stage                  | What Happens                                | Why It Is Dangerous                                |
-| ---------------------- | ------------------------------------------- | -------------------------------------------------- |
-| Geometry is wrong      | Camera intrinsics or extrinsics drift       | The physical reference frame is no longer correct  |
-| ML compensates         | Neural networks adapt and mask errors       | Errors are hidden instead of detected              |
-| System appears to work | Outputs look plausible to users and metrics | No obvious failure signal is triggered             |
-| Metrics pass           | Task-level KPIs remain within tolerance     | Validation does not detect geometric inconsistency |
-| Lost signal            | Geometric consistency is no longer enforced | The system loses its primary correctness alarm     |
-| Result                 | System does not know it is wrong            | Errors become silent, global, and compounding      |
-
-
-<br>
-
-## Camera as the Global Reference Frame in Vision Systems
-
-| Module                 | What It Depends On                           |
-| ---------------------- | -------------------------------------------- |
-| SLAM                   | Camera intrinsics and extrinsics             |
-| Augmented Reality (AR) | Camera coordinate frame                      |
-| Depth / Stereo         | Multi-camera geometric consistency           |
-| Sensor Fusion          | Camera–IMU extrinsic calibration             |
-| Robotics               | Mapping between camera frame and world frame |
-
-
-<br>
-
-## Camera Calibration Core Definition
-
-
-| Concept                | Meaning                                                                                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Calibration            | Estimating the mapping between 3D world coordinates and 2D image measurements                                                                          |
-| Intrinsics             | Parameters internal to the camera (focal length, principal point, distortion)                                                                          |
-| Extrinsics             | Rigid transformation between camera and world (or other sensors)                                                                                       |
-| Camera Registration    | Estimation of the **rigid pose (rotation & translation)** of a camera relative to another reference (e.g., another camera, a world frame, or a sensor) |
-| Assumption (classical) | Camera parameters are static and known                                                                                                                 |
-
-
-<br><br><br>
-
-
-
-
 
