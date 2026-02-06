@@ -14,7 +14,6 @@ related_publications: true
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT
-- Backbone in Use: Dust3R (2024), MoGe (2025), St4rTrack (2025), DINO, 
 
 <br>
 
