@@ -392,4 +392,22 @@ z_t^imu ───────▶   │  x_t   │   ◀────── z_t^ey
 ```
 
 
-<br><br>
+<br>
+
+
+
+## 4D and LiDAR Free
+
+  - [2024 - Interactive4D: Interactive 4D LiDAR Segmentation](https://arxiv.org/abs/2410.08206)
+  - [4D Lidar L1 Application Scenarios - Robots - Unitree](https://www.unitree.com/cn/LiDAR)
+  - [Aeva – 4DLiDAR for Autonomous Navigation - Auto Driving - beyond Beam](https://www.aeva.com/)
+  - [A Digital Geneva / Zurich](https://carla.readthedocs.io/en/latest/adv_digital_twin/)
+
+
+
+
+
+
+
+
+<br>
