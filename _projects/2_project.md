@@ -1017,10 +1017,6 @@ Conceptual trajectory
 
 <br>
 
-- Conceptual trajectory
-    - Drawing → Transforming → Rendering → Physical Simulation → Geometry Processing → Differentiable Systems
-
-<br>
 
 ## Structural Comparison of Vision and Graphics Backbones
 
@@ -1031,7 +1027,6 @@ Conceptual trajectory
 | Mathematical Tools | Signal processing, optimization | Geometry, physics                        |
 | Historical Shift   | Handcrafted → Learned features  | Deterministic → Differentiable pipelines |
 | Current Frontier   | Learned operators, uncertainty  | Generative and probabilistic modeling    |
-
 
 
 <br><br>
