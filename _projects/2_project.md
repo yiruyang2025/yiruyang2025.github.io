@@ -31,7 +31,7 @@ related_publications: true
 ## Motion
 
   - [2025 - 📍 Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
-  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931) - 📍 Genie 3
+  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
 <br>
 
