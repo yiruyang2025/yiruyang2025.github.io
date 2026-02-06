@@ -128,55 +128,6 @@ p = predict_transplantability(
 print(f"Predicted P(TX) = {p:.3f}")
 ```
 
-<br>
-
-## References
-
-- [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
-
-<br>
-
-## Robotics
-
-**1. Series Elastic Actuators**
-
-- [📍 1995 - Series Elastic Actuators](https://fab.cba.mit.edu/classes/865.15/people/rebecca.kleinberger/assets/papers/SEA_Pratt.pdf)
-- [2017 - Intro](https://www.youtube.com/watch?v=gZLO2Am0Zk8)
-
-
-<br>
-
-**2. Advances in self-supervised multimodal learning - Prof. Dr. Hilde Kuehne (Tuebingen AI Center)**
-
-- [2025 - Recording](https://www.youtube.com/watch?v=uhVzzW5d4W4)
-
-<br>
-
-
-**3. Products**
-
-
-- [Apptronik](https://apptronik.com/)
-- [📍 TNKR.ai](https://tnkr.ai/explore)
-
-
-
-
-<br><br>
-
-
-
-## 4D Gaussian Formulation
-
-| Property              | 3D Gaussian Splatting          | 4D Gaussian Fields                          |
-| --------------------- | ------------------------------ | ------------------------------------------- |
-| Temporal modeling     | Static scene                   | Dynamic, time-dependent scene               |
-| Parameterization      | Fixed $(\mu_i, \Sigma_i, c_i)$ | Functions $(\mu_i(t), \Sigma_i(t), c_i(t))$ |
-| Motion representation | None                           | Explicit velocity field $v(\mathbf{x}, t)$  |
-| Topology handling     | Fixed structure                | Supports appearance/disappearance           |
-| Continuity            | Spatial smoothness             | Spatiotemporal smoothness                   |
-| Rendering             | Per-frame splatting            | Motion-compensated splatting                |
-
 
 <br>
 
@@ -376,14 +327,6 @@ $\alpha$ and $c$ are **learnable** via backpropagation, allowing the model to au
 <br><br>
 
 
-## Multi-modal Inference
-
-- The capacity to accurately interpret multimodal inputs typically only emerges in large models with billions of parameters 
-
-
-
-
-<br>
 
 ## References
 
