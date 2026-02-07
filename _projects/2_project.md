@@ -13,19 +13,11 @@ related_publications: true
 ## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT
+- ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT, [D2-Net](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dGJxC_gAAAAJ&citation_for_view=dGJxC_gAAAAJ:u-x6o8ySG0sC), 
 
 <br>
 
 
-## Not Related But Art works
-
-  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
-
-<br>
 
 
 ## Motion
@@ -56,6 +48,17 @@ related_publications: true
 
 
 <br>
+
+
+## Not Related But Art works
+
+  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+
+<br>
+
 
 ## Projection for the Semantic Prior
 
