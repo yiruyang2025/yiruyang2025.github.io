@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Connectomics
-description: 4D Brain Mapping, (AVI,) PRS
+description: 4D Brain Mapping, PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
