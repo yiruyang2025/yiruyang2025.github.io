@@ -13,7 +13,7 @@ related_publications: true
 ## Not Relavant Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, OpenScene, SAP (Shape As Points), DiT, [D2-Net](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dGJxC_gAAAAJ&citation_for_view=dGJxC_gAAAAJ:u-x6o8ySG0sC), 
+- ViT, DINOv3, Semantic-SAM, OpenScene, 📍 SAP (Shape As Points), DiT, D2-Net, 
 
 
 <br>
@@ -23,6 +23,16 @@ related_publications: true
 
   - [2025 - 📍 Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
   - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
+
+<br>
+
+
+## Not Related But Art works
+
+  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
 <br>
 
@@ -45,16 +55,6 @@ related_publications: true
 | **5. Geometry–Semantic Alignment**                   | Traditional SfM reconstructs only geometry, ignoring semantic consistency.                   | Lacks semantic identity or part-level alignment, limiting high-level scene understanding.                                                | Integrate vision-language or semantic embeddings (e.g., CLIP, DINOv3) and enforce cross-view semantic regularization.         | **Partial.** Semantic-aware 3D reconstruction is growing but still limited for geometry-based SfM.                                   |
 | **6. Long-Term Consistency & Memory**                | Per-scene optimization causes drift; long-term or cross-session consistency is absent.       | No temporal memory; reconstructions over time remain inconsistent.                                                                       | Incorporate state-space models, latent geometry flow, or temporal latent dynamics for consistent long-term modeling.          | **Partial / Emerging.** Some dynamic NeRFs and latent-flow models handle temporal coherence, but not integrated into SfM frameworks. |
 
-
-<br>
-
-
-## Not Related But Art works
-
-  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
 <br>
 
