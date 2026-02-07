@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- SMPL (2015), SMAL (2017), 
+- Motion, human + non-rigid species
 
 
 <br><br><br><br><br>
