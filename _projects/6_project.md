@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Motion Backbone
-description: (CRL)
+description: (AVI, CRL)
 img: assets/img/4.jpg
 importance: 5
 category: work
