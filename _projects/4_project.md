@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Liver Predictor
+title: 2026 - Project and Thesis - Liver Predictor
 description: SSL, USZ
 img: assets/img/4.jpg
 importance: 4
