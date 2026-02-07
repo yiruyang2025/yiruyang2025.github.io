@@ -10,14 +10,13 @@ related_publications: true
 
 <br>
 
-## Topics
+## Not Relavant Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, OpenScene, 📍SAP (Shape As Points), DiT, [D2-Net](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dGJxC_gAAAAJ&citation_for_view=dGJxC_gAAAAJ:u-x6o8ySG0sC), 
+- ViT, DINOv3, Semantic-SAM, OpenScene, SAP (Shape As Points), DiT, [D2-Net](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dGJxC_gAAAAJ&citation_for_view=dGJxC_gAAAAJ:u-x6o8ySG0sC), 
+
 
 <br>
-
-
 
 
 ## Motion
