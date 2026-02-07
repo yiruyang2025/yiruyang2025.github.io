@@ -21,7 +21,7 @@ related_publications: true
   - [2023 - 📍 SegCLR: Multi-layered maps of neuropil with segmentation-guided contrastive learning, Nature Methods.](https://www.nature.com/articles/s41592-023-02059-8)
 
 
-- [2025 - Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and dense features](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:D_sINldO8mEC)
+- [2025 - Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and 📍 dense features](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:D_sINldO8mEC)
 
 
 - [2026 - A generalizable foundation model for analysis of human brain MRI](https://www.nature.com/articles/s41593-026-02202-6)
