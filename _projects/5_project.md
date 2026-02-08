@@ -24,9 +24,7 @@ related_publications: true
 
 <br>
 
-## Topics and PI
-
-  - [Dr. Ruiqing Ni](https://scholar.google.com/citations?user=FR8SPdgAAAAJ&hl=en)
+## Topics
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
