@@ -24,7 +24,7 @@ related_publications: true
 
 The pseudo-label loss is defined as:
 
-- $L_{PL} = - \sum_{i=1}^{N'} \log P(y_i \mid \hat{y}_{<i}, H_{1:M})$
+- $$L_{PL} = - \sum_{i=1}^{N'} \log P(y_i \mid \hat{y}_{<i}, H_{1:M})$$
 
 The Kullback–Leibler divergence loss is defined as:
 
@@ -262,21 +262,19 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 - The core idea of PCA is eigen-decomposition of the covariance matrix.
 
-### Code snippet
-
-1. Covariance Matrix:
+- Covariance Matrix:
 
 $\mathbf{\Sigma} = \frac{1}{n-1} \sum_{i=1}^{n} (\mathbf{x}_i - \bar{\mathbf{x}})(\mathbf{x}_i - \bar{\mathbf{x}})^T$
 
-2. Eigen-decomposition:
+- Eigen-decomposition:
 
 $\mathbf{\Sigma} \mathbf{v}_k = \lambda_k \mathbf{v}_k$
 
-3. Projection:
+- Projection:
 
 $\mathbf{y}_i = \mathbf{W}_k^T (\mathbf{x}_i - \bar{\mathbf{x}})$,
 
-where
+- where
 
 $\mathbf{W}_k = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k]$
 
@@ -286,18 +284,14 @@ $\mathbf{W}_k = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k]$
 
 - The core idea of t-SNE is to minimize the KL divergence between probability distributions
 in the high-dimensional and low-dimensional spaces.
+- High-dimensional similarity (Gaussian):
 
-### Code snippet
+$$p_{j|i} = \frac{\exp\left(-\|\mathbf{x}_i - \mathbf{x}_j\|^2 / (2\sigma_i^2)\right)}{\sum_{k \neq i} \exp\left(-\|\mathbf{x}_i - \mathbf{x}_k\|^2 / (2\sigma_i^2)\right)}$$
 
-1. High-dimensional similarity (Gaussian):
+- Low-dimensional similarity (Student t-distribution):
 
-$p_{j|i} = \frac{\exp\left(-\|\mathbf{x}_i - \mathbf{x}_j\|^2 / (2\sigma_i^2)\right)}{\sum_{k \neq i} \exp\left(-\|\mathbf{x}_i - \mathbf{x}_k\|^2 / (2\sigma_i^2)\right)}$
-
-2. Low-dimensional similarity (Student t-distribution):
-
-$q_{ij} = \frac{(1 + \|\mathbf{y}_i - \mathbf{y}_j\|^2)^{-1}}{\sum_{k \neq l} (1 + \|\mathbf{y}_k - \mathbf{y}_l\|^2)^{-1}}$
-
-3. Cost function:
+$$q_{ij} = \frac{(1 + \|\mathbf{y}_i - \mathbf{y}_j\|^2)^{-1}}{\sum_{k \neq l} (1 + \|\mathbf{y}_k - \mathbf{y}_l\|^2)^{-1}}$$
+- Cost function:
 
 $C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$
 
@@ -308,21 +302,19 @@ $C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$
 
 UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
 
-### Code snippet
-
-1. Fuzzy set membership:
+- Fuzzy set membership:
 
 $\mu_{i|j} = \exp\left(-\frac{\max(0, d(\mathbf{x}_i, \mathbf{x}_j) - \rho_i)}{\sigma_i}\right)$
 
-2. Symmetric membership:
+- Symmetric membership:
 
 $p_{ij} = \mu_{i|j} + \mu_{j|i} - \mu_{i|j}\mu_{j|i}$
 
-3. Low-dimensional edge weight:
+- Low-dimensional edge weight:
 
 $q_{ij} = (1 + a \|\mathbf{y}_i - \mathbf{y}_j\|^{2b})^{-1}$
 
-4. Binary cross-entropy objective:
+- Binary cross-entropy objective:
 
 $C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{ij}) \log \frac{1 - p_{ij}}{1 - q_{ij}} \right)$
 
@@ -332,17 +324,15 @@ $C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{i
 
 - DTW computes the minimum cumulative distance path between two sequences.
 
-### Code snippet
-
-1. Distance matrix:
+- Distance matrix:
 
 $d(i, j) = \|a_i - b_j\|^2$
 
-2. Recursive accumulation:
+- Recursive accumulation:
 
 $D(i, j) = d(i, j) + \min \left\{ D(i-1, j), D(i, j-1), D(i-1, j-1) \right\}$
 
-3. Boundary conditions:
+- Boundary conditions:
 
 $D(0, 0) = 0$
 
