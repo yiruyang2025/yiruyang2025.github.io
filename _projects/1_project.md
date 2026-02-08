@@ -237,7 +237,7 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 
 ## PCA (Principal Component Analysis)
 
-The core idea of PCA is eigen-decomposition of the covariance matrix.
+- The core idea of PCA is eigen-decomposition of the covariance matrix.
 
 ### Code snippet
 
@@ -261,7 +261,7 @@ $\mathbf{W}_k = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k]$
 
 ## t-SNE (t-Distributed Stochastic Neighbor Embedding)
 
-The core idea of t-SNE is to minimize the KL divergence between probability distributions
+- The core idea of t-SNE is to minimize the KL divergence between probability distributions
 in the high-dimensional and low-dimensional spaces.
 
 ### Code snippet
@@ -283,7 +283,7 @@ $C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$
 
 ## UMAP (Uniform Manifold Approximation and Projection)
 
-UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
+- UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
 
 ### Code snippet
 
@@ -307,7 +307,7 @@ $C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{i
 
 ## DTW (Dynamic Time Warping)
 
-DTW computes the minimum cumulative distance path between two sequences.
+- DTW computes the minimum cumulative distance path between two sequences.
 
 ### Code snippet
 
