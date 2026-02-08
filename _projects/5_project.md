@@ -33,6 +33,7 @@ related_publications: true
 ## Coding
 
   - [2026 - Let your training 8hrs -> 📍 13mins](https://x.com/MaxWBuckley/status/2016998645631947148?s=20)
+  - [📍 Armadillo](https://github.com/conradsnicta/armadillo-code)
 
 <br>
 
