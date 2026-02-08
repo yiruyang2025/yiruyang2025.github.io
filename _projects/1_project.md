@@ -255,35 +255,32 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | UMAP   | Manifold learning        | No     | Local + some global structure | Fuzzy simplicial sets             | Visualization + clustering   |
 | DTW    | Distance measure         | No     | Temporal alignment            | Dynamic programming               | Time-series similarity       |
 
-
-<br>
-
 ## PCA (Principal Component Analysis)
 
 - The core idea of PCA is eigen-decomposition of the covariance matrix.
 
 - Covariance Matrix:
 
-$\mathbf{\Sigma} = \frac{1}{n-1} \sum_{i=1}^{n} (\mathbf{x}_i - \bar{\mathbf{x}})(\mathbf{x}_i - \bar{\mathbf{x}})^T$
+$$\mathbf{\Sigma} = \frac{1}{n-1} \sum_{i=1}^{n} (\mathbf{x}_i - \bar{\mathbf{x}})(\mathbf{x}_i - \bar{\mathbf{x}})^T$$
 
 - Eigen-decomposition:
 
-$\mathbf{\Sigma} \mathbf{v}_k = \lambda_k \mathbf{v}_k$
+$$\mathbf{\Sigma} \mathbf{v}_k = \lambda_k \mathbf{v}_k$$
 
 - Projection:
 
-$\mathbf{y}_i = \mathbf{W}_k^T (\mathbf{x}_i - \bar{\mathbf{x}})$,
+$$\mathbf{y}_i = \mathbf{W}_k^T (\mathbf{x}_i - \bar{\mathbf{x}})$$
 
 - where
 
-$\mathbf{W}_k = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k]$
+$$\mathbf{W}_k = [\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k]$$
 
 <br>
 
 ## t-SNE (t-Distributed Stochastic Neighbor Embedding)
 
-- The core idea of t-SNE is to minimize the KL divergence between probability distributions
-in the high-dimensional and low-dimensional spaces.
+- The core idea of t-SNE is to minimize the KL divergence between probability distributions in the high-dimensional and low-dimensional spaces.
+
 - High-dimensional similarity (Gaussian):
 
 $$p_{j|i} = \frac{\exp\left(-\|\mathbf{x}_i - \mathbf{x}_j\|^2 / (2\sigma_i^2)\right)}{\sum_{k \neq i} \exp\left(-\|\mathbf{x}_i - \mathbf{x}_k\|^2 / (2\sigma_i^2)\right)}$$
@@ -291,10 +288,10 @@ $$p_{j|i} = \frac{\exp\left(-\|\mathbf{x}_i - \mathbf{x}_j\|^2 / (2\sigma_i^2)\r
 - Low-dimensional similarity (Student t-distribution):
 
 $$q_{ij} = \frac{(1 + \|\mathbf{y}_i - \mathbf{y}_j\|^2)^{-1}}{\sum_{k \neq l} (1 + \|\mathbf{y}_k - \mathbf{y}_l\|^2)^{-1}}$$
+
 - Cost function:
 
-$C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$
-
+$$C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$$
 
 <br>
 
@@ -304,19 +301,19 @@ UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
 
 - Fuzzy set membership:
 
-$\mu_{i|j} = \exp\left(-\frac{\max(0, d(\mathbf{x}_i, \mathbf{x}_j) - \rho_i)}{\sigma_i}\right)$
+$$\mu_{i|j} = \exp\left(-\frac{\max(0, d(\mathbf{x}_i, \mathbf{x}_j) - \rho_i)}{\sigma_i}\right)$$
 
 - Symmetric membership:
 
-$p_{ij} = \mu_{i|j} + \mu_{j|i} - \mu_{i|j}\mu_{j|i}$
+$$p_{ij} = \mu_{i|j} + \mu_{j|i} - \mu_{i|j}\mu_{j|i}$$
 
 - Low-dimensional edge weight:
 
-$q_{ij} = (1 + a \|\mathbf{y}_i - \mathbf{y}_j\|^{2b})^{-1}$
+$$q_{ij} = (1 + a \|\mathbf{y}_i - \mathbf{y}_j\|^{2b})^{-1}$$
 
 - Binary cross-entropy objective:
 
-$C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{ij}) \log \frac{1 - p_{ij}}{1 - q_{ij}} \right)$
+$$C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{ij}) \log \frac{1 - p_{ij}}{1 - q_{ij}} \right)$$
 
 <br>
 
@@ -326,23 +323,19 @@ $C_{UMAP} = \sum_{i \neq j} \left( p_{ij} \log \frac{p_{ij}}{q_{ij}} + (1 - p_{i
 
 - Distance matrix:
 
-$d(i, j) = \|a_i - b_j\|^2$
+$$d(i, j) = \|a_i - b_j\|^2$$
 
 - Recursive accumulation:
 
-$D(i, j) = d(i, j) + \min \left\{ D(i-1, j), D(i, j-1), D(i-1, j-1) \right\}$
+$$D(i, j) = d(i, j) + \min \left\{ D(i-1, j), D(i, j-1), D(i-1, j-1) \right\}$$
 
 - Boundary conditions:
 
-$D(0, 0) = 0$
-
-$D(0, \infty) = \infty$
-
-$D(\infty, 0) = \infty$
-
+$$D(0, 0) = 0$$
+$$D(0, \infty) = \infty$$
+$$D(\infty, 0) = \infty$$
 
 <br>
-
 
 ## Optimization and Scheduling
 
