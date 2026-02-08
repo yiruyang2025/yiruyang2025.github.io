@@ -13,7 +13,7 @@ related_publications: true
 ## Pending
 
 
-- The model will focus on `optimizing specific neural circuits` (such as the hippocampus region)
+- The model will focus on `📍 optimizing specific neural circuits` (such as the hippocampus region)
  
 - 
 
