@@ -35,7 +35,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Hyper-Loss](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Reconstruction`
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - `Prototype`, RL on Diffusion
-- 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), Validation of [Vision Patent](https://patents.google.com/patent/US12272442B2/en), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
+- 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - Topology, [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1), [3D Brain-Mapping](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, `NeuroEarth: A Foundation Model for Voxel 3D Brain-Mapping`, AlphaEarth, [PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Backbone
 
