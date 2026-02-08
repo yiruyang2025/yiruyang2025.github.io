@@ -24,7 +24,7 @@ related_publications: true
 
 The pseudo-label loss is defined as:
 
-- $$L_{PL} = - \sum_{i=1}^{N'} \log P(y_i \mid \hat{y}_{<i}, H_{1:M})$$
+- $L_{PL} = - \sum_{i=1}^{N'} \log P(y_i \mid \hat{y}_{<i}, H_{1:M})$
 
 The Kullback–Leibler divergence loss is defined as:
 
