@@ -64,6 +64,21 @@ Task losses: applied to Decoder(z_S)
 
 <br>
 
+The InfoNCE loss for a set of representation pairs is defined as:
+
+- $$L_{\text{InfoNCE}} = - \mathbb{E} \left[ \log \frac{\exp(\text{sim}(\mathbf{q}, \mathbf{k}_+) / \tau)}{\sum_{i=0}^{K} \exp(\text{sim}(\mathbf{q}, \mathbf{k}_i) / \tau)} \right]$$
+
+where:
+- $\mathbf{q}$ is the query representation (e.g., from Student Encoder).
+- $\mathbf{k}_+$ is the positive key (e.g., the corresponding Teacher representation).
+- $\mathbf{k}_i$ are the negative keys (distractors from the same batch or a memory bank).
+- $\tau$ is a temperature hyperparameter that scales the distribution.
+- $\text{sim}(\mathbf{u}, \mathbf{v})$ is a similarity metric, typically cosine similarity: $\frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$.
+
+
+
+<br>
+
 ## Overview
 
 - Hyper-Constraints(Hc) shape the representation space
