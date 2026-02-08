@@ -44,7 +44,6 @@ images:
 - [Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), [his website](https://paulgraham.com/goodwriting.html)
 
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
-- [Kevin Murphy](https://www.linkedin.com/feed/update/urn:li:activity:7411457901095145474?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7411457901095145474%2C7424927553221451777%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287424927553221451777%2Curn%3Ali%3Aactivity%3A7411457901095145474%29)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
 - ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html)), [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 
