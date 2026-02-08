@@ -10,6 +10,17 @@ related_publications: true
 
 <br>
 
+## Pending
+
+- 1. The model will focus on `optimizing specific neural circuits` (such as the hippocampus region)
+ 
+- 2. 
+
+
+
+
+<br>
+
 ## Topics
 
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
