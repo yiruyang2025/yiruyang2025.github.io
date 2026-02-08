@@ -15,13 +15,14 @@ related_publications: true
 - [Dr. Yong Wang](https://scholar.google.com/citations?user=CTXOhoYAAAAJ&hl=en)
 - [Dr. Wei Wei](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en)
 
-
+- [📍 2025 - Transfer learning between different computer vision tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:RYcK_YlVTxYC)
+  - Thesis topic, Validation of A Vision Patent On Transplant Donor Medical Data from Swiss Hospital
 
 <br>
 
 ## References
 
-- [📍 2025 - Transfer learning between different computer vision tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:RYcK_YlVTxYC)
+
 
 
 - ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021.
