@@ -20,10 +20,15 @@ related_publications: true
 
 <br>
 
+
+<p align="left">
+  <img src="https://yiruyang2025.github.io/assets/img/project4_1.png" alt="Project 1 Visualization" width="75%">
+</p>
+
+
+<br>
+
 ## References
-
-
-
 
 - ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, ICLR 2021.
 - Large-scale pancreatic cancer detection via non-contrast CT and deep learning, Nature 2023.
