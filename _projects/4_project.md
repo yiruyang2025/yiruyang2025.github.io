@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project and Thesis - Liver Predictor
-description: Vision Patent, USZ
+description: Vision Patent, University Hospital of Zürich
 img: assets/img/4.jpg
 importance: 4
 category: work
