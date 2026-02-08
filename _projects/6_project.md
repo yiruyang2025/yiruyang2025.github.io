@@ -16,4 +16,13 @@ related_publications: true
 - Maritime Search and Rescue
 
 
+<br>
+
+## Art Works
+
+- [📍 Shape As Points A Differentiable Poisson Solver](https://pengsongyou.github.io/sap), NeurIPS 2021 (Oral)
+
+
+
+
 <br><br><br><br><br>
