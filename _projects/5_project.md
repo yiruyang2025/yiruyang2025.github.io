@@ -15,11 +15,11 @@ related_publications: true
 
 - The model will focus on `optimizing specific neural circuits` (such as the hippocampus region)
  
-- Non-invasive alternative
+- **Non-invasive alternative**
   - Provides a new pathway for AD diagnosis without the need for radioactive tracers
-- Voxel-level quantization
+- **Voxel-level quantization**
   - Elevates diagnosis from traditional "regional mean" to 3D whole-brain voxel-level "distribution mapping"
-- Multi-scale alignment
+- **Multi-scale alignment**
   - Successfully unifies microscopic histology (IHC), macroscopic molecular imaging (PET), and physical imaging (MRI) within a deep learning framework
 
 
