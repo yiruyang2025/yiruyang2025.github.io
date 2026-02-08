@@ -64,9 +64,18 @@ Task losses: applied to Decoder(z_S)
 
 <br>
 
-The InfoNCE loss for a set of representation pairs is defined as:
+- The InfoNCE loss for a set of representation pairs is defined as:
 
-- $$L_{\text{InfoNCE}} = - \mathbb{E} \left[ \log \frac{\exp(\text{sim}(\mathbf{q}, \mathbf{k}_+) / \tau)}{\sum_{i=0}^{K} \exp(\text{sim}(\mathbf{q}, \mathbf{k}_i) / \tau)} \right]$$
+$$
+L_{\text{InfoNCE}} = - \mathbb{E} \left[ 
+\log \frac{
+\exp(\text{sim}(\mathbf{q}, \mathbf{k}^{+}) / \tau)
+}{
+\sum_{i=0}^{K} \exp(\text{sim}(\mathbf{q}, \mathbf{k}_i) / \tau)
+}
+\right]
+$$
+
 
 where:
 - $\mathbf{q}$ is the query representation (e.g., from Student Encoder).
