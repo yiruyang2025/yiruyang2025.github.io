@@ -57,7 +57,7 @@ images:
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
 - [6G Communication](https://www.linkedin.com/posts/hua-wang-61b3955_6greferenceproject-snsju-6g-activity-7405150635819696128-qO_F?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-- [Eigen](https://libeigen.gitlab.io/), A C++ template library for linear algebra
+- [Eigen](https://libeigen.gitlab.io/), Linear Algebra
 
 - [Daily News Briefing](https://www.ft.com/ft-news-briefing), [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
 
