@@ -282,7 +282,7 @@ $C = \mathrm{KL}(P \| Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}$
 
 ## UMAP (Uniform Manifold Approximation and Projection)
 
-- UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
+UMAP is based on fuzzy simplicial sets and optimized using cross-entropy.
 
 ### Code snippet
 
