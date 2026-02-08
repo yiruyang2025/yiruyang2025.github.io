@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Motion Backbone
-description: Maritime Search and Rescue, (PRS, CRL)
+description: (PRS, CRL)
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -13,7 +13,7 @@ related_publications: true
 ## Topics
 
 - Motion, human + non-rigid species
-- Maritime Search and Rescue
+
 
 
 <br>
