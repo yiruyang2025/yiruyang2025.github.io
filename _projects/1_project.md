@@ -255,6 +255,8 @@ return total_loss, ce_loss.item(), kl_loss.item(), geo_loss.item()
 | UMAP   | Manifold learning        | No     | Local + some global structure | Fuzzy simplicial sets             | Visualization + clustering   |
 | DTW    | Distance measure         | No     | Temporal alignment            | Dynamic programming               | Time-series similarity       |
 
+<br>
+
 ## PCA (Principal Component Analysis)
 
 - The core idea of PCA is eigen-decomposition of the covariance matrix.
@@ -331,9 +333,7 @@ $$D(i, j) = d(i, j) + \min \left\{ D(i-1, j), D(i, j-1), D(i-1, j-1) \right\}$$
 
 - Boundary conditions:
 
-$$D(0, 0) = 0$$
-$$D(0, \infty) = \infty$$
-$$D(\infty, 0) = \infty$$
+$$D(0, 0) = 0$$, $$D(0, \infty) = \infty$$, $$D(\infty, 0) = \infty$$
 
 <br>
 
