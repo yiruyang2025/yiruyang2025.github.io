@@ -22,7 +22,7 @@ related_publications: true
 
 
 <p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project4_1.png" alt="Project 1 Visualization" width="75%">
+  <img src="https://yiruyang2025.github.io/assets/img/project4_1.png" alt="Project 4 Visualization" width="75%">
 </p>
 
 
