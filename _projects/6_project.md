@@ -18,9 +18,9 @@ related_publications: true
 
 <br>
 
-## Art Works
+## 
 
-- [📍 Shape As Points A Differentiable Poisson Solver](https://pengsongyou.github.io/sap), NeurIPS 2021 (Oral)
+- [Shape As Points A Differentiable Poisson Solver](https://pengsongyou.github.io/sap), NeurIPS 2021 (Oral)
 
 
 
