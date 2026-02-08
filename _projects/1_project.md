@@ -16,6 +16,35 @@ related_publications: true
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 - [2017 - NIPS](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
+- [2023 - Distil-Whisper]
+
+## Loss Functions
+
+The pseudo-label loss is defined as:
+
+- $L_{PL} = - \sum_{i=1}^{N'} \log P(y_i \mid \hat{y}_{<i}, H_{1:M})$
+
+The Kullback–Leibler divergence loss is defined as:
+
+- $L_{KL} = \sum_{i=1}^{N} \mathrm{KL}(Q_i \| P_i)$
+
+where
+
+- $\mathrm{KL}(Q_i \| P_i) = \sum_{v \in \mathcal{V}} Q_i(v) \log \frac{Q_i(v)}{P_i(v)}$
+
+The overall knowledge distillation objective is defined as:
+
+- $L_{KD} = \alpha_{KL} L_{KL} + \alpha_{PL} L_{PL}$
+
+with the weights set to:
+
+- $\alpha_{KL} = 0.8,\ \alpha_{PL} = 1.0$
+
+The final training objective is:
+
+- $L_{KD} = 0.8 L_{KL} + 1.0 L_{PL}$
+
+
 <br>
 
 ## Hyper-Constraint for the Shared Latent Representation Space
@@ -35,8 +64,9 @@ Task losses: applied to Decoder(z_S)
 
 ## Overview
 
-Hyper-Constraints(Hc) shape the representation space
+- Hyper-Constraints(Hc) shape the representation space
 Decoder LoRA learns the task-specific interpretation of that shared representation space
+- The Role of the Constraint: The Projection Module uses Hc to forcibly "boost" the `1024-dimensional features` of the student model and embed them into the `1280-dimensional manifold of the teacher model`. This constraint ensures that the student encoder outputs no longer "its own features," but rather reconstructed features in the teacher's coordinate system
 
 ```
                          Teacher (Whisper-large-v3)
@@ -977,7 +1007,6 @@ without explicit frame-level labels:
 <br>
 
 
-<br><br>
 
 ## Hyperparameter Optimization
 
