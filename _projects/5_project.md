@@ -52,6 +52,7 @@ related_publications: true
 
   - [2026 - Let your training 8hrs -> 📍 13mins](https://x.com/MaxWBuckley/status/2016998645631947148?s=20)
   - [📍 Armadillo](https://github.com/conradsnicta/armadillo-code)
+  - [Differentiable Physics with Nvidia - Warp 1.11.1](https://nvidia.github.io/warp/)
 
 <br>
 
