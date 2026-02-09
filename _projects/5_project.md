@@ -22,7 +22,9 @@ related_publications: true
 - **Multi-scale alignment**
   - Successfully unifies microscopic histology (IHC), macroscopic molecular imaging (PET), and physical imaging (MRI) within a deep learning framework
 
+<br>
 
+- When using NVIDIA Warp, a core requirement is `Handling Differentiable Mappings`. In brain voxel mapping, the gradients of boundaries (such as `Cortical Edges and Hippocampal Boundaries`) are `Discontinuous`. The differential method proposed in this article for handling these discontinuities is extremely helpful for writing custom operators for Warp and optimizing the alignment accuracy of voxel edges.
 
 
 <br>
