@@ -22,8 +22,10 @@ related_publications: true
 - **Multi-scale alignment**
   - Successfully unifies microscopic histology (IHC), macroscopic molecular imaging (PET), and physical imaging (MRI) within a deep learning framework
 
+<br>
 
-**Comparison between Conventional Structural MRI and Quantitative Susceptibility Mapping (QSM MRI)**
+## Comparison between Conventional Structural MRI and Quantitative Susceptibility Mapping (QSM MRI)
+
 
 | **Property**                     | **Conventional Structural MRI (e.g., T1/T2)**                                                                           | **Quantitative Susceptibility Mapping (QSM MRI)**                                                                                                   |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,9 +36,6 @@ related_publications: true
 | **Biophysical interpretability** | Indirect and non-specific; contrast reflects multiple tissue properties simultaneously.                                 | Directly linked to underlying biophysical sources of magnetism in tissue.                                                                           |
 | **Sensitivity to pathology**     | Sensitive to gross structural changes such as atrophy or lesions, but largely insensitive to early molecular pathology. | Highly sensitive to **paramagnetic substances (e.g., iron deposition)** and **diamagnetic components (e.g., calcification or protein aggregates)**. |
 
-
- 
-- When using NVIDIA Warp, a core requirement is `Handling Differentiable Mappings`. In brain voxel mapping, the gradients of boundaries (such as `Cortical Edges and Hippocampal Boundaries`) are `Discontinuous`. The differential method proposed in this article for handling these discontinuities is extremely helpful for writing custom operators for Warp and optimizing the alignment accuracy of voxel edges.
 
 
 <br>
