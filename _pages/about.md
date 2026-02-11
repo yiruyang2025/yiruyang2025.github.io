@@ -32,7 +32,7 @@ latest_posts:
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Hyper-Loss](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Diffusion for Metric Depth](https://diffusion-vision.github.io/dmd/), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Reconstruction`
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - RL on Diffusion
 - 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/4_project/) - [Liver Predictor](https://github.com/yiruyang2025/Liver_Predictor), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
