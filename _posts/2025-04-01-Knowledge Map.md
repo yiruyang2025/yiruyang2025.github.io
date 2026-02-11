@@ -70,6 +70,7 @@ images:
 - [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
 - [Armadillo]
+- [PRS](https://science.nasa.gov/specials/your-name-in-landsat/)
 
 
 <br>
