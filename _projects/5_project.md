@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Multi Object Tracking under LiDAR Free
-description: PRS
+description: UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
