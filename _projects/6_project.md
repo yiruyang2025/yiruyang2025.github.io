@@ -3,7 +3,7 @@ layout: page
 title: 2026 - Thesis - 4D Brain Mapping
 description: Alzheimer's Disease
 img: assets/img/4.jpg
-importance: 5
+importance: 6
 category: work
 related_publications: true
 ---
