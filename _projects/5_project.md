@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- Motion, human + non-rigid species
+- Multi Camera Tracking under LiDAR Free, from Airlines to All
 
 
 
