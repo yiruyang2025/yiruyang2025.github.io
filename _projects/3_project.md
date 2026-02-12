@@ -645,27 +645,6 @@ Sample RGB, mask, features at (u, v)
 <br>
 
 
-## Python - If Can be A Dict Key
-
-| Type                    | Can Be Dict Key | Hashable | Immutable | Notes                         |
-| ----------------------- | --------------- | -------- | --------- | ----------------------------- |
-| `int`                   | Yes             | Yes      | Yes       | Numeric scalar                |
-| `float`                 | Yes             | Yes      | Yes       | Numeric scalar                |
-| `bool`                  | Yes             | Yes      | Yes       | Subclass of `int`             |
-| `str`                   | Yes             | Yes      | Yes       | Immutable text                |
-| `tuple`                 | Yes*            | Yes*     | Yes       | All elements must be hashable |
-| `frozenset`             | Yes             | Yes      | Yes       | Immutable set                 |
-| `list`                  | No              | No       | No        | Mutable sequence              |
-| `set`                   | No              | No       | No        | Mutable set                   |
-| `dict`                  | No              | No       | No        | Mutable mapping               |
-| Custom object (default) | Yes             | Yes      | Usually   | Hash based on object identity |
-
-
-
-
-<br>
-
-
 ## Implicit vs Explicit Representations
 
 | **Concept** | **Implicit Representation** | **Explicit Representation** |
@@ -685,7 +664,7 @@ Sample RGB, mask, features at (u, v)
 
 ## Geometric Shape Modeling
 
-- [📍 2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [📍 Fabricaible](https://www.fabricaible.com/)
+- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [Fabricaible](https://www.fabricaible.com/)
 
 
 <p align="left">
@@ -707,29 +686,6 @@ Adaptive Tetrahedral Grid
 Regularization Terms
 (fairness + ODT loss; improve mesh quality, avoid slivers)
 ```
-
-<br>
-
-
-
-## Mesh Generations
-
-
-[📍 2025 - VertexRegen: Mesh Generation with Continuous Level of Detail](https://vertexregen.github.io/)
-
-
-  - Controllable, ready-to-use mesh generation
-  - Use a `Coarse Mesh` to estimate the global resolution initially, then gradually refine it to the local resolution
-
-
-[1996 - Microsoft Research - Progressive Meshes](https://hhoppe.com/pm.pdf)
-
-  - Training data: Use edge collapse to compress the high-precision mesh into different levels
-  - Generation process: Use a generative model to learn the inverse operation—vertex splitting
-  - Thus, generation proceeds from coarse to fine, yielding a complete mesh at each step
-
-
-[2011 - High-quality passive facial performance capture using anchor frames](https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Passive-Facial-Performance-Capture-using-Anchor-Frames-1.pdf)
 
 <br>
 
@@ -781,77 +737,54 @@ Regularization Terms
 
 ## [1/3] ARAP / Laplacian-Based Surface Modeling Backbone (2004–2007)
 
-
 | Year | Paper                                                     | Venue        | Key Contribution                                                   | Backbone Significance                                                    | Relation to Neural Diffusion                                              |
 | ---- | --------------------------------------------------------- | ------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| 2004 | *Laplacian Surface Editing* (Sorkine et al.)              | SIGGRAPH     | Introduced Laplacian coordinates for intuitive surface deformation | First practical formulation of surface refinement as energy minimization | Defines refinement as deterministic optimization (single solution)        |
-| 2005 | *Surface Modeling with Laplacian-Based Operators*         | Eurographics | Unified Laplacian operators for smoothing and editing              | Formalized discrete differential operators for surfaces                  | Fixed linear operators vs. learnable stochastic dynamics                  |
-| 2007 | *As-Rigid-As-Possible Surface Modeling* (Sorkine & Alexa) | SIGGRAPH     | ARAP energy preserves local rigidity under deformation             | Canonical non-rigid surface refinement model                             | Neural Diffusion generalizes rigidity to probabilistic deformation        |
-| 2007 | *Differential Coordinates for Interactive Mesh Editing*   | SIGGRAPH     | Differential coordinates for local-global optimization             | Established local-global iteration as refinement paradigm                | Neural Diffusion replaces iterative optimization with continuous dynamics |
-
+| 2004 | Laplacian Surface Editing (Sorkine et al.)                | SIGGRAPH     | Introduced Laplacian coordinates for intuitive surface deformation | First practical formulation of surface refinement as energy minimization | Defines refinement as deterministic optimization (single solution)        |
+| 2005 | Surface Modeling with Laplacian-Based Operators           | Eurographics | Unified Laplacian operators for smoothing and editing              | Formalized discrete differential operators for surfaces                  | Fixed linear operators versus learnable stochastic dynamics               |
+| 2007 | As-Rigid-As-Possible Surface Modeling (Sorkine and Alexa) | SIGGRAPH     | ARAP energy preserves local rigidity under deformation             | Canonical non-rigid surface refinement model                             | Neural Diffusion generalizes rigidity to probabilistic deformation        |
+| 2007 | Differential Coordinates for Interactive Mesh Editing     | SIGGRAPH     | Differential coordinates for local-global optimization             | Established local-global iteration as refinement paradigm                | Neural Diffusion replaces iterative optimization with continuous dynamics |
 
 <br>
-
 
 ## [2/3] Garment Simulation / Cloth Modeling Backbone (2002–2015)
 
-
 | Year | Paper                                                        | Venue            | Key Contribution                                 | Backbone Significance                  | Relation to Neural Diffusion                                 |
 | ---- | ------------------------------------------------------------ | ---------------- | ------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------ |
-| 2002 | *Large Steps in Cloth Simulation* (Baraff & Witkin)          | SIGGRAPH         | Implicit integration for stable cloth simulation | Foundation of modern cloth solvers     | Deterministic physics vs. learned stochastic refinement      |
-| 2003 | *Simulation of Clothing with Folds and Wrinkles*             | SIGGRAPH         | Introduced realistic wrinkle formation           | High-frequency surface detail modeling | Diffusion learns multi-scale detail without explicit physics |
-| 2006 | *Adaptive Cloth Simulation*                                  | SIGGRAPH         | Efficient multi-resolution cloth modeling        | Scale-aware surface refinement         | Neural Diffusion offers continuous scale refinement          |
-| 2009 | *Continuum-Based Strain Limiting for Cloth Simulation*       | SIGGRAPH         | Strain limiting for stability                    | Constraint-based deformation           | Constraints replaced by learned probabilistic priors         |
-| 2012 | *A Multi-Scale Approach to Cloth Simulation* (Narain et al.) | SIGGRAPH         | Hierarchical refinement of cloth surfaces        | Explicit multi-scale refinement        | Diffusion learns refinement across scales automatically      |
-| 2015 | *Position-Based Simulation Methods*                          | SIGGRAPH Courses | Unified constraint-based deformable simulation   | Widely adopted garment backbone        | Neural Diffusion removes hand-designed constraint scheduling |
-
+| 2002 | Large Steps in Cloth Simulation (Baraff and Witkin)         | SIGGRAPH         | Implicit integration for stable cloth simulation | Foundation of modern cloth solvers     | Deterministic physics versus learned stochastic refinement   |
+| 2003 | Simulation of Clothing with Folds and Wrinkles               | SIGGRAPH         | Introduced realistic wrinkle formation           | High-frequency surface detail modeling | Diffusion learns multi-scale detail without explicit physics |
+| 2006 | Adaptive Cloth Simulation                                    | SIGGRAPH         | Efficient multi-resolution cloth modeling        | Scale-aware surface refinement         | Neural Diffusion offers continuous scale refinement          |
+| 2009 | Continuum-Based Strain Limiting for Cloth Simulation         | SIGGRAPH         | Strain limiting for stability                    | Constraint-based deformation           | Constraints replaced by learned probabilistic priors         |
+| 2012 | A Multi-Scale Approach to Cloth Simulation (Narain et al.)  | SIGGRAPH         | Hierarchical refinement of cloth surfaces        | Explicit multi-scale refinement        | Diffusion learns refinement across scales automatically      |
+| 2015 | Position-Based Simulation Methods                            | SIGGRAPH Courses | Unified constraint-based deformable simulation   | Widely adopted garment backbone        | Neural Diffusion removes hand-designed constraint scheduling |
 
 <br>
 
-## [3/3] Mesh-Based Surface Editing & Geometry Processing Backbone (2004–2012)
+## [3/3] Mesh-Based Surface Editing and Geometry Processing Backbone (2004–2012)
 
 | Year | Paper                                                                  | Venue           | Key Contribution                        | Backbone Significance                        | Relation to Neural Diffusion                                       |
 | ---- | ---------------------------------------------------------------------- | --------------- | --------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------ |
-| 2004 | *Laplacian Surface Editing* (Botsch et al.)                            | SIGGRAPH        | Editing via sparse constraints          | Made surface refinement interactive          | Diffusion replaces hard constraints with learned distributions     |
-| 2006 | *An Introduction to Mesh Processing*                                   | SIGGRAPH Course | Unified geometry processing framework   | Codified mesh processing canon               | Neural Diffusion introduces probabilistic processing               |
-| 2008 | *On Linear Variational Surface Deformation Methods* (Botsch & Sorkine) | IEEE TVCG       | Analysis of linear deformation models   | Theoretical grounding of refinement energies | Diffusion replaces linear energies with learned vector fields      |
-| 2010 | *Polygon Mesh Processing* (Book)                                       | AK Peters       | Comprehensive mesh processing reference | De facto geometry backbone                   | Neural Diffusion reframes mesh processing as distribution modeling |
-| 2012 | *Shape Deformation Using Moving Least Squares*                         | SIGGRAPH        | Smooth deformation without remeshing    | Alternative refinement paradigm              | Diffusion generalizes deformation to stochastic evolution          |
+| 2004 | Laplacian Surface Editing (Botsch et al.)                              | SIGGRAPH        | Editing via sparse constraints          | Made surface refinement interactive          | Diffusion replaces hard constraints with learned distributions     |
+| 2006 | An Introduction to Mesh Processing                                     | SIGGRAPH Course | Unified geometry processing framework   | Codified mesh processing canon               | Neural Diffusion introduces probabilistic processing               |
+| 2008 | On Linear Variational Surface Deformation Methods (Botsch and Sorkine) | IEEE TVCG       | Analysis of linear deformation models   | Theoretical grounding of refinement energies | Diffusion replaces linear energies with learned vector fields      |
+| 2010 | Polygon Mesh Processing (Book)                                         | AK Peters       | Comprehensive mesh processing reference | De facto geometry backbone                   | Neural Diffusion reframes mesh processing as distribution modeling |
+| 2012 | Shape Deformation Using Moving Least Squares                           | SIGGRAPH        | Smooth deformation without remeshing    | Alternative refinement paradigm              | Diffusion generalizes deformation to stochastic evolution          |
 
-
-
-<br>
 
 ## Interface and Protocols
 
-| **Type**               | **Full Name**                          | **Description**                                                                                                                                       | **Example Tools / Interfaces**                                                                   | **Typical Usage**                                                           |
-| ---------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| **GUI**                | *Graphical User Interface*             | A visual, interactive interface that allows users to operate software through windows, buttons, and icons. Ideal for user-friendly, visual workflows. | Web browsers (Chrome, Safari), **Cisco AnyConnect**, **LeoMed OnDemand**, Finder / File Explorer | Click-based interaction, dashboards, visualization, web apps                |
-| **CLI**                | *Command-Line Interface*               | A text-based interface where users type commands to interact with the system. Enables direct control, scripting, and automation.                      | **Terminal**, zsh/bash shell, Linux shell, Windows PowerShell                                    | Execute commands (`ssh`, `scp`, `conda`, `git`), automate tasks             |
-| **SSH**                | *Secure Shell Protocol*                | A secure network protocol for remote login, command execution, and encrypted data transfer.                                                           | `ssh`, **PuTTY**, OpenSSH client                                                                 | Remote access, file transfer (`scp`, `rsync`), port forwarding              |
-| **SFTP**               | *Secure File Transfer Protocol*        | A file transfer protocol that works over SSH to securely upload or download files.                                                                    | **FileZilla**, `sftp`, **Cyberduck**                                                             | Move datasets or logs between your computer and a remote server             |
-| **RDP**                | *Remote Desktop Protocol*              | Allows users to access a remote computer’s desktop GUI environment over a network.                                                                    | **Windows Remote Desktop**, **xRDP**, **LeoMed OnDemand (web GUI)**                              | Open remote desktops, run GUI-based software remotely                       |
-| **HTTP/HTTPS**         | *HyperText Transfer Protocol (Secure)* | The standard protocol for web communication; HTTPS adds encryption for security.                                                                      | Web browsers, REST APIs, **Jupyter Notebook via browser**                                        | Access web services, APIs, dashboards, notebooks                            |
-| **VPN**                | *Virtual Private Network*              | Creates a secure, encrypted connection (tunnel) between your device and a private network (e.g., ETH internal).                                       | **Cisco AnyConnect**, **OpenConnect**                                                            | Access internal servers (e.g., `leomed.ethz.ch`, `euler.ethz.ch`) securely  |
-| **VNC**                | *Virtual Network Computing*            | A remote desktop sharing protocol independent of platform or OS.                                                                                      | **RealVNC**, **TigerVNC**, **x11vnc**                                                            | Access GUI sessions from macOS/Linux to remote HPC desktops                 |
-| **X11 / X-Forwarding** | *X Window System (Version 11)*         | A protocol that allows GUI applications running on a remote server to display on your local machine.                                                  | `ssh -Y`, **XQuartz** (macOS), **MobaXterm** (Windows)                                           | Run GUI apps like MATLAB or visualization tools from servers                |
-| **FTP / FTPS**         | *File Transfer Protocol / Secure*      | A classic file transfer protocol; FTPS adds SSL/TLS encryption.                                                                                       | **WinSCP**, **FileZilla**, `ftp` command                                                         | Transfer files (less secure than SFTP; used in legacy systems)              |
-| **API / REST API**     | *Application Programming Interface*    | A structured interface that allows software components or servers to communicate via HTTP requests (often JSON-based).                                | **curl**, **Postman**, Python `requests` library                                                 | Access remote datasets, trigger jobs, or fetch information programmatically |
-
-
-<br>
-
-
-## Historical Origins of Classical and Quantum Statistical Distributions
-
-| Distribution          | Proposed By                                             | Year      | Historical Context                                                                    | Original Motivation                                                                                                                      |
-| --------------------- | ------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Maxwell–Boltzmann** | James Clerk Maxwell (1860), Ludwig Boltzmann (1872)     | 1860–1872 | Classical thermodynamics and kinetic theory of gases during the Industrial Revolution | To explain macroscopic thermodynamic laws (pressure, temperature) from microscopic particle motion under classical mechanics assumptions |
-| **Fermi–Dirac**       | Enrico Fermi (1926), Paul Dirac (1926)                  | 1926      | Emergence of quantum mechanics and the discovery of the Pauli exclusion principle     | To model the statistical behavior of indistinguishable fermions obeying quantum exclusion, especially electrons in atoms and solids      |
-| **Bose–Einstein**     | Satyendra Nath Bose (1924), Albert Einstein (1924–1925) | 1924–1925 | Early quantum theory and photon statistics                                            | To explain black-body radiation and collective quantum behavior of bosons, allowing multiple particles to occupy the same state          |
-
-
-
+| Type                   | Full Name                             | Description                                                                                                                                    | Example Tools / Interfaces                                                                   | Typical Usage                                                           |
+| ---------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| GUI                    | Graphical User Interface              | A visual, interactive interface that allows users to operate software through windows, buttons, and icons. Ideal for user-friendly workflows. | Web browsers (Chrome, Safari), Cisco AnyConnect, LeoMed OnDemand, Finder / File Explorer    | Click-based interaction, dashboards, visualization, web applications    |
+| CLI                    | Command-Line Interface                | A text-based interface where users type commands to interact with the system. Enables direct control, scripting, and automation.              | Terminal, zsh/bash shell, Linux shell, Windows PowerShell                                   | Execute commands (ssh, scp, conda, git), automate tasks                 |
+| SSH                    | Secure Shell Protocol                 | A secure network protocol for remote login, command execution, and encrypted data transfer.                                                   | ssh, PuTTY, OpenSSH client                                                                   | Remote access, file transfer (scp, rsync), port forwarding              |
+| SFTP                   | Secure File Transfer Protocol         | A file transfer protocol that works over SSH to securely upload or download files.                                                            | FileZilla, sftp, Cyberduck                                                                   | Move datasets or logs between your computer and a remote server         |
+| RDP                    | Remote Desktop Protocol               | Allows users to access a remote computer desktop GUI environment over a network.                                                              | Windows Remote Desktop, xRDP, LeoMed OnDemand (web GUI)                                     | Open remote desktops, run GUI-based software remotely                   |
+| HTTP/HTTPS             | HyperText Transfer Protocol (Secure)  | The standard protocol for web communication; HTTPS adds encryption for security.                                                              | Web browsers, REST APIs, Jupyter Notebook via browser                                        | Access web services, APIs, dashboards, notebooks                        |
+| VPN                    | Virtual Private Network               | Creates a secure, encrypted connection between your device and a private network.                                                             | Cisco AnyConnect, OpenConnect                                                                | Secure access to internal servers such as leomed.ethz.ch or euler.ethz.ch |
+| VNC                    | Virtual Network Computing             | A remote desktop sharing protocol independent of platform or operating system.                                                                | RealVNC, TigerVNC, x11vnc                                                                    | Access GUI sessions from macOS or Linux to remote HPC desktops          |
+| X11 / X-Forwarding     | X Window System (Version 11)          | A protocol that allows GUI applications running on a remote server to display on your local machine.                                         | ssh -Y, XQuartz (macOS), MobaXterm (Windows)                                                 | Run GUI applications such as MATLAB or visualization tools remotely     |
+| FTP / FTPS             | File Transfer Protocol / Secure       | A classic file transfer protocol; FTPS adds SSL/TLS encryption.                                                                                | WinSCP, FileZilla, ftp command                                                               | Transfer files (less secure than SFTP; used in legacy systems)          |
+| API / REST API         | Application Programming Interface     | A structured interface that allows software components or servers to communicate via HTTP requests, often JSON-based.                        | curl, Postman, Python requests library                                                       | Access remote datasets, trigger jobs, or fetch information programmatically |
 
 
 <br>
