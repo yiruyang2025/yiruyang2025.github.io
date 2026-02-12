@@ -3,7 +3,7 @@ layout: page
 title: 2026 - Thesis - Motion Backbone
 description: (PRS, CRL)
 img: assets/img/4.jpg
-importance: 5
+importance: 7
 category: work
 related_publications: true
 ---
