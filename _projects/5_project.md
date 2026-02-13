@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- Multi Camera Tracking under LiDAR Free, from Airlines to All
+- Multi Object Tracking under LiDAR Free, from Airlines to All
 
 
 
