@@ -30,6 +30,24 @@ related_publications: true
 | **Robotic Middleware**        | ROS2 / C++ / Rust              | Handles low-latency message passing between drone hardware and compute clusters. Rust and C++ are used for safety-critical and high-concurrency modules such as temporal synchronization, RocSync integration, and real-time control loops.                |
 | **Simulation and Synthesis**  | Unreal Engine / SUMO / Blender | Generates high-fidelity digital twin environments with synchronized multi-modal ground truth including RGB, depth, trajectories, and timestamps. Supports training and evaluation under adverse weather and long-tail navigation scenarios.                |
 | **Hardware Acceleration**     | CUDA / Linux                   | Provides low-level GPU acceleration and kernel-level resource management for O(T) transformer inference, real-time backend optimization, and parallelized geometric solvers.                                                                               |
+<br>
+
+## Detection and Tracking Algorithms
+
+| Layer                     | Technical Components                    | Application                                                                                                       |
+| ------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Detection Backbone        | RT-DETR                                 | Transformer-based object detection producing spatially consistent bounding boxes and feature embeddings for downstream multi-view association. |
+| Temporal Association      | Query-Based Tracking (e.g., MOTR-style) | Maintains persistent object identities across frames using learnable spatiotemporal queries instead of heuristic matching.                     |
+| Multi-View Correspondence | Epipolar Geometry                       | Filters cross-camera matches using the Fundamental Matrix to enforce geometric consistency before triangulation.                               |
+| 3D Reconstruction         | Triangulation + PnP                     | Recovers metric 3D positions from validated multi-view 2D detections and refines camera pose estimates.                                        |
+| Global Optimization       | Bundle Adjustment                       | Minimizes reprojection error jointly over camera poses and object trajectories to achieve globally consistent 4D reconstruction.               |
+| Dynamic Motion Modeling   | Motion Decomposition                    | Separates object motion from camera motion to stabilize optimization under dynamic scenes.                                                     |
+| Spatiotemporal Refinement | Uncertainty-Aware Optimization          | Weighs correspondences by confidence scores to improve robustness under occlusion, noise, and adverse weather conditions.                      |
+| Identity Persistence      | Cross-Camera Re-Identification          | Uses learned feature embeddings to maintain consistent object identities across disjoint camera views.                                         |
+
+
+<br>
+
 
 
 
