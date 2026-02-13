@@ -20,7 +20,7 @@ related_publications: true
 
 ## Tool Kits for LiDAR-Free
 
-| Layer                         | Technical Components           | Functional Role and Research Application                                                                                                                                                                                                                   |
+| Layer                         | Technical Components           | Functional Role and Research Application                                                                                                                                                                                                   |
 | ----------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Distributed Orchestration** | Ray (Ray Core, Ray Data)       | Acts as the distributed runtime engine for asynchronous multi-camera stream ingestion. Enables zero-copy data sharing via the Plasma object store and manages cross-node task scheduling for real-time multi-object tracking.                              |
 | **Computational Framework**   | JAX / XLA                      | Provides the functional programming foundation for high-performance numerical computing. Leverages the XLA compiler to optimize 4D trajectory estimation, uncertainty-aware bundle adjustment, and spatiotemporal manifold operations on GPU/TPU clusters. |
@@ -30,8 +30,10 @@ related_publications: true
 | **3D Vision and Geometry**    | PyTorch3D / COLMAP             | Supports differentiable 3D geometry operations including PnP solvers, triangulation, reprojection error computation, and camera pose refinement. COLMAP supplies baseline structure-from-motion pose initialization for multi-view geometry.               |
 | **Robotic Middleware**        | ROS2 / C++ / Rust              | Handles low-latency message passing between drone hardware and compute clusters. Rust and C++ are used for safety-critical and high-concurrency modules such as temporal synchronization, RocSync integration, and real-time control loops.                |
 | **Simulation and Synthesis**  | Unreal Engine / SUMO / Blender | Generates high-fidelity digital twin environments with synchronized multi-modal ground truth including RGB, depth, trajectories, and timestamps. Supports training and evaluation under adverse weather and long-tail navigation scenarios.                |
-| **Hardware Acceleration**     | CUDA / Linux                   | Provides low-level GPU acceleration and kernel-level resource management for O(T) transformer inference, real-time backend optimization, and parallelized geometric solvers.                                                                               |
+| **Hardware Acceleration**     | CUDA / Linux                   | Provides low-level GPU acceleration and kernel-level resource management for O(T) transformer inference, real-time backend optimization, and parallelized geometric solvers.                             |
+
 <br>
+
 
 ## Detection and Tracking Algorithms
 
