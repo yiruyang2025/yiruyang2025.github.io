@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- (C++, [Jax](https://github.com/google-deepmind/penzai)), Python, PyTorch3D, (Rust), Blender, CUDA, Unreal, SUMO
+- (C++, [Jax](https://github.com/google-deepmind/penzai), Linux, ROS2), Python, PyTorch3D, System Design, (Rust), Blender, CUDA, Unreal, SUMO
 
 
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
