@@ -20,7 +20,7 @@ related_publications: true
 ## Cute Products
 
 
-- [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), from Google
+- [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg)
 
 
 <br><br><br><br><br><br>
