@@ -10,6 +10,12 @@ related_publications: true
 
 <br>
 
+
+- [🎵 2026](https://music.youtube.com/watch?v=kRCnR0m_vBY&list=OLAK5uy_lU5_UbT2MLEJq7uSs5NU4f76VC6p6-ceU)
+
+
+<br>
+
 ## Topics
 
 - 4D Semantic Indoor Map under `LiDAR Free`, from Home Robots, Airlines to All
@@ -17,6 +23,8 @@ related_publications: true
 - ID Re-identification
 
 <br>
+
+
 
 ## Cute Products
 
