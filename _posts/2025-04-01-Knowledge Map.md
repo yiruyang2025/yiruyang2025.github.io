@@ -53,7 +53,7 @@ images:
 - (Dragomir Anguelov, Amirabbas Asadi)
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
-- [Peyman Milanfar](https://x.com/docmilanfar?lang=en)
+- [Peyman Milanfar](https://x.com/docmilanfar/status/2021022454500688387?s=20)
 - (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
@@ -67,7 +67,7 @@ images:
 
 ## Home / hospital Robots
 
-[Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
+- [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
 
 
 
