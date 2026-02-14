@@ -14,7 +14,7 @@ related_publications: true
 
 - 4D Semantic Indoor Map under `LiDAR Free`, from Home Robots, Airlines to All
 - the sensors weren’t really converging into intelligence, robots didn’t really understand which part of the home
-- privacy, accuracy, and low-latency
+- privacy, accuracy, and low-latency, under dark and Adverse Conditions
 
 <br>
 
