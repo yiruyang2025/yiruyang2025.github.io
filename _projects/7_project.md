@@ -20,3 +20,10 @@ related_publications: true
 
 
 <br><br><br><br><br>
+
+
+
+
+## References
+
+- [2026 - Anny-One Dataset](https://europe.naverlabs.com/research/human-centric-computer-vision/anny-one/)
