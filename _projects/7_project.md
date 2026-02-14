@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Motion Backbone
+title: 2026 - Thesis - Motion & Gesture Backbone
 description: (PRS, CRL)
 img: assets/img/4.jpg
 importance: 7
