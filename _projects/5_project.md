@@ -12,7 +12,8 @@ related_publications: true
 
 ## Topics
 
-- Multi Object Tracking under LiDAR Free, from Airlines to All
+- Multi Object Tracking under LiDAR Free, from Home Robots, Airlines to All
+- the sensors weren’t really converging into intelligence, robots didn’t really understand which part of the home
 
 <br>
 
