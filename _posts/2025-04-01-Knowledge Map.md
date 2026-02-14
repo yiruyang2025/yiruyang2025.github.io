@@ -65,6 +65,14 @@ images:
 
 <br>
 
+## Home / hospital Robots
+
+[Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
+
+
+
+<br>
+
 **Readings**
 
 - [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
