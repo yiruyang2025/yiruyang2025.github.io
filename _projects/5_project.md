@@ -11,7 +11,7 @@ related_publications: true
 <br>
 
 
-- [🎵 2026](https://music.youtube.com/watch?v=kRCnR0m_vBY&list=OLAK5uy_lU5_UbT2MLEJq7uSs5NU4f76VC6p6-ceU)
+- [🎵 2026](https://music.youtube.com/watch?v=kRCnR0m_vBY&list=OLAK5uy_lU5_UbT2MLEJq7uSs5NU4f76VC6p6-ceU), it's perfect
 
 
 <br>
