@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Airlines
-description: UZH AI, PRS
+title: 2026 - Master Thesis - Airlines and House Robots
+description: PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- Multi Object Tracking under LiDAR Free, from Home Robots, Airlines to All
+- 4D Semantic Indoor Map under `LiDAR Free`, from Home Robots, Airlines to All
 - the sensors weren’t really converging into intelligence, robots didn’t really understand which part of the home
 
 <br>
