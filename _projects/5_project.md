@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Airlines and House Robots
-description: PRS
+description: End-to-End, PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
