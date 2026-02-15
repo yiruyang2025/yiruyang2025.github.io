@@ -34,7 +34,28 @@ related_publications: true
 - [Rovex Technologies](https://www.linkedin.com/company/gorovex/), hospital
 
 
-<br><br><br><br><br><br>
+<br>
+
+
+## Task Definition
+
+```
+The essence of LiDAR-free technology can be summarized as: transforming sparse measurements of the physical world into dense geometric inference.
+```
+
+
+## Key Evolution of LiDAR-Free 3D Perception
+
+| Stage                                                            | Core Papers                                    | Key Innovation                                                                   | Problem Solved                                                                                              | Technical Essence                                                                                          |
+| ---------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Stage 1: From 2D to 3D (BEV Revolution)**                      | LSS (Lift, Splat, Shoot), ECCV 2020; BEVDet    | Lift 2D image features into 3D space and project them into Bird’s-Eye View (BEV) | Vision systems could not unify multi-camera 2D pixels into a consistent 3D coordinate system for navigation | Establishes the foundational BEV-based architecture used in modern camera-only autonomy systems            |
+| **Stage 2: Global Association with Transformers**                | BEVFormer, ECCV 2022                           | Introduces temporal modeling with Transformer-based spatial-temporal attention   | Handles occlusion and improves scene consistency by aggregating information across multiple frames          | Enables memory over previous frames, improving robustness and dynamic scene understanding                  |
+| **Stage 3: Occupancy-Based Scene Understanding (Occupancy Era)** | TPVFormer; Tesla Occupancy Network (2022–2023) | Predicts dense 3D occupancy instead of object bounding boxes                     | Moves beyond object detection to full spatial understanding of free space and obstacles                     | Represents the world as a semantic voxel grid, enabling fine-grained geometry and material-level reasoning |
+
+
+
+
+<br><br><br><br><br><br><br>
 
 
 ## Tool Kits for LiDAR-Free
