@@ -54,6 +54,7 @@ images:
 - [Max Welling](https://x.com/wellingmax?lang=en)
 - [DailyPapers](https://x.com/HuggingPapers)
 - [Peyman Milanfar](https://x.com/docmilanfar/status/2021022454500688387?s=20)
+- (Jurgen Schmidhuber)
 - (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
 
