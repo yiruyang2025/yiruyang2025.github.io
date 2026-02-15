@@ -109,6 +109,8 @@ images:
 
 Visual Computing
 
+Digital Humans
+
 ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
 Doctoral Seminar in Visual Computing
