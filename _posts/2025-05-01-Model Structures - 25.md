@@ -377,6 +377,28 @@ $$
 
 <br><br>
 
+## 🔎 Unified Pair-Problem Decision Table
+
+
+| Input Structure                                      | Think As             | Best Data Structure        | Optimal Strategy                 | Time Complexity          | Typical Problem              |
+| ---------------------------------------------------- | -------------------- | -------------------------- | -------------------------------- | ------------------------ | ---------------------------- |
+| Two **unsorted** arrays, need all combinations       | Matrix (unordered)   | Max/Min Heap               | Push all or maintain size-K heap | O(NM log K)              | K largest/smallest pair sums |
+| Two **sorted** arrays, need K smallest/largest pairs | Sorted Matrix        | Min Heap (multi-way merge) | Treat each row as sorted stream  | O(K log N)               | K smallest pairs             |
+| Two **sorted** arrays, need exact target             | Two-pointer          | Two pointers               | Converging scan                  | O(N)                     | Two Sum II                   |
+| Two arrays, need count of valid pairs                | Frequency model      | HashMap / Counter          | Count-based math                 | O(N + M)                 | Count pairs with sum K       |
+| Dynamic "extract max repeatedly"                     | Priority queue model | Max Heap                   | Repeated pop + push              | O(N log N)               | Last Stone Weight            |
+| State transitions between pairs                      | Graph                | BFS / DFS + visited set    | Layer-by-layer traversal         | O(V + E)                 | Word Ladder style problems   |
+| Sliding window over pair condition                   | Window model         | Two pointers               | Expand / shrink window           | O(N)                     | Subarray / bounded sum       |
+| Bitwise pair optimization (XOR)                      | Binary Trie          | Trie                       | Bit-level greedy                 | O(N * bit)               | Maximum XOR pair             |
+| Need smallest distance among pairs                   | Value search         | Binary Search + counting   | Search on answer                 | O(N log W)               | K-th smallest pair distance  |
+| N×M grid fully sorted by row & column                | Monotonic matrix     | Binary search or heap      | Matrix step expansion            | O(K log N) or O(N log W) | K-th smallest in matrix      |
+
+
+
+
+
+<br><br><br><br><br><br>
+
 
 ## References
 
