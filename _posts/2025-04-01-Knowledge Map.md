@@ -97,7 +97,7 @@ images:
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
-3D/4D Computer Vision (26)
+3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
