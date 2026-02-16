@@ -69,6 +69,7 @@ images:
 ## Home / hospital Robots
 
 - [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
+- [Why you need Autonomous Robots](https://youtu.be/KQpKQXU7dkM), SLAM
 
 
 
