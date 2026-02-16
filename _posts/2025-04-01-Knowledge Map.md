@@ -109,7 +109,7 @@ images:
 
 Visual Computing
 
-Digital Humans
+Digital Humans (26)
 
 ([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
 
