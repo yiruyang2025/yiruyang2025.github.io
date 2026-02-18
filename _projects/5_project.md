@@ -12,7 +12,7 @@ related_publications: true
 
 
 - [🎵 2026](https://music.youtube.com/watch?v=kRCnR0m_vBY&list=OLAK5uy_lU5_UbT2MLEJq7uSs5NU4f76VC6p6-ceU), it's perfect
-- [2022 - Seeing a Rose in Five Thousand Ways](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Seeing_a_Rose_in_Five_Thousand_Ways_CVPR_2023_paper.pdf)
+- [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
 
 
 <br>
