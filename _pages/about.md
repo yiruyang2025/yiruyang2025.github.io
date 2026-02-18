@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - RL on Diffusion
 - 📍 [Project and Thesis](https://yiruyang2025.github.io/projects/4_project/) - [SSL](https://github.com/yiruyang2025/Liver_Predictor), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis and Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - 4D Semantic Indoor Map under `LiDAR Free`, [PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations), [Notes](https://yiruyang2025.github.io/projects/5_project/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1), [3D Brain-Mapping](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, `Zero-shot` AlphaEarth for Voxel 3D Brain-Mapping
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1), [3D Brain-Mapping](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, `Voxel 3D Brain-Mapping`
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/7_project/) - Backbone, SMPL
 
 <br>
@@ -45,7 +45,7 @@ latest_posts:
 **Interests**
   - [Space](https://www.linkedin.com/posts/davidescaramuzza_inivation-synsense-khalifauniversity-ugcPost-7427307092258107392-9ytF/?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), Backbones, Perception
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Vision Intelligence](https://x.com/songyoupeng/status/1997072574778601516?s=20), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich](https://www.linkedin.com/posts/pikinder_veo-3-the-swiss-way-httpslnkdinekuwmgmh-activity-7330711128014032897-oJPf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
-  - [Cute Things](https://www.linkedin.com/posts/maticrobots_wired-1010-the-verge-the-best-robot-activity-7401387277610131457-BH40?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), GAN, Extending Windows For Vision and LLM
+  - [Cute Things](https://www.linkedin.com/posts/maticrobots_wired-1010-the-verge-the-best-robot-activity-7401387277610131457-BH40?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20)
 
 
 <div style="height: 4rem;"></div>
