@@ -102,7 +102,7 @@ images:
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Robotics, 26)
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
 
 Computer Vision for Automated Driving (PRS, 26)
 
