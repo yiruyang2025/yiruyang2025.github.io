@@ -14,7 +14,7 @@ related_publications: true
 
 - Motion, human + non-rigid species
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/) 
-- [SMPL](https://dl.acm.org/doi/epdf/10.1145/2816795.2818013)
+- [2015 - SMPL: A Skinned Multi-Person Linear Model](https://dl.acm.org/doi/epdf/10.1145/2816795.2818013)
 
 
 <br>
