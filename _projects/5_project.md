@@ -44,7 +44,7 @@ related_publications: true
 The essence of LiDAR-free technology can be summarized as: transforming sparse measurements of the physical world into dense geometric inference.
 ```
 
-<br>
+<br><br><br><br><br>
 
 ## Key Evolution of LiDAR-Free 3D Perception
 
@@ -55,10 +55,7 @@ The essence of LiDAR-free technology can be summarized as: transforming sparse m
 | **Stage 3: Occupancy-Based Scene Understanding (Occupancy Era)** | TPVFormer; Tesla Occupancy Network (2022–2023) | Predicts dense 3D occupancy instead of object bounding boxes                     | Moves beyond object detection to full spatial understanding of free space and obstacles                     | Represents the world as a semantic voxel grid, enabling fine-grained geometry and material-level reasoning |
 
 
-
-
-<br><br><br><br><br><br><br>
-
+<br>
 
 ## Tool Kits for LiDAR-Free
 
