@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Project and Thesis - SSL
-description: Vision Patent, University Hospital of Zürich
+description: Vision Patent, USZ
 img: assets/img/4.jpg
 importance: 4
 category: work
