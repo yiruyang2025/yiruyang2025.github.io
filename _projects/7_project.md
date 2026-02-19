@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Motion & Gesture Backbone
-description: Deep Rl Self-improvement, (PRS, CRL)
+description: (PRS, CRL)
 img: assets/img/4.jpg
 importance: 7
 category: work
