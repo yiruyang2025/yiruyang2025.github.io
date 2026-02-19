@@ -38,7 +38,7 @@ latest_posts:
 - 📍 [Semester Project](https://yiruyang2025.github.io/projects/4_project/) - [SSL](https://github.com/yiruyang2025/Liver_Predictor), [USZ](https://www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - 4D Semantic Indoor Map, [PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations), [Notes](https://yiruyang2025.github.io/projects/5_project/), (CRL)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [ex vivo](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, `Voxel 3D Brain-Mapping`
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/7_project/) - Backbone, SMPL, (PRS)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/7_project/) - Backbone, SMPL, (PRS, CRL)
 
 <br>
 
