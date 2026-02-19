@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Airlines and Domestic Robots
+title: 2026 - Master Thesis - Airlines & Domestic Robots
 description: Prototype, UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
