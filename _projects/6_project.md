@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - 4D Brain Mapping
+title: 2026 - Thesis - 3D Brain Mapping
 description: Alzheimer's Disease
 img: assets/img/4.jpg
 importance: 6
