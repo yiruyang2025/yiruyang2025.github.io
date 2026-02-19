@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Diffusion for Metric Depth](https://diffusion-vision.github.io/dmd/), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Reconstruction`
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Tracking`
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - RL on Diffusion
 - 📍 [Semester Project](https://yiruyang2025.github.io/projects/4_project/) - [SSL](github.com/yiruyang2025/Liver_Predictor), [USZ](www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - Learning-based 4D Semantic Map, [PRS](github.com/google-research/google-research/tree/master/remote_sensing_representations), [Notes](https://yiruyang2025.github.io/projects/5_project/), (CRL)
