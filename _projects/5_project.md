@@ -33,7 +33,7 @@ related_publications: true
 
 - [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), home, level-5
 - [Rovex Technologies](https://www.linkedin.com/company/gorovex/), hospital
-- [Flow](https://flow-project.github.io/), City
+- [Flow](https://flow-project.github.io/), City Navigation
 
 <br>
 
