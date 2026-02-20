@@ -44,6 +44,8 @@ related_publications: true
 The essence of LiDAR-free technology can be summarized as: transforming sparse measurements of the physical world into dense geometric inference.
 ```
 
+- [2026 - High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
+
 <br><br><br><br><br>
 
 ## Key Evolution of LiDAR-Free 3D Perception
