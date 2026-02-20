@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="">Affiliations</a>. MSc in AI & Multimodality, 🇨🇭
+subtitle: <a href="">Affiliations</a>. MSc in AI & Flow Generation, 🇨🇭
 
 profile:
   align: right
