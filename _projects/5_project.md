@@ -44,7 +44,7 @@ related_publications: true
 The essence of LiDAR-free technology can be summarized as: transforming sparse measurements of the physical world into dense geometric inference.
 ```
 
-- [2020 - Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618)
+- [📍 2020 - Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618)
 
 
 <br>
