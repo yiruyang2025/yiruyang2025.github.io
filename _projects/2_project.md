@@ -10,29 +10,14 @@ related_publications: true
 
 <br>
 
-## Not Relavant Topics
+## Topics
 
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, OpenScene, 📍 SAP (Shape As Points), DiT, D2-Net, 
+- ViT, DINOv3, Semantic-SAM, OpenScene, SAP (Shape As Points), DiT, D2-Net, 
+- [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
+- [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
-
-<br>
-
-
-## Motion
-
-  - [2025 - 📍 Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
-  - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
-
-<br>
-
-
-## Not Related But Art works
-
-  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
-  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
-  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
-  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+- [2026 - Multimodal Video Generation Models with Audio: Present and Future](https://www.researchgate.net/profile/Zongxia-Li-2/publication/400595909_Multimodal_Video_Generation_Models_with_Audio_Present_and_Future/links/698a34f442f94d1212a87614/Multimodal-Video-Generation-Models-with-Audio-Present-and-Future.pdf)
 
 <br>
 
@@ -1034,6 +1019,15 @@ Conceptual trajectory
 <br><br>
 
 ## Reference 1
+
+
+  - [2021 - Shape As Points: A Differentiable Poisson Solver](https://arxiv.org/abs/2106.03452)
+  - [2023 - OpenScene](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.pdf)
+  - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
+  - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
+
+<br>
+
 
 - [2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
 - [2023 - Guided 📍 Depth Super-Resolution by Deep Anisotropic Diffusion](https://github.com/prs-eth/Diffusion-Super-Resolution), PRS
