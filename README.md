@@ -2,7 +2,6 @@
 
 # Hi There, 🇨🇭
 
-📝 [**Colab Page**]() | 🌟 [**ArXiv**]() | 💻 [**Code**]() | 📚 [**ICML**]()
 
 </div>
 
