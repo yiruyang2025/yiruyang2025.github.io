@@ -34,6 +34,7 @@ related_publications: true
 - [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), home, level-5
 - [Rovex Technologies](https://www.linkedin.com/company/gorovex/), hospital
 - [Flow](https://flow-project.github.io/), city navigation
+- [📍 Taalas Inc.](https://x.com/taalas_inc?lang=en)
 
 <br>
 
