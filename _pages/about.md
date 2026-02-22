@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Deep Learning / [Optimization and Manifold Learning](https://www.nature.com/research-intelligence/nri-topic-summaries/riemannian-optimization-and-manifold-learning-micro-76765), [UZH AI](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Tracking`
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - RL on Diffusion
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - [SSL](github.com/yiruyang2025/Liver_Predictor), [USZ](www.usz.ch/en/department/visceral-and-transplantation/)
 - 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Flow Deep-RL` for Hospital Navigation, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations), [Notes](https://yiruyang2025.github.io/projects/5_project/), (CRL)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [ex vivo](www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, Accelerate 3D Brain-Mapping
