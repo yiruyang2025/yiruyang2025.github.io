@@ -265,8 +265,8 @@ display_categories: ["Research", "AI/ML", "Life"] # these categories will be dis
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yang, Zhang, Metzger, Wu, Yan, Zheng, Wang, Jiang]
+  first_name: [Yiru, Yi, Nando, Luohong, Zhuojie, Haoran, Haizhou, Junling, Zifan]
 
   style: apa
   locale: en
