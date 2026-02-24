@@ -59,14 +59,27 @@ The essence of LiDAR-free technology can be summarized as: transforming sparse m
 
 <br>
 
-
-
-
-
-
-
-
 <br><br><br><br>
+
+
+
+
+
+
+## Missing Capabilities in Classical SLAM
+
+| Capability                                                  | Classical SLAM / VIO | Neural Mapping (NeRF, GS-SLAM) | Action-Conditioned World Models |
+| ----------------------------------------------------------- | -------------------- | ------------------------------ | ------------------------------- |
+| Estimate robot pose (“Where am I?”)                         | ✓                    | ✓                              | ✓ (implicitly)                  |
+| Represent scene geometry (“What does the world look like?”) | ✓                    | ✓✓                             | ✓                               |
+| Model long-term spatial consistency                         | ✓                    | ✓✓                             | ✓                               |
+| Predict future robot motion                                 | ✓ (locally, via IMU) | ✗                              | ✓                               |
+| **Predict how actions change the world**                    | ✗                    | ✗                              | **✓**                           |
+| Handle non-rigid, contact-rich rearrangements               | ✗                    | ✗                              | **✓**                           |
+| Support action-level foresight and planning                 | ✗                    | ✗                              | **✓**                           |
+
+
+<br>
 
 ## Key Evolution of LiDAR-Free 3D Perception
 
