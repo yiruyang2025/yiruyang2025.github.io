@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- (C++), [Jax](https://github.com/google-deepmind/penzai), Linux, ROS2, Ray (Mezzanine), Python, PyTorch3D, (Rust), Blender, CUDA, Unreal, SUMO
+- (C++), [Jax](https://github.com/google-deepmind/penzai), Linux, ROS2, Ray, Python, PyTorch3D, (Rust), Blender, CUDA, Unreal, SUMO
 
 
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - Benchmark on `4D Tracking`
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - SSL, [USZ](www.usz.ch/en/department/visceral-and-transplantation/)
-- 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Flow Deep-RL` for Hospital Navigation, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [PRS](https://github.com/google-research/google-research/tree/master/remote_sensing_representations), [Notes](https://yiruyang2025.github.io/projects/5_project/), (CRL)
+- 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Diffusion', Flow-matching, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [PRS], [Notes](https://yiruyang2025.github.io/projects/5_project/), (CRL)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [ex vivo](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), SegCLR, Accelerate 3D Brain-Mapping
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/7_project/) - Backbone, SMPL, (PRS, [CRL](https://crl-ethz.github.io/robots/))
 
