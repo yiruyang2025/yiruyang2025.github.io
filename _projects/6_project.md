@@ -45,11 +45,6 @@ related_publications: true
   - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
   - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
 
-  
-  - [2025 - 📍 ZapBench](https://github.com/google-research/zapbench), [PathFinder](https://www.biorxiv.org/content/10.1101/2025.05.16.654254v1)
-  - [2024  - Next-generation AI for 📍 Connectomics](https://www.nature.com/articles/s41592-024-02336-0)
-  - [2023 - 📍 SegCLR: Multi-layered maps of neuropil with segmentation-guided contrastive learning, Nature Methods.](https://www.nature.com/articles/s41592-023-02059-8)
-
 
 - [2025 - Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and 📍 dense features](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:D_sINldO8mEC)
 
