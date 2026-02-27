@@ -105,9 +105,10 @@ where:
 ```
 cd /Users/yangyiru/Desktop/HC
 git init
+git remote remove origin
 git remote add origin https://github.com/yiruyang2025/HC_Knowledge_Distillation
 git add .
-git commit -m "Initial commit"
+git commit -m "init"
 git branch -M main
 git push -u origin main --force
 ```
