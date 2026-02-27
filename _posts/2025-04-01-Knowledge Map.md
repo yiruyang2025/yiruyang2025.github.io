@@ -112,7 +112,7 @@ Visual Computing
 
 Digital Humans (26)
 
-([Physically Based Simulation in Computer Graphics](https://crl.ethz.ch/teaching/PBS24/index.html))
+([Physically Based Simulation in](https://crl.ethz.ch/teaching/PBS24/index.html))
 
 Doctoral Seminar in Visual Computing
 
