@@ -18,10 +18,15 @@ related_publications: true
 - [2023 - Distil-Whisper](https://arxiv.org/pdf/2311.00430)
 - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
 
+<br>
 
 ```
 sed -i "s|default='/cluster/home/yiryang/outputs'|default=os.path.expanduser(\"~/outputs\")|" train_vision.py
 grep -n output_dir train_vision.py
+python -m py_compile train_vision.py
+
+tmux new -s h200_monitor
+tmux a -t h200_monitor
 ```
 
 
