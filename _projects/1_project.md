@@ -474,20 +474,6 @@ Dev: 1248 transcripts, 1248 files
 
 <br>
 
-## Pointers
-
-```
-Python uses pointers everywhere. Python variables are essentially `PyObject*` (pointers to C structs).
-
-Essentially: When you write `a = [1, 2]`, `a` doesn't store the values ​​of the list; instead, it stores the address of the list object in heap memory.
-
-Difference: Python hides address operations. You can't write `a + 1` to move the address; this is called using a reference.
-```
-
-
-
-
-<br>
 
 ## DNS
 
