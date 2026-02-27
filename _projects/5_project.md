@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Airlines & Domestic Robots
+title: 2026 - Master Thesis - Hash Diffusion, Flow-matching
 description: Prototype, UZH AI, PRS, (CRL)
 img: assets/img/4.jpg
 importance: 5
