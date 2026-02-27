@@ -17,7 +17,8 @@ images:
 ## Diffusions
 
 - [📍 2026 - The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning](https://arxiv.org/abs/2602.18428v1)
-- [DIAMOND: Diffusion for World Modeling: Visual Details Matter in Atari](https://diamond-wm.github.io/), NeurIPS 2024 Spotlight
+- [DIAMOND: Diffusion for World Modeling: Visual Details Matter in Atari](https://diamond-wm.github.io/)
+
 
 
 
