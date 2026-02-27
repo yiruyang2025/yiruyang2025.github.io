@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Benchmark
-description: 4D Reconstruction
+description: 4D Tracking
 img: assets/img/4.jpg
 importance: 2
 category: work
@@ -1026,7 +1026,6 @@ Conceptual trajectory
   - [2026 - PaperBanana](https://x.com/alphasignalai/status/2018815238829928711?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Jax](https://github.com/google-deepmind/penzai)
   - [2018 - GQN](https://deepmind.google/discover/blog/neural-scene-representation-and-rendering/)
 
-<br>
 
 
 - [2023 - Dense 4D Nanoscale Reconstruction of Living Brain Tissue](https://www.nature.com/articles/s41592-023-01937-5)
@@ -1061,12 +1060,6 @@ Conceptual trajectory
   - [2025 - Aerial Gym Simulator: A Framework for Highly Parallelized Simulation of Aerial Robots](https://arxiv.org/pdf/2503.01471)
   - [2019 - ICCV - Pix2Vox: Context-aware 3D Reconstruction from 📍 Single and Multi-view Images](https://www.infinitescript.com/project/pix2vox/)
   - [2015 - ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/abs/1512.03012)
-
-
-
-  - [2024 - SceneScript: Reconstructing Scenes With An Autoregressive 📍 Structured Language Model](https://arxiv.org/pdf/2403.13064)
-  - [2025 - Prior2Former - Evidential Modeling of Mask Transformers for Assumption-Free Open-World Panoptic Segmentation](https://iccv.thecvf.com/virtual/2025/poster/317)
-  - [2025 - Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment](https://iccv.thecvf.com/virtual/2025/awards_detail)
   - [2017 - 📍 FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ilg_FlowNet_2.0_Evolution_CVPR_2017_paper.pdf)
   - [2025 - GauSTAR: Gaussian Surface Tracking and Reconstruction](https://eth-ait.github.io/GauSTAR/)
 
