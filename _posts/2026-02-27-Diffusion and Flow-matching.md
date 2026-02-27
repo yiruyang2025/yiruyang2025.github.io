@@ -1,7 +1,7 @@
 ---
 layout: post
-title: CV Data Sets
-date: 2025-11-01
+title: Diffusion and Flow-matching
+date: 2026-02-27
 description: 🔹
 categories: AI/ML
 thumbnail: assets/img/9.jpg
