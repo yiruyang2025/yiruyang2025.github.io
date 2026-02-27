@@ -19,6 +19,12 @@ related_publications: true
 - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
 
 
+```
+sed -i "s|default='/cluster/home/yiryang/outputs'|default=os.path.expanduser(\"~/outputs\")|" train_vision.py
+grep -n output_dir train_vision.py
+```
+
+
 <br>
 
 ## Loss Functions
