@@ -98,7 +98,7 @@ git remote add origin https://github.com/yiruyang2025/HC_Knowledge_Distillation
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git push -u origin main --force`
+git push -u origin main --force
 ```
 
 <br>
