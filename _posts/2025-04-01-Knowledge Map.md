@@ -69,7 +69,7 @@ images:
 
 - [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
 - [2012 - Why you need Autonomous Robots](https://youtu.be/KQpKQXU7dkM), SLAM
-- [2026 - SLAM Handbook](http://asrl.utias.utoronto.ca/~tdb/slam/)
+- [2026 - SLAM Handbook](http://asrl.utias.utoronto.ca/~tdb/slam/), chapter 17, 18
 - [2016 - Dynamic SLAM](https://www.youtube.com/watch?v=GByPKZDnG3Y)
 
 
