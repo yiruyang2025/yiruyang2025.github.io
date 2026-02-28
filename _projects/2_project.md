@@ -17,7 +17,6 @@ related_publications: true
 - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
-- [2026 - Multimodal Video Generation Models with Audio: Present and Future](https://www.researchgate.net/profile/Zongxia-Li-2/publication/400595909_Multimodal_Video_Generation_Models_with_Audio_Present_and_Future/links/698a34f442f94d1212a87614/Multimodal-Video-Generation-Models-with-Audio-Present-and-Future.pdf)
 
 <br>
 
