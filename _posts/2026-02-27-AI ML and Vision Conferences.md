@@ -58,4 +58,20 @@ images:
 ## CVPR
 
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+## Pre-prints
+
+- [2026 - LATENTLENS: Revealing Highly Interpretable Visual Tokens in LLMs](https://huggingface.co/papers/2602.00462)
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
