@@ -38,7 +38,7 @@ images:
 
 ## ECCV
 
-- [2024 - Oral - Minimalist Vision with Freeform Pixels](https://eccv.ecva.net/virtual/2024/oral/147)
+- [2024 - Oral - Minimalist Vision with Free form Pixels](https://eccv.ecva.net/virtual/2024/oral/147)
 - [2022 - Best Papers](https://eccv2022.ecva.net/files/2022/10/ECCV22-Awards.pdf)
 
 
