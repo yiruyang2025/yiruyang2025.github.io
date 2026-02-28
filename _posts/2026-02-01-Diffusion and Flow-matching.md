@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diffusion and Flow-matching
-date: 2026-02-27
+date: 2026-02-01
 description: 🔹
 categories: AI/ML
 thumbnail: assets/img/9.jpg
