@@ -112,19 +112,6 @@ git commit -m "init"
 git branch -M main
 git push -u origin main --force
 ```
-Or
-```
-cd /Users/yangyiru/Desktop/HC
-git init
-git remote remove origin
-git remote add origin https://github.com/yiruyang2025/HC_Knowledge_Distillation
-git fetch origin
-git branch -M main
-git pull origin main --allow-unrelated-histories
-git add .
-git commit -m "Merge"
-git push -u origin main
-```
 
 <br>
 
