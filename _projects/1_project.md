@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Deep Learning
+title: 2025 - Thesis - (Cross-Modal) Knowledge Distillation
 description: Latent Space, Point Clouds Encoder
 img: assets/img/4.jpg
 importance: 1
