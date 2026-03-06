@@ -2,7 +2,7 @@
 layout: post
 title: AI ML and Vision Conferences
 date: 2026-02-27
-description: 🔹
+description: ⛺️
 categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
