@@ -109,9 +109,7 @@ Computer Vision for Automated Driving (PRS, 26)
 
 Visual Computing
 
-Digital Humans (26)
-
-[Physically Based Simulation]
+(Physically Based Simulation)
 
 Doctoral Seminar in Visual Computing
 
