@@ -7,3 +7,13 @@ h1.page-title {
 .badge {
   color: white !important;
 }
+
+/* Fix publication badge text color */
+.badge,
+.badge-vision,
+.badge-optimization,
+.badge-diffusion,
+.badge-4d,
+.badge-slam {
+  color: white !important;
+}
