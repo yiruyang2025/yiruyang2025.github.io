@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Diffusion, Flow-matching
-description: Prototype, UZH AI, PRS, (CRL)
+description: Prototype, UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
 category: work
