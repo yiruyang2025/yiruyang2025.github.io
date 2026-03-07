@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Prototype
-description: Neural Diffusion, Sewing Patterns
+description: Diffusion, Sewing Patterns
 img: assets/img/4.jpg
 importance: 3
 category: work
