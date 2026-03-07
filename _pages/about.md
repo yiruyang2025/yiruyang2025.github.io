@@ -40,7 +40,9 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [ex vivo](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), Accelerate 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation
 
+
 <br>
+
 
 **Interests**
   - [Space](https://www.linkedin.com/posts/davidescaramuzza_inivation-synsense-khalifauniversity-ugcPost-7427307092258107392-9ytF/?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), Backbones, Perception, Challenges, Task Definitions
