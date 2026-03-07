@@ -52,7 +52,8 @@ class Solution:
             return memo[k]
 
         return dfs(n)
-** memo = hash table
+** memo = hash table as cache
+Time:  O(n), Space: O(n)
 ```
 
 
