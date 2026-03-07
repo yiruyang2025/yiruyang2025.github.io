@@ -34,32 +34,6 @@ Iter 7000+: HashSize << full # should be for Hash
 <br>
 
 
-## "Hash" Sampling for Dynamic Programming like Papers
-
-```
-class Solution:
-    def climbStairs(self, n: int) -> int:
-        memo = {}
-
-        def dfs(k):
-            if k <= 2:
-                return k
-
-            if k in memo:
-                return memo[k]
-
-            memo[k] = dfs(k-1) + dfs(k-2)
-            return memo[k]
-
-        return dfs(n)
-** memo = hash table as cache
-Time:  O(n), Space: O(n)
-```
-
-
-
-<br>
-
 ## Paper Generator™
 
 | Stage                      | Description                                                                                                                                                     |
