@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Prototype
-description: Diffusion, Sewing Patterns
+description: Hash Diffusion, Sewing Patterns
 img: assets/img/4.jpg
 importance: 3
 category: work
@@ -30,6 +30,31 @@ Iter 7000+: HashSize << full # should be for Hash
   <source src="/assets/video/project3_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<br>
+
+
+## "Hash" Sampling for Dynamic Programming like Papers
+
+```
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        memo = {}
+
+        def dfs(k):
+            if k <= 2:
+                return k
+
+            if k in memo:
+                return memo[k]
+
+            memo[k] = dfs(k-1) + dfs(k-2)
+            return memo[k]
+
+        return dfs(n)
+```
+
+
 
 <br>
 
