@@ -52,6 +52,7 @@ class Solution:
             return memo[k]
 
         return dfs(n)
+** memo = hash table
 ```
 
 
