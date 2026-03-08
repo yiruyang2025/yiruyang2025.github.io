@@ -17,6 +17,7 @@ images:
 ## 2026
 
 - [User Studies](https://juliachatain.com/)
+- [The Synthetic Data Playbook - huggingface](https://huggingface.co/spaces/HuggingFaceFW/finephrase#introduction)
 
 
 <br><br>
