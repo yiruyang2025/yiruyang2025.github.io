@@ -21,7 +21,13 @@ images:
 - []
 
 
+<br><br><br><br><br><br><br><br><br><br>
 
+
+## When you're not doing Indexing
+
+
+- [Blog 1](https://braydenzhang.com/blog/a-collection-of-cool-companies-(to-me))
 
 
 <br><br>
