@@ -3,7 +3,7 @@ layout: post
 title: AI ML and Vision Conferences
 date: 2026-03-01
 description: ⛺️
-categories: AI/ML
+categories: Research
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -77,9 +77,10 @@ images:
 
 
 
-## Pre-prints
+## Pre-prints / Readings
 
 - [2026 - LATENTLENS: Revealing Highly Interpretable Visual Tokens in LLMs](https://huggingface.co/papers/2602.00462)
+- [2026 - You Cannot Feed Two Birds with One Score: the Accuracy-Naturalness Tradeoff in Translation](https://arxiv.org/abs/2503.24013)
 
 
 
