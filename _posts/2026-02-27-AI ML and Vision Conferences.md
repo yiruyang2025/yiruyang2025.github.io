@@ -24,7 +24,7 @@ images:
 <br><br><br><br><br><br><br><br><br><br>
 
 
-## When you're not doing Indexing
+## When you're not Indexing Everything!
 
 
 - [Blog 1](https://braydenzhang.com/blog/a-collection-of-cool-companies-(to-me))
