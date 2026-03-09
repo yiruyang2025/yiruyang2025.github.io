@@ -44,6 +44,8 @@ images:
 ## ICML
 
 
+[2024 - Some Lessons from Adversarial Machine Learning](https://nicholas.carlini.com/), Alignment, Nicholas Carlini
+
 <br><br><br><br><br><br><br><br><br><br>
 
 
