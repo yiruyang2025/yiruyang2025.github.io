@@ -43,10 +43,13 @@ images:
 
 
 - [Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), [his website](https://paulgraham.com/goodwriting.html)
+- [Maxx Randolph](https://x.com/marcrandolph/status/2031849554732355644?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+
 
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
 - ([Prof. Andreas Geiger](https://www.linkedin.com/posts/andreas-geiger-658b24269_github-autonomousvisioncarl-corl-2025-activity-7399747547277459456-Is9q?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link))
 - ([Kostas Alexis](https://www.autonomousrobotslab.com/research.html)), [Unified Autonomy Stack](https://www.linkedin.com/posts/kostas-alexis-67713918_athens-greece-synergise-activity-7406450204490616832-AE0v?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
+
 
 
 - ([Prof. Sergey Tomin](https://github.com/ocelot-collab))
@@ -57,6 +60,7 @@ images:
 - (Jurgen Schmidhuber)
 - (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
+
 
 
 - [6G Communication](https://www.linkedin.com/posts/hua-wang-61b3955_6greferenceproject-snsju-6g-activity-7405150635819696128-qO_F?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
