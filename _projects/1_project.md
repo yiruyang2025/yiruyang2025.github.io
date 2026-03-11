@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - (Cross-Modal) Knowledge Distillation
-description: Latent Space, Point Clouds Encoder
+description: Logit Training, Latent Space
 img: assets/img/4.jpg
 importance: 1
 category: work
