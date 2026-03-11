@@ -44,7 +44,7 @@ images:
 ## ICML
 
 
-[2024 - Some Lessons from Adversarial Machine Learning](https://nicholas.carlini.com/), Alignment, Nicholas Carlini
+- [2024 - Some Lessons from Adversarial Machine Learning](https://nicholas.carlini.com/), Alignment, Nicholas Carlini
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -88,7 +88,7 @@ images:
 
 ## Pre-prints / Readings
 
-- [2026 - LATENTLENS: Revealing Highly Interpretable Visual Tokens in LLMs](https://huggingface.co/papers/2602.00462)
+- [2026 - Latentlens: Revealing Highly Interpretable Visual Tokens in LLMs](https://huggingface.co/papers/2602.00462)
 - [2026 - You Cannot Feed Two Birds with One Score: the Accuracy-Naturalness Tradeoff in Translation](https://arxiv.org/abs/2503.24013)
 
 
