@@ -52,6 +52,8 @@ images:
 
 ## NIPS
 
+- [2026 - Scaling](https://scholar.google.com.cu/citations?hl=en&user=2ZxBaA0AAAAJ&view_op=list_works&sortby=pubdate)
+
 
 <br><br><br><br><br><br><br><br><br><br>
 
