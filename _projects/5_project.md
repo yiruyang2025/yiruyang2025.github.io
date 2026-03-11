@@ -46,6 +46,7 @@ The essence of LiDAR-free technology can be summarized as: transforming sparse m
 ```
 
 - [📍 2020 - Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618)
+- [2022 - Scalable Diffusion Models with Transformers](https://www.wpeebles.com/DiT), William Peebles, DiT
 
 
 <br>
