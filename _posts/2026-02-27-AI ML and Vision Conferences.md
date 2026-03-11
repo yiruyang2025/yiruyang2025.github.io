@@ -35,7 +35,7 @@ images:
 
 ## ICLR
 
-
+- [2025 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think](https://sihyun.me/REPA/), ICLR'25 Oral
 
 <br><br><br><br><br><br><br><br><br><br>
 
