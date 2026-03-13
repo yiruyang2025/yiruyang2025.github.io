@@ -59,6 +59,29 @@ images:
 
 
 
+
+## Models
+
+| Concept / Model          | Original Paper / Key Reference                                          | Year | Organization / Research Team  |
+| ------------------------ | ----------------------------------------------------------------------- | ---- | ----------------------------- |
+| GPT-5                    | No public architecture paper released (model announced Aug 7, 2025)     | 2025 | OpenAI                        |
+| Claude 4 (Opus / Sonnet) | Claude 4 Model Card                                                     | 2025 | Anthropic                     |
+| Claude (Model Series)    | *Constitutional AI: Harmlessness from AI Feedback*                      | 2022 | Anthropic (Yuntao Bai et al.) |
+| GPT-4                    | *GPT-4 Technical Report*                                                | 2023 | OpenAI                        |
+| GPT-3                    | *Language Models are Few-Shot Learners*                                 | 2020 | OpenAI (Tom Brown et al.)     |
+| LLaMA (Model Series)     | *LLaMA: Open and Efficient Foundation Language Models*                  | 2023 | Meta AI (FAIR)                |
+| CLIP                     | *Learning Transferable Visual Models From Natural Language Supervision* | 2021 | OpenAI (Alec Radford et al.)  |
+| DALL·E                   | *Zero-Shot Text-to-Image Generation*                                    | 2021 | OpenAI (Aditya Ramesh et al.) |
+| DALL·E 2                 | *Hierarchical Text-Conditional Image Generation with CLIP Latents*      | 2022 | OpenAI (Aditya Ramesh et al.) |
+| Stable Diffusion         | *High-Resolution Image Synthesis with Latent Diffusion Models*          | 2022 | LMU Munich (CompVis) & Runway |
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
 ## ECCV
 
 - [2024 - Oral - Minimalist Vision with Free form Pixels](https://eccv.ecva.net/virtual/2024/oral/147)
