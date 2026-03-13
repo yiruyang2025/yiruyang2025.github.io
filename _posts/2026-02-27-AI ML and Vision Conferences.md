@@ -53,7 +53,7 @@ images:
 ## NIPS
 
 - [2026 - Scaling](https://scholar.google.com.cu/citations?hl=en&user=2ZxBaA0AAAAJ&view_op=list_works&sortby=pubdate)
-
+- [2026 - Fetch.ai: An Architecture for Modern Multi-Agent Systems](https://arxiv.org/pdf/2510.18699)
 
 <br><br><br><br><br><br><br><br><br><br>
 
