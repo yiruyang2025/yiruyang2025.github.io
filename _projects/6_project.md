@@ -10,17 +10,11 @@ related_publications: true
 
 <br>
 
-## Pending
+## Readings
+
+- [📍 2019 - Point-Voxel CNN for Efficient 3D Deep Learning](https://proceedings.neurips.cc/paper/2019/hash/5737034557ef5b8c02c0e46513b98f90-Abstract.html), NIPS 19
 
 
-- The model will focus on `optimizing specific neural circuits` (such as the hippocampus region)
- 
-- **Non-invasive alternative**
-  - Provides a new pathway for AD diagnosis without the need for radioactive tracers
-- **Voxel-level quantization**
-  - Elevates diagnosis from traditional "regional mean" to 3D whole-brain voxel-level "distribution mapping"
-- **Multi-scale alignment**
-  - Successfully unifies microscopic histology (IHC), macroscopic molecular imaging (PET), and physical imaging (MRI) within a deep learning framework
 
 <br>
 
