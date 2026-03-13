@@ -32,7 +32,25 @@ Zero-shot generalization to new hospital
 Agentic evaluation measures real-world performance
 ```
 
+<br>
 
+## Tests
+
+```
+Habitat
+AI2-THOR
+Isaac Sim
+Gazebo
+Unity hospital simulator
+
+**
+hospital map
+corridors
+elevators
+rooms
+patients
+dynamic obstacles
+```
 
 
 <br><br><br><br><br>
