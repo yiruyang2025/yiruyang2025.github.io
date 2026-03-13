@@ -18,7 +18,7 @@ images:
 ## Release Ready
 
 - [HuggingFace](https://huggingface.co/docs/hub/en/model-release-checklist)
-- []
+- [2026 - PyViz3D](https://github.com/francisengelmann/PyViz3D)
 
 
 <br><br><br><br><br><br><br><br><br><br>
