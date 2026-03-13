@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Motion & Gesture Backbone
-description: Deep RL Deployment
+description: Deep RL Deployment with Agent Evaluation
 img: assets/img/4.jpg
 importance: 7
 category: work
@@ -19,6 +19,20 @@ related_publications: true
 
 
 <br>
+
+
+
+## Pipeline
+
+```
+Deep-RL learns navigation policy
+↓
+Zero-shot generalization to new hospital
+↓
+Agentic evaluation measures real-world performance
+```
+
+
 
 
 <br><br><br><br><br>
