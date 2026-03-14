@@ -17,6 +17,7 @@ images:
 
   - 🧊 Pretty things here
   - We model the world mathematically via different philosophical viewpoints
+  - [📍 Kaiming He](https://introtocv.github.io/), GDM
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
