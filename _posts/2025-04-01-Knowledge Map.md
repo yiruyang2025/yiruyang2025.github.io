@@ -105,6 +105,8 @@ images:
 
 [Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
 
+(*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), 25/26)
+
 3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26), cute prof. and cute lab
@@ -114,8 +116,6 @@ images:
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
 
 Computer Vision for Automated Driving / Future Mobility (PRS, 26)
-
-(*Large-Scale AI Engineering, 25)
 
 Visual Computing
 
