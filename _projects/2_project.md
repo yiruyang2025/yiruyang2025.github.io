@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Benchmark
-description: 4D
+description: 4D, DINO
 img: assets/img/4.jpg
 importance: 2
 category: work
