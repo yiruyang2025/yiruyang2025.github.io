@@ -20,6 +20,7 @@ images:
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
   -  [Lukas Beyer](https://lucasb.eyer.be/)'s blog, ex-GDM
   -  [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/)
+  -  [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=de), SSL 2006
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
@@ -136,7 +137,7 @@ Pure Math
 
 
 
-<br><br><br><br><br>
+<br><br>
 
 
 
@@ -163,11 +164,10 @@ Pure Math
   - Zero-shot Learning
 
 
-<br><br>
+<br><br><br><br><br><br><br>
 
 
 
-<br>
 
 
 # Check List
