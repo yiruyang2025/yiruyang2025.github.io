@@ -681,6 +681,27 @@ linear scan       merge / quick sort         bubble / selection 
 
 <br>
 
+## REST API
+
+| Endpoint    | Method | Description       | Parameters                       | Response      | Status Codes           |
+| ----------- | ------ | ----------------- | -------------------------------- | ------------- | ---------------------- |
+| /users      | GET    | Get all users     | none                             | list of users | 200 OK                 |
+| /users      | POST   | Create a new user | username:string, password:string | created user  | 201 Created            |
+| /users/{id} | GET    | Get user by ID    | id:int                           | user object   | 200 OK / 404 Not Found |
+| /users/{id} | PUT    | Update user       | username:string                  | updated user  | 200 OK                 |
+| /users/{id} | DELETE | Delete user       | id:int                           | none          | 204 No Content         |
+
+
+## AI API
+
+| Endpoint  | Method | Description          | Parameters     | Response  | Status |
+| --------- | ------ | -------------------- | -------------- | --------- | ------ |
+| /ai/chat  | POST   | Generate AI response | message:string | AI text   | 200    |
+| /ai/image | POST   | Generate image       | prompt:string  | image URL | 200    |
+
+
+<br>
+
 ## Optimizers
 
 | Era | Optimizer | Year | Core Innovation | Key Equation / Concept | Limitation Solved | Remarks |
