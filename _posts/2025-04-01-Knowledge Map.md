@@ -107,21 +107,21 @@ images:
 
 3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
 
-[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
+[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26), cute prof. and cute lab
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
 
-Computer Vision for Automated Driving (PRS, 26)
-
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
+
+Computer Vision for Automated Driving / Future Mobility (PRS, 26)
+
+(*Large-Scale AI Engineering, 25)
 
 Visual Computing
 
 (Physically Based Simulation)
 
 Doctoral Seminar in Visual Computing
-
-(*Large-Scale AI Engineering, 25)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
@@ -131,17 +131,7 @@ Graph Theory
 
 Information Geometry
 
-(Calculus of Variations)
-
-(Visual Complex Analysis - Tristan Needham)
-
-(Lie Group and Riemannian Geometry)
-
-(Real Analysis)
-
-(Point-Set Topology)
-
-(Discrete Differential Geometry)
+Pure Math
 
 
 
