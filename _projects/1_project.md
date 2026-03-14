@@ -700,6 +700,31 @@ linear scan       merge / quick sort         bubble / selection 
 | /ai/image | POST   | Generate image       | prompt:string  | image URL | 200    |
 
 
+## Structure
+
+```
+Frontend
+   ↓
+Controller (REST API)
+   ↓
+DTO
+   ↓
+Mapper
+   ↓
+Entity
+   ↓
+Repository
+   ↓
+Database
+```
+
+| Concept                    | Essence                 | Purpose                                                           |
+| -------------------------- | ----------------------- | ----------------------------------------------------------------- |
+| REST API                   | Communication interface | Enables clients to interact with the server through HTTP requests |
+| DTO (Data Transfer Object) | Data structure          | Defines the format of data exchanged between client and server    |
+| Mapper                     | Conversion utility      | Converts data between DTOs and Entities                           |
+
+
 <br>
 
 ## Optimizers
