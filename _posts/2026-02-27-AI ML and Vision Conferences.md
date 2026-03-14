@@ -45,6 +45,7 @@ images:
 
 
 - [2024 - Some Lessons from Adversarial Machine Learning](https://nicholas.carlini.com/), Alignment, Nicholas Carlini
+- [2020 - Are we done with ImageNet?](https://arxiv.org/abs/2006.07159), [Lukas Beyer](https://lucasb.eyer.be/)'s blog
 
 <br><br><br><br><br><br><br><br><br><br>
 
