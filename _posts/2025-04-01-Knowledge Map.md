@@ -18,9 +18,9 @@ images:
   - 🧊 Pretty things here
   - We model the world mathematically via different philosophical viewpoints
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
-  -  [Lukas Beyer](https://lucasb.eyer.be/)'s blog, ex-GDM
-  -  [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/)
-  -  [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=de), SSL 2006
+  - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, ex-GDM
+  - [📍Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN, DL
+  - [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=de), SSL 2006
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
@@ -109,15 +109,15 @@ images:
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), 25/26)
 
-3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html) (CUDA, HPC, 26)
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26), cute prof. and cute lab
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
 
-([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)) (CUDA, HPC, 26)
-
 Computer Vision for Automated Driving / Future Mobility (PRS, 26)
+
+3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
 
 Visual Computing
 
