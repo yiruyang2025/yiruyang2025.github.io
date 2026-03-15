@@ -69,6 +69,31 @@ Encapsulation → Abstraction → Independence → Reusability
 Client → HTTP Request → API Endpoint → Service → Database
 ```
 
+<br>
+
+## CURD
+
+
+| CRUD   | HTTP        |
+| ------ | ----------- |
+| Create | POST        |
+| Read   | GET         |
+| Update | PUT / PATCH |
+| Delete | DELETE      |
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+<br>
+
 
 <br><br><br><br><br><br><br><br><br>
 
