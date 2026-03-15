@@ -30,7 +30,36 @@ images:
 - [Blog 1](https://braydenzhang.com/blog/a-collection-of-cool-companies-(to-me))
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
+
+
+```
+def backtrack(index):
+    res.append(list(path))
+    for i in range(index, len(nums)):
+        path.append(nums[i])
+        backtrack(i + 1)
+        path.pop()
+
+**dumb syntax**
+def function_name(parameters) -> return_type:
+```
+
+
+**DFS on a decision tree**
+
+| Problem      | Index rule       | Meaning             |
+| ------------ | ---------------- | ------------------- |
+| Subsets      | next index = i+1 | increasing sequence |
+| Combinations | next index = i+1 | choose k elements   |
+| Permutations | any unused index | reorder elements    |
+| N-Queens     | next row         | one queen per row   |
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 
 ## ICLR
