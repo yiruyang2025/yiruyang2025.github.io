@@ -21,6 +21,50 @@ images:
 - [2026 - PyViz3D](https://github.com/francisengelmann/PyViz3D)
 
 
+<br>
+
+## Brief
+
+```
+                 AI SYSTEM
+
+        ┌──────── Learning ────────┐
+        │                          │
+   Deep Learning              Representation
+        │                          │
+        └──────── Perception ──────┘
+                    │
+                    ▼
+            Probabilistic Inference
+                    │
+           Factor Graph / Optimization
+                    │
+                    ▼
+                State Estimation
+                    │
+                    ▼
+             Planning / Control
+```
+
+
+<br>
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+
+
+
 <br><br><br><br><br><br><br><br><br><br>
 
 
