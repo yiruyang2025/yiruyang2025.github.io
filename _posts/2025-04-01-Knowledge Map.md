@@ -19,7 +19,7 @@ images:
   - We model the world mathematically via different philosophical viewpoints
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, ex-GDM
-  - [📍Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN, DL
+  - [📍Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL
   - [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=de), SSL 2006
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
