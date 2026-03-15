@@ -43,6 +43,7 @@ def backtrack(index):
 
 **dumb syntax**
 def function_name(parameters) -> return_type:
+List[List[str]] = a list of chessboards, where each chessboard is represented as a list of strings.
 ```
 
 
