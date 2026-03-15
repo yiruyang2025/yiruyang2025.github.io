@@ -157,7 +157,37 @@ Client → HTTP Request → API Endpoint → Service → Database
 | All-pairs shortest path (sparse graph)               | Johnson’s Algorithm | Reweight edges to remove negatives then run Dijkstra | Reweight: $$w'(u,v) = w(u,v) + h(u) - h(v)$$ where $$h(v)$$ from Bellman–Ford                                  | $$O(VE + V^2 \log V)$$           | Sparse graphs with negative edges  |
 
 
-<br><br><br><br><br><br><br><br><br>
+<br>
+
+## Patterns
+
+```
+Problem
+  ↓
+Pattern recognition
+  ↓
+Data structure
+  ↓
+Algorithm
+  ↓
+Complexity analysis
+```
+
+<br>
+
+
+
+<br>
+
+
+
+
+<br>
+
+
+
+
+<br><br><br><br><br><br><br><br>
 
 
 ## ICLR
