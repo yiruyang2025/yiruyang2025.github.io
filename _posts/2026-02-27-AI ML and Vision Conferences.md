@@ -46,8 +46,9 @@ def function_name(parameters) -> return_type:
 List[List[str]] = a list of chessboards, where each chessboard is represented as a list of strings.
 ```
 
+<br>
 
-**DFS on a decision tree**
+## DFS on a decision tree
 
 | Problem      | Index rule       | Meaning             |
 | ------------ | ---------------- | ------------------- |
@@ -56,7 +57,27 @@ List[List[str]] = a list of chessboards, where each chessboard is represented as
 | Permutations | any unused index | reorder elements    |
 | N-Queens     | next row         | one queen per row   |
 
+<br>
 
+## Modularity
+
+```
+complex system
+     ↓
+divide
+     ↓
+independent modules
+
+**
+
+Encapsulation
+     ↓
+Abstraction 
+     ↓
+Independence
+     ↓
+Reusability
+```
 
 
 
