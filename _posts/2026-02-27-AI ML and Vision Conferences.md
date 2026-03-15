@@ -62,23 +62,12 @@ List[List[str]] = a list of chessboards, where each chessboard is represented as
 ## Modularity
 
 ```
-complex system
-     ↓
-divide
-     ↓
-independent modules
-
+Complex System → Division → Independent Modules
 **
-
-Encapsulation
-     ↓
-Abstraction 
-     ↓
-Independence
-     ↓
-Reusability
+Encapsulation → Abstraction → Independence → Reusability
+**
+Client → HTTP Request → API Endpoint → Service → Database
 ```
-
 
 
 <br><br><br><br><br><br><br><br><br>
