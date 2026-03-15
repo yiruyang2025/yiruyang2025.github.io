@@ -182,6 +182,7 @@ Client → HTTP Request → API Endpoint → Service → Database
 
 - [2026 - Scaling](https://scholar.google.com.cu/citations?hl=en&user=2ZxBaA0AAAAJ&view_op=list_works&sortby=pubdate)
 - [2026 - Fetch.ai: An Architecture for Modern Multi-Agent Systems](https://arxiv.org/pdf/2510.18699)
+- [2026 - SLAM Library](https://gtsam.org/)
 
 <br><br><br><br><br><br><br><br><br><br>
 
