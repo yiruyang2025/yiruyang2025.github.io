@@ -12,8 +12,9 @@ related_publications: true
 
 ## Topics
 
+
+- ViT, DINOv3, Semantic-SAM, OpenScene, SAP (Shape As Points), DiT, D2-Net,
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
-- ViT, DINOv3, Semantic-SAM, OpenScene, SAP (Shape As Points), DiT, D2-Net, 
 - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
 
@@ -28,16 +29,18 @@ related_publications: true
 <br>
 
 
-## Open Problems in Traditional 3DV
+## Learning-based Registration
 
-| **Aspect**                                           | **Unresolved Pain Point**                                                                    | **Why Existing Methods Are Not Enough**                                                                                                  | **Potential Directions to Solve**                                                                                             | **Existing Efforts (Yes / Partial / No)**                                                                                            |
-| ---------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **1. Dynamic Scenes (non-static, non-rigid motion)** | Traditional SfM assumes static scenes; moving or deformable objects are treated as outliers. | Even with feature-metric refinement, rigid-scene assumptions fail; motion causes inconsistent correspondences and reconstruction errors. | Introduce dynamic NeRF, scene-flow-based SfM, or implicit dynamic field modeling to capture motion and deformation over time. | **Partial.** Dynamic NeRFs and neural SDF-flow methods partially address non-rigid motion.                                           |
-| **2. Illumination / Appearance / Time Variance**     | CNN features degrade under extreme lighting, weather, or long-term changes.                  | Feature spaces are static and lack temporal conditioning or appearance adaptation.                                                       | Develop time-conditioned encoders, appearance flow fields, or illumination-invariant feature spaces within SfM.               | **Partial.** Some dynamic NeRF variants model lighting or appearance change, but classical SfM lacks such temporal modeling.         |
-| **3. Extreme Viewpoint / Wide Baseline**             | Large viewpoint changes break local feature consistency and matching stability.              | Descriptors cannot generalize across large baselines, occlusions, or drastic view changes.                                               | Combine semantic, language, or diffusion priors for semantic-aware SfM that matches beyond local appearance.                  | **Partial.** Semantic-aware 3D reconstruction and NeRF methods show progress, but integration with classical SfM remains rare.       |
-| **4. Sparse–Dense Gap**                              | SfM yields sparse geometry; dense methods (MVS) use incompatible representations.            | Sparse and dense optimization objectives differ, preventing unified reconstruction.                                                      | Employ unified implicit fields (feature fields, SDF, Gaussian splatting) that bridge sparse and dense representations.        | **Partial / Emerging.** Implicit and Gaussian-based fields begin to unify sparse–dense paradigms.                                    |
-| **5. Geometry–Semantic Alignment**                   | Traditional SfM reconstructs only geometry, ignoring semantic consistency.                   | Lacks semantic identity or part-level alignment, limiting high-level scene understanding.                                                | Integrate vision-language or semantic embeddings (e.g., CLIP, DINOv3) and enforce cross-view semantic regularization.         | **Partial.** Semantic-aware 3D reconstruction is growing but still limited for geometry-based SfM.                                   |
-| **6. Long-Term Consistency & Memory**                | Per-scene optimization causes drift; long-term or cross-session consistency is absent.       | No temporal memory; reconstructions over time remain inconsistent.                                                                       | Incorporate state-space models, latent geometry flow, or temporal latent dynamics for consistent long-term modeling.          | **Partial / Emerging.** Some dynamic NeRFs and latent-flow models handle temporal coherence, but not integrated into SfM frameworks. |
+```
+point cloud
+↓
+feature embedding
+↓
+correspondence
+↓
+solve R,t
+```
+
 
 
 <br>
