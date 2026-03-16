@@ -128,36 +128,39 @@ Client → HTTP Request → API Endpoint → Service → Database
 
 <br>
 
-## O(xx)
+## O(T))
 
-| Pattern                  | Mathematical Form                | Time Complexity   | Core Data Structure                | Explanation                                    |
-| ------------------------ | -------------------------------- | ----------------- | ---------------------------------- | ---------------------------------------------- |
-| Constant operation       | (c)                              | (O(1))            | Array / Variable                   | Execution time does not depend on input size   |
-| Single loop              | (\sum_{i=1}^{n} 1)               | (O(n))            | Array / List                       | One iteration per element                      |
-| Nested loops             | (\sum_{i=1}^{n}\sum_{j=1}^{n} 1) | (O(n^2))          | Matrix / 2D Array                  | Two loops over the same range                  |
-| Triangular loops         | (\sum_{i=1}^{n}\sum_{j=1}^{i} 1) | (O(n^2))          | Array / Matrix                     | Inner loop grows with the outer loop           |
-| Logarithmic loop         | ( \frac{n}{2^k} = 1 )            | (O(\log n))       | Binary Search Tree / Sorted Array  | Problem size halves each step (binary search)  |
-| Exponential growth loop  | (2^k = n)                        | (O(\log n))       | Binary Tree                        | Value doubles until reaching (n)               |
-| Divide and conquer       | (T(n)=T(n/2)+O(1))               | (O(\log n))       | Binary Tree                        | Recursive halving with constant work           |
-| Binary search recurrence | (T(n)=T(n/2)+c)                  | (O(\log n))       | Sorted Array                       | Each step searches half of the array           |
-| Linear recursion         | (T(n)=T(n-1)+O(1))               | (O(n))            | Recursion Stack                    | Problem size decreases by one each step        |
-| Merge sort recurrence    | (T(n)=2T(n/2)+O(n))              | (O(n\log n))      | Array / Merge Tree                 | Two recursive calls plus linear merge          |
-| Master theorem case 1    | (T(n)=aT(n/b)+O(n^c),\ a<b^c)    | (O(n^c))          | Recursion Tree                     | Work dominated by the combine step             |
-| Master theorem case 2    | (T(n)=aT(n/b)+O(n^c),\ a=b^c)    | (O(n^c\log n))    | Recursion Tree                     | Balanced recursion tree                        |
-| Master theorem case 3    | (T(n)=aT(n/b)+O(n^c),\ a>b^c)    | (O(n^{\log_b a})) | Recursion Tree                     | Work dominated by recursive calls              |
-| Two-pointer technique    | (\sum_{i=1}^{n} 1)               | (O(n))            | Array                              | Each pointer moves at most (n) times           |
-| Sliding window           | (2n) operations                  | (O(n))            | Array / Queue                      | Each element enters and leaves the window once |
-| Prefix sum construction  | (\sum_{i=1}^{n} 1)               | (O(n))            | Array                              | Build cumulative prefix array                  |
-| Hash table operations    | average (1)                      | (O(1))            | Hash Table                         | Expected constant-time lookup                  |
-| BFS / DFS                | (V+E)                            | (O(V+E))          | Graph (Adjacency List)             | Each vertex and edge visited once              |
-| Dijkstra (heap)          | (E\log V)                        | (O(E\log V))      | Graph + Priority Queue (Heap)      | Heap operations for extracting minimum         |
-| Union-Find (amortized)   | (\alpha(n))                      | (O(\alpha(n)))    | Disjoint Set Union                 | Inverse Ackermann function complexity          |
-| Subset enumeration       | (2^n)                            | (O(2^n))          | Bitmask / Recursion Tree           | Each element chosen or skipped                 |
-| Permutations             | (n!)                             | (O(n!))           | Recursion Tree                     | Explore all orderings                          |
-| Bitmask DP               | (n \cdot 2^n)                    | (O(n2^n))         | Bitmask / DP Table                 | Dynamic programming over subsets               |
-| Floyd–Warshall           | (n^3)                            | (O(n^3))          | Matrix (Adjacency Matrix)          | Triple nested loops over vertices              |
-| Segment tree query       | (\log n)                         | (O(\log n))       | Segment Tree                       | Height of the tree                             |
-| Fenwick tree operations  | (\log n)                         | (O(\log n))       | Fenwick Tree (Binary Indexed Tree) | Binary indexed updates and prefix queries      |
+
+| Pattern                  | Mathematical Form                   | Time Complexity   | Core Data Structure                | Explanation                                    |
+| ------------------------ | ----------------------------------- | ----------------- | ---------------------------------- | ---------------------------------------------- |
+| Constant operation       | (c)                                 | (O(1))            | Array / Variable                   | Execution time does not depend on input size   |
+| Single loop              | (\sum_{i=1}^{n} 1)                  | (O(n))            | Array / List                       | One iteration per element                      |
+| Nested loops             | (\sum_{i=1}^{n}\sum_{j=1}^{n} 1)    | (O(n^2))          | Matrix / 2D Array                  | Two loops over the same range                  |
+| Triangular loops         | (\sum_{i=1}^{n}\sum_{j=1}^{i} 1)    | (O(n^2))          | Array / Matrix                     | Inner loop grows with the outer loop           |
+| Logarithmic loop         | (n / 2^k = 1)                       | (O(\log n))       | Binary Search Tree / Sorted Array  | Problem size halves each step (binary search)  |
+| Exponential growth loop  | (2^k = n)                           | (O(\log n))       | Binary Tree                        | Value doubles until reaching (n)               |
+| Divide and conquer       | (T(n) = T(n/2) + O(1))              | (O(\log n))       | Binary Tree                        | Recursive halving with constant work           |
+| Binary search recurrence | (T(n) = T(n/2) + c)                 | (O(\log n))       | Sorted Array                       | Each step searches half of the array           |
+| Linear recursion         | (T(n) = T(n-1) + O(1))              | (O(n))            | Recursion Stack                    | Problem size decreases by one each step        |
+| Merge sort recurrence    | (T(n) = 2T(n/2) + O(n))             | (O(n\log n))      | Array / Merge Tree                 | Two recursive calls plus linear merge          |
+| Master theorem case 1    | (T(n) = aT(n/b) + O(n^c),\ a < b^c) | (O(n^c))          | Recursion Tree                     | Work dominated by the combine step             |
+| Master theorem case 2    | (T(n) = aT(n/b) + O(n^c),\ a = b^c) | (O(n^c \log n))   | Recursion Tree                     | Balanced recursion tree                        |
+| Master theorem case 3    | (T(n) = aT(n/b) + O(n^c),\ a > b^c) | (O(n^{\log_b a})) | Recursion Tree                     | Work dominated by recursive calls              |
+| Two-pointer technique    | (\sum_{i=1}^{n} 1)                  | (O(n))            | Array                              | Each pointer moves at most (n) times           |
+| Sliding window           | (2n) operations                     | (O(n))            | Array / Queue                      | Each element enters and leaves the window once |
+| Prefix sum construction  | (\sum_{i=1}^{n} 1)                  | (O(n))            | Array                              | Build cumulative prefix array                  |
+| Hash table operations    | average (1)                         | (O(1))            | Hash Table                         | Expected constant-time lookup                  |
+| BFS / DFS                | (V + E)                             | (O(V + E))        | Graph (Adjacency List)             | Each vertex and edge visited once              |
+| Dijkstra (heap)          | (E \log V)                          | (O(E \log V))     | Graph + Priority Queue (Heap)      | Heap operations for extracting minimum         |
+| Union-Find (amortized)   | (\alpha(n))                         | (O(\alpha(n)))    | Disjoint Set Union                 | Inverse Ackermann function complexity          |
+| Subset enumeration       | (2^n)                               | (O(2^n))          | Bitmask / Recursion Tree           | Each element chosen or skipped                 |
+| Permutations             | (n!)                                | (O(n!))           | Recursion Tree                     | Explore all orderings                          |
+| Bitmask DP               | (n \cdot 2^n)                       | (O(n2^n))         | Bitmask / DP Table                 | Dynamic programming over subsets               |
+| Floyd–Warshall           | (n^3)                               | (O(n^3))          | Matrix (Adjacency Matrix)          | Triple nested loops over vertices              |
+| Segment tree query       | (\log n)                            | (O(\log n))       | Segment Tree                       | Height of the tree                             |
+| Fenwick tree operations  | (\log n)                            | (O(\log n))       | Fenwick Tree (Binary Indexed Tree) | Binary indexed updates and prefix queries      |
+
+
 
 <br>
 
