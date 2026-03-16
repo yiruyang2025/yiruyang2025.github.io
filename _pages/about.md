@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `Logit Distillation` / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D DINO
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D Benchmark
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment, Tensor3D
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - SSL
 - 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Diffusion, Flow-matching`, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [Notes](https://yiruyang2025.github.io/projects/5_project/)
