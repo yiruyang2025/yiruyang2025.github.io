@@ -119,7 +119,7 @@ images:
 
 Computer Vision for Automated Driving / Future Mobility (PRS, 26)
 
-3D/4D Computer Vision (C++, (Dynamic) SLAM, 26)
+4D Computer Vision (C++, (Dynamic) SLAM, 26)
 
 Visual Computing
 
