@@ -113,7 +113,7 @@ images:
 
 [Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html) (CUDA, HPC, 26)
 
-[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26), cute prof. and cute lab
+[3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
 
