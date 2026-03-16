@@ -3,7 +3,7 @@ layout: post
 title: Story Series
 date: 2025-12-01
 description: 🔹
-categories: Life
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
@@ -12,13 +12,13 @@ images:
   venobox: true
 ---
 
-<br>
+<br><br><br><br><br><br><br>
 
 ## Topics 2025 - 2026
 
 <br>
 
-## A.Founding of Major Technology Companies
+## Founding of Major Technology Companies
 
 | Company   | Founded (Year) | Founder(s)                                    | Why It Was Founded                                           | First Product(s)                          |
 | --------- | -------------- | --------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------- |
@@ -55,7 +55,7 @@ images:
 
 <br>
 
-## B. Major Oil Companies - Historical Origins
+## Major Oil Companies - Historical Origins
 
 | Company    | Founded (Year)         | Founder / Origin                  | Why It Was Founded                          | Early Core Business      |
 | ---------- | ---------------------- | --------------------------------- | ------------------------------------------- | ------------------------ |
@@ -65,7 +65,7 @@ images:
 
 <br>
 
-## C. Original Bottlenecks Addressed by Each Sector
+## Original Bottlenecks Addressed by Each Sector
 
 | Sector         | Fundamental Problem Solved                   |
 | -------------- | -------------------------------------------- |
@@ -75,7 +75,7 @@ images:
 | Finance        | Trust, credit, and capital allocation        |
 
 
-<br><br>
+<br><br><br><br><br><br>
 
 
 # Topics 2024
@@ -92,7 +92,7 @@ images:
   - [2025 - Effect of multi-disciplinary deliberation on perceptions of risk and recommended actions in response to child abuse](https://www.sciencedirect.com/science/article/pii/S0190740925004190?via%3Dihub)
 
 
-<br><br>
+<br><br><br><br><br><br><br><br>
 
 
 
