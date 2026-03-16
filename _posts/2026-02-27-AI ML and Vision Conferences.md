@@ -94,13 +94,20 @@ def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
 nums1_left_max = nums1[i-1] if i > 0 else float('-inf')
 nums1_right_min = nums1[i] if i < m else float('inf')
 
-**otherwise
+**otherwise**
 if i == 0:
     nums1_left_max = -∞
 elif i == m:
     nums1_right_min = +∞
 else:
     nums1_left_max = nums1[i-1]
+
+**
+Run-time analysis → produces → Algorithm complexity
+T(n) = 3n² + 5n + 2 → O(n²)
+
+**method**
+All classes have a built-in method called __init__(), used to assign values to object properties, or to perform operations.
 ```
 
 <br>
@@ -365,4 +372,54 @@ Complexity analysis
 
 <br><br><br><br><br><br><br><br><br><br>
 
+
+
+## System Design Metrics
+
+
+```
+Client
+↓
+Load Balancer
+↓
+Application Servers
+↓
+Cache
+↓
+Database
+↓
+Replication / Sharding
+↓
+Storage
+```
+
+| Term                          | Definition                                        | Example                        |
+| ----------------------------- | ------------------------------------------------- | ------------------------------ |
+| QPS (Queries Per Second)      | Number of queries processed per second.           | Search engine handling 50k QPS |
+| RPS (Requests Per Second)     | Number of HTTP requests per second.               | Web server receiving 10k RPS   |
+| TPS (Transactions Per Second) | Number of completed transactions per second.      | Database processing 5k TPS     |
+| P99 Latency                   | The latency below which 99% of requests complete. | 99% of requests < 200ms        |
+| P50 Latency                   | Median latency of requests.                       | Half the requests < 30ms       |
+| Tail Latency                  | Latency of the slowest requests.                  | P99 or P99.9 latency           |
+
+
+<br>
+
+
+
+<br>
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
 
