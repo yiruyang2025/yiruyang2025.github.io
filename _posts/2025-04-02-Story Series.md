@@ -77,34 +77,18 @@ images:
 
 <br><br><br><br><br><br>
 
-
-# Topics 2024
-
-<br>
-
-## 1. Global Proverty Research
-  - [2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
-
-<br><br>
-
-## 2. Child Welfare
-
-  - [2025 - Effect of multi-disciplinary deliberation on perceptions of risk and recommended actions in response to child abuse](https://www.sciencedirect.com/science/article/pii/S0190740925004190?via%3Dihub)
-
-
 <br><br><br><br><br><br><br><br>
 
 
 
 
-## Zurich
-
-<br>
+# Zurich
 
 ## Home and Interior Design Stores – Origins
 
 | Store                   | Founded (Year)          | Founder(s)                         | Background & Notes                                                                                                                        |
 | ----------------------- | ----------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Züny** |   |
 | **Wohnhilfe**           | 1931                    | Family-owned (Zurich)              | One of Zurich’s oldest furniture stores; originally focused on functional Swiss home furnishing, later expanded to European design brands |
 | **Schubiger Möbel**     | 1935                    | Schubiger family                   | Established as a traditional furniture retailer; grew into one of Zurich’s largest multi-floor furniture houses                           |
 | **Memorie.ch**          | 1999                    | Private Swiss design entrepreneurs | Founded to focus on design classics (mid-century modern, European icons) and contemporary high-end furniture                              |
@@ -117,6 +101,18 @@ images:
 
 
 
+<br><br><br><br><br><br><br><br>
+
+
+
+## 1. Global Proverty Research
+  - [2025 - Between Trust and Trade: on Informal Credit Networks in India](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5392415)
+
+<br><br>
+
+## 2. Child Welfare
+
+  - [2025 - Effect of multi-disciplinary deliberation on perceptions of risk and recommended actions in response to child abuse](https://www.sciencedirect.com/science/article/pii/S0190740925004190?via%3Dihub)
 
 
 <br><br><br><br>
