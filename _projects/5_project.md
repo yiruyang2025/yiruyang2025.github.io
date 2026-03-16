@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Diffusion, Flow-Matching
+title: 2026 - Master Thesis - Diffusion, Robotics, Security
 description: Prototype, UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
