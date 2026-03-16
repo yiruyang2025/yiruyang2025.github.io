@@ -88,6 +88,7 @@ def backtrack(index):
 **dumb syntax**
 def function_name(parameters) -> return_type:
 List[List[str]] = a list of chessboards, where each chessboard is represented as a list of strings.
+def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
 ```
 
 <br>
@@ -199,6 +200,51 @@ Client → HTTP Request → API Endpoint → Service → Database
 | Single-source shortest path (optimized Bellman–Ford) | SPFA                | Queue-based relaxation to reduce unnecessary updates | Same relaxation rule: $$d(v) = \min(d(v), d(u) + w(u,v))$$ but only nodes whose distance changed are processed | Average $$O(E)$$ worst $$O(VE)$$ | Sparse graphs with negative edges  |
 | All-pairs shortest path (dense graph)                | Floyd–Warshall      | Dynamic programming over intermediate vertices       | Recurrence: $$d_{ij}^{(k)} = \min(d_{ij}^{(k-1)},\ d_{ik}^{(k-1)} + d_{kj}^{(k-1)})$$                          | $$O(V^3)$$                       | Dense graphs or small vertex count |
 | All-pairs shortest path (sparse graph)               | Johnson’s Algorithm | Reweight edges to remove negatives then run Dijkstra | Reweight: $$w'(u,v) = w(u,v) + h(u) - h(v)$$ where $$h(v)$$ from Bellman–Ford                                  | $$O(VE + V^2 \log V)$$           | Sparse graphs with negative edges  |
+
+
+<br>
+
+## Operations
+
+| Category          | Syntax                | Meaning                       | Typical Use                 | Comment              |                |
+| ----------------- | --------------------- | ----------------------------- | --------------------------- | -------------------- | -------------- |
+| Floor division    | `x // y`              | Integer division (round down) | Binary search midpoint      | `# integer division` |                |
+| Division          | `x / y`               | Floating-point division       | Average / ratio             | `# float division`   |                |
+| Modulo            | `x % y`               | Remainder after division      | Even check / circular index | `# remainder`        |                |
+| Power             | `x ** y`              | Exponentiation                | Exponential growth          | `# power`            |                |
+| Absolute value    | `abs(x)`              | Absolute value                | Distance / difference       | `# absolute value`   |                |
+| Minimum           | `min(a,b)`            | Smaller value                 | Greedy / comparison         | `# choose smaller`   |                |
+| Maximum           | `max(a,b)`            | Larger value                  | Greedy / comparison         | `# choose larger`    |                |
+| Equality          | `a == b`              | Check equality                | Condition checks            | `# equal`            |                |
+| Inequality        | `a != b`              | Check inequality              | Condition checks            | `# not equal`        |                |
+| Comparison        | `<, >, <=, >=`        | Value comparison              | Sorting / conditions        | `# compare values`   |                |
+| Logical AND       | `a and b`             | Both true                     | Multi-condition check       | `# logical and`      |                |
+| Logical OR        | `a or b`              | At least one true             | Multi-condition check       | `# logical or`       |                |
+| Logical NOT       | `not a`               | Negation                      | Condition inversion         | `# logical not`      |                |
+| Membership        | `x in s`              | Element exists                | Set / list lookup           | `# membership test`  |                |
+| Assignment        | `x = v`               | Assign value                  | Variable update             | `# assignment`       |                |
+| Increment         | `x += 1`              | Add and assign                | Counters                    | `# increment`        |                |
+| Range loop        | `for i in range(n)`   | Iterate n times               | Linear traversal            | `# iterate indices`  |                |
+| Length            | `len(arr)`            | Number of elements            | Loop bounds                 | `# array length`     |                |
+| Index access      | `arr[i]`              | Access element by index       | Array operations            | `# element access`   |                |
+| Slicing           | `arr[a:b]`            | Subarray extraction           | Substring / subarray        | `# slice`            |                |
+| Set insert        | `s.add(x)`            | Add element                   | Visited set                 | `# insert into set`  |                |
+| Set remove        | `s.remove(x)`         | Remove element                | Backtracking                | `# remove element`   |                |
+| Dict lookup       | `dict[key]`           | Access value                  | Hash map                    | `# lookup value`     |                |
+| Dict default      | `dict.get(k,0)`       | Safe lookup                   | Frequency count             | `# default lookup`   |                |
+| Heap push         | `heapq.heappush(h,x)` | Insert in heap                | Priority queue              | `# push heap`        |                |
+| Heap pop          | `heapq.heappop(h)`    | Remove smallest               | Dijkstra / top-k            | `# pop heap`         |                |
+| Queue push        | `q.append(x)`         | Add element                   | BFS queue                   | `# enqueue`          |                |
+| Queue pop         | `q.popleft()`         | Remove front                  | BFS traversal               | `# dequeue`          |                |
+| Bit AND           | `x & y`               | Bitwise AND                   | Bit tricks                  | `# bitwise and`      |                |
+| Bit OR            | `x                    | y`                            | Bitwise OR                  | Bit operations       | `# bitwise or` |
+| Bit XOR           | `x ^ y`               | Bitwise XOR                   | Unique element problems     | `# bitwise xor`      |                |
+| Left shift        | `x << k`              | Multiply by `2^k`             | Bitmask / powers            | `# shift left`       |                |
+| Right shift       | `x >> k`              | Divide by `2^k`               | Bit operations              | `# shift right`      |                |
+| Power of two test | `x & (x-1) == 0`      | Check power of two            | Bit trick                   | `# power of two`     |                |
+| Binary search mid | `mid = (l+r)//2`      | Compute midpoint              | Binary search               | `# midpoint`         |                |
+
+
 
 
 <br>
