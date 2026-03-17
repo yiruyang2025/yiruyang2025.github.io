@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D Benchmark
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment, Tensor3D
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - SSL
-- 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Diffusion, Flow-matching`, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [Notes](https://yiruyang2025.github.io/projects/5_project/)
+- 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Diffusion, Robotics`, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [Notes](https://yiruyang2025.github.io/projects/5_project/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, [ex vivo](https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1.full), Accelerate 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation
 
