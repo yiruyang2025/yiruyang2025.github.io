@@ -13,7 +13,7 @@ related_publications: true
 ## Background Readings
 
 
-- [2026 - Try with some Endangered Language](https://x.com/osanseviero/status/2032452729059045881?s=20/)
+- [2026 - Try with some 📍 Endangered Languages](https://x.com/osanseviero/status/2032452729059045881?s=20/)
 
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
