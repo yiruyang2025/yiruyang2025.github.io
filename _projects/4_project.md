@@ -34,6 +34,17 @@ Small / Limited Supervision ──── Tabular / Medical Data
 <br>
 
 
+## Demo samples from my prof.'s linkedin
+
+- [Epochs](https://www.linkedin.com/posts/lou-kohler-voinov-9956a5236_ever-wondered-what-happens-to-an-rnn-during-ugcPost-7440301117588180993-uiPt?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link/)
+- 
+
+
+
+
+<br>
+
+
 ## The 'Right Abstraction' for A System
 
 ```
