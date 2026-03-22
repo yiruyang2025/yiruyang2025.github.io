@@ -27,6 +27,7 @@ images:
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
   - Rust everything - [blogs - Zurich](https://sakex.github.io/ml-perf/array_programming/intro.html)
   - time zone - (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+  - rules - can't see some reason why people always have so many dumb "rules"
 
 <br>
 
@@ -98,6 +99,7 @@ images:
 
 **♨️ Zurich**
 
+- [🧊 Daily News](https://news.ycombinator.com/)
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
 - [Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
 
