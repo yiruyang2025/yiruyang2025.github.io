@@ -12,6 +12,8 @@ related_publications: true
 
 ## Readings
 
+
+- [📍 Demos](https://www.linkedin.com/posts/lou-kohler-voinov-9956a5236_ever-wondered-what-happens-to-an-rnn-during-ugcPost-7440301117588180993-uiPt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 - [📍 2019 - Point-Voxel CNN for Efficient 3D Deep Learning](https://proceedings.neurips.cc/paper/2019/hash/5737034557ef5b8c02c0e46513b98f90-Abstract.html), NIPS
 - [2020 - Searching efficient 3d architectures with sparse point-voxel convolution](https://arxiv.org/pdf/2007.16100)
 - [2026 - nvidia/NV-Generate-MR-Brain](https://huggingface.co/nvidia/NV-Generate-MR-Brain)
