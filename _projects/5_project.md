@@ -31,7 +31,7 @@ related_publications: true
 
 ## Cute Products
 
-
+- [Nvidia GEAR](https://research.nvidia.com/labs/gear/#open-positions)
 - [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), home, level-5
 - [Rovex Technologies](https://www.linkedin.com/company/gorovex/), hospital
 - [Flow](https://flow-project.github.io/), city navigation
