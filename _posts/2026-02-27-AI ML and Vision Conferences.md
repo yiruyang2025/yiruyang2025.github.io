@@ -317,7 +317,9 @@ Complexity analysis
 
 
 
+## Journal of Machine Learning Research (JMLR)
 
+- [📍 2021 - Sparsity in Deep Learning: Pruning and Growth for Efficient Inference and Training in Neural Networks](https://www.jmlr.org/papers/volume22/21-0366/21-0366.pdf/)
 
 
 
