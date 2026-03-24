@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Robotics Demo - Space Navigation
+title: Robotics Demo - Navigation
 date: 2026-03-01
 description: ⛺️
 categories: Research
