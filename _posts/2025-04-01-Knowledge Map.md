@@ -88,6 +88,7 @@ images:
 **Readings**
 
 - [⛱️ Daily Finance Markets, Luca Lacharlotte]
+- [Levels.fyi](https://www.linkedin.com/in/hakeemshibly/)
 - [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
 - [Armadillo]
