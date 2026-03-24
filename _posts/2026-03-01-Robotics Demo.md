@@ -25,7 +25,7 @@ images:
 
 ## Space Navigation
 
-- [📍 Newton_physics](https://github.com/yiruyang2025/Newton_physics)
+- [Newton_physics](https://github.com/yiruyang2025/Newton_physics)
 
 
 
@@ -37,7 +37,7 @@ images:
 
 ## Tool Kits
 
-- [📍 EnvPool](https://envpool.readthedocs.io/en/latest/)
+- [EnvPool](https://envpool.readthedocs.io/en/latest/)
 
 
 
