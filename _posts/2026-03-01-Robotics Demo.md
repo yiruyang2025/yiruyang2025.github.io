@@ -17,7 +17,7 @@ images:
 ## On Earch
 
 
-- []
+- [Kinematics, Locomotion, Trajectory Optimization, and Deep RL]
 
 
 <br><br><br><br><br><br><br><br><br>
