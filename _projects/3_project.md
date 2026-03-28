@@ -13,7 +13,8 @@ related_publications: true
 Real-time is the only time. The rest is just latency.  --- `Hash Firm Zurich`
 - If the hardware provides good enough memory bandwidth, then **indexing** becomes a more efficient / certain art than **computing**. Prompt some certain Numbers of different size for buildings + avoid lakes, etc. <- with `assigning some certain Hash Value for the diversity` if you like, some [Blender Demo](https://drive.google.com/file/d/1yHixdRDu0Iu6Sx7p0kxDcGuDV4XWsMYe/view?usp=sharing) Auto 3D Assets Prompting in Sep 2025.
 - In a non-uniform hash space, the physical distance between sampling points must be taken into account, otherwise the reconstruction will collapse. The drift term of backdiffusion must be scaled according to the **metric tensor** of the manifold.
-  - [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.pdf)
+  - [DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation]
+  - [2025 - Topology-Preserved Auto-regressive Mesh Generation in the Manner of Weaving Silk](https://arxiv.org/pdf/2507.02477)(https://openaccess.thecvf.com/content_CVPR_2019/papers/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.pdf)
 
 ```
 spatial_dist = torch.norm(point_diff, dim=-1, keepdim=True) + 1e-8
