@@ -21,6 +21,7 @@ images:
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, ex-GDM
   - [📍 Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
   - [📍 Pedro Domingos](https://x.com/pmddomingos/status/1978333248888480079?s=20)
+  - [Christian Rupprecht](https://scholar.google.com/citations?hl=en&user=IrYlproAAAAJ&view_op=list_works&citft=1&email_for_op=anny.yiru.yang%40gmail.com&gmla=AEk_c1sXp5E94f42INFA9nJkGDtF_yjtokQ_rSHDI6pzJ2Khd0hk6EpcF3GeKjHcIPiFxuBFbH0bASoI69j7lF9oOJNqvCHNK7z9zthMEr7zi4WOMV2Qmo6mGpzcLzu9DbV8hr3eojAiC8ul40jHRQqwExIqnY4BZ-0gHrFGn8vetZpSreb3Y-8D9caMVmNijalecVlXHyjTk4uT_Br6otxuU7MW2TKoLLH7X92XvNoDf7xumYe1)
   - [📍 brown - GalilAI Group](https://galilai-group.github.io/)
   - [Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=de), SSL 2006
   - [Choice Overload – How Having Too Many Options Can Shut Down Your Brain](https://insidebe.com/articles/choice-overload/)
