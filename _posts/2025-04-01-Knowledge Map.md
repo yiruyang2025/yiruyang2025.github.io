@@ -35,7 +35,7 @@ images:
 ## Model Structures
 
   - [Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
-
+  - [CV Basics](https://www.youtube.com/@jbhuang0604)
   
   - [📍 Introduction to Flow Matching and Diffusion Models - MIT 25/26](https://diffusion.csail.mit.edu/2025/index.html)
   - [Flow-matching](https://diffusion.kaist.ac.kr/)
