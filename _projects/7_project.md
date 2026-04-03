@@ -17,6 +17,7 @@ related_publications: true
 - [2015 - SMPL: A Skinned Multi-Person Linear Model](https://dl.acm.org/doi/epdf/10.1145/2816795.2818013)
 - [2012 - Deformable objects alive!](https://dl.acm.org/doi/pdf/10.1145/2185520.2185565)
 - [2020 - Grasping in the Wild: Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations](https://graspinwild.cs.columbia.edu/)
+- [📍 2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
 
 
 <br>
