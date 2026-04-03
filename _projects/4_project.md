@@ -18,6 +18,7 @@ related_publications: true
 - CLIP: Learning Transferable Visual Models From Natural Language Supervision, ICML 2021.
 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, NeurIPS 2012.
 - 📍 ResNet: Deep Residual Learning, CVPR 2015.
+- [2017 - FLAME: Learning a model of facial shape and expression from 4D scans ( + SMPL)](https://is.mpg.de/uploads/publication_attachment/attachment/400/paper.pdf)
 - [2026 - Scaling medical imaging report generation with multimodal reinforcement learning](https://rexrank.ai/)
 
 
