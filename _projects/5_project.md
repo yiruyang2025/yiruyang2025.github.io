@@ -19,17 +19,7 @@ related_publications: true
 
 <br>
 
-## Topics
-
-- 4D Semantic Indoor Map under `LiDAR Free`, from Home Robots, Airlines to All
-- privacy, accuracy, and low-latency, under dark and adverse conditions
-- ID Re-identification
-
-<br>
-
-
-
-## Cute Products
+## Products
 
 - [Nvidia GEAR](https://research.nvidia.com/labs/gear/#open-positions)
 - [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), home, level-5
