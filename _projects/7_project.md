@@ -16,6 +16,7 @@ related_publications: true
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
 - [2015 - SMPL: A Skinned Multi-Person Linear Model](https://dl.acm.org/doi/epdf/10.1145/2816795.2818013)
 - [2012 - Deformable objects alive!](https://dl.acm.org/doi/pdf/10.1145/2185520.2185565)
+- [2020 - Grasping in the Wild: Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations](https://graspinwild.cs.columbia.edu/)
 
 
 <br>
