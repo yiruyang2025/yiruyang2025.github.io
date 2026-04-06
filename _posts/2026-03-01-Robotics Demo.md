@@ -2,8 +2,8 @@
 layout: post
 title: Robotics Demo - Navigation
 date: 2026-03-01
-description: ⛺️
-categories: Research
+description: 🔹
+categories: AI/ML
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
