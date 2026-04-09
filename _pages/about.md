@@ -32,7 +32,7 @@ latest_posts:
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `Logit Distillation` / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `Logit Distillation` in Riemann Space / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment, Tensor3D
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
