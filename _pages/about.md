@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment, Tensor3D
 - 📍 [Project](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
-- 📍 [Master Thesis & Prototype](https://www.linkedin.com/company/zurichai/posts/?feedView=all) - `Security, Robotics`, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [Notes](https://yiruyang2025.github.io/projects/5_project/)
+- 📍 [Master Thesis & Prototype](https://yiruyang2025.github.io/projects/5_project/) - `Security, Robotics`, [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/), [Zurich AI](https://www.linkedin.com/company/zurichai/posts/?feedView=all)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Topology, Accelerate 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation
 
