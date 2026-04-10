@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Motion & Gesture Backbone
+title: 2026 - Thesis - Robotics
 description: Deep RL Deployment with Agentic Evaluation
 img: assets/img/4.jpg
 importance: 7
