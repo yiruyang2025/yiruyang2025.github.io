@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2025 - Thesis - Prototype
-description: Hash Diffusion, Sewing Patterns
+title: 2025 - Thesis - Shape Modeling
+description: Hash Flow Matching, Sewing Patterns
 img: assets/img/4.jpg
 importance: 3
 category: work
