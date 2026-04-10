@@ -21,9 +21,8 @@
 
 ## Change the Links
 
+**URL** - _data/socials.yml
 **cover Page** - _data/socials.yml
-
-
 **icon logo** -_includes/head.html
 
 **Assets**
