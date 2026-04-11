@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - (Cross-Modal) Knowledge Distillation
+title: 2025 - Thesis - (Cross-Modal) Logit Distillation
 description: Latent Geometry
 img: assets/img/4.jpg
 importance: 1
