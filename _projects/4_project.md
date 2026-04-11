@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Clinic Research Poster - SSL
+title: 2026 - Thesis & Poster - SSL
 description: Vision Patent, USZ
 img: assets/img/4.jpg
 importance: 4
