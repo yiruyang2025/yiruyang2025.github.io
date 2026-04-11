@@ -18,6 +18,7 @@ related_publications: true
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
+- [2014 - Optimization Techniques on Riemannian Manifolds]
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 - [2017 - NIPS](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 - [2023 - Distil-Whisper](https://arxiv.org/pdf/2311.00430)
