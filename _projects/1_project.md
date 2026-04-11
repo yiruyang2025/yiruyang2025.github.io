@@ -39,6 +39,27 @@ config.json  # Defines architecture
 tokenizer.json  # Defines text ↔ token mapping
 vocab.json  # BPE tokenizer rules
 merges.txt  # BPE tokenizer rules
+preprocessor_config.json  # resample - 16kHz, normalization, log-mel spectrogram, padding / truncation
+```
+
+
+✔ feature extraction
+✔ tokenization
+✔ padding
+
+```
+processor = WhisperProcessor.from_pretrained(...)
+```
+
+
+```
+raw audio (.wav)
+   ↓
+FeatureExtractor (preprocessor)
+   ↓
+log-mel spectrogram (80 × T)
+   ↓
+Whisper Encoder
 ```
 
 
