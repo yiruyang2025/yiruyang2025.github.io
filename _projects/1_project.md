@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - (Cross-Modal) Knowledge Distillation
-description: Logit Training, Latent Space
+description: Latent Geometry
 img: assets/img/4.jpg
 importance: 1
 category: work
@@ -13,7 +13,7 @@ related_publications: true
 ## Background Readings
 
 
-- [2026 - Try with some 📍 Endangered Languages](https://x.com/osanseviero/status/2032452729059045881?s=20/)
+- [2026 - Try with some Endangered Languages](https://x.com/osanseviero/status/2032452729059045881?s=20/)
 
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
@@ -23,18 +23,8 @@ related_publications: true
 - [2017 - NIPS](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 - [2023 - Distil-Whisper](https://arxiv.org/pdf/2311.00430)
 - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
-- [2026 - GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:RXiHnyRawswC)
-
-<br>
-
-```
-sed -i "s|default='/cluster/home/yiryang/outputs'|default=os.path.expanduser(\"~/outputs\")|" train_vision.py
-grep -n output_dir train_vision.py
-python -m py_compile train_vision.py
-
-tmux new -s h200_monitor
-tmux a -t h200_monitor
-```
+- [2024 - nGPT](https://github.com/NVIDIA/ngpt)
+- [2026 - GeoPT](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&sortby=pubdate&citation_for_view=DhtAFkwAAAAJ:RXiHnyRawswC)
 
 
 <br>
