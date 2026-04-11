@@ -121,7 +121,7 @@ images:
 
 [3D Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/) (C++ / Rust, Deep RL, Robotics, 26)
 
 Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
 
