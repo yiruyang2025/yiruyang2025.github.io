@@ -29,6 +29,21 @@ related_publications: true
 
 <br>
 
+## 📍 Engineering
+
+When performing knowledge distillation with Whisper, you only need:
+
+```
+model.safetensors # Contains all model weights
+config.json  # Defines architecture
+tokenizer.json  # Defines text ↔ token mapping
+vocab.json  # BPE tokenizer rules
+merges.txt  # BPE tokenizer rules
+```
+
+
+<br>
+
 ## Loss Functions
 
 The pseudo-label loss is defined as:
