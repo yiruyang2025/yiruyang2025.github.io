@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Flow Matching, Robotics, Security
+title: 2026 - Master Thesis - Robotics, Security
 description: ETH AI Center, UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
