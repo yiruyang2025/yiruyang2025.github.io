@@ -123,9 +123,11 @@ images:
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-25/) (C++ / Rust, Deep RL, Robotics, 26)
 
-Computer Vision for Automated Driving / Future Mobility (PRS, 26)
+Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
 
-4D Computer Vision (C++, (Dynamic) SLAM, 26)
+3D Computer Vision (C++, (Dynamic) SLAM, 26)
+
+Computer Vision for Automated Driving / Future Mobility (PRS, 26)
 
 Visual Computing
 
@@ -134,8 +136,6 @@ Visual Computing
 Doctoral Seminar in Visual Computing
 
 (Vision Algorithms for Mobile Robotics (L+E))
-
-Mixed Reality (C++, Blender, SUMO, Unreal, 25)
 
 Graph Theory
 
