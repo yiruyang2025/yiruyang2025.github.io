@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Improving Logit Distillation
-description: Latent Geometry, ASR, VLM, LLM
+description: Latent Geometry
 img: assets/img/4.jpg
 importance: 1
 category: work
