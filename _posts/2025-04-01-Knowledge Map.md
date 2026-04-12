@@ -41,6 +41,7 @@ images:
   
   - [📍 Introduction to Flow Matching and Diffusion Models - MIT 25/26](https://diffusion.csail.mit.edu/2025/index.html)
   - [Flow-matching](https://diffusion.kaist.ac.kr/)
+  - [📍 Imitation Learning - 2018 ICML tutorial](https://www.youtube.com/watch?v=6rZTaboSY4k)
   - [2025 - Advances in Computer Vision](https://scenerepresentations.org/courses/2025/spring/advances-in-cv/#syllabus)
   - [2026 - Implement your AI Model Experiments](https://blog.ezyang.com/)
   - [2026 - Ice Maze RL Basis](https://www.linkedin.com/posts/ravinakumar_ice-maze-rl-basics-activity-7415813269673750529-RwI0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
