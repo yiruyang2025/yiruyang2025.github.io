@@ -15,6 +15,7 @@ related_publications: true
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
 - [2026 - VGGT-SLAM 2.0: Real-time Dense Feed-forward Scene Reconstruction](https://www.youtube.com/watch?v=GBdOvd6p4OU)
 - [2026 - Reward-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2603.05066)
+- [📍 2017 - One-Shot Imitation Learning](https://proceedings.neurips.cc/paper/2017/hash/ba3866600c3540f67c1e9575e213be0a-Abstract.html)
 
 
 
