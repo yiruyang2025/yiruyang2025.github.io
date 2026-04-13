@@ -35,7 +35,7 @@ Learning, RL
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `Logit Distillation` in Riemann Space / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Digital Garment
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Refinement Digital Garment
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Security, Robotics`, [Zürich AI](https://www.linkedin.com/company/zurichai/posts/?feedView=all), [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain-Mapping
