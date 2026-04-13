@@ -100,6 +100,7 @@ images:
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
 - [Armadillo]
 - [PRS](https://science.nasa.gov/specials/your-name-in-landsat/)
+- [2018 - Decoupled Networks](https://www.youtube.com/watch?v=ZnYb0UBIPj0)
 
 
 <br>
