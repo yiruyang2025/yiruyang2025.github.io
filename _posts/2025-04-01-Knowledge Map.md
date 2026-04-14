@@ -129,6 +129,8 @@ images:
 
 Introduction to Machine Learning, 26
 
+Probabilistic Artificial Intelligence, 26
+
 Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
 
 3D Computer Vision (C++, (Dynamic) SLAM, 26)
