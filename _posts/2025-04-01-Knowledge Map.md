@@ -127,6 +127,8 @@ images:
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/) (C++ / Rust, Deep RL, Robotics, 26)
 
+Introduction to Machine Learning, 26
+
 Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
 
 3D Computer Vision (C++, (Dynamic) SLAM, 26)
