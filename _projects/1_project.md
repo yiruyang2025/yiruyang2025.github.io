@@ -29,6 +29,15 @@ related_publications: true
 
 <br>
 
+## TL;DR
+
+```
+It is not about "replacing" logit distillation, but about upgrading logit distillation from point matching in Euclidean space to a constrained optimization problem with inherent geometry.
+```
+
+
+<br>
+
 ## 📍 Engineering
 
 When performing knowledge distillation with Whisper, you only need:
