@@ -141,9 +141,9 @@ Visual Computing
 
 (Physically Based Simulation)
 
-Doctoral Seminar in Visual Computing
-
 (Vision Algorithms for Mobile Robotics (L+E))
+
+Doctoral Seminar in Visual Computing
 
 Graph Theory
 
