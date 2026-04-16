@@ -35,6 +35,17 @@ images:
 
 <br>
 
+
+## Robotics
+
+- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
+- [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)
+
+
+
+
+<br>
+
 ## Model Structures
 
   - [Model Structures - 25](https://yiruyang2025.github.io/blog/2025/Model-Structures-25/)
