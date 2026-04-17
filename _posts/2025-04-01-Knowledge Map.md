@@ -138,7 +138,7 @@ images:
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/) (C++ / Rust, Deep RL, Robotics, 26)
 
-Introduction to Machine Learning, 26
+[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
 
 Probabilistic Artificial Intelligence, 26
 
