@@ -51,7 +51,7 @@ The essence of LiDAR-free technology can be summarized as: transforming sparse m
 
 - [2026 - High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
 - [2025 - Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](https://arxiv.org/pdf/2504.08727)
-- [2026 - SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios](https://steervla.github.io/)
+- [📍 2026 - SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios](https://steervla.github.io/)
 
 
 <br>
