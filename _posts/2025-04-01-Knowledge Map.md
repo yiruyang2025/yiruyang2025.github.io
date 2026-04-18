@@ -40,6 +40,7 @@ images:
 
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)
+- [Marco Hutter](https://www.youtube.com/watch?v=Wmn7uPLFXm8)
 
 
 
