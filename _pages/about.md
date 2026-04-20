@@ -49,7 +49,6 @@ latest_posts:
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich](https://www.linkedin.com/posts/pikinder_veo-3-the-swiss-way-httpslnkdinekuwmgmh-activity-7330711128014032897-oJPf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), Visual Intelligence
   - [Charming Things](https://www.linkedin.com/posts/maticrobots_wired-1010-the-verge-the-best-robot-activity-7401387277610131457-BH40?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20)
   - `Takeaways` - the world is learnable (scaling law), not flat (non-Euclidean), and continuous (flow-based dynamics / normalizing flows)
-  - [Rylan Schaeffer](https://arxiv.org/abs/2309.08632)
 
 
 <div style="height: 4rem;"></div>
