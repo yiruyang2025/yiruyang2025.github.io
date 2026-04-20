@@ -100,6 +100,7 @@ images:
 - [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
 - [2026 - SLAM Handbook](http://asrl.utias.utoronto.ca/~tdb/slam/), chapter 17, 18
 - [2016 - Dynamic SLAM](https://www.youtube.com/watch?v=GByPKZDnG3Y)
+- [2026 - Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025)
 
 
 <br><br><br>
