@@ -46,7 +46,7 @@ latest_posts:
 
 **Interests**
   - [Space](https://www.linkedin.com/posts/davidescaramuzza_inivation-synsense-khalifauniversity-ugcPost-7427307092258107392-9ytF/?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Challenges](https://x.com/pmddomingos/status/1978333248888480079?s=20), Backbones, Perception, Task Definitions
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich - The Era of Experience(Physical AI)](https://x.com/GoogleDeepMind/status/1910363683215008227?s=20), Visual Intelligence
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich - The Era of Experience / Verification](https://x.com/GoogleDeepMind/status/1910363683215008227?s=20), Visual Intelligence
   - [Charming Things](https://www.linkedin.com/posts/maticrobots_wired-1010-the-verge-the-best-robot-activity-7401387277610131457-BH40?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20)
   - `Takeaways` - the world is learnable (scaling law), not flat (non-Euclidean), and continuous (flow-based dynamics / normalizing flows)
 
