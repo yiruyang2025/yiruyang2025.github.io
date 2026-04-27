@@ -78,21 +78,26 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  // 
-  --global-bg-color: #1a1a1a; 
+
+  /* Deep Sky-Tinted Charcoal Background */
+  --global-bg-color: #7b91b5; 
+  
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #f5f5f5; 
-  --global-text-color-light: #bcbcbc; 
+  --global-text-color: #f8f9fa; 
+  --global-text-color-light: #d1d5db; 
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #212121;
+  --global-footer-bg-color: #111418;
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  // 
-  --global-card-bg-color: #252525; 
+  --global-divider-color: #374151;
+  
+  /* Card Elevation: Using a darker version of your picked #828d9e */
+  /* This creates a seamless, cool-toned container effect */
+  --global-card-bg-color: #2a2f37; 
+  
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
@@ -100,8 +105,10 @@ html[data-theme="dark"] {
     0.5
   );
   --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #2c2c2c;
-  --global-newsletter-text-color: #efefef;
+  
+  /* Newsletter background using your specific sky-tinted palette */
+  --global-newsletter-bg-color: #333a45;
+  --global-newsletter-text-color: #f8f9fa;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #1a2e25;
