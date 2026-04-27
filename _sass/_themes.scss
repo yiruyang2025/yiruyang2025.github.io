@@ -79,60 +79,46 @@
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  /* Deep Sky-Tinted Charcoal Background */
   --global-bg-color: #50738c; 
   
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #f8f9fa; 
-  --global-text-color-light: #d1d5db; 
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #111418;
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #374151;
-  
-  /* Card Elevation: Using a darker version of your picked #828d9e */
-  /* This creates a seamless, cool-toned container effect */
+  --global-code-bg-color: rgba(0, 0, 0, 0.2);
+  --global-text-color: #ffffff;          
+  --global-text-color-light: #d1d9e0;    
+  --global-theme-color: #81e6d9;        
+  --global-hover-color: #81e6d9;
+  --global-hover-text-color: #1a202c;
+  --global-footer-bg-color: #3d5266;
+  --global-footer-text-color: #cbd5e0;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #cbd5e0;
+  --global-divider-color: rgba(255, 255, 255, 0.15);
+
   --global-card-bg-color: #2a2f37; 
   
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
+  --global-card-shadow: 0 4px 12px rgba(30, 41, 51, 0.4); 
+  
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.3);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #3d5266;
+  --global-newsletter-text-color: #ffffff;
 
-  /* Newsletter background: Slightly deeper navy-slate to anchor the bottom */
-  --global-newsletter-bg-color: #2c3e50;
-  --global-newsletter-text-color: #f8f9fa;
-
-  /* Elegant Logic: Using Alpha (rgba) for blocks makes them feel "glassy" and integrated */
   --global-tip-block: #4fd1c5;
-  --global-tip-block-bg: rgba(79, 209, 197, 0.15); /* Glass-like teal */
+  --global-tip-block-bg: rgba(79, 209, 197, 0.15);
   --global-tip-block-text: #e6fffa;
   --global-tip-block-title: #4fd1c5;
 
   --global-warning-block: #f6ad55;
-  --global-warning-block-bg: rgba(246, 173, 85, 0.15); /* Glass-like amber */
+  --global-warning-block-bg: rgba(246, 173, 85, 0.15);
   --global-warning-block-text: #fffaf0;
   --global-warning-block-title: #f6ad55;
 
   --global-danger-block: #fc8181;
-  --global-danger-block-bg: rgba(252, 129, 129, 0.15); /* Glass-like coral */
+  --global-danger-block-bg: rgba(252, 129, 129, 0.15);
   --global-danger-block-text: #fff5f5;
   --global-danger-block-title: #fc8181;
 
-  .only-light {
-    display: none;
-  }
-
-  .only-dark {
-    display: block;
-  }
+  .only-light { display: none; }
+  .only-dark { display: block; }
 }
 
 html[data-theme-setting="dark"] {
