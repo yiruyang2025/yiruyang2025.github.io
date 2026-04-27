@@ -38,6 +38,8 @@
 
 ## Fonts
 
+assets/css/main.scss
+
 _sass/_variables.scss
 
 _sass/_themes.scss
