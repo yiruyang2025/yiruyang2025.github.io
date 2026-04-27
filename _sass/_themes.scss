@@ -105,23 +105,26 @@ html[data-theme="dark"] {
     0.5
   );
   --global-back-to-top-text-color: #{$black-color};
-  
-  /* Newsletter background using your specific sky-tinted palette */
-  --global-newsletter-bg-color: #333a45;
+
+  /* Newsletter background: Slightly deeper navy-slate to anchor the bottom */
+  --global-newsletter-bg-color: #2c3e50;
   --global-newsletter-text-color: #f8f9fa;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #1a2e25;
-  --global-tip-block-text: #e2f5ec;
-  --global-tip-block-title: #42b983;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #2d2a1a;
-  --global-warning-block-text: #fff8d8;
-  --global-warning-block-title: #e7c000;
-  --global-danger-block: #ff4d4d;
-  --global-danger-block-bg: #2d1a1a;
-  --global-danger-block-text: #ffe0e0;
-  --global-danger-block-title: #ff4d4d;
+  /* Elegant Logic: Using Alpha (rgba) for blocks makes them feel "glassy" and integrated */
+  --global-tip-block: #4fd1c5;
+  --global-tip-block-bg: rgba(79, 209, 197, 0.15); /* Glass-like teal */
+  --global-tip-block-text: #e6fffa;
+  --global-tip-block-title: #4fd1c5;
+
+  --global-warning-block: #f6ad55;
+  --global-warning-block-bg: rgba(246, 173, 85, 0.15); /* Glass-like amber */
+  --global-warning-block-text: #fffaf0;
+  --global-warning-block-title: #f6ad55;
+
+  --global-danger-block: #fc8181;
+  --global-danger-block-bg: rgba(252, 129, 129, 0.15); /* Glass-like coral */
+  --global-danger-block-text: #fff5f5;
+  --global-danger-block-title: #fc8181;
 
   .only-light {
     display: none;
