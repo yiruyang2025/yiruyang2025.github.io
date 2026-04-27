@@ -24,16 +24,27 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* === Global text/link colors === */
+/* === Global text/link colors - Corrected for Dark Mode === */
 :root,
-html[data-theme='light'],
+html[data-theme='light'] {
+  --global-text-color: #222;            /* Body text for light mode */
+  --global-link-color: #1a73e8;         /* Google blue */
+  --global-link-hover-color: #1558b0;
+  --soft-link-color: #4a90e2;
+  --abbr-badge-bg: #1a73e8;
+  --abbr-badge-bg-hover: #1558b0;
+  --post-title-color: #222;
+}
+
+/* 修复关键：单独定义深色模式下的变量 */
 html[data-theme='dark'] {
-  --global-text-color: #222;            /* Body text: dark gray close to black */
-  --global-link-color: #1a73e8;         /* Google blue for links */
-  --global-link-hover-color: #1558b0;   /* Darker Google blue on hover */
-  --soft-link-color: #4a90e2;           /* Softer natural blue for blog meta */
-  --abbr-badge-bg: #1a73e8;             /* Google blue for <abbr> badge */
-  --abbr-badge-bg-hover: #1558b0;       /* Darker Google blue for badge hover */
+  --global-text-color: #efefef;         /* Light text for dark mode */
+  --global-link-color: #8ab4f8;         /* Brighter blue for dark mode links */
+  --global-link-hover-color: #aecbfa;
+  --soft-link-color: #64b5f6;
+  --abbr-badge-bg: #8ab4f8;
+  --abbr-badge-bg-hover: #aecbfa;
+  --post-title-color: #ffffff;
 }
 
 body {
@@ -83,7 +94,7 @@ h1:has(+ .posts-list),
 .posts-list h2.post-title a,
 .posts-list h2 a,
 .posts-list .entry-title a {
-  color: #222 !important;
+  color: var(--post-title-color) !important; /* 使用变量而非硬编码 #222 */
   text-decoration: none !important;
 }
 
@@ -91,7 +102,7 @@ h1:has(+ .posts-list),
 .posts-list h2.post-title a:hover,
 .posts-list h2 a:hover,
 .posts-list .entry-title a:hover {
-  color: #000 !important;
+  color: var(--global-link-hover-color) !important;
 }
 
 /* ===== Selected publications abbr badge ===== */
