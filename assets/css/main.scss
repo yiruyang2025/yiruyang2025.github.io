@@ -94,7 +94,7 @@ h1:has(+ .posts-list),
 .posts-list h2.post-title a,
 .posts-list h2 a,
 .posts-list .entry-title a {
-  color: var(--post-title-color) !important; /* 使用变量而非硬编码 #222 */
+  color: var(--post-title-color) !important; /* */
   text-decoration: none !important;
 }
 
