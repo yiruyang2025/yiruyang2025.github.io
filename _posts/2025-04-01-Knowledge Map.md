@@ -86,6 +86,7 @@ images:
 - (Jurgen Schmidhuber)
 - (Lawrence Jackel)
 - ([NAVER LABS Europe](https://x.com/fabienbaradel?s=20))
+- [📍 Probabilistic ML - Amirabbas Asadi](https://www.linkedin.com/posts/amirabbas-asadi_unfortunately-we-have-no-single-generalization-share-7425871317083582464-nn-8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 
 
 
