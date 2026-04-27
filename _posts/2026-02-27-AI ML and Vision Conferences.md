@@ -332,7 +332,17 @@ Complexity analysis
 <br><br><br><br><br><br><br><br><br>
 
 
-## BMVC
+## Millennium Prize Problems
+
+
+| **Problem Name**                               | **Field**                  | **Core Nature**                  | **Fundamental Question**                                                              |
+| ---------------------------------------------- | -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
+| **Riemann Hypothesis**                         | Number Theory              | Structure of prime numbers       | Do prime numbers follow a hidden regularity? (Primes as the “atoms” of mathematics)   |
+| **P vs NP Problem**                            | Computer Science / Logic   | Complexity of computation        | If verifying a solution is easy, is finding it also easy?                             |
+| **Navier–Stokes Existence and Smoothness**     | Fluid Dynamics             | Behavior of turbulence           | Do solutions to fluid equations always remain smooth, or can singularities form?      |
+| **Yang–Mills Existence and Mass Gap**          | Quantum Physics / Geometry | Origin of mass in quantum fields | Why do elementary particles have mass, and how can this be rigorously explained?      |
+| **Hodge Conjecture**                           | Algebraic Geometry         | Structure of geometric spaces    | Can complex geometric objects be decomposed into simpler algebraic components?        |
+| **Birch and Swinnerton-Dyer (BSD) Conjecture** | Algebraic Number Theory    | Arithmetic of elliptic curves    | Is there a deep connection between rational points and special values of L-functions? |
 
 
 
