@@ -79,12 +79,13 @@
 html[data-theme="dark"] {
   color-scheme: dark;
 
+  /* Background: Elegant Slate Blue */
   --global-bg-color: #50738c; 
   
   --global-code-bg-color: rgba(0, 0, 0, 0.2);
-  --global-text-color: #ffffff;          
-  --global-text-color-light: #d1d9e0;    
-  --global-theme-color: #81e6d9;        
+  --global-text-color: #ffffff;           
+  --global-text-color-light: #d1d9e0;     
+  --global-theme-color: #81e6d9;          
   --global-hover-color: #81e6d9;
   --global-hover-text-color: #1a202c;
   --global-footer-bg-color: #3d5266;
@@ -93,15 +94,18 @@ html[data-theme="dark"] {
   --global-distill-app-color: #cbd5e0;
   --global-divider-color: rgba(255, 255, 255, 0.15);
 
-  --global-card-bg-color: #2a2f37; 
+  /* Card: Specific deep slate requested for better contrast */
+  --global-card-bg-color: #384c5f; 
   
-  --global-card-shadow: 0 4px 12px rgba(30, 41, 51, 0.4); 
+  /* Shadow: Slightly deepened to #000 at 0.5 opacity for stronger emphasis */
+  --global-card-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); 
   
   --global-back-to-top-bg-color: rgba(255, 255, 255, 0.3);
   --global-back-to-top-text-color: #ffffff;
   --global-newsletter-bg-color: #3d5266;
   --global-newsletter-text-color: #ffffff;
 
+  /* Glassmorphism blocks with optimized opacity */
   --global-tip-block: #4fd1c5;
   --global-tip-block-bg: rgba(79, 209, 197, 0.15);
   --global-tip-block-text: #e6fffa;
