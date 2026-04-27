@@ -36,7 +36,7 @@ html[data-theme='light'] {
   --post-title-color: #222;
 }
 
-/* 修复关键：单独定义深色模式下的变量 */
+/* dark mode */
 html[data-theme='dark'] {
   --global-text-color: #efefef;         /* Light text for dark mode */
   --global-link-color: #8ab4f8;         /* Brighter blue for dark mode links */
