@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Flow Matching
+title: 2025 - Thesis - Diffusion
 description: Hash, Sewing Patterns
 img: assets/img/4.jpg
 importance: 3
