@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Robotics, Security
+title: 2026 - Master Thesis - Algorithm Compression
 description: ETH AI Center, UZH AI, PRS
 img: assets/img/4.jpg
 importance: 5
