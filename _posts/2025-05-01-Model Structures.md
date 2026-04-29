@@ -14,17 +14,9 @@ images:
 
 <br>
 
-  - Let's take a look at the history of the Model Structures we're using today.
-
-## Evolution of 3D Scene Representations
-
-| **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
-| -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **1980–2010s** | SfM / MVS / Mesh                 | Explicit point clouds or polygonal meshes                                                            | Accurate but discrete; cannot represent complex appearance or soft surfaces                                                           |
-| **1990–2010s** | IBR / Light Field                | Sampled light rays or image interpolation                                                            | Highly photorealistic but lacks true 3D geometry; strong view dependence                                                              |
-| **2015–2019**  | Deep Implicit Fields             | Implicit functions (Occupancy / Signed Distance Field)                                               | Continuous and smooth geometry; no explicit color or reflectance modeling                                                             |
-| **2020–2022**  | **NeRF family**                  | Neural radiance fields (density + color)                                                             | Unified geometry and appearance; high fidelity but slow to train and render                                                           |
-| **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
+```
+Let's take a look at the history of the Model Structures we're using today.
+```
 
 <br>
 
@@ -127,9 +119,7 @@ Zero-Shot   = Tourist with a guidebook (instantly spot city hall & cathedral)
 - Quantization / Adapter Guided - LoRA + QLoRA
 
 
-<br>
-
-  - These deep models are capable of **Learning Hierarchical Features**, where each layer captures increasingly abstract representations of the data.
+  - These deep models are capable of `Learning Hierarchical Features`, where each layer captures increasingly abstract representations of the data.
 
 <br>
 
@@ -318,6 +308,20 @@ $$
 | **RBF / Gaussian Kernel**          | $K(x, y) = \exp\!\big(-\|x - y\|^{2} / (2\sigma^{2})\big)$ | Infinite-dimensional mapping; most commonly used  |
 | **Sigmoid Kernel**                 | $K(x, y) = \tanh(\alpha\, x^{T}y + c)$                   | Similar to a neural-network activation function   |
 | **Laplacian / Exponential Kernel** | $K(x, y) = \exp\!\big(-\|x - y\| / \sigma\big)$          | More sensitive to sparse features                 |
+
+<br>
+
+
+## 7. Evolution of 3D Scene Representations
+
+| **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
+| -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **1980–2010s** | SfM / MVS / Mesh                 | Explicit point clouds or polygonal meshes                                                            | Accurate but discrete; cannot represent complex appearance or soft surfaces                                                           |
+| **1990–2010s** | IBR / Light Field                | Sampled light rays or image interpolation                                                            | Highly photorealistic but lacks true 3D geometry; strong view dependence                                                              |
+| **2015–2019**  | Deep Implicit Fields             | Implicit functions (Occupancy / Signed Distance Field)                                               | Continuous and smooth geometry; no explicit color or reflectance modeling                                                             |
+| **2020–2022**  | **NeRF family**                  | Neural radiance fields (density + color)                                                             | Unified geometry and appearance; high fidelity but slow to train and render                                                           |
+| **2023–Now**   | **3D Gaussian Splatting (3DGS)** | Explicit point-based volumetric primitives (Gaussian ellipsoids with color, opacity, and anisotropy) | Extremely fast rendering and editing; preserves view consistency; but lacks strong geometry regularization and semantic understanding |
+
 
 <br>
 
