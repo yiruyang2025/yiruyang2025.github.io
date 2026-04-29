@@ -91,10 +91,12 @@ images:
 
 <br><br>
 
-## 2026
+## 2025
+
+<br>
 
 ```
-- The Origin of 3D Computer Vision
+The Origin of 3D Computer Vision
 ```
 
 ## Coordinate Systems & Euclidean Transformations
@@ -183,19 +185,5 @@ images:
 
 
 
-## Topics - 2025 to 2026
-
-| **Conference**                                                        | **Primary Academic Focus**                                                                                                                                    |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ICML** (International Conference on Machine Learning)               | Emphasizes **learning theory, algorithms, statistical modeling, and optimization methods**.                                                                   |
-| **NeurIPS** (Conference on Neural Information Processing Systems)     | Focuses on **neural networks, cognitive science, large-scale applications, and interdisciplinary systems research**.                                          |
-| **ICLR** (International Conference on Learning Representations)       | Highlights **deep learning architectures, representation learning, interpretability, and empirical training practices**.                                      |
-| **CVPR** (IEEE Conference on Computer Vision and Pattern Recognition) | Concentrates on **computer vision algorithms, image/video understanding, 3D perception, and applied AI for visual data**.                                     |
-| **ECCV** (European Conference on Computer Vision)                     | Shares the same vision focus as CVPR but emphasizes **methodological novelty, geometry, and European research collaborations**.                               |
-| **ICCV** (International Conference on Computer Vision)                | Serves as the **global flagship vision conference**, covering **fundamental theory, large-scale datasets, and emerging applications in vision and robotics**. |
-
-
-
-<br><br><br>
 
 
