@@ -394,7 +394,25 @@ $$
 | N×M grid fully sorted by row & column                | Monotonic matrix     | Binary search or heap      | Matrix step expansion            | O(K log N) or O(N log W) | K-th smallest in matrix      |
 
 
+<br>
 
+## Layers of Modern Compute Systems
+
+```
+Application defines WHAT
+↓
+OS defines HOW resources are used
+↓
+Compiler defines HOW code becomes instructions
+↓
+Compute units define WHERE execution happens
+↓
+Memory defines WHEN data is available
+↓
+Interconnect defines HOW FAST data moves
+↓
+Logic defines HOW EVERYTHING physically exists
+```
 
 
 <br><br><br><br><br><br>
