@@ -46,9 +46,9 @@ x_username: yranny53
 youtube_id: YiruYang-i4p
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://openreview.net/profile?id=%7EYiru_Yang1
-  logo: https://suno.com/favicon.ico
-  title: Suno
-  url: https://suno.com/@anny_yiru_yang
+  - logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+    title: Custom Social
+    url: https://openreview.net/profile?id=%7EYiru_Yang1
+  - logo: https://suno.com/favicon.ico
+    title: Suno
+    url: https://suno.com/@anny_yiru_yang
