@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diffusion and Flow-matching
+title: Multimodal, Diffusion, Flow-matching
 date: 2026-02-01
 description: 🔹
 categories: AI/ML
