@@ -253,6 +253,7 @@ Complexity analysis
 ## ICLR
 
 - [2025 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think](https://sihyun.me/REPA/), ICLR'25 Oral
+- [2026 - Continuous control with deep reinforcement learning(DDPG)](https://patents.google.com/patent/US20170024643A1/en), Test of Time 2026
 
 <br><br><br><br><br><br><br><br><br><br>
 
