@@ -14,6 +14,17 @@ images:
 
 <br>
 
+
+## Representation Learning for Multimodality
+
+- [2026 - Knowledge is the new representation](https://hwjiang1510.github.io/blogs/knowledge-is-the-new-representation/index.html)
+- [2026 - Convergent Evolution: How Different Language Models Learn Similar 📍 Number Representations](https://arxiv.org/abs/2604.20817)
+
+
+
+
+<br><br><br><br><br>
+
 ## Diffusions
 
 - [📍 2026 - The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning](https://arxiv.org/abs/2602.18428v1)
