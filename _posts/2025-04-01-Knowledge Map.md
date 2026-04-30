@@ -70,6 +70,7 @@ images:
 
 - [Paul Graham](https://x.com/paulg/status/2014044265236562398?s=20), [his website](https://paulgraham.com/goodwriting.html)
 - [Maxx Randolph](https://x.com/marcrandolph/status/2031849554732355644?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+- [UCL x GDM - 2019](https://www.youtube.com/watch?v=iOh7QUZGyiU&list=LL&index=16)
 
 
 - [Prof. Davide Scaramuzza - UZH MS AI - Program Director](https://www.linkedin.com/in/davidescaramuzza/?originalSubdomain=ch)
