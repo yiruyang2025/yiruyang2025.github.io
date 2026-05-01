@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Diffusion
-description: Hash, Sewing Patterns
+description: Hash, Diffusion Less Steps
 img: assets/img/4.jpg
 importance: 3
 category: work
