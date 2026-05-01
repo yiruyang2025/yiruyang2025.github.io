@@ -47,72 +47,36 @@ saliency weights over 3D brain structures to disentangle amyloid-related signals
 ```
 
 
+| **Medical Fact / Aspect**                                                | **Modeling Requirement**                    |
+| ------------------------------------------------------------------------ | ------------------------------------------ |
+| Amyloid deposition is regionally distributed (e.g., cortex, hippocampus) | Must incorporate region-level context      |
+| Dense 2D feature descriptors per pixel                                  | Limited usefulness for 3D brain modeling   |
+| Designed for 2D images                                                  | Not suitable for volumetric data           |
+| Local implicit saliency (pixel-level peaks)                             | Only partially useful                      |
+| No anatomical structure modeling                                        | Not useful for medical interpretation      |
+| Local neighborhood only                                                 | Insufficient for global brain structure    |
+| No region-level context                                                 | Not useful for AD modeling                 |
+| Local feature correspondence                                            | Moderately useful                          |
+| Image matching / retrieval objective                                    | Poor fit for medical regression tasks      |
+| No disentanglement of mixed signals                                     | Not useful                                 |
+| Not scalable to 3D brain volumes                                        | Not usable                                 |
+| Local feature inspiration only                                          | Minor contribution                         |
+| Pixel importance (local saliency)                                       | Weak interpretability                      |
+| 3D voxel-based representation                                           | Highly useful for brain modeling           |
+| Native 3D modeling                                                     | Fully aligned with volumetric data         |
+| Region-aware implicit saliency                                          | Critical for amyloid prediction            |
+| Encodes spatial brain structure                                         | Essential for medical interpretation       |
+| Captures 3D spatial dependencies                                        | Essential                                 |
+| Supports region-level aggregation                                       | Highly useful                              |
+| Voxel-wise mapping function fθ(X)                                       | Core modeling requirement                  |
+| 3D regression / field prediction                                        | Strong fit for ADNI task                   |
+| Implicit signal separation via structure                                | Useful                                     |
+| Efficient volumetric processing                                         | Highly useful                              |
+| Direct voxel-wise amyloid prediction                                    | Major contribution                         |
+| Region-aware voxel importance                                           | Critical for interpretability              |
 
-------------------------------------------------------------------------------------------------------------
-Aspect                        | XX-Net Contribution                         | Usefulness (ADNI task)
-                             |                                             | 
-                             |                                             | Point-Voxel CNN Contribution              | Usefulness (ADNI task)
-------------------------------------------------------------------------------------------------------------
 
-Core Representation           | Dense 2D feature descriptors per pixel      | Limited usefulness
-                             |                                             | 
-                             |                                             | 3D voxel-based representation             | Highly useful
-------------------------------------------------------------------------------------------------------------
 
-Dimensionality Alignment      | Designed for 2D images                      | Not suitable
-                             |                                             | 
-                             |                                             | Native 3D modeling                        | Fully aligned
-------------------------------------------------------------------------------------------------------------
-
-Saliency Modeling             | Local implicit saliency (pixel-level peaks) | Partially useful
-                             |                                             | 
-                             |                                             | Region-aware implicit saliency            | Critical
-------------------------------------------------------------------------------------------------------------
-
-Medical Interpretation        | No anatomical structure modeling            | Not useful
-                             |                                             | 
-                             |                                             | Encodes spatial brain structure           | Essential
-------------------------------------------------------------------------------------------------------------
-
-Cross-Voxel Information       | Local neighborhood only                     | Insufficient
-                             |                                             | 
-                             |                                             | Captures 3D spatial dependencies          | Essential
-------------------------------------------------------------------------------------------------------------
-
-Global / Regional Context     | No region-level context                     | Not useful
-                             |                                             | 
-                             |                                             | Supports region-level aggregation         | Highly useful
-------------------------------------------------------------------------------------------------------------
-
-Feature Mapping               | Local feature correspondence                | Moderately useful
-                             |                                             | 
-                             |                                             | Voxel-wise mapping function fθ(X)         | Core contribution
-------------------------------------------------------------------------------------------------------------
-
-Task Compatibility            | Image matching / retrieval                  | Poor fit
-                             |                                             | 
-                             |                                             | 3D regression / field prediction          | Strong fit
-------------------------------------------------------------------------------------------------------------
-
-Handling Mixed Signals        | No disentanglement                         | Not useful
-                             |                                             | 
-                             |                                             | Implicit signal separation via structure  | Useful
-------------------------------------------------------------------------------------------------------------
-
-Scalability (3D Brain)        | Not scalable                               | Not usable
-                             |                                             | 
-                             |                                             | Efficient volumetric processing           | Highly useful
-------------------------------------------------------------------------------------------------------------
-
-Relevance to Amyloid Mapping  | Local feature inspiration only              | Minor contribution
-                             |                                             | 
-                             |                                             | Direct voxel-wise amyloid prediction      | Major contribution
-------------------------------------------------------------------------------------------------------------
-
-Saliency Interpretation       | Pixel importance (local)                   | Weak
-                             |                                             | 
-                             |                                             | Region-aware voxel importance             | Critical
-------------------------------------------------------------------------------------------------------------
 
 <br>
 
