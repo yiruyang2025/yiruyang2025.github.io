@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Refinement Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Algorithm Compression`, [Zürich AI](https://www.linkedin.com/company/zurichai/posts/?feedView=all), [UZH.ai](https://www.wysszurich.ch/projects/zurich-eye/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain-Mapping, Point-Voxel CNN
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain-Mapping, `Point-Voxel ViT`
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation, `Security, Space`
 
 
