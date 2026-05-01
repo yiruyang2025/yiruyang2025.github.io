@@ -21,7 +21,7 @@ related_publications: true
 
 <br>
 
-## Comparison between Conventional Structural MRI and Quantitative Susceptibility Mapping (QSM MRI)
+## 1. Comparison between Conventional Structural MRI and Quantitative Susceptibility Mapping (QSM MRI)
 
 
 | **Property**                     | **Conventional Structural MRI (e.g., T1/T2)**                                                                           | **Quantitative Susceptibility Mapping (QSM MRI)**                                                                                                   |
@@ -36,6 +36,100 @@ related_publications: true
 
 
 <br>
+
+
+## 2. Model Structures
+
+```
+Comparison of Contributions under Medical Saliency Perspective (ADNI, Amyloid Mapping)
+```
+
+------------------------------------------------------------------------------------------------------------
+Aspect                        | XX-Net Contribution                         | Usefulness (ADNI task)
+                             |                                             | 
+                             |                                             | Point-Voxel CNN Contribution              | Usefulness (ADNI task)
+------------------------------------------------------------------------------------------------------------
+
+Core Representation           | Dense 2D feature descriptors per pixel      | Limited usefulness
+                             |                                             | 
+                             |                                             | 3D voxel-based representation             | Highly useful
+                             |                                             | 
+------------------------------------------------------------------------------------------------------------
+
+Dimensionality Alignment      | Designed for 2D images                      | Not suitable (mismatch)
+                             |                                             | 
+                             |                                             | Native 3D modeling                        | Fully aligned
+------------------------------------------------------------------------------------------------------------
+
+Saliency Modeling             | Implicit keypoint saliency (local maxima)   | Partially useful (local importance only)
+                             |                                             | 
+                             |                                             | Implicit structural saliency in 3D space  | Highly useful
+------------------------------------------------------------------------------------------------------------
+
+Medical Interpretation        | No concept of anatomical regions            | Not useful
+                             |                                             | 
+                             |                                             | Supports spatial structure learning       | Critical
+------------------------------------------------------------------------------------------------------------
+
+Cross-Voxel Information       | Weak (local neighborhood only)              | Insufficient
+                             |                                             | 
+                             |                                             | Captures spatial relationships in 3D      | Essential
+------------------------------------------------------------------------------------------------------------
+
+Global / Regional Context     | None (purely local descriptors)             | Not useful
+                             |                                             | 
+                             |                                             | Supports region-level aggregation         | Highly useful
+------------------------------------------------------------------------------------------------------------
+
+Feature Matching              | Strong correspondence learning              | Moderately useful (for alignment idea)
+                             |                                             | 
+                             |                                             | Not focused on matching                   | Neutral
+------------------------------------------------------------------------------------------------------------
+
+Task Compatibility            | Designed for matching / retrieval           | Poor fit
+                             |                                             | 
+                             |                                             | Designed for 3D learning                  | Strong fit
+------------------------------------------------------------------------------------------------------------
+
+Handling Mixed Signals        | No disentanglement capability               | Not useful
+                             |                                             | 
+                             |                                             | Can model structured variation            | Useful
+------------------------------------------------------------------------------------------------------------
+
+Scalability (3D Brain)        | Not scalable to volumetric data             | Not usable
+                             |                                             | 
+                             |                                             | Designed for large 3D spaces              | Highly useful
+------------------------------------------------------------------------------------------------------------
+
+Relevance to Amyloid Mapping  | Only local feature extraction inspiration   | Minor contribution
+                             |                                             | 
+                             |                                             | Directly supports voxel-wise mapping      | Major contribution
+------------------------------------------------------------------------------------------------------------
+
+Saliency Interpretation       | Pixel importance (local peaks)              | Weak (no region awareness)
+                             |                                             | 
+                             |                                             | Region-aware importance (implicit)        | Critical
+------------------------------------------------------------------------------------------------------------
+
+<br>
+
+
+
+
+## 3. Medical Principles for Amyloid Prediction
+
+
+| **Medical Fact**                                                         | **Modeling Requirement**              |
+| ------------------------------------------------------------------------ | ------------------------------------- |
+| Amyloid deposition is regionally distributed (e.g., cortex, hippocampus) | Must incorporate region-level context |
+| QSM signals are mixed (iron + amyloid)                                   | Must perform signal disentanglement   |
+| PET provides voxel-wise ground truth                                     | Must support voxel-wise prediction    |
+| Alzheimer’s disease progression is network-level                         | Must capture cross-voxel dependencies |
+
+
+
+
+<br><br><br>
 
 ## Topics
 
@@ -176,7 +270,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 <br>
 
 
-## Brain Signals (Why Median + MAD)
+## 5. Brain Signals (Why Median + MAD)
 
 
 | **Property**                  | **Meaning**                                       | **Impact**                                     |
@@ -206,199 +300,10 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-## Multi-sensor Input Fusion From Space, Safety Detection
 
-- [1960 - A New Approach to Linear Filtering and Prediction Problems](https://www.unitedthc.com/DSP/Kalman1960.pdf), Kalman
-- [2005 - Probabilistic Robotics](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zj6FavAAAAAJ&citation_for_view=zj6FavAAAAAJ:cSdaV2aYdYsC), Multi-sensor Input Fusion
-- [2025 - ACDC Dataset](https://acdc.vision.ee.ethz.ch/overview), training and testing semantic perception on adverse visual conditions
-- [📍 2019 - Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Calibration_Wizard_A_Guidance_System_for_Camera_Calibration_Based_on_ICCV_2019_paper.pdf)
 
-<br>
 
-## Topics
 
 
-**0. Sensor Modalities and Data Types**
+<br><br><br><br><br><br><br><br>
 
-| Modality | Sensor Type                 | Data Representation                  |
-|----------|----------------------------|--------------------------------------|
-| Optical  | Visible-light satellite camera | 3-channel RGB image (8-bit)        |
-| SAR      | Synthetic Aperture Radar     | 1-channel SAR image (32-bit float)   |
-
-
-<br>
-
-## 1. Maritime Search and Rescue
-
-```
-Optical satellite images
-+ SAR satellite images
-→ Ship Detection
-→ Ship Re-Identification (ReID)
-→ Trajectory generation & route prediction
-```
-
-
-| Platform          | Strength                                | Fundamental Limitation             |
-| ----------------- | --------------------------------------- | ---------------------------------- |
-| GEO satellites    | Wide coverage, high temporal resolution | Low spatial resolution             |
-| Video satellites  | High spatial & temporal resolution      | Short duration, small coverage     |
-| AIS-based systems | Accurate identity info                  | Only works for cooperative targets |
-
-
-| Axis    | Examples                           |
-| ------- | ---------------------------------- |
-| Sensors | Optical, SAR, LiDAR, multispectral |
-| Tasks   | Detection, ReID, tracking, mapping |
-| Scale   | Local → Global                     |
-| Time    | Snapshot → Long-term monitoring    |
-
-<br>
-
-## 2. Input Data Type
-
-| Modality | Data Type           | Format                                       |
-| -------- | ------------------- | -------------------------------------------- |
-| Optical  | RGB image           | 3-channel, 8-bit TIF                         |
-| SAR      | Radar backscatter   | 1-channel, 32-bit float TIF                  |
-| Geometry | Ship size (derived) | Numeric vector (length, width, aspect ratio) |
-
-<br>
-
-## 3. Fusion Space
-
-```
-Optical image ─┐
-               ├─ Dual-head tokenizer → Shared Transformer Encoder → Unified embedding
-SAR image     ─┘
-```
-
-<br>
-
-## 4. Output Data
-
-| Stage      | Output Used                   |
-| ---------- | ----------------------------- |
-| ReID       | Feature distance matrix       |
-| Tracking   | Identity association          |
-| Trajectory | Time-ordered identity matches |
-
-
-<br>
-
-## A Dynamic Camera with Multi-modal Input Signal Fusion
-
-
-```
-          Human perception
-        ┌──────────────────┐
-        │  Vestibular      │
-        │  Vision          │
-        └──────────────────┘
-                 ▲
-                 │
-    ┌────────────┴────────────────┐
-    │ Wearable System Estimation  │
-    └────────────┬────────────────┘
-                 │
- ┌───────┬────────┬────────┬────────┬────────┐
- │ Camera│  IMU   │ Eye    │ Depth  │ Others │
- │       │        │ tracker│ / ToF  │        │
- └───────┴────────┴────────┴────────┴────────┘
-```
-
-<br>
-
-## Core Formulation: Bayesian Multi-Modal Sensor Fusion
-
-**Latent State Definition**
-
-- At time step t, the latent state is defined as:
-$x_t = \{ T_t, \theta, \psi_t \}$
-
-- where $T_t$ denotes the device pose, $\theta$ represents the calibration parameters shared across time, and $\psi_t$ denotes user-centric latent variables.
-
-**Multi-Modal Observations**
-
-- Given heterogeneous sensor measurements at time t:
-$z_t = \{ z_t^{cam}, z_t^{imu}, z_t^{eye} \}$
-
-- where observations are obtained from the camera, IMU, and eye-tracking modalities.
-
-**Bayesian Fusion Objective**
-
-- Multi-modal fusion is defined as inference over the joint posterior:
-$p(x_{1:T} \mid z_{1:T})$
-
-- Using the Markov assumption and conditional independence of observations, the posterior factorizes as:
-$p(x_{1:T} \mid z_{1:T}) \propto \prod_{t=1}^{T} p(z_t \mid x_t)\, p(x_t \mid x_{t-1})$
-
-**Multi-Modal Likelihood Factorization**
-
-- Assuming conditional independence between sensor modalities given the latent state:
-$p(z_t \mid x_t)
-= p(z_t^{cam} \mid x_t)\, p(z_t^{imu} \mid x_t)\, p(z_t^{eye} \mid x_t)$
-
-**State Transition Model**
-
-- The temporal evolution of the latent state is modeled as:
-$p(x_t \mid x_{t-1})
-= p(T_t \mid T_{t-1})\, p(\psi_t \mid \psi_{t-1})\, p(\theta)$
-
-- where $\theta$ is treated as a time-invariant latent variable, $p(\theta)$ enforces temporal consistency of calibration parameters.
-
-
-**Interpretation**
-- Fusion thus corresponds to Bayesian state estimation under uncertainty, where heterogeneous sensor observations impose probabilistic constraints on a shared latent state evolving over time. Calibration parameters are inferred jointly with pose and user states, enabling online self-calibration.
-
-
-**Sensor Models**
-
-- $z_t^{imu} = h_{imu}(T_{t-1}, T_t) + \epsilon_{imu}$
-- $z_t^{cam} = h_{cam}(T_t, \theta) + \epsilon_{cam}$
-- $z_t^{eye} = h_{eye}(T_t, \psi_t) + \epsilon_{eye}$
-
-
-**Filtering Approximation**
-
-For online inference, we approximate the posterior using Bayesian filtering.
-- Prediction: $p(x_t \mid z_{1:t-1}) = \int p(x_t \mid x_{t-1}) p(x_{t-1} \mid z_{1:t-1}) dx_{t-1}$
-- Update: $p(x_t \mid z_{1:t}) \propto p(z_t \mid x_t) p(x_t \mid z_{1:t-1})$
-
-
-<br>
-
-## Multiple sensors = multiple Gaussian constraints on the same state
-
-```
-                    z_t^cam
-                 (camera likelihood)
-                        │
-                        ▼
-                   ┌────────┐
-z_t^imu ───────▶   │  x_t   │   ◀────── z_t^eye
-(IMU likelihood)   │ latent │   (eye-tracking likelihood)
-                   │ state  │
-                   └────────┘
-```
-
-
-<br>
-
-
-
-## 4D and LiDAR Free
-
-  - [2024 - Interactive4D: Interactive 4D LiDAR Segmentation](https://arxiv.org/abs/2410.08206)
-  - [4D Lidar L1 Application Scenarios - Robots - Unitree](https://www.unitree.com/cn/LiDAR)
-  - [Aeva – 4DLiDAR for Autonomous Navigation - Auto Driving - beyond Beam](https://www.aeva.com/)
-  - [A Digital Geneva / Zurich](https://carla.readthedocs.io/en/latest/adv_digital_twin/)
-
-
-
-
-
-
-
-
-<br>
