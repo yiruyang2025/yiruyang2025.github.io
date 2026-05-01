@@ -169,7 +169,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-### Overview of the ADNI Dataset
+## Overview of the ADNI Dataset
 
 | Item          | Description                                                     |
 | ------------- | --------------------------------------------------------------- |
@@ -184,7 +184,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-### Participant Identifiers and Longitudinal Indexing
+## Participant Identifiers and Longitudinal Indexing
 
 | Field                         | Description                          | Usage                                        |
 | ----------------------------- | ------------------------------------ | -------------------------------------------- |
@@ -195,7 +195,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-### Diagnostic Group Distribution
+## Diagnostic Group Distribution
 
 | Group          | Description                     | Number of Subjects |
 | -------------- | ------------------------------- | ------------------ |
@@ -209,7 +209,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-### Neuroimaging Data (Raw and Processed)
+## Neuroimaging Data (Raw and Processed)
 
 | Modality         | Access Path           | Format             | Dimensionality | Typical Use                    |
 | ---------------- | --------------------- | ------------------ | -------------- | ------------------------------ |
@@ -223,7 +223,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 <br>
 
 
-### Brain Signals (Why Median + MAD)
+## Brain Signals (Why Median + MAD)
 
 
 | **Property**                  | **Meaning**                                       | **Impact**                                     |
@@ -234,7 +234,10 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 | **Inter-channel variation**   | Each sensor has different sensitivity             | Requires independent per-channel normalization |
 
 
+
 <br><br<br><br><br>
+
+
 
 ## References
 
