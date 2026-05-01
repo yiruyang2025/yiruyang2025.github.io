@@ -98,22 +98,8 @@ saliency weights over 3D brain structures to disentangle amyloid-related signals
 
 <br><br><br>
 
-## Topics
 
-  - [EU Open Research Repository](https://zenodo.org/), [AiiDA.net](https://www.aiida.net/)
-  - [CERN](https://home.cern/), [PSI](https://www.psi.ch/en)
-
-
-- [2025 - Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and 📍 dense features](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8gruapYAAAAJ&sortby=pubdate&citation_for_view=8gruapYAAAAJ:D_sINldO8mEC)
-
-
-- [2026 - A generalizable foundation model for analysis of human brain MRI](https://www.nature.com/articles/s41593-026-02202-6)
-- [2026 - How the brain’s wiring changes](https://www.nature.com/articles/d44151-026-00013-z)
-- [2026 - SpaceX](https://x.com/Starlink/status/2017064797125410863?s=20)
-
-<br>
-
-## Coding
+## 4. Coding
 
   - [2026 - Let your training 8hrs -> 📍 13mins](https://x.com/MaxWBuckley/status/2016998645631947148?s=20)
   - [📍 Armadillo](https://github.com/conradsnicta/armadillo-code)
@@ -121,7 +107,7 @@ saliency weights over 3D brain structures to disentangle amyloid-related signals
 
 <br>
 
-## Alzheimer’s Disease Neuroimaging Initiative (ADNI)
+## 5. Alzheimer’s Disease Neuroimaging Initiative (ADNI)
 
 - A large-scale longitudinal multi-center study initiated in 2004. The dataset includes 3D brain MRI and PET images with associated diagnostic labels and clinical metadata, and is publicly available via the ADNI Image and Data Archive under a data use agreement
 - [ADNI Database](https://adni.loni.usc.edu/)
@@ -183,7 +169,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-## 1. Overview of the ADNI Dataset
+### Overview of the ADNI Dataset
 
 | Item          | Description                                                     |
 | ------------- | --------------------------------------------------------------- |
@@ -198,7 +184,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-## 2. Participant Identifiers and Longitudinal Indexing
+### Participant Identifiers and Longitudinal Indexing
 
 | Field                         | Description                          | Usage                                        |
 | ----------------------------- | ------------------------------------ | -------------------------------------------- |
@@ -209,7 +195,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-## 3. Diagnostic Group Distribution
+### Diagnostic Group Distribution
 
 | Group          | Description                     | Number of Subjects |
 | -------------- | ------------------------------- | ------------------ |
@@ -223,7 +209,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 <br>
 
-## 4. Neuroimaging Data (Raw and Processed)
+### Neuroimaging Data (Raw and Processed)
 
 | Modality         | Access Path           | Format             | Dimensionality | Typical Use                    |
 | ---------------- | --------------------- | ------------------ | -------------- | ------------------------------ |
@@ -237,7 +223,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 <br>
 
 
-## 5. Brain Signals (Why Median + MAD)
+### Brain Signals (Why Median + MAD)
 
 
 | **Property**                  | **Meaning**                                       | **Impact**                                     |
@@ -248,7 +234,7 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 | **Inter-channel variation**   | Each sensor has different sensitivity             | Requires independent per-channel normalization |
 
 
-<br><br>
+<br><br<br><br><br>
 
 ## References
 
