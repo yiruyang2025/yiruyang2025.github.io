@@ -144,21 +144,19 @@ images:
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
 
+Doctoral Seminar in Visual Computing
+
 Probabilistic Artificial Intelligence, 26
+
+(Vision Algorithms for Mobile Robotics (L+E))
 
 Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
 
 3D Computer Vision (C++, (Dynamic) SLAM, 26)
 
-Computer Vision for Automated Driving / Future Mobility (PRS, 26)
-
 Visual Computing
 
 (Physically Based Simulation)
-
-(Vision Algorithms for Mobile Robotics (L+E))
-
-Doctoral Seminar in Visual Computing
 
 Graph Theory
 
