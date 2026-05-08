@@ -35,9 +35,9 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `Logit Distillation` in Riemann Space / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Refinement Less Steps
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Data Generation on Manifold
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Continuous Tokenization in Classic Music Generation`
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping, Point-Voxel ViT
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping, Point-Voxel
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation, `Space`, Security
 
 
