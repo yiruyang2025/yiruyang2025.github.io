@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Refinement Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Continuous Tokenization in Classic Music Generation`, human auditory perception
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Continuous Tokenization in Classic Music Generation` / Continuous World Reasoning
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping, Point-Voxel ViT
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - Hospital Robots Navigation, `Space`, Security
 
