@@ -144,7 +144,7 @@ images:
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
 
-Doctoral Seminar in Visual Computing
+Doctoral Seminar in Visual Computing, 25
 
 Probabilistic Artificial Intelligence, 26
 
