@@ -132,17 +132,15 @@ images:
 
 ## Relevant Coursework
 
-[Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s) (Python, 25)
+[Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s), 25
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), 25/26)
 
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html) (CUDA, HPC, 26)
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, 26
 
 [VLSI 2: From Netlist to Complete System on Chip](https://vlsi.ethz.ch/wiki/Main_Page), 26
 
-[Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/) (C++, 26)
-
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/) (C++ / Rust, Deep RL, Robotics, 26)
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
 
@@ -150,11 +148,13 @@ Doctoral Seminar in Visual Computing
 
 Probabilistic Artificial Intelligence, 26
 
+[Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
+
 (Vision Algorithms for Mobile Robotics (L+E))
 
-Mixed Reality (C++, Blender, SUMO, Unreal Engine Render, 25)
+Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
-3D Computer Vision (C++, (Dynamic) SLAM, 26)
+3D Computer Vision, C++, (Dynamic) SLAM, 26
 
 Visual Computing
 
