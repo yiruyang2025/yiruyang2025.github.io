@@ -148,6 +148,8 @@ Probabilistic Artificial Intelligence, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
 
+VLSI 2: From Netlist to Complete System on Chip
+
 (Vision Algorithms for Mobile Robotics (L+E))
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
