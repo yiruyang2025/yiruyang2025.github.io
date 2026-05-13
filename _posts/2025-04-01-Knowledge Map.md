@@ -138,6 +138,8 @@ images:
 
 [Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, 26
 
+VLSI 2: From Netlist to Complete System on Chip
+
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
@@ -147,8 +149,6 @@ Doctoral Seminar in Visual Computing, 25
 Probabilistic Artificial Intelligence, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
-
-VLSI 2: From Netlist to Complete System on Chip
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
