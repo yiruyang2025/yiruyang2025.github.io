@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Extracting Physical Equations of Motion from Observed Dynamics via Machine Learning`, [], [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], [], `Space`, satellite orbit data
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Extracting Physical Equations of Motion from Observed Dynamics via Machine Learning`, [], [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], [], `Space`, satellite orbit data, Jupiter, Mars, and Moon
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` in Symphony Music Generation, Robotics and More, Security
 
