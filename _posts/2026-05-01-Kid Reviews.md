@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Scientifically Teach Your Kids Reviewers Understand A Paper from Industry
+title: How to Scientifically Teach Your Kid Reviewers Understand A Paper from Industry
 date: 2026-05-01
 description: 🔹
 categories: AI/ML
