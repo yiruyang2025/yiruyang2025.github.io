@@ -29,7 +29,7 @@ latest_posts:
 - (Rust), C++, Python, Linux, ROS2, PyTorch, Blender, CUDA, Jax, MuJoCo, Unreal, Ray, SUMO, FPGA, (ASIC)
 
 
-- Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Orgo.ai-25/)
+- Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2026/Kids-Reviews/)
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `On-Policy Distillation` on Manifold / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
