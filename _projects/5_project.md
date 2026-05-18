@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Continuous Tokenization
-description: ETH AI Center, PRS, UZH AI
+description: AI Center, UZH AI
 img: assets/img/4.jpg
 importance: 5
 category: work
