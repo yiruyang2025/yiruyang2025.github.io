@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Continuous Tokenization
-description: AI Center, UZH AI
+title: 2026 - Master Thesis - Extracting Physical Equations via 
+description: AI Center, Thomas, Jyrki, ()
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -13,9 +13,7 @@ related_publications: true
 
 - [2026](https://music.youtube.com/watch?v=kRCnR0m_vBY&list=OLAK5uy_lU5_UbT2MLEJq7uSs5NU4f76VC6p6-ceU)
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
-- [2026 - VGGT-SLAM 2.0: Real-time Dense Feed-forward Scene Reconstruction](https://www.youtube.com/watch?v=GBdOvd6p4OU)
 - [2026 - Reward-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2603.05066)
-- [📍 2017 - One-Shot Imitation Learning](https://proceedings.neurips.cc/paper/2017/hash/ba3866600c3540f67c1e9575e213be0a-Abstract.html)
 
 
 
