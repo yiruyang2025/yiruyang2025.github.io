@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Extracting Physical Equations via 
+title: 2026 - Master Thesis - Extracting Physical Equations
 description: AI Center, Thomas, Jyrki, ()
 img: assets/img/4.jpg
 importance: 5
