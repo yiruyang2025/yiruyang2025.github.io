@@ -17,31 +17,9 @@ related_publications: true
 
 
 
-<br>
-
-## Products
-
-- [Nvidia GEAR](https://research.nvidia.com/labs/gear/#open-positions)
-- [Matic Robots](https://www.youtube.com/watch?v=i_8CKdULXWg), home, level-5
-- [Rovex Technologies](https://www.linkedin.com/company/gorovex/), hospital
-- [Fourier](https://www.fftai.com/)
-- [Flow](https://flow-project.github.io/), city navigation
-- [Taalas Inc.](https://x.com/taalas_inc?lang=en)
-
-<br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
-## Task Definition
-
-```
-The essence of LiDAR-free technology can be summarized as: transforming sparse measurements of the physical world into dense geometric inference.
-```
-
-- [📍 2020 - Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618)
-- [2022 - Scalable Diffusion Models with Transformers](https://www.wpeebles.com/DiT), William Peebles, DiT
-
-
-<br>
 
 
 ## References
@@ -57,23 +35,6 @@ The essence of LiDAR-free technology can be summarized as: transforming sparse m
 <br><br><br><br>
 
 
-
-
-## Detection and Tracking Algorithms
-
-| Layer                     | Technical Components                    | Application                                                                                                       |
-| ------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Detection Backbone        | RT-DETR                                 | Transformer-based object detection producing spatially consistent bounding boxes and feature embeddings for downstream multi-view association. |
-| Temporal Association      | Query-Based Tracking (e.g., MOTR-style) | Maintains persistent object identities across frames using learnable spatiotemporal queries instead of heuristic matching.                     |
-| Multi-View Correspondence | Epipolar Geometry                       | Filters cross-camera matches using the Fundamental Matrix to enforce geometric consistency before triangulation.                               |
-| 3D Reconstruction         | Triangulation + PnP                     | Recovers metric 3D positions from validated multi-view 2D detections and refines camera pose estimates.                                        |
-| Global Optimization       | Bundle Adjustment                       | Minimizes reprojection error jointly over camera poses and object trajectories to achieve globally consistent 4D reconstruction.               |
-| Dynamic Motion Modeling   | Motion Decomposition                    | Separates object motion from camera motion to stabilize optimization under dynamic scenes.                                                     |
-| Spatiotemporal Refinement | Uncertainty-Aware Optimization          | Weighs correspondences by confidence scores to improve robustness under occlusion, noise, and adverse weather conditions.                      |
-| Identity Persistence      | Cross-Camera Re-Identification          | Uses learned feature embeddings to maintain consistent object identities across disjoint camera views.                                         |
-
-
-<br>
 
 
 
