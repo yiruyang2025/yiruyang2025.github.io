@@ -36,7 +36,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE to PDE From Orbit Observation`, multi-body satellite data, [], [M-Layer](https://arxiv.org/pdf/2008.03936), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), []
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE to PDE From Orbit Observation`, satellite data, [], [M-Layer](https://arxiv.org/pdf/2008.03936), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), []
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` in Symphony Music Generation, Robotics and More, Security
 
