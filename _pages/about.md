@@ -35,7 +35,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `On-Policy Distillation` on Manifold / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Extracting Physical Equations of Motion from Observed Dynamics via Machine Learning`, satellite orbit data, Space, [], [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], []
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` in Symphony Music Generation, Robotics and More, Security
