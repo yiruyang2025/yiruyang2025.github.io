@@ -35,7 +35,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving `On-Policy Distillation` on Manifold / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), [UZH.ai](https://www.linkedin.com/in/michaelschaepman/?originalSubdomain=ch)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - SSL on Manifold
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Extracting Physical Equations of Motion from Observed Dynamics via Machine Learning`, satellite orbit data, Space, [], [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], []
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Accelerate` 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` in Symphony Music Generation, Robotics and More, Security
@@ -45,7 +45,7 @@ latest_posts:
 
 
 **Interests**
-  - Space, [Challenges](https://x.com/pmddomingos/status/1978333248888480079?s=20), Backbones, Playful things, Task Definitions
+  - Space, [Challenges](https://x.com/pmddomingos/status/1978333248888480079?s=20), Backbones, Playful things, Task Definitions, teachable population
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich - The Era of Experience / Verification](https://x.com/GoogleDeepMind/status/1910363683215008227?s=20), Visual Intelligence
   - [Charming Things](https://www.linkedin.com/posts/maticrobots_wired-1010-the-verge-the-best-robot-activity-7401387277610131457-BH40?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link), [Engines](https://x.com/boomsupersonic/status/1999540029765406767?s=20), [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
 
