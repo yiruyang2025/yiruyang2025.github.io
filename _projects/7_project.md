@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - Robotics
-description: Deep RL Deployment with Agentic Evaluation
+title: 2026 - Thesis - Flow Transformer
+description: Continuous Tokenization in Symphony Music Generation and More
 img: assets/img/4.jpg
 importance: 7
 category: work
@@ -12,7 +12,7 @@ related_publications: true
 
 ## Topics
 
-- [📍 Andy Zeng](https://github.com/andyzeng)
+- [Andy Zeng](https://github.com/andyzeng)
 - Motion, human + non-rigid species, [Deep RL](https://scholar.google.com/citations?user=vtwH6GkAAAAJ&hl=en)
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
 - [2015 - SMPL: A Skinned Multi-Person Linear Model](https://dl.acm.org/doi/epdf/10.1145/2816795.2818013)
