@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - ML for ODE to PDE From Space
+title: 2026 - Master Thesis - ML for ODE (to PDE) From Space
 description: AI Center, Thomas, Jyrki, ()
 img: assets/img/4.jpg
 importance: 5
