@@ -12,11 +12,10 @@ related_publications: true
 
 ## Topics
 
-- [Andy Zeng](https://github.com/andyzeng)
-- [📍 2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
 
 
-<br>
+<br><br>
+
 
 ## Toolkit
 
@@ -35,6 +34,6 @@ related_publications: true
 ## References
 
 - [2026 - Anny-One Dataset](https://europe.naverlabs.com/research/human-centric-computer-vision/anny-one/)
-
+- [2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
 
 <br><br>
