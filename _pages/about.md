@@ -32,7 +32,7 @@ latest_posts:
 - Always enjoy reading Philosophy, [my Garden](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/MedNet.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [Optimization](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
