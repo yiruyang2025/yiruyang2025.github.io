@@ -27,17 +27,17 @@ related_publications: true
 ## References
 
 
-- []
-- []
-- []
-
-
+- [2019 - SO(8) Supergravity and the Magic of Machine Learning]
 - [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)_
 
 
+- []
+- []
+- []
 
+<br><br>
 
-## Others
+## References 2
 
 - [2026 - High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
 - [2025 - Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](https://arxiv.org/pdf/2504.08727)
