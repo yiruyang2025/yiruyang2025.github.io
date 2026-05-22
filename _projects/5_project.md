@@ -27,12 +27,12 @@ related_publications: true
 ## References
 
 
-[]
-[]
-[]
+- []
+- []
+- []
 
 
-[2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)_
+- [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)_
 
 
 
