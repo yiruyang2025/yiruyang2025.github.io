@@ -38,7 +38,7 @@ related_publications: true
 <br>
 
 - [Georgi, Howard. Lie Algebras in Particle Physics. 2nd ed. Boca Raton: CRC Press, 2018.](https://www.taylorfrancis.com/books/oa-mono/10.1201/9780429499210/lie-algebras-particle-physics-howard-georgi)
-- [Hairer, Ernst, and Gerhard Wanner. Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems. 2nd rev. ed. Berlin: Springer, 2010.](https://dl.acm.org/doi/10.5555/153158)
+- [📍 Hairer, Ernst, and Gerhard Wanner. Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems. 2nd rev. ed. Berlin: Springer, 2010.](https://dl.acm.org/doi/10.5555/153158)
 - []
 
 
