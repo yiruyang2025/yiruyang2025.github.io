@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - 4D
-description: DINO
+description: Genie
 img: assets/img/4.jpg
 importance: 2
 category: work
