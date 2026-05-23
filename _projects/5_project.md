@@ -22,6 +22,8 @@ related_publications: true
 <br><br><br><br><br><br><br><br><br><br>
 
 
+## Visualizations
+
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -30,7 +32,7 @@ related_publications: true
 
 
 - [2019 - SO(8) Supergravity and the Magic of Machine Learning]()
-- [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)_
+- [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)
 
 
 <br>
