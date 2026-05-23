@@ -33,7 +33,9 @@ related_publications: true
 - [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)_
 
 
-- []
+<br>
+
+- [2018 - Georgi — Lie Algebras in Particle Physics](https://www.taylorfrancis.com/books/oa-mono/10.1201/9780429499210/lie-algebras-particle-physics-howard-georgi)
 - []
 - []
 
@@ -41,6 +43,9 @@ related_publications: true
 
 ## References 2
 
+
+
+- []
 - [2026 - High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
 - [2023 - Seeing a Rose in Five Thousand Ways](https://ai.stanford.edu/~yzzhang/projects/rose/)
 - [2025 - Visual Chronicles: Using Multimodal LLMs to Analyze Massive Collections of Images](https://arxiv.org/pdf/2504.08727)
