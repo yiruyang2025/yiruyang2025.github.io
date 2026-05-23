@@ -47,7 +47,7 @@ latest_posts:
 **Interests**
   - Space, [Challenges](https://x.com/pmddomingos/status/1978333248888480079?s=20), Backbones, Playful things, Task Definitions
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Zurich - AI/ML for Science](https://x.com/googledeepmind/status/1910363683215008227?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Visual Intelligence
-  - [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
+  - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
 
 
 <div style="height: 4rem;"></div>
