@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, DINO
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE (to PDE) from Orbital Motion`, [], [M-Layer](https://arxiv.org/pdf/2008.03936), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], ML for Physics / Science
