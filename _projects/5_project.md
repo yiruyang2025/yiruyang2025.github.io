@@ -37,9 +37,10 @@ related_publications: true
 
 <br>
 
-- [Georgi, Howard. Lie Algebras in Particle Physics. 2nd ed. Boca Raton: CRC Press, 2018.](https://www.taylorfrancis.com/books/oa-mono/10.1201/9780429499210/lie-algebras-particle-physics-howard-georgi)
-- [📍 Hairer, Ernst, and Gerhard Wanner. Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems. 2nd rev. ed. Berlin: Springer, 2010.](https://dl.acm.org/doi/10.5555/153158)
-- [Sussman, Gerald Jay, and Jack Wisdom. Structure and Interpretation of Classical Mechanics. 2nd ed. Cambridge: MIT Press, 2015.](https://mitpress.mit.edu/9780262028967/structure-and-interpretation-of-classical-mechanics/)
+- Georgi, Howard. Lie Algebras in Particle Physics. 2nd ed. Boca Raton: CRC Press, 2018.
+- 📍 Hairer, Ernst, and Gerhard Wanner. Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems. 2nd rev. ed. Berlin: Springer, 2010.
+- Sussman, Gerald Jay, and Jack Wisdom. Structure and Interpretation of Classical Mechanics. 2nd ed. Cambridge, MA: MIT Press, 2015.
+- Strogatz, Steven H. Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering. 2nd ed. Boulder: Westview Press, 2018. (Nonlinear Dynamics / Benchmark ODE)
 
 
 <br><br>
