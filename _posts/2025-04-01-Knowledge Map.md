@@ -94,7 +94,7 @@ images:
 
 <br>
 
-## Home / Hospital Robots
+## Hospital Robots
 
 - [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
 - [2026 - SLAM Handbook](http://asrl.utias.utoronto.ca/~tdb/slam/), chapter 17, 18
@@ -104,14 +104,12 @@ images:
 
 <br><br><br>
 
-**Readings**
+## Readings
 
 - [⛱️ Daily Finance Markets, Luca Lacharlotte]
 - [Levels.fyi](https://www.linkedin.com/in/hakeemshibly/)
 - [2025 - Kosmos - AI Co-Scientist](https://github.com/jimmc414/Kosmos)
 - [2025 - Blackwell NVFP4 Kernel Hackathon](https://luma.com/9n27uem4)
-- [Armadillo]
-- [PRS](https://science.nasa.gov/specials/your-name-in-landsat/)
 - [2018 - Decoupled Networks](https://www.youtube.com/watch?v=ZnYb0UBIPj0)
 
 
@@ -137,11 +135,11 @@ Deep Learning, 25
 
 VLSI 2: From Netlist to Complete System on Chip
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
-
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
 [Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
+
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 Probabilistic Artificial Intelligence, 26
 
