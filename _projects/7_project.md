@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - World Representation
+title: 2026 - Thesis - Audio
 description: Continuous Tokenization in Symphony Music Generation and More
 img: assets/img/4.jpg
 importance: 7
