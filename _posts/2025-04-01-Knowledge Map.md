@@ -144,8 +144,6 @@ VLSI 2: From Netlist to Complete System on Chip
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
-Doctoral Seminar in Visual Computing, 25
-
 Probabilistic Artificial Intelligence, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
