@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - Audio
-description: Continuous Tokenization in Symphony Music Generation and More
+description: Continuous Tokenization from Transformer
 img: assets/img/4.jpg
 importance: 7
 category: work
