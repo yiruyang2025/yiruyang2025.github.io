@@ -22,7 +22,7 @@ related_publications: true
 
 
 
-2. PDE / MHD
+2. PDE / MHD, Benchmark paper
 
 
 ```
