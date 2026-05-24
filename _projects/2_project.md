@@ -74,23 +74,7 @@ solve R,t
   - [2024 - DiffusionDrive](https://arxiv.org/abs/2411.15139)
   - [2024 - SplatFields - Neural Gaussian Splats for Sparse 3D and 4D Reconstruction](https://github.com/markomih/SplatFields/tree/main)
   - [2011 - High-quality passive facial performance capture using 📍 anchor frames](https://d1wqtxts1xzle7.cloudfront.net/77751527/facial-libre.pdf?1640912246=&response-content-disposition=inline%3B+filename%3DHigh_quality_passive_facial_performance.pdf&Expires=1762643658&Signature=NgRyp~sdbcQRUFxAUbQDFiZr691HMb6kbVuUndJcpjW-430mrAb~surTn~nidAKIe7FrS9Pi~zfITeYBP1bJSgqi3~wIrv1XqXGIrRhQK8-~cfE7KicZvnqPWWRwSN8oxub51NbTyskeKeyY~X1kv6twwTR1X7xwAJfPk7N526XgBh5xQJto21DMkhjke7CCPnZ76XmMsYY4NH8qkxJKXOqOFCKGyfrzDnM3yMpsDedIVsicOwVeKROymIJAhBqPPYQnlgrVr7YRK5B77b5ln4vBd2FZwfuyiTINxodrC68DIHHufaL2zlekxGH1PCcYVKosEhuHZAcdvnfcEgVfsA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
-<br>
-
-  - [📍 2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
-  - [2025 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US20250316074A1/e)
-  - [2021 - KiloNeRF: Speeding up Neural Radiance Fields with 📍 Thousands of Tiny MLPs](https://openaccess.thecvf.com/content/ICCV2021/html/Reiser_KiloNeRF_Speeding_Up_Neural_Radiance_Fields_With_Thousands_of_Tiny_ICCV_2021_paper.html)
-  - [2025 - Concerto: Joint 2D-3D Self-Supervised Learning Emerges 📍 Spatial Representations](https://pointcept.github.io/Concerto/)
-
-
-  - [📍 2022 - Multi-layer perceptron-based computer vision neural networks](https://patents.google.com/patent/US12361696B2/en)
-
-
-  - cute demo - [2024 - Physically Compatible 3D Object Modeling from a Single Image](https://gmh14.github.io/phys-comp/)
-  - [2024 - DUSt3R: Geometric 3D Vision Made Easy](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
-  - [2025 - TwoSquared: 4D Reconstruction from 2D Image Pairs](https://sangluisme.github.io/TwoSquared/)
-  - [ICCV 2025 - AnyCalib: On-Manifold Learning for Model-Agnostic 📍 Single-View Camera Calibration](https://arxiv.org/pdf/2503.12701)
-  - [ICCV 2025, 📍 Multimodal Spatial Intelligence](https://musi-workshop.github.io/)
-  - [2025 - Depth Anything 3: recovering the visual space from any views](https://depth-anything-3.github.io/)
+  - [2025 - MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://map-anything.github.io/)
 
 <br>
 
