@@ -132,17 +132,17 @@ images:
 
 ## Relevant Coursework
 
-[Deep Learning](https://www.youtube.com/watch?v=piJkuavhV50&t=144s), 25
+Deep Learning, 25
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), 25/26)
 
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, 26
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, GAP9, Deeploy, GPGPU, 26
 
 VLSI 2: From Netlist to Complete System on Chip
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
-[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), 26
+[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
 Doctoral Seminar in Visual Computing, 25
 
@@ -160,11 +160,9 @@ Visual Computing
 
 (Physically Based Simulation)
 
-Graph Theory
+Graph Theory, Lie Group, Number Theory
 
 Information Geometry
-
-Pure Math
 
 
 
