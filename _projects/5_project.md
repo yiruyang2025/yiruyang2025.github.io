@@ -71,7 +71,9 @@ GMAT / Basilisk generates trajectory
 
 <br>
 
-2. Web Render Layer
+
+
+2. Render Layer
     - CesiumJS / Three.js
   
 
