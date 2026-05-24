@@ -498,155 +498,6 @@ Losses: Diffusion (MSE) + LPIPS
 
 <br>
 
-## Background Knowledge
-
-- Reconstructing animatable 3D animal models — including mesh, appearance, and motion (pose, shape, texture) — directly from monocular videos of real animals, such as dogs.
-- Unlike a typical “MLP-head over a backbone” architecture, this framework employs a template-based, parametric, and multi-modal reconstruction pipeline that combines mesh priors, implicit texture modeling, and dense geometric supervision.
-
-
-
-## Animal Avatars
-
-| Contribution                                                  | Meaning                                                                            | Relevance to Our Fur Layer                                                             |
-| ------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **CSE + articulated mesh for dense supervision**              | Provides dense 2D-to-3D correspondences for every pixel, independent of viewpoint. | Our Gaussian fur geometry must be anchored to the mesh; this attachment relies on CSE. |
-| **Canonical + deformed duplex-mesh texture**                  | Ensures semantic consistency and continuous appearance across poses.               | Enables future extensions such as canonical fur color or reflectance fields.           |
-| **Layered implicit field (inner and outer shells)**           | Represents texture within a volumetric region rather than a single surface.        | Matches our volumetric Gaussian primitives, which naturally occupy a 3D volume.        |
-| **Monocular reconstruction improved through CSE constraints** | Provides strong supervision even for rear and side views.                          | Required for stable fur smoothness losses and future temporal constraints.             |
-
-
-<br>
-
-## Polynomial vs. Recursive Construction (Essential Differences for ML & Geometry)
-
-| Aspect                       | **Polynomial (Analytic / Global Form)**                 | **Recursive (de Casteljau / Local Form)**                                                                        |
-| ---------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Influence of Control Points  | **Global** — one control point affects the entire curve | **Local** — each segment depends only on nearby control points                                                   |
-| Function Complexity          | High-complexity global polynomial                       | Simple repeated linear interpolation                                                                             |
-| Learning Stability           | Unstable (global coupling → noisy gradients)            | Stable (local structure → smooth gradients)                                                                      |
-| Regularization               | Weak — no inherent geometric constraints                | Strong — recursive structure acts as built-in regularizer                                                        |
-| Overfitting Risk             | High                                                    | Low                                                                                                              |
-| Compatibility with ML        | Poor for displacement or dynamic motion                 | Excellent for neural models (diffusion, deformation, 4D trajectories)                                            |
-| Extension to High Dimensions | Difficult (global interactions)                         | Easy (local updates generalize to 3D/4D motion)                                                                  |
-| Relation to Other Priors     | —                                                       | Naturally compatible with **B-Splines (local support)** and **natural parametrization (arc-length consistency)** |
-
-
-<br>
-
-## Trouble Shooting
-
-- Your Ray
-
-```
-Camera parameters (R, T, intrinsics)
-   ↓
-Ray sampling → (x, y, z)
-   ↓
-Project to image plane (u, v)
-   ↓
-Sample RGB, mask, features at (u, v)
-```
-
-
-
-
-## During Training
-
-| **Stage**   | **Script<br>File**                 | **Purpose / Function**                                                             | **Main Computation**                                                                                         | **Input**                                                  | **Output**                                                                           | **GPU / CPU Usage**                                                                           | **Typical Runtime**           |
-| ----------- | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ----------------------------- |
-| **Step 01** | `main_preprocess_scene.py`         | **Preprocessing** – extract DensePose CSE embeddings and estimate PnP camera poses | Feature extraction and RANSAC-based camera pose estimation                                                   | Raw RGB frames + masks + `metadata.sqlite`                 | `*_cse_predictions.pk`, `*_pnp_R_T.pk`, visualization videos (.mp4)                  | **Hybrid GPU + CPU**<br>• Detectron2 / DensePose → GPU<br>• RANSAC → CPU                      | ≈ 30 min (202 frames on V100) |
-| **Step 02** | `main_optimize_scene.py`           | **Optimization** – fit SMAL pose, shape, and texture parameters (+ fur layer)      | Back-propagation + differentiable rendering + multi-loss optimization (Chamfer, CSE, Color, Laplacian, etc.) | Step 01 outputs (CSE + PnP) + `init_pose` + `refined_mask` | `/experiments/<sequence>/` containing `mesh/`, `texture/`, `log.txt`, `checkpoints/` | **Mainly GPU**<br>• PyTorch3D + Lightplane + Triton kernels<br>• CPU for I/O and data loading | 2 – 5 h (V100 32 GB)          |
-| **Step 03** | `main_visualize_reconstruction.py` | **Visualization** – render and export 3D reconstruction results                    | Load mesh + texture → render turntable or overlay sequence                                                   | Experiment directory `/experiments/<sequence>/`            | Rendered video (.mp4) and final 3D models (.obj / .ply)                              | **CPU + Light GPU** (for rendering and encoding)                                              | 3 – 10 min                    |
-
-
-
-```
-        ┌──────────────┐
-        │  CoP3D Video │
-        └──────┬───────┘
-               │ RGB + Mask + Metadata
-               ▼
-     [Step 01] main_preprocess_scene.py
-               │
-               ├─► CSE Embedding (.pk)
-               ├─► Camera Extrinsics (.pk)
-               └─► Visualization (CSE / PnP .mp4)
-               ▼
-     [Step 02] main_optimize_scene.py
-               │
-               ├─► Optimize (SMAL Pose + Shape)
-               ├─► Render Texture (Lightplane)
-               ├─► Save Mesh / Texture / Logs
-               ▼
-     [Step 03] main_visualize_reconstruction.py
-               └─► Rendered Demo Video (.mp4 / .obj)
-```
-
-
-<br>
-
-
-## During Training
-
-| Stage / Parameter                            | Controlled Stage | Optimization Target / Scope                                                                                           | Related Module                      | Typical Range |
-| -------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------- |
-| **Shape Optimization (`exp.n_shape_steps`)** | Geometry Stage   | Optimizes mesh geometry, object pose, point cloud, or Gaussian primitive positions; may also refine camera extrinsics | `SceneOptimizer.optimize_shape()`   | 1000–5000     |
-| **Texture Optimization (`exp.n_steps`)**     | Texture Stage    | Optimizes the texture MLP including color, lighting, reflectance, transparency, and shading parameters                | `SceneOptimizer.optimize_texture()` | 1000–5000     |
-
-
-
-<br>
-
-## Structure
-
-| **Component**                           | **Description**                                                                                                                                                               | **Key Idea / Benefit**                                                                                                                                      |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Parametric Template Model (SMAL)**    | Builds on **SMAL**, the animal counterpart of SMPL for humans. Serves as a **template mesh prior** with a consistent skeleton and deformation basis across sequences.         | Provides structural consistency and controllable deformation for animatable 3D reconstruction.                                                              |
-| **Continuous Surface Embeddings (CSE)** | Learns **dense, continuous embeddings** on the mesh surface instead of sparse keypoints. Enables **image-to-mesh reprojection** that aligns pixels to 3D points across views. | Offers **view-agnostic supervision** — embeddings remain stable and recognizable from any viewpoint, supporting robust multi-view and temporal consistency. |
-| **Implicit Duplex-Mesh Texture Model**  | Defines texture in a **canonical pose**, which **deforms with pose and shape** changes. Uses implicit texture fields for flexible, consistent appearance modeling.            | Maintains realistic texture through deformations and ensures **appearance consistency** during rendering.                                                   |
-| **Per-Video Optimization Pipeline**     | Performs **per-sequence fitting** of shape, pose, texture, and embedding parameters, rather than training a general model. Implemented via `main_optimize_scene.py`.          | Tailors reconstruction to each individual video, achieving **high-fidelity, video-specific 3D models**.                                                     |
-| **Overall Summary**                     | Integrates parametric mesh priors, dense view-agnostic supervision, implicit texture fields, and per-video optimization into one pipeline.                                    | Enables **animatable, view-consistent 3D reconstruction from monocular videos**.                                                                            |
-
-<br>
-
-
-## Step 02 – main_optimize_scene.py
-
-| **Stage**                             | **Component**                                              | **Device (CPU/GPU)** | **Operation**                                                                     | **Details**                                                      |
-| ------------------------------------- | ---------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **1. Load preprocessed data**         | `get_input_cop_from_cfg()`                                 | CPU → GPU            | Loads images, masks, cameras, CSE embeddings, etc., and transfers tensors to GPU. | Input comes from Step 01 outputs.                                |
-| **2. Model initialization**           | `initialize_pose_model()` + `initialize_texture_model()`   | GPU                  | Builds neural modules (pose, texture) and loads checkpoints if available.         | Parameters moved to GPU memory.                                  |
-| **3. Differentiable rendering setup** | PyTorch3D / Lightplane renderer                            | GPU                  | Prepares renderer with Cameras, Meshes, Textures for forward/backward passes.     | Uses CUDA kernels and Triton ops.                                |
-| **4. Optimization loop**              | `SceneOptimizer.optimize_scene()`                          | ✅ GPU (heavy)        | Runs forward → loss → backward → update per epoch                                 | Losses: Chamfer, CSE, Color, Laplace; gradients computed on GPU. |
-| **5. Evaluation & checkpointing**     | `CallbackEval`, `CallbackEarlyStop`                        | GPU + CPU            | Periodically evaluates PSNR, IoU and saves checkpoints.                           | Evaluation forward passes on GPU; logging on CPU.                |
-| **6. Rendering for inspection**       | `vizrend.global_visualization()` + `viz.make_video_list()` | GPU + CPU            | Generates before/after videos of optimized scene.                                 | GPU rasterization → CPU video encoding.                          |
-
-
-<br>
-
-## Step 3 - main_visualize_reconstruction.py
-
-
-| **Stage**                        | **Component**                                           | **Device (CPU/GPU)** | **Operation**                                                          | **Details**                                                                                 |
-| -------------------------------- | ------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **1. Load inputs**               | `get_input_cop_from_archive()`                          | CPU → GPU            | Loads images, masks, cameras, embeddings, and moves tensors to the GPU | Uses `.to(device)` for tensors (e.g. `images`, `masks`, `texture`, `cse_embedding`)         |
-| **2. Load trained models**       | `Inferencer.load_pose_model()` + `load_texture_model()` | GPU                  | Loads checkpointed weights to `pose_model` and `texture_model`         | Models are explicitly moved to GPU (`.to(device)`)                                          |
-| **3. Evaluation**                | `CallbackEval.call()`                                   | GPU                  | Runs forward passes for test frames                                    | Computes metrics like PSNR, IoU, LPIPS, etc. (all on GPU)                                   |
-| **4. Visualization (Rendering)** | `vizrend.global_visualization()`                        | GPU + CPU            | Performs differentiable rendering using PyTorch3D                      | Heavy GPU computation for mesh projection, rasterization, and lighting; CPU collects frames |
-| **5. Video export**              | `viz.make_video_list()`                                 | CPU                  | Concatenates rendered frames and encodes into MP4                      | Uses `ffmpeg` or OpenCV on CPU; no training computation                                     |
-
-
-
-
-<br>
-
-## Readings
-
-- [📍 2025 - TorchMesh: GPU-Accelerated Mesh Processing for Physical Simulation and Scientific Visualization in Any Dimension](https://joss.theoj.org/papers/0c7171db2a9c20b84e737f255083437b)
-- [2022 - GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images](https://research.nvidia.com/labs/toronto-ai/GET3D/)
-
-
-<br>
 
 
 ## Implicit vs Explicit Representations
@@ -721,24 +572,6 @@ Regularization Terms
 
 <br>
 
-
-## References
-
-
-- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
-- [2024 - SENS: Part-Aware Sketch-Based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015)
-- [2022 - Enhancing computational fluid dynamics with machine learning](https://www.nature.com/articles/s43588-022-00264-7)
-- [2025 - GLIMPSE: Generalized Locality for Scalable and Robust CT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11018464)
-- [2024 - WaveBench: Benchmarking Data-driven Solvers for Linear Wave Propagation PDEs](https://hal.science/hal-04503454/)
-
-
-## Fur
-
-- [2024 - Controllable Neural Style Transfer for Dynamic Meshes](https://studios.disneyresearch.com/2024/07/28/controllable-neural-style-transfer-for-dynamic-meshes/)
-- [2025 - Shaping Strands with Neural Style Transfer](https://dl.acm.org/doi/pdf/10.1145/3763365)
-
-<br>
-
 ## [1/3] ARAP / Laplacian-Based Surface Modeling Backbone (2004–2007)
 
 | Year | Paper                                                     | Venue        | Key Contribution                                                   | Backbone Significance                                                    | Relation to Neural Diffusion                                              |
@@ -774,46 +607,15 @@ Regularization Terms
 | 2012 | Shape Deformation Using Moving Least Squares                           | SIGGRAPH        | Smooth deformation without remeshing    | Alternative refinement paradigm              | Diffusion generalizes deformation to stochastic evolution          |
 
 
-## Interface and Protocols
-
-| Type                   | Full Name                             | Description                                                                                                                                    | Example Tools / Interfaces                                                                   | Typical Usage                                                           |
-| ---------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| GUI                    | Graphical User Interface              | A visual, interactive interface that allows users to operate software through windows, buttons, and icons. Ideal for user-friendly workflows. | Web browsers (Chrome, Safari), Cisco AnyConnect, LeoMed OnDemand, Finder / File Explorer    | Click-based interaction, dashboards, visualization, web applications    |
-| CLI                    | Command-Line Interface                | A text-based interface where users type commands to interact with the system. Enables direct control, scripting, and automation.              | Terminal, zsh/bash shell, Linux shell, Windows PowerShell                                   | Execute commands (ssh, scp, conda, git), automate tasks                 |
-| SSH                    | Secure Shell Protocol                 | A secure network protocol for remote login, command execution, and encrypted data transfer.                                                   | ssh, PuTTY, OpenSSH client                                                                   | Remote access, file transfer (scp, rsync), port forwarding              |
-| SFTP                   | Secure File Transfer Protocol         | A file transfer protocol that works over SSH to securely upload or download files.                                                            | FileZilla, sftp, Cyberduck                                                                   | Move datasets or logs between your computer and a remote server         |
-| RDP                    | Remote Desktop Protocol               | Allows users to access a remote computer desktop GUI environment over a network.                                                              | Windows Remote Desktop, xRDP, LeoMed OnDemand (web GUI)                                     | Open remote desktops, run GUI-based software remotely                   |
-| HTTP/HTTPS             | HyperText Transfer Protocol (Secure)  | The standard protocol for web communication; HTTPS adds encryption for security.                                                              | Web browsers, REST APIs, Jupyter Notebook via browser                                        | Access web services, APIs, dashboards, notebooks                        |
-| VPN                    | Virtual Private Network               | Creates a secure, encrypted connection between your device and a private network.                                                             | Cisco AnyConnect, OpenConnect                                                                | Secure access to internal servers such as leomed.ethz.ch or euler.ethz.ch |
-| VNC                    | Virtual Network Computing             | A remote desktop sharing protocol independent of platform or operating system.                                                                | RealVNC, TigerVNC, x11vnc                                                                    | Access GUI sessions from macOS or Linux to remote HPC desktops          |
-| X11 / X-Forwarding     | X Window System (Version 11)          | A protocol that allows GUI applications running on a remote server to display on your local machine.                                         | ssh -Y, XQuartz (macOS), MobaXterm (Windows)                                                 | Run GUI applications such as MATLAB or visualization tools remotely     |
-| FTP / FTPS             | File Transfer Protocol / Secure       | A classic file transfer protocol; FTPS adds SSL/TLS encryption.                                                                                | WinSCP, FileZilla, ftp command                                                               | Transfer files (less secure than SFTP; used in legacy systems)          |
-| API / REST API         | Application Programming Interface     | A structured interface that allows software components or servers to communicate via HTTP requests, often JSON-based.                        | curl, Postman, Python requests library                                                       | Access remote datasets, trigger jobs, or fetch information programmatically |
-
-
-<br>
-
 
 ## References / Reading List - Shape Modeling
-
-- [Polyscope - Toolkit for demos](https://polyscope.run/py/)
-- [SIGGRAPH 2025](https://s2025.conference-schedule.org/session/?sess=sess140)
-- [2024 - DMesh: A Differentiable Mesh Representation](https://sonsang.github.io/dmesh-project/)
-- [2025 - Piecewise Ruled Approximation for Freeform Mesh Surfaces](https://dl.acm.org/doi/abs/10.1145/3730866)
-- [2025 - NeuralSVG: An Implicit Representation for Text-to-Vector Generation](https://sagipolaczek.github.io/NeuralSVG/) - logo Gen
-- Toolkit - [2025 - Brainchop: In-browser 3D MRI rendering and segmentation](https://github.com/neuroneural/brainchop)
-- [2025 - E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework](https://www.linkedin.com/posts/erium_e-m3rf-an-equivariant-multimodal-3d-re-assembly-activity-7399815222879907840-yPPk?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
-- [2018 - End-to-end recovery of human shape and pose](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6NjbexEAAAAJ&citation_for_view=6NjbexEAAAAJ:f9jR0vFhilIC)
-
-
-## 2025
 
 - [2025 - Single-Image 3D Human Reconstruction with 3D-Aware Diffusion Priors and Facial Enhancement](https://dl.acm.org/doi/full/10.1145/3757377.3763839)
 - [2025 - Find Any Part in 3D](https://iccv.thecvf.com/virtual/2025/poster/98)
 - [2025 - Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](https://arxiv.org/pdf/2506.08220)
 - [2024 - DressCode: Autoregressively Sewing and Generating Garments from TextGuidance](https://www.youtube.com/watch?v=ofFyJBKL-Qg)
 - [📍 2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
-
+- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
 
 
 <br><br><br>
