@@ -34,6 +34,17 @@ learning hidden physical fields from sparse multimodal observations
 - [📍 2026 - A study confirms the role of magnetic fields in early stages of star formation](https://ice.csic.es/news/news-press-releases?view=article&id=951:a-study-confirms-the-role-of-magnetic-fields-in-early-stages-of-star-formation&catid=8)
 
 
+```
+multimodal observation
+magnetic-field inference
+streamer reconstruction
+MHD-constrained dynamics
+future disk prediction
+
+ALMA / MHD simulation infers hidden protostellar dynamics
+→ export magnetic fields, streamers, and gas-flow trajectories
+→ CesiumJS / Three.js visualizes magnetogravitational accretion beautifully
+```
 
 
 
