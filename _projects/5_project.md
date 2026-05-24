@@ -13,7 +13,18 @@ related_publications: true
 
 ## Topics
 
+1. Supergravity
 
+
+<br><br><br><br><br><br><br><br>
+
+
+
+
+
+2. PDE / MHD
+
+- [📍 2026 - A study confirms the role of magnetic fields in early stages of star formation](https://ice.csic.es/news/news-press-releases?view=article&id=951:a-study-confirms-the-role-of-magnetic-fields-in-early-stages-of-star-formation&catid=8)
 
 
 
