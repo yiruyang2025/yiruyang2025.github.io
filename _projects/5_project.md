@@ -26,8 +26,9 @@ related_publications: true
 ## Simulation
 
 
-1. NASA GMAT
-  - [link](https://github.com/nasa/GMAT?utm_source=chatgpt.com)
+1. 📍 NASA GMAT
+   - [link](https://github.com/nasa/GMAT?utm_source=chatgpt.com)
+  
 
 
 ```
