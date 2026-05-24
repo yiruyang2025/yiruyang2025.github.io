@@ -15,7 +15,6 @@ related_publications: true
 
 - [2026 - Try with some Endangered Languages](https://x.com/osanseviero/status/2032452729059045881?s=20/)
 
-
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
