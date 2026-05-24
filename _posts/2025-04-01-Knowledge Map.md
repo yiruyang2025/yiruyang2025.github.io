@@ -167,7 +167,7 @@ Information Geometry
 
 
 
-## Post-Training Techniques
+## Post-Training Techniques ❄️ 
 
 1. Parameter-Efficient Adaptation
    - Adapter
@@ -211,7 +211,7 @@ Information Geometry
 
 <br>
 
-## Evaluation / Capability Terms
+## Evaluation / Capability Terms ❄️ 
   - Zero-shot Learning
   - Few-shot Learning
   - In-context Learning
