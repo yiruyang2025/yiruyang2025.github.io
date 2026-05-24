@@ -15,7 +15,7 @@ related_publications: true
 
 
 
-<br><br><br><br><br><br><br><br><br><br>
+
 
 
 
@@ -78,7 +78,7 @@ GMAT / Basilisk generates trajectory
 
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ## References
