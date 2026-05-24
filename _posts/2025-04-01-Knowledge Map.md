@@ -15,8 +15,6 @@ images:
 <br>
 
 
-  - 🧊 Pretty things here
-  - We model the world mathematically via different philosophical viewpoints
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD
   - [📍 Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
@@ -54,7 +52,7 @@ images:
   
   - [📍 Introduction to Flow Matching and Diffusion Models - MIT 25/26](https://diffusion.csail.mit.edu/2025/index.html)
   - [Flow-matching](https://diffusion.kaist.ac.kr/)
-  - [📍 Imitation Learning - 2018 ICML tutorial](https://www.youtube.com/watch?v=6rZTaboSY4k)
+  - [Imitation Learning - 2018 ICML tutorial](https://www.youtube.com/watch?v=6rZTaboSY4k)
   - [📍 Caltech - Advanced Topics in Machine Learning](https://www.yisongyue.com/teaching), Yisong Yue
   - [2025 - Advances in Computer Vision](https://scenerepresentations.org/courses/2025/spring/advances-in-cv/#syllabus)
   - [2026 - Implement your AI Model Experiments](https://blog.ezyang.com/)
@@ -134,7 +132,7 @@ images:
 
 Deep Learning, 25
 
-(*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), 25/26)
+(*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
 [Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, GAP9, Deeploy, GPGPU, 26
 
@@ -171,27 +169,62 @@ Information Geometry
 
 ## Post-Training Techniques
 
-❄️ **Efficient Adaptation**
-  - Adapter (reduce training parameters)
-  - Distillation (transfer knowledge)
-  - Pruning (delete redundant structure)
+1. Parameter-Efficient Adaptation
+   - Adapter
+   - LoRA / QLoRA
+   - Prefix-tuning
+   - Prompt-tuning
+   - BitFit
 
+2. Model Compression and Deployment
+   - Knowledge Distillation
+   - Quantization
+   - Pruning
+   - Low-rank factorization
+   - Sparse inference
 
-❄️ **Representation Learning**
-  - Self-Supervised Learning - SSL
+3. Alignment and Preference Optimization
+   - Supervised Fine-Tuning, SFT
+   - Instruction Tuning
+   - RLHF / RLAIF
+   - DPO / IPO / KTO
+   - Constitutional AI-style alignment
 
+4. Model Manipulation
+   - Model Editing
+   - Model Merging
+   - Task Arithmetic
+   - Adapter Fusion
+   - Weight Averaging
 
-❄️ **Model Manipulation**
-  - Model Editing
-  - Model Merging
+5. Continual / Domain Adaptation
+   - Continual Learning
+   - Domain Adaptation
+   - Test-Time Adaptation
+   - Online Adaptation
 
+6. Data-Efficient Learning, related but not always post-training
+   - Semi-Supervised Fine-Tuning
+   - Self-Training
+   - Pseudo-labeling
+   - Few-shot adaptation
 
-❄️ **Generalization**
-  - Few-shot Learning
+<br>
+
+## Evaluation / Capability Terms
   - Zero-shot Learning
+  - Few-shot Learning
+  - In-context Learning
+  - Out-of-distribution Generalization
 
 
-<br><br><br><br><br><br><br>
+
+
+<br><br>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 
 
