@@ -401,8 +401,6 @@ $$
 <br>
 
 
-```
-
 
 <br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -410,9 +408,17 @@ $$
 
 
 
+
+
+
+
+
+
 ## References
 
   - [2025 - Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/), Junior Researcher
+
+
 
 
 <br><br><br><br>
