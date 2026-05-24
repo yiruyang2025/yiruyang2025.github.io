@@ -47,7 +47,7 @@ GMAT / Basilisk generates trajectory
 <br><br>
 
 
-## Visualizations
+## Visualization
 
 1. NASA Eyes / Eyes on the Solar System
    - [link](https://eyes.nasa.gov/apps/solar-system/#/home)
@@ -71,7 +71,7 @@ GMAT / Basilisk generates trajectory
 
 <br>
 
-2. Web Rendering Layer
+2. Web Render Layer
     - CesiumJS / Three.js
   
 
