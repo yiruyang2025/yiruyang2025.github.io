@@ -67,13 +67,13 @@ GMAT / Basilisk generates trajectory
 ## Web Interaction
 
 1. NASA/mission-viz
-  - [link](https://github.com/nasa/mission-viz)
+   - [link](https://github.com/nasa/mission-viz)
 
-
+<br>
 
 2. Web Rendering Layer
-  - CesiumJS / Three.js
-
+    - CesiumJS / Three.js
+  
 
 
 
