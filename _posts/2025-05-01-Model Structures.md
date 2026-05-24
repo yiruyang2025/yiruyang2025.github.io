@@ -400,33 +400,22 @@ $$
 
 <br>
 
-## Layers of Modern Compute Systems
 
-```
-Application defines WHAT
-↓
-OS defines HOW resources are used
-↓
-Compiler defines HOW code becomes instructions
-↓
-Compute units define WHERE execution happens
-↓
-Memory defines WHEN data is available
-↓
-Interconnect defines HOW FAST data moves
-↓
-Logic defines HOW EVERYTHING physically exists
 ```
 
 
 <br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
 
 
 ## References
 
-  - [2025 - Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/)
+  - [2025 - Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/), Junior Researcher
 
-<br><br>
+
+<br><br><br><br>
 
 
 
