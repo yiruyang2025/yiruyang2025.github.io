@@ -86,9 +86,13 @@ GMAT / Basilisk generates trajectory
 
 - [2019 - SO(8) Supergravity and the Magic of Machine Learning]()
 - [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)
+- []
 
 
-<br>
+
+
+<br><br>
+
 
 ## Lie Group, ODE, and Chaos
 
@@ -99,11 +103,11 @@ GMAT / Basilisk generates trajectory
 - [5] Hall, Brian C. Lie Groups, Lie Algebras, and Representations: An Elementary Introduction. 2nd ed. Cham: Springer, 2015.
 
 
+
 <br><br>
 
 
 ## References 2
-
 
 
 - []
