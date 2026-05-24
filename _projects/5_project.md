@@ -22,7 +22,59 @@ related_publications: true
 <br><br><br><br><br><br><br><br><br><br>
 
 
+
+## Simulation
+
+
+1. NASA GMAT
+  - [link](https://github.com/nasa/GMAT?utm_source=chatgpt.com)
+
+
+```
+trajectory generation
+mission scenario
+orbit propagation
+lunar / deep-space transfer
+navigation analysis
+
+GMAT / Basilisk generates trajectory
+→ export trajectory points
+→ CesiumJS / Three.js visualizes it beautifully
+```
+
+
+<br><br>
+
+
 ## Visualizations
+
+1. NASA Eyes / Eyes on the Solar System
+   - [link](https://eyes.nasa.gov/apps/solar-system/#/home)
+
+```
+3D scene
++ time controller
++ camera fly-through
++ mission trajectory
++ object labels
++ information panel
+```
+
+<br><br>
+
+
+## Web Interaction
+
+1. NASA/mission-viz
+  - [link](https://github.com/nasa/mission-viz)
+
+
+
+2. Web Rendering Layer
+  - CesiumJS / Three.js
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br>
