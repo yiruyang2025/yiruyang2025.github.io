@@ -13,7 +13,7 @@ related_publications: true
 
 ## Topics
 
-1. Supergravity
+**1. Supergravity**
 
 
 <br><br><br><br><br><br><br><br>
@@ -22,7 +22,7 @@ related_publications: true
 
 
 
-2. PDE / MHD, Benchmark paper
+**2. PDE / MHD, Benchmark paper**
 
 
 ```
