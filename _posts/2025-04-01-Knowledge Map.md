@@ -31,14 +31,49 @@ images:
   - Rust everything - [blogs - Zurich](https://sakex.github.io/ml-perf/array_programming/intro.html)
   - time zone - (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
 
-<br>
+<br><br>
 
 
-## Robotics
 
-- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
-- [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)
-- [Marco Hutter](https://www.youtube.com/watch?v=Wmn7uPLFXm8)
+
+## Relevant Coursework
+
+Deep Learning, 25
+
+(*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
+
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, GAP9, Deeploy, GPGPU, 26
+
+VLSI 2: From Netlist to Complete System on Chip
+
+[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
+
+[Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
+
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
+
+Probabilistic Artificial Intelligence, 26
+
+[Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
+
+(Vision Algorithms for Mobile Robotics (L+E))
+
+Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
+
+3D Computer Vision, C++, (Dynamic) SLAM, 26
+
+Visual Computing
+
+(Physically Based Simulation)
+
+Graph Theory, Lie Group, Number Theory
+
+Information Geometry
+
+
+
+<br><br>
+
 
 
 
@@ -102,6 +137,10 @@ images:
 - [2016 - Dynamic SLAM](https://www.youtube.com/watch?v=GByPKZDnG3Y)
 - [2026 - Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025)
 
+- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
+- [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)
+- [Marco Hutter](https://www.youtube.com/watch?v=Wmn7uPLFXm8)
+
 
 <br><br><br>
 
@@ -121,45 +160,6 @@ images:
 - [🧊 Daily News](https://news.ycombinator.com/)
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
 - [Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
-
-
-<br><br>
-
-
-## Relevant Coursework
-
-Deep Learning, 25
-
-(*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
-
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, GAP9, Deeploy, GPGPU, 26
-
-VLSI 2: From Netlist to Complete System on Chip
-
-[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
-
-[Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
-
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
-
-Probabilistic Artificial Intelligence, 26
-
-[Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
-
-(Vision Algorithms for Mobile Robotics (L+E))
-
-Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
-
-3D Computer Vision, C++, (Dynamic) SLAM, 26
-
-Visual Computing
-
-(Physically Based Simulation)
-
-Graph Theory, Lie Group, Number Theory
-
-Information Geometry
-
 
 
 <br><br>
