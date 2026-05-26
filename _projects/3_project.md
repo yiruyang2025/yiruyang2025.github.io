@@ -29,12 +29,6 @@ Iter 7000+: HashSize << full # should be for Hash
 
 <br>
 
-<video width="75%" controls>
-  <source src="/assets/video/project3_1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<br>
 
 
 ## Paper Generator™
