@@ -42,7 +42,7 @@ Deep Learning, 25
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), CUDA, HPC, GAP9, Deeploy, GPGPU, 26
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GAP9, Deeploy, GPGPU, 26
 
 VLSI 2: From Netlist to Complete System on Chip
 
