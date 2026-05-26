@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE (to PDE / MHD) from Observed Dynamics`, [], [M-Layer](https://arxiv.org/pdf/2008.03936), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [], ML for Physics / Science
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain-Mapping, [], []
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain-Mapping
 - 📍 [Prototype](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` in Symphony Music Generation, and More, [] ,[]
 
 
