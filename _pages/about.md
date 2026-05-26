@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- (Rust), C++, Python, GPGPU, CUDA, Jax, PyTorch, Blender, MuJoCo, Unreal, Ray, SUMO, FPGA, Deeploy, PULP, (ASIC), Linux, ROS2
+- (Rust), C++, Python, GPGPU, CUDA, Jax, PyTorch, Blender, MuJoCo, Unreal, Ray, SUMO, NPU, FPGA, Deeploy, PULP, (ASIC), Linux, ROS2
 
 
 - Always enjoy reading Philosophy, [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/MedNet.ai-25/)
