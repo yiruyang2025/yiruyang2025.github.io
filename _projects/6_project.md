@@ -235,14 +235,14 @@ Voxel-wise Quantification of Cerebral Amyloid Plaque Burden
 
 
 
-<br><br<br><br><br>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br>
 
 
 
 ## References
-
-- `If a team / mentor can tolerate you saying "This has no information" and listen carefully to the rest of your sentence, then it is a very good peer / team`
 
 - [Earthdata Plugin](https://plugins.qgis.org/plugins/nasa_earthdata/)
 - [DiffusionDrive](https://openreview.net/revisions?id=sh7vDLo5EY), CVPR highlight 2025.
