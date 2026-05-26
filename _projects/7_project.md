@@ -63,9 +63,17 @@ related_publications: true
 
 
 
+## References 1
+
+- [2015 - BiternionNets: continuous head orientation from discrete labels](https://x.com/giffmana/status/2059356284525195308?s=20)
 
 
-## References
+
+
+
+<br><br><br><br><br><br><br>
+
+## References 2
 
 - [2026 - Anny-One Dataset](https://europe.naverlabs.com/research/human-centric-computer-vision/anny-one/)
 - [2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
