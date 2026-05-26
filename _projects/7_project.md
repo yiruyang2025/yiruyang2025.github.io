@@ -39,7 +39,9 @@ related_publications: true
 |  2021 | **High-performance BPE implementations, e.g. tiktoken** | Optimized byte-level BPE encoding and decoding                                                 | Improved tokenization throughput and latency for large-scale training and inference systems                              | From tokenization as preprocessing to tokenization as systems infrastructure  |
 | 2024+ | **Tokenizer-free / byte-level modeling**                | Direct modeling of bytes, patches, or low-level discrete streams                               | Attempts to remove fixed token boundaries and reduce information loss introduced by handcrafted tokenizers               | From compressed symbolic units to end-to-end learned sequence representations |
 
+
 <br>
+
 
 | Stage                              | Dominant Assumption                                                  | Failure Mode                                                                        | Representative Methods                                   |
 | ---------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -59,7 +61,7 @@ related_publications: true
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br>
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
