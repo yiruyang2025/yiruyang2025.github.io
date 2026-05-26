@@ -10,6 +10,20 @@ related_publications: true
 
 <br>
 
+
+
+
+## References 1
+
+- [2015 - BiternionNets: continuous head orientation from discrete labels](https://x.com/giffmana/status/2059356284525195308?s=20)
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br>
+
 ## Topics
 
 
@@ -62,12 +76,6 @@ related_publications: true
 <br><br><br><br><br>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-## References 1
-
-- [2015 - BiternionNets: continuous head orientation from discrete labels](https://x.com/giffmana/status/2059356284525195308?s=20)
 
 
 
