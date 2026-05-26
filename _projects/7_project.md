@@ -19,7 +19,46 @@ related_publications: true
 
 
 <br><br><br><br><br><br><br><br><br><br>
+
+
+
+## Tokenization
+
+
+
+|  Year | Method                                                  | Core Mechanism                                                                                 | Key Contribution                                                                                                         | Paradigm Shift                                                                |
+| ----: | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+|  1994 | **Byte Pair Encoding (BPE, original)**                  | Data compression by repeatedly replacing the most frequent adjacent symbol pair                | Introduced BPE as a generic compression algorithm, later repurposed for subword tokenization                             | From explicit symbols to frequency-driven compression                         |
+| 1990s | **Rule-based / WordPunct tokenization**                 | Deterministic splitting using whitespace, punctuation, and hand-written rules                  | Provided simple and interpretable preprocessing for early NLP pipelines                                                  | Language-specific linguistic heuristics                                       |
+|  2012 | **Dictionary-based segmentation**                       | Lexicon lookup and morphological rules, especially for languages without whitespace boundaries | Enabled practical CJK segmentation through curated dictionaries and statistical heuristics, e.g. Jieba-style pipelines   | From universal whitespace splitting to language-specific segmentation         |
+|  2015 | **Subword BPE**                                         | Iterative frequency-based merging of character or symbol pairs                                 | Adapted BPE to neural machine translation, reducing the out-of-vocabulary problem by representing rare words as subwords | From word-level vocabularies to open-vocabulary subwords                      |
+|  2016 | **WordPiece**                                           | Greedy subword construction guided by likelihood improvement                                   | Used in Google NMT and later BERT-style models; selects subword units that better explain the training corpus            | From frequency-only merging to likelihood-aware vocabulary learning           |
+|  2018 | **SentencePiece**                                       | Language-agnostic tokenization directly from raw text                                          | Removed the need for external pre-tokenization; treats whitespace as a normal symbol and supports multilingual pipelines | From preprocessing-dependent tokenization to raw-text tokenization            |
+|  2018 | **Unigram Language Model tokenization**                 | Probabilistic subword model with vocabulary pruning based on likelihood                        | Learns a distribution over possible segmentations and supports subword regularization through sampling                   | From deterministic segmentation to probabilistic tokenization                 |
+|  2019 | **Byte-level BPE**                                      | BPE over byte sequences rather than Unicode characters                                         | Used in GPT-2; guarantees full coverage of arbitrary text without unknown tokens                                         | From Unicode/token coverage issues to universal byte-level coverage           |
+|  2021 | **High-performance BPE implementations, e.g. tiktoken** | Optimized byte-level BPE encoding and decoding                                                 | Improved tokenization throughput and latency for large-scale training and inference systems                              | From tokenization as preprocessing to tokenization as systems infrastructure  |
+| 2024+ | **Tokenizer-free / byte-level modeling**                | Direct modeling of bytes, patches, or low-level discrete streams                               | Attempts to remove fixed token boundaries and reduce information loss introduced by handcrafted tokenizers               | From compressed symbolic units to end-to-end learned sequence representations |
+
+<br>
+
+| Stage                              | Dominant Assumption                                                  | Failure Mode                                                                        | Representative Methods                                   |
+| ---------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Rule-based tokenization**        | Words are linguistically separable units                             | Fails on OOV words, morphology, multilingual text, and scripts without whitespace   | WordPunct, whitespace splitting, dictionary segmentation |
+| **Subword tokenization**           | Frequent character patterns form reusable semantic units             | Still imposes fixed segmentation and can fragment rare or multilingual terms poorly | BPE, WordPiece, Unigram LM                               |
+| **Language-agnostic tokenization** | Raw text should be processed without language-specific preprocessing | Vocabulary learning still depends on corpus statistics and tokenizer design         | SentencePiece, byte-level BPE                            |
+| **Systems-optimized tokenization** | Tokenization must be fast enough for large-scale deployment          | Compression efficiency and semantic granularity may conflict                        | tiktoken-style optimized BPE                             |
+| **Tokenizer-free modeling**        | Token boundaries should be learned or avoided entirely               | Longer sequences increase compute cost and make modeling harder                     | byte-level LMs, patch/byte sequence models               |
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br>
+
 <br><br><br><br><br>
 
 
