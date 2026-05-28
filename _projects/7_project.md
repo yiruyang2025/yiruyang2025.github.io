@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Audio
+title: 2026 - Master Thesis - Audio
 description: Continuous Tokenization from Transformer, Jyrki, 
 img: assets/img/4.jpg
 importance: 7
