@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` for Symphony Music Generation, and More, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [], [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/)
-- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE (to PDE / MHD)` from Observed Dynamics, [], [M-Layer](https://arxiv.org/pdf/2008.03936), [], ML for Physics / Science
+- 📍 [Master Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE (to PDE / MHD)` from Observed Dynamics, [ML for Science](https://chab.ethz.ch/en/), [M-Layer](https://arxiv.org/pdf/2008.03936), [AI Lab](https://las.inf.ethz.ch/teaching/introml-s26)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Accelerate 3D Brain Mapping
 
 
