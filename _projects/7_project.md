@@ -17,7 +17,7 @@ related_publications: true
 
 - [2015 - BiternionNets: continuous head orientation from discrete labels](https://x.com/giffmana/status/2059356284525195308?s=20)
 - [2025 - Who Invented Transformer Neural Networks?](https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html)
-
+- [1960 - A new approach to linear filtering and prediction problems](https://cds.cern.ch/record/434680), Kalman, R E
 
 
 
