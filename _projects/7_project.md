@@ -29,7 +29,7 @@ related_publications: true
 ## Audio
 
 
-[🇨🇭Bird Sounds Swiss](https://bird-song.ch/)
+- [🇨🇭Bird Sounds Swiss](https://bird-song.ch/)
 
 
 <br><br>
