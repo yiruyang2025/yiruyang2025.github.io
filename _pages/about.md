@@ -33,7 +33,7 @@ latest_posts:
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie, [real-time from iPhone]
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data Generation, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` for Symphony Music Generation, and More, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), AI Center
