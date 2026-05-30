@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Master Thesis - Audio
+title: 2026 - Master Thesis - Symphony Music
 description: Continuous Tokenization from Transformer, Jyrki, AI Center
 img: assets/img/4.jpg
 importance: 7
@@ -26,10 +26,13 @@ related_publications: true
 
 <br><br><br><br><br><br><br><br>
 
-## Audio
+## Audio (Symphony Music)
 
-- [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?hl=en), Google Arts & Culture
+- [📍 Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?hl=en), Google Arts & Culture
 - [🇨🇭Bird Sounds Swiss](https://bird-song.ch/)
+
+
+- []
 
 
 <br><br>
