@@ -28,8 +28,6 @@ related_publications: true
 
 
 
-## Arts
-
 <br>
 
 ## Audio (Symphony Music Generation)
@@ -49,7 +47,7 @@ related_publications: true
 
 
 - [Keith Jarrett - Over the Rainbow (Tokyo 1984) [Restored]](https://www.youtube.com/watch?v=AyLQGDIrGcI&list=WL)
-
+- [1851 - Franz Liszt - Campanella](https://www.youtube.com/watch?v=H1Dvg2MxQn8)
 
 
 <br><br><br><br><br><br><br><br><br><br>
@@ -76,9 +74,6 @@ related_publications: true
 
 
 
-## Techniques
-
-<br>
 
 ## Tokenization
 
