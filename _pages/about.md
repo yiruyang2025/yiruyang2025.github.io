@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="">Affiliations</a>. 🇨🇭
+subtitle: <a href="">Affiliations</a>. AI/ML 🇨🇭
 
 profile:
   align: right
