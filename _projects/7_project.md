@@ -19,7 +19,8 @@ related_publications: true
 - [2025 - Who Invented Transformer Neural Networks?](https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html)
 - [1960 - A new approach to linear filtering and prediction problems](https://cds.cern.ch/record/434680), Kalman, R E
 - 📍 [2021 - A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html), Anthropic
-- [2026 - Do Value Vectors in Deep Layers Need Context from the 📍 Residual Stream?](https://x.com/giffmana/status/2060633524487487972?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [2](https://x.com/hemuyu0327/status/2060779481032450309?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+- [2026 - Do Value Vectors in Deep Layers Need Context from the 📍 Residual Stream?](https://x.com/giffmana/status/2060633524487487972?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [2](https://x.com/hemuyu0327/status/2060779481032450309?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), AI/ML
+- [2026 - Looping Transformers for Multi-View 3D Reconstruction](https://x.com/tobiasfischer11/status/2060825255640256661?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [2](https://research.nvidia.com/labs/dvl/projects/dvlt/) Vision Task
 
 
 
