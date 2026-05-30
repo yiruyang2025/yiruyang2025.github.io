@@ -26,7 +26,7 @@ related_publications: true
 
 <br><br><br><br><br><br><br><br>
 
-## Audio (Symphony Music)
+## Audio (Symphony Music Generation)
 
 - [📍 Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?hl=en), Google Arts & Culture
 - [🇨🇭Bird Sounds Swiss](https://bird-song.ch/)
@@ -35,8 +35,21 @@ related_publications: true
 - []
 
 
-<br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
+
+## Pinao
+
+
+
+- [Keith Jarrett - Over the Rainbow (Tokyo 1984) [Restored]](https://www.youtube.com/watch?v=AyLQGDIrGcI&list=WL)
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+## Violin
 
 
 <br><br><br><br><br><br><br><br><br><br>
