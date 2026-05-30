@@ -26,6 +26,12 @@ related_publications: true
 
 <br><br><br><br><br><br><br><br>
 
+
+
+## Arts
+
+<br>
+
 ## Audio (Symphony Music Generation)
 
 - [📍 Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?hl=en), Google Arts & Culture
@@ -55,6 +61,13 @@ related_publications: true
 <br><br><br><br><br><br><br><br><br><br>
 
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+## Techniques
+
+<br>
 
 ## Tokenization
 
