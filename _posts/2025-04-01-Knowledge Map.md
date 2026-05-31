@@ -19,8 +19,8 @@ images:
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
-  - [📍 Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
-  - [📍 Jürgen Schmidhuber](https://www.linkedin.com/in/j%C3%BCrgen-schmidhuber-39226872/), GAN, LSTM, Deep learning in neural networks: An overview 2015, Swiss AI Lab
+  - [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
+  - [Jürgen Schmidhuber](https://www.linkedin.com/in/j%C3%BCrgen-schmidhuber-39226872/), GAN, LSTM, Deep learning in neural networks: An overview 2015, Swiss AI Lab
   - [Bradly C. Stadie](https://bstadie.github.io/), Can ChatGPT Control a Robot? 2026
   - [2026 - sakana.ai - The AI Scientist](https://sakana.ai/ai-scientist-nature/)
   - [Pedro Domingos](https://x.com/pmddomingos/status/1978333248888480079?s=20)
