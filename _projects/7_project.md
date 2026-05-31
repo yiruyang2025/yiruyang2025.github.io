@@ -30,11 +30,12 @@ related_publications: true
 
 ## Audio (Symphony Music Generation)
 
+
+
 - [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?hl=en)
-- [🇨🇭Bird Sounds Swiss](https://bird-song.ch/)
+- [Bird Sounds Swiss](https://bird-song.ch/)
 
 
-- []
 
 
 <br><br><br><br><br><br><br><br><br><br>
