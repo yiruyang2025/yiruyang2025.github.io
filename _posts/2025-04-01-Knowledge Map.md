@@ -16,7 +16,7 @@ images:
 
 
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
-  - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
+  - [📍 Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
   - [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
