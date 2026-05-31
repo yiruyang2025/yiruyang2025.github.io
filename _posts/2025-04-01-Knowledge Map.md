@@ -17,8 +17,8 @@ images:
 
   - [📍 Kaiming He](https://introtocv.github.io/), GDM
   - [📍 Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
-  - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
-  - [Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
+  - [📍 Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
+  - [📍 Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
   - [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
   - [Jürgen Schmidhuber](https://www.linkedin.com/in/j%C3%BCrgen-schmidhuber-39226872/), GAN, LSTM, Deep learning in neural networks: An overview 2015, Swiss AI Lab
