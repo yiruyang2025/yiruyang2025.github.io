@@ -125,7 +125,7 @@ related_publications: true
 
 ## References 2
 
-- [2026 - Anny-One Dataset](https://europe.naverlabs.com/research/human-centric-computer-vision/anny-one/)
+- ASL / RSL
 - [2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
 
 <br><br>
