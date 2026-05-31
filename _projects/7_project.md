@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Master Thesis - Symphony Music
-description: Continuous Tokenization from Transformer, Jyrki, AI Center
+description: Continuous Tokenization from Transformer, Davide, Jyrki, AI Center
 img: assets/img/4.jpg
 importance: 7
 category: work
