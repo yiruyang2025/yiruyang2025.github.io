@@ -60,7 +60,7 @@ related_publications: true
 
 
 
-## Pinao
+## Others
 
 
 
