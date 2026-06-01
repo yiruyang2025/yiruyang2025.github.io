@@ -513,31 +513,6 @@ Losses: Diffusion (MSE) + LPIPS
 
 ## Geometric Shape Modeling
 
-- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization](https://igl.ethz.ch/projects/tetweave/) - Multi-view 3d reconstruction, geometric texture generation, gradient-based mesh optimization, Isosurface Representation, [Fabricaible](https://www.fabricaible.com/)
-
-
-<p align="left">
-  <img src="https://yiruyang2025.github.io/assets/img/project3_1.jpg" alt="Project 1 Visualization" width="75%">
-</p>
-
-<br>
-
-```
-Marching Tetrahedra on Delaunay Triangulation
-(isosurface extraction on arbitrary point clouds)
-                 ↓
-Directional Signed Distance
-(spherical harmonics; edge-aware surface accuracy)
-                 ↓
-Adaptive Tetrahedral Grid
-(resampling where error is high; grid fits unknown surfaces)
-                 ↓
-Regularization Terms
-(fairness + ODT loss; improve mesh quality, avoid slivers)
-```
-
-<br>
-
 
 | Year     | Paper                                                                                                                | Type                 | Description                                                                                 | Core Mathematical Field                                |
 | -------- | -------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
