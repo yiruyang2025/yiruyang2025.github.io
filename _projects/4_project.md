@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis & Poster - SSL
-description: Patent, USZ
+description: USZ
 img: assets/img/4.jpg
 importance: 4
 category: work
