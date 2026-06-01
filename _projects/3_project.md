@@ -568,14 +568,19 @@ Regularization Terms
 
 
 
-## References
+## References 1 
 
-- [2025 - Single-Image 3D Human Reconstruction with 3D-Aware Diffusion Priors and Facial Enhancement](https://dl.acm.org/doi/full/10.1145/3757377.3763839)
 - [2025 - Find Any Part in 3D](https://iccv.thecvf.com/virtual/2025/poster/98)
-- [2025 - Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](https://arxiv.org/pdf/2506.08220)
 - [2024 - DressCode: Autoregressively Sewing and Generating Garments from TextGuidance](https://www.youtube.com/watch?v=ofFyJBKL-Qg)
 - [📍 2025 - AIpparel: A Multimodal Foundation Model for Digital Garments](https://igl.ethz.ch/projects/aipparel/aipparel_paper.pdf)
-- [2025 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids](https://dl.acm.org/doi/abs/10.1145/3730851)
+
+<br>
+
+## References 2
+
+
+- [2026 - Need for Speed: Zero-Shot Depth Completion with Single-Step Diffusion](https://dtu-pas.github.io/marigold-ssd/)
+
 
 
 <br><br><br>
