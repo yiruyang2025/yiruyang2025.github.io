@@ -9,7 +9,7 @@ profile:
   image: front_page.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>April 2025, Zürich, Have Fun and Write 🦀 </p>
+    <p>April 2025, Zürich 🦀 </p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
