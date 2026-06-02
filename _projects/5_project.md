@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - M-Layer for ODE, PDE, MHD from Space
+title: 2026 - Important Thesis - M-Layer for ODE (,PDE, MHD) from Space
 description: Thomas, Jyrki, AI Center
 img: assets/img/4.jpg
 importance: 5
