@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Accelerate 3D Brain Mapping
+title: 2026 - Thesis - Reasoning, Accelerate 3D Brain Mapping
 description: Alzheimer's Disease, warp
 img: assets/img/4.jpg
 importance: 6
@@ -10,7 +10,7 @@ related_publications: true
 
 <br>
 
-## Readings
+## References 1
 
 
 - [📍 Demos](https://www.linkedin.com/posts/lou-kohler-voinov-9956a5236_ever-wondered-what-happens-to-an-rnn-during-ugcPost-7440301117588180993-uiPt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
@@ -18,8 +18,14 @@ related_publications: true
 - [2020 - Searching efficient 3d architectures with sparse point-voxel convolution](https://arxiv.org/pdf/2007.16100)
 - [2026 - nvidia/NV-Generate-MR-Brain](https://huggingface.co/nvidia/NV-Generate-MR-Brain)
 
+<br><br>
 
-<br>
+## References 2
+
+- [2026 - Unlocking the Working Memory of Large Language Models for Latent Reasoning](https://arxiv.org/pdf/2605.30343)
+
+
+<br><br><br><br><br><br><br><br><br><br>
 
 ## 1. Comparison between Conventional Structural MRI and Quantitative Susceptibility Mapping (QSM MRI)
 
