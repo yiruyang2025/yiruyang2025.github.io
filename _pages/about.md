@@ -37,7 +37,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Hash Diffusion Less Steps
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` for Symphony Music Generation, and More, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), AI Center
-- 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning [ODE](https://www.linkedin.com/posts/googledeepmind_co-scientist-is-our-gemini-based-multi-agent-ugcPost-7467620275161841664-Y5vN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk) (to PDE / MHD)` from Observed Dynamics, [M-Layer](https://arxiv.org/pdf/2008.03936), [AI Lab](https://las.inf.ethz.ch/teaching), [KAN-SR](https://arxiv.org/pdf/2509.10089)
+- 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE(to PDE / MHD)` from Observed Dynamics, [M-Layer](https://arxiv.org/pdf/2008.03936), [AI Lab](https://las.inf.ethz.ch/teaching), [KAN-SR](https://arxiv.org/pdf/2509.10089)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Reasoning, Accelerate 3D Brain Mapping
 
 
@@ -45,7 +45,7 @@ latest_posts:
 
 
 **Interests**
-  - Space, Backbones, [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
+  - [Space](https://www.linkedin.com/posts/googledeepmind_co-scientist-is-our-gemini-based-multi-agent-ugcPost-7467620275161841664-Y5vN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), Backbones, [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Visual Intelligence, [Zurich](https://x.com/googledeepmind/status/1910363683215008227?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
   - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20)
 
