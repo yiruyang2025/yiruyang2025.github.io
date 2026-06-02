@@ -20,9 +20,17 @@ related_publications: true
 
 
 
+**2. ODE**
 
 
-**2. PDE / MHD, Benchmark paper**
+
+- [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), Physical constraints
+
+
+<br><br><br><br><br><br><br><br>
+
+
+**3. PDE / MHD, Benchmark paper**
 
 
 ```
