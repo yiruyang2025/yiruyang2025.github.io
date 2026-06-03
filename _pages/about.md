@@ -38,7 +38,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Master Thesis](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` for Symphony Music Generation, and More, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), AI Center
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - `Learning ODE (to PDE / MHD)` from Observed Dynamics, [M-Layer](https://arxiv.org/pdf/2008.03936), [AI Lab](https://las.inf.ethz.ch/teaching), [KAN-SR](https://arxiv.org/pdf/2509.10089)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Reasoning, Accelerate 3D Brain Mapping
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - Reasoning
 
 
 <br>
