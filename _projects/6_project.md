@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - Reasoning, Accelerate 3D Brain Mapping
+title: 2026 - Thesis - Reasoning
 description: Alzheimer's Disease, warp
 img: assets/img/4.jpg
 importance: 6
