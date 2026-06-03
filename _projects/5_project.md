@@ -122,6 +122,7 @@ GMAT / Basilisk generates trajectory
 
 - [2019 - SO(8) Supergravity and the Magic of Machine Learning]()
 - [2023 - On backpropagating Hessians through ODEs](https://arxiv.org/pdf/2301.08085)
+- [2007 - A systematic approach to multiphysics extensions of finite-element-based micromagnetic simulations: Nmag](https://eprints.soton.ac.uk/46725/1/Fisc_07.pdf), Operator-based abstraction
 - []
 
 
