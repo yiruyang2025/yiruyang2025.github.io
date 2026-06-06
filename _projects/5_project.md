@@ -13,7 +13,7 @@ related_publications: true
 
 ## Topics
 
-**1. Supergravity**
+**1. **
 
 
 <br><br><br><br><br><br><br><br>
@@ -23,7 +23,7 @@ related_publications: true
 **2. ODE**
 
 
-
+- [📍 2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060)
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), Physical constraints
 
 
