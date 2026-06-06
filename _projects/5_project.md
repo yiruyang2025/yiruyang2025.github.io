@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Important Thesis - M-Layer for ODE (PDE/MHD) from Space
-description: Thomas, Jyrki, (AI Center)
+description: Thomas, Jyrki, Lab, (AI Center)
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -13,14 +13,8 @@ related_publications: true
 
 ## Topics
 
-**1. **
 
-
-<br><br><br><br><br><br><br><br>
-
-
-
-**2. ODE**
+**1. ODE**
 
 
 - [📍 2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060), lab
@@ -30,7 +24,7 @@ related_publications: true
 <br><br><br><br><br><br><br><br>
 
 
-**3. PDE / MHD, Benchmark paper**
+**2. PDE / MHD, or Benchmark paper**
 
 
 ```
