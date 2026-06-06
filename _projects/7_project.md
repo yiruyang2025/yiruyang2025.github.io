@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - Symphony Music
+title: 2026 - Important Thesis - M-Layer for Symphony Music
 description: Continuous Tokenization from Transformer, Jyrki, Industry, (AI Center)
 img: assets/img/4.jpg
 importance: 7
