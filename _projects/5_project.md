@@ -17,7 +17,7 @@ related_publications: true
 **1. ODE**
 
 
-- [📍 2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060), lab
+- [📍 2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060), Science lab
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), Physical constraints
 
 
