@@ -19,7 +19,6 @@ related_publications: true
 
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
 - [2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060), science lab
-
 - 1931 - Hamiltonian Systems and Transformation in Hilbert Space
 
 <br><br><br><br><br><br><br><br>
