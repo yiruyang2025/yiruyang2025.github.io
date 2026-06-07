@@ -24,7 +24,7 @@ related_publications: true
 <br><br><br><br><br><br><br><br>
 
 
-**2.📍 Hamiltonian Systems and Operators**
+**2.Hamiltonian Systems and Operators**
 
 
 - Hamiltonian system
@@ -33,9 +33,6 @@ related_publications: true
 - Lie operator, Unitary operator
 
 <br>
-
-- [1931 - Hamiltonian Systems and Transformation in Hilbert Space](https://www.pnas.org/doi/10.1073/pnas.17.5.315)
-
 
 <br><br><br><br><br><br><br><br>
 
