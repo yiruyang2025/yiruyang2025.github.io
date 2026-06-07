@@ -30,6 +30,7 @@ related_publications: true
 - Hamiltonian system
 - Hilbert space: 📍 Transition from state point to function space
 - Weierstrass Approximation Theorem
+  - Universal Approximation Theorem, Bézier Curve
 - Lie operator, Unitary operator
 - Flow map
 
