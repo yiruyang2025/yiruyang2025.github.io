@@ -28,9 +28,10 @@ related_publications: true
 
 
 - Hamiltonian system
-- Flow map
 - Hilbert space: 📍 Transition from state point to function space
+- Weierstrass Approximation Theorem
 - Lie operator, Unitary operator
+- Flow map
 
 <br>
 
