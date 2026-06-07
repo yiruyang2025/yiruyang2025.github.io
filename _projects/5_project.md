@@ -24,7 +24,7 @@ related_publications: true
 <br><br><br><br><br><br><br><br>
 
 
-**2.📍 Hamiltonian Systems and Operator**
+**2.📍 Hamiltonian Systems and Operators**
 
 
 - Hamiltonian system
