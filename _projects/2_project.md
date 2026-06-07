@@ -17,7 +17,7 @@ related_publications: true
 - [2022 - AlphaCode](https://deepmind.google/blog/competitive-programming-with-alphacode/)
 - [2025 - Probabilistic Methods for Monocular 3D Human Reconstruction](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Probabilistic+Methods+for+Monocular+3D+Human+Reconstruction&btnG=)
 - [Mahcine Learning Street Talk](https://x.com/MLStreetTalk/status/1952743787454668931)
-
+- [2025 - 4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/pdf/2512.05060)
 
 <br>
 
