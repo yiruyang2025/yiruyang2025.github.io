@@ -82,7 +82,7 @@ related_publications: true
 
 - [Keith Jarrett - Over the Rainbow (Tokyo 1984) [Restored]](https://www.youtube.com/watch?v=AyLQGDIrGcI&list=WL)
 - [1851 - Franz Liszt - Campanella](https://www.youtube.com/watch?v=H1Dvg2MxQn8)
-
+- [2019 - Lang Lang – Bach: The Well-Tempered Clavier: Book 1, 1.Prelude C Major, BWV 846]
 
 <br><br><br><br><br><br><br><br><br><br>
 
