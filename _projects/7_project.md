@@ -20,7 +20,7 @@ related_publications: true
 - [1960 - A new approach to linear filtering and prediction problems](https://cds.cern.ch/record/434680), Kalman, R E
 - 📍 [2021 - A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html), Anthropic
 - [2026 - Do Value Vectors in Deep Layers Need Context from the Residual Stream?](https://x.com/giffmana/status/2060633524487487972?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [2](https://x.com/hemuyu0327/status/2060779481032450309?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), AI/ML
-- [📍 Classic Prediction Models](https://www.linkedin.com/feed/update/urn:li:groupPost:961087-7468905210048884736/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
+- [Classic Prediction Models](https://www.linkedin.com/feed/update/urn:li:groupPost:961087-7468905210048884736/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk)
 - [2018 - Enabling Factorized Piano Music Modeling and Generation with the 📍 MAESTRO Dataset](https://arxiv.org/abs/1810.12247), Google Brain, Deepmind
 
 
@@ -34,7 +34,7 @@ related_publications: true
 ## Tools
 
 - toml - Tom's Obvious, Minimal Language
-
+- python egg - package distribution format
 
 
 <br><br><br><br><br><br><br><br>
