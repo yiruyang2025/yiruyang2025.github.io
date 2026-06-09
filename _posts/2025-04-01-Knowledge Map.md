@@ -55,13 +55,13 @@ VLSI 2: From Netlist to Complete System on Chip
 
 [Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
-
 Probabilistic Artificial Intelligence, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
 
 (Vision Algorithms for Mobile Robotics (L+E))
+
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
