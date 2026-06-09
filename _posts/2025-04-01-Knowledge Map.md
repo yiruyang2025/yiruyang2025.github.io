@@ -65,8 +65,6 @@ Probabilistic Artificial Intelligence, 26
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
-3D Computer Vision, C++, (Dynamic) SLAM, 26
-
 Visual Computing
 
 (Physically Based Simulation)
