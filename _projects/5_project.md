@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Important Thesis - M-Layer for ODE (PDE/MHD)
-description: Thomas, Jyrki, Lab, (AI Center)
+description: Thomas, Jyrki, Lab, SR Lab, (AI Center)
 img: assets/img/4.jpg
 importance: 5
 category: work
@@ -14,7 +14,7 @@ related_publications: true
 ## Topics
 
 
-**1. ODE**
+**1. ODE and Symbolic Regression**
 
 
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
