@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - And More
-description: warp
+description: Alzheimer’s Disease, warp
 img: assets/img/4.jpg
 importance: 6
 category: work
