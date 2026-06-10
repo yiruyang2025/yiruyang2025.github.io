@@ -8,7 +8,17 @@ category: work
 related_publications: true
 ---
 
-<br><br>
+<br>
+
+
+
+```
+random seed for Jupiter (599) - 599
+```
+
+
+
+<br>
 
 
 ## Topics
