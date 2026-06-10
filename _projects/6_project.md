@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Thesis - And More
+title: 2026 - Thesis - Accelerate 3D Brain Mapping. And More
 description: Alzheimer’s Disease, warp
 img: assets/img/4.jpg
 importance: 6
