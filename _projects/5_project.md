@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Important Thesis - M-Layer for ODE (PDE/MHD)
-description: Thomas, Jyrki, Lab, SR Lab, (AI Center)
+description: Thomas, Jyrki, Lab, (AI Center)
 img: assets/img/4.jpg
 importance: 5
 category: work
