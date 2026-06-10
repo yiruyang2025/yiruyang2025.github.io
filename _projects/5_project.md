@@ -93,6 +93,16 @@ ALMA / MHD simulation infers hidden protostellar dynamics
 
 
 
+**5. Resample into Continuous Space**
+
+
+  - Jyrki
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
 ## Simulation
 
 
