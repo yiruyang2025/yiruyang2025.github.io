@@ -16,7 +16,7 @@ related_publications: true
 ## Topics
 
 
-**1. ODE and Symbolic Regression**
+**1. ODE**
 
 
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
@@ -72,6 +72,18 @@ ALMA / MHD simulation infers hidden protostellar dynamics
 
 
 <br><br><br><br><br><br><br><br><br><br>
+
+
+
+**4. Activation Functions**
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
 
 
 ## Simulation
