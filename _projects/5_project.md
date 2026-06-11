@@ -20,8 +20,9 @@ related_publications: true
 
 
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
-- [2024 - Machine learning uncovers analytical kinetic models of bioprocesses](https://www.sciencedirect.com/science/article/pii/S0009250924009060), science lab
 - 1931 - Hamiltonian Systems and Transformation in Hilbert Space
+  - nonlinear dynamics can be represented as linear transformations on a Hilbert space of observables.
+  
 - [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology), Anthropic
 
 <br><br><br><br><br><br><br><br>
