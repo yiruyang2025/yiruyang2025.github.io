@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Important Thesis - M-Layer for ODE to PDE (/MHD)
-description: Thomas, Jyrki, Lab
+title: 2026 - Important Thesis - M-Layer Foundation for Scientific Law Verification
+description: Thomas, Jyrki, Lab, ODE, PDE (/MHD)
 img: assets/img/4.jpg
 importance: 5
 category: work
