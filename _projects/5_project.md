@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - Learning ODE to PDE (/MHD) from Observed Dynamics
+title: 2026 - Important Thesis - M-Layer on Scientific Law Verification
 description: Thomas, Jyrki, Lab
 img: assets/img/4.jpg
 importance: 5
