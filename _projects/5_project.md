@@ -75,7 +75,7 @@ ALMA / MHD simulation infers hidden protostellar dynamics
 
 
 
-**4. Activation Functions**
+**4. Activation Functions and Field Theories**
 
 
 
