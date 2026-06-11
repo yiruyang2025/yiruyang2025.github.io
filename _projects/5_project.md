@@ -10,15 +10,7 @@ related_publications: true
 
 
 
-<br><br><br>
-
-
-
-```
-random seed for Jupiter (599) - 599
-```
-
-
+<br><br>
 
 
 ## Topics
@@ -51,19 +43,9 @@ random seed for Jupiter (599) - 599
 
 
 
-**3. Field Theory**
 
 
-
-<br>
-
-<br><br><br><br><br><br><br><br>
-
-
-
-
-
-**4. PDE / MHD, or Benchmark paper**
+**3. PDE / MHD, or Benchmark paper**
 
 
 ```
