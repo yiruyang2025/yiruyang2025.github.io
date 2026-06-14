@@ -44,9 +44,18 @@ related_publications: true
 
 
 
+**3. Topological Defect**
 
 
-**3. PDE / MHD, or Benchmark paper**
+
+- The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
+
+<br>
+
+<br><br><br><br><br><br><br><br>
+
+
+**4. PDE / MHD, or Benchmark paper**
 
 
 ```
@@ -76,7 +85,7 @@ ALMA / MHD simulation infers hidden protostellar dynamics
 
 
 
-**4. Activation Functions and Field Theories**
+**5. Activation Functions and Field Theories**
 
 
 
