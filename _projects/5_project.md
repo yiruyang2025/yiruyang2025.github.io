@@ -22,7 +22,7 @@ related_publications: true
 Original experiment test:
   - Can the model determine whether X=(q,v,a) is physical?
 
-New experiment test:
+Extended experiment test:
   - Can the model learn the nonlinear Hamiltonian flow as a linear operator in observable space?
 ```
 
