@@ -24,10 +24,17 @@ Original experiment test:
 
 Extended experiment test:
   - Can the model learn the nonlinear Hamiltonian flow as a linear operator in observable space?
+
+End goals:
+  - Finding linear symmetry representations of nonlinear dynamic systems in infinite-dimensional Hilbert space (Linear Representation of Symmetries)
 ```
 
 
 <br><br><br><br><br><br><br><br>
+
+
+
+## Toolkit
 
 **1. ODE**
 
