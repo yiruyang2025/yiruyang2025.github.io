@@ -13,7 +13,7 @@ related_publications: true
 <br><br>
 
 
-## Topics
+## End Goals
 
 
 
@@ -27,10 +27,16 @@ Extended experiment test:
 
 End goals:
   - Finding linear symmetry representations of nonlinear dynamic systems in infinite-dimensional Hilbert space (Linear Representation of Symmetries)
+
+Paths:
+  - Use the M-Layer neural network to parameterize a Lie algebra generator (Lie Operator) to learn a strictly energy-preserving and volume-preserving evolutionary group (Unitary Flow Map) in the infinite-dimensional Hilbert space, so as to accurately predict complex nonlinear Hamiltonian physical systems.
 ```
 
 
 <br><br><br><br><br><br><br><br>
+
+
+
 
 
 
