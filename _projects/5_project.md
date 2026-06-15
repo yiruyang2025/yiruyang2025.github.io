@@ -16,6 +16,8 @@ related_publications: true
 ## End Goals
 
 
+- A machine-learning framework for discovering and verifying induced by scientific laws` in high-dimensional `observation` space.
+
 
 
 ```
@@ -24,16 +26,7 @@ Original experiment test:
 
 Extended experiment test:
   - Can the model learn the nonlinear Hamiltonian flow as a linear operator in observable space?
-
-End goals:
-  - Finding linear symmetry representations of nonlinear dynamic systems in infinite-dimensional Hilbert space (Linear Representation of Symmetries)
 ```
-
-
-<br>
-
-- A machine-learning framework for discovering and verifying the constraint manifolds `induced by scientific laws` in high-dimensional `observation` space.
-
 
 <br>
 
