@@ -53,11 +53,11 @@ VLSI 2: From Netlist to Complete System on Chip
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
-[Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
-
 Probabilistic Artificial Intelligence, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
+
+([Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
