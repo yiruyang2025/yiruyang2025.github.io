@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - Thesis - And More
-description: Alzheimer’s Disease, warp
+description: Systems on Chip, warp
 img: assets/img/4.jpg
 importance: 6
 category: work
