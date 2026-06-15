@@ -33,7 +33,19 @@ Paths:
 ```
 
 
-<br><br><br><br><br><br><br><br>
+<br>
+
+- A machine-learning framework for discovering and verifying the constraint manifolds induced by scientific laws in high-dimensional observation space.
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
 
 
 
