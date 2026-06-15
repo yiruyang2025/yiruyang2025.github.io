@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - Symphony Music Generation
+title: 2026 - Important Thesis - Symphonic Music Generation
 description: Continuous Tokenization from Transformer, Jyrki, Industry, (AI Center)
 img: assets/img/4.jpg
 importance: 7
