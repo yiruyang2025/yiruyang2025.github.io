@@ -53,56 +53,7 @@ Future work - experiment test:
 [5]: https://www.imperial.ac.uk/news/articles/natural-sciences/physics/2026/ai-and-physics-combine-to-deliver-the-sharpest-weak-lensing-view-of-the-dark-universe/?utm_source=chatgpt.com "AI and physics combine to deliver the sharpest weak ..."
 
 
-
 <br>
-
-```
-1.📍 Einstein tensor
-
-- ambient space is 10+10+1+10=31D
-- after constraints is 31D−10=21D
-```
-
-
-*The equation (G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}R g_{\mu\nu}) represents 10 independent scalar constraints because it is an equality between symmetric rank-2 tensors in four-dimensional spacetime. A symmetric (4\times4) tensor has 10 independent components: 4 diagonal components and 6 independent off-diagonal components. Therefore, requiring a proposed Einstein tensor (\widehat{G}{\mu\nu}) to satisfy (\widehat{G}{\mu\nu}=R_{\mu\nu}-\frac{1}{2}R g_{\mu\nu}) imposes one scalar constraint for each independent tensor component, giving 10 scalar constraints in total.
-
-
-```
-2. 📍 Bioprocess Dynamics
-- ambient space is (3+3=6D)
-- after constraints is (6D-3=3D)
-```
-
-*The batch bioprocess equations (\frac{dX}{dt}=f_X(X,S)), (\frac{dS}{dt}=f_S(X,S)), and (\frac{dP}{dt}=f_P(X,S)) represent 3 independent scalar constraints because they define one kinetic-rate constraint for each state derivative. Here (X) is the biomass concentration, (S) is the substrate concentration, and (P) is the product concentration. Therefore, requiring a proposed rate vector ((\widehat{\dot{X}},\widehat{\dot{S}},\widehat{\dot{P}})) to satisfy the bioprocess kinetic equations imposes one scalar constraint for each derivative component, giving 3 scalar constraints in total.
-
-A concrete fixed-temperature benchmark is
-
-\frac{30.87XS}{(X+121.87)(S+105.4)},
-]
-
--\frac{440.99XS}{(X+121.87)(S+105.4)},
-]
-
-\frac{73.65XS}{(X+121.87)(S+105.4)}.
-]
-
-Thus, for the candidate point (Z=(X,S,P,\dot{X},\dot{S},\dot{P})\in\mathbb{R}^6), the physical consistency manifold is defined by 3 kinetic-rate constraints, giving a (3D) learned bioprocess submanifold.
-
-
-
-
-```
-3. Dark Matter
-- ambient space is (1+1+1=3D)
-- after constraints is (3D-1=2D)
-```
-
-*The equation (\nabla^2 \Phi = 4\pi G(\rho_b + \rho_{\mathrm{DM}})) represents 1 independent scalar constraint because it is an equality between scalar fields at each spatial point. Here (\nabla^2\Phi) is the Laplacian of the gravitational potential, (\rho_b) is the baryonic matter density, and (\rho_{\mathrm{DM}}) is the dark matter density. A scalar field has one independent value at each spatial point. Therefore, requiring a proposed dark matter density (\widehat{\rho}{\mathrm{DM}}) to satisfy (\nabla^2 \Phi = 4\pi G(\rho_b + \widehat{\rho}{\mathrm{DM}})) imposes one scalar constraint at each point, giving 1 scalar constraint in the pointwise verifier setting.
-
-
-
-<br>
-
 
 
 ## High-Dimensional Constraints Induced by Scientific Laws
