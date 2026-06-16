@@ -16,7 +16,7 @@ images:
 
 
   - [Kaiming He](https://introtocv.github.io/), GDM
-  - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher and Engineer Zurich
+  - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
   - [📍 Thomas Fischbacher](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en), brilliant Researcher Zurich
 
 
