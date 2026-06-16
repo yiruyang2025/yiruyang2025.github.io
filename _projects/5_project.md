@@ -290,6 +290,16 @@ GMAT / Basilisk generates trajectory
 <br><br>
 
 
+## Bio process
+
+- 📍 [1](https://books.google.ch/books/about/Analysis_Synthesis_and_Design_of_Chemica.html?id=f6sbYJuFSycC&redir_esc=y) 2012, Analysis, Synthesis, and Design of Chemical Processes. 
+
+
+
+
+<br><br>
+
+
 ## Lie Group, ODE, and Chaos
 
 - [1] Georgi, Howard. Lie Algebras in Particle Physics. 2nd ed. Boca Raton: CRC Press, 2018.
