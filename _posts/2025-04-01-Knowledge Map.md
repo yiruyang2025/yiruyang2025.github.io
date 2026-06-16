@@ -16,8 +16,12 @@ images:
 
 
   - [Kaiming He](https://introtocv.github.io/), GDM
+  - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher and Engineer Zurich
+  - [📍 Thomas Fischbacher](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en), brilliant Researcher Zurich
+
+
   - [📍 Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
-  - [📍 Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich, ex-Google Brain
+  - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich, ex-Google Brain
   - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
   - [Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
