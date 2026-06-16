@@ -16,15 +16,16 @@ related_publications: true
 ## End Goals
 
 
-- A machine-learning framework for discovering and verifying induced by scientific laws` in high-dimensional `observation` space.
+- A machine-learning framework for discovering and verifying induced by scientific laws in `high-dimensional observation` space.
+- - What might be missed in current Theoretical Laws?
 
 
 
 ```
-Original experiment test:
+Experiment test:
   - Can the model determine whether X=(q,v,a) is physical?
 
-Extended experiment test:
+Future work - experiment test:
   - Can the model learn the nonlinear Hamiltonian flow as a linear operator in observable space?
 ```
 
@@ -50,6 +51,28 @@ Extended experiment test:
 [3]: https://journal.hep.com.cn/fop/EN/10.15302/frontphys.2025.045301?utm_source=chatgpt.com "Dawning of a new era in gravitational wave data analysis"
 [4]: https://www.mpa-garching.mpg.de/1098943/hl202407?utm_source=chatgpt.com "Explaining the density profiles of dark matter halos with neural ..."
 [5]: https://www.imperial.ac.uk/news/articles/natural-sciences/physics/2026/ai-and-physics-combine-to-deliver-the-sharpest-weak-lensing-view-of-the-dark-universe/?utm_source=chatgpt.com "AI and physics combine to deliver the sharpest weak ..."
+
+
+
+<br>
+
+```
+1.📍 Einstein tensor
+
+- ambient space is 10+10+1+10=31D
+- after constraints is 31D−10=21D
+```
+
+
+*The equation G_{μν} = R_{μν} - 1/2 R g_{μν} represents 10 independent scalar constraints because it is an equality between symmetric rank-2 tensors in four-dimensional spacetime. A symmetric 4×4 tensor has 10 independent components: 4 diagonal components and 6 independent off-diagonal components. Therefore, requiring a proposed Einstein tensor Ĝ_{μν} to satisfy Ĝ_{μν} = R_{μν} - 1/2 R g_{μν} imposes one scalar constraint for each independent tensor component, giving 10 scalar constraints in total.
+
+```
+2. Dark Matter
+- ambient space is (1+1+1=3D)
+- after constraints is (3D-1=2D)
+```
+
+*The equation (\nabla^2 \Phi = 4\pi G(\rho_b + \rho_{\mathrm{DM}})) represents 1 independent scalar constraint because it is an equality between scalar fields at each spatial point. Here (\nabla^2\Phi) is the Laplacian of the gravitational potential, (\rho_b) is the baryonic matter density, and (\rho_{\mathrm{DM}}) is the dark matter density. A scalar field has one independent value at each spatial point. Therefore, requiring a proposed dark matter density (\widehat{\rho}{\mathrm{DM}}) to satisfy (\nabla^2 \Phi = 4\pi G(\rho_b + \widehat{\rho}{\mathrm{DM}})) imposes one scalar constraint at each point, giving 1 scalar constraint in the pointwise verifier setting.
 
 
 
