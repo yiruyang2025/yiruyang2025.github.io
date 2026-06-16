@@ -69,7 +69,7 @@ Visual Computing
 
 (Physically Based Simulation)
 
-Graph Theory, Lie Group, Number Theory
+Graph Theory, Group Theory, Number Theory
 
 Information Geometry
 
