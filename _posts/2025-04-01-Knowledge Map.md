@@ -17,7 +17,6 @@ images:
 
   - [Kaiming He](https://introtocv.github.io/), GDM
   - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
-  - [📍 Thomas Fischbacher](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en), brilliant Researcher Zurich
   - 📍 [prof. Gonzalo Guillén Gosálbez](https://scholar.google.com/citations?hl=en&user=J-JXXQYAAAAJ&view_op=list_works), Science Lab, Zurich
 
 
