@@ -148,7 +148,7 @@ Future work - experiment test:
   - [2024 - Soliton dynamics and multistability analysis of the Hamiltonian amplitude model](https://www.sciencedirect.com/science/article/pii/S2211379724005631)
 - [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology)
 
-<br><br><br><br><br><br><br><br>
+<br><br><br>
 
 
 **2.Hamiltonian Systems and Operators**
@@ -161,9 +161,8 @@ Future work - experiment test:
 - Lie operator, Unitary operator
 - Flow map
 
-<br>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br>
 
 
 
@@ -173,9 +172,9 @@ Future work - experiment test:
 
 - The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
 
-<br>
 
-<br><br><br><br><br><br><br><br>
+
+<br><br><br>
 
 
 **4. PDE / MHD, or Benchmark paper**
