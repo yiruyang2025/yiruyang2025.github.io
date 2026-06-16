@@ -17,10 +17,6 @@ images:
 
   - [Kaiming He](https://introtocv.github.io/), GDM
   - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
-  - 📍 [prof. Gonzalo Guillén Gosálbez](https://scholar.google.com/citations?hl=en&user=J-JXXQYAAAAJ&view_op=list_works), Science Lab, Zurich
-
-
-<br>
 
   - [📍 Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich, ex-Google Brain
