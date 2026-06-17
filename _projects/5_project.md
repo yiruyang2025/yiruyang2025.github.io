@@ -16,6 +16,11 @@ related_publications: true
 ## End Goals
 
 
+- [pretty visuals](https://valhovey.github.io/gaia-mary/)
+
+
+<br>
+
 - A machine-learning framework for discovering and verifying induced by scientific laws in `high-dimensional observation` space.
 - What might be missed in current Theoretical Laws?
 
@@ -23,10 +28,10 @@ related_publications: true
 
 ```
 Experiment test:
-  - Can the model determine whether X=(q,v,a) is physical?
+  - Can the model determine whether X=(q,v,a) is xxx?
 
-Future work - experiment test:
-  - Can the model learn the nonlinear Hamiltonian flow as a linear operator in observable space?
+Key Index:
+  - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
 ```
 
 <br>
@@ -114,6 +119,12 @@ Future work - experiment test:
 
 
 ## Toolkit
+
+
+- [npzviewer]
+
+
+
 
 **1. ODE**
 
