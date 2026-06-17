@@ -31,6 +31,15 @@ Key Index:
 
 <br>
 
+week 1 - Solar System family
+week 2 - + Bioprocess
+week 3 - 
+week 4 - 
+
+
+
+<br>
+
 ## What Else Can be Verified?
 
 | Frontier Problem                   | Core Open Question                                                                  | Why                                                                                                                           | AI / M-Layer Direction                                                                                                                                                    |
