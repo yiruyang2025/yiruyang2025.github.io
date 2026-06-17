@@ -17,13 +17,8 @@ related_publications: true
 
 
 - [pretty visuals](https://valhovey.github.io/gaia-mary/)
-
-
-<br>
-
-- A machine-learning framework for discovering and verifying induced by scientific laws in `high-dimensional observation` space.
+- M-Layer for discovering and verifying induced by scientific laws in `high-dimensional observation` space.
 - What might be missed in current Theoretical Laws?
-
 
 
 ```
