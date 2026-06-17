@@ -10,11 +10,12 @@ related_publications: true
 
 <br>
 
-## Topics
+## Topics - ICLR
 
 - [2024 - Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization](https://iclr.cc/virtual/2024/oral/19744), ICLR Oral GDM
   - 📍 C.3 SADDLE POINT ANALYSIS
 
+- [2016 - 📍 Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434), ICLR Test of Time
 
 
 
