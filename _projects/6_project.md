@@ -13,6 +13,7 @@ related_publications: true
 ## Topics
 
 - [2024 - Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization](https://iclr.cc/virtual/2024/oral/19744), ICLR Oral GDM
+  - 📍 C.3 SADDLE POINT ANALYSIS
 
 
 
