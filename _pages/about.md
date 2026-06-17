@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, (GDM)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Important Thesis and Web](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` for Symphonic Music Generation, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [Vello.ai](https://vello-client-six.vercel.app/), (), AI Center
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - M-Layer Learning `Dynamics Representations from Galaxy to a Cell`, [General Relativity Law Verification](https://arxiv.org/pdf/2008.03936), [AI Lab](https://las.inf.ethz.ch/people), [Science Lab](https://scholar.google.com/citations?user=J-JXXQYAAAAJ&hl=en), [v1.0.0](https://github.com/yiruyang2025/M-Layer-Jupiter-26)
