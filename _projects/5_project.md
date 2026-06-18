@@ -21,20 +21,50 @@ related_publications: true
 - What might be missed in current Theoretical Laws?
 
 
-```
 Experiment test:
   - Can the model determine whether X=(q,v,a) is xxx?
 
 Key Index:
   - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
+
+
+<br>
+
+
+## Lorentz data
+
+- 1D
+
+```
+gamma / energy
+   ^
+   |                              /
+   |                            /
+   |                         /
+   |                      /
+   |                  /
+   |             __/
+   |        __/
+   |______/________________________> beta = v/c
+        0        0.5       0.9   1
 ```
 
 <br>
 
-week 1 - Solar System family
-week 2 - + Bioprocess
-week 3 - 
-week 4 - 
+- 2D
+
+```
+beta_y
+  ^
+  |        high gamma near boundary
+  |       ***********************
+  |     ***                     ***
+  |    **       low gamma         **
+  |    **        near center      **
+  |     ***                     ***
+  |       ***********************
+  +-------------------------------> beta_x
+```
 
 
 
