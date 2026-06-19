@@ -39,11 +39,9 @@ images:
   - [Richard Feynman](https://www.youtube.com/watch?v=zITgl5z9pR0), [Feynman: How to think 1 of 2 fun to Imagine 11](https://www.youtube.com/watch?v=Cj4y0EUlU-Y)
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
   - Rust everything - [blogs - Zurich](https://sakex.github.io/ml-perf/array_programming/intro.html)
-  - [Michal Pitr](https://www.linkedin.com/posts/michal-pitr_im-kicking-off-a-new-series-to-cover-all-activity-7464789999461490688-5zUL?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
   - time zone - (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
 
 <br><br>
-
 
 
 
