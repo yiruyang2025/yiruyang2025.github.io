@@ -15,14 +15,14 @@ images:
 <br>
 
 
-  - [📍 Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
+  - [Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
   - [Thomas](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en)
 
 
 
 
   - [Kaiming He](https://introtocv.github.io/), GDM
-  - [📍 Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
+  - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
