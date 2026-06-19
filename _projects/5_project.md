@@ -21,10 +21,10 @@ related_publications: true
 - What might be missed in current Theoretical Laws?
 
 
-Experiment test:
+**Experiment test**
   - Can the model determine whether X=(q,v,a) is xxx?
 
-Key Index:
+**Key Index**
   - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
 
 
@@ -347,7 +347,6 @@ GMAT / Basilisk generates trajectory
 ## Bio process
 
 - 📍 [1](https://books.google.ch/books/about/Analysis_Synthesis_and_Design_of_Chemica.html?id=f6sbYJuFSycC&redir_esc=y) 2012, Analysis, Synthesis, and Design of Chemical Processes. 
-
 
 
 
