@@ -28,6 +28,13 @@ related_publications: true
   - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
 
 
+**Two Key Metrics**
+
+  - ROC-AUC
+  - Poincaré section consistency
+    - 📍 Recover the same phase-space section geometry as the true dynamical system.
+
+
 <br>
 
 
