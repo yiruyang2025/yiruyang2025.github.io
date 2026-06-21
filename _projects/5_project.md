@@ -38,6 +38,17 @@ related_publications: true
 
 <br>
 
+**Observed Data / MHD**
+
+
+- GOES / Geostationary Operational Environmental Satellites, NOAA energetic particle data
+  - These data represent extremely limited, single-point real-world observations of highly nonlinear magnetohydrodynamic (MHD) systems in infinite-dimensional `Hilbert space`.
+  - The 📍 input feature x(t) received by the model is a high-dimensional tensor containing the local energy spectrum and pitch angle distribution. Essentially, the model attempts to use an M-layer to inversely 📍 derive the global unitary flow map that produces these particles from this high-dimensional time series.
+
+
+
+<br>
+
 
 ## Lorentz data
 
@@ -333,11 +344,27 @@ GMAT / Basilisk generates trajectory
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 
 
 
 
+| Layer | Physical / Mathematical Theory                              |                                             Proposed by / Historical Origin |           Year / Period | Representative Space                                       |                                                   Representative Dimension | Core State Variable                                   | Core Law / Object                                                                 | Relevance to GOES / NOAA Energetic-Particle Data                                                                     | Meaning for M-Layer / Stage III                                                                         |
+| ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------: | ----------------------: | ---------------------------------------------------------- | -------------------------------------------------------------------------: | ----------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 1     | Euclidean physical space                                    |                                                                      Euclid |              c. 300 BCE | Classical geometric space                                  |                                                                         3D | Position ( \mathbf{x}\in\mathbb{R}^3 )                | Distance, angle, straight line                                                    | The basic spatial background for satellite position, Earth-centered coordinates, and magnetospheric geometry         | The lowest-level space in which GOES occupies a point on a geostationary orbit                          |
+| 2     | Newtonian absolute space and time                           |                                                                Isaac Newton |                    1687 | Absolute space plus absolute time                          |                                                                     (3+1)D | ( (\mathbf{x},t) )                                    | ( \mathbf{F}=m\mathbf{a} ), inverse-square gravity                                | Provides the classical orbital description of GOES around Earth                                                      | Useful for satellite ephemeris, but not sufficient for plasma-field reconstruction                      |
+| 3     | Keplerian orbital geometry                                  |                                                             Johannes Kepler |               1609–1619 | Conic-section orbital space                                |                                            2D orbital plane embedded in 3D | Orbital elements (a,e,i,\Omega,\omega,M)              | Elliptic motion, area law, harmonic law                                           | Describes idealized satellite/planetary motion before perturbations                                                  | Gives a controlled synthetic benchmark, but not the real MHD field                                      |
+| 4     | Lagrangian mechanics                                        |                                                       Joseph-Louis Lagrange |                    1788 | Configuration manifold and tangent bundle                  |                                  (n)-D configuration; (2n)-D tangent state | (q,\dot q)                                            | Euler–Lagrange equations                                                          | Useful for formulating particles moving under electromagnetic fields                                                 | Connects observed particle motion to hidden variational structure                                       |
+| 5     | Hamiltonian mechanics                                       |                                                      William Rowan Hamilton |               1833–1835 | Phase space                                                |                                          (2n)-D for (n) degrees of freedom | (q,p)                                                 | Hamiltonian flow ( \dot q=\partial H/\partial p,\ \dot p=-\partial H/\partial q ) | Charged-particle motion in magnetic fields is naturally Hamiltonian or nearly Hamiltonian                            | M-Layer can be interpreted as learning a generator of flow rather than a static classifier              |
+| 6     | Symplectic geometry                                         | Hamilton, Jacobi, Poincaré; modern formalization by Hermann Weyl and others |       19th–20th century | Symplectic manifold                                        |           
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## References
 
