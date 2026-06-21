@@ -125,6 +125,23 @@ beta_y
 
 <br>
 
+
+## When Choose Which Structure
+
+| Space Type                 | Example                                | Original M-Layer |    M²-Layer |
+| -------------------------- | -------------------------------------- | ---------------: | ----------: |
+| Algebraic constraint space | ((v,E)), ((p,E))                       |           Enough |    Optional |
+| Simple state space         | ((q,v,a)) one law                      |     Often enough |    Optional |
+| Phase space                | ((q,p)) with multiple invariants       |         May fail |      Useful |
+| Function space             | (u(t,x)) PDE field                     |          Limited |      Useful |
+| Operator / Hilbert space   | quantum (H_a,H_b)                      |          Limited | Very useful |
+| Gauge / curvature space    | field connection, commutator curvature |       Not enough |      Needed |
+
+
+
+
+<br>
+
 ## What Else Can be Verified?
 
 | Frontier Problem                   | Core Open Question                                                                  | Why                                                                                                                           | AI / M-Layer Direction                                                                                                                                                    |
