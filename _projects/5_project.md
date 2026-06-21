@@ -66,11 +66,11 @@ related_publications: true
 
 **Three Key Metrics**
 
-  - 1. ROC-AUC
+  - ROC-AUC
     - Does the learned score separate physical from unphysical samples across thresholds?
-  - 2. Poincaré section consistency
+  - Poincaré section consistency
     - 📍 Recover the same phase-space section geometry as the true dynamical system.
-  - 3. Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
+  - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
 
 <br>
 
