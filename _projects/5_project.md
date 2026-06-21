@@ -26,6 +26,12 @@ related_publications: true
 
 ## Path to `M²-Layer`
 
+- M^2 Layer = exp(𝑀𝑏)*exp(𝑀𝑎)
+
+
+
+<br>
+
 1. Observe and define the physical state.
    In the current experiment, each observation is a Lorentz-state pair $x = (v, E)$. The physical manifold is defined by
    $$
