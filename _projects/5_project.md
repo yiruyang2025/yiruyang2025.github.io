@@ -15,57 +15,53 @@ related_publications: true
 
 ## End Goals
 
-- [pretty visuals](https://valhovey.github.io/gaia-mary/)
-- M-Layer for discovering and verifying induced by scientific laws in `high-dimensional observation` space.
+- [Pretty visuals](https://valhovey.github.io/gaia-mary/)
+- M-Layer for discovering and verifying symmetries induced by scientific laws in `high-dimensional observation` space.
 - What might be missed in current Theoretical Laws?
 
-
 **Experiment test**
-  - Can the model determine whether X=(q,v,a) is xxx?
+- Can the model determine whether X=(q,v,a) is a valid physical state?
 
+---
 
-## Path to `M²-Layer`
+## Path to M²-Layer
 
-- M^2 Layer = exp(𝑀𝑏)*exp(𝑀𝑎)
+**Core Concept:** `M²-Layer = exp(Mb) * exp(Ma)`
 
-
-
-<br>
-
-1. Observe and define the physical state.
-   In the current experiment, each observation is a Lorentz-state pair $x = (v, E)$. The physical manifold is defined by
+1. **Observe and define the physical state.**
+   In the current experiment, each observation is a Lorentz-state pair $x = (v, E)$. The physical manifold is defined by:
    $$
-   E^2(1 - v^2) = 1,
+   E^2(1 - v^2) = 1
    $$
    with $y = 0$ denoting physical samples and $y = 1$ denoting non-physical samples. The model therefore acts as a physical-law verifier rather than a full dynamical simulator.
 
-2. Learn the original M-Layer generator.
-   The current M-Layer constructs a state-dependent matrix
+2. **Learn the original M-Layer generator.**
+   The current M-Layer constructs a state-dependent matrix:
    $$
    M_\theta(x) = \sum_i x_i T_i
    $$
-   and evaluates a matrix-exponential score
+   and evaluates a matrix-exponential score:
    $$
-   r_\theta(x) = \mathrm{Tr}(\exp(M_\theta(x))S).
+   r_\theta(x) = \mathrm{Tr}(\exp(M_\theta(x))S)
    $$
    The physical law is represented as an implicit zero set $r_\theta(x) = 0$. Thus, the current model is an algebraic physical-law verifier, not yet a one-step ODE/PDE flow map.
 
-3. Upgrade to a composed M²-Layer.
+3. **Upgrade to a composed M²-Layer.**
    The next architecture should not square the matrix literally as $\exp(M^2)$. Instead, it should compose two learned M-Layer flows:
    $$
-   g_\theta(x) = \exp(M_b(x))\exp(M_a(x)).
+   g_\theta(x) = \exp(M_b(x))\exp(M_a(x))
    $$
-   By the Baker–Campbell–Hausdorff expansion,
+   By the Baker–Campbell–Hausdorff expansion:
    $$
-   \exp(M_b)\exp(M_a) = \exp\left(M_a + M_b + \frac{1}{2}[M_b, M_a] + \dots\right),
+   \exp(M_b)\exp(M_a) = \exp\left(M_a + M_b + \frac{1}{2}[M_b, M_a] + \dots\right)
    $$
-   where
+   where:
    $$
-   [M_b, M_a] = M_b M_a - M_a M_b.
+   [M_b, M_a] = M_b M_a - M_a M_b
    $$
    The commutator term introduces curvature and non-commutative interactions that a single exponential generator cannot express. This is the natural next step suggested by the hard-negative failure in the current ablation.
 
-<br>
+   <br>
 
 **Three Key Metrics**
 
