@@ -31,6 +31,7 @@ related_publications: true
 **Two Key Metrics**
 
   - ROC-AUC
+    - Does the learned score separate physical from unphysical samples across thresholds?
   - Poincaré section consistency
     - 📍 Recover the same phase-space section geometry as the true dynamical system.
 
