@@ -32,7 +32,7 @@ latest_posts:
 - Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/), ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
