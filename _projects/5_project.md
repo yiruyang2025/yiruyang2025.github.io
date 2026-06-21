@@ -16,6 +16,7 @@ related_publications: true
 ## End Goals
 
 - [Pretty visuals](https://valhovey.github.io/gaia-mary/)
+- [learn the shape of some healthy (no oil, no sugar) food](https://www.linkedin.com/posts/hamidnaderiyeganeh_i-drew-these-chili-peppers-with-mathematical-activity-7474450857829408768-iKaZ?utm_medium=ios_app&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk&utm_source=social_share_send&utm_campaign=copy_link)
 - M-Layer for discovering and verifying symmetries induced by scientific laws in `high-dimensional observation` space.
 - What might be missed in current Theoretical Laws?
 
