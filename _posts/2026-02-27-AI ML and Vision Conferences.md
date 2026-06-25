@@ -95,6 +95,20 @@ All classes have a built-in method called __init__(), used to assign values to o
 
 <br>
 
+## Toolkits
+
+| Tool      | Main Use Case                          | Limitation                                              | marimo Advantage                                          |
+| --------- | -------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
+| Jupyter   | Experimental notebooks                 | Hidden state and poor Git diffs                         | Reactive execution and pure `.py` files                   |
+| Colab     | Cloud GPU demos                        | Weak local engineering support and confusing file paths | Stronger local reproducibility                            |
+| Streamlit | Rapid app development                  | Notebook experiments must be rewritten as apps          | Notebooks can be directly turned into apps                |
+| Papermill | Batch execution of notebooks           | Not suitable for interactive workflows                  | marimo supports both scripting and interactivity          |
+| marimo    | Experiments, apps, and reproducibility | Ecosystem is still smaller than Jupyter’s               | Best suited for paper demos and reproducible ML workflows |
+
+
+
+<br>
+
 ## DFS on a decision tree
 
 | Problem      | Index rule       | Meaning             |
