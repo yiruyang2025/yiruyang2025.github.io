@@ -193,7 +193,6 @@ In practice, different stages use different losses:
 
 ## References 2
 
-- ASL / RSL
 - [2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
 
 <br><br>
