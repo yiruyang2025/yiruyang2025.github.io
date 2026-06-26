@@ -29,7 +29,7 @@ latest_posts:
 - (OCaml), Rust, `Jax`, TPU, C++, Pytorch, Python, CUDA, Blender, MuJoCo, Unreal, Ray, SUMO, NPU, FPGA, Deeploy, PULP, (ASIC), Linux, ROS2
 
 
-- Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
+- Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
 
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on High Dimensional `Manifolds`, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
