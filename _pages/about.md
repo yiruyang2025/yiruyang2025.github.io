@@ -32,13 +32,13 @@ latest_posts:
 - Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), For lifelong study - Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on `Manifolds` / [High Dimensional Spaces](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [AI Center](https://www.linkedin.com/company/eth-ai-center/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on High Dimensional `Manifolds`, [AI Center](https://www.linkedin.com/company/eth-ai-center/)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en), AI Center, [Shape Completion and Registration](https://comreg-page.github.io/)
 - 📍 [Important Thesis and Web](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` from symphonic music Generation to LLM, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [Vello.ai](https://vello-client-six.vercel.app/), [AI Center](https://www.linkedin.com/in/arnoutdevos/)
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - When MLP fails, M-Layer verifying `Dynamics from Galaxies to a Cell`, [Research](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en), [ML Lab](https://las.inf.ethz.ch/people), [Science Lab](https://scholar.google.com/citations?user=J-JXXQYAAAAJ&hl=en), Is Planet 10 / Cell X Real?
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Backpropagation` decoupled, ()
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Backpropagation` [decoupled]((https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), ()
 
 
 <br>
