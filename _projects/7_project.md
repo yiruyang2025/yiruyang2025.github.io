@@ -43,54 +43,6 @@ related_publications: true
 <br><br><br><br><br><br><br><br>
 
 
-## Loss for Music Generation
-
-```
-Music generation requires losses at multiple levels because the model must learn **audio fidelity**, **spectral accuracy**, **temporal coherence**, and **text-music alignment**
-```
-
-
-| Loss Type                           | Formula                                               | Training Stage                                                  | Used In                                                                     | Core Function                                                                                                     |
-| ----------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Reconstruction Loss**             | L_rec = ‖x − x_hat‖₁ or ‖x − x_hat‖₂²                 | Autoencoder / codec training; supervised reconstruction         | VAE, VQ-VAE, EnCodec, SoundStream, diffusion decoder                        | Reconstructs the original waveform or latent representation and preserves timbre, pitch, and local audio details. |
-| **Log-Mel Spectrogram Loss**        | L_mel = ‖Mel(x) − Mel(x_hat)‖₁                        | Audio decoder / vocoder training                                | HiFi-GAN, diffusion vocoder, neural codec decoder                           | Matches the generated audio to the real audio in the frequency domain, improving perceptual quality.              |
-| **Adversarial Loss**                | L_adv = −E[D(x_hat)]                                  | GAN-based waveform or spectrogram generation                    | HiFi-GAN, MusicGen decoder variants, neural vocoders                        | Makes generated music sound more realistic by training a discriminator to distinguish real from generated audio.  |
-| **Feature Matching Loss**           | L_fm = Σ_l ‖D_l(x) − D_l(x_hat)‖₁                     | Stable GAN / vocoder training                                   | HiFi-GAN, Multi-Scale / Multi-Period Discriminator systems                  | Matches hidden-layer features between real and generated audio, stabilizing GAN training and improving texture.   |
-| **Diffusion Noise Prediction Loss** | L_diff = ‖ε − ε_θ(z_t, t, c)‖₂²                       | Diffusion model training                                        | AudioLDM, Stable Audio, diffusion-based music generation                    | Trains the model to denoise noisy latent or audio representations step by step.                                   |
-| **Autoregressive Token Loss**       | L_AR = −Σ_t log p_θ(y_t given y_<t, c)                | Token-level sequence modeling                                   | MusicGen, MusicLM-style token models, Transformer decoders                  | Trains the model to predict the next music token, preserving temporal order and musical structure.                |
-| **Consistency Loss**                | L_con = KL(p_θ(y_t given c) ‖ p_θ(y_{t+k} given c))   | Long-sequence training / structure regularization               | Long-form music generation, hierarchical Transformers, diffusion refinement | Prevents rhythm, harmony, and musical form from collapsing over long generations.                                 |
-| **CLAP / Contrastive Loss**         | L_CLAP = −log exp(sim(a,t)/τ) / Σ_j exp(sim(a,t_j)/τ) | Audio-text pretraining or text-conditioned generation alignment | CLAP, AudioLDM, text-to-music systems                                       | Aligns generated audio with the text prompt, such as “Mozart style,” “cinematic orchestral,” or “jazz piano.”     |
-
-<br>
-
-## Final Objective
-
-A modern music generation model usually combines several losses:
-
-L_total
-= λ_rec L_rec
-
-* λ_mel L_mel
-* λ_adv L_adv
-* λ_fm L_fm
-* λ_seq L_AR_or_diff
-* λ_align L_CLAP
-
-<br>
-
-In practice, different stages use different losses:
-
-| Training Stage                          | Main Losses                                             | Purpose                                                           |
-| --------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Audio codec / autoencoder training**  | Reconstruction Loss + Log-Mel Loss                      | Learn a compact continuous or discrete audio representation.      |
-| **Vocoder / decoder training**          | Log-Mel Loss + Adversarial Loss + Feature Matching Loss | Convert latent or audio tokens back into a high-quality waveform. |
-| **Autoregressive music-token training** | Cross-Entropy / Next-Token Loss                         | Learn musical sequence structure over time.                       |
-| **Diffusion music generation**          | Noise Prediction Loss                                   | Learn iterative denoising from noise to music.                    |
-| **Text-to-music alignment**             | CLAP / Contrastive Loss                                 | Ensure the generated music follows the text prompt.               |
-| **Long-form generation refinement**     | Consistency Loss                                        | Maintain rhythm, harmony, and structure across long sequences.    |
-
-<br><br><br><br><br><br><br>
-
 
 
 <br>
