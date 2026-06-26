@@ -97,7 +97,7 @@ In practice, different stages use different losses:
 
 
 
-## Audio (Symphony Music Generation)
+## Audio (Symphonic Music Generation)
 
 
 
@@ -108,23 +108,6 @@ In practice, different stages use different losses:
 
 <br><br><br><br><br><br><br><br><br><br>
 
-
-
-## Violin
-
-
-<br><br><br><br><br><br><br><br><br><br>
-
-
-
-## Cello
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br>
 
 
 
