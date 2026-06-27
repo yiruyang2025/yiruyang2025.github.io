@@ -345,9 +345,68 @@ Complexity analysis
 
 
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+
+## Classic LLM / NLP Milestones
+
+| Field                        |                                                                                                                       Who |            When | What they proposed                           | Why it was proposed / core motivation                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------: | --------------: | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Long-range Sequence Modeling |                                                                                   **Sepp Hochreiter, Jürgen Schmidhuber** |        **1997** | **LSTM**                                     | To address the vanishing-gradient problem in recurrent neural networks and learn long-term dependencies in sequences. ([ACL Anthology][1])                      |
+| Word Representation          |                                                   **Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, Ilya Sutskever** |        **2013** | **Word2Vec / Skip-gram / Negative Sampling** | To learn efficient distributed word vectors that capture semantic and syntactic relationships while training quickly on large corpora. ([arXiv][2])             |
+| Neural Machine Translation   |                                                                                **Ilya Sutskever, Oriol Vinyals, Quoc Le** |        **2014** | **Sequence-to-Sequence Learning**            | To map one sequence to another using neural networks, especially for machine translation, without hand-designed alignment rules. ([arXiv][3])                   |
+| Attention Mechanism          |                                                                        **Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio** | **2014 / 2015** | **Neural Attention for Machine Translation** | To let the decoder dynamically focus on relevant source tokens, solving the bottleneck of compressing an entire sentence into one fixed vector.                 |
+| Transformer                  | **Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, Illia Polosukhin** |        **2017** | **Transformer**                              | To replace recurrence and convolution with self-attention, enabling parallel training and better long-range dependency modeling. ([papers.neurips.cc][4])       |
+| Contextual Pretraining       |                                                          **Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova** |        **2018** | **BERT**                                     | To pretrain bidirectional language representations using masked language modeling, improving downstream NLP tasks through fine-tuning.                          |
+| Generative Pretrained LM     |                                                                                           **Alec Radford et al., OpenAI** |        **2018** | **GPT-1**                                    | To show that unsupervised generative pretraining followed by supervised fine-tuning can produce strong NLP performance.                                         |
+| Scaling Generative LM        |                                                                                           **Alec Radford et al., OpenAI** |        **2019** | **GPT-2**                                    | To show that larger autoregressive language models trained on broad web text can perform many tasks in a zero-shot style.                                       |
+| Large-scale Few-shot LM      |                                                                                              **Tom Brown et al., OpenAI** |        **2020** | **GPT-3**                                    | To demonstrate that scaling parameters and data can produce strong in-context learning and few-shot generalization without task-specific fine-tuning.           |
+| Instruction-following LLM    |                                                                                             **OpenAI / InstructGPT team** |        **2022** | **InstructGPT / RLHF alignment**             | To make pretrained language models follow human instructions more reliably by using supervised instruction data and reinforcement learning from human feedback. |
+| Chat Interface LLM           |                                                                                                                **OpenAI** |        **2022** | **ChatGPT**                                  | To make LLMs usable through interactive dialogue, making instruction-following AI accessible to general users.                                                  |
+
+[1]: https://aclanthology.org/D15-1280.pdf?utm_source=chatgpt.com "Multi-Timescale Long Short-Term Memory Neural Network ..."
+[2]: https://arxiv.org/abs/1310.4546?utm_source=chatgpt.com "Distributed Representations of Words and Phrases and their Compositionality"
+[3]: https://arxiv.org/abs/1409.3215?utm_source=chatgpt.com "Sequence to Sequence Learning with Neural Networks"
+[4]: https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf?utm_source=chatgpt.com "Attention is All you Need"
+
+
+
+<br><br>
+
+
+## Classic Computer Vision Milestones
+
+
+| Field                          |                                                           Who |            When | What they proposed                               | Why it was proposed / core motivation                                                                                                                                                                           |
+| ------------------------------ | ------------------------------------------------------------: | --------------: | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Early Computer Vision          |                                       **Lawrence G. Roberts** |        **1963** | *Machine Perception of Three-Dimensional Solids* | To make machines infer 3D structure from 2D visual input; this is often treated as one of the earliest foundations of computer vision. ([dspace.mit.edu][1])                                                    |
+| CNN / Early Deep Vision        |   **Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner** |        **1998** | **LeNet-5**                                      | To recognize handwritten digits using convolution, weight sharing, and backpropagation; it showed that neural networks could learn spatial visual features.                                                     |
+| Large-scale Deep Vision        |          **Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton** |        **2012** | **AlexNet**                                      | To scale CNNs to large ImageNet classification using GPUs, ReLU, dropout, and deep convolutional layers; it made deep learning dominant in vision. ([NeurIPS 会议论文集][2])                                         |
+| Semantic Segmentation          |             **Jonathan Long, Evan Shelhamer, Trevor Darrell** | **2014 / 2015** | **Fully Convolutional Network, FCN**             | To convert classification CNNs into end-to-end pixel-wise prediction models for semantic segmentation. Their key idea was to make CNNs output dense spatial maps instead of one image-level label. ([arXiv][3]) |
+| Biomedical Segmentation        |            **Olaf Ronneberger, Philipp Fischer, Thomas Brox** |        **2015** | **U-Net**                                        | To solve biomedical image segmentation with few labeled samples. U-Net used a contracting path for context and an expanding path for precise localization. ([arXiv][4])                                         |
+| Deep Residual Vision           |         **Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun** | **2015 / 2016** | **ResNet**                                       | To make very deep neural networks easier to train by learning residual functions instead of direct mappings; this addressed optimization degradation in deep networks. ([arXiv][5])                             |
+| Object Detection               |         **Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun** |        **2015** | **Faster R-CNN**                                 | To make object detection faster and more accurate by introducing Region Proposal Networks instead of relying on slow external proposal methods.                                                                 |
+| Instance Segmentation          | **Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick** |        **2017** | **Mask R-CNN**                                   | To extend object detection into instance segmentation by adding a mask prediction branch for each detected object.                                                                                              |
+| Vision Transformer             |                                 **Alexey Dosovitskiy et al.** |        **2020** | **ViT, Vision Transformer**                      | To show that pure Transformers can process images as sequences of patches and compete with CNNs when trained at scale. ([arXiv][6])                                                                             |
+| Foundation Vision Segmentation |                        **Alexander Kirillov et al., Meta AI** |        **2023** | **Segment Anything Model, SAM**                  | To build a promptable general-purpose segmentation foundation model, enabling masks from clicks, boxes, or text-like prompts across many image domains.                                                         |
+
+[1]: https://dspace.mit.edu/handle/1721.1/11589?utm_source=chatgpt.com "Machine perception of three-dimensional solids"
+[2]: https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf?utm_source=chatgpt.com "ImageNet Classification with Deep Convolutional Neural ..."
+[3]: https://arxiv.org/abs/1411.4038?utm_source=chatgpt.com "Fully Convolutional Networks for Semantic Segmentation"
+[4]: https://arxiv.org/abs/1505.04597?utm_source=chatgpt.com "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+[5]: https://arxiv.org/abs/1512.03385?utm_source=chatgpt.com "[1512.03385] Deep Residual Learning for Image Recognition - arXiv"
+[6]: https://arxiv.org/abs/2010.11929?utm_source=chatgpt.com "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ## ECCV
