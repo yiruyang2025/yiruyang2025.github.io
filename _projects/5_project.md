@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - M-Layer on Scientific Law Verification, ODEs to PDEs
+title: 2026 - ODEs to PDEs
 description: Thomas, Jyrki, profs and Labs
 img: assets/img/4.jpg
 importance: 5
