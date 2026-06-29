@@ -41,10 +41,37 @@ related_publications: true
 | General mathematical distance | **Fréchet Distance / FD** |
 
 
-<br><br><br><br><br><br><br><br>
+<br>
 
 
 
+| Metric                                                 | What it proves                                                                                                                                                                                                       |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FAD / FD-audio ↓**                                   | Measures whether the generated audio distribution is close to real Mozart recordings in a learned audio embedding space. This is the main distribution-level metric for audio realism and corpus-level alignment.    |
+| **MERT embedding FD ↓**                                | Measures whether the generated samples preserve music-semantic and style-level similarity to Mozart, including melody, harmony, timbre, and higher-level musical texture.                                            |
+| **CLAP text-audio score ↑**                            | Measures whether the generated music follows the input prompt, such as “Mozart-style piano sonata,” “classical allegro,” or “minor-key piano phrase.” This evaluates controllability rather than only audio quality. |
+| **Spectral centroid / bandwidth / rolloff KL ↓**       | Measures whether the generated audio has a similar spectral profile to real Mozart performances. This captures timbre, brightness, frequency balance, and instrumental texture.                                      |
+| **Onset density distance ↓**                           | Measures whether the generated music matches Mozart-like rhythmic activity, including note attack frequency, local motion, and phrase-level energy.                                                                  |
+| **Tempo stability / beat-consistency error ↓**         | Measures whether the generated music maintains a coherent classical tempo structure instead of drifting, collapsing, or producing unstable rhythmic timing.                                                          |
+| **Novelty distance ↑ / nearest-neighbor similarity ↓** | Measures whether the generated samples are not direct memorization of the training corpus. A good model should stay stylistically close to Mozart while remaining sufficiently far from exact training excerpts.     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
 
 <br>
 
