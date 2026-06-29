@@ -38,7 +38,12 @@ related_publications: true
 ## Tokenization
 
 ```
-In multimodal generation, tokenization extends beyond text: images, speech, and music can be represented either as discrete codebook indices, as in VQ-VAE, SoundStream, and EnCodec, or as continuous latent tokens, as in patch-based Transformers, latent diffusion, and flow-matching models. Our work follows the latter direction by treating music generation as continuous perceptual tokenization, where pitch, rhythm, timbre, and phrase-level structure are preserved as continuous trajectories rather than being forced into a fixed discrete vocabulary.
+In multimodal generation, tokenization extends beyond text: images, speech, and music can be represented
+either as discrete codebook indices, as in VQ-VAE, SoundStream, and EnCodec, or as continuous latent tokens,
+as in patch-based Transformers, latent diffusion, and flow-matching models. Our work follows the latter
+direction by treating music generation as continuous perceptual tokenization, where pitch, rhythm, timbre,
+and phrase-level structure are preserved as continuous trajectories rather than being forced into a fixed
+discrete vocabulary.
 ```
 
 
