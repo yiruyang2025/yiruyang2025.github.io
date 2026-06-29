@@ -49,7 +49,7 @@ images:
 
 Deep Learning, 25
 
-[Generative Models](https://www.youtube.com/watch?v=96XoVM7PYtQ), 26
+[Generative Models](https://www.youtube.com/watch?v=96XoVM7PYtQ), 25
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
