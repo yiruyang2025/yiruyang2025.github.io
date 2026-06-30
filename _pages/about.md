@@ -50,6 +50,10 @@ latest_posts:
   - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Intelligence](https://openai.com/zh-Hans-CN/index/model-disproves-discrete-geometry-conjecture/)
 
 
-
+<div style="text-align: center; margin-top: 1.5rem; color: var(--global-text-color-light); font-size: 0.85rem;">
+  💬 Total visits <span id="busuanzi_value_site_pv">Loading</span> ·
+  Unique visitors <span id="busuanzi_value_site_uv">Loading</span>
+</div>
+<script defer src="https://events.vercount.one/js"></script>
 
 <div style="height: 4rem;"></div>
