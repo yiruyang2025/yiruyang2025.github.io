@@ -18,6 +18,7 @@ related_publications: true
 
 
 - 📍 [2025 - Audio Compression](https://github.com/google/zimtohrli), J. Alakuijala
+- [2026 - GDM, Learning the integral of a diffusion model](https://sander.ai/), Sander Dieleman
 - [2015 - BiternionNets: continuous head orientation from discrete labels](https://x.com/giffmana/status/2059356284525195308?s=20)
 - [2025 - Who Invented Transformer Neural Networks?](https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html)
 - [1960 - A new approach to linear filtering and prediction problems](https://cds.cern.ch/record/434680), Kalman, R E
