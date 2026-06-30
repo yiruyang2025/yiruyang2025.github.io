@@ -154,11 +154,32 @@ discrete vocabulary.
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br>
 
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
+
+
+
+
+## Reading Mel-Spectrogram
+
+
+| Spectrogram Region | Likely Musical Meaning                                            |
+| ------------------ | ----------------------------------------------------------------- |
+| 20–100 Hz          | Sub-bass, bass drum, organ, double bass lowest notes              |
+| 100–300 Hz         | Bass, cello, low piano, male voice body                           |
+| 300–800 Hz         | Warmth, lower harmonics, viola/cello/woodwinds                    |
+| 800 Hz–2 kHz       | Main melodic body, speech/song clarity, many orchestral harmonics |
+| 2–5 kHz            | Presence, brightness, attack, vocal intelligibility               |
+| 5–10 kHz           | Air, bow noise, breath, cymbals, piano attack, brilliance         |
+| 10–16 kHz          | Very high air/noise/detail, often weak in classical recordings    |
+
+
+
+<br><br><br><br>
 
 
 
