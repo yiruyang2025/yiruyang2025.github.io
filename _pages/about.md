@@ -45,8 +45,8 @@ latest_posts:
 
 
 **Interests**
-  - Space, Backbones, [Audio Sander Dieleman](https://www.linkedin.com/in/sanderdieleman/), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20), [Zurich_Roman Vorushin](https://vorushin.github.io/)
-  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Visual Intelligence, [Zurich](https://x.com/googledeepmind/status/1910363683215008227?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ)
+  - Space, Backbones, [Audio - Sander Dieleman](https://www.linkedin.com/in/sanderdieleman/), [Challenges](https://x.com/giffmana/status/2008633093234589706?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20), [Zurich_- Roman Vorushin](https://vorushin.github.io/)
+  - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Visual Intelligence
   - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Intelligence](https://openai.com/zh-Hans-CN/index/model-disproves-discrete-geometry-conjecture/)
 
 
