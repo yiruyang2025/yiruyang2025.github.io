@@ -118,6 +118,49 @@ discrete vocabulary.
 <br><br><br><br><br><br><br><br><br><br>
 
 
+## GPT's underlying capabilities come from
+
+| Learned Ability    | How It Emerges                                                                                                         |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Grammar            | Predicting the next token requires the model to learn syntactic and grammatical patterns.                              |
+| Facts              | Predicting text accurately requires the model to absorb factual and world knowledge from large-scale corpora.          |
+| Reasoning Patterns | Explanations, proofs, code, mathematical derivations, and problem-solving texts contain reusable reasoning structures. |
+| Style Imitation    | The training data contains many writing styles, such as papers, emails, code, dialogues, poems, and documentation.     |
+| Translation        | Multilingual corpora contain cross-lingual correspondences between words, phrases, and meanings.                       |
+| Coding             | Code itself is a token sequence with syntax, semantics, libraries, and execution-like patterns.                        |
+| Few-shot Learning  | When the model sees examples in the context, it learns to imitate the task format and continue the pattern.            |
+
+
+
+
+<br>
+
+## RLHF
+
+```
+model generates answer
+↓
+reward model scores answer
+↓
+policy optimization updates model
+↓
+model becomes more aligned with human preferences
+```
+
+<br>
+
+
+| Stage                                     | Training Signal                        | What the Model Learns                                      | Result                  |
+| ----------------------------------------- | -------------------------------------- | ---------------------------------------------------------- | ----------------------- |
+| Pre-training                              | Next-token prediction on massive text  | Language, facts, code, reasoning patterns, world knowledge | Base GPT                |
+| Supervised Fine-Tuning                    | Human-written instruction-answer pairs | How to answer instructions                                 | Instruct model          |
+| Reward Modeling                           | Human preference comparisons           | Which answers humans prefer                                | Preference scorer       |
+| RLHF / Preference Optimization            | Reward model feedback                  | More helpful, harmless, instruction-following behavior     | ChatGPT-style assistant |
+| Safety / policy tuning                    | Refusal and safety examples            | When to refuse, how to be careful                          | Safer deployed model    |
+| Tool / multimodal training, if applicable | Tool-use traces, image/audio/text data | Search, coding, image/audio understanding, tool calling    | Modern assistant system |
+
+
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
