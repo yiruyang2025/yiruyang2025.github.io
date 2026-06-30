@@ -306,6 +306,21 @@ model becomes more aligned with human preferences
 
 <br><br><br><br><br><br><br>
 
+
+## Gemma 2026, Best practical choice
+
+| Stage                                      | Recommended Model                          | Reason                                             |
+| ------------------------------------------ | ------------------------------------------ | -------------------------------------------------- |
+| Prototype / Colab / first working notebook | **Gemma 4 E4B-it**                         | Enough for prompt-to-JSON, much lighter than 12B   |
+| If E4B is unavailable                      | Gemma 4 E2B-it                             | Still enough for controlled vocabulary parsing     |
+| Paper-quality prompt planner               | Gemma 4 12B-it                             | Better quality, richer interpretation, but heavier |
+| Final large-scale deployment               | E4B for online, 12B for offline annotation | Balance cost and quality                           |
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+
+
 ## References 2
 
 - [2023 - PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/)
