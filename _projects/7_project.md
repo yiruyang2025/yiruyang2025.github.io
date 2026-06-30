@@ -309,12 +309,16 @@ model becomes more aligned with human preferences
 
 ## Gemma 2026, Best practical choice
 
-| Stage                                      | Recommended Model                          | Reason                                             |
-| ------------------------------------------ | ------------------------------------------ | -------------------------------------------------- |
-| Prototype / Colab / first working notebook | **Gemma 4 E4B-it**                         | Enough for prompt-to-JSON, much lighter than 12B   |
-| If E4B is unavailable                      | Gemma 4 E2B-it                             | Still enough for controlled vocabulary parsing     |
-| Paper-quality prompt planner               | Gemma 4 12B-it                             | Better quality, richer interpretation, but heavier |
-| Final large-scale deployment               | E4B for online, 12B for offline annotation | Balance cost and quality                           |
+| Rank  | Model Link / ID                   | Use in Your Project                        | Why                                                                                                                                                             |
+| ----- | --------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **`google/gemma-4-E2B-it`**       | **Default Music LLM prompt parser**        | Best balance. Small enough for A100 experiments, supports structured prompting, native system prompt, Apache 2.0, and does not steal too much memory from AiT.  |
+| 2     | `google/gemma-4-E4B-it`           | Stronger prompt parser / optional ablation | Better reasoning than E2B, still lightweight, but larger. Use after the E2B pipeline works.                                                                     |
+| 3     | `google/gemma-4-12B-it`           | Offline high-quality parser only           | Stronger, but unnecessary for fixed-schema JSON parsing. Good for offline auto-labeling / prompt expansion, not ideal as default during audio training.         |
+| 4     | `Qwen/Qwen2.5-3B-Instruct`        | Non-Gemma baseline                         | Strong for structured outputs and JSON. Qwen’s model card explicitly highlights improvements in structured data and JSON generation. ([Hugging Face][1])        |
+| 5     | `microsoft/Phi-3.5-mini-instruct` | Small LLM baseline                         | MIT license and 3.8B parameters; tested on A100 according to the model card. Good baseline, but less directly aligned with your Gemma plan. ([Hugging Face][2]) |
+
+[1]: https://huggingface.co/Qwen/Qwen2.5-3B-Instruct "Qwen/Qwen2.5-3B-Instruct · Hugging Face"
+[2]: https://huggingface.co/microsoft/Phi-3.5-mini-instruct "microsoft/Phi-3.5-mini-instruct · Hugging Face"
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
