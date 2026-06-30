@@ -159,6 +159,23 @@ discrete vocabulary.
 
 
 
+## Tools
+
+
+| Library / Repository         | Author(s) + Proposed Year                           |
+| ---------------------------- | --------------------------------------------------- |
+| `librosa`                    | McFee et al., 2015                                  |
+| `torchaudio`                 | PyTorch Audio team / Hwang et al., 2023             |
+| `descript-audio-codec` / DAC | Kumar, Seetharaman, Luebs, I. Kumar, K. Kumar, 2023 |
+| `DAC-JAX`                    | David Braun, 2024                                   |
+| `encodec`                    | Défossez, Copet, Synnaeve, Adi, 2022                |
+| `audiocraft` / MusicGen      | Copet et al., 2023                                  |
+| `stable-audio-tools`         | Stability AI, 2023–present                          |
+| `ddsp`                       | Engel et al., 2020                                  |
+
+
+
+
 
 <br><br><br><br><br><br><br>
 
