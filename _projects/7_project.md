@@ -159,6 +159,69 @@ discrete vocabulary.
 
 
 
+
+
+
+## Approximate Frequency Ranges of Classical Instruments
+
+
+
+| Instrument Class            | Instrument              | Approximate Fundamental Range | Important Harmonic / Brightness Range | Typical Spectrogram Location                    |
+| --------------------------- | ----------------------- | ----------------------------: | ------------------------------------: | ----------------------------------------------- |
+| Strings                     | Double Bass             |                     41–300 Hz |                          300 Hz–3 kHz | Low frequency body with upper harmonic lines    |
+| Strings                     | Cello                   |                   65–1,000 Hz |                          200 Hz–5 kHz | Low-to-mid frequency melodic body               |
+| Strings                     | Viola                   |                  130–1,300 Hz |                          300 Hz–6 kHz | Mid-frequency warm harmonic texture             |
+| Strings                     | Violin                  |                  196–3,500 Hz |                              1–10 kHz | Mid-to-high melodic and bright harmonic lines   |
+| Strings                     | Harp                    |                   30–3,000 Hz |                          500 Hz–8 kHz | Wide range, plucked vertical transients         |
+| Woodwinds                   | Contrabassoon           |                     29–300 Hz |                          200 Hz–3 kHz | Very low dark body                              |
+| Woodwinds                   | Bassoon                 |                     58–700 Hz |                          300 Hz–5 kHz | Low-mid nasal harmonic structure                |
+| Woodwinds                   | Clarinet                |                  147–1,800 Hz |                          500 Hz–8 kHz | Mid-frequency smooth tone, strong odd harmonics |
+| Woodwinds                   | Oboe                    |                  247–1,500 Hz |                               1–8 kHz | Bright mid-high penetrating tone                |
+| Woodwinds                   | Flute                   |                  262–2,100 Hz |                              1–10 kHz | High, airy, less dense harmonic body            |
+| Woodwinds                   | Piccolo                 |                  587–4,000 Hz |                              2–12 kHz | Very high bright energy                         |
+| Brass                       | Tuba                    |                     40–400 Hz |                          200 Hz–4 kHz | Low-frequency power and brass harmonics         |
+| Brass                       | Trombone                |                     80–600 Hz |                          300 Hz–6 kHz | Low-mid strong brass energy                     |
+| Brass                       | French Horn             |                   65–1,000 Hz |                          300 Hz–6 kHz | Warm mid-frequency harmonic mass                |
+| Brass                       | Trumpet                 |                  165–1,000 Hz |                              1–10 kHz | Bright, strong upper harmonics                  |
+| Percussion                  | Timpani                 |                     60–300 Hz |                          200 Hz–3 kHz | Low pitched drum resonance                      |
+| Percussion                  | Bass Drum               |                     30–150 Hz |                          100 Hz–5 kHz | Low boom plus broadband attack                  |
+| Percussion                  | Snare Drum              |                    150–500 Hz |                              1–10 kHz | Broadband vertical transient                    |
+| Percussion                  | Cymbals                 |               No stable pitch |                              2–16 kHz | High-frequency noisy shimmer                    |
+| Percussion                  | Triangle                |                      2–10 kHz |                              5–18 kHz | Very high bright narrow energy                  |
+| Keyboard                    | Piano                   |                 27.5–4,186 Hz |                         100 Hz–10 kHz | Full-range vertical attacks plus harmonic decay |
+| Keyboard                    | Organ                   |                   16–8,000 Hz |                         100 Hz–12 kHz | Sustained wide-band harmonic layers             |
+| Voice-like Classical Timbre | Choir / Orchestra Blend |                   80–4,000 Hz |                         500 Hz–10 kHz | Dense mid-frequency harmonic texture            |
+
+
+
+<br>
+
+
+## Approximate Frequency Ranges of Human Singing Voices
+
+
+| Voice Type          | Approximate Fundamental Range | Important Harmonic / Formant Range | Spectrogram Interpretation                          |
+| ------------------- | ----------------------------: | ---------------------------------: | --------------------------------------------------- |
+| Bass                |                     80–330 Hz |                       300 Hz–4 kHz | Low male voice body with harmonic lines             |
+| Baritone            |                    100–400 Hz |                       300 Hz–5 kHz | Low-mid male voice, strong body                     |
+| Tenor               |                    130–520 Hz |                       500 Hz–6 kHz | Higher male voice, clearer upper harmonics          |
+| Alto / Contralto    |                    165–700 Hz |                       500 Hz–6 kHz | Low female voice, warm mid-frequency body           |
+| Mezzo-soprano       |                    220–900 Hz |                       700 Hz–8 kHz | Mid-high female voice, strong presence              |
+| Soprano             |                  260–1,200 Hz |                           1–10 kHz | High female voice, bright upper harmonic energy     |
+| Children’s Voice    |                  250–1,000 Hz |                            1–8 kHz | High fundamental, light upper harmonics             |
+| Spoken Male Voice   |                     85–180 Hz |                       300 Hz–4 kHz | Lower speech pitch, intelligibility around 1–4 kHz  |
+| Spoken Female Voice |                    165–255 Hz |                       500 Hz–5 kHz | Higher speech pitch, intelligibility around 1–5 kHz |
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Tools
 
 
