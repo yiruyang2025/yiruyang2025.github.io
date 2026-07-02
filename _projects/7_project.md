@@ -48,6 +48,15 @@ discrete vocabulary.
 ```
 
 
+<br><br><br><br><br>
+
+
+## Generation
+
+```
+write in the most simple and dense way what is the substantial differnce between flow matching and other diffusion approaches
+```
+
 
 
 
