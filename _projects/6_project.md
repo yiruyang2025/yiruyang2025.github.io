@@ -16,6 +16,7 @@ related_publications: true
   - 📍 C.3 SADDLE POINT ANALYSIS
 
 - [2016 - 📍 Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434), ICLR Test of Time
+- [2026 - 📍 Zero Order Pretrain](https://x.com/FrancoisChauba1/status/2072433265232019871?s=20)
 
 
 
