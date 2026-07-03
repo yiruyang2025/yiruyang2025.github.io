@@ -465,8 +465,15 @@ GMAT / Basilisk generates trajectory
 <br><br><br><br>
 
 
+## Other Topics
+
+- [2026 - Geometric Signatures of 📍 Reasoning: A Spectral Perspective on Task Hardness](https://arxiv.org/abs/2406.19108)
 
 
+
+
+
+<br><br><br><br><br><br><br><br>
 
 
 
