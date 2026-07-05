@@ -432,8 +432,25 @@ Complexity analysis
 
 
 <br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
+
+## FP and AMP
+
+| Precision strategy           | Historical origin                                                                                  | Mathematical / computational idea                                                                            | VRAM on 16GB GPU                         | Speed                       | Stability                   | Best use case                                     |
+| ---------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------- | --------------------------- | --------------------------- | ------------------------------------------------- |
+| **FP32 full precision**      | IEEE 754 single precision, standardized in **1985**                                                | All major tensors and computations use 32-bit floating point.                                                | High, about **100%** baseline            | Baseline                    | Very high                   | Stable training when memory is not the bottleneck |
+| **Pure FP16 half precision** | Modern IEEE binary16 standardized in **2008**; earlier graphics half formats appeared in the 1990s | All or most tensors use 16-bit floating point.                                                               | Low, about **50%** tensor storage        | Very fast on supported GPUs | Low without careful scaling | Memory saving, but risky for full training        |
+| **Mixed precision training** | Deep-learning formulation by **Micikevicius et al., NVIDIA, 2017**                                 | Use FP16 for selected forward/backward operations, while preserving critical states or accumulation in FP32. | Medium-low, about **60–70%** in practice | Fast                        | High                        | Efficient training with near-FP32 accuracy        |
+| **AMP**                      | Framework automation popularized by **NVIDIA Apex** and later native PyTorch/TensorFlow AMP        | Automatically casts safe operations to FP16 and keeps sensitive operations in FP32; applies loss scaling.    | Medium-low, about **60–70%** in practice | Fast                        | High                        | Recommended default for 16GB GPU training         |
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -447,6 +464,12 @@ Complexity analysis
 
 
 <br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
 
 
 
