@@ -273,6 +273,44 @@ Complexity analysis
 
 
 
+## ICLR Best / Outstanding Papers (2017 - 2026)
+
+| Year     | Representative Best / Outstanding Paper Topics                                                | Representative Authors                                                         | Representative Institutions                                                                |
+| -------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| **2026** | Transformer theory; Multi-turn LLM reasoning                                                  | Pascal Bergsträßer, Ryan Cotterell, Anthony Widjaja Lin; Philippe Laban et al. | ETH Zurich, University of Zurich, Salesforce AI Research, Purdue University ([ICLR 博客][1]) |
+| **2025** | LLM alignment; Fine-tuning dynamics; Model editing                                            | Multiple award-winning teams                                                   | Princeton, CMU, UC Berkeley, Google DeepMind, NUS, Microsoft Research ([ICLR 博客][2])       |
+| **2024** | Diffusion models; World models; Long-context models; Vision Transformers; Protein generation  | Darcet et al., Yang et al., Mallat group, others                               | Meta AI, Google DeepMind, NYU, UC Berkeley, MILA                                           |
+| **2023** | Text-to-3D; Graph learning; Dense prediction; Embodied AI                                     | Hong et al., He et al., Poole et al.                                           | Google Research, Meta FAIR, KAIST, Peking University, Georgia Tech                         |
+| **2022** | Diffusion sampling; Differential privacy; Graph theory; Neural collapse; Meta-learning        | Bao et al., Papernot et al., Donoho et al.                                     | Tsinghua University, Google Research, Stanford University, Meta FAIR                       |
+| **2021** | Score-based diffusion; Graph neural simulation; Neural architecture search; Speech generation | Yang Song et al., Battaglia et al.                                             | Stanford University, Google Research, DeepMind, Meta FAIR                                  |
+| **2020** | No official Best Paper Award                                                                  | —                                                                              | —                                                                                          |
+| **2019** | Lottery Ticket Hypothesis; Ordered Neurons                                                    | Jonathan Frankle, Michael Carbin; Yikang Shen et al.                           | MIT, MILA, Université de Montréal ([ICLR][3])                                              |
+| **2018** | Continual Meta-Learning                                                                       | Maruan Al-Shedivat et al.                                                      | OpenAI, UC Berkeley                                                                        |
+| **2017** | Generalization theory; Privacy-preserving learning; Deep learning theory                      | Chiyuan Zhang et al., Nicolas Papernot et al.                                  | Google Brain, UC Berkeley, OpenAI                                                          |
+
+[1]: https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/?utm_source=chatgpt.com "Announcing the ICLR 2026 Outstanding Papers"
+[2]: https://blog.iclr.cc/2025/04/22/announcing-the-outstanding-paper-awards-at-iclr-2025/?utm_source=chatgpt.com "Announcing the Outstanding Paper Awards at ICLR 2025"
+[3]: https://iclr.cc/Conferences/2019/Awards?utm_source=chatgpt.com "Best Paper Award"
+
+
+
+<br><br>
+
+## ICLR Oral Research Topics
+
+
+| Period        | Dominant Oral Topics                        | Representative Keywords                                                                                                                                                                     |
+| ------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **2017–2019** | Deep Learning Foundations                   | Generalization, Optimization, Theory, Privacy, Lottery Ticket, RNNs                                                                                                                         |
+| **2020–2021** | Representation Learning & Generative Models | Self-Supervised Learning, Diffusion Models, Graph Neural Networks, Neural Simulation, Neural Architecture Search                                                                            |
+| **2022–2023** | Foundation Generative Models                | Diffusion, Text-to-3D, Scientific Machine Learning, Protein Modeling, Graph Learning, Embodied AI                                                                                           |
+| **2024–2026** | Foundation Models & AI Agents               | Large Language Models, AI Agents, Long-Context Modeling, Alignment, Safety, Model Editing, Vision-Language Models, World Models, Robotics, Transformer Theory, Mechanistic Interpretability |
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 ## ICML
 
 
