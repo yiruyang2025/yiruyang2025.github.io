@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - ODEs to PDEs
-description: Thomas, Jyrki, profs and Labs
+description: Thomas, Jyrki, Lab
 img: assets/img/4.jpg
 importance: 5
 category: work
