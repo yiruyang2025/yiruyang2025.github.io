@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - ODEs to PDEs
+title: 2026 - M-Layer ML for Science Learning
 description: Thomas, Jyrki, Lab
 img: assets/img/4.jpg
 importance: 5
