@@ -277,8 +277,8 @@ Complexity analysis
 
 | Year     | Representative Best / Outstanding Paper Topics                                                | Representative Authors                                                         | Representative Institutions                                                                |
 | -------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| **2026** | Transformer theory; Multi-turn LLM reasoning                                                  | Pascal Bergsträßer, Ryan Cotterell, Anthony Widjaja Lin; Philippe Laban et al. | ETH Zurich, University of Zurich, Salesforce AI Research, Purdue University ([ICLR 博客][1]) |
-| **2025** | LLM alignment; Fine-tuning dynamics; Model editing                                            | Multiple award-winning teams                                                   | Princeton, CMU, UC Berkeley, Google DeepMind, NUS, Microsoft Research ([ICLR 博客][2])       |
+| **2026** | Transformer theory; Multi-turn LLM reasoning                                                  | Pascal Bergsträßer, Ryan Cotterell, Anthony Widjaja Lin; Philippe Laban et al. | ETH Zurich, University of Zurich, Salesforce AI Research, Purdue University ([ICLR][1]) |
+| **2025** | LLM alignment; Fine-tuning dynamics; Model editing                                            | Multiple award-winning teams                                                   | Princeton, CMU, UC Berkeley, Google DeepMind, NUS, Microsoft Research ([ICLR][2])       |
 | **2024** | Diffusion models; World models; Long-context models; Vision Transformers; Protein generation  | Darcet et al., Yang et al., Mallat group, others                               | Meta AI, Google DeepMind, NYU, UC Berkeley, MILA                                           |
 | **2023** | Text-to-3D; Graph learning; Dense prediction; Embodied AI                                     | Hong et al., He et al., Poole et al.                                           | Google Research, Meta FAIR, KAIST, Peking University, Georgia Tech                         |
 | **2022** | Diffusion sampling; Differential privacy; Graph theory; Neural collapse; Meta-learning        | Bao et al., Papernot et al., Donoho et al.                                     | Tsinghua University, Google Research, Stanford University, Meta FAIR                       |
@@ -350,16 +350,13 @@ Complexity analysis
 
 
 <br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 
 
-## Journal of Machine Learning Research (JMLR)
+## TMLR, Journal of Machine Learning Research (JMLR)
 
 - [2021 - Sparsity in Deep Learning: Pruning and Growth for Efficient Inference and Training in Neural Networks](https://www.jmlr.org/papers/volume22/21-0366/21-0366.pdf/)
-
-
-
-<br>
 
 
 
@@ -420,7 +417,7 @@ Complexity analysis
 | ------------------------------ | ------------------------------------------------------------: | --------------: | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Early Computer Vision          |                                       **Lawrence G. Roberts** |        **1963** | *Machine Perception of Three-Dimensional Solids* | To make machines infer 3D structure from 2D visual input; this is often treated as one of the earliest foundations of computer vision. ([dspace.mit.edu][1])                                                    |
 | CNN / Early Deep Vision        |   **Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner** |        **1998** | **LeNet-5**                                      | To recognize handwritten digits using convolution, weight sharing, and backpropagation; it showed that neural networks could learn spatial visual features.                                                     |
-| Large-scale Deep Vision        |          **Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton** |        **2012** | **AlexNet**                                      | To scale CNNs to large ImageNet classification using GPUs, ReLU, dropout, and deep convolutional layers; it made deep learning dominant in vision. ([NeurIPS 会议论文集][2])                                         |
+| Large-scale Deep Vision        |          **Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton** |        **2012** | **AlexNet**                                      | To scale CNNs to large ImageNet classification using GPUs, ReLU, dropout, and deep convolutional layers; it made deep learning dominant in vision. ([NeurIPS][2])                                         |
 | Semantic Segmentation          |             **Jonathan Long, Evan Shelhamer, Trevor Darrell** | **2014 / 2015** | **Fully Convolutional Network, FCN**             | To convert classification CNNs into end-to-end pixel-wise prediction models for semantic segmentation. Their key idea was to make CNNs output dense spatial maps instead of one image-level label. ([arXiv][3]) |
 | Biomedical Segmentation        |            **Olaf Ronneberger, Philipp Fischer, Thomas Brox** |        **2015** | **U-Net**                                        | To solve biomedical image segmentation with few labeled samples. U-Net used a contracting path for context and an expanding path for precise localization. ([arXiv][4])                                         |
 | Deep Residual Vision           |         **Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun** | **2015 / 2016** | **ResNet**                                       | To make very deep neural networks easier to train by learning residual functions instead of direct mappings; this addressed optimization degradation in deep networks. ([arXiv][5])                             |
