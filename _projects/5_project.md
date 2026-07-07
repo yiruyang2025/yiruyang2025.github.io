@@ -235,92 +235,7 @@ beta_y
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-## Toolkit
-
-
-- [npzviewer]
-
-
-
-
-**1. ODE**
-
-
-- [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
-- 1931 - Hamiltonian Systems and Transformation in Hilbert Space
-  - nonlinear dynamics can be represented as linear transformations on a Hilbert space of observables.
-  - [2024 - Soliton dynamics and multistability analysis of the Hamiltonian amplitude model](https://www.sciencedirect.com/science/article/pii/S2211379724005631)
-- [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology)
-
-<br><br><br>
-
-
-**2.Hamiltonian Systems and Operators**
-
-
-- Hamiltonian system
-- Hilbert space: Transition from state point to function space
-- Weierstrass Approximation Theorem
-  - Universal Approximation Theorem, Bézier Curve
-- Lie operator, Unitary operator
-- Flow map
-
-
-<br><br><br>
-
-
-
-**3. Topological Defect**
-
-
-
-- The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
-
-
-
-<br><br><br>
-
-
-**4. PDE / MHD, or Benchmark paper**
-
-
-```
-learning hidden physical fields from sparse multimodal observations
-```
-
-
-
-- [2026 - A study confirms the role of magnetic fields in early stages of star formation](https://ice.csic.es/news/news-press-releases?view=article&id=951:a-study-confirms-the-role-of-magnetic-fields-in-early-stages-of-star-formation&catid=8)
-
-
-```
-multimodal observation
-magnetic-field inference
-streamer reconstruction
-MHD-constrained dynamics
-future disk prediction
-
-ALMA / MHD simulation infers hidden protostellar dynamics
-→ export magnetic fields, streamers, and gas-flow trajectories
-→ CesiumJS / Three.js visualizes magnetogravitational accretion beautifully
-```
-
-
-<br><br><br>
-
-
-
-**5. Activation Functions and Field Theories**
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>
 
 
 
@@ -354,7 +269,7 @@ ALMA / MHD simulation infers hidden protostellar dynamics
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -458,6 +373,86 @@ GMAT / Basilisk generates trajectory
 <br>
 
 <br><br><br><br>
+
+## Toolkit
+
+
+- npzviewer
+
+
+
+
+**1. ODE**
+
+
+- [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
+- 1931 - Hamiltonian Systems and Transformation in Hilbert Space
+  - nonlinear dynamics can be represented as linear transformations on a Hilbert space of observables.
+  - [2024 - Soliton dynamics and multistability analysis of the Hamiltonian amplitude model](https://www.sciencedirect.com/science/article/pii/S2211379724005631)
+- [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology)
+
+<br><br><br>
+
+
+**2.Hamiltonian Systems and Operators**
+
+
+- Hamiltonian system
+- Hilbert space: Transition from state point to function space
+- Weierstrass Approximation Theorem
+  - Universal Approximation Theorem, Bézier Curve
+- Lie operator, Unitary operator
+- Flow map
+
+
+<br><br><br>
+
+
+
+**3. Topological Defect**
+
+
+
+- The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
+
+
+
+<br><br><br>
+
+
+**4. PDE / MHD, or Benchmark paper**
+
+
+```
+learning hidden physical fields from sparse multimodal observations
+```
+
+
+
+- [2026 - A study confirms the role of magnetic fields in early stages of star formation](https://ice.csic.es/news/news-press-releases?view=article&id=951:a-study-confirms-the-role-of-magnetic-fields-in-early-stages-of-star-formation&catid=8)
+
+
+```
+multimodal observation
+magnetic-field inference
+streamer reconstruction
+MHD-constrained dynamics
+future disk prediction
+
+ALMA / MHD simulation infers hidden protostellar dynamics
+→ export magnetic fields, streamers, and gas-flow trajectories
+→ CesiumJS / Three.js visualizes magnetogravitational accretion beautifully
+```
+
+
+<br><br><br>
+
+
+
+**5. Activation Functions and Field Theories**
+
+<br><br><br><br><br><br><br><br>
+
 
 
 ## Other Topics
