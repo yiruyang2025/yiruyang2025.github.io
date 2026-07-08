@@ -23,7 +23,7 @@ images:
 
   - [Kaiming He](https://introtocv.github.io/), GDM
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
-  - [], UIUC, Google Research
+  - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
   - Saining Xie, ex-GDM
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
