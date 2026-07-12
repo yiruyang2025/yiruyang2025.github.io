@@ -93,9 +93,25 @@ T(n) = 3n² + 5n + 2 → O(n²)
 All classes have a built-in method called __init__(), used to assign values to object properties, or to perform operations.
 ```
 
-<br>
+<br><br><br><br>
 
 ## Toolkits
+
+
+| File or Component      | Responsibility                                                                                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `run_all_models.sh`    | Sequentially launches all model training scripts, captures their return codes, records execution outcomes, and continues to the next model even if a previous run fails. |
+| `train_<model>.py`     | Implements model-specific training, validation, evaluation, checkpoint saving, checkpoint resumption, metric reporting, and structured status generation.                |
+| `<model>.log`          | Stores the complete standard output and error messages produced during the training and evaluation of a specific model.                                                  |
+| `<model>.rc`           | Stores the process return code of a model run, where `0` indicates successful completion and a non-zero value indicates failure.                                         |
+| `<model>/status.json`  | Stores structured run metadata, execution status, checkpoint information, runtime, evaluation metrics, and error details for a specific model.                           |
+| `aggregate_status.py`  | Collects, validates, and merges all model-level `status.json` files into a unified experiment summary.                                                                   |
+| `results_summary.json` | Stores the final machine-readable summary of all experiments, including successful, failed, resumed, and incomplete runs.                                                |
+
+
+
+<br><br><br><br><br><br><br>
+
 
 | Tool      | Main Use Case                          | Limitation                                              | marimo Advantage                                          |
 | --------- | -------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
