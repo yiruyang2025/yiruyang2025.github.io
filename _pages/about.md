@@ -27,7 +27,7 @@ latest_posts:
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
 - `AI/ML for Science`, `Audio`
-- (OCaml), Rust, `Jax`, TPU, C++, Pytorch, Python, CUDA, Blender, MuJoCo, Unreal, Ray, SUMO, NPU, FPGA, PULP, (ASIC), Linux, ROS2
+- (OCaml), Rust, `Jax`, TPU, C++, Pytorch, Python, CUDA, Blender, MuJoCo, Unreal, Ray, SUMO, NPU, FPGA, PULP, (ASIC), Linux
 
 
 - Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
