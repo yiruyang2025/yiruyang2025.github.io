@@ -19,7 +19,7 @@ related_publications: true
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
-- [2018 - Spherical CNNs](https://arxiv.org/pdf/1801.10130)
+- [📍 2018 - Spherical CNNs](https://arxiv.org/pdf/1801.10130)
 - [2017 - Transformer from NIPS](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 - [2023 - Distil-Whisper](https://arxiv.org/pdf/2311.00430)
 - [2025 - TAID](https://iclr.cc/virtual/2025/poster/29025)
