@@ -28,7 +28,7 @@ related_publications: true
 ## Other Topics 
 
 
--  Unifying fermions and bosons
+-  📍 Unifying fermions and bosons
 -  Incorporating Maxwell's Equations that describe the electromagnetic field into the Dirac Equation has been a long-term goal in physics to unify quantum electrodynamics (QED) and general relativity
 
 
