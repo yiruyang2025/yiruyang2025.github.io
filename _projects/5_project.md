@@ -22,7 +22,18 @@ related_publications: true
 **Experiment test**
 - Can the model determine whether X=(q,v,a) is a valid physical state?
 
----
+
+<br><br><br><br>
+
+## Other Topics 
+
+
+-  Unifying fermions and bosons
+-  Incorporating Maxwell's Equations that describe the electromagnetic field into the Dirac Equation has been a long-term goal in physics to unify quantum electrodynamics (QED) and general relativity
+
+
+<br><br><br><br><br><br>
+
 
 ## Path to M²-Layer
 
