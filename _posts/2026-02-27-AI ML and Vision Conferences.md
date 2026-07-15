@@ -265,6 +265,16 @@ Complexity analysis
 
 <br>
 
+## OOP
+
+| Concept           | Simple Definition                                                  | Key Question                                                        | Main Risk                                                            |
+| ----------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Encapsulation** | Hide internal implementation behind a controlled interface         | What should users be allowed to access or change?                   | Exposing too much creates coupling and allows invalid state changes  |
+| **Inheritance**   | A subclass extends a parent class through an **is-a** relationship | Can the subclass safely replace the parent?                         | Misuse creates fragile hierarchies and broken behavior               |
+| **Polymorphism**  | One interface supports multiple implementations                    | Can new behavior be added without changing existing callers?        | Poor interfaces lead to type checks and repeated conditionals        |
+| **Abstraction**   | Show only the details needed by the user                           | What should the user understand, and what should the system handle? | Too high becomes restrictive; too low exposes unnecessary complexity |
+
+
 
 
 <br>
@@ -272,7 +282,7 @@ Complexity analysis
 
 
 
-<br>
+<br><br><br><br><br><br><br><br><br>
 
 
 
