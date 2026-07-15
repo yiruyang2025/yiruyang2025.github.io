@@ -28,7 +28,7 @@ related_publications: true
 ## Other Topics 
 
 
--  📍 Unifying fermions and bosons
+-  📍 `Unifying fermions and bosons`
 -  Incorporating Maxwell's Equations that describe the electromagnetic field into the Dirac Equation has been a long-term goal in physics to unify quantum electrodynamics (QED) and general relativity
 
 
@@ -82,18 +82,9 @@ related_publications: true
     - 📍 Recover the same phase-space section geometry as the true dynamical system.
   - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
 
-<br>
-
-**Observed Data / MHD**
 
 
-- GOES / Geostationary Operational Environmental Satellites, NOAA energetic particle data
-  - These data represent extremely limited, single-point real-world observations of highly nonlinear magnetohydrodynamic (MHD) systems in infinite-dimensional `Hilbert space`.
-  - The 📍 input feature x(t) received by the model is a high-dimensional tensor containing the local energy spectrum and pitch angle distribution. Essentially, the model attempts to use an M-layer to inversely 📍 derive the global unitary flow map that produces these particles from this high-dimensional time series.
-
-
-
-<br>
+<br><br>
 
 
 ## Lorentz data
