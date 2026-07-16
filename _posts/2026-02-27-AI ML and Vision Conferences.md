@@ -47,7 +47,7 @@ images:
 ```
 
 
-<br><br>
+<br>
 
 
 
@@ -93,7 +93,7 @@ T(n) = 3n² + 5n + 2 → O(n²)
 All classes have a built-in method called __init__(), used to assign values to object properties, or to perform operations.
 ```
 
-<br><br><br><br>
+<br>
 
 ## Toolkits
 
@@ -110,20 +110,10 @@ All classes have a built-in method called __init__(), used to assign values to o
 
 
 
-<br><br><br><br><br><br><br>
-
-
-| Tool      | Main Use Case                          | Limitation                                              | marimo Advantage                                          |
-| --------- | -------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
-| Jupyter   | Experimental notebooks                 | Hidden state and poor Git diffs                         | Reactive execution and pure `.py` files                   |
-| Colab     | Cloud GPU demos                        | Weak local engineering support and confusing file paths | Stronger local reproducibility                            |
-| Streamlit | Rapid app development                  | Notebook experiments must be rewritten as apps          | Notebooks can be directly turned into apps                |
-| Papermill | Batch execution of notebooks           | Not suitable for interactive workflows                  | marimo supports both scripting and interactivity          |
-| marimo    | Experiments, apps, and reproducibility | Ecosystem is still smaller than Jupyter’s               | Best suited for paper demos and reproducible ML workflows |
-
-
-
 <br>
+
+
+
 
 ## DFS on a decision tree
 
@@ -277,17 +267,33 @@ Complexity analysis
 
 
 
+
 <br>
 
+## Millennium Prize Problems
+
+
+| **Problem Name**                               | **Field**                  | **Core Nature**                  | **Fundamental Question**                                                              |
+| ---------------------------------------------- | -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
+| **Riemann Hypothesis**                         | Number Theory              | Structure of prime numbers       | Do prime numbers follow a hidden regularity? (Primes as the “atoms” of mathematics)   |
+| **P vs NP Problem**                            | Computer Science / Logic   | Complexity of computation        | If verifying a solution is easy, is finding it also easy?                             |
+| **Navier–Stokes Existence and Smoothness**     | Fluid Dynamics             | Behavior of turbulence           | Do solutions to fluid equations always remain smooth, or can singularities form?      |
+| **Yang–Mills Existence and Mass Gap**          | Quantum Physics / Geometry | Origin of mass in quantum fields | Why do elementary particles have mass, and how can this be rigorously explained?      |
+| **Hodge Conjecture**                           | Algebraic Geometry         | Structure of geometric spaces    | Can complex geometric objects be decomposed into simpler algebraic components?        |
+| **Birch and Swinnerton-Dyer (BSD) Conjecture** | Algebraic Number Theory    | Arithmetic of elliptic curves    | Is there a deep connection between rational points and special values of L-functions? |
 
 
 
-<br><br><br><br><br><br><br><br><br>
+
+
+
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
-<br><br><br><br><br><br><br><br>
+
 
 
 ## ICLR
@@ -390,18 +396,6 @@ Complexity analysis
 
 <br><br><br><br><br><br><br><br><br>
 
-
-## Millennium Prize Problems
-
-
-| **Problem Name**                               | **Field**                  | **Core Nature**                  | **Fundamental Question**                                                              |
-| ---------------------------------------------- | -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
-| **Riemann Hypothesis**                         | Number Theory              | Structure of prime numbers       | Do prime numbers follow a hidden regularity? (Primes as the “atoms” of mathematics)   |
-| **P vs NP Problem**                            | Computer Science / Logic   | Complexity of computation        | If verifying a solution is easy, is finding it also easy?                             |
-| **Navier–Stokes Existence and Smoothness**     | Fluid Dynamics             | Behavior of turbulence           | Do solutions to fluid equations always remain smooth, or can singularities form?      |
-| **Yang–Mills Existence and Mass Gap**          | Quantum Physics / Geometry | Origin of mass in quantum fields | Why do elementary particles have mass, and how can this be rigorously explained?      |
-| **Hodge Conjecture**                           | Algebraic Geometry         | Structure of geometric spaces    | Can complex geometric objects be decomposed into simpler algebraic components?        |
-| **Birch and Swinnerton-Dyer (BSD) Conjecture** | Algebraic Number Theory    | Arithmetic of elliptic curves    | Is there a deep connection between rational points and special values of L-functions? |
 
 
 
