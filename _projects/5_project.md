@@ -28,6 +28,7 @@ related_publications: true
 
 
 -  📍 `Unifying fermions and bosons`
+-  `new gravitational-wave`
 -  Incorporating Maxwell's Equations that describe the electromagnetic field into the Dirac Equation has been a long-term goal in physics to unify quantum electrodynamics (QED) and general relativity
 
 
@@ -171,52 +172,6 @@ beta_y
 <br>
 
 
-## High-Dimensional Constraints Induced by Scientific Laws
-
-| Domain | Scientific Law / Equation | Formula | Physical Meaning | What M-Layer Can Verify or Learn |
-|---|---|---|---|---|
-| **Special Relativity** | Mass-energy equivalence | $E = mc^2$ | Mass and energy are equivalent; rest mass is a form of energy. | Verify whether generated particle or event data preserve relativistic energy relations. |
-| **Special Relativity** | Relativistic energy-momentum relation | $E^2 = p^2c^2 + m^2c^4$ | Energy, momentum, and mass are constrained by spacetime geometry. | Check whether simulated high-energy particles lie on the relativistic mass shell. |
-| **Special Relativity** | Lorentz factor | $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$ | Time dilation and length contraction depend on velocity. | Detect impossible trajectories where $v > c$ or relativistic timing becomes inconsistent. |
-| **Special Relativity** | Time dilation | $\Delta t' = \gamma \Delta t$ | Moving clocks are measured differently by different observers. | Verify relativistic time-series data, such as satellite timing or high-speed motion. |
-| **Special Relativity** | Length contraction | $L = \frac{L_0}{\gamma}$ | Moving objects contract along the direction of motion. | Detect violations in generated relativistic geometry. |
-| **Special Relativity** | Four-velocity normalization | $u^\mu u_\mu = -c^2$ | Physical worldlines have a fixed spacetime norm. | Learn the lawful manifold of admissible relativistic trajectories. |
-| **General Relativity** | Einstein field equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$ | Matter-energy determines spacetime curvature, and curvature determines motion. | Verify whether a proposed metric $g_{\mu\nu}$ and stress-energy tensor $T_{\mu\nu}$ are mutually consistent. |
-| **General Relativity** | Einstein tensor | $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu}$ | Curvature is summarized by the Einstein tensor. | Test whether learned geometric fields satisfy curvature consistency. |
-| **General Relativity** | Vacuum Einstein equation | $R_{\mu\nu} = 0$ | Empty spacetime can still contain curvature, such as gravitational waves or black holes. | Verify whether simulated vacuum spacetime solutions are physically admissible. |
-| **General Relativity** | Geodesic equation | $\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta}\frac{dx^\alpha}{d\tau}\frac{dx^\beta}{d\tau} = 0$ | Free-falling objects follow geodesics in curved spacetime. | Verify whether trajectories are consistent with an inferred gravitational field. |
-| **General Relativity** | Stress-energy conservation | $\nabla_\mu T^{\mu\nu} = 0$ | Energy and momentum are locally conserved in curved spacetime. | Verify whether field simulations preserve local conservation laws. |
-| **General Relativity** | Bianchi identity | $\nabla_\mu G^{\mu\nu} = 0$ | Geometric consistency condition underlying energy-momentum conservation. | Test whether learned curvature fields obey internal geometric consistency. |
-| **Cosmology** | Friedmann equation | $H^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}$ | Describes the expansion rate of the universe. | Verify whether cosmological trajectories match GR-based expansion laws. |
-| **Cosmology** | Acceleration equation | $\frac{\ddot a}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3p}{c^2}\right) + \frac{\Lambda c^2}{3}$ | Determines whether cosmic expansion accelerates or decelerates. | Detect whether observed expansion history implies dark energy, modified gravity, or inconsistent dynamics. |
-| **Cosmology** | Critical density | $\rho_c = \frac{3H^2}{8\pi G}$ | Defines the density required for a spatially flat universe. | Verify whether inferred cosmological parameters lie in physically consistent regions. |
-| **Gravitational Lensing** | Weak deflection angle | $\alpha \approx \frac{4GM}{c^2b}$ | Massive objects bend the path of light. | Verify whether lensing patterns are consistent with visible mass, dark matter, or modified gravity. |
-| **Black Holes** | Schwarzschild radius | $r_s = \frac{2GM}{c^2}$ | Defines the event horizon radius of a non-rotating black hole. | Verify whether generated black-hole parameters are physically admissible. |
-| **Black Holes** | Schwarzschild metric | $ds^2 = -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2 + \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2 + r^2d\Omega^2$ | Exact GR solution for a spherical, non-rotating mass. | Test whether simulated or inferred spacetime geometry matches the Schwarzschild solution. |
-| **Black Holes** | Kerr spin bound | $a = \frac{J}{Mc}, \quad a \leq \frac{GM}{c^2}$ | Rotating black holes have bounded angular momentum. | Detect generated rotating black holes that violate physical spin constraints. |
-| **Gravitational Waves** | Linearized Einstein equation | $\Box \bar h_{\mu\nu} = -\frac{16\pi G}{c^4}T_{\mu\nu}$ | Weak gravitational waves are perturbations of spacetime. | Verify whether waveform data are consistent with GR wave propagation. |
-| **Gravitational Waves** | Vacuum wave equation | $\Box \bar h_{\mu\nu} = 0$ | Gravitational waves propagate through vacuum at light speed. | Detect non-GR waveform deviations or unphysical wave speeds. |
-| **Gravitational Waves** | Quadrupole radiation principle | $P \sim \frac{G}{5c^5}\left\langle \dddot Q_{ij}\dddot Q_{ij}\right\rangle$ | Gravitational waves are mainly emitted by changing mass quadrupoles. | Verify whether simulated binary systems radiate energy consistently. |
-| **Electromagnetism / Field Theory** | Gauss law for electricity | $\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$ | Electric charge is the source of electric fields. | Verify whether learned electric fields are consistent with charge distributions. |
-| **Electromagnetism / Field Theory** | Gauss law for magnetism | $\nabla \cdot \mathbf{B} = 0$ | Magnetic monopoles are absent in classical Maxwell theory. | Detect unphysical magnetic fields with nonzero divergence. |
-| **Electromagnetism / Field Theory** | Faraday induction law | $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ | Time-varying magnetic fields induce electric fields. | Verify whether temporal field evolution obeys electromagnetic induction. |
-| **Electromagnetism / Field Theory** | Ampere-Maxwell law | $\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}$ | Currents and time-varying electric fields generate magnetic fields. | Learn whether electromagnetic field simulations preserve Maxwell dynamics. |
-| **Electromagnetic Waves** | Wave equation in vacuum | $\Box A^\mu = 0$ | Light is a propagating electromagnetic field. | Verify whether generated wave fields propagate causally at speed $c$. |
-| **Gauge Field Theory** | Electromagnetic field tensor | $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ | Electromagnetic fields arise from a gauge potential. | Learn gauge-consistent field representations instead of only fitting raw fields. |
-| **Quantum Mechanics** | Schrodinger equation | $i\hbar\frac{\partial}{\partial t}\psi = \hat H\psi$ | Quantum states evolve under the Hamiltonian operator. | Verify whether learned quantum-state trajectories obey unitary evolution. |
-| **Quantum Mechanics** | Born rule | $P(x) = |\psi(x)|^2$ | Measurement probabilities are given by wave-function amplitudes. | Check whether generated quantum states produce valid probability distributions. |
-| **Quantum Mechanics** | Canonical commutation relation | $[\hat x, \hat p] = i\hbar$ | Position and momentum cannot both be sharply determined. | Verify whether learned latent operators preserve quantum structure. |
-| **Quantum Field Theory** | Klein-Gordon equation | $(\Box + m^2)\phi = 0$ | Relativistic scalar fields satisfy a wave-like mass-shell equation. | Verify whether generated scalar fields satisfy relativistic field constraints. |
-| **Quantum Field Theory** | Dirac equation | $(i\gamma^\mu\partial_\mu - m)\psi = 0$ | Relativistic spin-1/2 particles are described by spinor fields. | Learn physically admissible fermionic field dynamics. |
-| **Quantum Field Theory** | Yang-Mills field equation | $D_\mu F^{\mu\nu} = J^\nu$ | Non-Abelian gauge fields generalize electromagnetism. | Verify whether learned gauge fields obey local symmetry constraints. |
-| **Standard Model** | Gauge symmetry structure | $SU(3)_C \times SU(2)_L \times U(1)_Y$ | The Standard Model is organized by local gauge symmetries. | Learn whether high-dimensional particle interaction data respect symmetry-induced constraints. |
-| **Higgs Mechanism** | Higgs potential | $V(\phi) = \mu^2|\phi|^2 + \lambda|\phi|^4$ | Spontaneous symmetry breaking gives particles mass. | Verify whether learned particle-field configurations lie near physically meaningful vacuum structures. |
-| **Statistical Physics** | Boltzmann distribution | $p(x) = \frac{1}{Z}e^{-E(x)/(k_BT)}$ | Equilibrium probabilities depend exponentially on energy. | Check whether generated molecular or thermodynamic states obey equilibrium statistics. |
-| **Brownian Motion** | Einstein diffusion relation | $\langle x^2(t)\rangle = 2Dt$ | Microscopic random motion produces macroscopic diffusion. | Verify whether stochastic particle, cell, or molecular trajectories obey diffusion scaling. |
-| **Statistical Physics** | Einstein mobility-diffusion relation | $D = \mu k_BT$ | Diffusion and mobility are linked by temperature. | Test whether noisy dynamics respect thermodynamic constraints. |
-| **Photoelectric Effect** | Photon energy | $E = hf$ | Light energy is quantized into photons. | Verify whether photon-material interaction data obey quantum energy constraints. |
-| **Photoelectric Effect** | Photoelectric equation | $K_{\max} = hf - \phi$ | Electron kinetic energy depends on light frequency and material work function. | Verify whether simulated photoelectric data obey quantum threshold behavior. |
-| **Atomic Radiation** | Detailed balance condition | $N_1B_{12}\rho(\nu) = N_2B_{21}\rho(\nu) + N_2A_{21}$ | Radiation and matter reach equilibrium through balanced transitions. | Check whether learned atomic transition models preserve equilibrium physics. |
 
 
 <br>
