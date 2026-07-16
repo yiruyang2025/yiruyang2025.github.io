@@ -1,13 +1,21 @@
 ---
 layout: page
 title: 2026 - M-Layer ML for Science Learning
-description: Thomas, Jyrki, Lab
+description: Thomas, Jyrki, Lab, some Real Education time
 img: assets/img/4.jpg
 importance: 5
 category: work
 related_publications: true
 ---
 
+
+
+<br><br>
+
+
+```
+"The value of a college education is not the learning of many facts but the training of the mind to think."
+```
 
 
 <br><br>
