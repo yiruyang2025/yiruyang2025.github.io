@@ -22,8 +22,7 @@ related_publications: true
 **Experiment test**
 - Can the model determine whether X=(q,v,a) is a valid physical state?
 
-
-<br><br><br><br>
+<br>
 
 ## Other Topics 
 
@@ -32,7 +31,11 @@ related_publications: true
 -  Incorporating Maxwell's Equations that describe the electromagnetic field into the Dirac Equation has been a long-term goal in physics to unify quantum electrodynamics (QED) and general relativity
 
 
-<br><br><br><br><br><br>
+<br>
+
+
+
+<br><br><br><br><br>
 
 
 ## Path to M²-Layer
@@ -216,10 +219,7 @@ beta_y
 | **Atomic Radiation** | Detailed balance condition | $N_1B_{12}\rho(\nu) = N_2B_{21}\rho(\nu) + N_2A_{21}$ | Radiation and matter reach equilibrium through balanced transitions. | Check whether learned atomic transition models preserve equilibrium physics. |
 
 
-
-
-<br><br><br><br><br><br>
-
+<br>
 
 
 ## Physical Spaces
@@ -271,7 +271,7 @@ beta_y
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
 
 
 
@@ -303,6 +303,10 @@ GMAT / Basilisk generates trajectory
 
 1. NASA Eyes / Eyes on the Solar System
    - [link](https://eyes.nasa.gov/apps/solar-system/#/home)
+
+
+2. Houdini
+
 
 ```
 3D scene
@@ -374,18 +378,7 @@ GMAT / Basilisk generates trajectory
 
 <br>
 
-<br><br><br><br>
-
-## Toolkit
-
-
-- npzviewer
-
-
-
-
 **1. ODE**
-
 
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
 - 1931 - Hamiltonian Systems and Transformation in Hilbert Space
@@ -393,7 +386,7 @@ GMAT / Basilisk generates trajectory
   - [2024 - Soliton dynamics and multistability analysis of the Hamiltonian amplitude model](https://www.sciencedirect.com/science/article/pii/S2211379724005631)
 - [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology)
 
-<br><br><br>
+<br>
 
 
 **2.Hamiltonian Systems and Operators**
@@ -402,38 +395,26 @@ GMAT / Basilisk generates trajectory
 - Hamiltonian system
 - Hilbert space: Transition from state point to function space
 - Weierstrass Approximation Theorem
-  - Universal Approximation Theorem, Bézier Curve
 - Lie operator, Unitary operator
 - Flow map
 
 
-<br><br><br>
-
+<br>
 
 
 **3. Topological Defect**
 
 
-
 - The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
 
-
-
-<br><br><br>
-
-
-
-
-
-<br><br><br>
-
+<br>
 
 
 **4. Activation Functions and Field Theories**
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
