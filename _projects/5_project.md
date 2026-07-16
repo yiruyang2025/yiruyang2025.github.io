@@ -14,7 +14,8 @@ related_publications: true
 
 
 ```
-"The value of a college education is not the learning of many facts but the training of the mind to think."
+"The value of a college education is not the learning of many facts but the training of the mind
+to think." March 1952. 
 ```
 
 
