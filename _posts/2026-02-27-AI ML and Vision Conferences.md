@@ -507,6 +507,17 @@ Complexity analysis
 | **AMP**                      | Framework automation popularized by **NVIDIA Apex** and later native PyTorch/TensorFlow AMP        | Automatically casts safe operations to FP16 and keeps sensitive operations in FP32; applies loss scaling.    | Medium-low, about **60–70%** in practice | Fast                        | High                        | Recommended default for 16GB GPU training         |
 
 
+<br>
+
+## Jax vs. Numpy
+
+| Feature            | NumPy                          | Pandas                          | JAX                                     |
+| ------------------ | ------------------------------ | ------------------------------- | --------------------------------------- |
+| **Core Role**      | Numerical computing            | Tabular data analysis           | Differentiable accelerated computing    |
+| **Data Structure** | `ndarray`                      | `DataFrame`, `Series`           | `jax.Array`                             |
+| **Best For**       | Linear algebra, simulation     | Cleaning, statistics, CSV/Excel | ML, physics models, GPU/TPU             |
+| **Main Strength**  | Fast, stable, widely supported | Easy labeled-data operations    | Autograd, JIT, `vmap`                   |
+| **Project Use**    | Solve dynamical equations      | Organize results and metadata   | Train M-Layer and run large simulations |
 
 
 
