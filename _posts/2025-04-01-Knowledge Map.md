@@ -32,6 +32,20 @@ images:
   - [Avery Pennarun](https://apenwarr.ca/log/), blog
 
 <br><br>
+
+
+## System Design
+
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+
+- [Jax 101](https://docs.jax.dev/en/latest/automatic-differentiation.html?utm_source=chatgpt.com)
+
+
+
+
+
+
+<br><br>
   
   - [Yoshua Bengio](https://www.linkedin.com/in/yoshuabengio/), GAN 2014, DL 2015
   - [Jürgen Schmidhuber](https://www.linkedin.com/in/j%C3%BCrgen-schmidhuber-39226872/), GAN, LSTM, Deep learning in neural networks: An overview 2015, Swiss AI Lab
@@ -47,22 +61,9 @@ images:
   - Sentinel-2 Paint, [Caleb Robinson](https://geospatialml.com/)
   - time zone - (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
 
+
+
 <br><br>
-
-
-## System Design
-
-- [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-
-
-
-
-
-
-
-
-
-
 
 
 <br><br><br><br>
