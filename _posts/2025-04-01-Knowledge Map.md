@@ -37,7 +37,6 @@ images:
 ## System Design
 
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-
 - [Jax 101](https://docs.jax.dev/en/latest/automatic-differentiation.html?utm_source=chatgpt.com)
 
 
