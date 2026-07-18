@@ -15,7 +15,7 @@ images:
 <br>
 
 
-  - [Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/), Researcher Zurich
+  - [Jyrki Alakuijala](https://www.linkedin.com/in/jyrkialakuijala/)
   - [Thomas](https://scholar.google.com/citations?user=JId78iQAAAAJ&hl=en)
 
 
