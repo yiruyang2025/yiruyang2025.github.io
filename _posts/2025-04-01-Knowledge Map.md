@@ -26,6 +26,7 @@ images:
   - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
   - Saining Xie, ex-GDM
+  - [Ilya Sutskever](https://x.com/ilyasut?lang=en), SSI
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
