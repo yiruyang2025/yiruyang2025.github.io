@@ -281,28 +281,6 @@ GMAT / Basilisk generates trajectory
 
 
 
-<br><br>
-
-
-## Summary Table
-
-| Item                                                           | Answer for the Current M-Layer                                                                                                                          |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Can the model perform long-horizon rollout?                         | Yes.                                                                                                                                                    |
-| Can the model compute and report energy drift?                      | Yes.                                                                                                                                                    |
-| Can the model compute and report angular-momentum drift?            | Yes.                                                                                                                                                    |
-| Can the model compute and report symplectic error?                  | Yes, if the transition matrix or rollout Jacobian is available.                                                                                         |
-| Does matrix exponentiation guarantee invertibility?                 | Yes.                                                                                                                                                    |
-| Does matrix exponentiation guarantee energy conservation?           | No.                                                                                                                                                     |
-| Does matrix exponentiation guarantee angular-momentum conservation? | No.                                                                                                                                                     |
-| Does matrix exponentiation guarantee symplectic structure?          | No.                                                                                                                                                     |
-| Can the model approximately learn these properties from data?       | Possibly.                                                                                                                                               |
-| Is approximate preservation a structural guarantee?                 | No.                                                                                                                                                     |
-| What must be added for exact angular-momentum preservation?         | A generator constraint such as (A^\top K_L+K_LA=0).                                                                                                     |
-| What must be added for exact linear symplectic preservation?        | A Hamiltonian generator satisfying (A^\top J+JA=0).                                                                                                     |
-| What should be reported experimentally?                             | Maximum, mean, and final energy drift; angular-momentum drift; symplectic defect; and whether the errors show bounded oscillation or systematic growth. |
-
-
 
 <br><br><br><br><br><br><br><br>
 
@@ -366,9 +344,6 @@ GMAT / Basilisk generates trajectory
 
 
 
-
-<br><br><br><br><br><br><br><br>
-
+<br>
 
 
-<br><br><br><br><br>
