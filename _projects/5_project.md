@@ -281,7 +281,30 @@ GMAT / Basilisk generates trajectory
 
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
+
+## Summary Table
+
+| Item                                                           | Answer for the Current M-Layer                                                                                                                          |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Can the model perform long-horizon rollout?                         | Yes.                                                                                                                                                    |
+| Can the model compute and report energy drift?                      | Yes.                                                                                                                                                    |
+| Can the model compute and report angular-momentum drift?            | Yes.                                                                                                                                                    |
+| Can the model compute and report symplectic error?                  | Yes, if the transition matrix or rollout Jacobian is available.                                                                                         |
+| Does matrix exponentiation guarantee invertibility?                 | Yes.                                                                                                                                                    |
+| Does matrix exponentiation guarantee energy conservation?           | No.                                                                                                                                                     |
+| Does matrix exponentiation guarantee angular-momentum conservation? | No.                                                                                                                                                     |
+| Does matrix exponentiation guarantee symplectic structure?          | No.                                                                                                                                                     |
+| Can the model approximately learn these properties from data?       | Possibly.                                                                                                                                               |
+| Is approximate preservation a structural guarantee?                 | No.                                                                                                                                                     |
+| What must be added for exact angular-momentum preservation?         | A generator constraint such as (A^\top K_L+K_LA=0).                                                                                                     |
+| What must be added for exact linear symplectic preservation?        | A Hamiltonian generator satisfying (A^\top J+JA=0).                                                                                                     |
+| What should be reported experimentally?                             | Maximum, mean, and final energy drift; angular-momentum drift; symplectic defect; and whether the errors show bounded oscillation or systematic growth. |
+
+
+
+<br><br><br><br><br><br><br><br>
 
 
 
@@ -327,11 +350,6 @@ GMAT / Basilisk generates trajectory
 
 
 - [2026 - High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf)
-
-<br>
-
-**1. ODE**
-
 - [2025 - Life at the boundary of chemical kinetics and program execution](https://arxiv.org/pdf/2503.19177), physical constraints
 - 1931 - Hamiltonian Systems and Transformation in Hilbert Space
   - nonlinear dynamics can be represented as linear transformations on a Hilbert space of observables.
@@ -339,35 +357,6 @@ GMAT / Basilisk generates trajectory
 - [2026 - Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology)
 
 <br>
-
-
-**2.Hamiltonian Systems and Operators**
-
-
-- Hamiltonian system
-- Hilbert space: Transition from state point to function space
-- Weierstrass Approximation Theorem
-- Lie operator, Unitary operator
-- Flow map
-
-
-<br>
-
-
-**3. Topological Defect**
-
-
-- The data manifold is extremely distorted, dimensionally reduced, or has broken connectivity in this region.
-
-<br>
-
-
-**4. Activation Functions and Field Theories**
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 
 
 ## Other Topics
