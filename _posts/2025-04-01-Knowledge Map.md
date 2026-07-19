@@ -26,7 +26,7 @@ images:
   - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
   - Saining Xie, ex-GDM
-  - [Ilya Sutskever](https://x.com/rohanpaul_ai/status/1993457531335983252?s=20), SSI, no product company
+  - [Ilya Sutskever](https://x.com/rohanpaul_ai/status/1993457531335983252?s=20), SSI
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
@@ -77,7 +77,7 @@ Deep Learning, 25
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GAP9, GPGPU, 26
+[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26
 
 VLSI 2: From Netlist to Complete System on Chip
 
