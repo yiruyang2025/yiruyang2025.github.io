@@ -79,8 +79,6 @@ Deep Learning, 25
 
 [Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26
 
-VLSI 2: From Netlist to Complete System on Chip
-
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
 Probabilistic Artificial Intelligence, 26
@@ -92,6 +90,8 @@ Probabilistic Artificial Intelligence, 26
 (Vision Algorithms for Mobile Robotics (L+E))
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
+
+VLSI 2: From Netlist to Complete System on Chip
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
