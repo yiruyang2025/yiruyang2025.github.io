@@ -666,7 +666,131 @@ Complexity analysis
 
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
+
+# macOS on Apple Silicon: Package and Environment Management
+
+Apple Silicon uses the **ARM64** instruction set, also called **AArch64**. Most current macOS software is available as native ARM64 or universal binaries. Older Intel-only software may still require **Rosetta 2**.
+
+<br>
+
+## Layer 0 — CPU Architecture and Binary Compatibility
+
+| Property                   | Native Apple Silicon    | Intel Compatibility Mode               |
+| -------------------------- | ----------------------- | -------------------------------------- |
+| Architecture               | ARM64 / AArch64         | x86_64 / AMD64                         |
+| Native on M-series         | Yes                     | No                                     |
+| Execution                  | Direct                  | Rosetta 2 translation                  |
+| Homebrew prefix            | `/opt/homebrew`         | `/usr/local`                           |
+| Check process architecture | `arch` → `arm64`        | `arch` → `i386`                        |
+| Check machine architecture | `uname -m` → `arm64`    | Physical machine still reports `arm64` |
+| Force execution            | `arch -arm64 <command>` | `arch -x86_64 <command>`               |
+| Typical use                | Modern software         | Legacy Intel-only software             |
+
+Install Rosetta 2 only when required:
+
+```bash
+softwareupdate --install-rosetta --agree-to-license
+```
+
+**Rule:** Prefer native ARM64 software.
+
+<br>
+
+## Layer 1 — Apple-Provided System Tools
+
+| Tool                         | Location                              | Purpose                            | Rule                                  |
+| ---------------------------- | ------------------------------------- | ---------------------------------- | ------------------------------------- |
+| Apple Python                 | `/usr/bin/python3`                    | macOS and developer-tool workflows | Do not install project packages there |
+| Apple Ruby and Perl          | `/usr/bin/*`                          | System scripts                     | Do not replace them                   |
+| Apple `curl`, `ssh`, and CLI | `/usr/bin/*`                          | Core system utilities              | Install separate versions if needed   |
+| Xcode Command Line Tools     | `/Library/Developer/CommandLineTools` | Compilers, headers, `git`, `make`  | Install before native development     |
+| Full Xcode                   | `/Applications/Xcode.app`             | Apple-platform and Metal workflows | Install only when required            |
+
+Install the Xcode Command Line Tools:
+
+```bash
+xcode-select --install
+```
+
+**Rule:** Treat `/usr/bin`, `/bin`, `/sbin`, and `/System` as read-only. Never use `sudo pip install` or `sudo brew`.
+
+<br>
+
+## Layer 2 — Machine-Level Package Managers
+
+| Manager                | Handles                                    | Default location              | Best use                        |
+| ---------------------- | ------------------------------------------ | ----------------------------- | ------------------------------- |
+| Homebrew               | CLI tools, libraries, services, GUI apps   | `/opt/homebrew`               | Default choice for most users   |
+| MacPorts               | Unix tools and native libraries            | `/opt/local`                  | Packages better supported there |
+| Nix with `nix-darwin`  | Declarative packages and system settings   | `/nix/store`                  | Reproducible machine setups     |
+| Mac App Store          | Apple-distributed GUI applications         | `/Applications`               | Xcode and Store-managed apps    |
+| Vendor `.dmg` / `.pkg` | GUI apps, drivers, and system integrations | `/Applications` or `/Library` | Vendor-required installation    |
+
+### Essential Homebrew Commands
+
+| Command                            | Purpose                         |
+| ---------------------------------- | ------------------------------- |
+| `brew install <formula>`           | Install a CLI tool or library   |
+| `brew install --cask <cask>`       | Install a GUI app or font       |
+| `brew list`                        | List installed packages         |
+| `brew leaves`                      | List explicitly installed tools |
+| `brew outdated`                    | Show available updates          |
+| `brew upgrade`                     | Upgrade packages                |
+| `brew uninstall <package>`         | Remove a package                |
+| `brew info <package>`              | Show package information        |
+| `brew search <name>`               | Search packages                 |
+| `brew bundle dump --file=Brewfile` | Export installed packages       |
+| `brew bundle --file=Brewfile`      | Restore installed packages      |
+| `brew doctor`                      | Diagnose configuration problems |
+| `brew cleanup`                     | Remove old versions and caches  |
+| `brew autoremove`                  | Remove unused dependencies      |
+
+**Rule:** Use Homebrew as the primary package manager. Do not mix Homebrew and MacPorts on the same `PATH` unless carefully isolated.
+
+<br>
+
+## Layer 3 — Language Runtime Managers
+
+| Tool     | Languages                                   | Project configuration                          | Recommended role                    |
+| -------- | ------------------------------------------- | ---------------------------------------------- | ----------------------------------- |
+| `mise`   | Python, Node.js, Ruby, Go, Java, and others | `.mise.toml` or `.tool-versions`               | Recommended general-purpose manager |
+| `asdf`   | Multiple languages through plugins          | `.tool-versions`                               | Established team alternative        |
+| `pyenv`  | Python                                      | `.python-version`                              | Specialised Python workflows        |
+| `nvm`    | Node.js                                     | `.nvmrc`                                       | Common Node-only manager            |
+| `fnm`    | Node.js                                     | `.nvmrc`                                       | Faster Node-only alternative        |
+| `rbenv`  | Ruby                                        | `.ruby-version`                                | Existing Ruby workflows             |
+| `rustup` | Rust                                        | `rust-toolchain.toml`                          | Official Rust toolchain manager     |
+| `uv`     | Python runtime and dependencies             | `.python-version`, `pyproject.toml`, `uv.lock` | Python-only workflows               |
+
+**Rule:** Choose one primary runtime manager, normally `mise` or `asdf`. Use `rustup` for Rust.
+
+<br>
+
+## Layer 4 — Python Environments and Dependency Management
+
+| Tool              | Creates environments     | Installs dependencies          | Locking            | Recommended role                        |
+| ----------------- | ------------------------ | ------------------------------ | ------------------ | --------------------------------------- |
+| `venv`            | Yes                      | No                             | No                 | Minimal standard-library environment    |
+| `virtualenv`      | Yes                      | No                             | No                 | Legacy compatibility                    |
+| `pip`             | No                       | Yes                            | No                 | Basic package installer                 |
+| `pip-tools`       | No                       | Yes                            | Requirements files | Lightweight dependency locking          |
+| `uv`              | Yes                      | Yes                            | `uv.lock`          | Recommended default                     |
+| Poetry            | Yes                      | Yes                            | `poetry.lock`      | Existing Poetry-based projects          |
+| PDM               | Yes                      | Yes                            | Yes                | Standards-oriented alternative          |
+| Hatch             | Yes                      | Yes                            | Environment-based  | Library development and testing         |
+| Conda             | Yes                      | Yes, including native packages | Yes                | Scientific stacks with native libraries |
+| Mamba             | Uses Conda environments  | Yes                            | Conda-compatible   | Faster Conda solver                     |
+| `pipx`            | One environment per tool | Yes                            | No project lock    | Isolated global Python CLI tools        |
+| `uv tool install` | One environment per tool | Yes                            | Tool-specific      | Preferred Python CLI installation       |
+
+**Rule:** Use `uv` for Python projects and `uv tool install` for Python CLI tools. Use Conda or Mamba only when native scientific dependencies require them.
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
 
 
