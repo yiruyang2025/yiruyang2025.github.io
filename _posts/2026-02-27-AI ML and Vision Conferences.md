@@ -68,7 +68,6 @@ def backtrack(index):
         backtrack(i + 1)
         path.pop()
 
-**dumb syntax**
 def function_name(parameters) -> return_type:
 List[List[str]] = a list of chessboards, where each chessboard is represented as a list of strings.
 def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
