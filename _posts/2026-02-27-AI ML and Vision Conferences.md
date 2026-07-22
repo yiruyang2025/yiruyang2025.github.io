@@ -676,7 +676,7 @@ Complexity analysis
 
 - [2026 - Latentlens: Revealing Highly Interpretable Visual Tokens in LLMs](https://huggingface.co/papers/2602.00462)
 - [2026 - You Cannot Feed Two Birds with One Score: the Accuracy-Naturalness Tradeoff in Translation](https://arxiv.org/abs/2503.24013)
-
+- [2026 - Google Study Shows Quantum Computer Can Learn From Its Own Errors While It Computes](https://thequantuminsider.com/2026/07/10/google-study-shows-quantum-computer-can-learn-from-its-own-errors-while-it-computes/)
 
 
 
