@@ -29,7 +29,7 @@ related_publications: true
 ## References 1
 
 
-- [2024 - Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization](https://iclr.cc/virtual/2024/oral/19744), ICLR Oral GDM, C.3 SADDLE POINT ANALYSIS
+- [2024 - Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization](https://iclr.cc/virtual/2024/oral/19744), ICLR Oral, C.3 Saddle Point Analysis
 - [2026 - Zero Order Pretrain](https://x.com/FrancoisChauba1/status/2072433265232019871?s=20)
 
 
