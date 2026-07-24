@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2026 - Thesis - And More
-description: warp
+title: 2026 - DNA Discovery
+description: And More
 img: assets/img/4.jpg
 importance: 6
 category: work
