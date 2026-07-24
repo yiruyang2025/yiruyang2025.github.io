@@ -38,7 +38,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en), AI Center, [Shape Completion and Registration](https://comreg-page.github.io/)
 - 📍 [Important Thesis and Web](https://yiruyang2025.github.io/projects/7_project/) - `Continuous Tokenization` from symphonic music Generation to LLM, [RL](https://www.linkedin.com/posts/davidescaramuzza_reinforcementlearning-ugcPost-7465069309640237056-6G9Y/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [Vello.ai](https://www.linkedin.com/company/vello-music.ai), [AI Center](https://www.linkedin.com/in/arnoutdevos/)
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - When MLP fails, M-Layer Learning `Dynamics from Galaxies`, [General Gravity Law Verification](https://arxiv.org/pdf/2008.03936)
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `Backpropagation` [decoupled](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), ()
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `DNA Discovery` [decoupled](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), [Computational Life](https://research.google/pubs/computational-life-how-well-formed-self-replicating-programs-emerge-from-simple-interaction/)
 
 
 <br>
