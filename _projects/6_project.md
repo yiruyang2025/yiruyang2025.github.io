@@ -14,11 +14,13 @@ related_publications: true
 
 
 - [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://research.google/people/105344/?&type=google), 2024
+- [2016 - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434), ICLR Test of Time
+
 
 
 
 <br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -28,7 +30,6 @@ related_publications: true
 
 
 - [2024 - Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization](https://iclr.cc/virtual/2024/oral/19744), ICLR Oral GDM, C.3 SADDLE POINT ANALYSIS
-- [2016 - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434), ICLR Test of Time
 - [2026 - Zero Order Pretrain](https://x.com/FrancoisChauba1/status/2072433265232019871?s=20)
 
 
