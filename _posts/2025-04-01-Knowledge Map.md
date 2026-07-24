@@ -20,7 +20,6 @@ images:
 
 
 
-
   - [Kaiming He](https://introtocv.github.io/), GDM
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
   - [], UIUC
