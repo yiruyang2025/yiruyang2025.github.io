@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 - Thesis - Diffusion
+title: 2025 - Thesis - Flow-Matching
 description: Hash, Diffusion Less Steps
 img: assets/img/4.jpg
 importance: 3
