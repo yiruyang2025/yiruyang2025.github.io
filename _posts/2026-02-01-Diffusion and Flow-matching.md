@@ -25,11 +25,11 @@ images:
 
 <br><br><br><br><br>
 
-## Diffusions
+## Diffusions, DiT
 
 - [📍 2026 - The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning](https://arxiv.org/abs/2602.18428v1)
 - [DIAMOND: Diffusion for World Modeling: Visual Details Matter in Atari](https://diamond-wm.github.io/)
-
+- [2021 ICCV - An Empirical Study of Training Self-Supervised Vision Transformers](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_An_Empirical_Study_of_Training_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html)
 
 
 
