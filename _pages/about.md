@@ -45,7 +45,7 @@ latest_posts:
 
 
 **Interests**
-  - Space, [Backbones, Zurich - Joan Puigcerver](https://scholar.google.com/citations?user=ZHnRsrsAAAAJ&hl=en), [Audio](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
+  - Space, [Backbones, Zurich - Joan Puigcerver](https://scholar.google.com/citations?user=ZHnRsrsAAAAJ&hl=en), [Audio - Lucas Beyer](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Visual Intelligence
   - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Intelligence](https://openai.com/zh-Hans-CN/index/model-disproves-discrete-geometry-conjecture/)
 
