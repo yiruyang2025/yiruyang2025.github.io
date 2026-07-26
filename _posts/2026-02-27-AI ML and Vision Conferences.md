@@ -443,24 +443,28 @@ Complexity analysis
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-## ECCV
-
-- [2024 - Oral - Minimalist Vision with Free form Pixels](https://eccv.ecva.net/virtual/2024/oral/147)
-- [2022 - Best Papers and 📍 Demo On-device](https://eccv2022.ecva.net/files/2022/10/ECCV22-Awards.pdf)
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
-<br><br><br><br><br>
+## AAAI
+
+
+
+| Item                                                 | Deadline (AoE, UTC−12)  | What to Submit                                                            | Format and Page Limit                                                                                                                                      | Reviewed?                                                                                                   | Source   |
+| ---------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------- |
+| Abstract                                             | July 21, 2026, 11:59 PM | Final title and complete abstract                                         | OpenReview form                                                                                                                                            | Yes. Placeholder titles or abstracts may be deleted.                                                        | Official |
+| Main Paper                                           | July 28, 2026, 11:59 PM | Anonymized main paper and Reproducibility Checklist                       | PDF, US Letter, AAAI two-column format. Maximum 9 pages total: Pages 1–7 for technical content only; Pages 8–9 for references only. Omit acknowledgements. | Yes. Mandatory for review.                                                                                  | Official |
+| Supplementary Material, including Technical Appendix | July 31, 2026, 11:59 PM | Any of the following: technical appendix, multimedia files, code, or data | PDF for the technical appendix; ZIP for multimedia, code, or data. The appendix must be anonymized. No explicit page limit is stated.                      | No. Reviewers are not required to examine supplementary material, so the main paper must be self-contained. | Official |
 
 
 
 
 
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -497,9 +501,9 @@ Complexity analysis
 
 
 
-<br>
+<br><br><br><br><br><br><br><br>
 
-# macOS on Apple Silicon: Package and Environment Management
+## macOS on Apple Silicon: Package and Environment Management
 
 Apple Silicon uses the **ARM64** instruction set, also called **AArch64**. Most current macOS software is available as native ARM64 or universal binaries. Older Intel-only software may still require **Rosetta 2**.
 
@@ -790,6 +794,18 @@ xcode-select --install
 
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
+
+
+
+## ECCV
+
+- [2024 - Oral - Minimalist Vision with Free form Pixels](https://eccv.ecva.net/virtual/2024/oral/147)
+- [2022 - Best Papers and 📍 Demo On-device](https://eccv2022.ecva.net/files/2022/10/ECCV22-Awards.pdf)
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 
 
