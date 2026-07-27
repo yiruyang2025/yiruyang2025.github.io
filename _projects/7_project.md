@@ -37,7 +37,7 @@ related_publications: true
 
 
 
-## Tokenization
+## Tokenization - from Audio to LLM
 
 ```
 In multimodal generation, tokenization extends beyond text: images, speech, and music can be represented
@@ -58,7 +58,7 @@ discrete vocabulary.
 prompting:
 
 ```
-write in the most simple and dense way what is the substantial differnce between flow matching and other diffusion approaches
+write in the most simple and dense way what is the substantial difference between flow matching and other diffusion approaches
 ```
 
 
