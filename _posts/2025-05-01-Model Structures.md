@@ -21,10 +21,7 @@ Let's take a look at the history of the Model Structures we're using today.
 <br>
 
 
-- All our models are intentionally designed to be differentiable but without a closed-form. This is because once
-a closed-form is present, the model becomes linear and simple, with weak expressive power, unable to learn
-Mozart's harmonic progressions. Only by creating multiple layers of non-linear nesting can a model achieve both
-differentiability and the inability to solve for a closed-form, thus possessing powerful expressive power.
+- All our models are intentionally designed to be differentiable but without a closed-form. This is because once a closed form is present, the model becomes linear and simple, with weak expressive power, unable to learn Mozart's harmonic progressions. Only by creating multiple layers of non-linear nesting can a model achieve both differentiability and the inability to solve for a closed-form, thus possessing powerful expressive power.
 
 
 ```
