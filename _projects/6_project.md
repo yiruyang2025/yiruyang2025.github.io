@@ -28,7 +28,24 @@ L(x₁:ₜ) = −Σₜ₌₁ᵀ log₂ P(xₜ | x&lt;ₜ)
 
 where P(xₜ | x&lt;ₜ) is the probability of the next symbol xₜ given all previous symbols.
 
-<br><br><br>
+<br>
+
+
+| Concept | Meaning |
+|---|---|
+| Core relationship | **Better prediction → lower surprisal → fewer bits** |
+| Sequence | x₁, x₂, ..., xₜ |
+| Ideal coding length | **L(x₁:ₜ) = −Σₜ₌₁ᵀ log₂ P(xₜ \| x&lt;ₜ)** |
+| Conditional probability | P(xₜ \| x&lt;ₜ) is the probability assigned to the next symbol xₜ given all previous symbols. |
+| Surprisal | −log₂ P(xₜ \| x&lt;ₜ) measures how unexpected the observed symbol is. |
+| Highly predictable symbol | A high-probability symbol has low surprisal and requires fewer bits. |
+| Unexpected symbol | A low-probability symbol has high surprisal and requires more bits. |
+| Total compression cost | The coding length of the full sequence is the sum of the surprisal values of all symbols. |
+| Main conclusion | Probabilistic prediction and entropy-based compression are two views of the same mathematical process. |
+
+
+
+<br><br>
 
 
 
