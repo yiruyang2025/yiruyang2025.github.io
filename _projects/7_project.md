@@ -55,7 +55,7 @@ discrete vocabulary.
 ## Generation
 
 
-prompting:
+- prompting:
 
 ```
 write in the most simple and dense way what is the substantial difference between flow matching and other diffusion approaches
