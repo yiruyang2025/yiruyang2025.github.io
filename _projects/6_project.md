@@ -10,7 +10,32 @@ related_publications: true
 
 <br>
 
-## Topics - ICLR
+
+## Topics
+
+
+```
+In information theory, compression and prediction are essentially two sides of the same coin.
+Claude Shannon, in his foundational work, revealed a core principle: the more accurate your
+predictions of your data, the smaller you can compress it.
+```
+
+| Concept | Meaning |
+|---|---|
+| Core relationship | **Better prediction → lower surprisal → fewer bits** |
+| Sequence | \(x_1, \ldots, x_T\) |
+| Ideal coding length | \(\displaystyle L(x_{1:T}) = -\sum_{t=1}^{T}\log_2 P(x_t \mid x_{<t})\) |
+| Conditional probability | \(P(x_t \mid x_{<t})\) is the probability assigned to the next symbol \(x_t\) given all previous symbols. |
+| Surprisal | \(\displaystyle -\log_2 P(x_t \mid x_{<t})\) measures how unexpected the observed symbol is. |
+| Highly predictable symbol | A high-probability symbol has low surprisal and requires fewer bits. |
+| Unexpected symbol | A low-probability symbol has high surprisal and requires more bits. |
+| Total compression cost | The coding length of the full sequence is the sum of the surprisal of all symbols. |
+| Main conclusion | Probabilistic prediction and entropy-based compression are two views of the same mathematical process. |
+
+
+
+<br><br><br>
+
 
 
 - [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://research.google/people/105344/?&type=google), 2024
