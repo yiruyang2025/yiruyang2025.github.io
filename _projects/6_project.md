@@ -55,7 +55,21 @@ where P(xₜ | x&lt;ₜ) is the probability of the next symbol xₜ given all pr
 
 
 
-<br><br><br><br>
+<br><br>
+
+
+
+## Three Compression Boundaries
+
+| Layer | Core Question | Mathematical Form | Meaning |
+| :--- | :--- | :--- | :--- |
+| **1. Information-Theoretic Boundary** | What is the minimum number of bits required under ideal conditions? | Lossless: $H(X)$ <br> Lossy: $R(D)$ | This is the fundamental theoretical limit determined by the source distribution and, for lossy compression, the chosen distortion measure. It assumes an ideal probability model, arbitrarily long coding blocks, and no practical limits on computation, memory, or latency. |
+| **2. Algorithmic Boundary** | What is the best compression achievable under a finite computational budget? | $T(n) \le B$, therefore $R_B(D) \ge R(D)$ | The information-theoretic optimum may require prohibitively expensive or intractable search. A practical algorithm explores only a restricted set of encoding decisions, so its best achievable rate is generally no better than the theoretical rate–distortion limit. |
+| **3. Format and System Boundary** | What is achievable after imposing real deployment constraints? | $R_{\mathrm{sys}}(D) \ge R_B(D) \ge R(D)$ | A real codec must satisfy bitstream syntax, decoder complexity, memory limits, latency, random access, parallelism, error resilience, streaming, hardware support, and backward compatibility. These constraints further reduce the feasible solution space. |
+
+
+
+<br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
