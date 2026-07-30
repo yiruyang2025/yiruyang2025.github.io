@@ -11,10 +11,10 @@
 
 ## Templates
 
-- https://favicon.io/
-- https://alshedivat.github.io/al-folio/
-- https://github.com/alshedivat/al-folio
-- https://yamlresume.dev/
+- favicon.io/
+- alshedivat.github.io/al-folio/
+- github.com/alshedivat/al-folio
+- yamlresume.dev/
 - [How to Run NGC Deep Learning Containers with Singularity](https://developer.nvidia.com/blog/how-to-run-ngc-deep-learning-containers-with-singularity/)
 
 <br>
