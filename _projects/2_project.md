@@ -1023,7 +1023,7 @@ Conceptual trajectory
 - [2025 - RocSync:Temporal Multi-Camera Synchronization](https://github.com/jaromeyer/RocSync)
 - [2025 patent - Performing computer vision tasks using guiding code sequences](https://patents.google.com/patent/US20250356635A1/en)
 - [2025 - Hierarchical 4D Scene Graph](https://nicolasgorlo.com/DAAAM_25/)
-- [2025 - 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
+- [2025 - 📍 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos, NeurIPS (Spotlight)](https://4dgt.github.io/)
 
 <br>
 
