@@ -22,9 +22,9 @@ related_publications: true
 <br>
 
 
-## Attended Doctoral Thesis Defense
+## ECCV 2026 Demo Track
 
-- Generalizing Monocular 3D Estimation by Luigi Piccinelli, 9 Dec 2025
+- [4D Genie, World Model on a Phone Demo](https://www.youtube.com/watch?v=2AsLGmNJees&list=PLBFkmb9oVC42Uwc6Pd5Ku1o3KGKI0GLso), Cross GPU
 
 <br>
 
