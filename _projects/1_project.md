@@ -22,6 +22,8 @@ related_publications: true
 Riemann's research on multidimensional manifolds also promoted the idea that space does not need to be pre-embedded in ordinary three-dimensional Euclidean space, but can be defined by its own local structure.
 ```
 
+    - In Euclidean space, the neighborhood comes from the sphere Bε​(x), but topological analysis removes the "distance" and only retains the logic: x has some local regions.
+
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
