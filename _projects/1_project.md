@@ -19,10 +19,13 @@ related_publications: true
 - [📍 2012 - Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5)
 
 ```
-Riemann's research on multidimensional manifolds also promoted the idea that space does not need to be pre-embedded in ordinary three-dimensional Euclidean space, but can be defined by its own local structure.
+- Riemann's research on multidimensional manifolds also promoted the idea that space does not need to
+be pre-embedded in ordinary three-dimensional Euclidean space, but can be defined by its own local structure.
+
+- In Euclidean space, the neighborhood comes from the sphere Bε​(x), but topological analysis removes the
+"distance" and only retains the logic: x has some local regions.
 ```
 
-    - In Euclidean space, the neighborhood comes from the sphere Bε​(x), but topological analysis removes the "distance" and only retains the logic: x has some local regions.
 
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
