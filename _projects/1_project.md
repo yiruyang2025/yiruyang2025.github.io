@@ -16,6 +16,7 @@ related_publications: true
 - [2026 - Try with some Endangered Languages](https://x.com/osanseviero/status/2032452729059045881?s=20/)
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
+- [2012 - Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5)
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
