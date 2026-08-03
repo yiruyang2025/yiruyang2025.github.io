@@ -17,6 +17,11 @@ related_publications: true
 
 - [2017 - Information Geometry](https://link.springer.com/book/10.1007/978-3-319-56478-4)
 - [📍 2012 - Introduction to Smooth Manifolds](https://link.springer.com/book/10.1007/978-1-4419-9982-5)
+
+```
+Riemann's research on multidimensional manifolds also promoted the idea that space does not need to be pre-embedded in ordinary three-dimensional Euclidean space, but can be defined by its own local structure.
+```
+
 - [1914 - Hausdorff Space, Grundzüge der Mengenlehre]
 - [2014 - Optimization Techniques on Riemannian Manifolds]
 - [2015 - Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
