@@ -17,14 +17,16 @@ related_publications: true
 ## The Topic
 
 ```
-Newton said gravity is a force; Einstein said gravity is the curvature of spacetime.
+Newton said gravity is a force; Einstein said gravity is the curvature of spacetime
 Does Newton's Gal(3) invariant still hold at the galactic scale?
 ```
 
 
-- Negative samples cannot be arbitrarily noiseed: The position cannot be changed arbitrarily while maintaining the original acceleration, because arbitrarily adding noise would break the Gal(3) invariant, and the classifier would learn not the physical symmetry breaking, but noise.
+- Negative samples cannot be arbitrarily noiseed: The position cannot be changed arbitrarily while maintaining the original acceleration, because arbitrarily adding noise would break the Gal(3) invariant, and the classifier would learn not the physical symmetry breaking, but noise
 
-
+```
+We only show SO(2) and SO(1,1)，SO(3), SE(3), SO(3,1) for 3D galaxies and general relativity is future work
+```
 
 
 <br>
