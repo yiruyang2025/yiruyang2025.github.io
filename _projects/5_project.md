@@ -11,7 +11,23 @@ related_publications: true
 
 
 
-<br><br>
+<br>
+
+
+## The Topic
+
+```
+Newton said gravity is a force; Einstein said gravity is the curvature of spacetime.
+Does Newton's Gal(3) invariant still hold at the galactic scale?
+```
+
+
+- Negative samples cannot be arbitrarily noiseed: The position cannot be changed arbitrarily while maintaining the original acceleration, because arbitrarily adding noise would break the Gal(3) invariant, and the classifier would learn not the physical symmetry breaking, but noise.
+
+
+
+
+<br>
 
 
 ## End Goals
@@ -35,9 +51,6 @@ related_publications: true
 
 <br>
 
-
-
-<br><br><br><br><br>
 
 
 ## Path to M²-Layer
