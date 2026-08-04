@@ -97,9 +97,8 @@ Does Newton's Gal(3) invariant still hold at the galactic scale?
   - ROC-AUC
     - Does the learned score separate physical from unphysical samples across thresholds?
   - Poincaré section consistency
-    - 📍 Recover the same phase-space section geometry as the true dynamical system.
+    - Recover the same phase-space section geometry as the true dynamical system.
   - Zero-shot / Systematic Generalization / (Out-of-Distribution (OOD) Generalization Ability)
-
 
 
 <br><br>
