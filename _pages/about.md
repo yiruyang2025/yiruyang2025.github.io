@@ -35,7 +35,7 @@ latest_posts:
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on [Manifolds](https://www.youtube.com/watch?v=2ujyfLFGMwE), ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en), [Shape Completion and Registration](https://comreg-page.github.io/)
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en)
 - 📍 [Important Thesis and Web](https://yiruyang2025.github.io/projects/7_project/) - M-Layer Periodic in `Wavefield Stereo Audio Generation`, [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [Vello.ai](https://www.linkedin.com/company/vello-music.ai), [AI Center](https://www.linkedin.com/in/arnoutdevos/)
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - When MLP fails, M-Layer Learning `Dynamics from Galaxies` with SO(2) Symmetry, [General Gravity Law Verification](https://arxiv.org/pdf/2008.03936)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/6_project/) - `DNA Discovery`, [Computational Life](https://research.google/pubs/computational-life-how-well-formed-self-replicating-programs-emerge-from-simple-interaction/), [decoupled](https://darren-broemmer.medium.com/backpropagation-explained-how-modern-ai-models-actually-get-smart-1fcf14dff869), ()
