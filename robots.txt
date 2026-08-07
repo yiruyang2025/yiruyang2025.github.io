@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yiruyang2025.github.io/sitemap.xml
