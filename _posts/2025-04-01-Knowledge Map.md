@@ -59,8 +59,7 @@ images:
   - Rust everything - [blogs - Zurich](https://sakex.github.io/ml-perf/array_programming/intro.html)
   - Sentinel-2 Paint, [Caleb Robinson](https://geospatialml.com/)
   - [Reflecting on My Failure to Build a Billion-Dollar Company](https://sahillavingia.com/reflecting), 2019 
-  - time zone - (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
-
+  - time zone - (UTC +02:00) Zurich, 🇨🇭
 
 
 <br><br>
