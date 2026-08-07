@@ -10,6 +10,11 @@ related_publications: true
 
 <br>
 
+- Every Friday, send me a shortlist of worthwhile new papers, reports, and code releases on lightweight ASR distillation for hearing-aid or low-resource deployment, especially adapter/LoRA/QLoRA methods, Whisper or wav2vec2 teacher-student setups, WER/latency trade-offs, and robust noisy-speech evaluation.
+
+
+<br>
+
 ## Background Readings
 
 
