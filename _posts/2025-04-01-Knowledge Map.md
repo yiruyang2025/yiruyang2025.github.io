@@ -28,6 +28,7 @@ images:
   - Saining Xie, ex-GDM
   - [Neil Houlsby](https://x.com/neilhoulsby/status/2021879072930881660?s=20), Zurich
   - [Jeff Dean](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NMS69lQAAAAJ&citation_for_view=NMS69lQAAAAJ:k8Z6L05lTy4C), Artificial Intelligence
+  - [Ethan Perez](https://scholar.google.com/citations?hl=zh-TW&user=za0-taQAAAAJ&view_op=list_works&citft=1&email_for_op=anny.yiru.yang%40gmail.com&gmla=AO4B3jud9ODZAg2TKAdbG-r0mOKiVKHAHKlOJKschM_Fmf_Up1uL-TAw5kSJ-T_HzSyEBuwvrPRu3tuJHFWnDB3yY6qocGHqbY5EGc8ZiJBv0fIvEI2d6-hg_Rejs_ZqaK_cmOmvwuc2IBYn9dQGnBrp7H1NkHI0vQ4nhOfJbmdDeRm5OXXT9XABsAUhzbH-BNYrdMe2je82dqxiPAr1cW0ZpGENCQCboRlz7sYkkUUwL2XQzK50rqv8EjOJyvoWDY0), Alignment
   - [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), ex-GDM
   - [Avery Pennarun](https://apenwarr.ca/log/), blog
 
