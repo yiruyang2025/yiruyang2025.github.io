@@ -188,7 +188,7 @@ In practice, "Deep" means:
   - [2017 NeuralPS - Attention Is All You Need - **Self-Attention / Scaled Dot-Product Attention**](https://arxiv.org/abs/1706.03762)<br>
 
 - **Mamba**
-  - Linear-Time Sequence Modeling<br>
+  - Linear-Time 📍 Sequence Modeling<br>
   - State Space Model - SSM - with selective long-range memory<br>
   - [2023 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752)
 
