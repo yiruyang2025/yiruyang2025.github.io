@@ -181,6 +181,9 @@ In practice, "Deep" means:
   - Fully Connected Layer -> Receptive Field -> Parameter Sharing -> Convolutional Layer
   - 1998 - LeNet / 2012 - AlexNet: ImageNet Classification with Deep Convolutional Neural Networks<br>
 
+- **Deep Belief Nets**
+  - [2007 NIPS Tutorial - Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf)
+
 - **Transformer**
   - When inputs are sequences<br>
   - Self-attention + Parallel computation<br>
