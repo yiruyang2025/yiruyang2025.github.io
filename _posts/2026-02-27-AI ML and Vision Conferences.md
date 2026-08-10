@@ -366,7 +366,7 @@ Complexity analysis
 | Nature Reviews Molecular Cell Biology | Molecular biology, cell biology and related technologies  | Review-focused |    118.0 |              147.0 |
 | Nature Reviews Immunology             | Fundamental and clinical immunology                       | Review-focused |     47.1 |               73.8 |
 
-
+<br>
 
 | Journal                     | Primary Scope                                            |  Publishing Model | 2025 JIF | 2025 Five-Year JIF |
 | --------------------------- | -------------------------------------------------------- | ----------------: | -------: | -----------------: |
@@ -384,14 +384,14 @@ Complexity analysis
 | Nature Machine Intelligence | Artificial intelligence, machine learning and robotics   |            Hybrid |     29.8 |               36.0 |
 | Nature Communications       | Multidisciplinary natural, applied and health sciences   | Fully open access |     18.1 |               18.9 |
 
-
+<br>
 
 | Journal | Primary Scope             |              Journal Type | 2025 JIF | 2025 Five-Year JIF |
 | ------- | ------------------------- | ------------------------: | -------: | -----------------: |
 | Nature  | Multidisciplinary science | Flagship research journal |     56.1 |               56.7 |
 
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>
 
 
 
