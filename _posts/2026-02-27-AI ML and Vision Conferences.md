@@ -356,8 +356,59 @@ Complexity analysis
 <br><br><br><br><br><br><br><br><br><br>
 
 
+## Nature Portfolio
+
+| Journal                               | Primary Scope                                             |   Journal Type | 2025 JIF | 2025 Five-Year JIF |
+| ------------------------------------- | --------------------------------------------------------- | -------------: | -------: | -----------------: |
+| Nature Reviews Cancer                 | Cancer biology, oncology, cancer prevention and treatment | Review-focused |     60.7 |               85.0 |
+| Nature Reviews Materials              | Materials science and materials engineering               | Review-focused |     83.3 |              110.4 |
+| Nature Reviews Drug Discovery         | Drug discovery, pharmaceutical research and development   | Review-focused |     91.2 |              131.3 |
+| Nature Reviews Molecular Cell Biology | Molecular biology, cell biology and related technologies  | Review-focused |    118.0 |              147.0 |
+| Nature Reviews Immunology             | Fundamental and clinical immunology                       | Review-focused |     47.1 |               73.8 |
 
 
+
+| Journal                     | Primary Scope                                            |  Publishing Model | 2025 JIF | 2025 Five-Year JIF |
+| --------------------------- | -------------------------------------------------------- | ----------------: | -------: | -----------------: |
+| Nature Medicine             | Biomedical, translational and clinical research          |            Hybrid |     52.5 |               52.5 |
+| Nature Biotechnology        | Biotechnology, bioengineering and technology translation |            Hybrid |     44.5 |               50.9 |
+| Nature Materials            | Materials science and engineering                        |            Hybrid |     38.0 |               44.6 |
+| Nature Energy               | Energy generation, storage, distribution and policy      |            Hybrid |     70.1 |               66.6 |
+| Nature Nanotechnology       | Nanoscience and nanotechnology                           |            Hybrid |     37.5 |               42.6 |
+| Nature Chemistry            | Chemistry and interdisciplinary chemical research        |            Hybrid |     24.5 |               24.0 |
+| Nature Physics              | Fundamental and applied physics                          |            Hybrid |     18.0 |               21.5 |
+| Nature Photonics            | Photonics, optics and light-based technologies           |            Hybrid |     38.1 |               39.5 |
+| Nature Climate Change       | Climate science, impacts, mitigation and adaptation      |            Hybrid |     26.9 |               35.6 |
+| Nature Neuroscience         | Fundamental and systems neuroscience                     |            Hybrid |     20.3 |               24.9 |
+| Nature Genetics             | Genetics, genomics and functional genomics               |            Hybrid |     25.5 |               35.3 |
+| Nature Machine Intelligence | Artificial intelligence, machine learning and robotics   |            Hybrid |     29.8 |               36.0 |
+| Nature Communications       | Multidisciplinary natural, applied and health sciences   | Fully open access |     18.1 |               18.9 |
+
+
+
+| Journal | Primary Scope             |              Journal Type | 2025 JIF | 2025 Five-Year JIF |
+| ------- | ------------------------- | ------------------------: | -------: | -----------------: |
+| Nature  | Multidisciplinary science | Flagship research journal |     56.1 |               56.7 |
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+## Science Family
+
+
+| Journal                        | Primary Scope                                                                 |                   Publishing Model | 2025 JIF | 2025 Five-Year JIF |
+| ------------------------------ | ----------------------------------------------------------------------------- | ---------------------------------: | -------: | -----------------: |
+| Science Robotics               | Robotics, embodied intelligence, autonomous systems and bio-inspired machines | Subscription/hybrid-access journal |     25.5 |               33.3 |
+| Science Translational Medicine | Translational medicine and clinically relevant biomedical research            | Subscription/hybrid-access journal |     15.6 |               16.8 |
+| Science Immunology             | Fundamental, translational and clinical immunology                            | Subscription/hybrid-access journal |     16.4 |               17.5 |
+| Science Advances               | Multidisciplinary science                                                     |                  Fully open access |     13.9 |               14.8 |
+| Science Signaling              | Cellular signaling, regulatory biology, physiology and disease mechanisms     | Subscription/hybrid-access journal |      7.0 |                7.6 |
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
 
 
 ## TMLR, Journal of Machine Learning Research (JMLR)
