@@ -70,39 +70,37 @@ images:
 <br><br><br><br>
 
 
-## Relevant Coursework, 105 / 174 ECTS Credited
+## Relevant Coursework, 99 / 174 ECTS Credited
 
 Deep Learning, 25
 
-[Generative Models](https://www.youtube.com/watch?v=96XoVM7PYtQ), 25
+[Generative Models](https://www.youtube.com/watch?v=96XoVM7PYtQ)
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
-[Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26
-
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
 
-Probabilistic Artificial Intelligence, 26
+(Probabilistic Artificial Intelligence, 26)
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
+
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 ([Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
+([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26)
 
 VLSI 2: From Netlist to Complete System on Chip
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
-Visual Computing
+Visual Computing Seminar
 
-(Physically Based Simulation)
+(Graph Theory, Group Theory, Number Theory)
 
-Graph Theory, Group Theory, Number Theory
-
-Information Geometry
+(Information Geometry)
 
 
 
