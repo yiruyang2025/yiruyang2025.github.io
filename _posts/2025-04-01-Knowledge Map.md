@@ -22,6 +22,7 @@ images:
 
   - [Kaiming He](https://introtocv.github.io/), GDM
   - [Lukas Beyer](https://lucasb.eyer.be/)'s blog, TBD, ex-Google Brain
+  - [Terrance Tao - A mathematical formalisation of dimensional analysis](https://terrytao.wordpress.com/2012/12/29/a-mathematical-formalisation-of-dimensional-analysis/)
   - [Ilya Sutskever](https://x.com/ilyasut), SSI
   - [], UIUC
   - [Jiahui Yu](https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en), UIUC, TBD
