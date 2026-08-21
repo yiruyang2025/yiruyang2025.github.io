@@ -32,6 +32,20 @@ We only show SO(2) and SO(1,1)，SO(3), SE(3), SO(3,1) for 3D galaxies and gener
 <br>
 
 
+## Foundation of ML
+
+```
+Mercer's theorem guarantees that we do not need to explicitly write out or calculate the high-dimensional feature phi(x). We can directly calculate the scalar function k(x, x'), which is mathematically 100% equivalent to building a linear model in a certain feature space
+```
+
+
+
+
+
+
+<br>
+
+
 ## End Goals
 
 - [Pretty visuals](https://valhovey.github.io/gaia-mary/)
