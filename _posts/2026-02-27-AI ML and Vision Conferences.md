@@ -54,9 +54,6 @@ images:
 ## When you're not Indexing Everything
 
 
-- [Blog 1](https://braydenzhang.com/blog/a-collection-of-cool-companies-(to-me))
-
-
 <br>
 
 
