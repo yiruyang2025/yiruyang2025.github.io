@@ -295,7 +295,19 @@ Complexity analysis
 - [2025 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think](https://sihyun.me/REPA/), ICLR'25 Oral
 - [2026 - Continuous control with deep reinforcement learning(DDPG)](https://patents.google.com/patent/US20170024643A1/en), Test of Time 2026
 
-<br><br><br><br><br><br>
+<br>
+
+
+| **Generation**                                       | **Representative Mechanisms**                                     | **Core Representation Form**                    | **Advantages and Limitations**                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Traditional Statistical and Handcrafted Features** | SIFT, HOG, Mel Spectrograms, PCA                                  | Fixed handcrafted basis                         | Computationally predictable and interpretable, but constrained by human-designed assumptions and often unable to preserve higher-order phase information or complex nonlinear global geometry.                                                                                                                               |
+| **Discrete Quantized Representations**               | VQ-VAE, EnCodec, RVQ, dVAE                                        | Discrete codebook indices, codes, or symbols    | Naturally compatible with categorical and autoregressive Transformers. However, quantization introduces irreversible discretization error, discontinuous latent transitions, and risks such as codebook collapse or underutilization.                                                                                        |
+| **Continuous Differentiable Representations**        | Continuous VAEs, M-Layers, Implicit Neural Representations (INRs) | Continuous real-valued latent vectors or fields | Preserve differentiability and support smooth latent variation without discrete quantization boundaries. They are well suited to diffusion and flow-matching models that learn continuous-time vector fields, although smoothness and Lipschitz continuity must be encouraged or enforced rather than assumed automatically. |
+
+
+
+
+<br><br><br><br><br>
 
 
 
