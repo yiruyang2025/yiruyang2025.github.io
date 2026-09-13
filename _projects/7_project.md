@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2026 - Important Thesis - Spatial Music Generation
+title: 2026 - Important Thesis - Spatial Audio Generation
 description: Continuous Tokenization from Transformer, Jyrki, Industry, AI Center
 img: assets/img/4.jpg
 importance: 7
