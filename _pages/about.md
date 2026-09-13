@@ -26,13 +26,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- `AI/ML for Science`, `Spatial Audio`
+- `AI/ML for Science`, `Audio Representation`
 - (OCaml), Rust, `Jax`, C++, Python 3, Pytorch, HPC, TPU, NPU, Linux, Blender, CUDA, MuJoCo, Unreal, Ray, SUMO
 
 - Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
 
 
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation on [Manifolds](https://www.youtube.com/watch?v=2ujyfLFGMwE), ()
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation and Compression on [Manifolds](https://www.youtube.com/watch?v=2ujyfLFGMwE), ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en)
