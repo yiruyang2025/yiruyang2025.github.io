@@ -335,8 +335,59 @@ $$
 
 <br>
 
+## 5. Activation Functions
 
-## 5. Historical Development of Kernel Functions
+| Activation       | Definition                                                        | Key property                                                               | Typical use                                                               |   |                                                                 |
+| ---------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | - | --------------------------------------------------------------- |
+| **ReLU**         | \(f(x)=\max(0,x)\)                                                | Simple, fast, and sparse; zero gradient for \(x<0\)                        | CNNs, MLPs, and lightweight models                                        |   |                                                                 |
+| **Leaky ReLU**   | \(f(x)=\max(\alpha x,x)\), usually \(0<\alpha\ll1\)               | Preserves a small gradient for negative inputs                             | CNNs and models affected by “dying ReLU”                                  |   |                                                                 |
+| **PReLU**        | \(f(x)=\max(a x,x)\), where \(a\) is learned                      | Learns the negative-input slope                                            | Computer-vision networks                                                  |   |                                                                 |
+| **GELU**         | \(f(x)=x\Phi(x)\)                                                 | Smoothly gates inputs according to magnitude                               | Transformers, BERT-style language models, and ViTs                        |   |                                                                 |
+| **SiLU / Swish** | \(f(x)=x\,\sigma(x)\)                                             | Smooth, non-monotonic, and retains small negative values                   | Modern CNNs, diffusion models, and neural operators                       |   |                                                                 |
+| **SwiGLU**       | \(f(x_1,x_2)=\operatorname{SiLU}(x_1)\odot x_2\)                  | Learnable multiplicative gating with strong Transformer performance        | Modern large language models and Transformer feed-forward blocks          |   |                                                                 |
+| **GeGLU**        | \(f(x_1,x_2)=\operatorname{GELU}(x_1)\odot x_2\)                  | Combines GELU with feature-wise gating                                     | Transformer feed-forward blocks                                           |   |                                                                 |
+| **Tanh**         | \(f(x)=\tanh(x)\)                                                 | Smooth and zero-centred, but saturates for large (                         | x                                                                         | ) | RNN states, bounded latent variables, and outputs in \([-1,1]\) |
+| **ELU**          | \(f(x)=x\) if \(x>0\); otherwise \(\alpha(e^x-1)\)                | Smooth negative saturation and more nearly zero-centred outputs than ReLU  | CNNs and MLPs                                                             |   |                                                                 |
+| **SELU**         | \(f(x)=\lambda x\) if \(x>0\); otherwise \(\lambda\alpha(e^x-1)\) | Supports self-normalizing networks under specific architectural conditions | Fully connected self-normalizing networks                                 |   |                                                                 |
+| **Softplus**     | \(f(x)=\log(1+e^x)\)                                              | Smooth approximation to ReLU; output is strictly positive                  | Positive parameters, variance or scale prediction, and scientific ML      |   |                                                                 |
+| **Mish**         | \(f(x)=x\tanh(\log(1+e^x))\)                                      | Smooth and non-monotonic                                                   | Some computer-vision architectures                                        |   |                                                                 |
+| **Softmax**      | \(f_i(\mathbf{x})=\dfrac{e^{x_i}}{\sum_j e^{x_j}}\)               | Converts a vector of logits into a categorical probability distribution    | Multiclass output layers; generally not used as a hidden-layer activation |   |                                                                 |
+
+
+<br>
+
+## Possible Choices
+
+| Architecture or requirement        | Recommended activation             |
+| ---------------------------------- | ---------------------------------- |
+| Standard CNN or MLP                | **ReLU** or **SiLU**               |
+| Transformer                        | **GELU**, **SwiGLU**, or **GeGLU** |
+| Diffusion model or neural operator | **SiLU**                           |
+| Output constrained to \([-1,1]\)   | **Tanh**                           |
+| Strictly positive output           | **Softplus**                       |
+| Multiclass probabilities           | **Softmax**                        |
+| Concern about dying ReLU units     | **Leaky ReLU** or **PReLU**        |
+
+
+Activation functions in hidden layers primarily determine feature transformation and gradient propagation, whereas the activation function of the output layer is mainly determined by the mathematical range of the target variable.
+
+
+| Organization / Model                   | FFN Activation             | Publicly Documented Conclusion                                                                                                                                                                                               |
+| -------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OpenAI GPT-1                           | **GELU**                   | Uses a standard non-gated FFN: \(\operatorname{FFN}(x)=W_2\operatorname{GELU}(W_1x)\). [GPT-1 paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)                          |
+| OpenAI GPT-2 / GPT-3                   | **GELU**                   | Retains the smooth GELU-based GPT architecture. Unlike ReLU, GELU does not set every negative input exactly to zero.                                                                                                         |
+| OpenAI gpt-oss-20b / 120b              | **Modified SwiGLU**        | Uses MoE blocks with a non-standard SwiGLU implementation that includes clamping and a residual connection. [gpt-oss model card](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) |
+| Google DeepMind Gemma 2                | **Approximate GeGLU**      | Uses a GELU-gated FFN with an efficient approximate GELU implementation. [Gemma 2 technical report](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf)                                                  |
+| Google DeepMind Gemma 3                | **Gated GELU-family FFN**  | Largely preserves the Gemma gated-FFN design while modifying attention, long-context, and multimodal components. [Gemma 3 technical report](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf)            |
+| Gemini frontier models                 | **Not fully disclosed**    | Public reports do not provide enough architectural detail to confirm that every Gemini version uses GeGLU or SwiGLU. [Gemini 1.5 report](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf)        |
+| GPT-4 and later proprietary GPT models | **Not publicly disclosed** | OpenAI has not disclosed the specific FFN activation. The use of SwiGLU in gpt-oss does not establish that proprietary GPT models use the same design. [GPT-4 technical report](https://cdn.openai.com/papers/gpt-4.pdf)     |
+
+
+
+<br>
+
+
+## 6. Historical Development of Kernel Functions
 
 | Year            | Person / School                  | Contribution                                                                                                                                                   |
 | --------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -348,7 +399,7 @@ $$
 
 <br>
 
-## 6. Common Kernel Functions
+## 7. Common Kernel Functions
 
 | **Kernel Name**                   | **Formula**                                              | **Feature**                                       |
 | ---------------------------------- | -------------------------------------------------------- | ------------------------------------------------- |
@@ -361,7 +412,7 @@ $$
 <br>
 
 
-## 7. Evolution of 3D Scene Representations
+## 8. Evolution of 3D Scene Representations
 
 | **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
 | -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
