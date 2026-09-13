@@ -160,8 +160,8 @@ ninja.data = [{
           description: "And More, ()",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-2026-important-thesis-spatial-music-generation",
-          title: '2026 - Important Thesis - Spatial Music Generation',
+            },},{id: "projects-2026-important-thesis-spatial-audio-generation",
+          title: '2026 - Important Thesis - Spatial Audio Generation',
           description: "Continuous Tokenization from Transformer, Jyrki, Industry, AI Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
