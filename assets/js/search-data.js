@@ -141,8 +141,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-2025-thesis-flow-matching-diffusion",
-          title: '2025 - Thesis - Flow-Matching / Diffusion, ()',
-          description: "Hash, Less Steps",
+          title: '2025 - Thesis - Flow-Matching / Diffusion',
+          description: "Hash, Less Steps, ()",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-2026-thesis-amp-poster-ssl",
