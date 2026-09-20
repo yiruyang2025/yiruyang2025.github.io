@@ -74,17 +74,21 @@ images:
 
 Deep Learning, 25
 
-[Generative Models](https://www.youtube.com/watch?v=96XoVM7PYtQ)
+Generative Models
 
 (*[Large-Scale AI Engineering](https://www.linkedin.com/company/eth-ai-center/posts/?feedView=all), GH200, 25/26)
 
-[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26
+[Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26/27
 
-(Probabilistic Artificial Intelligence, 26)
+(Probabilistic Artificial Intelligence, 26/27)
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
 
 [Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
+
+Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
+
+Visual Computing Seminar, 25
 
 ([Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26)
 
@@ -93,10 +97,6 @@ Deep Learning, 25
 ([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26)
 
 (VLSI 2: From Netlist to Complete System on Chip)
-
-Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
-
-Visual Computing Seminar
 
 (Graph Theory, Group Theory, Number Theory)
 
