@@ -252,7 +252,7 @@ Visual Computing Seminar, 25
 # Check List
 
 - [x] Reading, Oxygen, Fruits No sugar, Protein
-  - [x] Gym, Jogging, Tennis
+  - [x] Gym, Jogging, Tennis, (Springreiten)
   - [x] Chatting
   - [x] 🌊 Water
 - [x] Take a Walk 🗣️
