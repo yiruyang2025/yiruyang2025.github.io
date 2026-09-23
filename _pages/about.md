@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 --- 
 - This is my Study Camp. Click here [Yiru Yang](https://www.linkedin.com/in/yiru-yang-420ab1198/)
-- `AI/ML for Science`, `Audio` Representation
+- `AI/ML for Science`, Representations
 - (OCaml), Rust, `Jax`, C++, Python 3, Pytorch, HPC, TPU, NPU, Linux, Blender, CUDA, MuJoCo, Unreal, Ray, SUMO
 
 - Always enjoy reading [Philosophy](https://www.linkedin.com/posts/mohamed-krizi-bb9799192_philosophers-are-not-unemployed-anymore-activity-7466561513617534976-oAa_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5vvBgB20VgN9iW9bBoWdHZWq21kkV22wk), [Knowledge Map](https://yiruyang2025.github.io/blog/2025/Knowledge-Map/), Richard P. Feynman, [TalentNet.ai](https://yiruyang2025.github.io/blog/2025/Vello.ai-25/)
@@ -34,7 +34,7 @@ latest_posts:
 
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/1_project/) - Improving Distillation, Compression on [Manifolds](https://www.youtube.com/watch?v=2ujyfLFGMwE)
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/2_project/) - 4D, Genie
-- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation, ()
+- 📍 [Thesis](https://yiruyang2025.github.io/projects/3_project/) - Diffusion Less Steps for Generation
 - 📍 [Thesis](https://yiruyang2025.github.io/projects/4_project/) - Clinical Data SSL, [USZ](https://scholar.google.com/citations?user=rZLVC2sAAAAJ&hl=en)
 - 📍 [Important Thesis and Web](https://yiruyang2025.github.io/projects/7_project/) - Continuous Tokenization for `Audio Generation`, [JPEG XL](https://www.linkedin.com/in/jyrkialakuijala/), [Vello.ai](https://www.linkedin.com/company/vello-music.ai), [AI Center](https://www.linkedin.com/in/arnoutdevos/)
 - 📍 [Important Thesis](https://yiruyang2025.github.io/projects/5_project/) - When MLP fails, M-Layer Learning `Dynamics from Galaxies` with Lie Group Embeddings, [General Gravity Law Verification](https://arxiv.org/pdf/2008.03936)
@@ -45,7 +45,7 @@ latest_posts:
 
 
 **Interests**
-  - Space, [Backbones, Zurich - Joan Puigcerver](https://scholar.google.com/citations?user=ZHnRsrsAAAAJ&hl=en), [Audio and More](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
+  - Space, [Backbones, Zurich](https://scholar.google.com/citations?user=ZHnRsrsAAAAJ&hl=en), [And More](https://x.com/alexandr_wang/status/2054588354914832439?s=20)
   - [Intelligence](https://x.com/googledeepmind/status/1958581568571895846?s=46&t=1tqSPaJVuc_ns2oTMZs8EQ), Impacts, Abstractions
   - Engines, [Meaningful Challenges](https://x.com/docmilanfar/status/2021022454500688387?s=20), [Intelligence](https://openai.com/zh-Hans-CN/index/model-disproves-discrete-geometry-conjecture/)
 
