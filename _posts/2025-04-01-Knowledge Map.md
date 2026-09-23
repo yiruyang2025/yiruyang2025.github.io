@@ -158,7 +158,7 @@ Visual Computing Seminar, 25
 - [Daily News Briefing](https://www.ft.com/ft-news-briefing), [Reuters and CNBC](https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html)
 - [Nicholas Carlini's blog](https://nicholas.carlini.com/writing/2025/career-update.html)
 
-<br>
+<br><br><br><br><br><br><br>
 
 
 
@@ -179,7 +179,6 @@ Visual Computing Seminar, 25
 
 - [🧊 Daily News](https://news.ycombinator.com/)
 - [Pingmyping](https://www.instagram.com/pingmyping?igsh=YTQ1Njk4eXZnZ291)
-- [Jan 2026](https://drive.google.com/file/d/1i2hoVhrnS4z5k-4gvErTLFzRlegX25WG/view?usp=drive_link)
 
 
 <br><br>
