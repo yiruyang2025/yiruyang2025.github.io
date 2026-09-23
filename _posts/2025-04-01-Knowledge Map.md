@@ -160,13 +160,6 @@ Visual Computing Seminar, 25
 
 <br>
 
-## Hospital Robots
-
-- [Mehul Nariyawala](https://x.com/maticrobots/status/2020210955766944201?s=20)
-- [2026 - Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025)
-
-- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
-- [Marco Hutter](https://www.youtube.com/watch?v=Wmn7uPLFXm8)
 
 
 <br><br><br>
