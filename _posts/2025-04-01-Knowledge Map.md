@@ -70,7 +70,7 @@ images:
 <br><br><br><br>
 
 
-## Relevant Coursework, 99 / 174 ECTS Credited
+## Relevant Coursework, 91 / 174 ECTS Credited
 
 Deep Learning, 25
 
