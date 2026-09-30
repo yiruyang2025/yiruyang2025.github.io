@@ -80,17 +80,19 @@ Generative Models
 
 [Introduction to Machine Learning](https://las.inf.ethz.ch/teaching/introml-s26), LLM, 26/27
 
+[Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26
+
 (Probabilistic Artificial Intelligence, 26/27)
+
+[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
 
 [Shape Modeling and Geometry Processing](https://igl.ethz.ch/research/), C++, 26
 
-[Computational Models of Motion](https://crl.ethz.ch/teaching/computational-motion-26/), C++ / Rust, Deep RL, Robotics, 26
+[Reliable and Trustworthy AI], 26
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
 Visual Computing Seminar, 25
-
-([Machine Learning for Genomics](https://boevalab.inf.ethz.ch/teaching.html), Computational Cancer Genomics, 26)
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
