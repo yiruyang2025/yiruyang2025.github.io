@@ -22,6 +22,14 @@ predictions of your data, the smaller you can compress it.
 DNA is essentially a quaternary code—A, T, C, and G. The 3.2-gigabase human genome is, at its core, a highly compressed operating system featuring redundancy checks and extensive "annotations"
 ```
 
+```
+When it comes to methodology, the essence of genomics is statistics. Fundamentally, it boils down to a single task:
+
+->using massive datasets to isolate faint biological signals from technical noise and noise arising from population structure.
+```
+
+
+
 > **Better prediction → lower surprisal → fewer bits**
 
 **Ideal coding length**
