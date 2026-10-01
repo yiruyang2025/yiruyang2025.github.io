@@ -383,24 +383,25 @@ A loss defines what counts as an error. Its suitability depends on the predictio
 
 ## 6. Activation Functions
 
-| Activation       | Definition                                                        | Key property                                                               | Typical use                                                               |   |                                                                 |
-| ---------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | - | --------------------------------------------------------------- |
-| **ReLU**         | \(f(x)=\max(0,x)\)                                                | Simple, fast, and sparse; zero gradient for \(x<0\)                        | CNNs, MLPs, and lightweight models                                        |   |                                                                 |
-| **Leaky ReLU**   | \(f(x)=\max(\alpha x,x)\), usually \(0<\alpha\ll1\)               | Preserves a small gradient for negative inputs                             | CNNs and models affected by “dying ReLU”                                  |   |                                                                 |
-| **PReLU**        | \(f(x)=\max(a x,x)\), where \(a\) is learned                      | Learns the negative-input slope                                            | Computer-vision networks                                                  |   |                                                                 |
-| **GELU**         | \(f(x)=x\Phi(x)\)                                                 | Smoothly gates inputs according to magnitude                               | Transformers, BERT-style language models, and ViTs                        |   |                                                                 |
-| **SiLU / Swish** | \(f(x)=x\,\sigma(x)\)                                             | Smooth, non-monotonic, and retains small negative values                   | Modern CNNs, diffusion models, and neural operators                       |   |                                                                 |
-| **SwiGLU**       | \(f(x_1,x_2)=\operatorname{SiLU}(x_1)\odot x_2\)                  | Learnable multiplicative gating with strong Transformer performance        | Modern large language models and Transformer feed-forward blocks          |   |                                                                 |
-| **GeGLU**        | \(f(x_1,x_2)=\operatorname{GELU}(x_1)\odot x_2\)                  | Combines GELU with feature-wise gating                                     | Transformer feed-forward blocks                                           |   |                                                                 |
-| **Tanh**         | \(f(x)=\tanh(x)\)                                                 | Smooth and zero-centred, but saturates for large (                         | x                                                                         | ) | RNN states, bounded latent variables, and outputs in \([-1,1]\) |
-| **ELU**          | \(f(x)=x\) if \(x>0\); otherwise \(\alpha(e^x-1)\)                | Smooth negative saturation and more nearly zero-centred outputs than ReLU  | CNNs and MLPs                                                             |   |                                                                 |
-| **SELU**         | \(f(x)=\lambda x\) if \(x>0\); otherwise \(\lambda\alpha(e^x-1)\) | Supports self-normalizing networks under specific architectural conditions | Fully connected self-normalizing networks                                 |   |                                                                 |
-| **Softplus**     | \(f(x)=\log(1+e^x)\)                                              | Smooth approximation to ReLU; output is strictly positive                  | Positive parameters, variance or scale prediction, and scientific ML      |   |                                                                 |
-| **Mish**         | \(f(x)=x\tanh(\log(1+e^x))\)                                      | Smooth and non-monotonic                                                   | Some computer-vision architectures                                        |   |                                                                 |
-| **Softmax**      | \(f_i(\mathbf{x})=\dfrac{e^{x_i}}{\sum_j e^{x_j}}\)               | Converts a vector of logits into a categorical probability distribution    | Multiclass output layers; generally not used as a hidden-layer activation |   |                                                                 |
+| Activation | Definition | Key property | Typical use |
+|---|---|---|---|
+| **ReLU** | `f(x) = max(0, x)` | Fast and sparse; zero gradient for negative inputs | CNN and MLP hidden layers |
+| **Leaky ReLU** | `f(x) = max(alpha*x, x)`, where `0 < alpha < 1` | Retains a gradient for negative inputs | CNNs; alternative when inactive ReLU units are a concern |
+| **PReLU** | `f(x) = max(a*x, x)`, where `a` is learned | Learns the negative-input slope | CNNs and other rectifier networks |
+| **GELU** | `f(x) = x*Phi(x)`, where `Phi` is the standard normal CDF | Smooth, locally non-monotonic gating | Transformer and ViT feed-forward layers |
+| **SiLU / Swish** | `f(x) = x*sigmoid(x)` | Smooth and locally non-monotonic | CNNs, diffusion models, and gated blocks |
+| **SwiGLU** | `SwiGLU(x) = SiLU(x*W_g) * (x*W_v)` | Multiplicative gate using two learned projections | Transformer feed-forward blocks |
+| **GEGLU** | `GEGLU(x) = GELU(x*W_g) * (x*W_v)` | GELU-based multiplicative gate | Transformer feed-forward blocks |
+| **Tanh** | `f(x) = tanh(x)` | Zero-centered; saturates at large input magnitudes | Recurrent states and outputs bounded between -1 and 1 |
+| **ELU** | `f(x) = x` if `x > 0`; otherwise `alpha*(exp(x) - 1)` | Negative outputs saturate; smoother than ReLU at zero when `alpha = 1` | CNN and MLP alternatives |
+| **SELU** | `f(x) = lambda*x` if `x > 0`; otherwise `lambda*alpha*(exp(x) - 1)` | Supports self-normalization under specified conditions | Self-normalizing feed-forward networks |
+| **Softplus** | `f(x) = log(1 + exp(x))` | Smooth, strictly positive approximation to ReLU | Positive scale parameters and smooth models |
+| **Mish** | `f(x) = x*tanh(log(1 + exp(x)))` | Smooth and non-monotonic | Selected vision architectures |
+| **Softmax** | `softmax(x)_i = exp(x_i) / sum_j exp(x_j)` | Normalizes a vector into a categorical distribution | Multiclass outputs and attention weights |
 
 
 <br>
+
 
 ## Possible Choices
 
