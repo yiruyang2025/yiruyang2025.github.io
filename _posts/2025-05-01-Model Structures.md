@@ -335,7 +335,53 @@ $$
 
 <br>
 
-## 5. Activation Functions
+## 5. Loss Design
+
+A loss defines what counts as an error. Its suitability depends on the prediction target, data assumptions, and task—not the architecture alone. Every design must specify the target, assumptions, comparison space, weighting, reduction, and failure modes. Low training loss alone does not establish generalization, calibration, or physical correctness
+
+
+| Data type / task | Loss / objective | Full name | Essential purpose | Suitable for | Main limitation |
+|---|---|---|---|---|---|
+| **Continuous regression** | MSE | Mean Squared Error | Penalize squared residuals; target the conditional mean | Aligned numerical targets, reconstruction | Outlier-sensitive; averages ambiguous targets |
+| | MAE | Mean Absolute Error | Penalize absolute residuals; target a conditional median | Robust point prediction | Nondifferentiable at zero; does not target the mean |
+| | Huber | Huber Loss | Combine quadratic and linear residual penalties | Robust regression | Threshold depends on target scale |
+| | Quantile | Quantile / Pinball Loss | Estimate a chosen conditional quantile | Asymmetric costs, prediction quantiles | One quantile is not a full distribution |
+| | Gaussian NLL | Gaussian Negative Log-Likelihood | Fit a Gaussian mean and variance | Probabilistic regression | Misspecified for strongly non-Gaussian targets |
+| | NLL | Negative Log-Likelihood | Fit a specified predictive distribution | General probabilistic modeling | Depends on the distribution chosen |
+| **Counts** | Poisson NLL | Poisson Negative Log-Likelihood | Fit a nonnegative event rate | Counts with approximately Poisson variation | Misspecified under overdispersion or excess zeros |
+| **Discrete labels** | CE | Cross-Entropy | Fit a categorical target distribution | Multiclass classification, token prediction | Does not enforce geometric or physical validity |
+| | BCE | Binary Cross-Entropy | Fit Bernoulli targets independently | Binary or multilabel classification | Does not impose mutual exclusivity |
+| | Weighted CE | Weighted Cross-Entropy | Prioritize selected classes or examples | Cost-sensitive or imbalanced learning | Can distort probability calibration |
+| | Focal | Focal Loss | Reduce the weight of easy examples | Dense detection with severe imbalance | Sensitive to noisy hard examples; may impair calibration |
+| | Label smoothing | Smoothed Cross-Entropy | Replace one-hot targets with softened targets | Classification regularization | Reduces the signal for exact target confidence |
+| | Hinge | Hinge Loss | Penalize margin violations | SVMs, margin-based classification | Scores are not probabilities |
+| | Exponential | Exponential Loss | Penalize negative margins exponentially | Boosting | Highly sensitive to mislabeled outliers |
+| **Sequences** | Token CE | Token Cross-Entropy | Predict each target token | Language models, aligned seq2seq training | Teacher-forced training does not directly optimize sequence quality |
+| | CTC | Connectionist Temporal Classification | Sum over valid input–output alignments | Unaligned speech or handwriting transcription | Requires monotonic alignment; conditional independence in its basic form |
+| | Sequence KL | Kullback–Leibler Divergence | Match teacher and student token distributions | Distillation, policy regularization | Directional; depends on teacher quality and support |
+| **Ranking / retrieval** | Pairwise ranking | Pairwise Ranking Loss | Order preferred items above others | Search, recommendation, preferences | Does not calibrate absolute scores |
+| | Contrastive | Contrastive Loss | Pull positive pairs together and separate negatives | Verification, representation learning | Depends on pair construction |
+| | Triplet | Triplet Loss | Separate negatives from positives by a margin | Metric learning, retrieval | Triplet selection strongly affects training |
+| | InfoNCE | Information Noise-Contrastive Estimation | Identify positives among sampled candidates | Contrastive self-supervision, CLIP-style training | False negatives and sampling bias |
+| **Representations / distributions** | KL | Kullback–Leibler Divergence | Match probability distributions directionally | VAEs, distillation, policy regularization | Asymmetric; support mismatch can cause divergence |
+| | OT / Wasserstein | Optimal Transport / Wasserstein Objective | Compare distributions using transport cost | Generative and distribution matching | Often computationally expensive |
+| | Cosine | Cosine Similarity Loss | Align vector directions | Embedding alignment, distillation | Ignores magnitude; needs care near zero vectors |
+| | Consistency | Consistency Loss | Match predictions across views or perturbations | Semi-supervised learning, augmentation | Can collapse without other constraints |
+| | Variance–covariance | Variance–Covariance Regularization | Maintain feature variance and reduce redundancy | Non-contrastive self-supervision | Can suppress useful correlations |
+| | Feature matching | Feature Matching / Perceptual Loss | Compare learned features | Image or audio reconstruction | Inherits the feature extractor’s biases |
+| **Images / dense prediction** | Dice | Dice Loss | Optimize soft region overlap | Segmentation, especially sparse regions | Needs explicit handling of empty masks |
+| | IoU | Intersection-over-Union Loss | Optimize intersection relative to union | Segmentation masks and boxes | Empty targets and optimization need care |
+| | SSIM-based | Structural Similarity Loss | Preserve local structural similarity | Image restoration | Does not ensure semantic or pixel accuracy |
+| | Perceptual | Perceptual Loss | Match pretrained visual features | Super-resolution, generation | No guarantee of pixel fidelity |
+| | Pixel MSE | Mean Squared Error | Match aligned pixel values | Low-level reconstruction baseline | May blur uncertain details |
+| **Point sets / shapes** | Chamfer | Chamfer Distance | Match points by nearest-neighbor distances | Point-cloud reconstruction | No one-to-one matching; weak on density and topology |
+| | OT / Wasserstein | Optimal Transport / Wasserstein Distance | Match point distributions through transport | Shape and point-set matching | Higher computational cost |
+
+
+
+<br>
+
+## 6. Activation Functions
 
 | Activation       | Definition                                                        | Key property                                                               | Typical use                                                               |   |                                                                 |
 | ---------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | - | --------------------------------------------------------------- |
@@ -387,7 +433,7 @@ Activation functions in hidden layers primarily determine feature transformation
 <br>
 
 
-## 6. Historical Development of Kernel Functions
+## 7. Historical Development of Kernel Functions
 
 | Year            | Person / School                  | Contribution                                                                                                                                                   |
 | --------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -399,7 +445,7 @@ Activation functions in hidden layers primarily determine feature transformation
 
 <br>
 
-## 7. Common Kernel Functions
+## 8. Common Kernel Functions
 
 | **Kernel Name**                   | **Formula**                                              | **Feature**                                       |
 | ---------------------------------- | -------------------------------------------------------- | ------------------------------------------------- |
@@ -412,7 +458,7 @@ Activation functions in hidden layers primarily determine feature transformation
 <br>
 
 
-## 8. Evolution of 3D Scene Representations
+## 9. Evolution of 3D Scene Representations
 
 | **Period**     | **Method**                       | **Representation**                                                                                   | **Advantages / Limitations**                                                                                                          |
 | -------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
