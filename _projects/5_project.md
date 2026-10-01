@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2026 - M-Layer ML for Science Learning
-description: Thomas, Jyrki, (Lab)
+description: Thomas
 img: assets/img/4.jpg
 importance: 5
 category: work
