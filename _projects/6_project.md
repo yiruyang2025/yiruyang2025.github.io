@@ -18,6 +18,8 @@ related_publications: true
 In information theory, compression and prediction are essentially two sides of the same coin.
 Claude Shannon, in his foundational work, revealed a core principle: the more accurate your
 predictions of your data, the smaller you can compress it.
+
+DNA is essentially a quaternary code—A, T, C, and G. The 3.2-gigabase human genome is, at its core, a highly compressed operating system featuring redundancy checks and extensive "annotations"
 ```
 
 > **Better prediction → lower surprisal → fewer bits**
