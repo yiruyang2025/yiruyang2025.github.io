@@ -132,7 +132,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-2025-thesis-improving-logit-distillation",
           title: '2025 - Thesis - Improving Logit Distillation',
-          description: "Latent Geometry, Manifolds, ()",
+          description: "Latent Geometry, Manifolds",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-2025-thesis-4d",
