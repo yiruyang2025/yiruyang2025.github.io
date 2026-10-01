@@ -132,7 +132,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-2025-thesis-improving-logit-distillation",
           title: '2025 - Thesis - Improving Logit Distillation',
-          description: "Latent Geometry, Manifolds",
+          description: "Latent Geometry, Manifolds, AI Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-2025-thesis-4d",
@@ -152,7 +152,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-2026-m-layer-ml-for-science-learning",
           title: '2026 - M-Layer ML for Science Learning',
-          description: "Thomas, Jyrki, (Lab)",
+          description: "Thomas",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-2026-dna-discovery",
