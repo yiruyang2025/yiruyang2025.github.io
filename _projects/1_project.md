@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2025 - Thesis - Improving Logit Distillation
-description: Latent Geometry, Manifolds
+description: Latent Geometry, Manifolds, AI Center
 img: assets/img/4.jpg
 importance: 1
 category: work
