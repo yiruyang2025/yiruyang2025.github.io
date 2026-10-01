@@ -142,7 +142,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-2025-thesis-flow-matching-diffusion",
           title: '2025 - Thesis - Flow-Matching / Diffusion',
-          description: "Hash, Less Steps, ()",
+          description: "Hash, Less Steps",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-2026-thesis-amp-poster-ssl",
@@ -152,7 +152,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-2026-m-layer-ml-for-science-learning",
           title: '2026 - M-Layer ML for Science Learning',
-          description: "Thomas, Jyrki, (Lab)",
+          description: "Thomas",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-2026-dna-discovery",
