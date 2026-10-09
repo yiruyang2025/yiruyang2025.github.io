@@ -265,7 +265,10 @@ Complexity analysis
 | **Birch and Swinnerton-Dyer Conjecture** | Algebraic Number Theory | Rational points on elliptic curves | Does the order of vanishing of an elliptic curve’s \(L\)-function at \(s=1\) equal the rank of its group of rational points? | Unsolved |
 | **Poincaré Conjecture** | Geometric Topology | Characterization of the three-dimensional sphere | Is every closed, simply connected three-dimensional manifold homeomorphic to the three-sphere \(S^3\)? | **Solved by Grigori Perelman (2002–2003)** |
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
 
 
 ## ICML vs. NeurIPS vs. ICLR
@@ -279,12 +282,7 @@ Complexity analysis
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
+<br><br>
 
 
 ## ICLR
