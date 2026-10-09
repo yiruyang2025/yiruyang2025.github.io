@@ -250,22 +250,22 @@ Complexity analysis
 
 
 
-<br>
+<br><br><br>
 
 ## Millennium Prize Problems
 
 
-| **Problem Name**                               | **Field**                  | **Core Nature**                  | **Fundamental Question**                                                              |
-| ---------------------------------------------- | -------------------------- | -------------------------------- | ------------------------------------------------------------------------------------- |
-| **Riemann Hypothesis**                         | Number Theory              | Structure of prime numbers       | Do prime numbers follow a hidden regularity? (Primes as the “atoms” of mathematics)   |
-| **P vs NP Problem**                            | Computer Science / Logic   | Complexity of computation        | If verifying a solution is easy, is finding it also easy?                             |
-| **Navier–Stokes Existence and Smoothness**     | Fluid Dynamics             | Behavior of turbulence           | Do solutions to fluid equations always remain smooth, or can singularities form?      |
-| **Yang–Mills Existence and Mass Gap**          | Quantum Physics / Geometry | Origin of mass in quantum fields | Why do elementary particles have mass, and how can this be rigorously explained?      |
-| **Hodge Conjecture**                           | Algebraic Geometry         | Structure of geometric spaces    | Can complex geometric objects be decomposed into simpler algebraic components?        |
-| **Birch and Swinnerton-Dyer (BSD) Conjecture** | Algebraic Number Theory    | Arithmetic of elliptic curves    | Is there a deep connection between rational points and special values of L-functions? |
+| **Problem Name** | **Field** | **Core Nature** | **Fundamental Question** | **Status** |
+|---|---|---|---|---|
+| **Riemann Hypothesis** | Analytic Number Theory | Distribution of prime numbers through the zeros of the Riemann zeta function | Do all nontrivial zeros of \(\zeta(s)\) have real part \(1/2\)? | Unsolved |
+| **P versus NP** | Theoretical Computer Science | Computational complexity and efficient algorithms | Is every problem whose solution can be verified in polynomial time also solvable in polynomial time? | Unsolved |
+| **Navier–Stokes Existence and Smoothness** | Partial Differential Equations / Fluid Mechanics | Global behavior of three-dimensional incompressible fluid flow | For smooth initial data, do physically reasonable solutions always exist globally and remain smooth, or can finite-time singularities develop? | Unsolved |
+| **Yang–Mills Existence and Mass Gap** | Mathematical Physics / Quantum Field Theory | Rigorous construction of quantum Yang–Mills theory | Can a nontrivial quantum Yang–Mills theory on \(\mathbb{R}^4\) be constructed rigorously and shown to possess a positive mass gap? | Unsolved |
+| **Hodge Conjecture** | Algebraic Geometry / Topology | Relationship between topology and algebraic cycles | Is every rational Hodge class on a smooth projective complex variety a rational linear combination of classes of algebraic cycles? | Unsolved |
+| **Birch and Swinnerton-Dyer Conjecture** | Algebraic Number Theory | Rational points on elliptic curves | Does the order of vanishing of an elliptic curve’s \(L\)-function at \(s=1\) equal the rank of its group of rational points? | Unsolved |
+| **Poincaré Conjecture** | Geometric Topology | Characterization of the three-dimensional sphere | Is every closed, simply connected three-dimensional manifold homeomorphic to the three-sphere \(S^3\)? | **Solved by Grigori Perelman (2002–2003)** |
 
-
-<br><br>
+<br><br><br><br><br>
 
 
 ## ICML vs. NeurIPS vs. ICLR
@@ -306,27 +306,20 @@ Complexity analysis
 
 <br><br><br><br><br>
 
+## ICLR Best / Outstanding Papers (2017–2026)
 
-
-## ICLR Best / Outstanding Papers (2017 - 2026)
-
-| Year     | Representative Best / Outstanding Paper Topics                                                | Representative Authors                                                         | Representative Institutions                                                                |
-| -------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| **2026** | Transformer theory; Multi-turn LLM reasoning                                                  | Pascal Bergsträßer, Ryan Cotterell, Anthony Widjaja Lin; Philippe Laban et al. | ETH Zurich, University of Zurich, Salesforce AI Research, Purdue University ([ICLR][1]) |
-| **2025** | LLM alignment; Fine-tuning dynamics; Model editing                                            | Multiple award-winning teams                                                   | Princeton, CMU, UC Berkeley, Google DeepMind, NUS, Microsoft Research ([ICLR][2])       |
-| **2024** | Diffusion models; World models; Long-context models; Vision Transformers; Protein generation  | Darcet et al., Yang et al., Mallat group, others                               | Meta AI, Google DeepMind, NYU, UC Berkeley, MILA                                           |
-| **2023** | Text-to-3D; Graph learning; Dense prediction; Embodied AI                                     | Hong et al., He et al., Poole et al.                                           | Google Research, Meta FAIR, KAIST, Peking University, Georgia Tech                         |
-| **2022** | Diffusion sampling; Differential privacy; Graph theory; Neural collapse; Meta-learning        | Bao et al., Papernot et al., Donoho et al.                                     | Tsinghua University, Google Research, Stanford University, Meta FAIR                       |
-| **2021** | Score-based diffusion; Graph neural simulation; Neural architecture search; Speech generation | Yang Song et al., Battaglia et al.                                             | Stanford University, Google Research, DeepMind, Meta FAIR                                  |
-| **2020** | No official Best Paper Award                                                                  | —                                                                              | —                                                                                          |
-| **2019** | Lottery Ticket Hypothesis; Ordered Neurons                                                    | Jonathan Frankle, Michael Carbin; Yikang Shen et al.                           | MIT, MILA, Université de Montréal ([ICLR][3])                                              |
-| **2018** | Continual Meta-Learning                                                                       | Maruan Al-Shedivat et al.                                                      | OpenAI, UC Berkeley                                                                        |
-| **2017** | Generalization theory; Privacy-preserving learning; Deep learning theory                      | Chiyuan Zhang et al., Nicolas Papernot et al.                                  | Google Brain, UC Berkeley, OpenAI                                                          |
-
-[1]: https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/?utm_source=chatgpt.com "Announcing the ICLR 2026 Outstanding Papers"
-[2]: https://blog.iclr.cc/2025/04/22/announcing-the-outstanding-paper-awards-at-iclr-2025/?utm_source=chatgpt.com "Announcing the Outstanding Paper Awards at ICLR 2025"
-[3]: https://iclr.cc/Conferences/2019/Awards?utm_source=chatgpt.com "Best Paper Award"
-
+| Year | Official Best / Outstanding Paper Topics | Representative Authors |
+|---|---|---|
+| **2026** | Transformer succinctness; multi-turn LLM evaluation | Pascal Bergsträßer, Ryan Cotterell, Anthony Widjaja Lin; Philippe Laban, Hiroaki Hayashi, Yingbo Zhou, Jennifer Neville |
+| **2025** | LLM safety alignment; LLM fine-tuning dynamics; null-space-constrained model editing | Xiangyu Qi et al.; Yi Ren, Danica J. Sutherland; Junfeng Fang et al. |
+| **2024** | Diffusion-model generalization; interactive world simulators; long-sequence models; protein generation; Vision Transformer registers | Zahra Kadkhodaie et al.; Sherry Yang et al.; Ido Amos et al.; Nathan C. Frey et al.; Timothée Darcet et al. |
+| **2023** | Few-shot dense prediction; GNN expressivity; text-to-3D generation; representations in embodied navigation | Donggyun Kim et al.; Bohang Zhang et al.; Ben Poole et al.; Erik Wijmans et al. |
+| **2022** | Diffusion inference; differential privacy; learnable CNN strides; GNN expressivity; task-aware distribution comparison; neural collapse; meta-learning | Fan Bao et al.; Nicolas Papernot, Thomas Steinke; Rachid Riad et al.; Floris Geerts, Juan L. Reutter; Shengjia Zhao et al.; X. Y. Han et al.; Sebastian Flennerhag et al. |
+| **2021** | Hypercomplex networks; complex-query answering; game-theoretic PCA; graph-network simulation; binaural speech synthesis; neural-tangent-kernel theory; differentiable NAS; score-based diffusion | Aston Zhang et al.; Erik Arakelyan et al.; Ian Gemp et al.; Tobias Pfaff et al.; Alexander Richard et al.; Atsushi Nitanda, Taiji Suzuki; Ruochen Wang et al.; Yang Song et al. |
+| **2020** | No official Best or Outstanding Paper Award | — |
+| **2019** | Structured recurrent networks; sparse trainable subnetworks | Yikang Shen, Shawn Tan, Alessandro Sordoni, Aaron Courville; Jonathan Frankle, Michael Carbin |
+| **2018** | Adam convergence; spherical CNNs; continuous adaptation through meta-learning | Sashank J. Reddi, Satyen Kale, Sanjiv Kumar; Taco S. Cohen et al.; Maruan Al-Shedivat et al. |
+| **2017** | Deep-network generalization; recursive neural programs; privacy-preserving knowledge transfer | Chiyuan Zhang et al.; Jonathon Cai, Richard Shin, Dawn Song; Nicolas Papernot et al. |
 
 
 <br><br>
@@ -360,7 +353,7 @@ Complexity analysis
 
 - [2026 - Scaling](https://scholar.google.com.cu/citations?hl=en&user=2ZxBaA0AAAAJ&view_op=list_works&sortby=pubdate)
 - [2026 - Fetch.ai: An Architecture for Modern Multi-Agent Systems](https://arxiv.org/pdf/2510.18699)
-- [2026 - SLAM Library](https://gtsam.org/)
+
 
 <br><br><br><br><br><br><br><br><br><br>
 
