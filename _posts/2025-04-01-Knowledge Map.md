@@ -92,7 +92,7 @@ Reliable and Trustworthy AI, 26
 
 Mixed Reality, C++, Blender, SUMO, Unreal / Unity, 25
 
-Visual Computing Seminar, 25
+Visual Computing Seminar, Robotics Seminar, 25
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
