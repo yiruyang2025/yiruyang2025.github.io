@@ -96,7 +96,7 @@ Visual Computing Seminar, Robotics Seminar, 25
 
 (Vision Algorithms for Mobile Robotics (L+E))
 
-([Systems on Chips](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html), NPU, CUDA, HPC, GPGPU, 26)
+(Systems on Chips, NPU, CUDA, HPC, GPGPU, 26)
 
 (VLSI 2: From Netlist to Complete System on Chip)
 
