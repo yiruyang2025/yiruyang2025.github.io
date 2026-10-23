@@ -60,7 +60,8 @@ images:
   - [How Multitasking Drains Your Brain](https://thereader.mitpress.mit.edu/how-multitasking-drains-your-brain/)
   - Rust everything - [blogs - Zurich](https://sakex.github.io/ml-perf/array_programming/intro.html)
   - Sentinel-2 Paint, [Caleb Robinson](https://geospatialml.com/)
-  - [Reflecting on My Failure to Build a Billion-Dollar Company](https://sahillavingia.com/reflecting), 2019 
+  - [Reflecting on My Failure to Build a Billion-Dollar Company](https://sahillavingia.com/reflecting), 2019
+  - [LLMs won't break symmetric crypto](https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto), 2026
   - time zone - CEST, Zurich, 🇨🇭
 
 
