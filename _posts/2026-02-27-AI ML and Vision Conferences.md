@@ -345,7 +345,7 @@ Complexity analysis
 
 <br>
 
-# What ICML Awards Tell Us: From Better Models to Better Questions
+## What ICML Awards Tell Us: From Better Models to Better Questions
 
 *A selective review of ICML award-winning research, 2016–2026*
 
@@ -563,7 +563,7 @@ The following is a **personal synthesis**, not an official ICML requirement or a
 
 ---
 
-## Further reading
+**Further reading**
 
 - [ICML 2018 official awards](https://icml.cc/Conferences/2018/Awards)
 - [ICML 2020 official awards](https://icml.cc/Conferences/2020/Awards)
@@ -573,7 +573,6 @@ The following is a **personal synthesis**, not an official ICML requirement or a
 - [ICML 2026 official awards](https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/)
 - [ICML 2027 Call for Papers](https://icml.cc/Conferences/2027/CallForPapers)
 - [Best Papers of Top Venues — curated GitHub list](https://github.com/SarahRastegar/Best-Papers-Top-Venues#ICML)
-
 
 
 
