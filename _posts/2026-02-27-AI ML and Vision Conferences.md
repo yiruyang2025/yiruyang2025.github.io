@@ -343,6 +343,241 @@ Complexity analysis
 - [2024 - Some Lessons from Adversarial Machine Learning](https://nicholas.carlini.com/), Alignment, Nicholas Carlini
 - [2020 - Are we done with ImageNet?](https://arxiv.org/abs/2006.07159), [Lukas Beyer](https://lucasb.eyer.be/)'s blog
 
+<br>
+
+# What ICML Awards Tell Us: From Better Models to Better Questions
+
+*A selective review of ICML award-winning research, 2016–2026*
+
+> **Scope.** This article highlights selected ICML award-winning papers and uses them to examine changes in machine learning research. It is not an exhaustive list of all awards, Oral presentations, or Spotlights. Award titles follow the terminology used by each year’s organizers where verified.
+>
+> **Last checked:** 25 November 2026.
+
+## A useful distinction: recognition today and impact over time
+
+A conference award and a Test of Time Award answer different questions.
+
+- **Best Paper / Outstanding Paper** recognizes work selected from a particular year’s conference.
+- **Test of Time** recognizes earlier work whose influence became clear over subsequent years.
+- **Oral / Spotlight** identifies papers selected for special presentation or distinction; it is not itself a best-paper award.
+
+Consider **Batch Normalization**. Published at ICML in 2015, it received the **2025 Test of Time Award**. In the same year, ICML recognized *Trust Region Policy Optimization* and *Variational Inference with Normalizing Flows* as Test of Time honorable mentions.
+
+The lesson is not that current awards are unimportant. It is that **immediate recognition and long-term influence are different outcomes**.
+
+Sources: [Batch Normalization](https://proceedings.mlr.press/v37/ioffe15.html) · [ICML 2025 award summary](https://aihub.org/2025/07/16/congratulations-to-the-icml2025-award-winners/)
+
+---
+
+## 2016–2020: From new architectures to questions of reliability
+
+This period includes influential advances in deep learning and a growing body of work asking whether models and evaluation methods behave as claimed.
+
+| Year | Selected paper and distinction | Central contribution |
+|---|---|---|
+| **2016** | *Dueling Network Architectures for Deep Reinforcement Learning* — Best Paper | Separates state value and action advantage when estimating Q-values, improving value-based reinforcement learning on the evaluated tasks. |
+| **2016** | *Pixel Recurrent Neural Networks* — Best Paper | Models image distributions autoregressively, showing how recurrent architectures can generate images one pixel at a time. |
+| **2016** | *Ensuring Rapid Mixing and Low Bias for Asynchronous Gibbs Sampling* — Best Paper | Studies conditions under which asynchronous Gibbs sampling remains efficient and incurs controlled bias. |
+| **2017** | *Understanding Black-box Predictions via Influence Functions* — Best Paper | Adapts influence functions to estimate how training examples affect a prediction, offering a tool for inspecting model behavior. |
+| **2018** | *Obfuscated Gradients Give a False Sense of Security* — Best Paper | Shows that several adversarial defenses can appear robust because their gradients are difficult to use, while adaptive attacks can circumvent them. |
+| **2018** | *Delayed Impact of Fair Machine Learning* — Best Paper | Demonstrates that the long-term effects of decisions can differ from what a static fairness criterion suggests. |
+| **2019** | *Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations* — Best Paper | Shows that unsupervised disentanglement is not identifiable without suitable inductive biases, and examines the assumptions behind empirical claims. |
+| **2020** | *On Learning Sets of Symmetric Elements* — Outstanding Paper | Studies neural architectures for sets whose elements themselves have symmetry. |
+| **2020** | *Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems* — Outstanding Paper | Develops a plug-and-play approach that reduces manual parameter tuning for inverse imaging. |
+
+**Why these papers matter together.** The 2018 robustness and fairness papers do more than propose a better model: they ask whether a commonly used evaluation supports the conclusion researchers want to draw. The 2019 disentanglement paper makes a related point mathematically: a desirable representation cannot generally be identified without assumptions.
+
+This does not mean ICML had stopped valuing new architectures. The selected papers illustrate **coexisting research priorities**, not a complete replacement of one theme by another.
+
+Sources: [ICML 2018 official awards](https://icml.cc/Conferences/2018/Awards) · [ETH Zurich on the 2019 award](https://ethz.ch/en/the-eth-zurich/portrait/latest-honours-and-prizes/2019/06/icml-best-paper-award-for-francesco-locatello.html) · [ICML 2020 official awards](https://icml.cc/Conferences/2020/Awards) · [Curated ICML awards list](https://github.com/SarahRastegar/Best-Papers-Top-Venues#ICML)
+
+---
+
+## 2021–2023: Optimization, assumptions, and scientific guarantees
+
+| Year | Selected paper and distinction | Central contribution |
+|---|---|---|
+| **2021** | *Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies* — Outstanding Paper | Proposes a gradient-estimation method for long unrolled computation graphs, relevant to settings such as hyperparameter optimization. |
+| **2022** | *Do Differentiable Simulators Give Better Policy Gradients?* — Outstanding Paper | Investigates when gradients through differentiable simulators help policy optimization and when they can be problematic. |
+| **2022** | *Causal Conceptions of Fairness and their Consequences* — Outstanding Paper | Clarifies how different causal assumptions lead to different fairness concepts and conclusions. |
+| **2022** | *G-Mixup: Graph Data Augmentation for Graph Classification* — Outstanding Paper | Uses graphons to construct a graph-specific form of Mixup for graph classification. |
+| **2022** | *Understanding Dataset Difficulty with V-Usable Information* — Outstanding Paper | Studies predictive information relative to a specified model family, offering a model-dependent view of dataset difficulty. |
+| **2022** | *Bayesian Model Selection, the Marginal Likelihood, and Generalization* — Outstanding Paper | Examines how marginal likelihood and generalization relate, including limitations of common interpretations. |
+| **2023** | *Learning-Rate-Free Learning by D-Adaptation* — Outstanding Paper | Addresses learning-rate selection for stochastic convex optimization and develops corresponding guarantees. |
+| **2023** | *A Watermark for Large Language Models* — Outstanding Paper | Introduces a way to embed and statistically detect a watermark in generated text without retraining the language model. |
+| **2023** | *Self-Repellent Random Walks on General Graphs* — Outstanding Paper | Studies random walks that discourage revisits and analyzes their sampling properties. |
+
+**A recurring pattern:** some contributions propose a new algorithm, while others clarify **when a method works, what its guarantees actually say, or which assumptions determine the answer**.
+
+For 2023, the official award committee said it considered clarity, insight, creativity, and the **potential for lasting impact**. That is a selection criterion—not proof that every winning paper will have equal long-term impact.
+
+Sources: [ICML 2023 official awards and selection process](https://icml.cc/Conferences/2023/Awards) · [ICML award collection](https://github.com/SarahRastegar/Best-Papers-Top-Venues#ICML) · [PES paper](https://proceedings.mlr.press/v139/vicol21a.html)
+
+---
+
+## 2024–2026: Generative models, evaluation, and social consequences
+
+### 2024: Generative models meet new questions about trust
+
+Selected ICML 2024 Best Paper recipients include:
+
+| Paper | Research question |
+|---|---|
+| *VideoPoet: A Large Language Model for Zero-Shot Video Generation* | Can an autoregressive model generate and transform video across multiple modalities? |
+| *Genie: Generative Interactive Environments* | Can a model learn interactive environments from video without action labels? |
+| *Scaling Rectified Flow Transformers for High-Resolution Image Synthesis* | Can rectified-flow transformers scale to high-resolution image generation? |
+| *Stealing Part of a Production Language Model* | What information about a production language model can be extracted through black-box access? |
+| *Position: Considerations for Differentially Private Learning with Large-Scale Public Pretraining* | What privacy claims are justified when public pretraining is combined with private learning? |
+
+These papers point to two simultaneous interests: **more capable generative systems** and **more careful scrutiny of what those systems expose, protect, or allow us to conclude**.
+
+Sources: [ICML 2024 awards listing](https://icml.cc/virtual/2024/awards_detail) · [ETH Zurich on the privacy Position Paper](https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2024/07/best-paper-awards-at-icml.html) · [University of British Columbia on Genie](https://www.cs.ubc.ca/award/2024/07/best-paper-award)
+
+### 2025: Collaboration, generation, and statistical foundations
+
+| Selected Outstanding Paper | Main idea |
+|---|---|
+| *CollabLLM: From Passive Responders to Active Collaborators* | Trains models to consider the longer-term quality of multi-turn collaboration. |
+| *Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions* | Studies the relationship between training and decoding order in masked diffusion models. |
+| *Score Matching with Missing Data* | Extends score-matching methodology to settings with missing observations. |
+| *Conformal Prediction as Bayesian Quadrature* | Connects conformal prediction with Bayesian quadrature. |
+| *Roll the Dice & Look Before You Leap* | Studies limitations of next-token prediction for creative generation. |
+| *The Value of Prediction in Identifying the Worst-Off* | Examines when prediction can help identify people who are worst off. |
+
+The two Outstanding Position Papers addressed the **future of work** and the **conference peer-review process**, respectively. Position Papers should be read as arguments about what the community should do, rather than as ordinary method papers.
+
+Sources: [ICML 2025 awards summary](https://aihub.org/2025/07/16/congratulations-to-the-icml2025-award-winners/) · [Curated ICML list](https://github.com/SarahRastegar/Best-Papers-Top-Venues#ICML)
+
+### 2026: Challenging assumptions and improving sampling theory
+
+| Paper | Official distinction | Main idea |
+|---|---|---|
+| [*The Flexibility Trap*](https://icml.cc/virtual/2026/oral/71086) | Outstanding Paper | Challenges an assumption about the value of arbitrary token generation order in diffusion language models. |
+| [*High-Accuracy Sampling for Diffusion Models and Log-Concave Distributions*](https://icml.cc/virtual/2026/oral/71132) | Outstanding Paper | Gives high-accuracy sampling results with polylogarithmic dependence on the target error under the paper’s assumptions. |
+| [*Position: The Alignment Community is Unintentionally Building a Censor’s Toolkit*](https://icml.cc/virtual/2026/oral/71119) | Outstanding Position Paper | Argues that alignment tools can also be repurposed for censorship. |
+| [*Motion Attribution for Video Generation*](https://icml.cc/virtual/2026/oral/71049) | Outstanding Paper Honorable Mention | Studies attribution of motion in video generation. |
+| [*To Grok Grokking: Provable Grokking in Ridge Regression*](https://icml.cc/virtual/2026/oral/71134) | Outstanding Paper Honorable Mention | Studies grokking in a theoretically analyzable ridge-regression setting. |
+
+The official 2026 announcement describes a selection process that considered potential longevity, interest beyond a narrow subcommunity, and topic diversity. Those are useful signals for understanding what the committee valued that year; they are **not a formula for predicting future awards**.
+
+Source: [ICML 2026 official award announcement](https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/)
+
+---
+
+## What can—and cannot—be inferred from Oral and Spotlight?
+
+Oral and Spotlight papers are useful starting points for reading, but their selection should not be confused with proof of lasting influence.
+
+Three cautions matter:
+
+1. **Award status and presentation status are different labels.** A paper may have one, both, or neither.
+2. **Terminology and counting conventions can vary by year.** Before adding Oral and Spotlight counts, check whether one is included in the other.
+3. **The most visible paper at a conference is not necessarily the most influential ten years later.**
+
+A practical reading strategy is therefore:
+
+- Start with the official **Best / Outstanding Paper** list.
+- Read later **Test of Time** selections to see which ideas proved durable.
+- Sample **Oral / Spotlight** papers by research question, not only by popularity.
+- Compare a paper’s claims with later replications, extensions, and limitations.
+
+---
+
+## Five research threads visible in the selected papers
+
+These are interpretations of the selected examples above, not a statistical analysis of every ICML paper.
+
+### 1. Strong results increasingly come with questions about their assumptions
+
+The 2018 adversarial-defense paper and the 2019 disentanglement paper ask different questions, but share a habit: identify an assumption, then test whether a widely accepted conclusion depends on it.
+
+### 2. Evaluation is itself a research contribution
+
+If a metric cannot distinguish success from failure, a better model alone will not fix the scientific problem. Robustness, fairness, representation learning, and generative-model evaluation all illustrate this point.
+
+### 3. Generative modeling has broadened from image generation to interaction and audit
+
+PixelRNN, Genie, language-model watermarking, and diffusion-language-model research address different capabilities. Read together, they show a growing range of questions: what can be generated, controlled, attributed, or detected?
+
+### 4. Theoretical and empirical papers remain complementary
+
+ICML continues to recognize sampling theory, optimization, and statistical learning alongside large-scale generative systems. There is no single required combination of theory and experiments; the evidence should match the claim.
+
+### 5. Social consequences are part of the research conversation
+
+Fairness, privacy, the future of work, and the possible misuse of alignment methods show how machine learning papers can also ask who is affected by a technology and how.
+
+---
+
+## What this suggests for ICML 2027 submissions
+
+ICML 2027 requires each submission to select **one primary Contribution Type**:
+
+| Contribution Type | Primary focus |
+|---|---|
+| **General** | A contribution naturally evaluated under standard ML research expectations. |
+| **Theory** | Mathematical results, analysis, proofs, or theoretical frameworks. |
+| **Application-driven** | A meaningful real-world use case that substantially shapes the research. |
+| **Concept and Feasibility** | A highly novel, potentially broad idea supported by convincing feasibility evidence. |
+| **Negative Results** | A rigorous, informative negative finding that changes understanding of an important question. |
+| **Datasets, Evaluations, and Benchmarks** | Resources, evaluation methods, metrics, audits, or data-centered analyses that advance scientific understanding. |
+| **Position papers** | A defensible argument about what the community should do. |
+
+These types **guide evaluation; they are not separate tracks or acceptance quotas**. A Theory paper may include experiments, and a Negative Results paper may propose a remedy. The selected type should reflect the paper’s primary contribution.
+
+For Theory, the official guidance states that a paper does not need to beat empirical state of the art merely to be significant. Reviewers may nevertheless request appropriately scoped evidence when needed to interpret or validate its claims.
+
+Source: [ICML 2027 Contribution Types](https://icml.cc/Conferences/2027/ContributionTypes)
+
+### Important dates
+
+According to the official schedule checked on **25 November 2026**:
+
+| Milestone | Date |
+|---|---|
+| Abstract submission deadline | **14 January 2027, 11:59 p.m. AoE** |
+| Full paper submission deadline | **22 January 2027, 11:59 p.m. AoE** |
+| First-stage rejection notification | **23 February 2027** |
+| Final decisions | **3 May 2027** |
+| Conference | **31 July–6 August 2027, Rio de Janeiro** |
+
+The main paper is limited to **eight pages**, with additional pages permitted for references, impact statement, and appendices under the call’s rules. Authors should recheck the official call and policy pages before submitting.
+
+Sources: [ICML 2027 dates](https://icml.cc/Conferences/2027/Dates) · [ICML 2027 Call for Papers](https://icml.cc/Conferences/2027/CallForPapers)
+
+---
+
+## A writing checklist inspired by these papers
+
+The following is a **personal synthesis**, not an official ICML requirement or a guaranteed route to an award.
+
+1. **State a concrete claim.** What does the reader learn that could turn out to be false?
+2. **Explain why the question matters.** Who would make a different research or practical decision if the claim is true?
+3. **Identify the missing assumption.** Under what conditions does an existing conclusion fail or hold?
+4. **Choose evidence that tests the central claim.** A decisive counterexample, a theorem, a controlled experiment, or a real-world evaluation may each be appropriate for different claims.
+5. **Compare against the strongest relevant alternatives.** Include simple baselines and disclose differences in data, prior knowledge, and compute.
+6. **Separate the result from its interpretation.** Report what was measured, what follows from it, and what remains unknown.
+7. **Make limitations useful.** Explain where the result stops applying and which future test would challenge it.
+
+> The most memorable research question is often not “Can we improve this score?” but “What does this score actually tell us?”
+
+---
+
+## Further reading
+
+- [ICML 2018 official awards](https://icml.cc/Conferences/2018/Awards)
+- [ICML 2020 official awards](https://icml.cc/Conferences/2020/Awards)
+- [ICML 2023 official awards](https://icml.cc/Conferences/2023/Awards)
+- [ICML 2024 awards listing](https://icml.cc/virtual/2024/awards_detail)
+- [ICML 2025 award summary](https://aihub.org/2025/07/16/congratulations-to-the-icml2025-award-winners/)
+- [ICML 2026 official awards](https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/)
+- [ICML 2027 Call for Papers](https://icml.cc/Conferences/2027/CallForPapers)
+- [Best Papers of Top Venues — curated GitHub list](https://github.com/SarahRastegar/Best-Papers-Top-Venues#ICML)
+
+
+
+
+
 <br><br><br><br><br><br><br><br><br><br>
 
 
